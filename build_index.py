@@ -1,9 +1,9 @@
-import re, collections, time, pickle
+import re, collections, time, pickle, sys
 
 # Globals
 MAX_EDIT = 3
-FILE = "big.txt"
-MODELFILE = "spellchecker.model"
+FILE = sys.argv[1]
+MODELFILE = sys.argv[2]
 
 
 def extract_words(text):
@@ -25,9 +25,13 @@ def edits(word,edit_dist):
 
 
 def train(words):
+    total = len(words)
+    print "Total no. of words: ", total
     index = collections.defaultdict(lambda: collections.defaultdict(lambda: MAX_EDIT+1)) # each word maps to a dict of suggestion:distance
     model = collections.defaultdict(lambda: 1) # count of each word seen in the corpus
-    for word in words:
+    for n, word in enumerate(words):
+        if not n%10000:
+            print n/float(total), "%"
         model[word] += 1
         if word not in index.keys():
             for w,d in edits(word,1).iteritems():
@@ -48,8 +52,8 @@ start_time = time.time()
 extracted = extract_words(file(FILE).read())
 spellchecker = train(extracted)
 print "Training time: ", time.time() - start_time
-start_time = time.time()
 print "Saving model to ", MODELFILE
+start_time = time.time()
 with open(MODELFILE, "wb") as f:
     pickle.dump(spellchecker, f)
 print "Model saving time: ", time.time() - start_time
