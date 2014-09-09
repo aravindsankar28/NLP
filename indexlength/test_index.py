@@ -36,61 +36,37 @@ def edit_distance(w1, w2):
 
     return previous_row[-1]
 
+def LD(s,t):
+    s = ' ' + s
+    t = ' ' + t
+    d = {}
+    op = {}
+    S = len(s)
+    T = len(t)
+    for i in range(S):
+        d[i, 0] = i
+        op[i,0] = 'D'
+    for j in range (T):
+        d[0, j] = j
+        op[0,j] = 'I'
 
-def truedistance(dictorig,ipdel,iporig):
-    if dictorig[0] == iporig:
-        return 0
-    elif dictorig[1] == 0:
-        return ipdel[1]
-    elif ipdel[1] == 0:
-        return dictorig[1]
-    else:
-        return edit_distance(dictorig[0], iporig)
+    for j in range(1,T):
+        for i in range(1,S):
+            if s[i] == t[j]:
+                d[i, j] = d[i-1, j-1]
+
+            elif i > 0  and j > 0 and s[i] == t[j - 1] and s[i - 1] == t[j]:
+            	d[i, j] = min(d[i-1, j] + 1, d[i, j-1] + 1, d[i-1, j-1] + 1,d[i-2,j-2]+1)
+            else:
+                d[i, j] = min(d[i-1, j] + 1, d[i, j-1] + 1, d[i-1, j-1] + 1)
+    return d[S-1, T-1]
+
 
 
 print "Loading model ..."
 start_time = time.time()
 with open(MODELFILE, "rb") as f:
     spellchecker = pickle.load(f)
+
 print "Loading time: ", time.time() - start_time
 
-while True:
-    candidates = OrderedDict()
-    suggestions = []
-
-    word = raw_input('Enter word :')
-
-    start_time = time.time()
-    candidates[word] = 0
-    while candidates:
-        k,v = candidates.popitem()
-        candidate = (k,v)
-        if candidate[0] in spellchecker[0]:
-            if candidate[0] in spellchecker[1]:
-                suggestions.append((candidate[0],spellchecker[1][candidate[0]],candidate[1]))
-            for suggestion, dist in spellchecker[0][candidate[0]].iteritems():
-                distance = truedistance((suggestion, dist), candidate, word)
-                if distance <= MAX_EDIT:
-                    if suggestion in spellchecker[0]:
-                        if suggestion in spellchecker[1]:
-                            suggestions.append((suggestion, spellchecker[1][suggestion],distance))
-                        else:
-                            suggestions.append((suggestion, 0, distance))
-
-        if candidate[1] < MAX_EDIT:
-            for e,d in edits(candidate[0], candidate[1]).iteritems():
-                if e not in candidates:
-                    candidates[e] = d
-    #suggestions = list(set(suggestions))
-# Sort by p(c) - to resolve ties
-    suggestions.sort(key=lambda x: x[1], reverse=True)
-# Sort by edit distance
-    suggestions.sort(key=lambda x: x[2])
-#correction = max(candidates, key=spellchecker[1].get)
-    correction = suggestions[0]
-    print "Query time: ", time.time() - start_time
-
-    #for s in suggestions:
-        #print s,
-    print "Total: ", len(set(suggestions)), "candidates"
-    print "Correction:", correction
