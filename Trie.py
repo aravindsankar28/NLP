@@ -4,7 +4,8 @@
 import time
 import sys
 
-DICTIONARY = "/usr/share/dict/words";
+#DICTIONARY = "/usr/share/dict/words";
+DICTIONARY = "indexlength/Unix-Dict-new.txt"
 TARGET = sys.argv[1]
 MAX_COST = int(sys.argv[2])
 
@@ -94,5 +95,6 @@ start = time.time()
 results = search( TARGET, MAX_COST )
 end = time.time()
 
-for result in results: print result        
+for result in results: print result  
+print len(results)      
 print "Search took %g s" % (end - start)
