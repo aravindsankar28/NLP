@@ -2,7 +2,7 @@ import time, pickle
 from collections import OrderedDict
 
 # Globals
-MODELFILE = "spellchecker.model"
+MODELFILE = "spell.model"
 MAX_EDIT = 3
 
 
@@ -17,8 +17,8 @@ def edits(word,edit_dist):
 
 
 def edit_distance(w1, w2):
-    if len(w1) < len(w2):
-        return edit_distance(w2, w1)
+    #if len(w1) < len(w2):
+    #    return edit_distance(w2, w1)
  
     # len(w1) >= len(w2)
     if len(w2) == 0:
@@ -69,4 +69,16 @@ with open(MODELFILE, "rb") as f:
     spellchecker = pickle.load(f)
 
 print "Loading time: ", time.time() - start_time
+print spellchecker[1].keys()
+#w = raw_input('Enter word :')
+# length = len(w)
+# count = 0
+# l1 = []
 
+# for l in range(length-3,length+4):
+# 	if l in spellchecker[1]:
+# 		l1.extend(spellchecker[1][l])
+
+# print len(l1)
+
+print edit_distance('abc','abcdef')
