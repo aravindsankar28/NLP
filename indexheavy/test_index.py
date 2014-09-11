@@ -81,12 +81,16 @@ while True:
             for e,d in edits(candidate[0], candidate[1]).iteritems():
                 if e not in candidates:
                     candidates[e] = d
-    #suggestions = list(set(suggestions))
+    suggestions = list(set(suggestions))
 # Sort by p(c) - to resolve ties
     suggestions.sort(key=lambda x: x[1], reverse=True)
 # Sort by edit distance
     suggestions.sort(key=lambda x: x[2])
 #correction = max(candidates, key=spellchecker[1].get)
+    for i, s in enumerate(suggestions):
+        print s
+        if i==10:
+            break
     correction = suggestions[0]
     print "Query time: ", time.time() - start_time
 
