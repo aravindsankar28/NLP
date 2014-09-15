@@ -72,18 +72,24 @@ def build_index_on_dictionary(dictionary):
 def calcptc(p, matrices, word, target):
     #print p[1], 
     if p[0]=='i':
-        #print p[0], word[p[1]-1],target[p[1]]
-        return matrices[0][ord(word[p[1]-1])-97][ord(target[p[1]])-97]/sum(matrices[3][ord(word[p[1]-1])-97])
+        #print p[0], word[p[1]],target[p[1]+1]
+        if p[1] >=0:
+            return matrices[0][ord(word[p[1]])-97][ord(target[p[1]+1])-97]/sum(matrices[3][ord(word[p[1]])-97])
+        else:
+            return matrices[0][26][ord(target[p[1]+1])-97]/sum(matrices[3][25]) #TODO: fix this (matrices[3][@]?)
     elif p[0]=='s':
         #print p[0], target[p[1]], word[p[1]]
         return matrices[1][ord(target[p[1]])-97][ord(word[p[1]])-97]/sum(matrices[3][ord(word[p[1]])-97])
     elif p[0]=='d':
         #print p[0], word[p[1]-1], word[p[1]]
-        return matrices[2][ord(word[p[1]-1])-97][ord(word[p[1]])-97]/matrices[3][ord(word[p[1]-1])-97][ord(word[p[1]])-97]
+        if p[1]-1 >=0:
+            return matrices[2][ord(word[p[1]-1])-97][ord(word[p[1]])-97]/matrices[3][ord(word[p[1]-1])-97][ord(word[p[1]])-97]
+        else:
+            return matrices[2][26][ord(word[p[1]])-97]/matrices[3][25][ord(word[p[1]])-97] #TODO: fix this (matrices[3][@]?)
     return -1 # shouldn't reach here; if scores are negative, it's because of this.
 
 
-def ptc(matrices, w1, w2): #TODO: Perform L to R conditional mult instead of R to L
+def ptc(matrices, w1, w2):
     res = edit_distance(w1, w2)
     probsum = 0.0
     if res[1]<=MAX_EDIT:
@@ -119,7 +125,6 @@ def ptc(matrices, w1, w2): #TODO: Perform L to R conditional mult instead of R t
                 tar_word = list(cor_word) #clone the word
 
                 if elem=='i' or elem=='d' or w1[i]!=w2[j]:
-                    #print newi, newj, calcptc([elem,j], matrices, w1, w2)
                     if elem=='s':
                         tar_word[i] = w2[j]
                     elif elem=='i':
@@ -128,10 +133,10 @@ def ptc(matrices, w1, w2): #TODO: Perform L to R conditional mult instead of R t
                         del tar_word[i]
 
                     # add 1 to newi and newj because we added in a -1 row and a -1 col
-                    #print newi, newj, ''.join(tar_word), ''.join(cor_word)#, pathno
-                    stack.append([l[newi+1][newj+1], a[1]*calcptc([elem,j], matrices, cor_word, tar_word), tar_word])
+                    print i, j, newi, newj, ''.join(tar_word), ''.join(cor_word)#, pathno
+                    stack.append([l[newi+1][newj+1], a[1]*calcptc([elem,i], matrices, cor_word, tar_word), tar_word])
                 else:
-                    #print newi, newj, ''.join(tar_word), ''.join(cor_word)#, pathno
+                    #print i, j, newi, newj, ''.join(tar_word), ''.join(cor_word)#, pathno
                     stack.append([l[newi+1][newj+1], a[1], tar_word]) # no error
         
     return (probsum, res[1])
@@ -170,7 +175,7 @@ for f in files:
         matrix.append([float(x) for x in lines.split()])
     matrices.append(matrix)
 print "Loading time: ", time.time() - start_time
-print ptc(matrices, "c", "cert")
+print ptc(matrices, "t", "cert")
 
 #while True:
 #    candidates = []
@@ -184,8 +189,8 @@ print ptc(matrices, "c", "cert")
 #    for c in candidates:
 #        result = ptc(matrices, c, word)
 #        pcval = 0.0
-#        if c.lower() in spellchecker[0]:
-#            pcval = spellchecker[0][c.lower()]
+#        if c in spellchecker[0]:
+#            pcval = spellchecker[0][c]
 #        suggestions.append((c, result[0]*pcval, result[1]))
 ## Sort by p(c) - to resolve ties
 #    suggestions.sort(key=lambda x: x[1], reverse=True)
