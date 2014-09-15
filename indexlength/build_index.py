@@ -15,31 +15,20 @@ def extract_words(text):
 Returns levenshtein edit distance between words w1 and w2
 '''
 def edit_distance(w1, w2):
-    l = []
-    #if len(w1) < len(w2):
-    #    result=edit_distance(w2, w1)
-    #    for t in result[0]:
-    #        if t[0]=='d':
-    #            t[0]='i'
-    #            t[2] += 1
-    #        elif t[0]=='i':
-    #            t[0]='d'
-    #            t[2] -= 1
-    #    return result
-    ## len(w1) >= len(w2)
-    if len(w2) == 0:
-        return (['i' for i in range(len(w1))], len(w1))
+
+    l = [[[[],-1,-1]]]
+    l[0].extend([[['i'],-1,j] for j in range(len(w2))])
 
     previous_row = range(len(w2) + 1)
     for i, c1 in enumerate(w1):
-        temp = []
+        temp = [[['d'],i,-1]]
         current_row = [i + 1]
         for j, c2 in enumerate(w2): # At j ,compute for j+1
             deletions = previous_row[j + 1] + 1 # E(i,j+1) = E(i-1,j+1) +1
             insertions = current_row[j] + 1      # E(i,j+1) = E(i,j)+1
             substitutions = previous_row[j] + (c1 != c2)
 
-            minval = 4
+            minval = MAX_EDIT+1
             minlist = []
             for val in [(deletions, 'd'), (insertions, 'i'), (substitutions, 's')]:
                 if val[0]<minval:
@@ -48,12 +37,14 @@ def edit_distance(w1, w2):
                 elif val[0]==minval:
                     minlist.append(val[1])
 
+            #temp.append([minlist,i,j,minval])
             temp.append([minlist,i,j])
             current_row.append(minval)
         l.append(temp)
         previous_row = current_row
 
     return (l, previous_row[-1])
+
 
 def train(words):
     total = len(words)
@@ -79,37 +70,38 @@ def build_index_on_dictionary(dictionary):
     return final
 
 def calcptc(p, matrices, word, target):
-    print p[1], 
+    #print p[1], 
     if p[0]=='i':
-        print p[0], word[p[1]-1],target[p[1]],
+        #print p[0], word[p[1]-1],target[p[1]]
         return matrices[0][ord(word[p[1]-1])-97][ord(target[p[1]])-97]/sum(matrices[3][ord(word[p[1]-1])-97])
     elif p[0]=='s':
-        print p[0], target[p[1]], word[p[1]], 
+        #print p[0], target[p[1]], word[p[1]]
         return matrices[1][ord(target[p[1]])-97][ord(word[p[1]])-97]/sum(matrices[3][ord(word[p[1]])-97])
     elif p[0]=='d':
-        print p[0], word[p[1]-1], word[p[1]],
+        #print p[0], word[p[1]-1], word[p[1]]
         return matrices[2][ord(word[p[1]-1])-97][ord(word[p[1]])-97]/matrices[3][ord(word[p[1]-1])-97][ord(word[p[1]])-97]
     return -1 # shouldn't reach here; if scores are negative, it's because of this.
 
 
-def ptc(matrices, w1, w2):
+def ptc(matrices, w1, w2): #TODO: Perform L to R conditional mult instead of R to L
     res = edit_distance(w1, w2)
     probsum = 0.0
-    if res[1]<4:
+    if res[1]<=MAX_EDIT:
         l = res[0]
-        print w1, w2
-        for r in l:
-            print r
-        print "---"
-        stack = [[l[-1][-1], 1]]
+        #print w1, w2
+        #for r in l:
+        #    print r
+        #print "---"
+        stack = [[l[-1][-1], 1, list(w1)]]
+        #pathno = 1
         while stack:
             a = stack.pop()
             i = a[0][1]
             j = a[0][2]
-            if i==0 and j==0: # end of path, add prob to total
-                if w1[0]!=w2[0]:
-                    a[1] *= calcptc(['s', 0], matrices, w1, w2) #TODO: Pass updated words instead of w1 and w2
+            if i==-1 and j==-1: # end of path, add prob to total
                 probsum += a[1]
+                #pathno += 1
+            #print a[0][0]
             for elem in a[0][0]:
                 newi = i 
                 newj = j 
@@ -120,16 +112,27 @@ def ptc(matrices, w1, w2):
                     newj -= 1
                 elif elem == 'd':
                     newi -= 1
-                if newi>=0 and newj>=0:
-                    print i, j, w1, w2, elem
-                    if elem=='s':
-                        print w1[i], w2[j]
+                #print "new", newi, newj, l[newi+1][newj+1]
 
-                    if elem=='i' or elem=='d' or w1[i]!=w2[j]:
-                        #print newi, newj, calcptc([elem,j], matrices, w1, w2)
-                        stack.append([l[newi][newj], a[1]*calcptc([elem,j], matrices, w1, w2)]) #TODO: Pass updated words instead of w1 and w2
-                    else:
-                        stack.append([l[newi][newj], a[1]]) # no error
+                #print i, j, w1, w2, elem
+                cor_word = a[2] #new correct is the old target. New target is derived from new correct.
+                tar_word = list(cor_word) #clone the word
+
+                if elem=='i' or elem=='d' or w1[i]!=w2[j]:
+                    #print newi, newj, calcptc([elem,j], matrices, w1, w2)
+                    if elem=='s':
+                        tar_word[i] = w2[j]
+                    elif elem=='i':
+                        tar_word.insert(i+1, w2[j])
+                    elif elem=='d':
+                        del tar_word[i]
+
+                    # add 1 to newi and newj because we added in a -1 row and a -1 col
+                    #print newi, newj, ''.join(tar_word), ''.join(cor_word)#, pathno
+                    stack.append([l[newi+1][newj+1], a[1]*calcptc([elem,j], matrices, cor_word, tar_word), tar_word])
+                else:
+                    #print newi, newj, ''.join(tar_word), ''.join(cor_word)#, pathno
+                    stack.append([l[newi+1][newj+1], a[1], tar_word]) # no error
         
     return (probsum, res[1])
 
@@ -167,33 +170,33 @@ for f in files:
         matrix.append([float(x) for x in lines.split()])
     matrices.append(matrix)
 print "Loading time: ", time.time() - start_time
+print ptc(matrices, "c", "cert")
 
-while True:
-    candidates = []
-    suggestions = []
-
-    word = raw_input('Enter word :')
-
-    start_time = time.time()
-    for i in range(len(word)-3, len(word)+4):
-    #for i in range(len(word)-3, len(word)+4): #TODO: fix edit_dist for len(correct)<len(target)
-        candidates.extend(spellchecker[1][i])
-    for c in candidates:
-        result = ptc(matrices, c.lower(), word)
-        pcval = 0.0
-        if c.lower() in spellchecker[0]:
-            pcval = spellchecker[0][c.lower()]
-        suggestions.append((c, result[0]*pcval, result[1]))
-# Sort by p(c) - to resolve ties
-    suggestions.sort(key=lambda x: x[1], reverse=True)
-# Sort by edit distance
-    suggestions.sort(key=lambda x: x[2])
-    for i, s in enumerate(suggestions):
-        print s
-        if i==10:
-            break
-    correction = suggestions[0]
-    print "Query time: ", time.time() - start_time
-
-    print "Total: ", len(suggestions), "candidates"
-    print "Correction:", correction
+#while True:
+#    candidates = []
+#    suggestions = []
+#
+#    word = raw_input('Enter word :')
+#
+#    start_time = time.time()
+#    for i in range(len(word)-MAX_EDIT, len(word)+MAX_EDIT+1):
+#        candidates.extend(spellchecker[1][i])
+#    for c in candidates:
+#        result = ptc(matrices, c, word)
+#        pcval = 0.0
+#        if c.lower() in spellchecker[0]:
+#            pcval = spellchecker[0][c.lower()]
+#        suggestions.append((c, result[0]*pcval, result[1]))
+## Sort by p(c) - to resolve ties
+#    suggestions.sort(key=lambda x: x[1], reverse=True)
+## Sort by edit distance
+#    suggestions.sort(key=lambda x: x[2])
+#    for i, s in enumerate(suggestions):
+#        print s
+#        if i==10:
+#            break
+#    correction = suggestions[0]
+#    print "Query time: ", time.time() - start_time
+#
+#    print "Total: ", len(suggestions), "candidates"
+#    print "Correction:", correction
