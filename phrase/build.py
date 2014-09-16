@@ -1,9 +1,11 @@
+# Slightly modified version of ngrams/Spell_Checker.py
+
 from sets import Set
 import time
-MAX_EDIT = 1
+MAX_EDIT = 3
 NGRAM_N = 3
 LEN_PRUNE = 3
-# Keep some interesting statistics
+
 NodeCount = 0
 WordCount = 0
 
@@ -39,6 +41,18 @@ def search( word, maxCost ):
 
     return results
 
+def search1( word, maxCost ):
+
+    # build first row
+    currentRow = range( len(word) + 1 )
+    results = []
+    # recursively search each branch of the trie
+    for letter in trie1.children:
+        searchRecursive( trie1.children[letter], letter, word, currentRow, 
+            results, maxCost )
+
+    return results
+
 # This recursive helper is used by the search function above. It assumes that
 # the previousRow has been filled in already. - Trie code
 def searchRecursive( node, letter, word, previousRow, results, maxCost ):
@@ -46,7 +60,6 @@ def searchRecursive( node, letter, word, previousRow, results, maxCost ):
     columns = len( word ) + 1
     currentRow = [ previousRow[0] + 1 ]
 
-    print (letter,word,previousRow,currentRow,results,maxCost)
     # Build one row for the letter, with a column for each letter in the target
     # word, plus one for the empty string at column 0
     for column in xrange( 1, columns ):
@@ -64,8 +77,6 @@ def searchRecursive( node, letter, word, previousRow, results, maxCost ):
     # if the last entry in the row indicates the optimal cost is less than the
     # maximum cost, and there is a word in this trie node, then add it.
     if currentRow[-1] <= maxCost and node.word != None:
-        #print currentRow
-        #print  (node.word, currentRow[-1] )
         results.append( (node.word, currentRow[-1] ) )
 
     # if any entries in the row are less than the maximum cost, then 
@@ -170,73 +181,59 @@ def brute_force_candidates_edit_distance(word,candidates):
             candidates_selected.append(w)
     return candidates_selected
 
-words = []
-ngram_words = {}
 prior_frequencies = {}
-total_frequencies = 0
 
-# Reading dictionary
-with open('../indexlength/Unix-Dict-new.txt') as f:
-    for line in f.read().splitlines():
-        word = line.split('\t')[0]
-        words.append(word)
-        prior_frequencies[word] = 0
+def buildDict():
+    words = []
+    ngram_words = {}
+    
+    total_frequencies = 0
+    
+    # Reading dictionary
+    with open('../indexlength/Unix-Dict-new.txt') as f:
+        for line in f.read().splitlines():
+            word = line.split('\t')[0]
+            words.append(word)
+            trie.insert(word)
+            prior_frequencies[word] = 0
 
-# Reading priors        
-with open('../ngrams/count_1w.txt') as f:
-    for line in f.read().splitlines():
-        word = line.split('\t')[0]
-        freq = line.split('\t')[1]
-        if word in prior_frequencies:
-            prior_frequencies[word] = int(freq)
-            total_frequencies += int(freq)
+    
+    # Reading priors        
+    with open('../ngrams/count_1w.txt') as f:
+        for line in f.read().splitlines():
+            word = line.split('\t')[0]
+            freq = line.split('\t')[1]
+            if word in prior_frequencies:
+                prior_frequencies[word] = int(freq)
+                total_frequencies += int(freq)
 
-# Divide by total frequency to get probability
-for word in prior_frequencies:
-    prior_frequencies[word] = prior_frequencies[word]/float(total_frequencies)
+    # Divide by total frequency to get probability
+    for word in prior_frequencies:
+        prior_frequencies[word] = prior_frequencies[word]/float(total_frequencies)
 
-ngram_words =  ngram_index_structure(words,NGRAM_N)
-# Write to a file
-# f = open('trigram_index.txt','w')
-# for ngram in ngram_words:
-#     f.write(ngram)
-#     for word in ngram_words[ngram]:
-#         f.write('\t'+word)
-#     f.write('\n')
-# f.close()
+    ngram_words =  ngram_index_structure(words,NGRAM_N)
 
-start = time.time()
-with open('../TrainData/words.tsv') as f:
-    lines = f.read().splitlines()
-    for line in lines:
-        misspelt_word = line.split('\t')[0]
-        #misspelt_word = raw_input('Enter word :')
-        candidate_selections = []
-        candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
+    return ngram_words
+trie = TrieNode()
+trie1 = TrieNode()
 
-        #print len(candidate_selections)
-        # read dictionary file into a trie
-        trie = TrieNode()
+def get_cands(candidate_selections,misspelt_word):
+    
         #WordCount = 0
         #NodeCount = 0
-        for word in candidate_selections:
-            #WordCount +=1
-            trie.insert(word)
-        #print "Read %d words into %d nodes" % (WordCount, NodeCount)
+    for word in candidate_selections:
+        #WordCount +=1
+        trie1.insert(word)
+    #print "Read %d words into %d nodes" % (WordCount, NodeCount)
 
-        results = search(misspelt_word, MAX_EDIT)      
-        break
-        #print results
-        results_pruned = []
-        for result in results:
-            if not(prior_frequencies[result[0]] == 0.0 and result[1] >2):
-                results_pruned.append(result)
+    results = search1(misspelt_word, MAX_EDIT)      
+    results_pruned = []
+    for result in results:
+        if len(result[0]) <2:
+            continue
+        if not(prior_frequencies[result[0]] == 0.0 and result[1] >2) :
+            results_pruned.append(result)
 
-        #TODO - Add P(t|c) here
-        print len(results_pruned)
-        
-end = time.time()
-print "time = "+str(end- start) 
-#print len(candidate_selections)
-# TODO : Prune candidate_selections to get words with edit distance less than 3
-# TODO : Get confusion matrices (hard code or not ?) and estimate likelihood scores. 
+    #TODO - Add P(t|c) here
+    print len(results_pruned)
+    return results_pruned
