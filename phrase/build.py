@@ -2,8 +2,8 @@
 
 from sets import Set
 import time
-MAX_EDIT = 3
-NGRAM_N = 3
+MAX_EDIT = 2
+NGRAM_N = 2
 LEN_PRUNE = 3
 
 NodeCount = 0
@@ -235,5 +235,5 @@ def get_cands(candidate_selections,misspelt_word):
             results_pruned.append(result)
 
     #TODO - Add P(t|c) here
-    print len(results_pruned)
+    #print len(results_pruned)
     return results_pruned
