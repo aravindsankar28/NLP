@@ -20,6 +20,7 @@ def edit_distance(w1, w2):
     l[0].extend([[['i'],-1,j] for j in range(len(w2))])
 
     previous_row = range(len(w2) + 1)
+    twoago = None
     for i, c1 in enumerate(w1):
         temp = [[['d'],i,-1]]
         current_row = [i + 1]
@@ -37,10 +38,20 @@ def edit_distance(w1, w2):
                 elif val[0]==minval:
                     minlist.append(val[1])
 
-            #temp.append([minlist,i,j,minval])
-            temp.append([minlist,i,j])
+            # This block deals with transpositions
+            if (i and j and w1[i] == w2[j - 1] and w1[i-1] == w2[j]):
+                transpositions = twoago[j - 1] + (c1 != c2)
+                if transpositions<minval:
+                    minval = transpositions
+                    minlist = ['t']
+                elif transpositions==minval:
+                    minlist.append('t')
+
+            temp.append([minlist,i,j,minval])
+            #temp.append([minlist,i,j])
             current_row.append(minval)
         l.append(temp)
+        twoago = previous_row
         previous_row = current_row
 
     return (l, previous_row[-1])
@@ -76,16 +87,19 @@ def calcptc(p, matrices, word, target):
         if p[1] >=0:
             return matrices[0][ord(word[p[1]])-97][ord(target[p[1]+1])-97]/sum(matrices[3][ord(word[p[1]])-97])
         else:
-            return matrices[0][26][ord(target[p[1]+1])-97]/sum(matrices[3][25]) #TODO: fix this (matrices[3][@]?)
+            return matrices[0][26][ord(target[p[1]+1])-97]/sum(matrices[3][26])
     elif p[0]=='s':
         #print p[0], target[p[1]], word[p[1]]
         return matrices[1][ord(target[p[1]])-97][ord(word[p[1]])-97]/sum(matrices[3][ord(word[p[1]])-97])
+    elif p[0]=='t':
+        #print p[0], word[p[1]-1], word[p[1]]
+        return matrices[4][ord(word[p[1]-1])-97][ord(word[p[1]])-97]/matrices[3][ord(word[p[1]-1])-97][ord(word[p[1]])-97]
     elif p[0]=='d':
         #print p[0], word[p[1]-1], word[p[1]]
         if p[1]-1 >=0:
             return matrices[2][ord(word[p[1]-1])-97][ord(word[p[1]])-97]/matrices[3][ord(word[p[1]-1])-97][ord(word[p[1]])-97]
         else:
-            return matrices[2][26][ord(word[p[1]])-97]/matrices[3][25][ord(word[p[1]])-97] #TODO: fix this (matrices[3][@]?)
+            return matrices[2][26][ord(word[p[1]])-97]/matrices[3][26][ord(word[p[1]])-97]
     return -1 # shouldn't reach here; if scores are negative, it's because of this.
 
 
@@ -114,6 +128,9 @@ def ptc(matrices, w1, w2):
                 if elem == 's':
                     newi -= 1
                     newj -= 1
+                elif elem == 't':
+                    newi -= 2
+                    newj -= 2
                 elif elem == 'i':
                     newj -= 1
                 elif elem == 'd':
@@ -127,13 +144,15 @@ def ptc(matrices, w1, w2):
                 if elem=='i' or elem=='d' or w1[i]!=w2[j]:
                     if elem=='s':
                         tar_word[i] = w2[j]
+                    elif elem=='t': # for i=0 and j=0, it won't enter here because list will have 's' only.
+                        tar_word[i-1], tar_word[i] = tar_word[i], tar_word[i-1]
                     elif elem=='i':
                         tar_word.insert(i+1, w2[j])
                     elif elem=='d':
                         del tar_word[i]
 
                     # add 1 to newi and newj because we added in a -1 row and a -1 col
-                    print i, j, newi, newj, ''.join(tar_word), ''.join(cor_word)#, pathno
+                    #print i, j, newi, newj, ''.join(tar_word), ''.join(cor_word)#, pathno
                     stack.append([l[newi+1][newj+1], a[1]*calcptc([elem,i], matrices, cor_word, tar_word), tar_word])
                 else:
                     #print i, j, newi, newj, ''.join(tar_word), ''.join(cor_word)#, pathno
@@ -168,7 +187,7 @@ print "Loading time: ", time.time() - start_time
 matrices = []
 print "Loading confusion matrices ..."
 start_time = time.time()
-files = ['AddXY.txt', 'SubXY.txt', 'DelXY.txt', 'newCharsXY.txt']
+files = ['AddXY.txt', 'SubXY.txt', 'DelXY.txt', 'newCharsXY.txt', 'RevXY.txt']
 for f in files:
     matrix = []
     for lines in file(f).readlines():
@@ -176,6 +195,7 @@ for f in files:
     matrices.append(matrix)
 print "Loading time: ", time.time() - start_time
 print ptc(matrices, "t", "cert")
+print ptc(matrices, "smith", "sptih")
 
 #while True:
 #    candidates = []
