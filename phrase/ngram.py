@@ -1,9 +1,22 @@
 import re,build,math
 
-MIN_TRIGRAM_PROB = math.pow(10,(-6))
+MIN_TRIGRAM_PROB = math.pow(10,(-7))
 MIN_UNIGRAM_PROB = math.pow(10,(-8))
+
 def ngrams(array, n):
     return [array[i:i+n] for i in range(1+len(array)-n)]
+
+def all_grams(array,word_pos):
+	l = []
+
+	for i in range(2,6):
+		for j in range(word_pos-i+1,word_pos+1):
+			
+			if j>=0 and j+i <= len(array):
+				l.append(array[j:j+i])
+
+	#print l
+	return l
 
 def extract_words(text):
     return re.findall('[a-z]+', text.lower()) 
@@ -78,11 +91,25 @@ def find_prob_of_sentence(sentence,trigram_prob_index,unigram_prob_index):
 
 	return p
 
+def find_prob_sentence_all_grams(sentence,word_pos,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
+	count = 0
+	ngrams_sentence = all_grams(sentence,word_pos)
+	for ngram in ngrams_sentence:
+		if len(ngram) ==5 and tuple(ngram) in fivegram_count_index:
+			count += math.log(fivegram_count_index[tuple(ngram)] *1)
+		elif len(ngram) ==4 and tuple(ngram) in quadgram_count_index:
+			count += math.log(quadgram_count_index[tuple(ngram)] *1)
+		elif len(ngram) ==3 and tuple(ngram) in trigram_count_index:
+			count += math.log(trigram_count_index[tuple(ngram)] *1)
+		elif len(ngram) ==2 and tuple(ngram) in bigram_count_index:
+			count += math.log(bigram_count_index[tuple(ngram)] *1)
+	#print count
+	return count
 
-def run_test_data(trigram_prob_index,unigram_prob_index):
+def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
 
 	ngram_words = build.buildDict() # Get the index structure build from word checker
-	with open('../TrainData/phrases.tsv') as f:
+	with open('../TrainData/sentences.tsv') as f:
 		lines = f.read().splitlines()
 		for line in lines:
 			phrase = line.split('  ')[0]
@@ -102,12 +129,11 @@ def run_test_data(trigram_prob_index,unigram_prob_index):
 						sentence  = list(words)
 						sentence[pos] = confused_word
 						#print sentence
-						score = find_prob_of_sentence(sentence,trigram_prob_index,unigram_prob_index)
-						if score > max_score:
-							max_score = score
+						#score1 = find_prob_of_sentence(sentence,trigram_prob_index,unigram_prob_index)
+						score1 = find_prob_sentence_all_grams(sentence,pos,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+						if score1 > max_score:
+							max_score = score1
 							max_sentence = sentence
-						if confused_word == 'earth':
-							print score
 						
 					print max_sentence,max_score					
 				pos +=1
@@ -131,13 +157,17 @@ def read_unigram_counts():
 				
 #run_test_data()
 
+#print len(all_grams(extract_words("to decide among the two confusable words"),5))
 (unigram_prob_index,unigram_count_index) =read_unigram_counts()
 
 bigram_count_index = read_ngram_counts(2)
 trigram_count_index = read_ngram_counts(3)
+quadgram_count_index = read_ngram_counts(4)
+
+fivegram_count_index = read_ngram_counts(5)
 
 trigram_prob_index = estimate_ngram_probabilities(trigram_count_index,bigram_count_index,3)
 
 #bigram_prob_index = estimate_ngram_probabilities(bigram_count_index,unigram_count_index,2)
 #print bigram_prob_index
-run_test_data(trigram_prob_index,unigram_prob_index)
+run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
