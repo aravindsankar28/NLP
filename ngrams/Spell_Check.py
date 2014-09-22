@@ -1,6 +1,6 @@
 from sets import Set
-import time
-MAX_EDIT = 1
+import time, re
+MAX_EDIT = 3
 NGRAM_N = 3
 LEN_PRUNE = 3
 # Keep some interesting statistics
@@ -276,20 +276,26 @@ prior_frequencies = {}
 total_frequencies = 0
 
 # Reading dictionary
-with open('../indexlength/Unix-Dict-new.txt') as f:
+with open('unixdict.txt') as f:
     for line in f.read().splitlines():
         word = line.split('\t')[0]
         words.append(word)
-        prior_frequencies[word] = 0
+        prior_frequencies[word] = 1 # Doing add one
 
 # Reading priors        
-with open('../ngrams/count_1w.txt') as f:
-    for line in f.read().splitlines():
-        word = line.split('\t')[0]
-        freq = line.split('\t')[1]
-        if word in prior_frequencies:
-            prior_frequencies[word] = int(freq)
-            total_frequencies += int(freq)
+#with open('count_1w.txt') as f:
+#    for line in f.read().splitlines():
+#        word = line.split('\t')[0]
+#        freq = line.split('\t')[1]
+#        if word in prior_frequencies:
+#            prior_frequencies[word] = int(freq)
+#            total_frequencies += int(freq)
+
+extracted = re.findall('[a-z]+', file("big.txt").read().lower()) # reads from big.txt
+for word in extracted:
+    if word in prior_frequencies:
+        prior_frequencies[word] += 1
+        total_frequencies += 1
 
 # Divide by total frequency to get probability
 for word in prior_frequencies:
@@ -307,7 +313,7 @@ ngram_words =  ngram_index_structure(words,NGRAM_N)
 
 # Load matrices
 matrices = []
-files = ['../indexlength/AddXY.txt', '../indexlength/SubXY.txt', '../indexlength/DelXY.txt', '../indexlength/newCharsXY.txt', '../indexlength/RevXY.txt']
+files = ['addoneAddXY.txt', 'addoneSubXY.txt', 'addoneDelXY.txt', 'newCharsXY.txt', 'addoneRevXY.txt']
 for f in files:
     matrix = []
     for lines in file(f).readlines():
@@ -343,7 +349,6 @@ with open('../TrainData/words.tsv') as f:
             if not(prior_frequencies[result[0]] == 0.0 and result[1] >2):
                 results_pruned.append(result)
 
-        #TODO - Add P(t|c) here
         print len(results_pruned)
         
 end = time.time()
