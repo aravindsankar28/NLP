@@ -1,7 +1,7 @@
 import re,sys
 
 sys.path.insert(0, '../ngrams')
-import build
+import build,ngram
 
 CONTEXT_WINDOW = 10
 def extract_words(text):
@@ -86,6 +86,11 @@ def run_test_data():
 					confusion_set = build.get_cands(build.candidate_from_ngrams(ngram_words,word,build.NGRAM_N),word)
 					max_prob = 0
 					max_rank = 0
+					max_score = 0
+					max_total = 0
+					max_sentence = []
+					total_sentence = []
+						
 					for confused_pair in confusion_set:
 						confused_word = confused_pair[0]
 
@@ -102,7 +107,20 @@ def run_test_data():
 								prob *=  wordToContextWords[confused_word][context_word]/float(wordToContextWords[confused_word]['cnt'])
 								rank += 1
 
-
+						
+						
+						sentence  = list(words)
+						sentence[pos] = confused_word
+						#print sentence
+						#score1 = find_prob_of_sentence(sentence,trigram_prob_index,unigram_prob_index)
+						score1 = ngram.find_prob_sentence_all_grams(sentence,pos,ngram.fivegram_count_index,ngram.quadgram_count_index,ngram.trigram_count_index,ngram.bigram_count_index)
+						
+						if score1 > max_score:
+							max_score = score1
+							max_sentence = sentence
+							
+						
+					
 						# Find word with max prob/ rank
 
 						if prob != 1 and prob > max_prob:
@@ -112,13 +130,18 @@ def run_test_data():
 						#print word,confused_word,rank
 
 						if rank > max_rank:
-							print word,confused_word,rank
+							#print word,confused_word,rank
 							max_rank = rank
 							chosen_word_rank = confused_word
-						elif rank == max_rank:
-							print confused_word
 
-					print word,chosen_word_rank,max_rank	
-					#print word,chosen_word,max_prob
+						if rank+score1 > max_total:
+							max_total = rank+score1
+							total_sentence= sentence
+						#elif rank == max_rank:
+							#print confused_word
+					#print word,chosen_word_rank,max_rank	
+					print max_sentence,max_score					
+					print word,chosen_word_rank,max_rank
+					print total_sentence,max_total	
 				pos +=1
 run_test_data()
