@@ -81,7 +81,7 @@ def build_index_on_dictionary(dictionary):
     return final
 
 def calcptc(p, matrices, word, target):
-    #print p[1], 
+    print p[1], word, target
     if p[0]=='i':
         #print p[0], word[p[1]],target[p[1]+1]
         if p[1] >=0:
@@ -108,9 +108,9 @@ def ptc(matrices, w1, w2):
     probsum = 0.0
     if res[1]<=MAX_EDIT:
         l = res[0]
-        #print w1, w2
-        #for r in l:
-        #    print r
+        print w1, w2
+        for r in l:
+            print r
         #print "---"
         stack = [[l[-1][-1], 1, list(w1)]]
         #pathno = 1
@@ -195,7 +195,11 @@ for f in files:
     matrices.append(matrix)
 print "Loading time: ", time.time() - start_time
 print ptc(matrices, "t", "cert")
-print ptc(matrices, "smith", "sptih")
+print ptc(matrices, "", "cer")
+print ptc(matrices, "", "ce")
+print ptc(matrices, "", "c")
+#print ptc(matrices, "smith", "sptih")
+#print ptc(matrices, "sunny", "snowy")
 
 #while True:
 #    candidates = []

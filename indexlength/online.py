@@ -33,10 +33,13 @@ def edit_distance(matrices, w1, w2):
         cor_word2 = w2[:j]
         tar_word1 = w2[j]
         tar_word2 = w2[:j+1]
+        #print j, cor_word1, cor_word2, tar_word1, tar_word2, "see"
+        #print "P(", tar_word2, "|", cor_word1, ") = P(", tar_word2, "|", cor_word2, ")P(", cor_word2, "|", cor_word1, ")+P(", tar_word2, "|", tar_word1, ")P(", tar_word1, "|", cor_word1, ")"
         if j: #Essentially, if cor_word1==cor_word2 and tar_word1==tar_word2 or not
             newprob = calcptc(['i', 0], matrices, cor_word1, tar_word1) + calcptc(['i', j], matrices, cor_word2, tar_word2)
         else:
             newprob = calcptc(['i', 0], matrices, cor_word1, tar_word1)
+        print "P(", tar_word2, "|", cor_word1, ") =",  newprob*l[0][j][-1]
         l[0].append([['i'],-1,j,l[0][j][-1]*newprob])
 
     previous_row = range(len(w2) + 1)
@@ -47,10 +50,13 @@ def edit_distance(matrices, w1, w2):
         cor_word2 = w1[i]
         tar_word1 = w1[:i]
         tar_word2 = ""
+        #print j, cor_word1, cor_word2, tar_word1, tar_word2, "see"
+        #print "P(", tar_word2, "|", cor_word1, ") = P(", tar_word2, "|", cor_word2, ")P(", cor_word2, "|", cor_word1, ")+P(", tar_word2, "|", tar_word1, ")P(", tar_word1, "|", cor_word1, ")"
         if i: #Essentially, if cor_word1==cor_word2 and tar_word1==tar_word2 or not
             newprob = calcptc(['d', i], matrices, cor_word1, tar_word1) + calcptc(['d', 0], matrices, cor_word2, tar_word2)
         else:
             newprob = calcptc(['d', i], matrices, cor_word1, tar_word1)
+        print "P(", tar_word2, "|", cor_word1, ") =", l[i][0][-1]*newprob
         l[i+1].append([['d'],i,-1,l[i][0][-1]*newprob])
 
         current_row = [i+1]
@@ -78,7 +84,7 @@ def edit_distance(matrices, w1, w2):
                     minlist.append('t')
 
             newprob = 0.0
-            #print "new iter", minlist
+            #print "new iter", i, j, minlist
             for elem in minlist:
                 newi = i
                 newj = j
@@ -109,7 +115,8 @@ def edit_distance(matrices, w1, w2):
                     tar_word2 = w2[:j+1]
                     newi -= 1
 
-                #print "transforms:", cor_word1, tar_word1, cor_word2, tar_word2
+                #print newi+1, newj+1, cor_word1, cor_word2, tar_word1, tar_word2, l[newi+1][newj+1][-1], "see"
+                #print "P(", tar_word2, "|", cor_word1, ") = P(", tar_word2, "|", cor_word2, ")P(", cor_word2, "|", cor_word1, ")+P(", tar_word2, "|", tar_word1, ")P(", tar_word1, "|", cor_word1, ")"
                 if elem=='i' or elem=='d' or w1[i]!=w2[j]:
                     #print i, j, newi, newj, elem #, pathno
                     if newi==newj: #Essentially, if cor_word1==cor_word2 and tar_word1==tar_word2 or not.
@@ -119,9 +126,8 @@ def edit_distance(matrices, w1, w2):
                 else:
                         newprob += l[newi+1][newj+1][-1]
 
-            #print "newprob", i, j, newprob
+            print "P(", tar_word2, "|", cor_word1, ") =", newprob
             l[i+1].append([minlist,i,j,minval,newprob])
-            #temp.append([minlist,i,j])
             current_row.append(minval)
         twoago = previous_row
         previous_row = current_row
@@ -137,7 +143,10 @@ for f in files:
         matrix.append([float(x) for x in lines.split()])
     matrices.append(matrix)
 
-result = edit_distance(matrices, "sunny", "snowy")
+result = edit_distance(matrices, "t", "cert")
 print result[-1]
 for r in result[0]:
     print r
+
+#print edit_distance(matrices, "smith", "sptih")
+#print edit_distance(matrices, "sunny", "snowy")

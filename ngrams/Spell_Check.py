@@ -25,55 +25,155 @@ class TrieNode:
 
         node.word = word
 
+# Calculate a P(t|c) for a single error
+def calcptc(p, matrices, word, target):
+    if p[0]=='i':
+        if word:
+            return matrices[0][ord(word[p[1]-1])-97][ord(target[p[1]])-97]/sum(matrices[3][ord(word[p[1]-1])-97])
+        else:
+            return matrices[0][26][ord(target[p[1]])-97]/sum(matrices[3][26])
+    elif p[0]=='s':
+        return matrices[1][ord(target[p[1]])-97][ord(word[p[1]])-97]/sum(matrices[3][ord(word[p[1]])-97])
+    elif p[0]=='t':
+        return matrices[4][ord(word[p[1]-1])-97][ord(word[p[1]])-97]/matrices[3][ord(word[p[1]-1])-97][ord(word[p[1]])-97]
+    elif p[0]=='d':
+        if len(word) - 1:
+            return matrices[2][ord(word[p[1]-1])-97][ord(word[p[1]])-97]/matrices[3][ord(word[p[1]-1])-97][ord(word[p[1]])-97]
+        else:
+            return matrices[2][26][ord(word[p[1]])-97]/matrices[3][26][ord(word[p[1]])-97]
+    return -1 # shouldn't reach here; if scores are negative, it's because of this.
+
+
 # The search function returns a list of all words that are less than the given
 # maximum distance from the target word - Trie code
-def search( word, maxCost ):
+def search(word, matrices):
+
+    currentProb = [1.0]
+    for j in range(len(word)):
+        cor_word1 = ""
+        cor_word2 = word[:j]
+        tar_word1 = word[j]
+        tar_word2 = word[:j+1]
+        if j: #Essentially, if cor_word1==cor_word2 and tar_word1==tar_word2 or not
+            newprob = calcptc(['i', 0], matrices, cor_word1, tar_word1) + calcptc(['i', j], matrices, cor_word2, tar_word2)
+        else:
+            newprob = calcptc(['i', 0], matrices, cor_word1, tar_word1)
+        currentProb.append(currentProb[j]*newprob)
 
     # build first row
     currentRow = range( len(word) + 1 )
+    columns = len(word) + 1
+    curr_index = 1
     results = []
     # recursively search each branch of the trie
     for letter in trie.children:
-        searchRecursive( trie.children[letter], letter, word, currentRow, 
-            results, maxCost )
+        searchRecursive(trie.children[letter], letter, word, None, None, currentRow, currentProb, results, curr_index, columns, matrices)
 
     return results
 
 # This recursive helper is used by the search function above. It assumes that
 # the previousRow has been filled in already. - Trie code
-def searchRecursive( node, letter, word, previousRow, results, maxCost ):
+def searchRecursive(node, w1, w2, twoago, twoagoProb, previousRow, prevProb, results, i, columns, matrices):
 
-    columns = len( word ) + 1
-    currentRow = [ previousRow[0] + 1 ]
+    cor_word1 = w1[:i]
+    cor_word2 = w1[i-1]
+    tar_word1 = w1[:i-1]
+    tar_word2 = ""
+    if i-1: #Essentially, if cor_word1==cor_word2 and tar_word1==tar_word2 or not
+        newprob = calcptc(['d', i-1], matrices, cor_word1, tar_word1) + calcptc(['d', 0], matrices, cor_word2, tar_word2)
+    else:
+        newprob = calcptc(['d', i-1], matrices, cor_word1, tar_word1)
+    currentProb = [prevProb[0]*newprob]
 
-    print (letter,word,previousRow,currentRow,results,maxCost)
+    currentRow = [previousRow[0] + 1]
+
+    #print (w1,w2,previousRow,currentRow,results)
     # Build one row for the letter, with a column for each letter in the target
     # word, plus one for the empty string at column 0
-    for column in xrange( 1, columns ):
+    for j in xrange(1, columns):
 
-        insertCost = currentRow[column - 1] + 1
-        deleteCost = previousRow[column] + 1
+        insertCost = currentRow[j - 1] + 1
+        deleteCost = previousRow[j] + 1
+        replaceCost = previousRow[j-1] + (w1[i-1] != w2[j- 1])
 
-        if word[column - 1] != letter:
-            replaceCost = previousRow[ column - 1 ] + 1
-        else:                
-            replaceCost = previousRow[ column - 1 ]
+        minval = deleteCost
+        minlist = ['d']
+        for val in [(insertCost, 'i'), (replaceCost, 's')]:
+            if val[0]<minval:
+                minval = val[0]
+                minlist = [val[1]]
+            elif val[0]==minval:
+                minlist.append(val[1])
 
-        currentRow.append( min( insertCost, deleteCost, replaceCost ) )
+        # This block deals with transpositions
+        if ((i-1) and (j-1) and w1[i-1] == w2[j-2] and w1[i-2] == w2[j-1]):
+            transposeCost = twoago[j-2] + (w1[i-1] != w2[j-1])
+            minval = min(minval, transposeCost)
+            if transposeCost<minval:
+                minval = transposeCost
+                minlist = ['t']
+            elif transposeCost==minval:
+                minlist.append('t')
 
+        newprob = 0.0
+        for elem in minlist:
+            newi = i
+            newj = j
+            if elem == 's':
+                cor_word1 = w1[:i]
+                cor_word2 = w2[:j-1] + w1[i-1]
+                tar_word1 = w1[:i-1] + w2[j-1]
+                tar_word2 = w2[:j]
+                usedProb = prevProb
+                newi -= 1
+                newj -= 1
+            elif elem == 't':
+                cor_word1 = w1[:i]
+                cor_word2 = w2[:j-2] + w2[j-1] + w2[j-2]
+                tar_word1 = w1[:i-2] + w1[i-1] + w1[i-2]
+                tar_word2 = w2[:j]
+                usedProb = twoagoProb
+                newi -= 2
+                newj -= 2
+            elif elem == 'i':
+                cor_word1 = w1[:i]
+                cor_word2 = w2[:j-1]
+                tar_word1 = w1[:i] + w2[j-1]
+                tar_word2 = w2[:j]
+                usedProb = currentProb
+                newj -= 1
+            elif elem == 'd':
+                cor_word1 = w1[:i]
+                cor_word2 = w2[:j] + w1[i-1]
+                tar_word1 = w1[:i-1]
+                tar_word2 = w2[:j]
+                usedProb = prevProb
+                newi -= 1
+
+            if elem=='i' or elem=='d' or w1[i-1]!=w2[j-1]:
+                if newi==newj: #Essentially, if cor_word1==cor_word2 and tar_word1==tar_word2 or not.
+                    newprob += usedProb[newj]*calcptc([elem,newi], matrices, cor_word1, tar_word1)
+                else:
+                    newprob += usedProb[newj]*(calcptc([elem,newi], matrices, cor_word1, tar_word1) + calcptc([elem,newj], matrices, cor_word2, tar_word2))
+            else:
+                    newprob += usedProb[newj]
+
+        currentProb.append(newprob)
+        currentRow.append(minval)
+
+    #print currentRow, node.word
     # if the last entry in the row indicates the optimal cost is less than the
     # maximum cost, and there is a word in this trie node, then add it.
-    if currentRow[-1] <= maxCost and node.word != None:
+    if currentRow[-1] <= MAX_EDIT and node.word != None:
         #print currentRow
         #print  (node.word, currentRow[-1] )
-        results.append( (node.word, currentRow[-1] ) )
+        results.append((node.word, currentRow[-1], currentProb[-1]))
 
     # if any entries in the row are less than the maximum cost, then 
     # recursively search each branch of the trie
-    if min( currentRow ) <= maxCost:
+    if min(currentRow) <= MAX_EDIT:
         for letter in node.children:
-            searchRecursive( node.children[letter], letter, word, currentRow, 
-                results, maxCost )
+            searchRecursive(node.children[letter], w1+letter, w2, previousRow, prevProb, currentRow, currentProb, results, i+1, columns, matrices)
 
 
 
@@ -205,6 +305,15 @@ ngram_words =  ngram_index_structure(words,NGRAM_N)
 #     f.write('\n')
 # f.close()
 
+# Load matrices
+matrices = []
+files = ['../indexlength/AddXY.txt', '../indexlength/SubXY.txt', '../indexlength/DelXY.txt', '../indexlength/newCharsXY.txt', '../indexlength/RevXY.txt']
+for f in files:
+    matrix = []
+    for lines in file(f).readlines():
+        matrix.append([float(x) for x in lines.split()])
+    matrices.append(matrix)
+
 start = time.time()
 with open('../TrainData/words.tsv') as f:
     lines = f.read().splitlines()
@@ -224,7 +333,9 @@ with open('../TrainData/words.tsv') as f:
             trie.insert(word)
         #print "Read %d words into %d nodes" % (WordCount, NodeCount)
 
-        results = search(misspelt_word, MAX_EDIT)      
+        results = search(misspelt_word, matrices)
+        results.sort(key=lambda x: x[2], reverse=True)
+        print results
         break
         #print results
         results_pruned = []
