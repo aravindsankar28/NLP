@@ -198,6 +198,7 @@ print ptc(matrices, "t", "cert")
 print ptc(matrices, "", "cer")
 print ptc(matrices, "", "ce")
 print ptc(matrices, "", "c")
+print ptc(matrices, "believe", "belive")
 #print ptc(matrices, "smith", "sptih")
 #print ptc(matrices, "sunny", "snowy")
 

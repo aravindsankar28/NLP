@@ -143,7 +143,7 @@ for f in files:
         matrix.append([float(x) for x in lines.split()])
     matrices.append(matrix)
 
-result = edit_distance(matrices, "t", "cert")
+result = edit_distance(matrices, "believe", "belive")
 print result[-1]
 for r in result[0]:
     print r
