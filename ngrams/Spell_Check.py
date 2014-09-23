@@ -27,6 +27,7 @@ class TrieNode:
 
 # Calculate a P(t|c) for a single error
 def calcptc(p, matrices, word, target):
+    #print p[1], word, target
     if p[0]=='i':
         if word:
             return matrices[0][ord(word[p[1]-1])-97][ord(target[p[1]])-97]/sum(matrices[3][ord(word[p[1]-1])-97])
@@ -38,6 +39,7 @@ def calcptc(p, matrices, word, target):
         return matrices[4][ord(word[p[1]-1])-97][ord(word[p[1]])-97]/matrices[3][ord(word[p[1]-1])-97][ord(word[p[1]])-97]
     elif p[0]=='d':
         if len(word) - 1:
+            #print p[0], word[p[1]-1], word[p[1]]
             return matrices[2][ord(word[p[1]-1])-97][ord(word[p[1]])-97]/matrices[3][ord(word[p[1]-1])-97][ord(word[p[1]])-97]
         else:
             return matrices[2][26][ord(word[p[1]])-97]/matrices[3][26][ord(word[p[1]])-97]
@@ -79,6 +81,7 @@ def searchRecursive(node, w1, w2, twoago, twoagoProb, previousRow, prevProb, res
     cor_word2 = w1[i-1]
     tar_word1 = w1[:i-1]
     tar_word2 = ""
+    #print "P(", tar_word2, "|", cor_word1, ") = P(", tar_word2, "|", cor_word2, ")P(", cor_word2, "|", cor_word1, ")+P(", tar_word2, "|", tar_word1, ")P(", tar_word1, "|", cor_word1, ")"
     if i-1: #Essentially, if cor_word1==cor_word2 and tar_word1==tar_word2 or not
         newprob = calcptc(['d', i-1], matrices, cor_word1, tar_word1) + calcptc(['d', 0], matrices, cor_word2, tar_word2)
     else:
@@ -173,6 +176,7 @@ def searchRecursive(node, w1, w2, twoago, twoagoProb, previousRow, prevProb, res
     # recursively search each branch of the trie
     if min(currentRow) <= MAX_EDIT:
         for letter in node.children:
+            #print node.children
             searchRecursive(node.children[letter], w1+letter, w2, previousRow, prevProb, currentRow, currentProb, results, i+1, columns, matrices)
 
 
@@ -325,6 +329,7 @@ with open('../TrainData/words.tsv') as f:
     lines = f.read().splitlines()
     for line in lines:
         misspelt_word = line.split('\t')[0]
+        print "misspelt = ", misspelt_word
         #misspelt_word = raw_input('Enter word :')
         candidate_selections = []
         candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
@@ -340,16 +345,17 @@ with open('../TrainData/words.tsv') as f:
         #print "Read %d words into %d nodes" % (WordCount, NodeCount)
 
         results = search(misspelt_word, matrices)
+        results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]) for x in results]
         results.sort(key=lambda x: x[2], reverse=True)
         print results
-        break
+        #break
         #print results
         results_pruned = []
-        for result in results:
-            if not(prior_frequencies[result[0]] == 0.0 and result[1] >2):
-                results_pruned.append(result)
+        #for result in results:
+        #    if not(prior_frequencies[result[0]] == 0.0 and result[1] >2):
+        #        results_pruned.append(result)
 
-        print len(results_pruned)
+        #print len(results_pruned)
         
 end = time.time()
 print "time = "+str(end- start) 
