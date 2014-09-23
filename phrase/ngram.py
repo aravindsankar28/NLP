@@ -1,8 +1,9 @@
-import re,build,math
+import re,math
+import word_check
 
 MIN_TRIGRAM_PROB = math.pow(10,(-7))
 MIN_UNIGRAM_PROB = math.pow(10,(-8))
-
+CONFUSION_SET_SIZE = 20
 def ngrams(array, n):
     return [array[i:i+n] for i in range(1+len(array)-n)]
 
@@ -108,24 +109,31 @@ def find_prob_sentence_all_grams(sentence,word_pos,fivegram_count_index,quadgram
 
 def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
 
-	ngram_words = build.buildDict() # Get the index structure build from word checker
-	with open('../TrainData/sentences.tsv') as f:
+	#ngram_words = build.buildDict() # Get the index structure build from word checker
+	(prior_frequencies,ngram_words,matrices,dictionary) = word_check.preprocessing()
+
+	
+	with open('../TrainData/phrases.tsv') as f:
 		lines = f.read().splitlines()
 		for line in lines:
 			phrase = line.split('  ')[0]
 			words = extract_words(phrase)
 			pos = 0
 			for word in words:
-				
+				results = []
 				# Search in UNIX dictionary (indexed as a trie). It returns a list of words at edit distance 0.
-				if len(build.search(word,0)) != 1 :
+				if word not in dictionary:
 					# need to predict change in word
 					# For now , obtain confusion set as the set returned from index structure
-					confusion_set = build.get_cands(build.candidate_from_ngrams(ngram_words,word,build.NGRAM_N),word)
+					confusion_set =  word_check.get_confusion_set(word,prior_frequencies,ngram_words,matrices,CONFUSION_SET_SIZE)	
+
+					#confusion_set = build.get_cands(build.candidate_from_ngrams(ngram_words,word,build.NGRAM_N),word)
 					max_score = 0
 					max_sentence = []
-					for confused_pair in confusion_set:
-						confused_word = confused_pair[0]
+					for confused_triple in confusion_set:
+						confused_word = confused_triple[0]
+						edit_dist = confused_triple[1]
+						likelihood = confused_triple[2] # TODO
 						sentence  = list(words)
 						sentence[pos] = confused_word
 						#print sentence
@@ -134,8 +142,9 @@ def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,qua
 						if score1 > max_score:
 							max_score = score1
 							max_sentence = sentence
-						
-					print max_sentence,max_score					
+						results.append((sentence,score1))
+					#print max_sentence,max_score	
+					print sorted(results,key=lambda x: x[1],reverse=True)[0:4]				
 				pos +=1
 				
 
