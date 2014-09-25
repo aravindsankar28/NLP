@@ -267,7 +267,7 @@ def run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgra
 
 					if likelihood > max_likelihood:
 						max_likelihood = likelihood
-					print "hi"
+					#print "hi"
 					print confused_word
 					#if confused_word == 'cost':
 					#	print score1,likelihood
