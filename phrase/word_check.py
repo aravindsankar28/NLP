@@ -1,7 +1,7 @@
 from sets import Set
-import time, re
+import time, re,operator
 MAX_EDIT = 3
-NGRAM_N = 3
+NGRAM_N = 2
 LEN_PRUNE = 3
 
 class TrieNode:
@@ -317,26 +317,60 @@ def preprocessing():
             matrix.append([float(x) for x in lines.split()])
         matrices.append(matrix)
 
-    return (prior_frequencies,ngram_words,matrices,words)
+    dict_bigrams = get_dict_bigrams()
+    return (prior_frequencies,ngram_words,matrices,words,dict_bigrams)
 
 
+def get_dict_bigrams():
+    d = {}
+    with open('../ngrams/unixdict.txt') as f:
+        for line in f.read().splitlines():
+            word = line.split('\t')[0]
+            bigrams = set(ngrams(word,2))
+            d[word] = bigrams
+    return d
+
+def jaccard_prune(misspelt_word,candidates,dict_bigrams):
+    #print len(candidates)
+    ngrams_misspelt_word = set(ngrams(misspelt_word,2))
+    d = {}
+    for word in candidates:
+        #ngrams_word = set(ngrams(word,2))
+        ngrams_word = dict_bigrams[word]
+        intersection = len(ngrams_word & ngrams_misspelt_word)
+        union = len(ngrams_word | ngrams_misspelt_word)
+        sim = intersection/float(union)
+        #sim = intersection/float(max(len(ngrams_word),len(ngrams_misspelt_word)))
+        d[word] = sim
+    sorted_x = sorted(d.items(), key=operator.itemgetter(1),reverse= True)
+    a =  sorted_x[0:300]
+    b = []
+
+    for x in a:
+        b.append(x[0])
+    #print a
+    return b
 
 
-
-def get_confusion_set(misspelt_word,prior_frequencies,ngram_words,matrices,n):
+def get_confusion_set(misspelt_word,prior_frequencies,ngram_words,matrices,dict_bigrams,n):
     candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
     trie = TrieNode()
-    print len(candidate_selections),
-    for word in candidate_selections:
+    #print len(candidate_selections),
+    candidate_selections = jaccard_prune(misspelt_word,candidate_selections,dict_bigrams)
 
+    for word in candidate_selections:
+        if word == 'cost':
+            print "here"
         trie.insert(word)
 
     results = search(misspelt_word, matrices,trie)
     results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]) for x in results]
     results.sort(key=lambda x: x[2], reverse=True)
+
     return results[0:n]
 
-def run_test_data():
+def run_test_data(prior_frequencies,ngram_words,matrices,dict_bigrams):
+    
     start = time.time()
     with open('../TrainData/words.tsv') as f:
         lines = f.read().splitlines()
@@ -347,7 +381,7 @@ def run_test_data():
             #misspelt_word = raw_input('Enter word :')
             candidate_selections = []
             candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
-
+            candidate_selections = jaccard_prune(misspelt_word,candidate_selections,dict_bigrams)
             #print len(candidate_selections)
             # read dictionary file into a trie
             trie = TrieNode()
@@ -359,12 +393,40 @@ def run_test_data():
             results = search(misspelt_word, matrices,trie)
             results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]) for x in results]
             results.sort(key=lambda x: x[2], reverse=True)
+            print results[0:5]
             print time.time()-start_time
             results_pruned = []
         
     end = time.time()
     print "time = "+str(end- start) 
 
-#(prior_frequencies,ngram_words,matrices,dictionary) = preprocessing()
+
+def run_input(prior_frequencies,ngram_words,matrices,dict_bigrams):
+    while True:
+        misspelt_word = raw_input('Enter a word (# to stop) : ')
+        if misspelt_word == '#' or misspelt_word == "#":
+            break
+        candidate_selections = []
+        candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
+        candidate_selections = jaccard_prune(misspelt_word,candidate_selections,dict_bigrams)
+        #print candidate_selections[0:10]
+        #print len(candidate_selections)
+        # read dictionary file into a trie
+        trie = TrieNode()
+        print len(candidate_selections),
+        for word in candidate_selections:
+    
+            trie.insert(word)
+    
+        results = search(misspelt_word, matrices,trie)
+        results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]) for x in results]
+        results.sort(key=lambda x: x[2], reverse=True)
+        print results[0:5]
+
+(prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams) = preprocessing()
+#run_test_data(prior_frequencies,ngram_words,matrices,dict_bigrams)
+#run_input(prior_frequencies,ngram_words,matrices,dict_bigrams)
+
+
 
 #print get_confusion_set('eath',prior_frequencies,ngram_words,matrices,2)

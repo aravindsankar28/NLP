@@ -1,4 +1,4 @@
-import re,math
+import re,math,sys
 import word_check
 
 MIN_TRIGRAM_PROB = math.pow(10,(-7))
@@ -7,6 +7,12 @@ CONFUSION_SET_SIZE = 20
 def ngrams(array, n):
     return [array[i:i+n] for i in range(1+len(array)-n)]
 
+def print_sentences_from_list(sentences):
+    for sentence in sentences:
+        for word in sentence[0]:
+            print word,
+                print " "+str(sentence[1])
+        print "\n"
 def all_grams(array,word_pos):
     l = []
 
@@ -110,7 +116,8 @@ def find_prob_sentence_all_grams(sentence,word_pos,fivegram_count_index,quadgram
 def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
 
     #ngram_words = build.buildDict() # Get the index structure build from word checker
-        (prior_frequencies,ngram_words,matrices,dictionary) = word_check.preprocessing()
+        (prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams) = word_check.preprocessing()
+
 
         with open('../TrainData/phrases.tsv') as f:
             lines = f.read().splitlines()
@@ -118,33 +125,92 @@ def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,qua
                     phrase = line.split('  ')[0]
                         words = extract_words(phrase)
                         pos = 0
+                        num_misspelt_words =0
+                        phrase_results = []
                         for word in words:
                             results = []
-                                # Search in UNIX dictionary (indexed as a trie). It returns a list of words at edit distance 0.
+                                # Search in UNIX dictionary.
                                 if word not in dictionary:
-                                    # need to predict change in word
-                                        # For now , obtain confusion set as the set returned from index structure
-                                        confusion_set =  word_check.get_confusion_set(word,prior_frequencies,ngram_words,matrices,CONFUSION_SET_SIZE)	
-
-                                        #confusion_set = build.get_cands(build.candidate_from_ngrams(ngram_words,word,build.NGRAM_N),word)
+                                    num_misspelt_words	+= 1
+                                        confusion_set =  word_check.get_confusion_set(word,prior_frequencies,ngram_words,matrices,dict_bigrams,CONFUSION_SET_SIZE)	
                                         max_score = 0
+                                        max_score_1 = 0
                                         max_sentence = []
+                                        max_likelihood = 0
                                         for confused_triple in confusion_set:
                                             confused_word = confused_triple[0]
                                                 edit_dist = confused_triple[1]
-                                                likelihood = confused_triple[2] # TODO
+                                                likelihood = confused_triple[2]
                                                 sentence  = list(words)
                                                 sentence[pos] = confused_word
-                                                #print sentence
-                                                #score1 = find_prob_of_sentence(sentence,trigram_prob_index,unigram_prob_index)
                                                 score1 = find_prob_sentence_all_grams(sentence,pos,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
-                                                if score1 > max_score:
-                                                    max_score = score1
-                                                        max_sentence = sentence
-                                                results.append((sentence,score1))
-                                        #print max_sentence,max_score	
-                                        print sorted(results,key=lambda x: x[1],reverse=True)[0:4]				
+
+                                                #score = likelihood * math.pow(10,9) + score1	
+                                                if score1 > max_score_1:
+                                                    max_score_1 = score1
+
+                                                if likelihood > max_likelihood:
+                                                    max_likelihood = likelihood
+
+                                                results.append((sentence,score1,likelihood,confused_word,pos))
+
+                                        results_new = []
+                                        for res in results:
+                                            if max_score_1 == 0:
+                                                a = max_score_1
+                                            else:
+                                                a = res[1]/max_score_1
+                                                b = res[2]/max_likelihood
+                                                results_new.append((res[0],(0.5*a+0.5*b),a,b,res[3],res[4]))
+
+                                        phrase_results.append(results_new)
+                                        #print sorted(results_new,key=lambda x: x[1],reverse=True)[0:3]				
                                 pos +=1
+                        if num_misspelt_words ==0 :
+                            print phrase
+                        elif num_misspelt_words == 1 and len(phrase_results) >0:
+                            print_sentences_from_list(sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:3])
+                                #print sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:3]
+                        elif len(phrase_results) >0:
+                            # Works only for 2 misspelt words
+                                combinations = []
+                                for i in range(0,num_misspelt_words):
+                                    a = sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3]
+                                        for j in range(0,3):
+                                            word_1 = a[j][4]
+                                                pos_1 = a[j][5]
+                                                #print word_1,pos_1
+                                                for k in range(i+1,num_misspelt_words):
+                                                    b = sorted(phrase_results[k],key=lambda x: x[1],reverse=True)[0:3]
+                                                        for l in range(0,3):
+                                                            word_2 = b[l][4]
+                                                                pos_2 = b[l][5]
+
+                                                                combinations.append((word_1,pos_1,word_2,pos_2))
+
+                                #print combinations
+                                sentence_combinations = []
+                                results_new = []
+                                for quad in combinations:
+                                    temp = list(sentence)
+                                        temp[quad[1]] = quad[0]
+                                        temp[quad[3]] =  quad[2]
+                                        #sentence_combinations.append(temp)
+                                        #print temp
+                                        score_new_1 = find_prob_sentence_all_grams(temp,quad[1],fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+                                        score_new_2 = find_prob_sentence_all_grams(temp,quad[3],fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+                                        score_new = score_new_1+score_new_2
+                                        results_new.append((temp,score_new))
+
+                                #for sentence_new in sentence_combinations:
+
+                                #	results_new.append((sentence_new,score_new))
+                                print_sentences_from_list(sorted(results_new,key=lambda x: x[1],reverse=True)[0:5])
+
+                                        #sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3][5]
+
+
+
 
 
 def read_unigram_counts():
@@ -163,9 +229,113 @@ def read_unigram_counts():
             unigram_prob_index[key] /= float(total)
         return (unigram_prob_index,unigram_count_index)
 
-#run_test_data()
 
-#print len(all_grams(extract_words("to decide among the two confusable words"),5))
+def run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
+
+    #ngram_words = build.buildDict() # Get the index structure build from word checker
+        (prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams) = word_check.preprocessing()
+        while True:
+            phrase = raw_input('Enter a phrase  (# to stop) : ')
+                if phrase == '#':
+                    sys.exit(0)
+
+                words = extract_words(phrase)
+                pos = 0
+                num_misspelt_words =0
+                phrase_results = []
+                for word in words:
+                    results = []
+                        # Search in UNIX dictionary.
+                        if word not in dictionary:
+                            num_misspelt_words	+= 1
+                                confusion_set =  word_check.get_confusion_set(word,prior_frequencies,ngram_words,matrices,dict_bigrams,CONFUSION_SET_SIZE)	
+                                max_score = 0
+                                max_score_1 = 0
+                                max_sentence = []
+                                max_likelihood = 0
+                                for confused_triple in confusion_set:
+                                    confused_word = confused_triple[0]
+                                        edit_dist = confused_triple[1]
+                                        likelihood = confused_triple[2]
+                                        sentence  = list(words)
+                                        sentence[pos] = confused_word
+                                        score1 = find_prob_sentence_all_grams(sentence,pos,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+
+                                        #score = likelihood * math.pow(10,9) + score1	
+                                        if score1 > max_score_1:
+                                            max_score_1 = score1
+
+                                        if likelihood > max_likelihood:
+                                            max_likelihood = likelihood
+                                        print "hi"
+                                        print confused_word
+                                        #if confused_word == 'cost':
+                                        #	print score1,likelihood
+                                        results.append((sentence,score1,likelihood,confused_word,pos))
+
+                                results_new = []
+                                for res in results:
+                                    if max_score_1 == 0:
+                                        a = max_score_1
+                                    else:
+                                        a = res[1]/max_score_1
+                                        b = res[2]/max_likelihood
+                                        results_new.append((res[0],(0.5*a+0.5*b),a,b,res[3],res[4]))
+
+                                phrase_results.append(results_new)
+                                #print sorted(results_new,key=lambda x: x[1],reverse=True)[0:3]				
+                        pos +=1
+                if num_misspelt_words ==0 :
+                    print phrase
+                elif num_misspelt_words == 1 and len(phrase_results) >0:
+                    print_sentences_from_list(sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:5])
+                        #print sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:3]
+                elif len(phrase_results) >0:
+                    # Works only for 2 misspelt words
+                        combinations = []
+                        for i in range(0,num_misspelt_words):
+                            a = sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3]
+                                for j in range(0,3):
+                                    word_1 = a[j][4]
+                                        pos_1 = a[j][5]
+                                        like_1 = a[j][3]
+                                        #print word_1,pos_1
+                                        for k in range(i+1,num_misspelt_words):
+                                            b = sorted(phrase_results[k],key=lambda x: x[1],reverse=True)[0:3]
+                                                for l in range(0,3):
+                                                    word_2 = b[l][4]
+                                                        pos_2 = b[l][5]
+                                                        like_2 = b[l][3]
+
+                                                        combinations.append((word_1,pos_1,like_1,word_2,pos_2,like_2))
+
+                        #print combinations
+                        sentence_combinations = []
+                        results_new = []
+                        max_score_1 = 0
+                        max_score_2 = 0
+                        for quad in combinations:
+                            temp = list(sentence)
+                                temp[quad[1]] = quad[0]
+                                temp[quad[4]] =  quad[3]
+                                #sentence_combinations.append(temp)
+                                #print temp
+                                score_new_1 = find_prob_sentence_all_grams(temp,quad[1],fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+                                score_new_2 = find_prob_sentence_all_grams(temp,quad[4],fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+                                score_new = score_new_1+score_new_2
+                                max_score_1  = max(score_new_1,max_score_1)
+                                max_score_2  = max(score_new_2,max_score_2)
+                                results_new.append((temp,score_new_1,score_new_2,quad[2],quad[5]))
+                        results_updated = []
+                        for res in results_new:
+                            results_updated.append((res[0],(res[1]/max_score_1)+(res[2]/max_score_2)+res[3]+res[4]))
+
+                        print_sentences_from_list(sorted(results_updated,key=lambda x: x[1],reverse=True)[0:5])
+
+
+
+
+
 (unigram_prob_index,unigram_count_index) =read_unigram_counts()
 
 bigram_count_index = read_ngram_counts(2)
@@ -179,3 +349,4 @@ trigram_prob_index = estimate_ngram_probabilities(trigram_count_index,bigram_cou
 #bigram_prob_index = estimate_ngram_probabilities(bigram_count_index,unigram_count_index,2)
 #print bigram_prob_index
 run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)

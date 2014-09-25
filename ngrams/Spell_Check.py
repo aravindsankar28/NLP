@@ -1,7 +1,7 @@
 from sets import Set
 import time, re
 MAX_EDIT = 3
-NGRAM_N = 3
+NGRAM_N = 2
 LEN_PRUNE = 3
 # Keep some interesting statistics
 NodeCount = 0
@@ -347,7 +347,7 @@ with open('../TrainData/words.tsv') as f:
         results = search(misspelt_word, matrices)
         results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]) for x in results]
         results.sort(key=lambda x: x[2], reverse=True)
-        print results
+        print results[:10]
         #break
         #results_pruned = []
         #for result in results:
@@ -360,4 +360,3 @@ with open('../TrainData/words.tsv') as f:
         
 #print len(candidate_selections)
 # TODO : Prune candidate_selections to get words with edit distance less than 3
-# TODO : Get confusion matrices (hard code or not ?) and estimate likelihood scores. 
