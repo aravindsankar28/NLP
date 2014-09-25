@@ -171,43 +171,88 @@ def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,qua
 			elif num_misspelt_words == 1 and len(phrase_results) >0:
 				print_sentences_from_list(sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:3])
 				#print sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:3]
+
 			elif len(phrase_results) >0:
-				# Works only for 2 misspelt words
+			# Works only for 2 misspelt words
 				combinations = []
 				for i in range(0,num_misspelt_words):
 					a = sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3]
 					for j in range(0,3):
 						word_1 = a[j][4]
 						pos_1 = a[j][5]
+						like_1 = a[j][3]
 						#print word_1,pos_1
 						for k in range(i+1,num_misspelt_words):
 							b = sorted(phrase_results[k],key=lambda x: x[1],reverse=True)[0:3]
 							for l in range(0,3):
 								word_2 = b[l][4]
 								pos_2 = b[l][5]
+								like_2 = b[l][3]
 
-								combinations.append((word_1,pos_1,word_2,pos_2))
+								combinations.append((word_1,pos_1,like_1,word_2,pos_2,like_2))
 
 				#print combinations
 				sentence_combinations = []
 				results_new = []
+				max_score_1 = 0
+				max_score_2 = 0
 				for quad in combinations:
 					temp = list(sentence)
 					temp[quad[1]] = quad[0]
-					temp[quad[3]] =  quad[2]
+					temp[quad[4]] =  quad[3]
 					#sentence_combinations.append(temp)
 					#print temp
 					score_new_1 = find_prob_sentence_all_grams(temp,quad[1],fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
-					score_new_2 = find_prob_sentence_all_grams(temp,quad[3],fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+					score_new_2 = find_prob_sentence_all_grams(temp,quad[4],fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
 					score_new = score_new_1+score_new_2
-					results_new.append((temp,score_new))
-				
-				#for sentence_new in sentence_combinations:
-					
-				#	results_new.append((sentence_new,score_new))
-				print_sentences_from_list(sorted(results_new,key=lambda x: x[1],reverse=True)[0:5])
+					max_score_1  = max(score_new_1,max_score_1)
+					max_score_2  = max(score_new_2,max_score_2)
+					results_new.append((temp,score_new_1,score_new_2,quad[2],quad[5]))
+				results_updated = []
+				for res in results_new:
+					results_updated.append((res[0],(res[1]/max_score_1)+(res[2]/max_score_2)+res[3]+res[4]))
 
-					#sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3][5]
+				print_sentences_from_list(sorted(results_updated,key=lambda x: x[1],reverse=True)[0:5])
+
+
+
+			# elif len(phrase_results) >0:
+			# 	# Works only for 2 misspelt words
+			# 	combinations = []
+			# 	for i in range(0,num_misspelt_words):
+			# 		a = sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3]
+			# 		for j in range(0,3):
+			# 			word_1 = a[j][4]
+			# 			pos_1 = a[j][5]
+			# 			#print word_1,pos_1
+			# 			for k in range(i+1,num_misspelt_words):
+			# 				b = sorted(phrase_results[k],key=lambda x: x[1],reverse=True)[0:3]
+			# 				for l in range(0,3):
+			# 					word_2 = b[l][4]
+			# 					pos_2 = b[l][5]
+
+			# 					combinations.append((word_1,pos_1,word_2,pos_2))
+
+			# 	#print combinations
+			# 	sentence_combinations = []
+			# 	results_new = []
+			# 	for quad in combinations:
+			# 		temp = list(sentence)
+			# 		temp[quad[1]] = quad[0]
+			# 		temp[quad[3]] =  quad[2]
+			# 		#sentence_combinations.append(temp)
+			# 		#print temp
+			# 		score_new_1 = find_prob_sentence_all_grams(temp,quad[1],fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+			# 		score_new_2 = find_prob_sentence_all_grams(temp,quad[3],fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+			# 		score_new = score_new_1+score_new_2
+			# 		results_new.append((temp,score_new))
+				
+			# 	#for sentence_new in sentence_combinations:
+					
+			# 	#	results_new.append((sentence_new,score_new))
+			# 	print_sentences_from_list(sorted(results_new,key=lambda x: x[1],reverse=True)[0:5])
+
+			# 		#sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3][5]
 				 	
 
 				
@@ -349,4 +394,4 @@ trigram_prob_index = estimate_ngram_probabilities(trigram_count_index,bigram_cou
 #bigram_prob_index = estimate_ngram_probabilities(bigram_count_index,unigram_count_index,2)
 #print bigram_prob_index
 run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
-run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+#run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
