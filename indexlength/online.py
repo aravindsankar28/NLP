@@ -27,7 +27,7 @@ def calcptc(p, matrices, word, target):
 
 
 def edit_distance(matrices, w1, w2):
-    l = [[[[],-1,-1, 1.0]]]
+    l = [[[[],-1,-1,0,1.0]]]
     for j in range(len(w2)):
         cor_word1 = ""
         cor_word2 = w2[:j]
@@ -40,7 +40,7 @@ def edit_distance(matrices, w1, w2):
         else:
             newprob = calcptc(['i', 0], matrices, cor_word1, tar_word1)
         print "P(", tar_word2, "|", cor_word1, ") =",  newprob*l[0][j][-1]
-        l[0].append([['i'],-1,j,l[0][j][-1]*newprob])
+        l[0].append([['i'],-1,j,j+1,l[0][j][-1]*newprob])
 
     previous_row = range(len(w2) + 1)
     twoago = None
@@ -57,7 +57,7 @@ def edit_distance(matrices, w1, w2):
         else:
             newprob = calcptc(['d', i], matrices, cor_word1, tar_word1)
         print "P(", tar_word2, "|", cor_word1, ") =", l[i][0][-1]*newprob
-        l[i+1].append([['d'],i,-1,l[i][0][-1]*newprob])
+        l[i+1].append([['d'],i,-1,i+1,l[i][0][-1]*newprob])
 
         current_row = [i+1]
         for j in range(len(w2)): # At j ,compute for j+1
@@ -117,6 +117,7 @@ def edit_distance(matrices, w1, w2):
 
                 #print newi+1, newj+1, cor_word1, cor_word2, tar_word1, tar_word2, l[newi+1][newj+1][-1], "see"
                 #print "P(", tar_word2, "|", cor_word1, ") = P(", tar_word2, "|", cor_word2, ")P(", cor_word2, "|", cor_word1, ")+P(", tar_word2, "|", tar_word1, ")P(", tar_word1, "|", cor_word1, ")"
+                #print elem, newi, newj, w1[i]!=w2[j]
                 if elem=='i' or elem=='d' or w1[i]!=w2[j]:
                     #print i, j, newi, newj, elem #, pathno
                     if newi==newj: #Essentially, if cor_word1==cor_word2 and tar_word1==tar_word2 or not.
@@ -136,17 +137,19 @@ def edit_distance(matrices, w1, w2):
 
 
 matrices = []
-files = ['AddXY.txt', 'SubXY.txt', 'DelXY.txt', 'newCharsXY.txt', 'RevXY.txt']
+files = ['../ngrams/addoneAddXY.txt', '../ngrams/addoneSubXY.txt', '../ngrams/addoneDelXY.txt', 'newCharsXY.txt', '../ngrams/addoneRevXY.txt']
 for f in files:
     matrix = []
     for lines in file(f).readlines():
         matrix.append([float(x) for x in lines.split()])
     matrices.append(matrix)
 
-result = edit_distance(matrices, "believe", "belive")
-print result[-1]
-for r in result[0]:
-    print r
+result = edit_distance(matrices, "roof", "roff")
+print result[-1], result[0][-1][-1][-1]
+result = edit_distance(matrices, "off", "roff")
+print result[-1], result[0][-1][-1][-1]
+#for r in result[0]:
+#    print r
 
 #print edit_distance(matrices, "smith", "sptih")
 #print edit_distance(matrices, "sunny", "snowy")

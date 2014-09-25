@@ -329,6 +329,7 @@ with open('../TrainData/words.tsv') as f:
     for line in lines:
         start = time.time()
         misspelt_word = line.split('\t')[0]
+        misspelt_word = 'roff'
         print "misspelt = ", misspelt_word
         #misspelt_word = raw_input('Enter word :')
         candidate_selections = []
@@ -346,9 +347,10 @@ with open('../TrainData/words.tsv') as f:
 
         results = search(misspelt_word, matrices)
         results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]) for x in results]
-        results.sort(key=lambda x: x[2], reverse=True)
-        print results[:10]
-        #break
+        #results.sort(key=lambda x: x[2], reverse=True)
+        #print results[:10]
+        print results
+        break
         #results_pruned = []
         #for result in results:
         #    if not(prior_frequencies[result[0]] == 0.0 and result[1] >2):
