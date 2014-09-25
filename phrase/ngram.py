@@ -263,9 +263,6 @@ def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,qua
             #         #sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3][5]
                      
 
-                
-
-
 def read_unigram_counts():
     unigram_count_index = {}
     unigram_prob_index = {}
