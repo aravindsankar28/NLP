@@ -324,10 +324,10 @@ for f in files:
         matrix.append([float(x) for x in lines.split()])
     matrices.append(matrix)
 
-start = time.time()
 with open('../TrainData/words.tsv') as f:
     lines = f.read().splitlines()
     for line in lines:
+        start = time.time()
         misspelt_word = line.split('\t')[0]
         print "misspelt = ", misspelt_word
         #misspelt_word = raw_input('Enter word :')
@@ -349,16 +349,15 @@ with open('../TrainData/words.tsv') as f:
         results.sort(key=lambda x: x[2], reverse=True)
         print results
         #break
-        #print results
-        results_pruned = []
+        #results_pruned = []
         #for result in results:
         #    if not(prior_frequencies[result[0]] == 0.0 and result[1] >2):
         #        results_pruned.append(result)
 
         #print len(results_pruned)
+        end = time.time()
+        print "time = "+str(end- start) 
         
-end = time.time()
-print "time = "+str(end- start) 
 #print len(candidate_selections)
 # TODO : Prune candidate_selections to get words with edit distance less than 3
 # TODO : Get confusion matrices (hard code or not ?) and estimate likelihood scores. 
