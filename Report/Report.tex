@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.9in]{geometry}
+\usepackage[colorlinks]{hyperref}
+\begin{document}
+\title{\textbf{Natural Language Processing - CS6370 }
+\\
+\textbf{Spell Check Assignment Report}}
+\author{Aravind Sankar CS11B033 \\
+Sriram V CS11B058 \\
+\\[0.2in]
+}
+
+\maketitle
+\section{Introduction}
+This assignment involved designing an efficient spell checker. This spell checking assignment was divided into three parts : 
+\begin{itemize}
+\item Word checker where spelling corrections are given for a misspelled word not present in the dictionary.
+\item Phrase checker where spelling corrections are given for misspelled word(s) present in phrases.
+\item Sentence checker where spelling corrections are given misspelled word(s) present in sentences.
+
+The Spell Checker was implemented in \textit{Python}.
+\end{itemize}
+
+\section{Corpora used :}
+\begin{itemize}
+
+\item The Unix dictionary for american english, which has close to 73,000 valid english words was used as the dictionary to identify if a given word has a spelling error.
+
+\item Corpus of Contemporary American English (COCA) dataset, which has 1,000,000 most frequent n-grams. This was used in the phrase and sentence spell checkers.	
+
+\item The brown corpus was also initially used for learning context words, but isn't part of the final spell checker model.
+
+\end{itemize}
+
+\section{Word Checker}
+The basic idea of approach for Word Checker was obtained from the paper by Kernighan et.al which was titled - A Spelling Correction Program Based on a Noisy Channel Model. This paper doesn't take the context in which a misspelt word appears into account, and provides spelling corrections for standalone words.
+
+
+
+\end{document}

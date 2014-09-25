@@ -119,7 +119,7 @@ def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,qua
 	(prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams) = word_check.preprocessing()
 
 	
-	with open('../TrainData/phrases.tsv') as f:
+	with open('../TrainData/sentences.tsv') as f:
 		lines = f.read().splitlines()
 		for line in lines:
 			phrase = line.split('  ')[0]
