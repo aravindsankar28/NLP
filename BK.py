@@ -156,7 +156,7 @@ if __name__ == "__main__":
     # You need a list of words
     #words = file("somewordlist.txt").read().split()
 
-    words = iter(file("NLP/indexlength/Unix-Dict-new.txt").read().split())
+    words = iter(file("indexlength/Unix-Dict-new.txt").read().split())
     #print words
     tree = BKtree(words, editDistanceFast)
     print tree.root
