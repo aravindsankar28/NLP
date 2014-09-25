@@ -3,3 +3,6 @@
 *.swo
 *.model*
 *.pyc
+*.out
+*.log
+*.aux
