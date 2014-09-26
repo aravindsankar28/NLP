@@ -118,11 +118,12 @@ def compute_scores(phrase,preprocessed):
             max_score = 0
             max_score_1 = 0
             max_sentence = []
-            max_likelihood = 0
+            max_likelihood = -100000
             for confused_triple in confusion_set:
                 confused_word = confused_triple[0]
                 edit_dist = confused_triple[1]
-                likelihood = confused_triple[2] #note: computation includes prior too
+                likelihood = math.log(confused_triple[2]) #note: computation includes prior too
+                
                 sentence  = list(words)
                 sentence[pos] = confused_word
                 score1 = find_prob_sentence_all_grams(sentence,pos,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
@@ -141,12 +142,13 @@ def compute_scores(phrase,preprocessed):
                 results.append((sentence,score1,likelihood,confused_word,pos))
 
             results_new = []
+            #print max_likelihood
             for res in results:
                 if max_score_1 == 0:
                     a = max_score_1
                 else:
                     a = res[1]/max_score_1
-                b = res[2]/max_likelihood
+                b = res[2]/abs(max_likelihood)
                 results_new.append((res[0],(0.7*a+0.3*b),a,b,res[3],res[4]))
 
             phrase_results.append(results_new)
@@ -155,6 +157,7 @@ def compute_scores(phrase,preprocessed):
     if num_misspelt_words ==0 :
         print phrase
     elif num_misspelt_words == 1 and len(phrase_results) >0:
+        #print sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:5]
         print_sentences_from_list(sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:5])
         #print sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:3]
 

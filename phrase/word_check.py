@@ -391,7 +391,7 @@ def run_test_data(prior_frequencies,ngram_words,matrices,dict_bigrams):
                 trie.insert(word)
         
             results = search(misspelt_word, matrices,trie)
-            results = [(x[0],x[1],x[2]) for x in results]
+            results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]) for x in results]
             results.sort(key=lambda x: x[2], reverse=True)
             print results[0:5]
             print time.time()-start_time
@@ -419,7 +419,7 @@ def run_input(prior_frequencies,ngram_words,matrices,dict_bigrams):
             trie.insert(word)
     
         results = search(misspelt_word, matrices,trie)
-        results = [(x[0],x[1],x[2],prior_frequencies[x[0]]) for x in results]
+        results = [(x[0],x[1],x[2]*prior_frequencies[x[0]],prior_frequencies[x[0]]) for x in results]
         results.sort(key=lambda x: x[2], reverse=True)
         print results[0:5]
 
