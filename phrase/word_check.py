@@ -359,8 +359,8 @@ def get_confusion_set(misspelt_word,prior_frequencies,ngram_words,matrices,dict_
     candidate_selections = jaccard_prune(misspelt_word,candidate_selections,dict_bigrams)
 
     for word in candidate_selections:
-        if word == 'cost':
-            print "here"
+        #if word == 'cost':
+        #    print "here"
         trie.insert(word)
 
     results = search(misspelt_word, matrices,trie)

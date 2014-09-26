@@ -4,6 +4,7 @@ import word_check
 MIN_TRIGRAM_PROB = math.pow(10,(-7))
 MIN_UNIGRAM_PROB = math.pow(10,(-8))
 CONFUSION_SET_SIZE = 20
+
 def ngrams(array, n):
     return [array[i:i+n] for i in range(1+len(array)-n)]
 
@@ -13,16 +14,14 @@ def print_sentences_from_list(sentences):
             print word,
         print " "+str(sentence[1])
     print "\n"
+
 def all_grams(array,word_pos):
     l = []
-
     for i in range(2,6):
         for j in range(word_pos-i+1,word_pos+1):
             
             if j>=0 and j+i <= len(array):
                 l.append(array[j:j+i])
-
-    #print l
     return l
 
 def extract_words(text):
@@ -39,7 +38,6 @@ def read_ngram_counts(n):
             words = []
             for x in split_line[1:]:
                 words.append(x.lower())
-
             word_list = tuple(words)
             index[word_list] = freq
     return index
@@ -53,9 +51,7 @@ def estimate_trigram_probabilities(trigram_count_index,bigram_count_index):
             trigram_prob_index[trigram] = 0
         else:
             trigram_prob_index[trigram] = trigram_prob_index[trigram]/float(bigram_count_index[bigram])
-            
     return trigram_prob_index
-
 
 def estimate_ngram_probabilities(ngram_count_index,n_minus1_gram_count_index,n):
     ngram_prob_index = dict(ngram_count_index)
@@ -65,7 +61,6 @@ def estimate_ngram_probabilities(ngram_count_index,n_minus1_gram_count_index,n):
         else:
             n_minus1_gram = ngram[0]
 
-        
         if n_minus1_gram not in n_minus1_gram_count_index:
             # Ignore n gram if n-1 gram doesn't exist
             #print "del ",n_minus1_gram
@@ -74,13 +69,9 @@ def estimate_ngram_probabilities(ngram_count_index,n_minus1_gram_count_index,n):
             ngram_prob_index[ngram] = ngram_prob_index[ngram]/float(n_minus1_gram_count_index[n_minus1_gram])
     return ngram_prob_index
 
-
-
-
 def find_prob_of_sentence(sentence,trigram_prob_index,unigram_prob_index):
     p = 1.0
     ngrams_sentence = ngrams(sentence,3)
-
     word1 = sentence[0]
     word2 = sentence[1]
     # if word1 in unigram_prob_index:
@@ -95,7 +86,6 @@ def find_prob_of_sentence(sentence,trigram_prob_index,unigram_prob_index):
         else:
             prob = trigram_prob_index[tuple(ngram)]
         p = p*prob
-
     return p
 
 def find_prob_sentence_all_grams(sentence,word_pos,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
@@ -110,7 +100,6 @@ def find_prob_sentence_all_grams(sentence,word_pos,fivegram_count_index,quadgram
             count += math.log(trigram_count_index[tuple(ngram)] *1)
         elif len(ngram) ==2 and tuple(ngram) in bigram_count_index:
             count += math.log(bigram_count_index[tuple(ngram)] *1)
-    #print count
     return count
 
 
@@ -166,21 +155,21 @@ def compute_scores(phrase,preprocessed):
     if num_misspelt_words ==0 :
         print phrase
     elif num_misspelt_words == 1 and len(phrase_results) >0:
-        print_sentences_from_list(sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:3])
+        print_sentences_from_list(sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:5])
         #print sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:3]
 
     elif len(phrase_results) >0:
     # Works only for 2 misspelt words
         combinations = []
         for i in range(0,num_misspelt_words):
-            a = sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3]
+            a = sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:5]
             for j in range(0,3):
                 word_1 = a[j][4]
                 pos_1 = a[j][5]
                 like_1 = a[j][3]
                 #print word_1,pos_1
                 for k in range(i+1,num_misspelt_words):
-                    b = sorted(phrase_results[k],key=lambda x: x[1],reverse=True)[0:3]
+                    b = sorted(phrase_results[k],key=lambda x: x[1],reverse=True)[0:5]
                     for l in range(0,3):
                         word_2 = b[l][4]
                         pos_2 = b[l][5]
@@ -211,14 +200,12 @@ def compute_scores(phrase,preprocessed):
 
         print_sentences_from_list(sorted(results_updated,key=lambda x: x[1],reverse=True)[0:5])
 
-
 def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
 
     #ngram_words = build.buildDict() # Get the index structure build from word checker
     preprocessed = word_check.preprocessing()
 
-    
-    with open('../TrainData/phrases.tsv') as f:
+    with open('../TrainData/sentences.tsv') as f:
         lines = f.read().splitlines()
         for line in lines:
             phrase = line.split('  ')[0]
@@ -261,7 +248,6 @@ def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,qua
             #     print_sentences_from_list(sorted(results_new,key=lambda x: x[1],reverse=True)[0:5])
 
             #         #sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3][5]
-                     
 
 def read_unigram_counts():
     unigram_count_index = {}
@@ -278,7 +264,6 @@ def read_unigram_counts():
     for key in unigram_prob_index:
         unigram_prob_index[key] /= float(total)
     return (unigram_prob_index,unigram_count_index)
-                
 
 def run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
 
@@ -296,11 +281,9 @@ def run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgra
 bigram_count_index = read_ngram_counts(2)
 trigram_count_index = read_ngram_counts(3)
 quadgram_count_index = read_ngram_counts(4)
-
 fivegram_count_index = read_ngram_counts(5)
 
 trigram_prob_index = estimate_ngram_probabilities(trigram_count_index,bigram_count_index,3)
-
 #bigram_prob_index = estimate_ngram_probabilities(bigram_count_index,unigram_count_index,2)
 #print bigram_prob_index
 run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
