@@ -278,7 +278,8 @@ def get_dict_bigrams():
             bigrams = set(ngrams(word,2))
             d[word] = bigrams
     return d
-
+		
+        
 def jaccard_prune(misspelt_word,candidates,dict_bigrams):
     #print len(candidates)
     ngrams_misspelt_word = set(ngrams(misspelt_word,2))
@@ -287,17 +288,20 @@ def jaccard_prune(misspelt_word,candidates,dict_bigrams):
         #ngrams_word = set(ngrams(word,2))
         ngrams_word = dict_bigrams[word]
         intersection = len(ngrams_word & ngrams_misspelt_word)
-        union = len(ngrams_word | ngrams_misspelt_word)
-        sim = intersection/float(union)
+        #union = len(ngrams_word) + len(ngrams_misspelt_word) - intersection
+        #sim = intersection/float(union)
+        sim = intersection/float(len(ngrams_word))
         #sim = intersection/float(max(len(ngrams_word),len(ngrams_misspelt_word)))
         d[word] = sim
+
     sorted_x = sorted(d.items(), key=operator.itemgetter(1),reverse= True)
+    
     a =  sorted_x[0:300]
     b = []
-
+    
     for x in a:
         b.append(x[0])
-    #print a
+    
     return b
 
 
