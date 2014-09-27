@@ -63,6 +63,10 @@ Instead of searching the entire set of words in the dictionary to find out words
 \item We create an inverted index of bigrams to set of words that contain the bigram. The set of words that contain the bigram, are also indexed by the length of the word. 
 \item At query time, all possible bigrams of the misspelt word are found and we use the index structure to find all words that contain any of the bigrams, and also within length of $\pm$ 3 from the misspelt word. 
 \item The set of candidate words obtained in the previous step are ranked according to the Jaccard Similarity index, and top-200 words are chosen for next stage.
+\item We computed the Jaccard's similarity for strings $x$ and $y$ by constructing the sets $X$ and $Y$ as the set of bigrams (letter) in strings $x$ and $y$ respectively. The jaccard similarity is computed as :
+
+\[Sim(X,Y) = \frac{|X \cap Y|}{|X \cup Y|} \] 
+
 \item In this stage, we need to compute the likelihood scores for the candidates corrections obtained in the previous step. The dynamic programming solution for computing the DL distance has $O(n^2)$ complexity.
 \item We use the \texttt{trie} data structure to store these candidate words, and efficiently search the tree and return words within a given edit distance threshold (3 here). This gives a great reduction in the time taken in comparison to the brute force approach of computing edit distance for each of the words.
 
@@ -78,4 +82,38 @@ try to put some more fart :P.
 \end{flushleft}
 
 \section{Phrase and Sentence Checker}
+We tried 2 different approaches for the phrase/sentence spell checking problem and finally chose one of them.
+\subsection{Context words}
+The first approach is based on the idea of context sensitive spelling correction. We followed the paper - A Bayesian hybrid method for context-sensitive spelling correction by Andrew Golding. For the target word, they identify a confusion set, which is a set of possible words that could replace that word in a sentence. Since the paper deals with correcting spelling errors that result in valid words in the sentence, they assume that they have predefined confusion sets. In our case, since we're correcting misspelt words only, we use the top-20 candidates returned from our word checker as our confusion set. Let $w_i$ represent each word in the confusion set. The idea is that, each word $w_i$ in the confusion set will have a
+characteristic distribution of words that occur in its context. Thus, to classify an ambiguous target word, we look at the words that occur around it and see which $w_i$'s distribution they closely follow. For this purpose, we look at the context words that occur in a window of $\pm k$ window of the target word. 
+
+\[P(w_i|c_{-k},...,c_{1},...,c_{k}) = P(w_i) P(c_{-k},...,c_{1},...,c_{k})\]
+
+\[P(w_i|c_{-k},...,c_{1},...,c_{k}) = \prod_{j \in -k,...,1,...,k} p(c_j|w_i) \]
+
+We assume that the occurrence of each context word is independent of every other context word.
+
+The values of $P(c_j|w_i)$ were estimated using the brown corpus.
+
+When we tested it for the sample test cases, we didn't get very good results as the context words in phrases were too general to uniquely identify words in the confusion set based on frequency in the corpus.
+
+\subsection{N-gram models}
+\subsection*{Approach 1}
+The next approach we tried was language models, more specifically n-gram models. A language model assigns a probability to a sentence, represented as a sequence of words. Suppose a sentence is represented as $W = w_1w_2w_3...w_n$, then we calculate $P(w)$ using the chair rule of probability as :
+\[P(W) = P(w_1w_2w_3...w_n) = \prod_i P(w_i|w_1w_2...w_{i-1})\]
+
+As estimating each of the joint probabilities from the corpus won't be feasible due to data sparsity, we looked at n-gram models, where we approximate the product as (for a k-gram model),
+\[P(W) \approx \prod_i P(w_i|w_{i-k}...w_{i-1}) \]
+
+We use the trigram and bigram frequency counts obtained from the COCA dataset.
+As in the previous case, we obtain our confusion set from the output of our word checker. By substituting each word in the confusion set in place of the misspelt word in the phrase, we get a set of candidate phrases (or sentences). 
+Using the trigram model, we find out the probability of each sentence, and rank them using these as scores.  This approach used the general idea of language models to do spelling correction for phrases.
+\subsection*{Approach 2}
+The idea behind our second approach based on language models was derived from the paper - Web-Scale N-gram Models for Lexical Disambiguation  by Bergsma et.al.
+Out of the many techniques that paper describes, we adapt the \textbf{SUMLM} algorithm. 
+We consider ngrams of sizes 5,4,3 and 2. Again, just like in the previous approach , we get a list of candidate sentences using the confusion set obtained from word checker.
+For a given sentence, we find out possible n-grams which contain the target word, $\forall n \in \left\lbrace 2,3,4,5 \right\rbrace$. This gives rise to a maximum of 14 ngrams, which contain the target word. We find the ngram counts of each of these grams, and take the $log$ sum of each of these counts to get the score for that particular sentence.
+
+TODO : add content abt. weights given to this score and likelihood and abt. combining.
+
 \end{document}
