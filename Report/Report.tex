@@ -12,7 +12,7 @@
 %\\[0.2in]
 %}
 
-\documentclass[paper=a4, fontsize=11pt]{report} % A4 paper and 11pt font size
+\documentclass[paper=a4, fontsize=11pt]{scrreprt} % A4 paper and 11pt font size
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
 \usepackage[english]{babel} % English language/hyphenation
@@ -56,16 +56,16 @@
 \huge CS6370 -- Natural Language Processing \\ Spell Check Assignment Report \\ % The assignment title
 \horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
 }
-\author{\Large Aravind Sankar (CS11B033) \\ \Large Sriram V (CS11B058)} % Your name
+\author{\large Aravind Sankar (CS11B033) \\ \large Sriram V (CS11B058)} % Your name
 
-\date{\today} % Today's date or a custom date
+\date{\normalsize\today} % Today's date or a custom date
 
 \begin{document}
 
 \maketitle
 
 \section{Introduction}
-This assignment involved designing an efficient spell checker. This spell checking assignment was divided into three parts : 
+This assignment involved designing an efficient spell checker. This spell checking assignment was divided into three parts: 
 \begin{itemize}
 \item Word checker where spelling corrections are given for a misspelled word not present in the dictionary.
 \item Phrase checker where spelling corrections are given for misspelled word(s) present in phrases.
@@ -74,7 +74,7 @@ This assignment involved designing an efficient spell checker. This spell checki
 The Spell Checker was implemented in \textit{Python}.
 \end{itemize}
 
-\section{Corpora used :}
+\section{Corpora Used}
 \begin{itemize}
 
 \item The Unix dictionary for american english, which has close to 73,000 valid english words was used as the dictionary to identify if a given word has a spelling error.
