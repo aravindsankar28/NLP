@@ -1,7 +1,8 @@
 from sets import Set
-import time, re,operator
+import time, re, operator, metaphone
 MAX_EDIT = 3
 NGRAM_N = 2
+
 
 class TrieNode:
     def __init__(self):
@@ -145,11 +146,13 @@ def edit_distance_simple(w1, w2):
  
     return previous_row[-1]
 
+
 '''
 Returns list of ngrams for a word
 '''
 def ngrams(word, n):
     return [word[i:i+n] for i in range(1+len(word)-n)]
+
 
 def ngram_index_structure_only(words,n):
     index = {}
@@ -160,6 +163,7 @@ def ngram_index_structure_only(words,n):
                 index[ngram] = []
             index[ngram].append(word)
     return index
+
 
 '''
 Returns index structure indexed by ngrams and has an entry which is list of words that have the ngram
@@ -176,6 +180,7 @@ def ngram_index_structure(words,n):
             index[ngram][len(word)].append(word)
     return index
 
+
 def candidate_from_ngrams_only(ngram_words,word,n):
     candidates = set()
     ngrams_list = ngrams(word,n)
@@ -185,7 +190,6 @@ def candidate_from_ngrams_only(ngram_words,word,n):
         candidates = candidates | set(word_set)
     print len(candidates)
     return candidates
-
 
 
 '''
@@ -207,6 +211,7 @@ def candidate_from_ngrams(ngram_words,word,n):
     #print len(candidates)
     return candidates
 
+
 def brute_force_candidates_edit_distance(word,candidates):
     candidates_selected = []
     for w in candidates:
@@ -216,19 +221,20 @@ def brute_force_candidates_edit_distance(word,candidates):
     return candidates_selected
 
 
-
 def preprocessing():
     words = []
     ngram_words = {}
     prior_frequencies = {}
     total_frequencies = 0
     matrices = []
+    phonetic = {}
 
     # Reading dictionary
     with open('../ngrams/unixdict.txt') as f:
         for line in f.read().splitlines():
             word = line.split('\t')[0]
             words.append(word)
+            phonetic[word] = metaphone.dm(word)
             prior_frequencies[word] = 1 # Doing add one
 
     # extracted = re.findall('[a-z]+', file("big.txt").read().lower()) # reads from big.txt
@@ -247,13 +253,11 @@ def preprocessing():
                total_frequencies += int(freq)
 
     # Divide by total frequency to get probability
-    for word in prior_frequencies:
-        prior_frequencies[word] = prior_frequencies[word]/float(total_frequencies)
+    prior_frequencies = {k:v/float(total_frequencies) for k, v in prior_frequencies.iteritems()}
 
     ngram_words =  ngram_index_structure(words,NGRAM_N)
 
     # Load matrices
-   
     files = ['../ngrams/addoneAddXY.txt', '../ngrams/addoneSubXY.txt', '../ngrams/addoneDelXY.txt', '../ngrams/newCharsXY.txt', '../ngrams/addoneRevXY.txt', '../ngrams/sumnewCharsXY.txt']
     for f in files[:-1]:
         matrix = []
@@ -267,7 +271,7 @@ def preprocessing():
     matrices.append(matrix)
 
     dict_bigrams = get_dict_bigrams()
-    return (prior_frequencies,ngram_words,matrices,words,dict_bigrams)
+    return (prior_frequencies,ngram_words,matrices,words,dict_bigrams,phonetic)
 
 
 def get_dict_bigrams():
@@ -295,13 +299,10 @@ def jaccard_prune(misspelt_word,candidates,dict_bigrams):
         d[word] = sim
 
     sorted_x = sorted(d.items(), key=operator.itemgetter(1),reverse= True)
-    
     a =  sorted_x[0:300]
     b = []
-    
     for x in a:
         b.append(x[0])
-    
     return b
 
 
@@ -319,66 +320,59 @@ def get_confusion_set(misspelt_word,prior_frequencies,ngram_words,matrices,dict_
     results = search(misspelt_word, matrices,trie)
     results = [(x[0],x[1],x[2]) for x in results]
     results.sort(key=lambda x: x[2], reverse=True)
-
     return results[0:n]
 
-def run_test_data(prior_frequencies,ngram_words,matrices,dict_bigrams):
-    
+
+def phonetic_score(w1, w2):
+    if w1[0]==w2[0]:
+        return 20
+    elif w1[0]==w2[1] or w1[1]==w2[0]:
+        return 1
+    else:
+        return 0.05
+
+
+def get_results(misspelt_word,prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic):
+    start_time = time.time()
+    candidate_selections = []
+    candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
+    candidate_selections = jaccard_prune(misspelt_word,candidate_selections,dict_bigrams)
+    word_ph = metaphone.dm(misspelt_word)
+    #print len(candidate_selections)
+    # read dictionary file into a trie
+    trie = TrieNode()
+    for word in candidate_selections:
+        trie.insert(word)
+
+    results = search(misspelt_word, matrices,trie)
+    results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]*phonetic_score(word_ph, phonetic[x[0]])) for x in results]
+    results.sort(key=lambda x: x[2], reverse=True)
+    print results[0:5]
+    print time.time()-start_time
+
+
+def run_test_data(prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic):
     start = time.time()
     with open('../TrainData/words.tsv') as f:
         lines = f.read().splitlines()
         for line in lines:
-            start_time = time.time()
             misspelt_word = line.split('\t')[0]
-            #print "misspelt = ", misspelt_word
-            #misspelt_word = raw_input('Enter word :')
-            candidate_selections = []
-            candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
-            candidate_selections = jaccard_prune(misspelt_word,candidate_selections,dict_bigrams)
-            #print len(candidate_selections)
-            # read dictionary file into a trie
-            trie = TrieNode()
-            print len(candidate_selections),
-            for word in candidate_selections:
-                trie.insert(word)
-        
-            results = search(misspelt_word, matrices,trie)
-            results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]) for x in results]
-            results.sort(key=lambda x: x[2], reverse=True)
-            print results[0:5]
-            print time.time()-start_time
-            results_pruned = []
-        
+            print 'misspelt = ', misspelt_word
+            get_results(misspelt_word,prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic)
     end = time.time()
     print "time = "+str(end- start) 
 
 
-def run_input(prior_frequencies,ngram_words,matrices,dict_bigrams):
+def run_input(prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic):
     while True:
         misspelt_word = raw_input('Enter a word (# to stop) : ')
         if misspelt_word == '#' or misspelt_word == "#":
             break
-        candidate_selections = []
-        candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
-        candidate_selections = jaccard_prune(misspelt_word,candidate_selections,dict_bigrams)
-        #print candidate_selections[0:10]
-        #print len(candidate_selections)
-        # read dictionary file into a trie
-        trie = TrieNode()
-        print len(candidate_selections),
-        for word in candidate_selections:
-    
-            trie.insert(word)
-    
-        results = search(misspelt_word, matrices,trie)
-        results = [(x[0],x[1],x[2]*prior_frequencies[x[0]],prior_frequencies[x[0]]) for x in results]
-        results.sort(key=lambda x: x[2], reverse=True)
-        print results[0:5]
-
-(prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams) = preprocessing()
-run_test_data(prior_frequencies,ngram_words,matrices,dict_bigrams)
-#run_input(prior_frequencies,ngram_words,matrices,dict_bigrams)
+        get_results(misspelt_word,prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic)
 
 
-
-#print get_confusion_set('eath',prior_frequencies,ngram_words,matrices,2)
+if __name__=='__main__':
+    (prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams,phonetic) = preprocessing()
+    run_test_data(prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic)
+    #run_input(prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic)
+    #print get_confusion_set('eath',prior_frequencies,ngram_words,matrices,2)

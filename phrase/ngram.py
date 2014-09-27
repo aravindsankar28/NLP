@@ -1,4 +1,4 @@
-import re,math,sys
+import re, math, sys, time
 import word_check
 
 MIN_TRIGRAM_PROB = math.pow(10,(-7))
@@ -104,7 +104,8 @@ def find_prob_sentence_all_grams(sentence,word_pos,fivegram_count_index,quadgram
 
 
 def compute_scores(phrase,preprocessed):
-    (prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams) = preprocessed
+    (prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams,phonetic) = preprocessed
+    #don't use phonetic here
     words = extract_words(phrase)
     pos = 0
     num_misspelt_words =0
@@ -208,11 +209,13 @@ def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,qua
     #ngram_words = build.buildDict() # Get the index structure build from word checker
     preprocessed = word_check.preprocessing()
 
-    with open('../TrainData/phrases.tsv') as f:
+    with open('../TrainData/sentences.tsv') as f:
         lines = f.read().splitlines()
         for line in lines:
             phrase = line.split('  ')[0]
+            start_time = time.time()
             compute_scores(phrase,preprocessed)
+            print time.time()-start_time
 
             # elif len(phrase_results) >0:
             #     # Works only for 2 misspelt words
