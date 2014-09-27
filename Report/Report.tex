@@ -107,13 +107,26 @@ As estimating each of the joint probabilities from the corpus won't be feasible 
 
 We use the trigram and bigram frequency counts obtained from the COCA dataset.
 As in the previous case, we obtain our confusion set from the output of our word checker. By substituting each word in the confusion set in place of the misspelt word in the phrase, we get a set of candidate phrases (or sentences). 
-Using the trigram model, we find out the probability of each sentence, and rank them using these as scores.  This approach used the general idea of language models to do spelling correction for phrases.
+Using the trigram model, we find out the probability of each sentence, and rank them using these as scores.  This approach used the general idea of language models to do spelling correction for phrases, but it was found the following approach gave much better results for spelling correction.
+
+
 \subsection*{Approach 2}
 The idea behind our second approach based on language models was derived from the paper - Web-Scale N-gram Models for Lexical Disambiguation  by Bergsma et.al.
 Out of the many techniques that paper describes, we adapt the \textbf{SUMLM} algorithm. 
 We consider ngrams of sizes 5,4,3 and 2. Again, just like in the previous approach , we get a list of candidate sentences using the confusion set obtained from word checker.
-For a given sentence, we find out possible n-grams which contain the target word, $\forall n \in \left\lbrace 2,3,4,5 \right\rbrace$. This gives rise to a maximum of 14 ngrams, which contain the target word. We find the ngram counts of each of these grams, and take the $log$ sum of each of these counts to get the score for that particular sentence.
 
-TODO : add content abt. weights given to this score and likelihood and abt. combining.
+Assuming the sentence has only one error, for a given sentence $w$, we find out possible n-grams which contain the target word, $\forall n \in \left\lbrace 2,3,4,5 \right\rbrace$. This gives rise to a maximum of 14 ngrams, which contain the target word. We find the ngram counts of each of these grams, and take the $log$ sum of each of these counts to get the score for that particular sentence.
 
+
+
+Though this score gave correct phrases in the top-K results, it didn't rank them in the correct order. This was because we didn't take the likelihood factor (computed in word checker) into account. Without using likelihood to rank the scores, we had a few correction words that weren't so close to the misspelt word in terms of edit-distance and possible transformations (weren't that likely), but figured in the top of our list because they had larger ngram counts. To avoid this problem, we weighted our final score for each of the candidate words based on both the ngram model score and the likelihood score. This gave us the better results in comparison to the more traditional ngram model, as we include all possible ngram counts and hence cover even long range dependencies as much as possible.
+
+This solved the case of one misspelt word per sentence/phrase. 
+
+When we had more than one misspelt word, we followed a 2 step procedure :
+
+\begin{itemize}
+\item First, we consider each misspelt word independent of the other one, and find a set of top-K (5 generally) corrections using the above procedure. This method has an obvious limitation that, it ignores ngrams in which the other misspelt word(s) also occurs, as such an ngrams which contain the other misspelt word.
+\item We take the top-K corrections for each of the misspelt words, and construction combinations or tuples. We then recompute the ngram model scores for each of these sentences, and rank these sentences to give our final set.
+\end{itemize}
 \end{document}
