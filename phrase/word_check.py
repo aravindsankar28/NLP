@@ -124,101 +124,47 @@ def searchRecursive(node, w1, w2, twoago, twoagoProb, previousRow, prevProb, res
 
 
 '''
-Returns levenshtein edit distance between words w1 and w2
-'''
-def edit_distance_simple(w1, w2):
-    #if len(w1) < len(w2):
-    #    return edit_distance(w2, w1)
- 
-    # len(w1) >= len(w2)
-    if len(w2) == 0:
-        return len(w1)
- 
-    previous_row = range(len(w2) + 1)
-    for i, c1 in enumerate(w1):
-        current_row = [i + 1]
-        for j, c2 in enumerate(w2): # At j ,compute for j+1
-            deletions = previous_row[j + 1] + 1 # E(i,j+1) = E(i-1,j+1) +1
-            insertions = current_row[j] + 1      # E(i,j+1) = E(i,j)+1
-            substitutions = previous_row[j] + (c1 != c2)
-            current_row.append(min(insertions, deletions, substitutions))
-        previous_row = current_row
- 
-    return previous_row[-1]
-
-
-'''
 Returns list of ngrams for a word
 '''
 def ngrams(word, n):
     return [word[i:i+n] for i in range(1+len(word)-n)]
 
 
-def ngram_index_structure_only(words,n):
-    index = {}
-    for word in words:
-        ngrams_list = ngrams(word,n)
-        for ngram in ngrams_list:
-            if ngram not in index:
-                index[ngram] = []
-            index[ngram].append(word)
-    return index
-
-
 '''
 Returns index structure indexed by ngrams and has an entry which is list of words that have the ngram
 '''
 def ngram_index_structure(words,n):
-    index = {}
+    alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+    index = {x+y:{} for x in alphabet for y in alphabet}
     for word in words:
         ngrams_list = ngrams(word,n)
         for ngram in ngrams_list:
-            if ngram not in index:
-                index[ngram] = {}
             if len(word) not in index[ngram]:
                 index[ngram][len(word)] = []
             index[ngram][len(word)].append(word)
     return index
 
 
-def candidate_from_ngrams_only(ngram_words,word,n):
-    candidates = set()
-    ngrams_list = ngrams(word,n)
-    for ngram in ngrams_list:
-        word_set = ngram_words[ngram]
-        #print a
-        candidates = candidates | set(word_set)
-    print len(candidates)
-    return candidates
-
-
 '''
 Returns a set of candidate words using the ngram index structure created
 '''
-def candidate_from_ngrams(ngram_words,word,n):
-    candidates = set()
-    ngrams_list = ngrams(word,n)
-    for ngram in ngrams_list:
-        word_set = []
-        if ngram not in ngram_words:
-            continue
-        for length in range(max(len(word)-MAX_EDIT,2),len(word)+MAX_EDIT+1):
-                if length in ngram_words[ngram]:
-                    word_set.extend(ngram_words[ngram][length])
-        #word_set = ngram_words[ngram]
-        #print a
-        candidates = candidates | set(word_set)
-    #print len(candidates)
-    return candidates
-
-
-def brute_force_candidates_edit_distance(word,candidates):
-    candidates_selected = []
-    for w in candidates:
-        distance = edit_distance_simple(word,w)
-        if distance <= MAX_EDIT:
-            candidates_selected.append(w)
-    return candidates_selected
+def similarity_prune(ngram_words, word, n):
+    intersect_dict = {}
+    lb = max(len(word)-MAX_EDIT,2)
+    ub = len(word)+MAX_EDIT+1
+    for ngram in ngrams(word,n):
+        for length in range(lb, ub):
+            if length in ngram_words[ngram]:
+                for word in ngram_words[ngram][length]:
+                    if word not in intersect_dict:
+                        intersect_dict[word] = 0
+                    intersect_dict[word] += 1
+    
+    # generate similarity scores
+    intersect_dict = {k:v/float(len(k)-n+1) for k, v in intersect_dict.iteritems()} # denominator is no. of ngrams
+    sorted_x = sorted(intersect_dict.items(), key=operator.itemgetter(1), reverse= True)
+    final =  [x[0] for x in sorted_x[:300]]
+    return final
 
 
 def preprocessing():
@@ -270,51 +216,14 @@ def preprocessing():
         matrix.append(float(lines))
     matrices.append(matrix)
 
-    dict_bigrams = get_dict_bigrams()
-    return (prior_frequencies,ngram_words,matrices,words,dict_bigrams,phonetic)
+    return (prior_frequencies,ngram_words,matrices,words,phonetic)
 
 
-def get_dict_bigrams():
-    d = {}
-    with open('../ngrams/unixdict.txt') as f:
-        for line in f.read().splitlines():
-            word = line.split('\t')[0]
-            bigrams = set(ngrams(word,2))
-            d[word] = bigrams
-    return d
-		
-        
-def jaccard_prune(misspelt_word,candidates,dict_bigrams):
-    #print len(candidates)
-    ngrams_misspelt_word = set(ngrams(misspelt_word,2))
-    d = {}
-    for word in candidates:
-        #ngrams_word = set(ngrams(word,2))
-        ngrams_word = dict_bigrams[word]
-        intersection = len(ngrams_word & ngrams_misspelt_word)
-        #union = len(ngrams_word) + len(ngrams_misspelt_word) - intersection
-        #sim = intersection/float(union)
-        sim = intersection/float(len(ngrams_word))
-        #sim = intersection/float(max(len(ngrams_word),len(ngrams_misspelt_word)))
-        d[word] = sim
+def get_confusion_set(misspelt_word,prior_frequencies,ngram_words,matrices,n):
+    candidate_selections = similarity_prune(ngram_words, misspelt_word, NGRAM_N)
 
-    sorted_x = sorted(d.items(), key=operator.itemgetter(1),reverse= True)
-    a =  sorted_x[0:300]
-    b = []
-    for x in a:
-        b.append(x[0])
-    return b
-
-
-def get_confusion_set(misspelt_word,prior_frequencies,ngram_words,matrices,dict_bigrams,n):
-    candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
     trie = TrieNode()
-    #print len(candidate_selections),
-    candidate_selections = jaccard_prune(misspelt_word,candidate_selections,dict_bigrams)
-
     for word in candidate_selections:
-        #if word == 'cost':
-        #    print "here"
         trie.insert(word)
 
     results = search(misspelt_word, matrices,trie)
@@ -332,14 +241,11 @@ def phonetic_score(w1, w2):
         return 0.05
 
 
-def get_results(misspelt_word,prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic):
+def get_results(misspelt_word,prior_frequencies,ngram_words,matrices,phonetic):
     start_time = time.time()
-    candidate_selections = []
-    candidate_selections = candidate_from_ngrams(ngram_words,misspelt_word,NGRAM_N)
-    candidate_selections = jaccard_prune(misspelt_word,candidate_selections,dict_bigrams)
+    candidate_selections = similarity_prune(ngram_words, misspelt_word, NGRAM_N)
     word_ph = metaphone.dm(misspelt_word)
-    #print len(candidate_selections)
-    # read dictionary file into a trie
+
     trie = TrieNode()
     for word in candidate_selections:
         trie.insert(word)
@@ -351,28 +257,28 @@ def get_results(misspelt_word,prior_frequencies,ngram_words,matrices,dict_bigram
     print time.time()-start_time
 
 
-def run_test_data(prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic):
+def run_test_data(prior_frequencies,ngram_words,matrices,phonetic):
     start = time.time()
     with open('../TrainData/words.tsv') as f:
         lines = f.read().splitlines()
         for line in lines:
             misspelt_word = line.split('\t')[0]
             print 'misspelt = ', misspelt_word
-            get_results(misspelt_word,prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic)
+            get_results(misspelt_word,prior_frequencies,ngram_words,matrices,phonetic)
     end = time.time()
     print "time = "+str(end- start) 
 
 
-def run_input(prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic):
+def run_input(prior_frequencies,ngram_words,matrices,phonetic):
     while True:
         misspelt_word = raw_input('Enter a word (# to stop) : ')
         if misspelt_word == '#' or misspelt_word == "#":
             break
-        get_results(misspelt_word,prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic)
+        get_results(misspelt_word,prior_frequencies,ngram_words,matrices,phonetic)
 
 
 if __name__=='__main__':
-    (prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams,phonetic) = preprocessing()
-    run_test_data(prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic)
-    #run_input(prior_frequencies,ngram_words,matrices,dict_bigrams,phonetic)
+    (prior_frequencies,ngram_words,matrices,dictionary,phonetic) = preprocessing()
+    run_test_data(prior_frequencies,ngram_words,matrices,phonetic)
+    #run_input(prior_frequencies,ngram_words,matrices,phonetic)
     #print get_confusion_set('eath',prior_frequencies,ngram_words,matrices,2)

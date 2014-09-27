@@ -104,7 +104,7 @@ def find_prob_sentence_all_grams(sentence,word_pos,fivegram_count_index,quadgram
 
 
 def compute_scores(phrase,preprocessed):
-    (prior_frequencies,ngram_words,matrices,dictionary,dict_bigrams,phonetic) = preprocessed
+    (prior_frequencies,ngram_words,matrices,dictionary,phonetic) = preprocessed
     #don't use phonetic here
     words = extract_words(phrase)
     pos = 0
@@ -115,7 +115,7 @@ def compute_scores(phrase,preprocessed):
         # Search in UNIX dictionary.
         if word not in dictionary:
             num_misspelt_words    += 1
-            confusion_set =  word_check.get_confusion_set(word,prior_frequencies,ngram_words,matrices,dict_bigrams,CONFUSION_SET_SIZE)    
+            confusion_set =  word_check.get_confusion_set(word,prior_frequencies,ngram_words,matrices,CONFUSION_SET_SIZE)    
             max_score = 0
             max_score_1 = 0
             max_sentence = []
