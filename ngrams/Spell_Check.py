@@ -21,7 +21,10 @@ class TrieNode:
         for letter in word:
             if letter not in node.children: 
                 node.children[letter] = TrieNode()
-                node.children[letter].w1 = self.w1+letter
+                if node.w1:
+                    node.children[letter].w1 = node.w1+letter
+                else:
+                    node.children[letter].w1 = letter
 
             node = node.children[letter]
 
@@ -49,109 +52,105 @@ def search(word, matrices):
 
     return results
 
-def searchnew(w2, matrices):
-    # build first row
-    previousProb = [1.0]
-    for j in range(len(w2)):
-        if j:
-            newprob = matrices[0][26][ord(w2[j])-97]/matrices[5][26] + matrices[0][ord(w2[j-1])-97][ord(w2[j])-97]/matrices[5][ord(w2[j-1])-97]
-        else:
-            newprob = matrices[0][26][ord(w2[j])-97]/matrices[5][26]
-        previousProb.append(currentProb[j]*newprob)
-    previousRow = range(len(w2)+1) #TODO: Combine row and prob?
-    twoago = None #TODO: Run code and compare?
-    twoagoProb = None
-    columns = len(w2)
-    i = 0
-    results = []
-    stack = []
-
-    # recursively search each branch of the trie
-    for node in trie.children.itervalues():
-        stack.append(node)
-
-    while stack:
-        node = stack.pop()
-        w1 = node.w1
-        if i:
-            newprob = matrices[2][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97] + matrices[2][26][ord(w1[i])-97]/matrices[3][26][ord(w1[i])-97]
-        else:
-            newprob = matrices[2][26][ord(w1[0])-97]/matrices[3][26][ord(w1[0])-97]
-        currentProb = [prevProb[0]*newprob]
-        currentRow = [previousRow[0] + 1]
-
-        # Build one row for the letter, with a column for each letter in the target
-        # word, plus one for the empty string at column 0
-        for j in xrange(columns):
-            deleteCost = previousRow[j+1] + 1
-            insertCost = currentRow[j] + 1
-            replaceCost = previousRow[j] + (w1[i] != w2[j])
-
-            minval = deleteCost
-            minlist = ['d']
-            for val in [(insertCost, 'i'), (replaceCost, 's')]:
-                if val[0]<minval:
-                    minval = val[0]
-                    minlist = [val[1]]
-                elif val[0]==minval:
-                    minlist.append(val[1])
-
-            # This block deals with transpositions
-            if (i and j and w1[i] == w2[j-1] and w1[i-1] == w2[j]):
-                transposeCost = twoago[j-1] + (w1[i] != w2[j])
-                minval = min(minval, transposeCost)
-                if transposeCost<minval:
-                    minval = transposeCost
-                    minlist = ['t']
-                elif transposeCost==minval:
-                    minlist.append('t')
-
-            newprob = 0.0
-            for elem in minlist:
-                if elem == 's':
-                    if w1[i]!=w2[j]:
-                        if previousRow[j]: # edit dist of prev is non-zero
-                            newprob += prevProb[j]*2*matrices[1][ord(w2[j])-97][ord(w1[i])-97]/matrices[5][ord(w1[i])-97]
-                        else:
-                            newprob += prevProb[j]*matrices[1][ord(w2[j])-97][ord(w1[i])-97]/matrices[5][ord(w1[i])-97]
-                    else:
-                        newprob += prevProb[j]
-                elif elem == 't':
-                    if w1[i]!=w2[j]:
-                        if twoago[j-1]: # edit dist of prev is non-zero
-                            newprob += twoagoProb[j-1]*2*matrices[4][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97]
-                        else:
-                            newprob += twoagoProb[j-1]*matrices[4][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97]
-                    else:
-                        newprob += twoagoProb[j-1]
-                elif elem == 'i':
-                    if currentRow[j]:
-                        newprob += currentProb[j]*(matrices[0][ord(w1[i])-97][ord(w2[j])-97]/matrices[5][ord(w1[i])-97]+matrices[0][ord(w2[j-1])-97][ord(w2[j])-97]/matrices[5][ord(w2[j-1])-97])
-                    else:
-                        newprob += currentProb[j]*matrices[0][ord(w1[i])-97][ord(w2[j])-97]/matrices[5][ord(w1[i])-97]
-                elif elem == 'd':
-                    if previousRow[j+1]:
-                        newprob += prevProb[j+1]*(matrices[2][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97]+matrices[2][ord(w2[j])-97][ord(w1[i])-97]/matrices[3][ord(w2[j])-97][ord(w1[i])-97])
-                    else:
-                        newprob += prevProb[j+1]*matrices[2][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97]
-
-            currentProb.append(newprob)
-            currentRow.append(minval)
-        twoago = previousRow
-        twoagoProb = prevProb
-        prevRow = currentRow
-        prevProb = currentProb
-
-        # if the last entry in the row indicates the optimal cost is less than the
-        # maximum cost, and there is a word in this trie node, then add it.
-        if currentRow[-1] <= MAX_EDIT and node.word != None: #TODO: Change to columns from -1?
-            results.append((node.word, currentRow[-1], currentProb[-1]))
-
-        # if any entries in the row are less than the maximum cost, then 
-        # recursively search each branch of the trie
-        if min(currentRow) <= MAX_EDIT:
-            for letter in node.children:
-                stack.append(node.children[letter])
+#def searchnew(w2, matrices):
+#    # build first row
+#    currentRow = [range(len(w2)+1), [1.0]]
+#    for j in range(len(w2)):
+#        if j:
+#            newprob = matrices[0][26][ord(w2[j])-97]/matrices[5][26] + matrices[0][ord(w2[j-1])-97][ord(w2[j])-97]/matrices[5][ord(w2[j-1])-97]
+#        else:
+#            newprob = matrices[0][26][ord(w2[j])-97]/matrices[5][26]
+#        currentRow[1].append(currentRow[1][j]*newprob)
+#    previousRow = [None, None]
+#    columns = len(w2)
+#    results = []
+#    stack = []
+#
+#    # recursively search each branch of the trie
+#    for node in trie.children.itervalues():
+#        stack.append([node, 0, previousRow, currentRow])
+#
+#    while stack:
+#        (node, i, twoago, previousRow) = stack.pop()
+#        w1 = node.w1
+#        #print w1, node.word
+#        if i:
+#            newprob = matrices[2][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97] + matrices[2][26][ord(w1[i])-97]/matrices[3][26][ord(w1[i])-97]
+#        else:
+#            newprob = matrices[2][26][ord(w1[0])-97]/matrices[3][26][ord(w1[0])-97]
+#        currentRow = [[previousRow[0][0] + 1], [previousRow[1][0]*newprob]]
+#
+#        # Build one row for the letter, with a column for each letter in the target
+#        # word, plus one for the empty string at column 0
+#        for j in xrange(columns):
+#            deleteCost = previousRow[0][j+1] + 1
+#            insertCost = currentRow[0][j] + 1
+#            replaceCost = previousRow[0][j] + (w1[i] != w2[j])
+#
+#            minval = deleteCost
+#            minlist = ['d']
+#            for val in [(insertCost, 'i'), (replaceCost, 's')]:
+#                if val[0]<minval:
+#                    minval = val[0]
+#                    minlist = [val[1]]
+#                elif val[0]==minval:
+#                    minlist.append(val[1])
+#
+#            # This block deals with transpositions
+#            if (i and j and w1[i] == w2[j-1] and w1[i-1] == w2[j]):
+#                transposeCost = twoago[0][j-1] + (w1[i] != w2[j])
+#                minval = min(minval, transposeCost)
+#                if transposeCost<minval:
+#                    minval = transposeCost
+#                    minlist = ['t']
+#                elif transposeCost==minval:
+#                    minlist.append('t')
+#
+#            newprob = 0.0
+#            for elem in minlist:
+#                if elem == 's':
+#                    if w1[i]!=w2[j]:
+#                        if previousRow[0][j]: # edit dist of prev is non-zero
+#                            newprob += previousRow[1][j]*2*matrices[1][ord(w2[j])-97][ord(w1[i])-97]/matrices[5][ord(w1[i])-97]
+#                        else:
+#                            newprob += previousRow[1][j]*matrices[1][ord(w2[j])-97][ord(w1[i])-97]/matrices[5][ord(w1[i])-97]
+#                    else:
+#                        newprob += previousRow[1][j]
+#                elif elem == 't':
+#                    if w1[i]!=w2[j]:
+#                        if twoago[0][j-1]: # edit dist of prev is non-zero
+#                            newprob += twoago[1][j-1]*2*matrices[4][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97]
+#                        else:
+#                            newprob += twoago[1][j-1]*matrices[4][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97]
+#                    else:
+#                        newprob += twoago[1][j-1]
+#                elif elem == 'i':
+#                    if currentRow[0][j]:
+#                        newprob += currentRow[1][j]*(matrices[0][ord(w1[i])-97][ord(w2[j])-97]/matrices[5][ord(w1[i])-97]+matrices[0][ord(w2[j-1])-97][ord(w2[j])-97]/matrices[5][ord(w2[j-1])-97])
+#                    else:
+#                        newprob += currentRow[1][j]*matrices[0][ord(w1[i])-97][ord(w2[j])-97]/matrices[5][ord(w1[i])-97]
+#                elif elem == 'd':
+#                    if previousRow[0][j+1]:
+#                        newprob += previousRow[1][j+1]*(matrices[2][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97]+matrices[2][ord(w2[j])-97][ord(w1[i])-97]/matrices[3][ord(w2[j])-97][ord(w1[i])-97])
+#                    else:
+#                        newprob += previousRow[1][j+1]*matrices[2][ord(w1[i-1])-97][ord(w1[i])-97]/matrices[3][ord(w1[i-1])-97][ord(w1[i])-97]
+#
+#            currentRow[1].append(newprob)
+#            currentRow[0].append(minval)
+#        twoago = previousRow
+#        previousRow = currentRow
+#
+#        # if the last entry in the row indicates the optimal cost is less than the
+#        # maximum cost, and there is a word in this trie node, then add it.
+#        if currentRow[0][-1] <= MAX_EDIT and node.word != None:
+#            results.append((node.word, currentRow[0][-1], currentRow[1][-1]))
+#
+#        # if any entries in the row are less than the maximum cost, then 
+#        # recursively search each branch of the trie
+#        if min(currentRow[0]) <= MAX_EDIT:
+#            for letter in node.children:
+#                stack.append([node.children[letter],i+1, previousRow, currentRow])
+#    return results
 
 
 # This recursive helper is used by the search function above. It assumes that
@@ -294,7 +293,6 @@ def candidate_from_ngrams_only(ngram_words,word,n):
     ngrams_list = ngrams(word,n)
     for ngram in ngrams_list:
         word_set = ngram_words[ngram]
-        #print a
         candidates = candidates | set(word_set)
     print len(candidates)
     return candidates
@@ -406,7 +404,7 @@ with open('../TrainData/words.tsv') as f:
         results = search(misspelt_word, matrices)
         results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]) for x in results]
         results.sort(key=lambda x: x[2], reverse=True)
-        print results[:10]
+        #print results[:10]
         #print results
         #break
         #results_pruned = []
@@ -418,5 +416,3 @@ with open('../TrainData/words.tsv') as f:
         end = time.time()
         print "time = "+str(end- start) 
         
-#print len(candidate_selections)
-# TODO : Prune candidate_selections to get words with edit distance less than 3
