@@ -1,12 +1,15 @@
 import re, math, sys, time
 import word_check
 
+
 MIN_TRIGRAM_PROB = math.pow(10,(-7))
 MIN_UNIGRAM_PROB = math.pow(10,(-8))
 CONFUSION_SET_SIZE = 20
 
+
 def ngrams(array, n):
     return [array[i:i+n] for i in range(1+len(array)-n)]
+
 
 def print_sentences_from_list(sentences):
     for sentence in sentences:
@@ -14,6 +17,7 @@ def print_sentences_from_list(sentences):
             print word,
         print " "+str(sentence[1])
     print "\n"
+
 
 def all_grams(array,word_pos):
     l = []
@@ -24,8 +28,10 @@ def all_grams(array,word_pos):
                 l.append(array[j:j+i])
     return l
 
+
 def extract_words(text):
     return re.findall('[a-z]+', text.lower()) 
+
 
 def read_ngram_counts(n):
     index = {}
@@ -42,16 +48,6 @@ def read_ngram_counts(n):
             index[word_list] = freq
     return index
 
-def estimate_trigram_probabilities(trigram_count_index,bigram_count_index):
-    trigram_prob_index = dict(trigram_count_index)
-    for trigram in trigram_count_index:
-        bigram  = trigram[0:2]
-        if bigram not in bigram_count_index:
-            # Ignore tri gram if bi gram doesn't exist
-            trigram_prob_index[trigram] = 0
-        else:
-            trigram_prob_index[trigram] = trigram_prob_index[trigram]/float(bigram_count_index[bigram])
-    return trigram_prob_index
 
 def estimate_ngram_probabilities(ngram_count_index,n_minus1_gram_count_index,n):
     ngram_prob_index = dict(ngram_count_index)
@@ -69,24 +65,6 @@ def estimate_ngram_probabilities(ngram_count_index,n_minus1_gram_count_index,n):
             ngram_prob_index[ngram] = ngram_prob_index[ngram]/float(n_minus1_gram_count_index[n_minus1_gram])
     return ngram_prob_index
 
-def find_prob_of_sentence(sentence,trigram_prob_index,unigram_prob_index):
-    p = 1.0
-    ngrams_sentence = ngrams(sentence,3)
-    word1 = sentence[0]
-    word2 = sentence[1]
-    # if word1 in unigram_prob_index:
-    #      p = p* unigram_prob_index[word1]
-    # else:
-    #      p = p* MIN_UNIGRAM_PROB
-    # TODO : P(w2|w1)
-    for ngram in ngrams_sentence:
-        #print len(ngram)
-        if tuple(ngram) not in trigram_prob_index:
-            prob = MIN_TRIGRAM_PROB
-        else:
-            prob = trigram_prob_index[tuple(ngram)]
-        p = p*prob
-    return p
 
 def find_prob_sentence_all_grams(sentence,word_pos,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
     count = 0
@@ -136,14 +114,9 @@ def compute_scores(phrase,preprocessed):
                 if likelihood > max_likelihood:
                     max_likelihood = likelihood
                 
-                #print "hi"
-                #print confused_word
-                #if confused_word == 'cost':
-                #    print score1,likelihood
                 results.append((sentence,score1,likelihood,confused_word,pos))
 
             results_new = []
-            #print max_likelihood
             for res in results:
                 if max_score_1 == 0:
                     a = max_score_1
@@ -204,6 +177,7 @@ def compute_scores(phrase,preprocessed):
 
         print_sentences_from_list(sorted(results_updated,key=lambda x: x[1],reverse=True)[0:5])
 
+
 def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
 
     #ngram_words = build.buildDict() # Get the index structure build from word checker
@@ -255,6 +229,7 @@ def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,qua
 
             #         #sorted(phrase_results[i],key=lambda x: x[1],reverse=True)[0:3][5]
 
+
 def read_unigram_counts():
     unigram_count_index = {}
     unigram_prob_index = {}
@@ -270,6 +245,7 @@ def read_unigram_counts():
     for key in unigram_prob_index:
         unigram_prob_index[key] /= float(total)
     return (unigram_prob_index,unigram_count_index)
+
 
 def run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
 
@@ -291,6 +267,5 @@ fivegram_count_index = read_ngram_counts(5)
 
 trigram_prob_index = estimate_ngram_probabilities(trigram_count_index,bigram_count_index,3)
 #bigram_prob_index = estimate_ngram_probabilities(bigram_count_index,unigram_count_index,2)
-#print bigram_prob_index
 run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
 #run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
