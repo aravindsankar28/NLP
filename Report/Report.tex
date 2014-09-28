@@ -12,7 +12,7 @@
 %\\[0.2in]
 %}
 
-\documentclass[paper=a4, fontsize=11pt]{scrreprt} % A4 paper and 11pt font size
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
 \usepackage[english]{babel} % English language/hyphenation
@@ -63,7 +63,7 @@
 \begin{document}
 
 \maketitle
-
+\thispagestyle{empty}
 \section{Introduction}
 This assignment involved designing an efficient spell checker. This spell checking assignment was divided into three parts: 
 \begin{itemize}
@@ -194,4 +194,9 @@ When we had more than one misspelt word, we followed a 2 step procedure :
 \subsection{Word checker}
 \subsection{Phrase checker}
 \subsection{Sentence checker}
+
+\begin{thebibliography}{9}
+\bibitem{duck} D. Duck, Life of Uncle Scrooge, Duckburg, 2012
+\end{thebibliography}
+
 \end{document}
