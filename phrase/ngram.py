@@ -11,6 +11,42 @@ def ngrams(array, n):
     return [array[i:i+n] for i in range(1+len(array)-n)]
 
 
+def print_words_from_phrase(query, sentences, num_misspelt_words):
+    if num_misspelt_words == 0:
+        print query, '\t',
+        print sentences[0], '\t', sentences[1]
+    elif num_misspelt_words == 1:
+        if sentences:
+            words = extract_words(query)
+            print words[sentences[0][-1]], '\t',
+            count = 0
+            suggestions = {}
+            for sentence in sentences:
+                if sentence[-2] not in suggestions:
+                    suggestions[sentence[-2]] = sentence[1]
+                    print sentence[-2], "\t", sentence[1],
+                    count += 1
+                    if count == 5:
+                        break
+            print ''
+        else:
+            print query
+    else:
+        words = extract_words(query)
+        for pos in sentences[0][-1]:
+            print words[pos], '\t',
+            count = 0
+            suggestions = {}
+            for sentence in sentences:
+                if sentence[0][pos] not in suggestions:
+                    suggestions[sentence[0][pos]] = sentence[1]
+                    print sentence[0][pos], "\t", sentence[1],
+                    count += 1
+                    if count == 5:
+                        break
+            print ''
+
+
 def print_sentences_from_list(query, sentences):
     print query, "\t",
     for sentence in sentences:
@@ -42,7 +78,7 @@ def extract_words(text):
 
 def read_ngram_counts(n):
     index = {}
-    file_name = '../w'+str(n)+'_.txt'
+    file_name = 'data/w'+str(n)+'_.txt'
     with open(file_name) as f:
         lines = f.read().splitlines()
         for line in lines:
@@ -109,18 +145,14 @@ def compute_scores(phrase,preprocessed):
                 confused_word = confused_triple[0]
                 edit_dist = confused_triple[1]
                 likelihood = math.log(confused_triple[2]) #note: computation includes prior too
-                
                 sentence  = list(words)
                 sentence[pos] = confused_word
                 score1 = find_prob_sentence_all_grams(sentence,pos,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
                 
-                #score = likelihood * math.pow(10,9) + score1    
                 if score1 > max_score_1:
                     max_score_1 = score1
-
                 if likelihood > max_likelihood:
                     max_likelihood = likelihood
-                
                 results.append((sentence,score1,likelihood,confused_word,pos))
 
             results_new = []
@@ -131,19 +163,21 @@ def compute_scores(phrase,preprocessed):
                     a = res[1]/max_score_1
                 b = res[2]/abs(max_likelihood)
                 results_new.append((res[0],(0.7*a+0.3*b),a,b,res[3],res[4]))
-
             phrase_results.append(results_new)
         pos +=1
 
     if num_misspelt_words ==0 :
+        #print_words_from_phrase(phrase, [phrase, 0.0], num_misspelt_words)
         print_sentences_from_list(phrase, [[[phrase], 0.0]])
     elif num_misspelt_words == 1 and len(phrase_results) >0:
+        #print_words_from_phrase(phrase, sorted(phrase_results[0],key=lambda x: x[1],reverse=True), num_misspelt_words)
         print_sentences_from_list(phrase, sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:5])
     elif len(phrase_results) >0:
         phrase_results = [sorted(p,key=lambda x: x[1],reverse=True)[:3] for p in phrase_results]
         combos = list(itertools.product(*phrase_results))
         results_new = []
         max_score = [0 for i in range(0, num_misspelt_words)]
+        #pos_list = [x[-1] for x in combos[0]]
         for c in combos:
             sentence = [x for x in c[0][0]]
             for i in range(1,num_misspelt_words):
@@ -154,21 +188,21 @@ def compute_scores(phrase,preprocessed):
                 max_score[i] = max(score, max_score[i])
                 temp_list.append(score)
                 temp_list.append(c[i][3])
-            results_new.append(temp_list)
+            results_new.append((temp_list))
         results_updated = []
         for res in results_new:
             netval = 0
             for i in range(0,num_misspelt_words):
                 netval += (0.7*res[2*i+1]/max_score[i])+0.3*res[2*i+2]
+            #results_updated.append((res[0], netval, pos_list))
             results_updated.append((res[0], netval))
+        #print_words_from_phrase(phrase, sorted(results_updated,key=lambda x: x[1],reverse=True), num_misspelt_words)
         print_sentences_from_list(phrase, sorted(results_updated,key=lambda x: x[1],reverse=True)[0:5])
 
 
-def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
-
+def run_test_data(trigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
     preprocessed = word_check.preprocessing()
-
-    with open('../TrainData/phrases.tsv') as f:
+    with open('../TrainData/sentences.tsv') as f:
         lines = f.read().splitlines()
         for line in lines:
             phrase = line.split('\t')[0]
@@ -177,25 +211,7 @@ def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,qua
             #print time.time()-start_time
 
 
-def read_unigram_counts():
-    unigram_count_index = {}
-    unigram_prob_index = {}
-    total = 0
-    with open('count.txt') as f:
-        lines = f.read().splitlines()
-        for line in lines:
-            word = line.split('\t')[0]
-            val = int(line.split('\t')[1])
-            unigram_count_index[word] = val
-            unigram_prob_index[word] = val
-            total += val
-    for key in unigram_prob_index:
-        unigram_prob_index[key] /= float(total)
-    return (unigram_prob_index,unigram_count_index)
-
-
-def run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
-
+def run_input(trigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
     preprocessed = word_check.preprocessing()
     while True:
         phrase = raw_input('Enter a phrase  (# to stop) : ')
@@ -204,14 +220,11 @@ def run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgra
         compute_scores(phrase,preprocessed)
 
 
-(unigram_prob_index,unigram_count_index) =read_unigram_counts()
-
-bigram_count_index = read_ngram_counts(2)
-trigram_count_index = read_ngram_counts(3)
-quadgram_count_index = read_ngram_counts(4)
-fivegram_count_index = read_ngram_counts(5)
-
-trigram_prob_index = estimate_ngram_probabilities(trigram_count_index,bigram_count_index,3)
-#bigram_prob_index = estimate_ngram_probabilities(bigram_count_index,unigram_count_index,2)
-run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
-#run_input(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+if __name__ == '__main__':
+    bigram_count_index = read_ngram_counts(2)
+    trigram_count_index = read_ngram_counts(3)
+    quadgram_count_index = read_ngram_counts(4)
+    fivegram_count_index = read_ngram_counts(5)
+    trigram_prob_index = estimate_ngram_probabilities(trigram_count_index,bigram_count_index,3)
+    run_test_data(trigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)
+#run_input(trigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index)

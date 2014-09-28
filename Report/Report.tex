@@ -12,7 +12,7 @@
 %\\[0.2in]
 %}
 
-\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+\documentclass[paper=a4, fontsize=10pt]{scrartcl} % A4 paper and 11pt font size
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
 \usepackage[english]{babel} % English language/hyphenation
@@ -67,19 +67,34 @@
 \section{Introduction}
 This assignment involved designing an efficient spell checker. This spell checking assignment was divided into three parts: 
 \begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
 \item Word checker where spelling corrections are given for a misspelled word not present in the dictionary.
 \item Phrase checker where spelling corrections are given for misspelled word(s) present in phrases.
 \item Sentence checker where spelling corrections are given misspelled word(s) present in sentences.
+\end{itemize}
 
-The Spell Checker was implemented in \textit{Python}.
+The Spell Checker was implemented in \textit{Python}.\\
+
+The source code present in \texttt{/src} contains the following files and directories:
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+    \item
+        \texttt{word\_check.py} -- Performs spelling corrections on words.
+    \item
+        \texttt{phrase\_check.py} -- Performs spelling corrections on phrases and sentences. Uses the above file as a library.
+    \item
+        \texttt{metaphone.py} -- Contains the method to compute the double metaphone of a word. Imported into \texttt{word\_check.py}
+    \item
+        \texttt{data} -- This folder contains data that is used to build indices as a preprocessing step.
 \end{itemize}
 
 \section{Corpora Used}
 \begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
 
 \item The Unix dictionary for american english, which has close to 73,000 valid english words was used as the dictionary to identify if a given word has a spelling error.
 
-\item Corpus of Contemporary American English (COCA) dataset (from \href{http://www.ngrams.info/download_coca.asp}{here} , which has 1,000,000 most frequent n-grams. This was used in the phrase and sentence spell checkers.	
+\item Corpus of Contemporary American English (COCA) dataset (from \href{http://www.ngrams.info/download_coca.asp}{here}, which has 1,000,000 most frequent n-grams. This was used in the phrase and sentence spell checkers.	
 
 \item Natural Language Corpus Data: Beautiful Data (from \href{http://norvig.com/ngrams/}{here}
 ) was used to obtain word and letter frequencies.
@@ -89,8 +104,7 @@ The Spell Checker was implemented in \textit{Python}.
 \end{itemize}
 
 \section{Word Checker}
-\begin{flushleft}
-The basic idea of approach for Word Checker was obtained from the paper by Kernighan et.al which was titled - A Spelling Correction Program Based on a Noisy Channel Model. This paper doesn't take the context in which a misspelt word appears into account, and provides spelling corrections for standalone words.
+    The basic idea of approach for Word Checker was obtained from \cite{kern} which was titled - A Spelling Correction Program Based on a Noisy Channel Model. This paper doesn't take the context in which a misspelt word appears into account, and provides spelling corrections for standalone words.
 
 Given a misspelt word $t$, we first find out a set of candidate corrections, and then find the  probability of a correction $c$ given $t$ using the Bayesian model as, 
 
@@ -98,52 +112,65 @@ Given a misspelt word $t$, we first find out a set of candidate corrections, and
 
 where $Pr(c)$ represents the prior probability of the correction word $c$ estimated from a corpus , and $Pr(t|c)$ is the likelihood term which accounts for spelling transformations on the letters of the word. The spelling transformations include letter insertions, deletions, substitutions and transpositions.
 
-$Pr(t|c)$ is estimated using the confusion matrices given in the paper.
-We used the 4 confusion matrices  $ \texttt{del} [X,Y], \texttt{ add}[X,Y], \texttt{ sub}[X,Y] \textsl{ and} \texttt{ rev}[X,Y]$ after applying Laplace smoothing (Add-One).
-The $\texttt{chars}[X,Y]$ matrix (not given in the paper) was estimated using letter bigram counts obtained from \href{http://norvig.com/ngrams/}{here}. This was appropriately scaled down using the ratio of sizes of the corpora.
+$Pr(t|c)$ is estimated using the confusion matrices (\texttt{del[X,Y]}, \texttt{add[X,Y]}, \texttt{sub[X,Y]} and \texttt{rev[X,Y]}) given in \cite{kern}, which can be found in the \texttt{data} directory in the source folder as well. However, we found that the provided matrices were too sparse to be of much use at edit distances greater than $1$, and hence we augmented the ones provided in the paper by applying Laplace Smoothin (Add-One), to result in the 4 confusion matrices \texttt{addoneDelXY}, \texttt{addoneAddXY}, \texttt{addoneSubXY} and \texttt{addoneRevXY}.
+The $\texttt{chars}[X,Y]$ matrix (not given in the paper) was estimated using letter bigram counts obtained from \href{http://norvig.com/ngrams/}{here}. This was appropriately scaled down using the ratio of sizes of the corpora to produce the final matrix \texttt{newCharsXY}. Further, the sum of the individual rows too was precomputed and saved to a fifth matrix \texttt{sumnewCharsXY}, in the interest of time.
 
-The paper only considers correction words $c$ within edit distance (Damerau–Levenshtein distance DL) 1 of the misspelt word $t$.
+The paper only considers correction words $c$ within an edit distance (the Damerau-Levenshtein distance, DL) of $1$ from the misspelt word $t$.
 We extend this and consider correction words upto edit distance 3, beyond which we felt there would hardly be any corrections possible.
-
-When we consider 3 edits in a word, we assume that the likelihood of occurrences of each of them are independent (Naive Bayes assumption), and hence we take the product of likelihood of each of the 3 edits.
 
 Instead of searching the entire set of words in the dictionary to find out words at edit distance $< 3$, we applied a few techniques for candidate selection and pruning the search space :
 
 \begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
 \item We create an inverted index of bigrams to set of words that contain the bigram. The set of words that contain the bigram, are also indexed by the length of the word. 
 \item At query time, all possible bigrams of the misspelt word are found and we use the index structure to find all words that contain any of the bigrams, and also within length of $\pm$ 3 from the misspelt word. 
 \item The set of candidate words obtained in the previous step are ranked according to the Jaccard Similarity index, and top-200 words are chosen for next stage.
-\item We computed the Jaccard's similarity for strings $x$ and $y$ by constructing the sets $X$ and $Y$ as the set of bigrams (letter) in strings $x$ and $y$ respectively. The jaccard similarity is computed as :
+\item We computed the Jaccard's Similarity for strings $x$ and $y$ by constructing the sets $X$ and $Y$ as the set of bigrams (letter) in strings $x$ and $y$ respectively. The jaccard similarity is computed as :
 
 \[Sim(X,Y) = \frac{|X \cap Y|}{|X \cup Y|} \] 
 
 \item Here, we observed that when jaccard's similarity was used, it fails to rank candidates properly when the misspelt word is small in length. This is because, if we have one spelling error, then 2 bigrams are lost, which leads a loss in rank and longer words get better tanks.
-\item We modified the similarity as :
+\item Hence we modified the similarity as :
 
 \[Sim(X,Y) = \frac{|X \cap Y|}{|Y|} \] 
- where $Y$ is the set of bigrams of the correction (or candidate) word.
+ where $Y$ is the set of bigrams of the correction (or candidate) word. This also gives more importance to the corrected word, unlike the Jaccard Similarity measure which is symmetric.
 
-\item In this stage, we need to compute the likelihood scores for the candidates corrections obtained in the previous step. The dynamic programming solution for computing the DL distance has $O(n^2)$ complexity.
-\item We use the \texttt{trie} data structure to store these candidate words, and efficiently search the tree and return words within a given edit distance threshold (3 here). This gives a great reduction in the time taken in comparison to the brute force approach of computing edit distance for each of the words.
+\item In this stage, we need to compute the likelihood scores for the candidates corrections obtained in the previous step. The dynamic programming solution for computing the DL distance has a complexity of $O(mn)$, where the length of the source and target words are $m$ and $n$.
+\item We use the \texttt{trie} data structure to store these candidate words, and efficiently search the tree and return words within a given edit distance threshold ($3$ here).
+\item The \texttt{trie} has a node for each letter of a word, and joins together nodes for words that share the same prefix. The dynamic programming solution to compute edit distance requires us to calculate the matrix row by row, for each letter in the source word. Thus, the \texttt{trie} gives us the advantage of having to compute each row only once, for all words that require this row.
+\item This reduces the complexity of the computation to $O(m\textsl{<no. of nodes>})$, which is much, much lesser than the complexity of the brute force approach of computing edit distance for each of the words ($O(nm^2)$, where $m$ is the length of the longest word in the dictionary, and $n$ is the number of words in teh candidate set).
 
-\item Storing the words in a trie helps to prune out subtrees based on the threshold edit distance. We also compute the likelihood of each correction in the process. (Can explain something here).
+\item Storing the words in a \texttt{trie} helps prune out subtrees by using the edit distance as a threshold. The task of having to compute the likelihoods of each correction is also performed simultaneously, to speed up computation and reduce complexity.
 
 \item In addition to using the prior probablity and likelihood to rank the words, we also calculate a phonetic score for each of the candidate words, which we multiply with the existing score.
 
-\item The phonetic score was computed by looking the double metaphones of the misspelt word and each of the candidates, and assigning a score if 1 or 2 of the metaphones matched.
+\item The phonetic score is computed by evaluating the double metaphones of the misspelt word and each of the candidates, and assigning an appropriate score depending on whether they had a primary-primary match, primary-secondary match or no match.
 \end{itemize}
 
-Another approach using a BK tree was also tried to compute edit distance efficiently, but we found it to be inferior in comparison to our earlier approach, in terms of performance.
+Another approach using a BK tree was also tried to compute edit distance efficiently, but we found it to be inferior in comparison to our earlier approach, in terms of performance. Our distance function too inhibited our use of the BK tree, because we switched to a DL distance function that considers adjacent transpositions only, which is a non-metric function, whereas the BK tree relies on a metric function to prune efficiently.
 
-try to put some more fart :P.
+\subsection{Likelihood Computation}
+It turns out that unlike for the simple case of an edit distance of $1$ as handled in \cite{kern}, likelihood computation is a trivial task. In the case of greater edit distances, the problem becomes more involved since we need to break down the edits into a series of single edits, as we have confusion matrices for single edits only. Further, the order of these edits also comes into the picture. There is also the issue of multiple edit paths to convert a correct word into the misspelt word.\\
 
+Hence, we could look at the problem in two ways -- a forward and a backward approach. The backward approach essentially involves traversing every edit path in reverse, multiplying single edit Naive Bayes probabilities along the way, as mentioned in the paper. Hence, this can be looked at as an error graph traversal of sorts and can be computed using a Depth-First Search (DFS) procedure. For this, at every node, we need to keep track of its parent nodes, and the edge labels (whether we arrived at that node via an insert, delete, subsitution or transposition), and accordingly move to the parent node. We initially implemented this, but the overhead involved made us switch over to the online, forward approach, which could be modelled as a dynamic programming problem similar to the edit distance one, and hence could be computed simultaneously along with the edit distance.\\
 
-\end{flushleft}
+At an $i$, $j$ in the edit distance matrix, let the correct word seen till now be $s$, and the misspelt word be $tp$, where $t$ is a string and $p$ is the letter to be inserted. Then,
+\[Pr(tp|s) = Pr(tp|sp)Pr(sp|s) + Pr(tp|t)Pr(t|s)\]
+Here, the first term in the first product and the second one in the second product are single edits and hence, are computed at this step. $Pr(tp|sp) = Pr(t|s)$, and this value has been previously computed as part of the DP solution. Similarly, for deletes it is:
+\[Pr(t|sp) = Pr(t|s)Pr(s|sp)+Pr(t|tp)Pr(tp|s)\]
+The equation considered for substitutions works out to:
+\[Pr(td|sp) = Pr(td|sd)Pr(sd|sp)+Pr(td|tp)Pr(tp|sp)\]
+And for transpositions the equation considered is:
+\[Pr(tjn|snj) = Pr(tjn|sjn)Pr(sjn|snj)+Pr(tjn|tnj)Pr(tnj|snj)\]
+
+Here too, we see that the first term in the first product and the second one in the second product are both equal to $Pr(t|s)$ (which has already been computed), and the remaining products are all one edit distance away, and hence can be computed easily.\\
+
+Thus, this algorithm was run simultaneously with the edit distance DP solution, to speed up the computation process. All the accessed entries were indexed to reduce the complexity of a single iteration to $O(1)$.
 
 \section{Phrase and Sentence Checker}
 We tried 2 different approaches for the phrase/sentence spell checking problem and finally chose one of them.
 \subsection{Context words}
-The first approach is based on the idea of context sensitive spelling correction. We followed the paper - A Bayesian hybrid method for context-sensitive spelling correction by Andrew Golding. For the target word, they identify a confusion set, which is a set of possible words that could replace that word in a sentence. Since the paper deals with correcting spelling errors that result in valid words in the sentence, they assume that they have predefined confusion sets. In our case, since we're correcting misspelt words only, we use the top-20 candidates returned from our word checker as our confusion set. Let $w_i$ represent each word in the confusion set. The idea is that, each word $w_i$ in the confusion set will have a
+The first approach is based on the idea of context sensitive spelling correction, as is described in \cite{golding}. For the target word, they identify a confusion set, which is a set of possible words that could replace that word in a sentence. Since the paper deals with correcting spelling errors that result in valid words in the sentence, they assume that they have predefined confusion sets. In our case, since we're correcting misspelt words only, we use the top-20 candidates returned from our word checker as our confusion set. Let $w_i$ represent each word in the confusion set. The idea is that, each word $w_i$ in the confusion set will have a
 characteristic distribution of words that occur in its context. Thus, to classify an ambiguous target word, we look at the words that occur around it and see which $w_i$'s distribution they closely follow. For this purpose, we look at the context words that occur in a window of $\pm k$ window of the target word. 
 
 \[P(w_i|c_{-k},...,c_{1},...,c_{k}) = P(w_i) P(c_{-k},...,c_{1},...,c_{k})\]
@@ -170,7 +197,7 @@ Using the trigram model, we find out the probability of each sentence, and rank 
 
 
 \subsection*{Approach 2}
-The idea behind our second approach based on language models was derived from the paper - Web-Scale N-gram Models for Lexical Disambiguation  by Bergsma et.al.
+The idea behind our second approach based on language models was derived from \cite{bergsma}.
 Out of the many techniques that paper describes, we adapt the \textbf{SUMLM} algorithm. 
 We consider ngrams of sizes 5,4,3 and 2. Again, just like in the previous approach , we get a list of candidate sentences using the confusion set obtained from word checker.
 
@@ -185,18 +212,29 @@ This solved the case of one misspelt word per sentence/phrase.
 When we had more than one misspelt word, we followed a 2 step procedure :
 
 \begin{itemize}
-\item First, we consider each misspelt word independent of the other one, and find a set of top-K (5 generally) corrections using the above procedure. This method has an obvious limitation that, it ignores ngrams in which the other misspelt word(s) also occurs, as such an ngrams which contain the other misspelt word.
+\itemsep1pt\parskip0pt\parsep0pt
+\item First, we consider each misspelt word independent of the other one, and find a set of top-K (5 generally) corrections using the above procedure. This method has an obvious limitation that it ignores ngrams in which the other misspelt word(s) also occurs, as such an ngrams which contain the other misspelt word.
 \item We take the top-K corrections for each of the misspelt words, and construction combinations or tuples. We then recompute the ngram model scores for each of these sentences, and rank these sentences to give our final set.
 \end{itemize}
 
 \section{Results}
-
 \subsection{Word checker}
+For the words given in \texttt{words.tsv}, our spell checker obtains an \textbf{MMR of 1} for all the words except \textit{failr} and \textit{thruout}.\\
+In the case of the former, our model gives \textit{failure} as its first suggestion, which we believe is a better suggestion than the expected word \textit{fairy}, as phonetics is being taken into account. In the latter case, we obtain an \textbf{MMR of 0.5}, with \textit{throat} being the primary suggestion mainly because of the significant difference in edit distances ($3$ vs $1$ respectively). The word \textit{throughout} gets the second position, once again due to the influence of the phonetic score that has been computed using the double metaphones of the misspelt word and its suggestion.
+
 \subsection{Phrase checker}
+For the phrases specified in \texttt{phrases.tsv}, our spell checker once again obtains an \textbf{MMR of 1} for all the phrases specified, except for the cases where the errors are due to string concatenation (for example, \textit{halloffame}) or are grammatical in nature (such as the insertion of 'the' in \textit{president of united states}). The first issue can be tackled by making use of a word-splitting algorithm to test every word not present in the dictionary, before performing the actual spell check. The second case deals with grammar and syntax, and could thus be tackled by suggesting insertions based on either N-gram models or context windows.
+
 \subsection{Sentence checker}
+Finally, for the sentences mentioned in \texttt{sentences.tsv}, our model yet again gives an \textbf{MMR of 1} in all cases, if we choose to disregard the insertion of 'not' before 'to' in the misspelled sentence, \textit{To be or to bea is not the question.} This issue of insertion can be handled as mentioned above, for the case of phrases.
 
 \begin{thebibliography}{9}
-\bibitem{duck} D. Duck, Life of Uncle Scrooge, Duckburg, 2012
+\bibitem{kern} Kernighan, M.D., Church, K.W., Gale, W.A.: A spelling correction program based on a noisy channel model. In: Proceedings of the 13th Conference on Computational Linguistics - Volume 2. pp. 205-210. COLING '90,
+Association for Computational Linguistics, Stroudsburg, PA, USA (1990)
+\bibitem{golding} Golding, A.R., Golding, A.I.: A bayesian hybrid method for context-sensitive
+spelling correction. In: In Proceedings of the Third Workshop on Very Large
+Corpora. pp. 39-53 (1995)
+\bibitem{bergsma} Bergsma, S., Lin, D., Goebel, R.: Web-scale N-gram models for lexical disambiguation. In: Proceedings for the 21st International Joint Conference on Artificial Intelligence. pp. 1507-1512 (2009)
 \end{thebibliography}
 
 \end{document}

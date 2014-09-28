@@ -9,17 +9,12 @@ class TrieNode:
         self.word = None
         self.children = {}
 
-        #global NodeCount
-        #NodeCount += 1
-
     def insert( self, word ):
         node = self
         for letter in word:
             if letter not in node.children: 
                 node.children[letter] = TrieNode()
-
             node = node.children[letter]
-
         node.word = word
 
 
@@ -39,7 +34,6 @@ def search(word, matrices, trie):
     # recursively search each branch of the trie
     for letter in trie.children:
         searchRecursive(trie.children[letter], letter, word, None, None, currentRow, currentProb, results, curr_index, columns, matrices)
-
     return results
 
 
@@ -176,21 +170,15 @@ def preprocessing():
     phonetic = {}
 
     # Reading dictionary
-    with open('../ngrams/unixdict.txt') as f:
+    with open('data/unixdict.txt') as f:
         for line in f.read().splitlines():
             word = line.split('\t')[0]
             words.append(word)
             phonetic[word] = metaphone.dm(word)
             prior_frequencies[word] = 1 # Doing add one
 
-    # extracted = re.findall('[a-z]+', file("big.txt").read().lower()) # reads from big.txt
-    # for word in extracted:
-    #     if word in prior_frequencies:
-    #         prior_frequencies[word] += 1
-    #         total_frequencies += 1
-
     #Reading priors        
-    with open('../ngrams/count_1w.txt') as f:
+    with open('data/count_1w.txt') as f:
        for line in f.read().splitlines():
            word = line.split('\t')[0]
            freq = line.split('\t')[1]
@@ -200,11 +188,10 @@ def preprocessing():
 
     # Divide by total frequency to get probability
     prior_frequencies = {k:v/float(total_frequencies) for k, v in prior_frequencies.iteritems()}
-
     ngram_words =  ngram_index_structure(words,NGRAM_N)
 
     # Load matrices
-    files = ['../ngrams/addoneAddXY.txt', '../ngrams/addoneSubXY.txt', '../ngrams/addoneDelXY.txt', '../ngrams/newCharsXY.txt', '../ngrams/addoneRevXY.txt', '../ngrams/sumnewCharsXY.txt']
+    files = ['data/addoneAddXY.txt', 'data/addoneSubXY.txt', 'data/addoneDelXY.txt', 'data/newCharsXY.txt', 'data/addoneRevXY.txt', 'data/sumnewCharsXY.txt']
     for f in files[:-1]:
         matrix = []
         for lines in file(f).readlines():
