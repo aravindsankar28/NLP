@@ -117,18 +117,27 @@ Instead of searching the entire set of words in the dictionary to find out words
 
 \[Sim(X,Y) = \frac{|X \cap Y|}{|X \cup Y|} \] 
 
+\item Here, we observed that when jaccard's similarity was used, it fails to rank candidates properly when the misspelt word is small in length. This is because, if we have one spelling error, then 2 bigrams are lost, which leads a loss in rank and longer words get better tanks.
+\item We modified the similarity as :
+
+\[Sim(X,Y) = \frac{|X \cap Y|}{|Y|} \] 
+ where $Y$ is the set of bigrams of the correction (or candidate) word.
+
 \item In this stage, we need to compute the likelihood scores for the candidates corrections obtained in the previous step. The dynamic programming solution for computing the DL distance has $O(n^2)$ complexity.
 \item We use the \texttt{trie} data structure to store these candidate words, and efficiently search the tree and return words within a given edit distance threshold (3 here). This gives a great reduction in the time taken in comparison to the brute force approach of computing edit distance for each of the words.
 
 \item Storing the words in a trie helps to prune out subtrees based on the threshold edit distance. We also compute the likelihood of each correction in the process. (Can explain something here).
 
+\item In addition to using the prior probablity and likelihood to rank the words, we also calculate a phonetic score for each of the candidate words, which we multiply with the existing score.
+
+\item The phonetic score was computed by looking the double metaphones of the misspelt word and each of the candidates, and assigning a score if 1 or 2 of the metaphones matched.
 \end{itemize}
 
 Another approach using a BK tree was also tried to compute edit distance efficiently, but we found it to be inferior in comparison to our earlier approach, in terms of performance.
 
 try to put some more fart :P.
 
-\textbf{Word checker MRR results} : TODO
+
 \end{flushleft}
 
 \section{Phrase and Sentence Checker}
@@ -179,4 +188,10 @@ When we had more than one misspelt word, we followed a 2 step procedure :
 \item First, we consider each misspelt word independent of the other one, and find a set of top-K (5 generally) corrections using the above procedure. This method has an obvious limitation that, it ignores ngrams in which the other misspelt word(s) also occurs, as such an ngrams which contain the other misspelt word.
 \item We take the top-K corrections for each of the misspelt words, and construction combinations or tuples. We then recompute the ngram model scores for each of these sentences, and rank these sentences to give our final set.
 \end{itemize}
+
+\section{Results}
+
+\subsection{Word checker}
+\subsection{Phrase checker}
+\subsection{Sentence checker}
 \end{document}
