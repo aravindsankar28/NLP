@@ -241,8 +241,19 @@ def phonetic_score(w1, w2):
         return 0.05
 
 
+def print_words_from_list(query, suggestions):
+    print query,"\t",
+    for suggestion in suggestions:
+        print suggestion[0],"\t",suggestion[2],"\t",
+    print ''
+    #print query
+    #for suggestion in suggestions:
+    #    print suggestion
+    #print ''
+
+
 def get_results(misspelt_word,prior_frequencies,ngram_words,matrices,phonetic):
-    start_time = time.time()
+    #start_time = time.time()
     candidate_selections = similarity_prune(ngram_words, misspelt_word, NGRAM_N)
     word_ph = metaphone.dm(misspelt_word)
 
@@ -252,21 +263,18 @@ def get_results(misspelt_word,prior_frequencies,ngram_words,matrices,phonetic):
 
     results = search(misspelt_word, matrices,trie)
     results = [(x[0],x[1],x[2]*prior_frequencies[x[0]]*phonetic_score(word_ph, phonetic[x[0]])) for x in results]
-    results.sort(key=lambda x: x[2], reverse=True)
-    print results[0:5]
-    print time.time()-start_time
+    print_words_from_list(misspelt_word, sorted(results, key=lambda x: x[2], reverse=True)[:5])
+    #print time.time()-start_time
 
 
 def run_test_data(prior_frequencies,ngram_words,matrices,phonetic):
-    start = time.time()
+    #start_time = time.time()
     with open('../TrainData/words.tsv') as f:
         lines = f.read().splitlines()
         for line in lines:
             misspelt_word = line.split('\t')[0]
-            print 'misspelt = ', misspelt_word
             get_results(misspelt_word,prior_frequencies,ngram_words,matrices,phonetic)
-    end = time.time()
-    print "time = "+str(end- start) 
+    #print 'time=', time.time()-start_time
 
 
 def run_input(prior_frequencies,ngram_words,matrices,phonetic):

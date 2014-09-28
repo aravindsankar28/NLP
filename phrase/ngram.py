@@ -11,12 +11,19 @@ def ngrams(array, n):
     return [array[i:i+n] for i in range(1+len(array)-n)]
 
 
-def print_sentences_from_list(sentences):
+def print_sentences_from_list(query, sentences):
+    print query, "\t",
     for sentence in sentences:
         for word in sentence[0]:
             print word,
-        print " "+str(sentence[1])
-    print "\n"
+        print "\t",sentence[1],"\t",
+    print ''
+    #print query
+    #for sentence in sentences:
+    #    for word in sentence[0]:
+    #        print word,
+    #    print " ", sentence[1]
+    #print ''
 
 
 def all_grams(array,word_pos):
@@ -126,13 +133,12 @@ def compute_scores(phrase,preprocessed):
                 results_new.append((res[0],(0.7*a+0.3*b),a,b,res[3],res[4]))
 
             phrase_results.append(results_new)
-            #print sorted(results_new,key=lambda x: x[1],reverse=True)[0:3]                
         pos +=1
-    if num_misspelt_words ==0 :
-        print phrase
-    elif num_misspelt_words == 1 and len(phrase_results) >0:
-        print_sentences_from_list(sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:5])
 
+    if num_misspelt_words ==0 :
+        print_sentences_from_list(phrase, [[[phrase], 0.0]])
+    elif num_misspelt_words == 1 and len(phrase_results) >0:
+        print_sentences_from_list(phrase, sorted(phrase_results[0],key=lambda x: x[1],reverse=True)[0:5])
     elif len(phrase_results) >0:
         phrase_results = [sorted(p,key=lambda x: x[1],reverse=True)[:3] for p in phrase_results]
         combos = list(itertools.product(*phrase_results))
@@ -153,22 +159,22 @@ def compute_scores(phrase,preprocessed):
         for res in results_new:
             netval = 0
             for i in range(0,num_misspelt_words):
-                netval += (res[2*i+1]/max_score[i])+res[2*i+2]
+                netval += (0.7*res[2*i+1]/max_score[i])+0.3*res[2*i+2]
             results_updated.append((res[0], netval))
-        print_sentences_from_list(sorted(results_updated,key=lambda x: x[1],reverse=True)[0:5])
+        print_sentences_from_list(phrase, sorted(results_updated,key=lambda x: x[1],reverse=True)[0:5])
 
 
 def run_test_data(trigram_prob_index,unigram_prob_index,fivegram_count_index,quadgram_count_index,trigram_count_index,bigram_count_index):
 
     preprocessed = word_check.preprocessing()
 
-    with open('../TrainData/sentences.tsv') as f:
+    with open('../TrainData/phrases.tsv') as f:
         lines = f.read().splitlines()
         for line in lines:
-            phrase = line.split('  ')[0]
-            start_time = time.time()
+            phrase = line.split('\t')[0]
+            #start_time = time.time()
             compute_scores(phrase,preprocessed)
-            print time.time()-start_time
+            #print time.time()-start_time
 
 
 def read_unigram_counts():
