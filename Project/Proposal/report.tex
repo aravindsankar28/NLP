@@ -19,7 +19,11 @@
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
 \usepackage{verbatim,graphicx}
 \usepackage{enumerate}
-\usepackage[colorlinks]{hyperref}
+\usepackage[colorlinks=true,
+        urlcolor=black,       % \href{...}{...} external (URL)
+        filecolor=black,     % \href{...} local file
+        linkcolor=black,       % \ref{...} and \pageref{...}
+    bookmarksopen=true]{hyperref}
 \usepackage[margin=0.8in]{geometry}
 \usepackage{sectsty} % Allows customizing section commands
 \allsectionsfont{\normalfont\bf\scshape} % Make all sections centered, the default font and small caps
@@ -63,6 +67,7 @@
 \begin{document}
 
 \maketitle
+\thispagestyle{empty}
 
 \section{Motivation}
 
@@ -72,9 +77,10 @@ Although text classification is a problem that has been looked into right from t
 
 The classification of email into different categories is technically an interesting problem as well, since there is a scarcity of labelled data. While there are many approaches to semi-supervised learning, the idea of Co-EM (as explained in \cite{duck}) is a unique one, as it is a hybrid method that combines Co-Training and Expectation Maximization (EM), and has been shown to outperform Co-Training. Previous efforts (such as \cite{dog}) in the area of Email Classification have involved either EM or Co-Training alone, but to the best of our knowledge, combining the two methods has hitherto been unexplored.
 
-Apart from merely exploring a new semi-supervised learning technique, we also intend to delve deeper into the specific classifiers that could be used in combination with these techniques as there is a very good chance of the learning problem having a class imbalance. \cite{coemsvl} talks about utilizing SVMs instead of Bayesian methods for Co-EM, which is an interesting idea that we would like to look into.
+Apart from merely exploring a new semi-supervised learning technique, we also intend to delve deeper into the specific classifiers that could be used in combination with these techniques as there is a very good chance of the learning problem having a class imbalance. \cite{coemsvl} talks about utilizing SVMs instead of Bayesian methods for Co-EM, which is an interesting idea that we would like to look into. We also plan to explore other aspects, such as extending \cite{dog} to handle multi-class classification.
 
 \section{Datasets}
+Email datasets with category labels appear to be scarce, primarily due to privacy concerns. There appears to be some sort of categorization of mails in the Enron Corpus\footnote{\texttt{\url{http://www.cs.cmu.edu/~enron/}}}, and this has been used for email classification in \cite{enronclass}. Further details about this corpus are also covered in \cite{enron}. Apart from this dataset, we also plan to look at Spambase Dataset\footnote{\texttt{\url{http://archive.ics.uci.edu/ml/datasets/Spambase}}} (a 2-class classification problem) and the Reuters Newsgroup dataset \footnote{\texttt{\url{http://www.cs.umb.edu/~smimarog/textmining/datasets/}}} (a multi-class classification problem), should we not be able to obtain well defined classes in the Enron Corpus.
 
 \section{Baseline Approaches}
 
@@ -116,6 +122,10 @@ We plan to evaluate our proposed technique on the same metrics as \cite{duck}, a
 \bibitem{dunno} Active + Semi-Supervised Learning = Robust Multi-View Learning. Muslea, Ion, Steven Minton, Craig A. Knoblock. \textit{In Proceedings of the International Conference on Machine Learning, 2002.}
 
 \bibitem{coemsvl} Co-EM Support Vector Learning. Ulf Brefeld, Tobias Scheffer. \textit{In Proceedings of the International Conference on Machine Learning, 2004.}
+
+\bibitem{enron} Introducing the Enron Corpus. Klimt, Bryan, and Yiming Yang. \textit{In CEAS, 2004.}
+
+\bibitem{enronclass} The enron corpus: A new dataset for email classification research. Klimt, Bryan, and Yiming Yang. \textit{In Machine learning: ECML. Springer Berlin Heidelberg, 2004}
 \end{thebibliography}
 
 \end{document}
