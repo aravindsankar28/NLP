@@ -53,7 +53,7 @@
 \normalfont \normalsize 
 \textsc{Indian Institute of Technology Madras} \\ [25pt] % Your university, school and/or department name(s)
 \horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
-\huge CS6370 -- Natural Language Processing \\ Project Proposal \\ Email classification using Co-EM % The assignment title
+\huge CS6370 -- Natural Language Processing \\ Project Proposal \\ Email Classification Using Co-EM % The assignment title
 \horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
 }
 \author{\large Aravind Sankar (CS11B033) \\ \large Sriram V (CS11B058)} % Your name
@@ -63,28 +63,59 @@
 \begin{document}
 
 \maketitle
-\thispagestyle{empty}
+
 \section{Motivation}
-Our chosen topic to work on is Text Classification. This is a very broad area which has been well researched in the case of supervised learning of classifiers. We want to focus on classification using limited labeled data, i.e semi-supervised learning. The classification of email into different types is interesting problem where we face the problem of scarcity of labeled data. Of the many approaches to semi-supervised learning, we came across \cite{duck} which introduces the idea of Co-EM, which is hybrid method combining Co-Training and Expectation Maximization (EM). Existing techniques for Email Classification have tried EM and Co-Training algorithm separately as shown here \cite{dog}.  We feel that combining these techniques using Co-EM would yield better results for classification. To the best of our knowledge, Co-EM has not been used to solve email classification till now. The reason why we want to use Co-EM is  ---- . Our work will also involve trying out various classifiers and identifying the best suited one. This is a very essential task, as the learning problem has a very good chance of having a class imbalance.
+
+The broad area of Text Classification has been a topic of research for a very long time now, and has been well researched especialy in the case of supervised learning of classifiers. Our focus is therefore directed towards tackling the problem of classification of limited labeled data, otherwise referred to as semi-supervised learning.
+
+Although text classification is a problem that has been looked into right from the 1960s, email classification is highly relevant in today's fast-paced world, where one does not have the time to sift through vast amounts of mail but would rather like information clustered together, so that one may disregard the irrelevant ones such as promotional offers, and focus attention on the important ones at hand. Triaging has gained a lot of focus in recent times, with GMail launching personalized mail classification, and with other services such as Mailbox and Boxer focussing on improving user efficiency. Thus the problem is of immense interest in recent times, and improving performance and accuracy is of prime concern.
+
+The classification of email into different categories is technically an interesting problem as well, since there is a scarcity of labelled data. While there are many approaches to semi-supervised learning, the idea of Co-EM (as explained in \cite{duck}) is a unique one, as it is a hybrid method that combines Co-Training and Expectation Maximization (EM), and has been shown to outperform Co-Training. Previous efforts (such as \cite{dog}) in the area of Email Classification have involved either EM or Co-Training alone, but to the best of our knowledge, combining the two methods has hitherto been unexplored.
+
+Apart from merely exploring a new semi-supervised learning technique, we also intend to delve deeper into the specific classifiers that could be used in combination with these techniques as there is a very good chance of the learning problem having a class imbalance. \cite{coemsvl} talks about utilizing SVMs instead of Bayesian methods for Co-EM, which is an interesting idea that we would like to look into.
 
 \section{Datasets}
 
-
 \section{Baseline Approaches}
-The baselines with which we'd like to compare our approach would be the one described in \cite{duck} along with a few other approaches.  These are :
+
+Our baseline techniques include the ones described in \cite{duck}, apart from a few other approaches, namely:
 
 \begin{enumerate}
 \item 
+    Expectation Maximization
+\item
+    Co-Training with Naive Bayes
+\item
+    Co-Training with SVM
+\item
+    Co-Training with  Random Labelling
 \end{enumerate}
 
 \section{Evaluation Metrics}
 
+We plan to evaluate our proposed technique on the same metrics as \cite{duck}, as well as some others such as:
+
+\begin{enumerate}
+\item 
+    Graphical visualisations of Accuracy vs. number of iterations
+\item
+    Absolute difference in accuracy between the 1st and the 50th iterations
+\item
+    Precision, Accuracy and Recall measures
+\end{enumerate}
+
+\section{Future Work}
+\cite{dunno} introduces Co-EMT, a multi-view algorithm which combines semi-supervised and active-learning, to handle classification problems with incompatible, correlated views. This technique could be applied to the problem of email classification, and its performance could be compared with the proposed as well as the exisiting semi-supervised learning methods. This paper makes use of Naive Bayes as the underlying algorithm, but SVMs too could also be explored as an alternative classifier.
+
 \begin{thebibliography}{2}
 \bibitem{duck} Analyzing the Effectiveness and Applicability
-of Co-training. Kamal Nigam and Rayid Ghani - CIKM '00 Proceedings of the ninth international conference on Information and knowledge management. 
+    of Co-training. Kamal Nigam, Rayid Ghani. \textit{In Proceedings of the Ninth International Conference on Information and Knowledge Management, CIKM 2000.}
 
-\bibitem{dog} Email classification with co-training. Svetlana Kiritchenko and Stan Matwin - 
-CASCON '01 Proceedings of the 2001 conference of the Centre for Advanced Studies on Collaborative research
+\bibitem{dog} Email classification with co-training. Svetlana Kiritchenko, Stan Matwin. \textit{In Proceedings of the 2001 conference of the Centre for Advanced Studies on Collaborative Research, CASCON 2001.}
+
+\bibitem{dunno} Active + Semi-Supervised Learning = Robust Multi-View Learning. Muslea, Ion, Steven Minton, Craig A. Knoblock. \textit{In Proceedings of the International Conference on Machine Learning, 2002.}
+
+\bibitem{coemsvl} Co-EM Support Vector Learning. Ulf Brefeld, Tobias Scheffer. \textit{In Proceedings of the International Conference on Machine Learning, 2004.}
 \end{thebibliography}
 
 \end{document}
