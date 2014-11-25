@@ -1,6 +1,6 @@
 1) Extract from,subject.
 2) Assign labels and identify labelled and un labelled sets.
-2) bow on both to get 2 sets of features - nltk - do it on all mails.
+2) BOW on both to get 2 sets of features - nltk - do it on all mails.
 a1,a2,a3,a4 - represent % age of instances from each class. 
 3) Co training using Naive bayes. 
 
