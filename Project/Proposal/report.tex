@@ -1,0 +1,131 @@
+%\documentclass{report}
+%\usepackage[utf8]{inputenc}
+%\usepackage[margin=1in]{geometry}
+%\usepackage[colorlinks]{hyperref}
+%\renewcommand\thesection{\arabic{section}}
+%\begin{document}
+%\title{\textbf{Natural Language Processing - CS6370 }
+%\\
+%\textbf{Spell Check Assignment Report}}
+%\author{Aravind Sankar CS11B033 \\
+%Sriram V CS11B058 \\
+%\\[0.2in]
+%}
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{verbatim,graphicx}
+\usepackage{enumerate}
+\usepackage[colorlinks=true,
+        urlcolor=black,       % \href{...}{...} external (URL)
+        filecolor=black,     % \href{...} local file
+        linkcolor=black,       % \ref{...} and \pageref{...}
+    bookmarksopen=true]{hyperref}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\normalfont\bf\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead[L]{\rule[-1.5ex]{0pt}{4ex}\small\scshape CS6370 -- Natural Language Processing} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyhead[R]{\small\scshape\thepage} % Page numbering for right footer
+\fancyhfoffset[L]{2ex}
+\fancyhfoffset[R]{2ex}
+%\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+\renewcommand\thesection{\arabic{section}}
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+%\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+\textsc{Indian Institute of Technology Madras} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge CS6370 -- Natural Language Processing \\ Project Proposal \\ Email Classification Using Co-EM % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+\author{\large Aravind Sankar (CS11B033) \\ \large Sriram V (CS11B058)} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\section{Motivation}
+
+The broad area of Text Classification has been a topic of research for a very long time now, and has been well researched especialy in the case of supervised learning of classifiers. Our focus is therefore directed towards tackling the problem of classification of limited labeled data, otherwise referred to as semi-supervised learning.
+
+Although text classification is a problem that has been looked into right from the 1960s, email classification is highly relevant in today's fast-paced world, where one does not have the time to sift through vast amounts of mail but would rather like information clustered together, so that one may disregard the irrelevant ones such as promotional offers, and focus attention on the important ones at hand. Triaging has gained a lot of focus in recent times, with GMail launching personalized mail classification, and with other services such as Mailbox and Boxer focussing on improving user efficiency. Thus the problem is of immense interest in recent times, and improving performance and accuracy is of prime concern.
+
+The classification of email into different categories is technically an interesting problem as well, since there is a scarcity of labelled data. While there are many approaches to semi-supervised learning, the idea of Co-EM (as explained in \cite{duck}) is a unique one, as it is a hybrid method that combines Co-Training and Expectation Maximization (EM), and has been shown to outperform Co-Training. Previous efforts (such as \cite{dog}) in the area of Email Classification have involved either EM or Co-Training alone, but to the best of our knowledge, combining the two methods has hitherto been unexplored.
+
+Apart from merely exploring a new semi-supervised learning technique, we also intend to delve deeper into the specific classifiers that could be used in combination with these techniques as there is a very good chance of the learning problem having a class imbalance. \cite{coemsvl} talks about utilizing SVMs instead of Bayesian methods for Co-EM, which is an interesting idea that we would like to look into. We also plan to explore other aspects, such as extending \cite{dog} to handle multi-class classification.
+
+\section{Datasets}
+Email datasets with category labels appear to be scarce, primarily due to privacy concerns. There appears to be some sort of categorization of mails in the Enron Corpus\footnote{\texttt{\url{http://www.cs.cmu.edu/~enron/}}}, and this has been used for email classification in \cite{enronclass}. Further details about this corpus are also covered in \cite{enron}. Apart from this dataset, we also plan to look at Spambase Dataset\footnote{\texttt{\url{http://archive.ics.uci.edu/ml/datasets/Spambase}}} (a 2-class classification problem) and the Reuters Newsgroup dataset \footnote{\texttt{\url{http://www.cs.umb.edu/~smimarog/textmining/datasets/}}} (a multi-class classification problem), should we not be able to obtain well defined classes in the Enron Corpus.
+
+\section{Baseline Approaches}
+
+Our baseline techniques include the ones described in \cite{duck}, apart from a few other approaches, namely:
+
+\begin{enumerate}
+\item 
+    Expectation Maximization
+\item
+    Co-Training with Naive Bayes
+\item
+    Co-Training with SVM
+\item
+    Co-Training with  Random Labelling
+\end{enumerate}
+
+\section{Evaluation Metrics}
+
+We plan to evaluate our proposed technique on the same metrics as \cite{duck}, as well as some others such as:
+
+\begin{enumerate}
+\item 
+    Graphical visualisations of Accuracy vs. number of iterations
+\item
+    Absolute difference in accuracy between the 1st and the 50th iterations
+\item
+    Precision, Accuracy and Recall measures
+\end{enumerate}
+
+\section{Future Work}
+\cite{dunno} introduces Co-EMT, a multi-view algorithm which combines semi-supervised and active-learning, to handle classification problems with incompatible, correlated views. This technique could be applied to the problem of email classification, and its performance could be compared with the proposed as well as the exisiting semi-supervised learning methods. This paper makes use of Naive Bayes as the underlying algorithm, but SVMs too could also be explored as an alternative classifier.
+
+\begin{thebibliography}{2}
+\bibitem{duck} Analyzing the Effectiveness and Applicability
+    of Co-training. Kamal Nigam, Rayid Ghani. \textit{In Proceedings of the Ninth International Conference on Information and Knowledge Management, CIKM 2000.}
+
+\bibitem{dog} Email classification with co-training. Svetlana Kiritchenko, Stan Matwin. \textit{In Proceedings of the 2001 conference of the Centre for Advanced Studies on Collaborative Research, CASCON 2001.}
+
+\bibitem{dunno} Active + Semi-Supervised Learning = Robust Multi-View Learning. Muslea, Ion, Steven Minton, Craig A. Knoblock. \textit{In Proceedings of the International Conference on Machine Learning, 2002.}
+
+\bibitem{coemsvl} Co-EM Support Vector Learning. Ulf Brefeld, Tobias Scheffer. \textit{In Proceedings of the International Conference on Machine Learning, 2004.}
+
+\bibitem{enron} Introducing the Enron Corpus. Klimt, Bryan, and Yiming Yang. \textit{In CEAS, 2004.}
+
+\bibitem{enronclass} The enron corpus: A new dataset for email classification research. Klimt, Bryan, and Yiming Yang. \textit{In Machine learning: ECML. Springer Berlin Heidelberg, 2004}
+\end{thebibliography}
+
+\end{document}
