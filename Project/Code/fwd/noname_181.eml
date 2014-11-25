@@ -1,0 +1,138 @@
+Return-Path: sujeetgholap@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 26 Jun 2013 23:59:49 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E680CF78126;
+	Wed, 26 Jun 2013 23:59:30 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.591
+X-Spam-Level: *
+X-Spam-Status: No, score=1.591 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_NEUTRAL=0.779,
+	T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id hzmljw4FlDIz; Wed, 26 Jun 2013 23:59:21 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7C45BF78104;
+	Wed, 26 Jun 2013 23:59:21 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 1BBCF7803AD;
+	Thu, 27 Jun 2013 00:27:48 +0530 (IST)
+Received: from mail-ve0-f176.google.com ([209.85.128.176])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.3.8205)
+	with ESMTP id 201306261855330002897; Thu, 27 Jun 2013 00:25:35 +0530
+Received: by mail-ve0-f176.google.com with SMTP id c13so11682865vea.21
+        for <multiple recipients>; Wed, 26 Jun 2013 11:57:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:from:date
+         :x-google-sender-auth:message-id:subject:to:cc:content-type;
+        bh=vp7VpTV/QL+4TNIfTE6CXYBljdOBU/Ec+nNAFmbVi7U=;
+        b=iFzmmVBdhYiGtm8bXlzPtgvw+spbChX2JVXNnri+1IonBqo0PDvOX+Jfa12IiGn0Zv
+         q51ioBlR38Sk76k7OO6D49yTGVEn6EP1BbIj3vDHIzDZhLosXu4bP106yUv2vuAB2322
+         Yo1zCqiTb+s2+4J3efBnOigLMD9LjLpY29BU0HzK/rhxDtsmJ5aDGWumIxI9NUQ34bvW
+         aicajuBwkl7IwvXoiBJJRn8MdbPl5X1ep4UFgQYKPFPt7UG3ldS9tLKaO0kyO/OG6oqU
+         yiMPPDQS/RrJemcB9KgLJaAInJsAHlxCZRoI65da8n56mnvPtYbA6GTOWQG583wdGnWL
+         DnzQ==
+X-Received: by 10.58.237.105 with SMTP id vb9mr2299843vec.2.1372273067472;
+ Wed, 26 Jun 2013 11:57:47 -0700 (PDT)
+MIME-Version: 1.0
+Sender: sujeetgholap@gmail.com
+Received: by 10.64.34.131 with HTTP; Wed, 26 Jun 2013 11:51:41 -0700 (PDT)
+In-Reply-To: <CAKrsAieLD+j3FZKg5sjo8n0dF3Uo+awNrOrV9gYcctus9Tz_1w@mail.gmail.com>
+References: <CAKrsAieLD+j3FZKg5sjo8n0dF3Uo+awNrOrV9gYcctus9Tz_1w@mail.gmail.com>
+From: Sujeet Gholap <sujeet@cse.iitm.ac.in>
+Date: Thu, 27 Jun 2013 00:21:41 +0530
+X-Google-Sender-Auth: Ask_NxOB-8RbHYM4II6ltJvfOW4
+Message-ID: <CAKrsAiebApRXXunAz+Q5fKo16oDrFRe1WUBWNrqq3n43ygq3Lg@mail.gmail.com>
+Subject: Re: Fate of student webpage after they graduate.
+To: webgroup@cse.iitm.ac.in
+Cc: students@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=089e01294a50b8be3904e01338a2
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: sir,incoming,username,usernames,purged,keeping,preferred,wondering,alumni,issue,
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.128.176
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201306261855330002897
+
+--089e01294a50b8be3904e01338a2
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi,
+
+I was wondering whether we could have a system similar to that of IIT
+> Bombay, where the webpage at www.cse.iitm.ac.in/~studentname<http://www.cse.iitm.ac.in/%7Estudentname>is moved to
+> www.cse.iitm.ac.in/alumni/~studentname<http://www.cse.iitm.ac.in/alumni/%7Estudentname>on graduation.
+>
+After a brief discussion in the afternoon, following issue came up.
+
+Right now, the usernames etc get purged when we graduate, this makes it
+possible for incoming students to get simpler usernames. (After I graduate,
+another Sujeet can have sujeet as his username).
+
+Keeping the above in mind, we could either have alumni pages in the form:
+
+   1. www.cse.iitm.ac.in/~cs09b010
+   2. www.cse.iitm.ac.in/alumni/2013/~sujeet
+
+Ravi sir was wondering which one would the students prefer (he thought the
+first one would be preferred, while I thought that most of us would prefer
+the second one)
+
+Thanks and regards,
+Sujeet Gholap
+Final Year B.Tech, CSE
+IIT Madras
+http://www.cse.iitm.ac.in/~sujeet
+
+>
+
+--089e01294a50b8be3904e01338a2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi,<br><div><div class=3D"gmail_extra"><br><div class=3D"g=
+mail_quote"><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bo=
+rder-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div>I was wond=
+ering whether we could have a system similar to that of IIT Bombay, where t=
+he webpage at <a href=3D"http://www.cse.iitm.ac.in/%7Estudentname" target=
+=3D"_blank">www.cse.iitm.ac.in/~studentname</a> is moved to <a href=3D"http=
+://www.cse.iitm.ac.in/alumni/%7Estudentname" target=3D"_blank">www.cse.iitm=
+.ac.in/alumni/~studentname</a> on graduation.<br>
+
+</div></div></blockquote><div>After a brief discussion in the afternoon, fo=
+llowing issue came up.<br><br></div><div>Right now, the usernames etc get p=
+urged when we graduate, this makes it possible for incoming students to get=
+ simpler usernames. (After I graduate, another Sujeet can have sujeet as hi=
+s username).<br>
+
+<br></div><div>Keeping the above in mind, we could either have alumni pages=
+ in the form:<br><ol><li><a href=3D"http://www.cse.iitm.ac.in/~cs09b010">ww=
+w.cse.iitm.ac.in/~cs09b010</a></li><li><a href=3D"http://www.cse.iitm.ac.in=
+/alumni/2013/~sujeet">www.cse.iitm.ac.in/alumni/2013/~sujeet</a></li>
+
+</ol>Ravi sir was wondering which one would the students prefer (he thought=
+ the first one would be preferred, while I thought that most of us would pr=
+efer the second one)<br>=A0 </div><div dir=3D"ltr"><div>Thanks and regards,=
+<br>
+
+Sujeet Gholap<br>Final Year B.Tech, CSE<br>IIT Madras<br><a href=3D"http://=
+www.cse.iitm.ac.in/%7Esujeet" target=3D"_blank">http://www.cse.iitm.ac.in/~=
+sujeet</a><br></div></div><blockquote class=3D"gmail_quote" style=3D"margin=
+:0pt 0pt 0pt 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"=
+>
+
+<div dir=3D"ltr">
+</div>
+</blockquote></div><br>
+</div></div></div>
+
+--089e01294a50b8be3904e01338a2--

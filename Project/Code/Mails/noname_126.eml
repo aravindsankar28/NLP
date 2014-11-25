@@ -1,0 +1,72 @@
+Dear All,=20
+
+
+A reminder about the seminar tomorrow at 2 p.m.=20
+
+
+Regards=20
+Ravi.=20
+
+
+
+
+Dear All,=20
+
+
+Dr. Avinash Sharma from Xerox Research Center India is visiting us on the 1=
+7th, Thursday. He will be giving a talk at 2 p.m. on "Representation, Segme=
+ntation and Matching of 3D Visual shapes using Graph Laplacian and Heat-Ker=
+nel", in BSB361. All are welcome. Details below.=20
+
+
+Regards=20
+Ravi.=20
+
+
+
+
+Title=20
+**************************************************=20
+Representation, Segmentation and Matching of 3D Visual Shapes using Graph L=
+aplacian and Heat-Kernel=20
+
+
+Abstract=20
+**************************************************=20
+
+3D shape analysis is an extremely active research topic in both computer gr=
+aphics and computer vision. In computer vision, 3D shape acquisition and mo=
+delling are generally the result of complex data processing and data analys=
+is methods. There are many practical situations where a visual shape is mod=
+elled by a point cloud observed with a variety of 2D and 3D sensors. Unlike=
+ the graphical data, the sensory data are not, in the general case, uniform=
+ly distributed across the surfaces of the observed objects and they are oft=
+en corrupted by sensor noise, outliers, surface properties (scattering, spe=
+cularities, color, etc.), self-occlusions, varying lighting conditions. Mor=
+eover, the same object that is observed by different sensors, from slightly=
+ different viewpoints, or at different time instances may yield completely =
+different point distributions, noise levels and, most notably, topological =
+differences, e.g., merging of hands. In this talk, we will discuss the outl=
+ine of single and multi-scale representation for articulated 3D shapes and =
+new shape analysis methods proposed, keeping in mind the challenges posed b=
+y visual shape data. First, we will introduce pose-invariant spectral embed=
+ding representation and heat diffusion framework for multi-scale shape repr=
+esentation. Next, we will present the proposed solutions for shape segmenta=
+tion and dense shape registration using the spectral graph methods and vari=
+ous other machine learning algorithms, namely, the Gaussian Mixture Model (=
+GMM) and the Expectation Maximization (EM). Finally, we present topological=
+ly-robust dense shape matching results by proposed method.=20
+
+Short Bio=20
+**************************************************=20
+
+Avinash Sharma has received his PhD in October 2012 from University of Gren=
+oble, France with research conducted at Perception group (LJK), INRIA Greno=
+ble Rhone-Alpes. His PhD was in Computer Science and Applied Mathematics. H=
+is research interests includes computer vision and graphics, graph analytic=
+s and manifold learning techniques for large scale data analysis. Prior to =
+PhD, he received his MS by Research from CVIT, IIIT-Hyderabad. He has publi=
+shed one book chapter in CRC Press and multiple conference papers in variou=
+s international conferences and workshops including CVPR and two ECCV. He h=
+as recently joined Xerox Research Centre India (XRCI) as a research scienti=
+st.

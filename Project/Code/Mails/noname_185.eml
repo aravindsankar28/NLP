@@ -1,0 +1,82 @@
+Dear All,=20
+
+This is a gentle remainder .=20
+
+
+
+I am giving my first Ph.D seminar on 10th June 2013 ( Monday ) from 1.30pm =
+to 2.30pm at BSB 361. Please make it convenient to attend and give your val=
+uable suggestions.=20
+
+
+The details of the talk is given below:-=20
+
+Speaker : Preetha Mathew K=20
+Topic : Design of an efficient code based encryption in the standard model=
+=20
+Date : 10-06-2013 Monday=20
+Time : 13:30 hrs to 14:30 hrs=20
+Venue : BSB 361 Department of Computer Science and Engineering=20
+
+
+
+
+Abstract:=20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Provable Security is an approach to provide evidence of security by means o=
+f reduction. If the cryptosystem can be broken in some specific way, then i=
+t would be possible to efficiently solve some well-studied problem that is =
+thought to be difficult. The problems normally used are factoring problem, =
+discrete logarithm problem, computational Diffie-Hellman problem and so on.=
+ The security notions widely used in the provably secure approach for the e=
+ncryption schemes are derived from the subset of the cross product of the g=
+oal to be achieved and the attack model. The goal belongs to the set invert=
+ibility(INV), indistinguishability(IND) and non malleablity(NM). The attack=
+ models fall into CPA (Chosen Plain Text attack) and CCA (Chosen Cipher Tex=
+t attack). When quantum computer comes into existence the aforementioned pr=
+oblems can be solved. So the research goes on searching the problems that c=
+annot be solved by quantum computer. The areas found out so far are Lattice=
+ based, Code based, Hash based and Multivariate based cryptosystems. The cr=
+yptography based on the said areas is termed as Post quantum cryptography. =
+Investigating the security notions of first code based cryptoystem namely M=
+cEliece, it is found to be one way function. So to obtain the higher notion=
+s of security, modifications on the original scheme are proposed in the lit=
+erature. The security can be proved either in the random oracle model or in=
+ the standard model, of which standard model is generally prefered. The exi=
+sting CCA2 secure McEliece in the standard model consists of =CE=BA repetit=
+ion encryption, and hence there is large overhead in terms of public key si=
+ze and cipher text components. We proposed an efficient design of IND-CCA2 =
+secure McEliece cryptosystem without =CE=BA repetition in the standard mode=
+l.=20
+
+
+All are Welcome.=20
+
+
+Thanks and Regards,=20
+Preetha Mathew K.

@@ -1,0 +1,37 @@
+sorry for the typo in the subject line of my previous mail. Talk will be in the seminar room BSB 361. 
+
+Best 
+-Raghu 
+
+From: "Raghavendra Rao BV" <bvrr@cse.iitm.ac.in> 
+To: all@cse.iitm.ac.in 
+Sent: Monday, February 11, 2013 9:57:57 AM 
+Subject: CSE Seminar : Tue, Feb 12, 2013, 4pm, BSB 36 
+
+
+Dear All, 
+
+Dr. Bodo Manthey from, University of Twente, The Netherlands, will be giving a talk on "Smoothed Analysis of the Successive Shortest Path Algorithm for Min-Cost Flow" on Tuesday, 12th February, at 4 p.m. in BSB 361. Details below. All are welcome. 
+
+Regards 
+-Raghu 
+
+===================================== 
+Title: Smoothed Analysis of the Successive Shortest Path Algorithm for Min-Cost Flow. 
+===================================================================== 
+Speaker: Bodo Manthey. 
+===================================================================== 
+Affiliation: University of Twente, The Netherlands. 
+===================================================================== 
+Venue & Time: BSB 361, Tue, 12 Feb, 2013, 4 p.m. 
+===================================================================== 
+
+Abstract: 
+
+The minimum-cost flow problem is a classic combinatorial optimization problem. Several pseudo-polynomial, polynomial, and strongly polynomial algorithms have been developed in the past decades, and it seems that both problem and algorithms are well understood. However, some of the algorithms' running-times observed in empirical studies contradict the running-times obtained by worst-case analysis not only in the order of magnitude but also in the ranking when compared to each other. For instance, the successive shortest path algorithm (SSP) - exponential in the worst case - seems to outperform the strongly polynomial minimum-mean cycle canceling algorithm. 
+
+To explain the discrepancy, we study SSP in the framework of smoothed analysis. We establish a bound of O(nm phi (m + n log n)) for its smoothed running-time, where phi is the perturbation parameter. This shows that worst-case instances for SSP are not robust and unlikely to be encountered in practice. As a by-product, we obtain a randomized simplex method with shadow-vertex pivot rule that achieves polynomial expected running-time on the flow polytope. 
+(Joint work with Tobias Brunsch, Kamiel Cornelissen, and Heiko Roeglin.) 
+=================================================================================== 
+Speaker's bio: Dr. Bodo Manthey is an Assistant Professor at the Department of Applied Mathematics, University of Twente, The Netherlands. His research interests lie mainly in the probabilistic/smoothed analysis of algorithms and design of approximation algorithms for optimization problems. 
+==================================================================================== 

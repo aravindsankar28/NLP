@@ -1,0 +1,47 @@
+Return-Path: nvk@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 31 Oct 2014 15:34:28 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id BA1E7F781B4;
+	Fri, 31 Oct 2014 15:34:25 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.2
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.2 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_50=0.8] autolearn=ham
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 1-twW42Bv-+i; Fri, 31 Oct 2014 15:34:21 +0530 (IST)
+Received: from [192.168.1.7] (unknown [10.6.0.85])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTPSA id 31B33F781B2;
+	Fri, 31 Oct 2014 15:34:21 +0530 (IST)
+From: "V. Krishna Nandivada" <nvk@cse.iitm.ac.in>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Subject: CS7030.
+Message-Id: <B19BBB45-11CB-4F67-8F22-B408D32DDA36@cse.iitm.ac.in>
+Date: Fri, 31 Oct 2014 15:38:11 +0530
+To: scholars@cse.iitm.ac.in,
+ 1mtech@cse.iitm.ac.in,
+ 2mtech@cse.iitm.ac.in,
+ 5btech@cse.iitm.ac.in,
+ 4btech@cse.iitm.ac.in
+Mime-Version: 1.0 (Mac OS X Mail 7.3 \(1878.6\))
+X-Mailer: Apple Mail (2.1878.6)
+
+Dear Scholars and Students,
+As you know we have a new course CS7030 (Recent Topics in Compilers) =
+that is being offered in Jan 2015. It will be a paper reading course -- =
+where we will be reading about some of the latest and coolest papers in =
+the broad area of compilers. For background, we will  read a few  =
+classical papers as well. The course will not have any midterm/final, =
+and the evaluation will be based on weekly presentations (along with a =
+possibly small writeup) and a final research proposal (along with a =
+solution).
+
+If you have questions regarding this course, you are welcome to talk to =
+Rupesh or me.
+
+Warm regards,
+Krishna and Rupesh.=

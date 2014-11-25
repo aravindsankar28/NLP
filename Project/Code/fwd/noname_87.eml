@@ -1,0 +1,194 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 22 Jan 2014 16:44:33 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6CAB8758139;
+	Wed, 22 Jan 2014 16:36:23 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.467
+X-Spam-Level: *
+X-Spam-Status: No, score=1.467 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id MRv1FRMAmlRi; Wed, 22 Jan 2014 16:36:17 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1DFD3F79466;
+	Wed, 22 Jan 2014 16:28:18 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id C107478087B;
+	Wed, 22 Jan 2014 16:46:04 +0530 (IST)
+Received: from mail-pa0-f41.google.com ([209.85.220.41])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201401221058310005820; Wed, 22 Jan 2014 16:28:32 +0530
+Received: by mail-pa0-f41.google.com with SMTP id fa1so255983pad.0
+        for <multiple recipients>; Wed, 22 Jan 2014 03:16:03 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:date:message-id:subject:from:to
+         :content-type;
+        bh=Qj9FFcuHjE/3eowGIey+YJ3yF0JmTqZEyPJ3Htkqix4=;
+        b=hQbNThsUAXtg9AfQfJbN6RHqm846P2aAxeMMND8x/0/ZYvIroN1QPOqSKwz0TtvnxX
+         7yO+iJiPjtsvvOCQbedd5KwiLgBqb+rPL1GBhFmiv8UmPjntZVOlmM/M6hLpfiIvTfWo
+         wMV45AAOO0EBmnjqg/zhhppMYW/8/COFZfVgC1B3A7F7cy5S3m1jWqPD3JqYNRWv855W
+         WPHkwRTVIwe8Znt56JN7sv97KCE/f+sm4CmJBiSJ8TiBy6hto3nZAvjpunjSVmBA3hny
+         vsdagop5zHz9tzzQBuOP5+O58nkUUkt4CrjqK8Gzl28xxnsACAdWKQ0lokrbofShdcTI
+         xYww==
+MIME-Version: 1.0
+X-Received: by 10.68.237.133 with SMTP id vc5mr1023366pbc.92.1390389363647;
+ Wed, 22 Jan 2014 03:16:03 -0800 (PST)
+Reply-To: ravi@cse.iitm.ac.in
+Sender: ravindran.b@gmail.com
+Received: by 10.70.132.101 with HTTP; Wed, 22 Jan 2014 03:16:03 -0800 (PST)
+Date: Wed, 22 Jan 2014 16:46:03 +0530
+X-Google-Sender-Auth: OPc7QBK7h_zrUFq6wVRclqrqkeM
+Message-ID: <CAJ0Bqjgx_sxBkMcQHGpR=B1uwz=MmS_sNd5w73id6792yOr9Gw@mail.gmail.com>
+Subject: Seminar on Energy efficient algorithms for distributed systems
+From: Balaraman Ravindran <ravi@cse.iitm.ac.in>
+To: seminar@cse.iitm.ac.in, Krishna Jagannathan <krishnaj@ee.iitm.ac.in>, 
+	rise-iil <rise-iil@cse.iitm.ac.in>
+Content-Type: multipart/alternative; boundary=047d7b338f1d1ead7004f08d407c
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: efficient,fraction,dear,delivery,hundreds,maintaining,increase,save,optimization
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.220.41
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201401221058310005820
+
+--047d7b338f1d1ead7004f08d407c
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+
+Vimal Mathew, PhD candidate from University of Massachusetts, Amherst, will
+be giving a talk tomorrow on Energy Efficient Algorithms for Internet Scale
+Distributed Systems. The talk is in BSB 361, at 2 p.m. Vimal is finished
+his MS in our Department in 2008. All are welcome.
+
+Regards
+Ravi.
+
+Title : Energy efficient algorithms for internet scale distributed systems
+
+Abstract:
+
+Internet-scale distributed systems operate hundreds of thousands of servers
+deployed in thousands of data center locations around the globe. Since the
+energy costs of operating such a large IT infrastructure are a significant
+fraction of the total operating costs, we argue for redesigning them to
+incorporate energy optimization as a first-order principle. We focus on
+Content Delivery Networks (CDNs) and demonstrate techniques to save energy
+while meeting client-
+
+perc
+i
+e
+
+
+ved service level agreements (SLAs) and minimizing impact on hardware
+reliability. We evaluate all our algorithms on production workloads from a
+commercial content delivery network.
+
+We first look at reducing energy usage by switching off idle servers in
+individual data centers while maintaining high availability and limiting
+server on-off transitions, presenting an optimal offline algorithm an a
+novel online algorithm. Our results show that it is possible to
+reduce the energy consumption of a CDN by 51% while ensuring a high level
+of availability that meets customer SLA requirements and incurring an
+average of one on-off transition per server per day. Further, we show that
+keeping even 10% of the servers as hot spares helps absorb load spikes due
+to global flash crowds and minimize any impact on availability SLAs.
+
+Next we look at energy cost reduction by deferring elastic loads to time
+periods when energy is charged at lower rates. Under realistic energy
+contracts we show our optimal offline algorithm can achieve 12% energy
+savings for time-of-use energy pricing, even when only 40% of the load is
+elastic and the service delay SLA is
+a
+t
+ 
+most 6 hours. The savings increase to 32% under peak-based demand pricing
+and to 23% under a combination of time-of-use and demand pricing. Further,
+we show that almost all the energy cost savings can be achieved with no
+increase in the bandwidth cost.
+
+--047d7b338f1d1ead7004f08d407c
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small">Dea=
+r All,</div><div class=3D"gmail_default" style=3D"font-size:small"><br></di=
+v><div class=3D"gmail_default" style=3D"font-size:small">Vimal Mathew, PhD =
+candidate from University of Massachusetts, Amherst, will be giving a talk =
+tomorrow on Energy Efficient Algorithms for Internet Scale Distributed Syst=
+ems. The talk is in BSB 361, at 2 p.m. Vimal is finished his MS in our Depa=
+rtment in 2008. All are welcome.</div>
+<div class=3D"gmail_default" style=3D"font-size:small"><br></div><div class=
+=3D"gmail_default" style=3D"font-size:small">Regards</div><div class=3D"gma=
+il_default" style=3D"font-size:small">Ravi.</div><div class=3D"gmail_quote"=
+><div dir=3D"ltr">
+<div><br></div><div><span style=3D"font-family:arial,sans-serif;font-size:1=
+3px">Title : Energy efficient algorithms for internet scale distributed sys=
+tems</span><br style=3D"font-family:arial,sans-serif;font-size:13px">
+<br style=3D"font-family:arial,sans-serif;font-size:13px"><span style=3D"fo=
+nt-family:arial,sans-serif;font-size:13px">Abstract:</span><br style=3D"fon=
+t-family:arial,sans-serif;font-size:13px"><br style=3D"font-family:arial,sa=
+ns-serif;font-size:13px">
+
+<span style=3D"font-family:arial,sans-serif;font-size:13px">Internet-scale =
+distributed systems operate hundreds of thousands of servers deployed in th=
+ousands of data center locations around the globe. Since the energy costs o=
+f operating such a large IT infrastructure are a significant fraction of th=
+e total operating costs, we argue for redesigning them to incorporate energ=
+y optimization as a first-order principle. We focus on Content Delivery Net=
+works (CDNs) and demonstrate techniques to save energy while meeting client=
+-<div class=3D"gmail_default" style=3D"font-size:small;display:inline">
+</div></span></div><div><span style=3D"font-family:arial,sans-serif;font-si=
+ze:13px">perc</span><div class=3D"gmail_default" style=3D"font-family:arial=
+,sans-serif;display:inline">i</div><span style=3D"font-family:arial,sans-se=
+rif;font-size:13px">e</span><div class=3D"gmail_default" style=3D"font-fami=
+ly:arial,sans-serif;display:inline">
+</div><div class=3D"gmail_default" style=3D"font-family:arial,sans-serif;di=
+splay:inline"></div><span style=3D"font-family:arial,sans-serif;font-size:1=
+3px">ved service level agreements (SLAs) and minimizing impact on hardware =
+reliability. We evaluate all our algorithms on production workloads from a =
+commercial content delivery network.</span></div>
+<div>
+<br style=3D"font-family:arial,sans-serif;font-size:13px"><span style=3D"fo=
+nt-family:arial,sans-serif;font-size:13px">We first look at reducing energy=
+ usage by switching off idle servers in individual data centers while maint=
+aining high availability and limiting server on-off transitions, presenting=
+ an optimal offline algorithm an a novel online algorithm. Our results show=
+ that it is possible to</span><br style=3D"font-family:arial,sans-serif;fon=
+t-size:13px">
+
+<span style=3D"font-family:arial,sans-serif;font-size:13px">reduce the ener=
+gy consumption of a CDN by 51% while ensuring a high level of availability =
+that meets customer SLA requirements and incurring an average of one on-off=
+ transition per server per day. Further, we show that keeping even 10% of t=
+he servers as hot spares helps absorb load spikes due to global flash crowd=
+s and minimize any impact on availability SLAs.</span><br style=3D"font-fam=
+ily:arial,sans-serif;font-size:13px">
+
+<br style=3D"font-family:arial,sans-serif;font-size:13px"><span style=3D"fo=
+nt-family:arial,sans-serif;font-size:13px">Next we look at energy cost redu=
+ction by deferring elastic loads to time periods when energy is charged at =
+lower rates. Under realistic energy contracts we show our optimal offline a=
+lgorithm can achieve 12% energy savings for time-of-use energy pricing, eve=
+n when only 40% of the load is elastic and the service delay SLA is <div cl=
+ass=3D"gmail_default" style=3D"font-size:small;display:inline">
+a</div>t<div class=3D"gmail_default" style=3D"font-size:small;display:inlin=
+e"> </div>most 6 hours. The savings increase to 32% under peak-based demand=
+ pricing and to 23% under a combination of time-of-use and demand pricing. =
+Further, we show that almost all the energy cost savings can be achieved wi=
+th no increase in the bandwidth cost.</span></div>
+</div></div></div>
+
+--047d7b338f1d1ead7004f08d407c--

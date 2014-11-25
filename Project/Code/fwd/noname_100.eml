@@ -1,0 +1,56 @@
+Return-Path: augustine@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 19 Nov 2013 16:31:52 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id AD6FCF78282;
+	Tue, 19 Nov 2013 16:31:49 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.594
+X-Spam-Level: *
+X-Spam-Status: No, score=1.594 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, RDNS_NONE=0.793]
+	autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id PkH4C7-stR68; Tue, 19 Nov 2013 16:31:47 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id CEC26F78101
+	for <seminar@cse.iitm.ac.in>; Tue, 19 Nov 2013 16:28:37 +0530 (IST)
+Date: Tue, 19 Nov 2013 16:28:35 +0530 (IST)
+From: John Augustine <augustine@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <306705786.7792246.1384858715805.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <303262250.7790513.1384857759181.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk announcement: Nov 29, 2013 at 11AM (CS 361)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+Dear all,
+
+I am happy to announce a talk by Dr. Umang Bhaskar. (See subject line for details.) The title and abstract are given below. More details about the speaker can be found in his web page at <http://www.its.caltech.edu/~umang>. 
+
+Regards,
+John.
+
+
+Title: Network Improvement for Equilibrium Routing
+
+Abstract:
+
+In many diverse applications, users strategically choose routes in a network to minimize the delay they face. Examples of such applications are road traffic, data networks, and cloud computing marketplaces. Routing games model this strategic behaviour of the users, and are used to understand and predict the impact of this behaviour on the traffic and delays in the network. 
+
+We consider a fundamental problem facing the manager of such a network: to make improvements to the network under a fixed budget, so that the average delay for the strategic users is minimized. The problem is modeled using routing games and widely studied in transportation research. However, despite its practical relevance, there are no proven guarantees for polynomial-time algorithms. In this talk, I will present both algorithms and hardness results for network improvement in a number of different network topologies, and describe a number of related problems as directions for future research.
+
+This is joint work with Katrina Ligett and Leonard Schulman.
+
+
+--
+John Augustine
+Assistant Professor
+Department of Computer Science and Engineering
+Indian Institute of Technology Madras
+www.cse.iitm.ac.in/~augustine

@@ -1,0 +1,109 @@
+Return-Path: mani@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 15 Nov 2013 18:39:53 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 81417F78225;
+	Fri, 15 Nov 2013 18:39:51 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 6.379
+X-Spam-Level: ******
+X-Spam-Status: No, score=6.379 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RCVD_IN_BRBL_LASTEXT=1.449, RCVD_IN_PBL=3.335, RDNS_NONE=0.793]
+	autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Ptbpcw3dpebN; Fri, 15 Nov 2013 18:39:46 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D8F06F781BF;
+	Fri, 15 Nov 2013 18:36:45 +0530 (IST)
+Date: Fri, 15 Nov 2013 18:36:43 +0530 (IST)
+From: Manikantan S <mani@cse.iitm.ac.in>
+Reply-To: Manikantan S <mani@cse.iitm.ac.in>
+To: scholars  <scholars@cse.iitm.ac.in>, Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1462222671.7149775.1384520803890.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <148919981.1869641.1381810829806.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk by Prashanth B - "Do machines see the world the way we want to
+ them to see?" - Monday Nov 18 2013 at 3.30 PM
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7149774_751393233.1384520803890"
+X-Originating-IP: [117.193.180.133]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_7149774_751393233.1384520803890
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear Scholars 
+
+Greetings. 
+
+Coming Monday Nov 18 2013, we will be having a very informative presentation by 
+Prashanth B (Computer Vision Lab) Titled "Do machines see the world the way we want them to see?" 
+
+Abstract of his talk: 
+Feature Descriptors (a.k.a "features" in the machine learning parlance) are 'the bread and butter' for representing images. 
+Does this process of representation, per se, introduce unknown artifacts into the images that can potentially confuse an algorithm? 
+This presentation will attempt to understand, on an introductory and intuitive level, why such (mis)representations occur by discussing a process known as inversion of features . 
+
+
+Kindly make it convenient to attend this very informative presentation. 
+
+Presentation Title: "Do machines see the world the way we want them to see?" 
+Presenter : Prasanth B 
+Date : November 18 2013 
+Time : 3.30 PM 
+Venue : Research Scholars Bay 
+
+Kind regards 
+Mani 
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar (PhD), 
+High Performance Computing and Networking (HPCN) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 
+
+
+------=_Part_7149774_751393233.1384520803890
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear Scholars<br><br>Greetings.<br><br><span>Coming Monday Nov 18 2013, we=
+ will be having a very informative presentation by <br>Prashanth B (Compute=
+r Vision Lab) Titled "Do machines see the world the way we want them to see=
+?"<br><br>Abstract of his talk: <br>Feature Descriptors (a.k.a "features" i=
+n the machine learning parlance)&nbsp; are 'the bread and butter' for repre=
+senting images.&nbsp; <br>
+
+
+Does this process of representation, per se, introduce unknown artifacts
+ into the images that can potentially confuse an algorithm?<br>This
+ presentation will attempt to understand, on an introductory and=20
+intuitive level, why such (mis)representations occur by discussing a=20
+process known as <i>inversion of features</i>.<br>
+
+
+</span><div><br>Kindly make it convenient to attend this very informative p=
+resentation.<br><br>Presentation Title: <span id=3D"593fec28-c6e8-4c0c-b9c8=
+-02c9efda7523">"Do machines see the world the way we want them to see?"<br>=
+Presenter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp; : Prasanth B<br>Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Novemb=
+er 18 2013<br>Time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 3.30 PM<br>Venu=
+e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp; : Research Scholars Bay<br></span><br>Kind reg=
+ards<br>Mani<br></div><span id=3D"593fec28-c6e8-4c0c-b9c8-02c9efda7523">---=
+-------------------------------------------------------------------------<b=
+r>Manikantan (Mani) Srinivasan<br>Research Scholar (PhD),<br>High Performan=
+ce Computing and Networking (HPCN) Lab,<br>Department of Computer Science a=
+nd Engineering,<br>Indian Institute of Technology Madras, Chennai.<br>-----=
+-----------------------------------------------------------------------<spa=
+n name=3D"x"></span></span><br><br></div></body></html>
+------=_Part_7149774_751393233.1384520803890--

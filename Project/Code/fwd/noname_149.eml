@@ -1,0 +1,88 @@
+Return-Path: ksriram@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 16 Aug 2013 13:48:54 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id DE3FEF78102;
+	Fri, 16 Aug 2013 13:48:53 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 2L-nuy+DxLt0; Fri, 16 Aug 2013 13:48:53 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id ECC84F78035;
+	Fri, 16 Aug 2013 13:48:52 +0530 (IST)
+Date: Fri, 16 Aug 2013 13:48:52 +0530 (IST)
+From: "ksriram@cse.iitm.ac.in" <ksriram@cse.iitm.ac.in>
+To: students  <students@cse.iitm.ac.in>, faculty  <faculty@cse.iitm.ac.in>
+Cc: djram  <djram@iitm.ac.in>
+Message-ID: <601631459.10916.1376641132853.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1130820518.10095.1376640551733.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk by Dr. Sriram Rajamani, Microsoft Research, India
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10915_73122049.1376641132853"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_10915_73122049.1376641132853
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+
+
+Please find below the details of the talk by Dr. Sriram Rajamani, Microsoft Research, India. 
+
+Venue: CS36 
+Date: 19/8/2013 
+Time: 9.00AM 
+
+Title: Research in Programming 
+
+Abstract: 
+Most people think about programming as a routine implementation activity, primarily done in the industry, and primarily for economic gain. In this talk I will explain why the topic of programming is an important subject of research and scientific enquiry, with several interesting and hard questions such as: How do you write correct programs? How do you debug a large program? What does it take to program the cloud? How do you write programs that compute securely on the cloud? I will present some research projects at Microsoft Research India that aim to address some issues in these questions. 
+
+About the speaker: 
+Dr. Sriram Rajamani holds a PhD in Computer Science from the University of California at Berkeley. Currently, he is the assistant managing director of Microsoft Research India. More information on him can be found at: 
+http://research.microsoft.com/en-us/people/sriram/bio.aspx 
+
+Thanks, 
+Sriram 
+
+
+------=_Part_10915_73122049.1376641132853
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<br><div style=3D"font-family: Times New Roman; font-size: 12pt; =
+color: #000000"><div style=3D"font-family: Times New Roman; font-size: 12pt=
+; color: #000000"><div style=3D"font-family: Times New Roman; font-size: 12=
+pt; color: #000000">Please find below the details of the talk by Dr. Sriram=
+ Rajamani, Microsoft Research, India.<br><br>Venue: CS36<br>Date: 19/8/2013=
+<br>Time: 9.00AM<br><br>Title: Research in Programming<br>&nbsp;<br>Abstrac=
+t:<br>Most people think about programming as a routine implementation activ=
+ity, primarily done in the industry, and primarily for economic gain. In th=
+is talk I will explain why the topic of programming is an important subject=
+ of research and scientific enquiry, with several interesting and hard ques=
+tions&nbsp; such as: How do you write correct programs? How do you debug a =
+large program?&nbsp; What does it take to program the cloud? How do you wri=
+te programs that compute securely on the cloud?&nbsp;&nbsp; I will present =
+some research projects at Microsoft Research India that aim to address some=
+ issues in these questions.<br>&nbsp;<br>About the speaker:<br>Dr. Sriram R=
+ajamani holds a PhD in Computer Science from the University of California a=
+t Berkeley. Currently, he is the assistant managing director of Microsoft R=
+esearch India. More information on him can be found at:<br>http://research.=
+microsoft.com/en-us/people/sriram/bio.aspx<br><br>Thanks,<br>Sriram<br><sty=
+le>p { margin: 0; }</style><div style=3D"font-family: Times New Roman; font=
+-size: 12pt; color: #000000">
+</div></div></div></div></div></body></html>
+------=_Part_10915_73122049.1376641132853--

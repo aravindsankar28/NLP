@@ -1,0 +1,92 @@
+Return-Path: jayalal.sarma@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 4 Feb 2014 13:39:09 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 86D9CF782B0;
+	Tue,  4 Feb 2014 13:25:12 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.466
+X-Spam-Level: *
+X-Spam-Status: No, score=1.466 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Qs5kmmnOZv4l; Tue,  4 Feb 2014 13:25:03 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6BFB5F7837D;
+	Tue,  4 Feb 2014 12:32:21 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 8B4817805B0;
+	Tue,  4 Feb 2014 12:50:13 +0530 (IST)
+Received: from mail-oa0-f44.google.com ([209.85.219.44])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201402040703030038579; Tue, 04 Feb 2014 12:33:04 +0530
+Received: by mail-oa0-f44.google.com with SMTP id g12so9394051oah.3
+        for <multiple recipients>; Mon, 03 Feb 2014 23:20:12 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:from:date:message-id:subject:to:cc:content-type
+         :content-transfer-encoding;
+        bh=rBdRlM4XjQ2VUh0HJeI83CQtC+Vi9jtl14NQHXz/sd8=;
+        b=goS5VHSG6WJc/FBrrPV7RKnjtjx+8Q9S7YfmGufZIuHjF7zzHXzetNWvcb9qZQ1X+E
+         t5MrdkHtVlKp0qz47O4f1z0WbQ4a1N2PKPJ/+1qRQT50FSKLd+PwiJHr/m0Tq7ur/SKK
+         wQ/4Jho44dh8T0nAA7N3rtO5k9LQU54TztzHMQKrF1kllCGk8i9Ufg/nsXDq9I7G8T3l
+         /OYuP+44OIMLw868t5V76+9LpgjnBimPVLYLLkpG593XOHdetfzDZUUfeTTTG9bmMcW+
+         ccDHorGoijk5jG+UQcwZiTFXrVZQi2kfNwcvl0qV2JvZ3pGgknYP27jjClnTYjzuJrRQ
+         +VHQ==
+X-Received: by 10.60.144.228 with SMTP id sp4mr33474241oeb.29.1391498412102;
+ Mon, 03 Feb 2014 23:20:12 -0800 (PST)
+MIME-Version: 1.0
+Sender: jayalal.sarma@gmail.com
+Received: by 10.76.28.164 with HTTP; Mon, 3 Feb 2014 23:19:52 -0800 (PST)
+From: "Jayalal Sarma M.N." <jayalal@cse.iitm.ac.in>
+Date: Tue, 4 Feb 2014 12:49:52 +0530
+X-Google-Sender-Auth: IRDYNRhNX7lfwMutaylK0hX-BRE
+Message-ID: <CAL_Lm_iuB9uGef-khJ_dnjTo1D2rSOK=GDzp8wj7ppW1jXSvVQ@mail.gmail.com>
+Subject: Seminar Announcement : Automata for Codes
+To: tmeet <tmeet@googlegroups.com>, seminar@cse.iitm.ac.in
+Cc: Kalpana Mahalingam <kmahalingam@iitm.ac.in>, Sakthi Balan <sakthi.balan@gmail.com>, 
+	Helmut Jurgensen <hjj@csd.uwo.ca>, elango <elango@cse.iitm.ac.in>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Mlf-DKIM: dkim=none 
+X-Mlf-AddressBook: jayalal.sarma@gmail.com,people,allowed
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.219.44
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;list_addrbk_sender
+X-Mlf-UniqueId: i201402040703030038579
+
+Dear All,
+
+Prof.Helmut Jurgensen from University of Western Ontario, Canada will
+be visiting IITM on 7th Feb. He will be giving a talk at the
+department. Please find below the details.
+
+----------------------------------------------------------------------
+Title : Automata for Codes
+Speaker : Prof. Helmut Jurgensen (University of Western Ontario)
+Date & TIme : Feb 7, 2014, Friday, 3pm - 4pm.
+Venue : BSB 361
+----------------------------------------------------------------------
+Abstract : We survey the actual and potential r=F4les of automata in the
+modelling of information
+transmission systems and, in particular, in the encoder, channel and
+decoder components of such systems. Our focus is on applications of
+codes in such systems and on the relevance of automaton theoretic
+methods to these applications. We discuss, for example, the issues of
+error-detection, fault-tolerance and error-correction for
+variable-length codes. Beyond reviewing known work in a possibly new
+setting, we also present some recent results on fault-tolerant
+decoders for systems in which synchronization errors are likely. We
+conclude with a kind of research programme, a list of rather general
+open problems requiring solutions.
+----------------------------------------------------------------------
+
+Best regards,
+Jayalal

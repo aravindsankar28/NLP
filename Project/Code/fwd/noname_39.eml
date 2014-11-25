@@ -1,0 +1,188 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 19 Jun 2014 10:30:49 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3C15BF7812C;
+	Thu, 19 Jun 2014 10:30:17 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.467
+X-Spam-Level: *
+X-Spam-Status: No, score=1.467 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id sfCPYzQtg+kQ; Thu, 19 Jun 2014 10:30:08 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 47863F78106;
+	Thu, 19 Jun 2014 10:29:21 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 7CCC87806AF;
+	Thu, 19 Jun 2014 10:50:47 +0530 (IST)
+Received: from mail-lb0-f180.google.com ([209.85.217.180])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201406190507420014451; Thu, 19 Jun 2014 10:37:44 +0530
+Received: by mail-lb0-f180.google.com with SMTP id w7so1095954lbi.25
+        for <multiple recipients>; Wed, 18 Jun 2014 22:20:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:date:message-id:subject:from:to
+         :content-type;
+        bh=o7gTIS71/as58natDFepR3/+qrWyKg+VVU/UphW/e+E=;
+        b=HfkZDT4MVu1tJzrnmEIVsBtbZfFXL0q8i0UN+XiYAhF9VliEk0z2BDUpS1QUpvUOCb
+         acF1XuO4xOzTPdN6d8OMEoenlA6HSDWH4Pf7CDEAM8nb+vMuqSHu/16A8zfwkLjgIgEH
+         uGMi604oik5q3oUxdLuEaRRSMKnvgfkY3/Se9/WO/AGhXEOnta6nIkUAFd+q4PowDm7E
+         pncPGS6PnmPW6N0Zw6jpTrcCLV25AXS5o9Aa1G9qJAJ4quyAUu6VdhO3vTEQ7EiCiCn4
+         Y5V8qaWyR+soNc2cK89UYE7O/N6+nOde9T47Qi5TtnQiBIklacnXNhBtkGspk6ks8Cs4
+         RB9g==
+MIME-Version: 1.0
+X-Received: by 10.152.5.4 with SMTP id o4mr180874lao.64.1403155244813; Wed, 18
+ Jun 2014 22:20:44 -0700 (PDT)
+Reply-To: ravi@cse.iitm.ac.in
+Sender: ravindran.b@gmail.com
+Received: by 10.152.105.81 with HTTP; Wed, 18 Jun 2014 22:20:44 -0700 (PDT)
+Date: Thu, 19 Jun 2014 10:50:44 +0530
+X-Google-Sender-Auth: FLwrvZx5fvaOGMFYWTfVWW3sq9w
+Message-ID: <CAJ0BqjikPafj-_SchG2jVA55YypVLBdFObUCzngLabdbUk8LkA@mail.gmail.com>
+Subject: Department Seminar on Friday at 11 a.m.
+From: Balaraman Ravindran <ravi@cse.iitm.ac.in>
+To: rise-iil <rise-iil@cse.iitm.ac.in>, seminar@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=089e01493c40ee915704fc298951
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: smoothed,domains,learning,provable,better,realistic,algorithm,computational,nort
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.217.180
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201406190507420014451
+
+--089e01493c40ee915704fc298951
+Content-Type: text/plain; charset=UTF-8
+
+venue BSB 361.
+Time 11.00 am
+date 20th June.
+
+Aravindan Vijayaraghavan ( CMU --> Northwestern University)
+
+Beyond Worst Case Analysis in Algorithm Design
+
+For many real world computational tasks there is a significant gap between our
+theoretical and practical understanding. While the theory of NP-completeness
+and worst case analysis tells us that many interesting computational
+problems are NP-hard in the worst case, practitioners in areas like machine
+learning and computer vision have made significant progress in solving such
+theoretically hard problems. Bridging this gap is a significant challenge
+for modern day theoretical computer science.
+
+In this talk, I will discuss three paradigms that go beyond traditional
+worst-case analysis in our search for algorithms with better provable
+guarantees: (realistic) average-case analysis, smoothed analysis and instance
+stability. I will use these paradigms to show much better guarantees for
+two classes of problems in very different domains:
+(a) graph partitioning, and (b) unsupervised learning of probabilistic
+models.
+
+--089e01493c40ee915704fc298951
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small"><br=
+></div><div class=3D"gmail_quote"><br><div dir=3D"ltr"><div><div><div>venue=
+ BSB 361. <br>Time 11.00 am <br>date 20th June.<br></div></div></div><br><d=
+iv><div class=3D"gmail_quote">
+<div dir=3D"ltr"><div><div style=3D"width:1280px;min-height:657px"><div sty=
+le=3D"width:1280px"><div style=3D"min-height:657px"><div><div style=3D"widt=
+h:515px;min-height:657px"><div><div style=3D"width:510px;min-height:657px">=
+<div style=3D"width:510px">
+<div><div><div><div><div><div><table style=3D"width:508px"><tbody><tr><td><=
+table style=3D"font-size:16px;width:508px"><tbody><tr><td style=3D"width:50=
+8px"><div style=3D"max-height:376px;min-height:300px;min-height:376px"><div=
+ style=3D"max-height:376px">
+<div><div><table style=3D"width:492px" cellpadding=3D"0"><tbody><tr><td sty=
+le=3D"width:488px"><div style=3D"display:block"><div style=3D"width:474px;d=
+irection:ltr;min-height:280px"><blockquote type=3D"cite" style=3D"font-size=
+:13px"><div dir=3D"ltr" style=3D"font-size:12pt">
+<span style=3D"font-size:13.33px"><span style=3D"background-image:initial;b=
+ackground-color:rgb(255,255,204);background-repeat:initial"><font face=3D"a=
+rial, helvetica, sans-serif">Aravindan Vijayaraghavan ( CMU --&gt; Northwes=
+tern University)</font></span></span></div>
+
+
+
+<div dir=3D"ltr" style=3D"font-size:12pt">
+<span style=3D"font-size:13.33px"><span style=3D"background:rgb(255,255,204=
+)"><font face=3D"arial, helvetica, sans-serif"><br></font></span></span></d=
+iv><div dir=3D"ltr" style=3D"font-size:12pt">
+<font face=3D"arial, helvetica, sans-serif"><span style=3D"font-size:13.33p=
+x"><span style=3D"background:rgb(255,255,204)">Beyond</span>=C2=A0<span sty=
+le=3D"background:rgb(255,255,204)">Worst</span>=C2=A0<span style=3D"backgro=
+und:rgb(255,255,204)">Case</span>=C2=A0Analysis in Algorithm Design</span><=
+br style=3D"font-size:13.33px">
+
+
+
+
+<br style=3D"font-size:13.33px"><span style=3D"font-size:13.33px">For many =
+real world computational tasks there is a significant gap between=C2=A0</sp=
+an><span style=3D"font-size:13.33px">our theoretical and practical understa=
+nding. While the theory of=C2=A0</span><span style=3D"font-size:13.33px">NP=
+-completeness and=C2=A0<span style=3D"background:rgb(255,255,204)">worst</s=
+pan>=C2=A0<span style=3D"background:rgb(255,255,204)">case</span>=C2=A0anal=
+ysis tells us that many interesting=C2=A0</span><span style=3D"font-size:13=
+.33px">computational problems are NP-hard in the=C2=A0<span style=3D"backgr=
+ound:rgb(255,255,204)">worst</span>=C2=A0<span style=3D"background:rgb(255,=
+255,204)">case</span>, practitioners in=C2=A0</span><span style=3D"font-siz=
+e:13.33px">areas like machine learning and computer vision have made signif=
+icant=C2=A0</span><span style=3D"font-size:13.33px">progress in solving suc=
+h theoretically hard problems. Bridging this gap is=C2=A0</span><span style=
+=3D"font-size:13.33px">a significant challenge for modern day theoretical c=
+omputer science.</span><br style=3D"font-size:13.33px">
+
+
+
+
+<br style=3D"font-size:13.33px"><span style=3D"font-size:13.33px">In this t=
+alk, I will discuss three paradigms that go=C2=A0<span style=3D"background:=
+rgb(255,255,204)">beyond</span>=C2=A0traditional</span><br style=3D"font-si=
+ze:13.33px">
+<span style=3D"font-size:13.33px"><span style=3D"background:rgb(255,255,204=
+)">worst</span>-<span style=3D"background:rgb(255,255,204)">case</span>=C2=
+=A0analysis in our search for algorithms with better provable</span><br sty=
+le=3D"font-size:13.33px">
+
+
+
+
+<span style=3D"font-size:13.33px">guarantees: (realistic) average-<span sty=
+le=3D"background:rgb(255,255,204)">case</span>=C2=A0analysis, smoothed anal=
+ysis and=C2=A0</span><span style=3D"font-size:13.33px">instance stability. =
+I will use these paradigms to show much=C2=A0</span><span style=3D"font-siz=
+e:13.33px">better guarantees for two classes of problems in very different =
+domains:</span><br style=3D"font-size:13.33px">
+
+
+
+
+<span style=3D"font-size:13.33px">(a) graph partitioning, and (b) unsupervi=
+sed learning of probabilistic</span><br style=3D"font-size:13.33px"><span s=
+tyle=3D"font-size:13.33px">models.</span><br style=3D"font-size:13.33px">
+</font></div></blockquote><div><div dir=3D"ltr" style=3D"font-family:Calibr=
+i,&#39;Segoe UI&#39;,Meiryo,&#39;Microsoft YaHei UI&#39;,&#39;Microsoft Jhe=
+ngHei UI&#39;,&#39;Malgun Gothic&#39;,sans-serif;font-size:12pt"><span styl=
+e=3D"font-size:13.33px;font-family:arial,sans-serif"><br>
+
+
+
+
+</span></div></div></div></div></td></tr></tbody></table></div></div></div>=
+</div></td></tr></tbody></table></td></tr></tbody></table></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div>
+</div><div class=3D"gmail_extra"><br></div></div></div></div></div></div>
+
+--089e01493c40ee915704fc298951--

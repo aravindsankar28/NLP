@@ -1,0 +1,145 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 4 Sep 2013 21:09:55 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id C4664F7811B;
+	Wed,  4 Sep 2013 21:09:52 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id FfbAIsmrJkF1; Wed,  4 Sep 2013 21:09:52 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A0C8EF78105;
+	Wed,  4 Sep 2013 21:09:51 +0530 (IST)
+Date: Wed, 4 Sep 2013 21:09:51 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: rise-iil  <rise-iil@cse.iitm.ac.in>
+Message-ID: <1148574455.5089.1378309191544.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1954273384.5077.1378308569745.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Seminar on Statistical Relational Learning on TUESDAY, 10th.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_5088_325634373.1378309191543"
+X-Originating-IP: [10.23.2.230]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_5088_325634373.1378309191543
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Dear All,=20
+
+
+Dr. Sriraam Natarajan from Indiana University will be giving a seminar on s=
+tatistical relational learning for predictive personalized medicine on Tues=
+day 10th September, at 2 p.m. in BSB 361. All are welcome. Details below.=
+=20
+
+
+Regards=20
+Ravi.=20
+
+
+
+
+
+Title: Statistical Relational Learning for Predictive Personalized Medicine=
+=20
+
+
+Abstract: Recent advances in medicine and electronic book-keeping have grea=
+tly increased the amount of medical data available for research and clinica=
+l decision making. Electronic Health Records include information about test=
+ results, lab reports, medical images, genomics, treatments, outcomes, and =
+family histories. Together with recent advances in data mining and machine =
+learning, it now seems possible to realize the grand vision of predictive p=
+ersonalized medicine.=20
+
+
+Statistical Relational Learning (SRL) combines the powerful formalisms of p=
+robability theory and first-order logic to handle uncertainty in large, com=
+plex problems. In this talk, I illustrate the potential of SRL to achieve a=
+n important sub-goal of predictive medicine: early detection. Specifically,=
+ I will present SRL approaches for (1) identifying young adults who are at =
+high risk of developing Coronary Heart Disease in middle and later life, an=
+d (2) identifying the set of patients who have or will have Alzheimer's Dis=
+ease by analyzing their brain MRI images. I will present a general approach=
+ for learning SRL models based on Functional-Gradient Boosting. I will adap=
+t this algorithm for the above mentioned challenging tasks to produce state=
+-of-the-art results in three real-world medical studies. I will outline oth=
+er interesting problems in personalized medicine that we are addressing usi=
+ng SRL and conclude on the optimistic note that predictive personalized med=
+icine is within reach in the near future. Bio: Sriraam Natarajan is an Assi=
+stant Professor at the School of Informatics and Computing at Indiana Unive=
+rsity. He was previously an Assistant Professor at Wake Forest University S=
+chool of Medicine, a Post-Doctoral Research Associate at University of Wisc=
+onsin-Madison and graduated with his PhD from Oregon State University. His =
+research interests lie in the field of Artificial Intelligence, with emphas=
+is on Machine Learning, Statistical Relational AI, Reinforcement Learning a=
+nd Graphical Models with applications in Biomedicine and Health Informatics=
+. He is a Senior Program Committee member of IJCAI 2013 and has served on t=
+he PC of several conferences/workshops such as AAAI, IJCAI, ICML, ECML, ILP=
+ and SRL. He has co-organized the AAAI 2013, AAAI 2010 and the UAI 2012 wor=
+kshops on Statistical Relational AI (StarAI), the 2012 Workshop on SRL and =
+the ECML PKDD 2011 and 2012 workshops on Collective Learning and Inference =
+on Structured Data (Co-LISD).
+------=_Part_5088_325634373.1378309191543
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div><font face=3D"Times New Roman">Dear All,</font></div><div><font face=
+=3D"Times New Roman"><br></font></div><div><font face=3D"Times New Roman">D=
+r. Sriraam Natarajan from Indiana University will be giving a seminar on st=
+atistical relational learning for predictive personalized medicine on Tuesd=
+ay 10th September, at &nbsp;2 p.m. in BSB 361. All are welcome. Details bel=
+ow.</font></div><div><font face=3D"Times New Roman"><br></font></div><div><=
+font face=3D"Times New Roman">Regards</font></div><div><font face=3D"Times =
+New Roman">Ravi.</font></div><div><font face=3D"Times New Roman"><br></font=
+></div><div><font face=3D"Times New Roman"><br></font></div><font face=3D"T=
+imes New Roman"><div><div>Title: Statistical Relational Learning for Predic=
+tive Personalized Medicine</div><div><br></div><div>Abstract: Recent advanc=
+es in medicine and electronic book-keeping have greatly increased the amoun=
+t of medical data available for research and clinical decision making. Elec=
+tronic Health Records include information about test results, lab reports, =
+medical images, genomics, treatments, outcomes, and family histories. Toget=
+her with recent advances in data mining and machine learning, it now seems =
+possible to realize the grand vision of predictive personalized medicine.</=
+div><div><br></div><div>Statistical Relational Learning (SRL) combines the =
+powerful formalisms of probability theory and first-order logic to handle u=
+ncertainty in large, complex problems. In this talk, I illustrate the poten=
+tial of SRL to achieve an important sub-goal of predictive medicine: early =
+detection. Specifically, I will present SRL approaches for (1) identifying =
+young adults who are at high risk of developing Coronary Heart Disease in m=
+iddle and later life, and (2) identifying the set of patients who have or w=
+ill have Alzheimer's Disease by analyzing their brain MRI images. I will pr=
+esent a general approach for learning SRL models based on Functional-Gradie=
+nt Boosting. I will adapt this algorithm for the above mentioned challengin=
+g tasks to produce state-of-the-art results in three real-world medical stu=
+dies. I will outline other interesting problems in personalized medicine th=
+at we are addressing using SRL and conclude on the optimistic note that pre=
+dictive personalized medicine is within reach in the near future.&nbsp;</di=
+v></div>Bio: Sriraam Natarajan is an Assistant Professor at the School of I=
+nformatics and Computing at Indiana University. He was previously an Assist=
+ant Professor at Wake Forest University School of Medicine, a Post-Doctoral=
+ Research Associate at University of Wisconsin-Madison and graduated with h=
+is PhD from Oregon State University. His research interests lie in the fiel=
+d of Artificial Intelligence, with emphasis on Machine Learning, Statistica=
+l Relational AI, Reinforcement Learning and Graphical Models with applicati=
+ons in Biomedicine and Health Informatics. He is a Senior Program Committee=
+ member of IJCAI 2013 and has served on the PC of several conferences/works=
+hops such as AAAI, IJCAI, ICML, ECML, ILP and SRL. He has co-organized the =
+AAAI 2013, AAAI 2010 and the UAI 2012 workshops on Statistical Relational A=
+I (StarAI), the 2012 Workshop on SRL and the ECML PKDD 2011 and 2012 worksh=
+ops on Collective Learning and Inference on Structured Data (Co-LISD).&nbsp=
+;</font></div></body></html>
+------=_Part_5088_325634373.1378309191543--

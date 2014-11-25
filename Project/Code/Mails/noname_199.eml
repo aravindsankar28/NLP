@@ -1,0 +1,45 @@
+
+Dear All,=20
+
+
+
+
+I am happy to invite all of you to my MS seminar on April 23, 2013 ( Tuesda=
+y ) at 3:00 PM. Kindly make it convenient to attend the seminar and give yo=
+ur valuable suggestions. The details of the talk are as follows:=20
+
+Title : Degree Sets : Realizability and Extension Problems=20
+Speaker : Prasun Kumar=20
+Guide : Dr. Jayalal Sarma M. N.=20
+Date & Time : April 23, 2013(Tuesday) at 3:00 PM=20
+Venue : BSB 361, CSE Department=20
+
+Abstract:=20
+
+Degree sequence of a graph is defined as a sequence whose elements are the =
+degrees of all the vertices in the graph, and if we form a set correspondin=
+g to the given degree sequence we get a degree set. They give an another wa=
+y of representing graphs (simple), using O(|V |log|V |) space, but at the c=
+ost of loosing their uniqueness. Due to Kapoor et al, we know that any set =
+S =3D {a_1 < =C2=B7 =C2=B7 =C2=B7 < a_n}, of positive integers is always re=
+alizable by a simple graph with a_n + 1 vertices. Here the interesting ques=
+tion is: Can we realize S by a simple graph with exactly r (a_n+1) vertices=
+? We have answered this in a positive way. Amazingly if we ask the same que=
+stion for tree realizability (a_1 =3D 1) of S, then we found the problem to=
+ be NP-Complete. With the same motivation, we extended the degree set defin=
+ition to digraphs(simple) under different realizibility notions, and showed=
+ that any set, S =3D {a_1 < =C2=B7 =C2=B7 =C2=B7 < a_n}, of positive intege=
+rs can always be realized by an asymmetric graph with exactly r vertices. E=
+ven for directed trees, such extensions are always possible. We will also d=
+iscuss about multiplicity-constrained degree sets, an intermediate case bet=
+ween degree sets and degree sequences, where we restrict the number of time=
+s that a vertex in the degree set appears in the realization. In this direc=
+tion, we particularly focus on the tree-realizability of degree sets under =
+multiplicity constraints on each degree.=20
+
+All are welcome!=20
+
+Regards,=20
+Prasun=20
+(CS11S005)=20
+Dept of CSE, IIT Madras.

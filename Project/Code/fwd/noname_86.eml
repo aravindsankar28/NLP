@@ -1,0 +1,72 @@
+Return-Path: swamy@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 23 Jan 2014 12:33:22 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 908DAF78BE3;
+	Thu, 23 Jan 2014 12:33:17 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.594
+X-Spam-Level: *
+X-Spam-Status: No, score=1.594 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, RDNS_NONE=0.793]
+	autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 7DxBFS63CxU0; Thu, 23 Jan 2014 12:33:17 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 5B6497580AF
+	for <seminar@cse.iitm.ac.in>; Thu, 23 Jan 2014 12:27:04 +0530 (IST)
+Date: Thu, 23 Jan 2014 12:26:59 +0530 (IST)
+From: "swamy@cse.iitm.ac.in" <swamy@cse.iitm.ac.in>
+To: seminar@cse.iitm.ac.in
+Message-ID: <238973461.67902.1390460219178.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Seminars Announcement
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+Dear Friends,
+Please find in this mail TWO seminar notifications.  All are invited.
+regards
+narayanaswamy
+--------------------------------------------------------------------------------------------------------------------------
+
+SEMINAR 1
+----------------
+Speaker: Prof. Martin Kreuzer, University of Passau, Germany.
+Venue : CS 25, Computer Sciences Block
+Date and Time: 28/1/2014, Tuesday, at 10AM (1 hour)
+Title: "Using Linear Algebra to Solve Polynomial Systems" 
+
+Abstract:
+"In many applications of computer algebra, the task arises
+to solve polynomial systems of equations which are known to have
+only finitely many solutions. Algebraically, such systems correspond
+to algebras which are finite dimensional vector spaces over a field.
+Given a basis of such an algebra and its description by multiplication
+matrices, we show how one can use methods of Linear Algebra to 
+determine the set of solutions of the polynomial system.
+We shall also discuss applications of polynomial system solving to
+cryptography and to industrial applications."
+
+SEMINAR 2
+----------------
+Speaker: Prof. Martin Kreuzer, University of Passau, Germany.
+Venue : CS 25, Computer Sciences Block
+Date and Time: 30/1/2014, Thursday, at 11AM (1 hour)
+Title: "Chess and Mathematics" 
+
+"In this talk we explore the connections between the game of chess
+and mathematics on a number of different levels: chess players and
+mathematicians, combinatorial chess problems, chess and logic,
+algorithms for playing chess, and programs for solving chess
+completely. Contrary to popular belief we shall indicate that, while 
+there are indeed strong connections between chess problems and 
+math problems, the number of persons who are experts in both fields
+is surprisingly small. On the other hand, the tasks of implementing
+strong chess playing programs and programs for analyzing endgame
+positions have strongly influenced the development of computer
+science and algorithmics."

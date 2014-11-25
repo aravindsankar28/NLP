@@ -1,0 +1,86 @@
+
+
+
+From: "Janakiram D" <djram@iitm.ac.in> 
+To: faculty@cse.iitm.ac.in, scholars@cse.iitm.ac.in, announce@iitm.ac.in 
+Sent: Tuesday, February 18, 2014 3:09:56 PM 
+Subject: Talk on Automated Software Engineering 
+
+
+
+
+
+(Don Batory is also giving the keynote talk at 7th Indian Software Engineering Conference on Feb 20 at 9am in ICSR Auditorium) 
+
+
+
+
+Talk Title : Dark Knowledge and Graph Grammars in Automated Software Design 
+
+
+
+
+Speaker : Don Batory, University of Texas, Austin 
+
+
+
+
+Time and Venue : Feb 19th 9 -10 am at CS25 
+
+
+
+
+Abstract 
+
+
+
+
+Mechanizing the development of hard-to-write and costly-to-maintain software is the core problem of automated software design. Encoding expert knowledge (a.k.a. dark knowledge ) about a software domain is central to its solution. We assert that a solution can be cast in terms of the ideas of language design and engineering. Graph grammars can be a foundation for modern automated soft- ware development. The sentences of a grammar are designs of complex dataflow systems. We explain how graph grammars provide a framework to encode expert knowledge, produce correct-by-construction derivations of dataflow applications, enable the generation of high-performance code, and improve how software design of dataflow applications can be taught to undergraduates. 
+
+
+
+
+Bio 
+
+
+
+
+Don Batory holds the David Bruton Centennial Professorship in the 
+
+Department of Computer Science at The University of Texas at Austin. 
+
+
+
+He was Associate Editor of IEEE Transactions on Software Engineering 
+
+and Associate Editor of ACM Transactions on Database Systems. 
+
+
+
+He is a pioneer of Feature Oriented Software Development (FOSD) and 
+
+has recently authored a textbook on the topic. 
+
+
+
+He and his students have written 11 Award Papers, one of which won 
+
+the Automated Software Engineering 2013 Most Influential Paper Award 
+
+on program refactorings. 
+
+
+
+
+
+------------------------------------------------------------------------------------ 
+Dr. Dharanipragada Janakiram, 
+Professor, 
+Dept. of Computer Sc. and Engg., 
+IIT, Madras, 
+Chennai - 600 036 
+email : djram@iitm.ac.in or djram@acm.org 
+Ph. no. 91-44-22574354 (office) 
+Fax : 91-44-22574352 
+House address : B-10, Lake View Road, IIT Campus, Chennai 600036 
+--------------------------------------------------------------------------------------- 

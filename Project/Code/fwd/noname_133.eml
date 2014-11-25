@@ -1,0 +1,109 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 17 Sep 2013 18:54:32 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7CB6EF78101;
+	Tue, 17 Sep 2013 18:54:30 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id gs7ec3yOwXXO; Tue, 17 Sep 2013 18:54:24 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id AC6B4F78128;
+	Tue, 17 Sep 2013 18:54:10 +0530 (IST)
+Date: Tue, 17 Sep 2013 18:54:08 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: rise-iil  <rise-iil@cse.iitm.ac.in>, aidb  <aidb@googlegroups.com>
+Message-ID: <1444517841.567850.1379424248800.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1345938111.566693.1379423602132.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Machine Learning Seminar on FRIDAY, 20th.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_567849_366283849.1379424248799"
+X-Originating-IP: [14.139.160.8]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_567849_366283849.1379424248799
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+
+Dr. Gautam Kunapuli from Wisconsin-Madison will be giving a talk on Inverse Reinforcement Learning at 3 p.m. in BSB 361 on Friday, 20th. Details below. All are welcome. 
+
+
+Regards 
+Ravi. 
+
+
+
+
+
+Title: Advice-Giving for Inverse Reinforcement Learning 
+
+
+Abstract: 
+Inverse Reinforcement Learning (IRL) is an approach for domain-reward discovery from demonstration, where an agent mines the reward function of a Markov decision process by observing an expert acting in the domain. In the standard setting, it is assumed that the expert acts (nearly) optimally, and a large number of trajectories, i.e., training examples are available for reward discovery (and consequently, learning domain behavior). These are not practical assumptions: trajectories are often noisy, and there can be a paucity of examples. This novel approach incorporates advice-giving into the IRL framework to address these issues. Inspired by preference elicitation, a domain expert provides advice on states and actions (features) by stating preferences over them. 
+
+
+In this talk, I will provide a brief introduction to Inverse Reinforcement Learning and its applications. Then, I will present our advice-taking IRL approach, in which an agent learns from noisy demonstrations, and small amounts of targeted advice provided by a domain expert. Our results 
+
+
+Bio: 
+Gautam Kunapuli received his PhD in Applied Mathematics from Rensselaer Polytechnic Institute in 2008, under the guidance of Dr. Kristin Bennett. He was a Postdoctoral Research Associate at the University of Wisconsin-Madison from 2008-2013. He will be taking up a Research Scientist position at UtopiaCompression Corporation in October 2013. His research interests are primarily in developing efficient optimization approaches to diverse machine learning problems, including online learning, reinforcement learning and human-in-the-loop learning. 
+------=_Part_567849_366283849.1379424248799
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><font face=3D"Times New Roman" size=3D"3">Dear All,</font><div style=3D"co=
+lor: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;"><br></=
+div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font=
+-size: 12pt;">Dr. Gautam Kunapuli from Wisconsin-Madison will be giving a t=
+alk on Inverse Reinforcement Learning at 3 p.m. in BSB 361 on Friday, 20th.=
+ Details below. All are welcome.</div><div style=3D"color: rgb(0, 0, 0); fo=
+nt-family: 'Times New Roman'; font-size: 12pt;"><br></div><div style=3D"col=
+or: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;">Regards=
+</div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; fo=
+nt-size: 12pt;">Ravi.</div><div style=3D"color: rgb(0, 0, 0); font-family: =
+'Times New Roman'; font-size: 12pt;"><br></div><div><div><font face=3D"Time=
+s New Roman"><br></font></div><div><font face=3D"Times New Roman">Title: Ad=
+vice-Giving for Inverse Reinforcement Learning</font></div><div><font face=
+=3D"Times New Roman"><br></font></div><div><font face=3D"Times New Roman">A=
+bstract:</font></div><div><font face=3D"Times New Roman">Inverse Reinforcem=
+ent Learning (IRL) is an approach for domain-reward discovery from demonstr=
+ation, where an agent mines the reward function of a Markov decision proces=
+s by observing an expert acting in the domain. In the standard setting, it =
+is assumed that the expert acts (nearly) optimally, and a large number of t=
+rajectories, i.e., training examples are available for reward discovery (an=
+d consequently, learning domain behavior). These are not practical assumpti=
+ons: trajectories are often noisy, and there can be a paucity of examples. =
+This novel approach incorporates advice-giving into the IRL framework to ad=
+dress these issues. Inspired by preference elicitation, a domain expert pro=
+vides advice on states and actions (features) by stating preferences over t=
+hem.&nbsp;</font></div><div><font face=3D"Times New Roman"><br></font></div=
+><div><font face=3D"Times New Roman">In this talk, I will provide a brief i=
+ntroduction to Inverse Reinforcement Learning and its applications. Then, I=
+ will present our advice-taking IRL approach, in which an agent learns from=
+ noisy demonstrations, and small amounts of targeted advice provided by a d=
+omain expert. Our results&nbsp;</font></div><div><font face=3D"Times New Ro=
+man"><br></font></div><div><font face=3D"Times New Roman">Bio:</font></div>=
+<div><font face=3D"Times New Roman">Gautam Kunapuli received his PhD in App=
+lied Mathematics from Rensselaer Polytechnic Institute in 2008, under the g=
+uidance of Dr. Kristin Bennett. He was a Postdoctoral Research Associate at=
+ the University of Wisconsin-Madison from 2008-2013. He will be taking up a=
+ Research Scientist position at UtopiaCompression Corporation in October 20=
+13. His research interests are primarily in developing efficient optimizati=
+on approaches to diverse machine learning problems, including online learni=
+ng, reinforcement learning and human-in-the-loop learning.</font></div></di=
+v></div></body></html>
+------=_Part_567849_366283849.1379424248799--

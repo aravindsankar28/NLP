@@ -1,0 +1,175 @@
+Return-Path: jayalal.sarma@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sat, 1 Jun 2013 08:33:27 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id DAD71299000D;
+	Sat,  1 Jun 2013 08:32:52 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.591
+X-Spam-Level: *
+X-Spam-Status: No, score=1.591 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_NEUTRAL=0.779,
+	T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 09kdeXnb+xzZ; Sat,  1 Jun 2013 08:32:45 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7F17A2198001;
+	Sat,  1 Jun 2013 08:32:44 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id C720C780678;
+	Sat,  1 Jun 2013 08:59:44 +0530 (IST)
+Received: from mail-ie0-f174.google.com ([209.85.223.174])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.3.8205)
+	with ESMTP id 201306010329530089996; Sat, 01 Jun 2013 08:59:54 +0530
+Received: by mail-ie0-f174.google.com with SMTP id aq17so5703735iec.5
+        for <multiple recipients>; Fri, 31 May 2013 20:29:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:from:date:x-google-sender-auth:message-id
+         :subject:to:cc:content-type;
+        bh=ytOiwB7fii39OlsIgh+WoKLg0HWr9c2CHQ8LaSevOCM=;
+        b=FUJjRv2+ExdxnN6ip8+smI+DHYrWulgNIIvHZI80v62Dc2ggKnBO+Rfbofvwb94Mtv
+         SNZ/MorDkTrzMpDkrDx1l4vfMKoXODCCOFVEjJtHDgxaYHr/jN6ZyjVHTV4vcwVbkpF5
+         gsVAJJPaFHTTM87EJD8QVdG/lsn7o/OMsEJhiAFeT4hKWzFTQyPxA376ReHZFLJKy8MQ
+         kCn/Cppokk0ECdsykaQucy0JbpsxZC9RgwfoBAtPREJjn5WOJBfNQSQh+2dVoV3bZ7Jq
+         cBb/8SL/25MQlhNuXfGIc4Csqhg6sCTurgKFvEehB8t4Ja2iBwdJE5S4/2AkgYy7+0ff
+         OwmA==
+X-Received: by 10.50.7.36 with SMTP id g4mr3055574iga.64.1370057382188; Fri,
+ 31 May 2013 20:29:42 -0700 (PDT)
+MIME-Version: 1.0
+Sender: jayalal.sarma@gmail.com
+Received: by 10.64.25.195 with HTTP; Fri, 31 May 2013 20:29:22 -0700 (PDT)
+From: "Jayalal Sarma M.N." <jayalal@cse.iitm.ac.in>
+Date: Sat, 1 Jun 2013 08:59:22 +0530
+X-Google-Sender-Auth: Gij4xquA2dplWCWAkpROKgTquyo
+Message-ID: <CAL_Lm_igM-hJy9kB0EbtwnTHWzGhKFTs7n+HhRhPC14NGnQvkA@mail.gmail.com>
+Subject: Talk Announcement - Jun 5th @ 2:30pm, BSB 361.
+To: seminar@cse.iitm.ac.in
+Cc: head@cse.iitm.ac.in, Mathew Francis <mathewcfrancis@gmail.com>
+Content-Type: multipart/alternative; boundary=089e01177941965ebc04de0f57e7
+X-Mlf-DKIM: dkim=none 
+X-Mlf-AddressBook: jayalal.sarma@gmail.com,people,allowed
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.223.174
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;list_addrbk_sender
+X-Mlf-UniqueId: i201306010329530089996
+
+--089e01177941965ebc04de0f57e7
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+
+Please find below the details of a department seminar scheduled on Jun 5th.
+
+------------------------------------------------------
+*Title *: The Maximum Clique Problem in Multiple Interval Graphs
+*Speaker *: Dr. Mathew C. Francis (http://www.imsc.res.in/~mathew/)
+*Affiliation* : The Institute of Mathematical Sciences (IMSc), Chennai.
+*Day, Date & Time* : Wed, Jun 5, 2013, 2:30pm
+*Venue* : BSB 361 seminar hall.
+------------------------------------------------------
+*Abstract* : A simple, finite, undirected graph is said to be an "interval
+graph" if each vertex of it can be assigned an interval on the real line in
+such a way that two vertices are adjacent in the graph if and only if the
+intervals assigned to them intersect. Interval graphs have been studied
+extensively because of their many practical applications and also because
+most natural graph problems, even those that are hard to solve on general
+graphs, can be easily solved on interval graphs.
+
+We look at a generalization of interval graphs, called multiple interval
+graphs, that are useful in DNA sequencing and processor scheduling. Here,
+instead of a single interval, each vertex can be assigned a set of
+intervals on the real line. A graph is called a "t-interval graph" if each
+vertex of the graph can be assigned a set of t intervals such that two
+vertices u and v of the graph are adjacent if and only if some interval
+assigned to u intersects some interval assigned to v. A variant of this,
+when there are t different real lines and exactly one interval from each
+real line is assigned to each vertex, is the class of "t-track" graphs.
+
+The MAXIMUM CLIQUE problem, or the problem of finding the size of the
+maximum clique in an input graph, is known to be hard for general graphs.
+In fact, for general graphs, there exists no polynomial-time approximation
+algorithm for the problem with an approximation factor O(n^{1-\epsilon})
+for any \epsilon>0, unless P=NP. We shall discuss new results about the
+complexity of the MAXIMUM CLIQUE problem when the input graph is restricted
+to be a t-interval or t-track graph.
+------------------------------------------------------
+*Speaker Bio* : Dr. Mathew C. Francis (http://www.imsc.res.in/~mathew/) is
+currently a postdoc at Institute of Mathematical Science (IMSc) Chennai.
+Prior to that, he held postdoc positions at Charles University(Prague),
+University of Toronto, Simon Fraser University, and The Montpellier
+Laboratory of Informatics, Robotics and Microelectronics (LIRMM, University
+of Montpellier 2, France).
+He obtained his PhD from Indian Institute of Science(IISc) Bangalore in
+2010.
+------------------------------------------------------
+
+
+Best regards,
+Jayalal
+
+--089e01177941965ebc04de0f57e7
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear All,<br><br>Please find below the details of a depart=
+ment seminar scheduled on Jun 5th.<br><br>---------------------------------=
+---------------------<div><b>Title </b>: The Maximum Clique Problem in Mult=
+iple Interval Graphs</div>
+
+<div><b>Speaker=A0</b>: Dr. Mathew C. Francis (<a href=3D"http://www.imsc.r=
+es.in/~mathew/">http://www.imsc.res.in/~mathew/</a>)=A0<div><b>Affiliation<=
+/b>=A0: The Institute of Mathematical Sciences (IMSc), Chennai.</div><b>Day=
+, Date &amp; Time</b> : Wed, Jun 5, 2013, 2:30pm<br>
+
+<b>Venue</b> : BSB 361 seminar hall.</div><div>----------------------------=
+--------------------------<br><div><b>Abstract</b> : A simple, finite, undi=
+rected graph is said to be an &quot;interval graph&quot; if each vertex of =
+it can be assigned an interval on the real line in such a way that two vert=
+ices are adjacent in the graph if and only if the intervals assigned to the=
+m intersect. Interval graphs have been studied extensively because of their=
+ many practical applications and also because most natural graph problems, =
+even those that are hard to solve on general graphs, can be easily solved o=
+n interval graphs.<br>
+
+<br>We look at a generalization of interval graphs, called multiple interva=
+l graphs, that are useful in DNA sequencing and processor scheduling. Here,=
+ instead of a single interval, each vertex can be assigned a set of interva=
+ls on the real line. A graph is called a &quot;t-interval graph&quot; if ea=
+ch vertex of the graph can be assigned a set of t intervals such that two v=
+ertices u and v of the graph are adjacent if and only if some interval assi=
+gned to u intersects some interval assigned to v. A variant of this, when t=
+here are t different real lines and exactly one interval from each real lin=
+e is assigned to each vertex, is the class of &quot;t-track&quot; graphs.<b=
+r>
+
+<br>The MAXIMUM CLIQUE problem, or the problem of finding the size of the m=
+aximum clique in an input graph, is known to be hard for general graphs. In=
+ fact, for general graphs, there exists no polynomial-time approximation al=
+gorithm for the problem with an approximation factor O(n^{1-\epsilon}) for =
+any \epsilon&gt;0, unless P=3DNP. We shall discuss new results about the co=
+mplexity of the MAXIMUM CLIQUE problem when the input graph is restricted t=
+o be a t-interval or t-track graph.<div>
+
+------------------------------------------------------<br><b>Speaker Bio</b=
+> : Dr. Mathew C. Francis (<a href=3D"http://www.imsc.res.in/~mathew/">http=
+://www.imsc.res.in/~mathew/</a>) is currently a postdoc at Institute of Mat=
+hematical Science (IMSc) Chennai. Prior to that, he held postdoc positions =
+at Charles University(Prague), University of Toronto, Simon Fraser Universi=
+ty, and=A0The Montpellier Laboratory of Informatics, Robotics and Microelec=
+tronics (LIRMM,=A0University of Montpellier 2, France).</div>
+
+<div>He obtained his PhD from Indian Institute of Science(IISc) Bangalore i=
+n 2010.</div></div></div><div>---------------------------------------------=
+---------</div><div><br></div><div><br></div><div style>Best regards,</div>
+
+<div style>Jayalal</div></div>
+
+--089e01177941965ebc04de0f57e7--

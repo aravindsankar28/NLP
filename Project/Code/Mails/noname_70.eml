@@ -1,0 +1,42 @@
+
+
+
+Dear All, 
+
+I am happy to invite you all for my second PhD seminar talk on Tuesday , 18 th March, 2014 at BSB 361. Please make it convenient to attend the seminar and give your valuable suggestions. 
+
+The details of the seminar are as follows: 
+
+Topic : Studies on Some Lattice Based Public Key Encryption Schemes 
+
+Date : 18 th March , 2014 
+Time : 15:00 - 16:00 Hrs 
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineering 
+
+
+
+Abstract: 
+
+
+
+In 1981, David Chaum proposed a cryptographic primitive for privacy called mix network (Mixnet). A mixnet is cryptographic construction that establishes anonymous communication channel through a set of servers. In 2004, Golle et al. proposed a new cryptographic primitive called universal re-encryption which takes the input as encrypted messages under the public key of the recipients not the public key of the universal mixnet. So it dispenses with the complexities of the key generation, key distribution and key maintenance of the public key of mixnet. 
+
+At Eurocrypt 1998, Blaze, Bleumer and Strauss presented a new primitive called Proxy Re-Encryption (PRE). This new primitive allows semi trusted proxy to transform a ciphertext for Alice (delegator) into a ciphertext for Bob (delegatee) without knowing the message. Ateniese et al. introduced master secret security as another security requirement for unidirectional PRE. Master secret security demands that no coalition of dishonest proxy and malicious delegatees can compute the master secret key (private key) of the delegator. 
+
+In this seminar, we will present efficient universal re-encryption scheme under learning with error assumption. Further, we demonstrate that Aono et al.'s unidirectional PRE scheme is not secure under master secret security model. 
+
+All are Welcome. 
+
+
+
+Thanks, 
+
+
+
+With regards, 
+
+
+
+Kunwar Singh 
+
+CS10D002 

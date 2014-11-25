@@ -1,0 +1,125 @@
+Return-Path: shankar@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 5 May 2014 00:00:08 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 40653F78128;
+	Sun,  4 May 2014 23:59:30 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.105
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.105 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id yVDo3-YmpkLD; Sun,  4 May 2014 23:59:18 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7C077F78033;
+	Sun,  4 May 2014 23:59:17 +0530 (IST)
+Date: Sun, 4 May 2014 23:59:17 +0530 (IST)
+From: Shankar Balachandran <shankar@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <101569402.9257.1399228157444.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk by Susmita Sur-Kolay on "Synthesis Methods for Quantum
+ Computers"
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9256_1092466636.1399228157443"
+X-Originating-IP: [10.65.0.31]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_9256_1092466636.1399228157443
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All=20
+
+Prof. Susmita Sur-Kolay (ISI Kolkata) is giving a talk on "Synthesis Method=
+s for Quantum Computers".=20
+
+Date and Time: 7/5/2014 @ 11am=20
+Venue: BSB 361=20
+
+The abstract and the speaker's bio can be seen below. Tea will be served be=
+fore the talk.=20
+
+Regards=20
+Shankar=20
+
+Abstract:=20
+
+Many decades after quantum mechanics was accepted as a more accurate model =
+of the physical world, Richard Feynman proposed the brilliant vision of bui=
+lding computers based on quantum mechanical systems in 1981. The two major =
+drivers for the development in this =EF=AC=81eld are the need to overcome t=
+he limitations both in the theory of computing with classical deterministic=
+ digital computing models and in the technology of building them. With a br=
+ief introduction to the motivation for quantum computing, we will discuss t=
+he basic model and the operations. Notwithstanding the limitations in physi=
+cal realizations, there has been progress in the technology of quantum comp=
+uters during the last quarter of a century. The main focus of this talk is =
+on reliable synthesis methods for quantum computers starting with a set of =
+fundamental quantum gates realizable in the existing technologies.=20
+
+Brief Bio:=20
+
+Susmita Sur-Kolay is presently a Professor in the Advanced Computing and Mi=
+croelectronics Unit of the Indian Statistical Institute, Kolkata, India. He=
+r research contributions are in the areas of algorithms for design automati=
+on, Intellectual Property protection of electronic design, synthesis of qua=
+ntum computers, graph algorithms. She has authored several technical papers=
+ in international journals and refereed conference proceedings and a chapte=
+r in the Handbook on Algorithms for VLSI Physical Design Automation. She ha=
+s served on the program committees of many international conferences and wa=
+s the Technical Program Co-Chair for three of them. She is an Associate Edi=
+tor of ACM Transactions on Embedded Computing Systems and was on the editor=
+ial board of Proc. of IEE CDT and IEEE Transactions on VLSI Systems. She wa=
+s a Distinguished Visitor of IEEE Computer Society(India), is a Senior Memb=
+er of IEEE, and Member of ACM. Two papers co-authored by her won best paper=
+ awards at two international conferences. Among other awards, she was the r=
+ecipient of the President of India Gold Medal at IIT Kharagpur and IBM Facu=
+lty Award.=20
+
+
+
+------=_Part_9256_1092466636.1399228157443
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All<br><br>Prof. Susmita Sur-Kolay (ISI Kolkata) is giving a talk on =
+"Synthesis Methods for Quantum Computers".<br><br>Date and Time: 7/5/2014 @=
+ 11am<br>Venue: BSB 361<br><br>The abstract and the speaker's bio can be se=
+en below. Tea will be served before the talk.<br><br>Regards<br>Shankar<br>=
+<br>Abstract: <br><br>Many decades after quantum mechanics was accepted as =
+a more accurate model of the physical world, Richard Feynman proposed the b=
+rilliant vision of building computers based on quantum mechanical systems i=
+n 1981. The two major drivers for the development in this =EF=AC=81eld are =
+the need to overcome the limitations both in the theory of computing with c=
+lassical deterministic digital computing models and in the technology of bu=
+ilding them. With a brief introduction to the motivation for quantum comput=
+ing, we will discuss the basic model and the operations. Notwithstanding th=
+e limitations in physical realizations, there has been progress in the tech=
+nology of quantum computers during the last quarter of a century. The main =
+focus of this talk is on reliable synthesis methods for quantum computers s=
+tarting with a set of fundamental quantum gates realizable in the existing =
+technologies.<br><br>Brief Bio: <br><br>Susmita Sur-Kolay is presently a Pr=
+ofessor in the Advanced Computing and Microelectronics Unit of the Indian S=
+tatistical Institute, Kolkata, India. Her research contributions are in the=
+ areas of algorithms for design automation, Intellectual Property protectio=
+n of electronic design, synthesis of quantum computers, graph algorithms. S=
+he has authored several technical papers in international journals and refe=
+reed conference proceedings and a chapter in the Handbook on&nbsp; Algorith=
+ms for VLSI Physical Design Automation. She has served on the program commi=
+ttees&nbsp; of many international conferences and was the Technical Program=
+ Co-Chair for three of them. She is an Associate Editor of ACM Transactions=
+ on Embedded Computing Systems and was&nbsp; on the editorial board of Proc=
+. of IEE CDT and IEEE Transactions on VLSI Systems. She was a Distinguished=
+ Visitor of IEEE Computer Society(India),&nbsp;&nbsp; is a Senior Member of=
+ IEEE, and Member of ACM. Two papers co-authored by her won best paper awar=
+ds at two international conferences. Among other awards, she was the recipi=
+ent of the President of India Gold Medal&nbsp; at IIT Kharagpur and IBM Fac=
+ulty Award.<br><br><br></div></body></html>
+------=_Part_9256_1092466636.1399228157443--

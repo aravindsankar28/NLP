@@ -1,0 +1,145 @@
+Return-Path: vishnu@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 17 Apr 2014 11:03:53 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 2A61821A0007;
+	Thu, 17 Apr 2014 11:03:51 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id X4DQKH5qSzsR; Thu, 17 Apr 2014 11:03:43 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id C0B44F78031;
+	Thu, 17 Apr 2014 11:03:42 +0530 (IST)
+Date: Thu, 17 Apr 2014 11:03:42 +0530 (IST)
+From: vishnu@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>, scholars  <scholars@cse.iitm.ac.in>
+Cc: ravi@cse.iitm.ac.in, rangan@cse.iitm.ac.in, swamy@cse.iitm.ac.in, 
+	mash@iitm.ac.in
+Message-ID: <356014403.47535.1397712822708.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <112014644.47527.1397712399559.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar Talk on 22nd April at 2:00 PM
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_47534_1643567452.1397712822707"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_47534_1643567452.1397712822707
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Dear All,=20
+I invite you to my MS seminar on 22nd April 2014 ( Tuesday ) at 2:00 PM. Ki=
+ndly make it convenient to attend the seminar. The details of the seminar a=
+re as follows.=20
+
+
+Title : Fast Method for Finding Resolution Limit Free Communities in Large =
+Networks=20
+Speaker : Vishnu Sankar M (CS11S024)=20
+Time : 22-04-2014 ( Tuesday ) at 2:00 PM=20
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineeri=
+ng=20
+
+Abstract: Networks are the simplest form of representation of the interacti=
+ons between real world objects. Most of these real world networks exhibit t=
+he property of community structure , i.e., nodes in the network can be part=
+itioned into communities such that more edges are present between nodes bel=
+onging to the same community than between the nodes belonging to different =
+community. This structural property has attracted researchers as the commun=
+ities in networks correspond to a real world property of the network e.g., =
+research area in a collaboration network , related pages in world wide web,=
+ etc., Modularity is the widely used scoring function used to measure the q=
+uality of these communities. But modularity in itself suffers from resoluti=
+on limit, an inability to find communities which are smaller in size when c=
+ompared to size of the network. In this work, we identify the necessary fea=
+tures that a good scoring function should incorporate in order to character=
+ize good community structure and propose a new scoring function which confo=
+rms closely with our characterization and which is free from resolution lim=
+it. We also do a comparative study of our scoring function with the existin=
+g scoring functions and find that our scoring function models the ground-tr=
+uth communities better than the existing scoring functions.=20
+
+Louvain method, which greedily maximizes modularity , is the state of the a=
+rt algorithm to find communities. We modify Louvain method to greedily maxi=
+mize our scoring function. We show that our algorithm gives the expected co=
+mmunities in synthetic networks as opposed to Louvain method. We also show =
+that the community labels given by our algorithm matches closely with the g=
+round-truth community labels in real world networks. Our algorithm is on pa=
+r with Louvain method in computation time and hence it can be applied on la=
+rge networks also.=20
+
+Regards,=20
+Vishnu.=20
+
+------=_Part_47534_1643567452.1397712822707
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><style>p { margin: 0; }</style><div style=3D"font-family: Times New Roman;=
+ font-size: 12pt; color: #000000"><style>p { margin: 0; }</style><div style=
+=3D"font-family: Times New Roman; font-size: 12pt; color: #000000">Dear All=
+,<br>&nbsp;&nbsp;&nbsp;&nbsp; I invite you to my MS seminar on <span class=
+=3D"Object" id=3D"OBJ_PREFIX_DWT505">22nd April 2014</span> (<span class=3D=
+"Object" id=3D"OBJ_PREFIX_DWT506">Tuesday</span>) at 2:00 PM. Kindly make i=
+t convenient to attend the seminar. The details of the seminar are as follo=
+ws.<div><br></div><div><b>Title :</b> Fast Method for Finding Resolution Li=
+mit Free Communities in Large Networks</div><div><b>Speaker :</b> Vishnu Sa=
+nkar M (CS11S024)</div><div><b>Time :</b> 22-04-2014 (<span class=3D"Object=
+" id=3D"OBJ_PREFIX_DWT507">Tuesday</span>) at 2:00 PM</div><div><b>Venue :<=
+/b> BSB 361, Seminar Hall, Department of Computer Science and Engineering<b=
+r><br><b>Abstract:</b> <span style=3D"">Networks are the simplest form of r=
+epresentation of the interactions between real world objects. </span><span =
+style=3D"">Most of these real world networks exhibit the property of commun=
+ity structure</span><span style=3D"color:rgb(128,0,0)"></span><span style=
+=3D""></span><span style=3D""></span><span style=3D"">,
+ i.e., nodes in the network can be partitioned into communities such=20
+that more edges are present between nodes belonging to the same=20
+community than between the nodes belonging to different community.</span><s=
+pan style=3D"">
+ This structural property has attracted researchers as the communities=20
+in networks correspond to a real world property of the network e.g.,=20
+research area in a collaboration network</span><span style=3D"color:rgb(128=
+,0,0)"></span><span style=3D""></span><span style=3D""></span><span style=
+=3D"">, related pages in world wide web, etc.,</span><span style=3D""></spa=
+n><span style=3D""></span><span style=3D""> </span><span style=3D"">Modular=
+ity</span><span style=3D""> is the widely used scoring function used to mea=
+sure the quality of these communities. But </span><span style=3D"">modulari=
+ty</span><span style=3D"">
+ in itself suffers from resolution limit, an inability to find=20
+communities which are smaller in size when compared to size of the=20
+network. </span><span style=3D"">In this work, we identify the necessary=20
+features that a good scoring function should incorporate in order to=20
+characterize good community structure and propose a new scoring function
+ which conforms closely with our characterization and which is free from
+ resolution limit. We also do a comparative study of our scoring=20
+function with the existing scoring functions and find that our scoring=20
+function models the ground-truth communities better than the existing=20
+scoring functions.<br>
+<br></span><span style=3D"">Louvain</span><span style=3D""> method, which g=
+reedily maximizes </span><span style=3D"">modularity</span><span style=3D""=
+>, is the state of the art algorithm to find communities. We modify </span>=
+<span style=3D"">Louvain</span><span style=3D"">
+ method to greedily maximize our scoring function. We show that our=20
+algorithm gives the expected communities in synthetic networks as=20
+opposed to </span><span style=3D"">Louvain</span><span style=3D""> method.=
+=20
+We also show that the community labels given by our algorithm matches=20
+closely with the ground-truth community labels in real world networks.=20
+Our algorithm is on par with </span><span style=3D"">Louvain</span><span st=
+yle=3D""> method in computation time and hence it can be applied on large n=
+etworks also.</span>
+<pre style=3D"margin:0px;text-indent:0px"><br><br>Regards,<br>Vishnu.<br></=
+pre></div></div></div></div></body></html>
+------=_Part_47534_1643567452.1397712822707--

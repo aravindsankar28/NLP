@@ -1,0 +1,38 @@
+Apologies for typos. 
+
+
+A gentle reminder for my seminar talk, today at 3 PM in BSB 361. 
+
+From: "Tejas Kulkarni" <tejasvk@cse.iitm.ac.in> 
+To: "Seminar" <seminar@cse.iitm.ac.in> 
+Cc: "John Augustine" <augustine@cse.iitm.ac.in>, "swamy" <swamy@cse.iitm.ac.in>, "sdas" <sdas@cse.iitm.ac.in>, "krishnaj" <krishnaj@ee.iitm.ac.in> 
+Sent: Saturday, July 5, 2014 12:05:05 AM 
+Subject: Invitation to my seminar on 10 th July 2014. 
+
+
+Dear All, 
+
+
+I am happy to invite you all for my MS seminar on Thursday, 10 th July , 2014 at BSB 361 . Please make it convenient to attend the seminar and give your valuable feedback. 
+
+
+Title: Dynamic Leader Election for Fast Changing World. 
+
+
+Venue - BSB 361, Seminar Hall, Department of Computer Science and Engineering 
+
+
+Time - 3 PM to 4 PM 
+
+
+Background Needed: Nothing more than basics of discrete probability, algorithm designer's mindset & appreciation for theoretical work . 
+
+
+Regards 
+
+
+Tejas Kulkarni 
+
+
+Abstract: We consider the problem of electing a leader among nodes in a highly dynamic network where adversary has unbounded capacity to insert and remove nodes (including the leader) from the network and change topology at will. We present a randomized algorithm that elects & re-elects a leader in $O(D log n)$ rounds W.H.P. where D is a bound on dynamic diameter of the network and n is a number of nodes in the network in any round. We assume a model of broadcast-based communication where a node can send only one message of $O(log n)$ bits per round per edge and is not aware of recipients in advance(i.e. before the start of the round). Our solution improves the deterministic solution of $O(D.n)$ rounds for termination time, presented at FOMC 2011. We also show that any randomized algorithm solving leader election in our settings, takes $Omega(D. log n)$ rounds to elect a leader which shows that our algorithm yields the most optimal termination time. 
+This is joint work with John Augustine, Paresh Nakhe, and Peter Robinson and got accepted in The Ninth ACM International Workshop on Foundation of Mobile Computing (FOMC-2013) , Jerusalem, Israel. Journal version of the same work will be submitted soon. . 

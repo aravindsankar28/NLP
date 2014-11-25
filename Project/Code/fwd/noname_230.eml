@@ -1,0 +1,101 @@
+Return-Path: virat@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 15 Feb 2013 15:03:37 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 2AEC7F78135;
+	Fri, 15 Feb 2013 15:03:14 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -2.909
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.909 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id UUpBElEbScyh; Fri, 15 Feb 2013 15:03:10 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1B5CAF7811C;
+	Fri, 15 Feb 2013 15:03:10 +0530 (IST)
+Date: Fri, 15 Feb 2013 15:03:10 +0530 (IST)
+From: virat@cse.iitm.ac.in
+To: all@cse.iitm.ac.in
+Cc: "Dr.Krishna Sivalingam@cse.iitm.ac.in" <krishna.sivalingam@cse.iitm.ac.in>, 
+	nitin@ee.iitm.ac.in, 
+	"Madhu Mutyam@cse.iitm.ac.in" <madhu@cse.iitm.ac.in>, 
+	"kama@cse.iitm.ac.in" <kama@cse.iitm.ac.in>
+Message-ID: <1270515876.9226.1360920790010.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <568542317.9165.1360919606303.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar Invitation
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9225_116349178.1360920790009"
+X-Originating-IP: [10.6.5.254]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_9225_116349178.1360920790009
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+I am happy to invite all of you to my MS seminar on 19-Feb-2013 ( Tuesday ) at 2:00 PM . Kindly make it convenient to attend the seminar and give your valuable feedback. The details of the talk are as follows: 
+
+Title: Delay and Power Modeling for Optimal Dynamic Supply and 
+Body-bias Voltage Assignments for Nano-Scale CMOS Technologies 
+Speaker: Virat Gandhi 
+Guide: Prof. V. Kamakoti 
+Date & Time: 19-Feb-2013 at 2:00 PM 
+Venue: BSB 361, CSE Department 
+
+Abstract: 
+We developed novel analytical models for nano-scale CMOS technologies that yield accurate estimations of delay and power for multi-Vt designs in the presence of process-strength variations and temperature. These models are then applied to a post-layout ARM processor block implemented using mixed-Vt cells (SVT and LVT) running at 1.25Ghz with 28nm technology, and shown to have less than 3% RMS Error when compared with those, reported using detailed timing and power analysis tool. 
+With the use of these models along with a standard optimizer, it is shown that the optimized supply and body-bias voltage assignment for the same design provides up to 40% (30%) run-time power reduction in the presence (absence) of on-chip temperature sensors when compared with ASV (a static process-strength aware adaptive supply voltage) conditions. A thermal-sensor feedback based dynamic supply and body-bias voltage assignment scheme is also applied to 3D CMPs and shown to have significant power reduction and peak temperature reduction. 
+
+All are welcome! 
+
+Regards, 
+Virat Gandhi 
+CS11S011 
+CSE Dept., IIT Madras 
+
+------=_Part_9225_116349178.1360920790009
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><span>Dear All, <br>I am happy to invite all of you to my <em>MS seminar</=
+em> on <em>19-Feb-2013</em> (<span style=3D"font-style: italic;"><span clas=
+s=3D"Object" id=3D"OBJ_PREFIX_DWT173">Tuesday</span></span>) at <span style=
+=3D"font-style: italic;">2:00 PM</span>. Kindly make it convenient to atten=
+d the seminar and give your valuable feedback. The details of the talk are =
+as follows:<br><br>Title:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Delay and Power Modeli=
+ng for Optimal Dynamic Supply and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Body-bias Voltage Assignments for Na=
+no-Scale CMOS Technologies<br>Speaker:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Virat Gandhi<br>Guide:&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prof. V. Kama=
+koti<br>Date &amp; Time:&nbsp;&nbsp;&nbsp; 19-Feb-2013 at 2:00 PM<br>Venue:=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp; BSB 361, CSE Department<br><br><span style=3D"font-style: italic;=
+">Abstract:<br></span>We developed novel analytical models for nano-scale C=
+MOS technologies that yield accurate estimations of delay and power for mul=
+ti-Vt designs in the presence of process-strength variations and temperatur=
+e. These models are then applied to a post-layout ARM processor block imple=
+mented using mixed-Vt cells (SVT and LVT) running at 1.25Ghz with 28nm tech=
+nology, and shown to have less than 3% RMS Error when compared with those, =
+reported using detailed timing and power analysis tool. <br>&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With the use of these models along =
+with a standard optimizer, it is shown that the optimized supply and body-b=
+ias voltage assignment for the same design provides up to 40% (30%) run-tim=
+e power reduction in the presence (absence) of on-chip temperature sensors =
+when compared with ASV (a static process-strength aware adaptive supply vol=
+tage) conditions. A thermal-sensor feedback based dynamic supply and body-b=
+ias voltage assignment scheme is also applied to 3D CMPs and shown to have =
+significant power reduction and peak temperature reduction.<br><br></span><=
+span style=3D"font-style: italic;">All are welcome!</span><br><span id=3D"9=
+3719fef-b744-4148-b26c-c7959c22da0e"><br>Regards,<br>Virat Gandhi<br>CS11S0=
+11<br>CSE Dept., IIT Madras<br></span></div></body></html>
+------=_Part_9225_116349178.1360920790009--

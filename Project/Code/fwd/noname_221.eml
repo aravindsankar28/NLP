@@ -1,0 +1,169 @@
+Return-Path: spmeena@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 27 Feb 2013 19:08:12 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D5EC7F78107;
+	Wed, 27 Feb 2013 19:08:09 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id lFInrUyQhT8t; Wed, 27 Feb 2013 19:08:09 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B6152F7803B;
+	Wed, 27 Feb 2013 19:08:08 +0530 (IST)
+Date: Wed, 27 Feb 2013 19:08:08 +0530 (IST)
+From: "spmeena@cse.iitm.ac.in" <spmeena@cse.iitm.ac.in>
+To: all@cse.iitm.ac.in
+Cc: sv.raghavan@nic.in, veezhi@gmail.com, kamala@iitm.ac.in, prangan@iitm.ac.in, 
+	skrishnam@iitm.ac.in, sriram@IITM.AC.IN, guhanj@IITM.AC.IN
+Message-ID: <924798516.30509.1361972288655.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <24526095.30426.1361969693800.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: PhD Seminar Invitation
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_30508_45031180.1361972288654"
+X-Originating-IP: [10.93.0.36]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_30508_45031180.1361972288654
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear all,=20
+
+I kindly invite you to attend my first PhD seminar on 28-02-2013 at 4 pm an=
+d solicit your valuable suggestions. The details of the talk are given belo=
+w.=20
+
+Speaker : S P Meenakshi=20
+Venue : BSB 361 (CSE Seminar Hall)=20
+Date : 28-02-2013=20
+Time : 4 - 5 pm=20
+Title :=20
+
+Experimental Study on IPv6 Data Plane Flows for Reflector Attack Characteri=
+zation and Mitigation=20
+
+The commonly prevalent flood based DDoS attacks with the magnitude of 10 Gb=
+ps indicate the necessity for routine mitigation of these attacks a day-to-=
+day activity to the Internet Service Providers (ISPs). Main targets of DDoS=
+ attacks are ancillary Data center services such as Web portals, shared Web=
+ hosts, DNS servers and SMTP. The attackers make use of multivector DDoS at=
+tacks and complex application layer methodologies to achieve their goals. R=
+eflector attack is one such attack accomplished by making use of protocol r=
+equirements in transport and application layers. It drains huge volumes of =
+bandwidth that ISPs purchase from the transit and peer providers. The 2011 =
+Arbor Network security report observes DNS reflection/amplification attack =
+to the magnitude of 60 Gbps with an yearly rise of 40%. The important compo=
+nents of Data centers such as load balancers, firewalls and Intrusion preve=
+ntion system fail due to these attacks. Data center targeted attacks lead t=
+o customer churn and related revenue loss to the ISPs. The increase in depl=
+oyment of IPv6 in the wake of IPv4 address space exhaustion lead to inserti=
+on of large number of network elements like 6to4 gateways and Carrier Grade=
+ Network address translators in the backbone. In addition to reflection/amp=
+lification flow dynamics, the inclusion of stateful elements like 6to4 gate=
+ways and less visibility of IPv6 based attacks to the firewalls pose additi=
+onal challenge for framing rules to mitigation techniques. In our work, we =
+have carried out an experimental study on IPv6 reflector attacks using a re=
+al time testbed. The testbed consists of 2 Mbps MPLS mesh backbone intercon=
+necting 8 IPv6 LANs with 6to4 gateways deployed on edge routers. The attack=
+er and victim edge router flow characterization considering various factors=
+ and rules identified for mitigation techniques are the contributions of th=
+e work. The IPv6 reflector attack flow rate that chokes the victim using re=
+flection/amplification for single and multiple flows are analyzed to differ=
+ent flow rates. The effectiveness of the identified anomaly based rules to =
+edge routers is measured in terms of false positives and false negatives ra=
+tes. We have used IPv6 ftp application traffic to represent the normal traf=
+fic during the measurement period. The optimal flow sampling interval is ob=
+tained for 5 % false positive and 7 % false negative rates to different att=
+ack flow frequency and flow duration.=20
+
+
+
+
+regards=20
+
+S P Meenakshi=20
+
+CS07D006=20
+
+Network Systems Laboratory=20
+
+Dept of CSE=20
+
+IIT Madras=20
+
+
+
+------=_Part_30508_45031180.1361972288654
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'>Dear all,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I kindly invite you to attend my first PhD seminar on 28-02-2013 at 4 pm and solicit your valuable suggestions. The details of the talk are given below.<br><br>&nbsp;Speaker : S P Meenakshi<br>&nbsp;Venue&nbsp;&nbsp; : BSB 361 (CSE Seminar Hall)<br>&nbsp;Date&nbsp;&nbsp;&nbsp;&nbsp; : 28-02-2013<br>&nbsp;Time&nbsp;&nbsp;&nbsp;&nbsp; : 4 - 5 pm<br>&nbsp;Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 
+
+
+	
+	
+	
+	<style type="text/css">p { margin-bottom: 0.08in; }</style>
+
+<p style="margin-bottom: 0in;" align="CENTER"><font size="4"><u><b>Experimental
+Study on IPv6 Data Plane Flows for Reflector Attack Characterization
+and Mitigation</b></u></font></p>
+
+
+	
+	
+	
+	<style type="text/css">p { margin-bottom: 0.08in; }</style>
+
+<p style="margin-bottom: 0in;" align="JUSTIFY">The commonly prevalent
+flood based DDoS attacks with the magnitude of 10 Gbps indicate the
+necessity for routine mitigation of these attacks a day-to-day
+activity to the Internet Service Providers (ISPs). Main targets of
+DDoS attacks are ancillary Data center services such as Web portals,
+shared Web hosts, DNS servers and SMTP. The attackers make use of 
+multivector DDoS attacks and complex application layer methodologies
+to achieve their goals.  Reflector attack is one such attack 
+accomplished by  making use of protocol   requirements in transport 
+and  application layers.  It  drains huge volumes of bandwidth that
+ISPs purchase from the transit and peer providers. The 2011 Arbor
+Network security report  observes DNS reflection/amplification 
+attack to the magnitude of 60 Gbps with an yearly rise of 40%. The
+important components of Data centers such as load balancers,
+firewalls and Intrusion prevention system  fail due to these attacks.
+ Data center targeted  attacks  lead to customer churn and related
+revenue loss to the ISPs.  The increase in deployment of IPv6 in the
+wake of IPv4 address space exhaustion lead to insertion of large
+number of network elements like 6to4 gateways and Carrier Grade
+Network address translators in the backbone.  In addition to
+reflection/amplification flow dynamics, the  inclusion of stateful
+elements like 6to4 gateways and less visibility of  IPv6 based
+attacks to the firewalls pose additional challenge for framing rules
+to   mitigation techniques. In our work, we have carried out an
+experimental study on IPv6 reflector attacks using  a real time
+testbed. The testbed consists of 2 Mbps MPLS mesh backbone
+interconnecting 8 IPv6 LANs with 6to4 gateways deployed on edge
+routers.  The attacker and victim edge router  flow characterization
+considering various factors and rules  identified for mitigation
+techniques are the contributions of the work. The IPv6 reflector
+attack flow rate that chokes the victim using
+reflection/amplification for single and multiple flows are analyzed
+to different flow rates. The  effectiveness of the identified anomaly
+based rules to edge routers is measured in terms of false positives
+and false negatives rates. We have used IPv6 ftp application traffic
+to represent the normal traffic during the measurement period. The
+optimal flow sampling interval is obtained for  5 % false positive
+and 7 % false negative  rates to different attack flow frequency and
+flow duration.</p>
+<style type="text/css">p { margin-bottom: 0.08in; }</style>
+
+<p style="margin-bottom: 0in;" align="JUSTIFY"><br></p><p style="margin-bottom: 0in;" align="JUSTIFY">regards</p><p style="margin-bottom: 0in;" align="JUSTIFY">S P Meenakshi</p><p style="margin-bottom: 0in;" align="JUSTIFY">CS07D006</p><p style="margin-bottom: 0in;" align="JUSTIFY">Network Systems Laboratory</p><p style="margin-bottom: 0in;" align="JUSTIFY">Dept of CSE</p><p style="margin-bottom: 0in;" align="JUSTIFY">IIT Madras<br></p>
+<p style="margin-bottom: 0in;" align="CENTER"></p></div></body></html>
+------=_Part_30508_45031180.1361972288654--

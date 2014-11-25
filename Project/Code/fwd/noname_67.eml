@@ -1,0 +1,128 @@
+Return-Path: sarala@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 31 Mar 2014 19:59:41 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E4F7621B000C;
+	Mon, 31 Mar 2014 19:59:36 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 1vbZNAbBVmbu; Mon, 31 Mar 2014 19:59:36 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7D03621B000A;
+	Mon, 31 Mar 2014 19:59:35 +0530 (IST)
+Date: Mon, 31 Mar 2014 19:59:35 +0530 (IST)
+From: Padi Sarala <sarala@cse.iitm.ac.in>
+To: seminar@cse.iitm.ac.in, scholars <scholars@cse.iitm.ac.in>
+Cc: hema <hema@cse.iitm.ac.in>, chandra <chandra@cse.iitm.ac.in>, 
+	kama <kama@cse.iitm.ac.in>, "B. Ravindran" <ravi@cse.iitm.ac.in>, 
+	umeshs <umeshs@ee.iitm.ac.in>, "C.S. Ramalingam" <csr@ee.iitm.ac.in>
+Message-ID: <1698243438.8103.1396276175439.JavaMail.root@mail.cse.iitm.ac.in>
+Subject:  Gental Remainder --Phd Seminar talk on 1st April at 3 PM
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8102_1316292455.1396276175438"
+X-Originating-IP: [10.93.0.36]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (zclient/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_8102_1316292455.1396276175438
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Gentle Remainder
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Dear all,
+
+I am presenting my first PhD seminar talk on Tuesday, 1st April, 2014 at 3:00 PM. Kindly make it convenient to attend the seminar and give your valuable suggestions.
+
+The details of the talk are as follows.
+
+Title                 :     Applause Identification and its Relevance to Archival of Carnatic music
+Date                 :    1st April, 2014
+Time                :     3.00 PM
+Venue              :     BSB 361, Seminar Hall, Department of Computer ScienceAbstract of the talk:
+---------------------Carnatic
+ music concert recordings are usually continuous and unsegmented 
+recordings. A concert in Carnatic music is around 3 hours long and has 
+8-10 items. Carnatic music concerts are generally replete with 
+applauses. The audience applauds the artist after the end of every item 
+sometimes even within an item. Applauses can be inter-item or intra-item
+ applauses. Carnatic music recordings are currently manually segmented 
+into items and these items were stored in the database for the purpose 
+of archival. My 
+research work focusses on detection of applause in a concert and use 
+these applause locations as indices to segment the concert into items. 
+In fact, identifying these applause locations is very useful for the 
+archival of carnatic music concerts, semantic inference, highlights 
+extraction etc. To discrminate music and applause, we first study the 
+characteristic difference between applause and music using spectral and 
+time domain features like spectral flux, spectral entropy, short-time 
+energy and zero-crossing rate. Initially, threshold based approach is 
+used to distinguish between the music and the applause. Gaussian Mixture
+ Models (GMMs) and Support Vector Machines (SVM)  classifiers are used 
+to classify music and applause using time and spectral domain features. 
+These methods are evaluated on 50 live recordings, music and applause 
+classification accuracy using GMM is 98% and using 
+SVM is 99%. Further, the CUSUM technique is used to characterize the 
+applause locations to find the important audio segments in a concert.ALL ARE WELCOME
+Thanks and RegardsPadi Sarala
+
+------=_Part_8102_1316292455.1396276175438
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style> body {height: 100%; color:#000000; font-size:12pt; font=
+-family:Times New Roman;}</style></head><body>Gentle Remainder<br>---------=
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+-----------------<br>Dear all,<br><br>I am presenting my first PhD seminar =
+talk on Tuesday, 1st<span><span> April</span></span><span>, 2014</span> at =
+3:00 PM. Kindly make it convenient to attend the seminar and give your valu=
+able suggestions.<br><br>The details of the talk are as follows.<br><p styl=
+e=3D"margin-bottom:0in" align=3D"justify"><a name=3D"14502123aec71e70_144fd=
+e71b5db7112_OLE_LINK1"></a><br>Title&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &=
+nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; : &nbsp;&nbsp;&nbsp; Applause Identif=
+ication and its Relevance to Archival of Carnatic music<br>Date&nbsp;&nbsp;=
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; :&nbsp;&nb=
+sp;&nbsp; <span class=3D"aBn"><span class=3D"aQJ">1st April, 2014</span></s=
+pan><br>Time&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;=
+&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp; <span><span><span class=3D"aBn"><spa=
+n class=3D"aQJ">3.00 PM</span></span></span></span><br>Venue&nbsp;&nbsp;&nb=
+sp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; :&nbsp; &nbsp;&nbsp; BSB 3=
+61, Seminar Hall, Department of Computer Science</p><p style=3D"margin-bott=
+om:0in" align=3D"justify">Abstract of the talk:<br>---------------------</p=
+><p style=3D"margin-bottom:0in" align=3D"justify">Carnatic<br> music concer=
+t recordings are usually continuous and unsegmented <br>recordings. A conce=
+rt in Carnatic music is around 3 hours long and has <br>8-10 items. Carnati=
+c music concerts are generally replete with <br>applauses. The audience app=
+lauds the artist after the end of every item <br>sometimes even within an i=
+tem. Applauses can be inter-item or intra-item<br> applauses. Carnatic musi=
+c recordings are currently manually segmented <br>into items and these item=
+s were stored in the database for the purpose <br>of archival. </p><p style=
+=3D"margin-bottom:0in" align=3D"justify">My <br>research work focusses on d=
+etection of applause in a concert and use <br>these applause locations as i=
+ndices to segment the concert into items. <br>In fact, identifying these ap=
+plause locations is very useful for the <br>archival of carnatic music conc=
+erts, semantic inference, highlights <br>extraction etc. To discrminate mus=
+ic and applause, we first study the <br>characteristic difference between a=
+pplause and music using spectral and <br>time domain features like spectral=
+ flux, spectral entropy, short-time <br>energy and zero-crossing rate. Init=
+ially, threshold based approach is <br>used to distinguish between the musi=
+c and the applause. Gaussian Mixture<br> Models (GMMs) and Support Vector M=
+achines (SVM)&nbsp; classifiers are used <br>to classify music and applause=
+ using time and spectral domain features. <br>These methods are evaluated o=
+n 50 live recordings, music and applause <br>classification accuracy using =
+GMM is 98% and using <br>SVM is 99%. Further, the CUSUM technique is used t=
+o characterize the <br>applause locations to find the important audio segme=
+nts in a concert.</p><p style=3D"margin-bottom:0in" align=3D"center">ALL AR=
+E WELCOME</p><br><p style=3D"margin-bottom:0in;text-align:left">Thanks and =
+Regards</p><div class=3D"yj6qo ajU"><div id=3D":104" class=3D"ajR"><img  cl=
+ass=3D"ajT "></div></div><span class=3D"HOEnZb adL"><font color=3D"#888888"=
+>Padi Sarala<br></font></span></body></html>
+------=_Part_8102_1316292455.1396276175438--

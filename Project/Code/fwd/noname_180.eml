@@ -1,0 +1,133 @@
+Return-Path: sujeetgholap@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 25 Jun 2013 16:46:52 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id EA2E12198001;
+	Tue, 25 Jun 2013 16:46:49 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.591
+X-Spam-Level: *
+X-Spam-Status: No, score=1.591 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_NEUTRAL=0.779,
+	T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id qY2F-ESb5rl5; Tue, 25 Jun 2013 16:46:42 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D99D5F78104;
+	Tue, 25 Jun 2013 16:46:41 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 76F147802C1;
+	Tue, 25 Jun 2013 17:15:04 +0530 (IST)
+Received: from mail-ie0-f171.google.com ([209.85.223.171])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.3.8205)
+	with ESMTP id 201306251142560075356; Tue, 25 Jun 2013 17:12:57 +0530
+Received: by mail-ie0-f171.google.com with SMTP id qd12so27854973ieb.30
+        for <multiple recipients>; Tue, 25 Jun 2013 04:45:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:from:date:x-google-sender-auth:message-id
+         :subject:to:cc:content-type;
+        bh=K40GqJ86adXiKNrrAjSxfp+OC/nyZoEOmzAaMjkxFXk=;
+        b=Z55FHDFTGwS51qN4jOBLix4o5MbyXdyAile5wkRlw3xclnQoCs8NPp0RhcFRPnd0TO
+         SbUgNxOjZoE85DRxdug5WkVVcnqsUKpuzGRxzNYV+ezPmC6+NGQDYhvVMEtsMZIhlIX3
+         HSkAleKSgyFzSqs2zrrXrc7FxOD/wQ5sG0rOtvSaaYDIO/FRzR3m+J2buTgKo+n3TOL0
+         nn5K1j3AVr7hhEGqCiydJclx5J+U3UhPTAQOOisoLKJWPI5odsNF1jB/hrc++GEpUbZ5
+         SCitiTLqfJz4fnYcPtcQ3s4VR7rpOYCkC88Gc1xlilUixHR5foMGvWFbr5WF2m/f9R1S
+         WeuA==
+X-Received: by 10.50.11.103 with SMTP id p7mr8377039igb.24.1372160703016; Tue,
+ 25 Jun 2013 04:45:03 -0700 (PDT)
+MIME-Version: 1.0
+Sender: sujeetgholap@gmail.com
+Received: by 10.64.34.131 with HTTP; Tue, 25 Jun 2013 04:44:22 -0700 (PDT)
+From: Sujeet Gholap <sujeet@cse.iitm.ac.in>
+Date: Tue, 25 Jun 2013 17:14:22 +0530
+X-Google-Sender-Auth: OKBXMOiS3LYzYKGi4mBqlHSlZTk
+Message-ID: <CAKrsAieLD+j3FZKg5sjo8n0dF3Uo+awNrOrV9gYcctus9Tz_1w@mail.gmail.com>
+Subject: Fate of student webpage after they graduate.
+To: webgroup@cse.iitm.ac.in
+Cc: students@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=047d7bdca46c473df304dff90f05
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: webpages,pictures,bulk,archived,amount,public_html,getting,suggestions,alma,wond
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.223.171
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201306251142560075356
+
+--047d7bdca46c473df304dff90f05
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello,
+
+I was wondering whether we could have a system similar to that of IIT
+Bombay, where the webpage at www.cse.iitm.ac.in/~studentname is moved to
+www.cse.iitm.ac.in/alumni/~studentname on graduation.
+
+I only want to get the point across that, we, as students, have a certain
+amount of pride and feeling of belonging associated with the department and
+our alma mater. And to me, personally, getting the webspace purged sounds
+like severing last ties with my own department.
+
+If we look at it from a logistics point of view, I don't think we would be
+requiring any significant space anyway as most of our webpages are lean,
+just static html with a couple of pictures, negligible when we talk about
+storage in terms of GBs.
+
+I would like to suggest one solution: our home folders, as it is currently
+being done, get purged (that way, bulk of the storage space occupied will
+be recovered), but the public_html folder, in which we have our webpages,
+gets archived.
+
+It would be nice to get to know the administrators' viewpoints and concerns
+regarding this issue. I have marked a copy of this mail to students of the
+department as well, in case anyone has some more points, suggestions to add.
+
+Thanks and regards,
+Sujeet Gholap
+Final Year B.Tech, CSE
+IIT Madras
+http://www.cse.iitm.ac.in/~sujeet
+
+--047d7bdca46c473df304dff90f05
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Hello,<br><br></div><div>I was wondering whether we c=
+ould have a system similar to that of IIT Bombay, where the webpage at <a h=
+ref=3D"http://www.cse.iitm.ac.in/~studentname">www.cse.iitm.ac.in/~studentn=
+ame</a> is moved to <a href=3D"http://www.cse.iitm.ac.in/alumni/~studentnam=
+e">www.cse.iitm.ac.in/alumni/~studentname</a> on graduation.<br>
+
+<br></div><div>I only want to get the point across that, we, as students, h=
+ave a certain amount of pride and feeling of belonging associated with the =
+department and our alma mater. And to me, personally, getting the webspace =
+purged sounds like severing last ties with my own department.<br>
+
+<br></div><div>If we look at it from a logistics point of view, I don&#39;t=
+ think we would be requiring any significant space anyway as most of our we=
+bpages are lean, just static html with a couple of pictures, negligible whe=
+n we talk about storage in terms of GBs.<br>
+
+<br></div><div>I would like to suggest one solution: our home folders, as i=
+t is currently being done, get purged (that way, bulk of the storage space =
+occupied will be recovered), but the public_html folder, in which we have o=
+ur webpages, gets archived.<br>
+
+<br></div><div>It would be nice to get to know the administrators&#39; view=
+points and concerns regarding this issue. I have marked a copy of this mail=
+ to students of the department as well, in case anyone has some more points=
+, suggestions to add.<br>
+
+<br>Thanks and regards,<br>Sujeet Gholap<br>Final Year B.Tech, CSE<br>IIT M=
+adras<br><a href=3D"http://www.cse.iitm.ac.in/%7Esujeet" target=3D"_blank">=
+http://www.cse.iitm.ac.in/~sujeet</a><br></div>
+</div>
+
+--047d7bdca46c473df304dff90f05--

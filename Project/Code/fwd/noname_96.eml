@@ -1,0 +1,538 @@
+Return-Path: wkmjr@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 5 Dec 2013 13:09:13 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B9749F78237;
+	Thu,  5 Dec 2013 13:09:10 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 4.791
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.791 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, DEAR_SOMETHING=1.973, HELO_NO_DOMAIN=0.001,
+	HK_RANDOM_ENVFROM=0.001, HK_RANDOM_FROM=2.941,
+	HTML_FONT_FACE_BAD=0.981, HTML_MESSAGE=0.001, RDNS_NONE=0.793]
+	autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id AaWlodFY6NT2; Thu,  5 Dec 2013 13:09:10 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A771075800C
+	for <students@cse.iitm.ac.in>; Thu,  5 Dec 2013 13:05:14 +0530 (IST)
+Date: Thu, 5 Dec 2013 13:05:13 +0530 (IST)
+From: "wkmjr@cse.iitm.ac.in" <wkmjr@cse.iitm.ac.in>
+To: students  <students@cse.iitm.ac.in>
+Message-ID: <917662488.10423684.1386228913805.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <CACY0QUVrBbOYxs=01ad6UbcV0iMWVg16_mp449YTyTATRtmfCw@mail.gmail.com>
+Subject: Fwd: [apmresearchers] REMINDER: TODAY: Talk in Applied Mechanics, "
+ Low Correlation sequences for Information Hiding ", 3:00pm
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10423683_1684104964.1386228913805"
+X-Originating-IP: [10.65.0.32]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_10423683_1684104964.1386228913805
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+---------- Forwarded message ---------- 
+From: ranjan piyush 
+Date: Thu, Dec 5, 2013 at 11:38 AM 
+Subject: Fwd: [apmresearchers] REMINDER: TODAY: Talk in Applied Mechanics, " Low Correlation sequences for Information Hiding ", 3:00pm 
+To: "William Moses, Jr." 
+
+
+
+
+
+
+---------- Forwarded message ---------- 
+From: Rinku Mukherjee < rinku@iitm.ac.in > 
+Date: Thu, Dec 5, 2013 at 9:24 AM 
+Subject: [apmresearchers] REMINDER: TODAY: Talk in Applied Mechanics, " Low Correlation sequences for Information Hiding ", 3:00pm 
+To: " apmresearchers@googlegroups.com " < apmresearchers@googlegroups.com >, " announce@list.iitm.ac.in " < announce@list.iitm.ac.in > 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dear Sir, 
+please post the following seminar REMINDER notice on announce. 
+thanks, 
+kind regards, 
+r 
+_________________________________________________________________________________ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Title: 
+
+
+
+
+
+
+
+Low Correlation sequences for Information Hiding 
+
+
+
+
+
+Speaker: Prof. Udaya Parampalli, University of Melbourne, Australia 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Venue: Newton Hall 
+Date and Time: Dec 05, 2013 Thursday 3:00PM 
+
+
+Abstract: 
+
+Pseudorandom sequences with low correlation properties are used in creating secure, reliable and efficient communication and network systems. In recent years they have been used in information hiding and watermarking applications. Data hiding technologies are increasingly being used to protect copyright and avoid illegal copies of digital content. Such techniques are relevant to a highly digitized society requiring the distribution of movies, medical images and music through the Internet. In this talk the speaker will be discussing on how sequences with different correlation properties are used in data hiding. 
+
+
+
+
+Further, the speaker will highlight on the scholarship opportunities available for IIT Madras students to pursue Ph.D. at University of Melbourne, Australia. 
+
+
+Speaker Bio: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dr. Udaya Parampalli obtained his doctoral degree in Electrical Engineering from Indian Institute of Technology Kanpur, in 1993. From 1992 to July 1996, he worked in industry as a Member Research Staff at Central Research Laboratory, Bharat Electronics, Bangalore. From 1997 to 2000, he was an ARC research associate at the Department of Mathematics, RMIT University, Melbourne, Australia. Since February 2000, he has been working at the Department of Computer Science and Software Engineering at the University Melbourne which in 2012 was merged with the Department of Computing and Information Systems effective from January 2014, he is an Associate Professor and Reader in the department. In the second half of 2008, he was a Visiting Professor in Department of Computer Science at University of Calgary, Canada. 
+
+
+
+
+Dr. Udaya has made significant contributions to the area of sequences and codes over finite rings. He was the first author to use finite rings to construct frequency hopping sequences. One of the biphase sequence families discovered by him is referred to in the literature as the family of Udaya - Siddiqi sequences. This is a unique family of 2^n binary sequences of period 2(2^n-1) with out-of- phase auto and cross correlations equal to the square root of the length, and is the largest known family with such a property. 
+Please Attend. 
+r 
+
+
+
+
+
+Rinku Mukherjee, PhD 
+Assistant Professor 
+Applied Mechanics, IIT Madras 
+Chennai-600036 
+
+FMB #206 
+
+Tel: +91-44-2257-4069(off) 
++91-44-2257-6069(res) 
+
+Email: rinku@iitm.ac.in 
+mrin75@yahoo.com 
+
+
+" In modern business it is not the crook who is to be feared most, it is the honest man who doesn't know what he is doing " : William Wordsworth 
+------=_Part_10423683_1684104964.1386228913805
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><div dir="ltr"><br><div class="gmail_quote">---------- Forwarded message ----------<br>From: <b class="gmail_sendername">ranjan piyush</b> <br>
+
+Date: Thu, Dec 5, 2013 at 11:38 AM<br>Subject: Fwd: [apmresearchers] REMINDER: TODAY: Talk in Applied Mechanics, " Low Correlation sequences for Information Hiding ", 3:00pm<br>To: "William Moses, Jr."<br>
+
+<br><br><div dir="ltr"><br><br><div class="gmail_quote">---------- Forwarded message ----------<br>From: <b class="gmail_sendername">Rinku Mukherjee</b> <span dir="ltr">&lt;<a href="mailto:rinku@iitm.ac.in" target="_blank">rinku@iitm.ac.in</a>&gt;</span><br>
+
+
+Date: Thu, Dec 5, 2013 at 9:24 AM<br>Subject: [apmresearchers] REMINDER: TODAY: Talk in Applied Mechanics, " Low Correlation sequences for Information Hiding ", 3:00pm<br>To: "<a href="mailto:apmresearchers@googlegroups.com" target="_blank">apmresearchers@googlegroups.com</a>" &lt;<a href="mailto:apmresearchers@googlegroups.com" target="_blank">apmresearchers@googlegroups.com</a>&gt;, "<a href="mailto:announce@list.iitm.ac.in" target="_blank">announce@list.iitm.ac.in</a>" &lt;<a href="mailto:announce@list.iitm.ac.in" target="_blank">announce@list.iitm.ac.in</a>&gt;<br>
+
+
+<br><br>
+
+
+
+
+<div>
+<div style="direction:ltr;font-size:10pt;font-family:Tahoma">
+<div style="font-size:16px;font-family:Times New Roman">
+<div>
+<div style="direction:ltr;font-size:10pt;font-family:Tahoma">
+<div style="font-size:16px">
+<div>
+<div style="direction:ltr;font-size:10pt">
+<div style="font-size:16px">
+<div style="font-family:'Times New Roman';direction:ltr"><br>
+</div>
+<div style="font-family:'Times New Roman'"></div>
+<div>
+<div style="direction:ltr;font-size:10pt">
+<div style="word-wrap:break-word;width:auto;overflow-x:hidden;overflow-y:hidden;padding-top:0px;padding-right:15px;padding-bottom:15px;padding-left:0px;clear:both">
+<div>
+<div>
+<div dir="ltr"><font color="black"><span dir="ltr"><span style="font-family:Tahoma;font-size:10pt">Dear Sir,</span><br>
+<span style="font-family:Tahoma;font-size:10pt">please post the following seminar REMINDER notice on announce.</span><br>
+<span style="font-family:Tahoma;font-size:10pt">thanks,</span><br>
+<span style="font-family:Tahoma;font-size:10pt">kind regards,</span><br>
+<span style="font-family:Tahoma;font-size:10pt">r</span><br>
+<span style="font-family:Tahoma;font-size:10pt">_________________________________________________________________________________</span><br>
+<div>
+<div><font face="'Times New Roman'">
+<div>
+<div><font>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div><b style="font-size:10pt">Title:</b><span style="font-size:10pt">&nbsp;</span><b><br>
+</b><font size="3"><b>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font:normal normal normal 14px/normal Helvetica">
+<b><br>
+</b></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font:normal normal normal 14px/normal Helvetica">
+<b></b></p>
+<b>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;text-align:justify;font:normal normal normal 11px/normal 'Lucida Grande'">
+<span style="letter-spacing:0px">&nbsp;<b>Low Correlation sequences for Information Hiding</b></span></p>
+<div><span style="letter-spacing:0.0px"><b><br>
+</b></span></div>
+</b>
+<p></p>
+</b></font></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</font></div>
+</div>
+</font></div>
+<div><font face="'Times New Roman'"><br>
+Speaker: <b>Prof. Udaya Parampalli,&nbsp; University of Melbourne, Australia</b><font>
+<div>
+<div><font>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div><b style="font-size:10pt">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</b>
+<div style="font-size:10pt">Venue:&nbsp;<font size="3"><b>Newton Hall</b></font><br>
+Date and Time: &nbsp;Dec<font size="3"><b>&nbsp;05, 2013 Thursday 3:00PM</b></font><font size="3"><br>
+</font><br>
+<br>
+<b><u>Abstract:</u></b> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</font></div>
+</div>
+</font><b>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font:normal normal normal 11px/normal 'Lucida Grande'">
+<span style="letter-spacing:0px">Pseudorandom sequences with low correlation properties are used in creating secure, reliable and efficient communication and network systems. In recent years they have been used in information hiding and watermarking applications.
+ Data hiding technologies are increasingly being used to protect copyright and avoid illegal copies of digital content. Such techniques are relevant to a highly digitized society requiring the distribution of movies, medical images and music through the Internet.
+ In this talk the speaker will be discussing on how sequences with different correlation properties are used in data hiding.&nbsp;</span></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;text-align:justify;font:normal normal normal 8px/normal 'Lucida Grande';min-height:10px">
+<span style="letter-spacing:0.0px"></span><br>
+</p>
+</b><b>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;text-align:justify;font:normal normal normal 11px/normal 'Lucida Grande';display:inline!important">
+<span style="letter-spacing:0px">Further, the speaker will highlight on the scholarship opportunities available for IIT Madras students to pursue Ph.D. at University of Melbourne, Australia.&nbsp;</span></p>
+</b></font></div>
+<div><b><u><font face="'Times New Roman'"><br>
+</font></u></b></div>
+<div><font face="'Times New Roman'"><b><u>Speaker Bio:</u></b>&nbsp;</font></div>
+</div>
+</span></font></div>
+</div>
+</div>
+</div>
+<div>
+<div style="word-wrap:break-word;width:auto;overflow-x:hidden;overflow-y:hidden;padding-top:0px;padding-right:15px;padding-bottom:15px;padding-left:0px;clear:both">
+<div>
+<div>
+<div dir="ltr"><font color="black"><span dir="ltr">
+<div>
+<div><font face="Times New Roman">
+<div>
+<div><font>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div align="justify" style="margin-top:0px;margin-right:0px;margin-bottom:10pt;margin-left:0px">
+<span style="font-size:15px">
+<p style="margin:0.0px 0.0px 0.0px 0.0px;text-align:justify;font:11.0px 'Lucida Grande'">
+<span style="letter-spacing:0.0px">Dr. Udaya Parampalli obtained his doctoral degree in Electrical Engineering from Indian Institute of Technology Kanpur, in 1993. From 1992 to July 1996, he worked in industry as a Member Research Staff at Central Research
+ Laboratory, Bharat Electronics, Bangalore. From 1997 to 2000, he was an ARC research associate at the Department of Mathematics, RMIT University, Melbourne, Australia. Since February 2000, he has been working at the Department of Computer Science and Software
+ Engineering at the University Melbourne which in 2012 was merged with the Department of Computing and Information Systems effective from January 2014, he is an Associate Professor and Reader in the department. In the second half of 2008, he was a Visiting
+ Professor in Department of Computer Science at University of Calgary, Canada.</span></p>
+<p style="margin:0.0px 0.0px 0.0px 0.0px;text-align:justify;font:8.0px 'Lucida Grande';min-height:10.0px">
+<span style="letter-spacing:0.0px"></span><br>
+</p>
+<p style="margin:0.0px 0.0px 0.0px 0.0px;text-align:justify;font:11.0px 'Lucida Grande'">
+<span style="letter-spacing:0.0px">Dr. Udaya has made significant contributions to the area of sequences and codes over finite rings. He was the first author to use finite rings to construct frequency hopping sequences. One of the biphase sequence families
+ discovered by him is referred to in the literature as the family of Udaya - Siddiqi sequences. This is a unique family of 2^n binary sequences of period 2(2^n-1) with out-of- phase auto and cross correlations equal to the square root of the length, and is
+ the largest known family with such a property.</span></p>
+</span><span style="font-family:Tahoma;font-size:15px"></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="font-family:Tahoma;font-size:10pt">Please Attend.</div>
+<div style="font-family:Tahoma;font-size:10pt">r</div>
+</font></div>
+</div>
+</font></div>
+</div>
+</span></font></div>
+</div>
+</div>
+</div>
+<div style="font-family:Tahoma"><br>
+<div style="font-family:Tahoma;font-size:13px">
+<div>
+<div><font>
+<div style="font-family:Tahoma;font-size:13px">Rinku Mukherjee, PhD<br>
+Assistant Professor<br>
+Applied Mechanics, IIT Madras<br>
+Chennai-600036<br>
+<br>
+FMB #206<br>
+<br>
+Tel: +91-44-2257-4069(off)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91-44-2257-6069(res)<br>
+<br>
+Email: <a href="mailto:rinku@iitm.ac.in" target="_blank">rinku@iitm.ac.in</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:mrin75@yahoo.com" target="_blank">mrin75@yahoo.com</a><br>
+</div>
+</font>
+<div><br>
+</div>
+<span style="line-height:26px"><font face="Arial" size="3" style="text-decoration:none"><b><i>"</i><font style="text-decoration:none"><a title="view quote" href="http://www.brainyquote.com/quotes/quotes/w/williamwor120836.html" style="text-decoration:none" target="_blank"><i><font color="#000000">In
+ modern business it is not the crook who is to be feared most, it is the honest man who doesn't know what he is doing</font></i></a><font color="#333300">"</font></font></b></font></span><span style="font-family:Arial,sans-serif;font-size:14px"><font style="font-family:Arial,sans-serif;font-size:12px"><i><b>:
+ William Wordsworth</b></i></font></span><span style="font-size:13px">&nbsp;</span></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+</div></body></html>
+------=_Part_10423683_1684104964.1386228913805--

@@ -1,0 +1,138 @@
+Return-Path: mkarthick@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 20 Jan 2014 18:02:41 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id BB110F78244;
+	Mon, 20 Jan 2014 18:02:37 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.794
+X-Spam-Level: 
+X-Spam-Status: No, score=0.794 tagged_above=-10 required=6.6
+	tests=[BAYES_20=-0.001, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id DucO65D39laj; Mon, 20 Jan 2014 18:02:37 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E6B88F781EB
+	for <seminar@cse.iitm.ac.in>; Mon, 20 Jan 2014 17:57:58 +0530 (IST)
+Date: Mon, 20 Jan 2014 17:57:56 +0530 (IST)
+From: CS11S004 <mkarthick@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1720389607.17838351.1390220876877.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <30396788.17307916.1389940822832.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Gentle Reminder: MS Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_17838350_1171910092.1390220876876"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_17838350_1171910092.1390220876876
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+A gentle reminder regarding my MS Seminar tomorrow. Kindly make it convenient to attend the seminar and give your valuable suggestions. 
+
+
+From: "Prof. Krishna Sivalingam" <krishna.sivalingam@cse.iitm.ac.in> 
+To: "Seminar" <seminar@cse.iitm.ac.in> 
+Cc: "karthick" <karthick@cse.iitm.ac.in>, "csoffice" <csoffice@cse.iitm.ac.in> 
+Sent: Friday, January 17, 2014 12:10:22 PM 
+Subject: Announcement: M.S. Seminar: M. Karthick, Jan. 21, 2pm, BSB 361 
+
+
+Dear All, 
+
+Mr. M. Karthick will be giving his M.S. seminar talk on 21st January, 2014 (Tuesday) at 2:00 PM. Kindly make it convenient to attend the seminar 
+and give your valuable suggestions. 
+
+Title: Reliable Data Transfer Mechanisms for Smart Grid Networks 
+Speaker: M. Karthick, CS11S004 
+Date: 21st January, 2014 
+Time: 2:00 PM 
+Venue: BSB 361 (Seminar Hall), Dept. of CSE. 
+
+Abstract: 
+
+Smart Grid is a collection of different technologies handling many aspects of power grid modernization. It involves activities aimed at 
+making the power grid more reliable, secure and resilient using information and communication technologies. To enhance the wide area 
+monitoring capabilities of the Smart Grid, Phasor Measurement Units (PMUs) and related equipment are being deployed at various locations 
+in the grid. These PMUs measure synchro-phasors consisting of voltage, current and frequency measurements at synchronized time 
+intervals. This data is then fed to various processing, monitoring, control, archival and market brokerage applications using a 
+communication network. The Smart grid applications running at the control centers require strict quality-of-service guarantees in terms 
+of low latency and high reliability. As per the NASPInet framework, data loss of crucial control data is not acceptable and data 
+reliability is an important design goal. The existing mechanism, called as Gridstat, which provides data reliability is inefficient in 
+terms of bandwidth usage. In order to reduce network traffic while improving reliability of real-time data, Forward Error Correction 
+based fault tolerance mechanisms are needed. In this work, we have proposed three mechanisms based on multi-path transmissions, 
+source-coding and network-coding techniques. The proposed mechanisms are compared with the existing mechanism using an OMNeT++ based 
+discrete event simulation model. The proposed mechanisms are shown to have lower bandwidth requirement while providing higher reliability 
+than the existing mechanism. 
+
+Guide: Prof. Krishna M. Sivalingam, CSE Dept. 
+
+== 
+Prof. Krishna Moorthy Sivalingam, Professor, CSE Dept, IIT Madras, Chennai, India 
+
+
+
+------=_Part_17838350_1171910092.1390220876876
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); =
+">Dear All,</span><br style=3D"background-color: rgb(255, 255, 255); "><spa=
+n style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); "><br=
+></span><span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255,=
+ 255); font-size: medium; ">A gentle reminder regarding my&nbsp;MS Seminar =
+tomorrow.&nbsp;</span><span style=3D"background-color: rgb(255, 255, 255); =
+font-size: medium; ">Kindly make it convenient to attend the&nbsp;seminar&n=
+bsp;and give your valuable suggestions.</span><br style=3D"background-color=
+: rgb(255, 255, 255); "><br><hr id=3D"zwchr" style=3D"color: rgb(0, 0, 0); =
+"><b style=3D"color: rgb(0, 0, 0); ">From: </b>"Prof. Krishna Sivalingam" &=
+lt;krishna.sivalingam@cse.iitm.ac.in&gt;<br><b style=3D"color: rgb(0, 0, 0)=
+; ">To: </b>"Seminar" &lt;seminar@cse.iitm.ac.in&gt;<br><b style=3D"color: =
+rgb(0, 0, 0); ">Cc: </b>"karthick" &lt;karthick@cse.iitm.ac.in&gt;, "csoffi=
+ce" &lt;csoffice@cse.iitm.ac.in&gt;<br><b style=3D"color: rgb(0, 0, 0); ">S=
+ent: </b>Friday, January 17, 2014 12:10:22 PM<br><b style=3D"color: rgb(0, =
+0, 0); ">Subject: </b>Announcement: M.S. Seminar: M. Karthick, Jan. 21, 2pm=
+, BSB 361<br><br><style>p { margin: 0; }</style><div style=3D"font-family: =
+'Times New Roman'; font-size: 12pt; color: rgb(0, 0, 0); "><span>Dear All,<=
+br><br>Mr. M. Karthick will be giving his M.S. seminar talk on 21st January=
+, 2014 (Tuesday) at 2:00 PM. Kindly make it convenient to attend the semina=
+r<br>and give your valuable suggestions.<br><br>Title:&nbsp;&nbsp; Reliable=
+ Data Transfer Mechanisms for Smart Grid Networks<br>Speaker: M. Karthick, =
+CS11S004<br>Date:&nbsp;&nbsp;&nbsp; 21st January, 2014<br>Time:&nbsp;&nbsp;=
+&nbsp; 2:00 PM<br>Venue:&nbsp;&nbsp; BSB 361 (Seminar Hall), Dept. of CSE.<=
+br><br>Abstract:<br><br>Smart Grid is a collection of different technologie=
+s handling many aspects of power grid modernization. It involves activities=
+ aimed at<br>making the power grid more reliable, secure and resilient usin=
+g information and communication technologies. To enhance the wide area<br>m=
+onitoring capabilities of the Smart Grid, Phasor Measurement Units (PMUs) a=
+nd related equipment are being deployed at various locations<br>in the grid=
+. These PMUs measure synchro-phasors consisting of voltage, current and fre=
+quency measurements at synchronized time<br>intervals. This data is then fe=
+d to various processing, monitoring, control, archival and market brokerage=
+ applications using a<br>communication network. The Smart grid applications=
+ running at the control centers require strict quality-of-service guarantee=
+s in terms<br>of low latency and high reliability. As per the NASPInet fram=
+ework, data loss of crucial control data is not acceptable and data<br>reli=
+ability is an important design goal. The existing mechanism, called as Grid=
+stat, which provides data reliability is inefficient in<br>terms of bandwid=
+th usage. In order to reduce network traffic while improving reliability of=
+ real-time data, Forward Error Correction<br>based fault tolerance mechanis=
+ms are needed.&nbsp; In this work, we have proposed three mechanisms based =
+on multi-path transmissions,<br>source-coding and network-coding techniques=
+. The proposed mechanisms are compared with the existing mechanism using an=
+ OMNeT++ based<br>discrete event simulation model. The proposed mechanisms =
+are shown to have lower bandwidth requirement while providing higher reliab=
+ility<br>than the existing mechanism.<br><br>Guide: Prof. Krishna M. Sivali=
+ngam, CSE Dept.<br><br><span></span>=3D=3D<br>Prof. Krishna Moorthy Sivalin=
+gam, Professor, CSE Dept, IIT Madras, Chennai, India<br><span></span><br></=
+span><br></div></div></body></html>
+------=_Part_17838350_1171910092.1390220876876--

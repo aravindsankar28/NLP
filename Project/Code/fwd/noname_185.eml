@@ -1,0 +1,210 @@
+Return-Path: kpreetha@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 10 Jun 2013 09:15:51 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 62FF3F7811B;
+	Mon, 10 Jun 2013 09:15:49 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id R+EIVcvCf+vH; Mon, 10 Jun 2013 09:15:45 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7FEFFF78035;
+	Mon, 10 Jun 2013 09:15:44 +0530 (IST)
+Date: Mon, 10 Jun 2013 09:15:44 +0530 (IST)
+From: "kpreetha@cse.iitm.ac.in" <kpreetha@cse.iitm.ac.in>
+To: scholars  <scholars@cse.iitm.ac.in>, Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1127544466.38310.1370835944470.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: A gentle seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_38309_2088647304.1370835944469"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_38309_2088647304.1370835944469
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+This is a gentle remainder .=20
+
+
+
+I am giving my first Ph.D seminar on 10th June 2013 ( Monday ) from 1.30pm =
+to 2.30pm at BSB 361. Please make it convenient to attend and give your val=
+uable suggestions.=20
+
+
+The details of the talk is given below:-=20
+
+Speaker : Preetha Mathew K=20
+Topic : Design of an efficient code based encryption in the standard model=
+=20
+Date : 10-06-2013 Monday=20
+Time : 13:30 hrs to 14:30 hrs=20
+Venue : BSB 361 Department of Computer Science and Engineering=20
+
+
+
+
+Abstract:=20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Provable Security is an approach to provide evidence of security by means o=
+f reduction. If the cryptosystem can be broken in some specific way, then i=
+t would be possible to efficiently solve some well-studied problem that is =
+thought to be difficult. The problems normally used are factoring problem, =
+discrete logarithm problem, computational Diffie-Hellman problem and so on.=
+ The security notions widely used in the provably secure approach for the e=
+ncryption schemes are derived from the subset of the cross product of the g=
+oal to be achieved and the attack model. The goal belongs to the set invert=
+ibility(INV), indistinguishability(IND) and non malleablity(NM). The attack=
+ models fall into CPA (Chosen Plain Text attack) and CCA (Chosen Cipher Tex=
+t attack). When quantum computer comes into existence the aforementioned pr=
+oblems can be solved. So the research goes on searching the problems that c=
+annot be solved by quantum computer. The areas found out so far are Lattice=
+ based, Code based, Hash based and Multivariate based cryptosystems. The cr=
+yptography based on the said areas is termed as Post quantum cryptography. =
+Investigating the security notions of first code based cryptoystem namely M=
+cEliece, it is found to be one way function. So to obtain the higher notion=
+s of security, modifications on the original scheme are proposed in the lit=
+erature. The security can be proved either in the random oracle model or in=
+ the standard model, of which standard model is generally prefered. The exi=
+sting CCA2 secure McEliece in the standard model consists of =CE=BA repetit=
+ion encryption, and hence there is large overhead in terms of public key si=
+ze and cipher text components. We proposed an efficient design of IND-CCA2 =
+secure McEliece cryptosystem without =CE=BA repetition in the standard mode=
+l.=20
+
+
+All are Welcome.=20
+
+
+Thanks and Regards,=20
+Preetha Mathew K.
+------=_Part_38309_2088647304.1370835944469
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<br><br>This is a gentle remainder.<br><p style=3D"margin-bottom:=
+ 0in;"><br>I am giving my first Ph.D seminar on <span class=3D"Object" id=
+=3D"OBJ_PREFIX_DWT64">10th June 2013</span>
+(<span class=3D"Object" id=3D"OBJ_PREFIX_DWT65">Monday</span>) from 1.30pm =
+to 2.30pm at BSB 361. Please make it
+convenient to attend and give your valuable suggestions.</p><p style=3D"mar=
+gin-bottom: 0in;"><br>The
+details of the talk is given below:-<br><br><span style=3D"font-weight: bol=
+d;">Speaker&nbsp;&nbsp; : Preetha Mathew
+K</span><br style=3D"font-weight: bold;"><span style=3D"font-weight: bold;"=
+>Topic &nbsp; &nbsp;&nbsp;&nbsp; : Design of an efficient code based
+encryption in the standard model</span><br style=3D"font-weight: bold;"><sp=
+an style=3D"font-weight: bold;">Date &nbsp; &nbsp; &nbsp;&nbsp; :
+10-06-2013 <span class=3D"Object" id=3D"OBJ_PREFIX_DWT66">Monday</span></sp=
+an><br style=3D"font-weight: bold;"><span style=3D"font-weight: bold;">Time=
+ &nbsp; &nbsp; &nbsp; : 13:30 hrs to
+14:30 hrs</span><br style=3D"font-weight: bold;"><span style=3D"font-weight=
+: bold;">Venue &nbsp; &nbsp; : BSB 361  Department of Computer Science and
+Engineering</span></p>
+<p style=3D"margin-bottom: 0in;"><br>
+</p>
+<p style=3D"margin-bottom: 0in; font-weight: bold;"><u>Abstract:</u></p><p =
+style=3D"margin-bottom: 0in; font-weight: bold;"><u><br></u></p>
+<div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><div style=3D"text-align: justify;">
+</div><p style=3D"margin-bottom: 0in; text-align: justify;">     Provable S=
+ecurity is an approach
+to provide evidence of security by means of reduction. If the cryptosystem =
+can be broken in some
+specific way, then it would be possible to efficiently solve some well-stud=
+ied problem that is
+thought to be difficult. The problems normally used are factoring problem, =
+discrete
+logarithm problem, computational Diffie-Hellman problem and so on. The secu=
+rity notions widely used
+in the provably secure approach for the encryption schemes are derived from=
+ the subset of
+the cross product of the goal to be achieved and the attack model. The goal=
+ belongs to the
+set invertibility(INV), indistinguishability(IND) and non malleablity(NM). =
+The attack models
+fall into CPA (Chosen Plain Text attack) and CCA (Chosen Cipher Text attack=
+). When
+quantum computer comes into existence the aforementioned problems can be so=
+lved. So the
+research goes on searching the problems that cannot be solved by quantum co=
+mputer. The
+areas found out so far are Lattice based, Code based, Hash based and Multiv=
+ariate based
+cryptosystems. The cryptography based on the said areas is termed as Post q=
+uantum cryptography.
+Investigating the security notions of first code based cryptoystem namely M=
+cEliece, it is
+found to be one way function. So to obtain the higher notions of security, =
+modifications on
+the original scheme are proposed in the literature. The security can be pro=
+ved either in the
+random oracle model or in the standard model, of which standard model is ge=
+nerally prefered.
+The existing CCA2 secure McEliece in the standard model consists of =CE=BA =
+repetition
+encryption, and hence there is large overhead in terms of public key size a=
+nd cipher text components. We
+proposed an efficient design of IND-CCA2 secure McEliece cryptosystem witho=
+ut =CE=BA
+repetition in the standard model. <br></p><br><br>All are Welcome.<br><br><=
+br>Thanks and Regards,<br>Preetha Mathew K.</div></body></html>
+------=_Part_38309_2088647304.1370835944469--

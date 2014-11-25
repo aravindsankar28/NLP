@@ -1,0 +1,28 @@
+Dear All, 
+
+I will be giving my MS seminar talk on 8 th July 2013 (Monday) at 2:00 PM in BSB 361. Kindly attend the seminar and provide your valuable feedback. 
+
+Details: 
+
+
+Speaker : Ashok Gautham J 
+Date : 8th July 2013 , Monday 
+Time : 14:00 hrs to 15:00 hrs 
+Topic : Characterizing Energy Consumption of Shared-data Synchronization Techniques 
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineering. 
+
+
+
+Abstract 
+Shared-data synchronization techniques are of prime importance when writing multi-threaded programs. Software Transactional Memory (STM) is one such abstraction that allows programmers to write efficient deadlock-free concurrent programs. More recently, there is a demand for energy efficiency among all classes of computers. Research in the past has focused on developing high-performance synchronization techniques that can fully exploit the multiple cores available in modern processors. 
+
+In order to develop energy-efficient synchronization techniques, it is important to analyze and characterize energy consumption of the existing systems. In this seminar, the energy efficiency of programs written using classic synchronization techniques like mutexes and spin-locks is compared to the energy efficiency of their STM-based counterparts. Further, energy consumption is characterized by studying the effect of varying properties of workloads using a synthetic micro-benchmark. Unlike older studies done using simulators, on-board sensors that allow fine-grained measurements are used for measuring energy consumption. 
+
+
+
+All are welcome! 
+
+--- 
+Ashok Gautham J (CS10S019 ) 
+RISE Lab, 
+Department of Computer Science and Engineerin 

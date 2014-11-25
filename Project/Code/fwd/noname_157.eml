@@ -1,0 +1,136 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sun, 4 Aug 2013 11:07:01 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 094182198003;
+	Sun,  4 Aug 2013 11:06:59 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 3.727
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.727 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, FM_SCHOOLING=2.132, HELO_NO_DOMAIN=0.001,
+	HTML_MESSAGE=0.001, RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id nZu7meoonLTk; Sun,  4 Aug 2013 11:06:58 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id EA844F78035
+	for <seminar@cse.iitm.ac.in>; Sun,  4 Aug 2013 11:06:57 +0530 (IST)
+Date: Sun, 4 Aug 2013 11:06:57 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1857627292.89033.1375594617899.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1426760669.89027.1375594540091.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Seminar on Wednesday 7th August
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_89032_2075657880.1375594617898"
+X-Originating-IP: [10.23.2.230]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_89032_2075657880.1375594617898
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+
+There will be a Department Seminar by Gurulingesh Raravi from University of=
+ Porto at 4 p.m. in BSB 361 on Wednesday, the 7th. Details below. All are w=
+elcome.=20
+
+
+Regards=20
+Ravi.=20
+
+
+
+Title:=20
+Real-Time Scheduling on Heterogeneous Multicores=20
+
+
+Abstract:=20
+Parallel processing platforms are spreading at an unprecedented rate. Tradi=
+tionally, parallel processing platforms were used to reduce the execution t=
+ime of a large computational job such as predicting the weather but now the=
+y are also used in low-end systems and embedded real-time systems thanks to=
+ the availability of multicore processors. Specifically, heterogeneous mult=
+icores now enjoy a period of widespread use since specialized processing un=
+its in those multicores such as graphics processors, digital signal process=
+ors, network processors, etc. offer a significant performance boost. All ma=
+jor semiconductor companies are offering heterogeneous multicores, e.g., In=
+tel Atom, AMD Fusion and NVIDIA Tegra. Although the processor cores in such=
+ a heterogeneous multicore are different and each type offers its own disti=
+nct advantage for various workloads, the trend is to make the processor cor=
+es generic. For example, a graphics processor can be efficiently used (to o=
+btain a good performance) for some computations that are not computer graph=
+ics operations, such as sorting and numerical vector calculations. We can t=
+herefore expect that the computational workhorse for both desktop and embed=
+ded computer systems in the near future will be a heterogeneous multicore. =
+Deploying embedded real-time systems on such heterogeneous multicores requi=
+res development of real-time scheduling theory with provably good algorithm=
+s. Hence, my PhD work aimed at developing provably good real-time schedulin=
+g algorithms for heterogeneous multicores. This talk (i) will describe in d=
+etail one such algorithm that works for two-type heterogeneous multicores i=
+n which there are two distinct types of processors and (ii) will also provi=
+de an overview of the other contributions of my dissertation work.=20
+
+
+Speaker Bio:=20
+Gurulingesh raravi is currently a fourth year PhD student at the University=
+ of Porto and he is associated with the CISTER Research Centre in Porto. Hi=
+s current research interest is in embedded real-time systems scheduling the=
+ory. He received the Masters degree from Indian Institute of Technology Bom=
+bay in 2005, and the Bachelors degree from Karnataka University in 2001. Pr=
+ior to entering graduate school, he worked for three years as a research en=
+gineer.
+------=_Part_89032_2075657880.1375594617898
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<div><br></div><div>There will be a Department Seminar by Gurulin=
+gesh Raravi from University of Porto at 4 p.m. in BSB 361 on Wednesday, the=
+ 7th. Details below. All are welcome.</div><div><br></div><div>Regards</div=
+><div>Ravi.</div><div><br></div><div><div style=3D"background-color: rgb(25=
+5, 255, 255);">Title:&nbsp;</div><div style=3D"background-color: rgb(255, 2=
+55, 255);">Real-Time Scheduling on Heterogeneous Multicores</div><div style=
+=3D"background-color: rgb(255, 255, 255);"><br></div><div style=3D"backgrou=
+nd-color: rgb(255, 255, 255);">Abstract:</div><div style=3D"background-colo=
+r: rgb(255, 255, 255);">Parallel processing platforms are spreading at an u=
+nprecedented rate. Traditionally, parallel processing platforms were used t=
+o reduce the execution time of a large computational job such as predicting=
+ the weather but now they are also used in low-end systems and embedded rea=
+l-time systems thanks to the availability of multicore processors. Specific=
+ally, heterogeneous multicores now enjoy a period of widespread use since s=
+pecialized processing units in those multicores such as graphics processors=
+, digital signal processors, network processors, etc. offer a significant p=
+erformance boost. All major semiconductor companies are offering heterogene=
+ous multicores, e.g., Intel Atom, AMD Fusion and NVIDIA Tegra. Although the=
+ processor cores in such a heterogeneous multicore are different and each t=
+ype offers its own distinct advantage for various workloads, the trend is t=
+o make the processor cores generic. For example, a graphics processor can b=
+e efficiently used (to obtain a good performance) for some computations tha=
+t are not computer graphics operations, such as sorting and numerical vecto=
+r calculations. We can therefore expect that the computational workhorse fo=
+r both desktop and embedded computer systems in the near future will be a h=
+eterogeneous multicore. Deploying embedded real-time systems on such hetero=
+geneous multicores requires development of real-time scheduling theory with=
+ provably good algorithms. Hence, my PhD work aimed at developing provably =
+good real-time scheduling algorithms for heterogeneous multicores. This tal=
+k (i) will describe in detail one such algorithm that works for two-type he=
+terogeneous multicores in which there are two distinct types of processors =
+and (ii) will also provide an overview of the other contributions of my dis=
+sertation work.</div><div style=3D"background-color: rgb(255, 255, 255);"><=
+br></div><div style=3D"background-color: rgb(255, 255, 255);">Speaker Bio:<=
+/div><div style=3D"background-color: rgb(255, 255, 255);">Gurulingesh rarav=
+i is currently a fourth year PhD student at the University of Porto and he =
+is associated with the CISTER Research Centre in Porto. His current researc=
+h interest is in embedded real-time systems scheduling theory. He received =
+the Masters degree from Indian Institute of Technology Bombay in 2005, and =
+the Bachelors degree from Karnataka University in 2001. Prior to entering g=
+raduate school, he worked for three years as a research engineer.</div></di=
+v></div></body></html>
+------=_Part_89032_2075657880.1375594617898--

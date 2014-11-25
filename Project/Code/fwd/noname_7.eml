@@ -1,0 +1,89 @@
+Return-Path: nvk@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 22 Oct 2014 15:29:46 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 19759F78120;
+	Wed, 22 Oct 2014 15:29:44 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.001
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.001 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_20=-0.001] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0ftDb-jpy5dk; Wed, 22 Oct 2014 15:29:33 +0530 (IST)
+Received: from [192.168.1.7] (unknown [10.6.0.85])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTPSA id 8B8D3F78105
+	for <seminar@cse.iitm.ac.in>; Wed, 22 Oct 2014 15:29:32 +0530 (IST)
+From: "V. Krishna Nandivada" <nvk@cse.iitm.ac.in>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Subject: Manish Gupta visitor talk.
+Message-Id: <13EE75F4-253D-45ED-B9CB-DED5ACAA9D3A@cse.iitm.ac.in>
+Date: Wed, 22 Oct 2014 15:32:42 +0530
+To: seminar@cse.iitm.ac.in
+Mime-Version: 1.0 (Mac OS X Mail 7.3 \(1878.6\))
+X-Mailer: Apple Mail (2.1878.6)
+
+Dear All,
+Please find below a talk announcement.
+
+Speaker: Manish Gupta (Vice President at Xerox Corporation and Director =
+of Xerox Research Centre in India).
+
+Title: Deriving Insights from Data: Opportunities for Societal Impact
+
+Time: Friday 2pm.
+
+Location: BSB 361 or BSB 25 (location to be finalized). Another email =
+will be sent.
+
+Abstract:
+
+We are entering an era that will usher dramatic changes in most =
+industries via exploitation of data. With the availability of abundant =
+computing power, proliferation of data from sensors and increasing =
+digitization of data that used to be in non-electronic form, there are =
+opportunities to enable transformations in the way the world is run. We =
+present examples of problems that can be tackled in Healthcare, =
+Education, Banking and Transportation domains, each with a potential to =
+positively impact the lives of millions of people. We further describe =
+unique challenges like scale, heterogeneity and poor infrastructure in =
+growth markets like India, which often require new approaches. Diving =
+deeper into the healthcare industry, we present preliminary work that =
+shows the applicability of remote sensing and data analytics to measure =
+body vitals such as respiration and heart rate, and also to diagnose =
+diseases such as breast cancer and atrial fibrillation (a form of =
+cardiac arrhythmia). As more of the patients=92 medical history gets =
+captured in electronic health record systems, there is a further promise =
+of applying real-time predictive analytics to assist doctors in =
+practicing evidence-based medicine. We present work that significantly =
+improves upon the state of the art for a variety of problems, including =
+prediction of serious complications such as acute hypotensive episodes =
+for patients in an ICU, and predicting the probability of a patient =
+requiring ICU admission. Finally, we present some observations on the =
+common aspects of these solutions across various industry verticals, =
+characterizing these as technology support to enable highly personalized =
+services at massive scale and describe some outstanding challenges .
+ Bio:
+ Dr. Manish Gupta is Vice President at Xerox Corporation and Director of =
+Xerox Research Centre in India. Previously, Manish has served as =
+Managing Director, Technology Division at Goldman Sachs India, and has =
+held various leadership positions with IBM, including that of Director, =
+IBM Research - India and Chief Technologist, IBM India/South Asia. =46rom =
+2001 to 2006, he served as a Senior Manager at the IBM T.J. Watson =
+Research Center in Yorktown Heights, New York, where he led the team =
+developing system software for the Blue Gene/L supercomputer. IBM was =
+awarded a National Medal of Technology and Innovation for Blue Gene by =
+US President Barack Obama in 2009. Manish holds a B.Tech. degree in =
+Computer Science from IIT Delhi and a Ph.D. from the University of =
+Illinois at Urbana Champaign. He has co-authored over 75 papers, with =
+more than 5,500 citations in Google Scholar (with an h-index of 41) in =
+the areas of high-performance computing, compilers, and virtual machine =
+optimizations, and has been granted more than 15 US patents. While at =
+IBM, Manish received an Outstanding Innovation Award, two Outstanding =
+Technical Achievement Awards and the Lou Gerstner Team Award for Client =
+Excellence. Manish is an ACM Fellow and has recently been named as a =
+recipient of a Distinguished Alumnus Award from IIT Delhi.
+=20=

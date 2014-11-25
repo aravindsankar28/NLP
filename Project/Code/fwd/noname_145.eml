@@ -1,0 +1,57 @@
+Return-Path: madhu@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 21 Aug 2013 11:16:57 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 068862990020;
+	Wed, 21 Aug 2013 11:16:55 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -2.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.9 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Ag9h4W0lUtOm; Wed, 21 Aug 2013 11:16:46 +0530 (IST)
+Received: from [10.6.30.25] (unknown [10.6.30.25])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTPSA id 392BEF78106;
+	Wed, 21 Aug 2013 11:15:55 +0530 (IST)
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Mac OS X Mail 6.5 \(1508\))
+Subject: Re: Talk by Prof. Vijaykrishnan Narayanan, Penn State
+From: Madhu Mutyam <madhu@cse.iitm.ac.in>
+In-Reply-To: <838D0833-C13E-4397-8408-9A37EB7BD1E9@cse.iitm.ac.in>
+Date: Wed, 21 Aug 2013 11:25:22 +0530
+Cc: Vijaykrishnan Narayanan <vijay@cse.psu.edu>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <580C285F-CE9C-40C5-9297-6526D9BFD510@cse.iitm.ac.in>
+References: <838D0833-C13E-4397-8408-9A37EB7BD1E9@cse.iitm.ac.in>
+To: "seminar@cse.iitm.ac.in" <seminar@cse.iitm.ac.in>,
+ Nitin Chandrachoodan <nitin@ee.iitm.ac.in>
+X-Mailer: Apple Mail (2.1508)
+
+Just a remainder.=20
+
+> Dear All,
+>=20
+> PFB the details of a talk by Prof. Vijaykrishnan Narayanan, Penn =
+State.
+>=20
+> Title: Tearing down the power wall: Coordinated =
+technology-architecture advances
+>=20
+> Venue: BSB 361
+> Date: 22/8/2013
+> Time: 3:30PM
+>=20
+> Abstract: This talk will highlight power-efficiency innovations driven =
+by steep slope transistors and domain-specific customization. First, =
+heterogeneous architectures that combine CMOS technology with Tunnel FET =
+technology will be discussed. Second, domain specific accelerators for =
+video analytic applications will be presented.
+>=20
+> Speaker Bio: Please visit www.cse.psu.edu/~vijay
+>=20
+> regards,
+> madhu mutyam
+

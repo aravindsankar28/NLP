@@ -1,0 +1,90 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 14 Mar 2013 09:45:55 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 252432198005;
+	Thu, 14 Mar 2013 09:45:53 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id WFWY1XAms+FR; Thu, 14 Mar 2013 09:45:49 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id CA68FF78101;
+	Thu, 14 Mar 2013 09:45:48 +0530 (IST)
+Date: Thu, 14 Mar 2013 09:45:48 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: faculty  <faculty@cse.iitm.ac.in>, staff  <staff@cse.iitm.ac.in>, 
+	students  <students@cse.iitm.ac.in>
+Message-ID: <1601998213.6236.1363234548744.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <991937995.6222.1363234015213.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Removing the 'all' alias at cse.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6235_1655141172.1363234548743"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_6235_1655141172.1363234548743
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, :-). 
+
+
+Recently there have been several mails sent out to all@cse which didn't require to be. Since it is hard to moderate the mails, we have decided to remove the distribution list 'all'. Please use appropriate target audiences for each mail that you send out. Here are a list of aliases that we use with fairly large distribution: 
+
+
+seminar@cse.iitm.ac.in - for all seminar/talk announcements. 
+faculty@cse.iitm.ac.in - to reach all faculty 
+staff@cse.iitm.ac.in - to reach all office/technical staff 
+students@cse.iitm.ac.in - to reach all students 
+proj@cse.iitm.ac.in - to reach all project staff with accounts on zimbra. Largely defunct now. 
+
+scholars - to reach ms and phd scholars 
+phd - to reach phd scholars alone 
+ms - to reach ms scholars alone 
+{1|2}mtech - to reach 1st or 2nd mtech respectively. 
+{1|2|3|4}btech - to reach 1st through 4th year BTech and DD resply. 
+5btech - to reach 5th yeard DD students. [Note 2mtech does not go to the 5th year DDs currently.] 
+
+
+csoffice - to reach the office staff. 
+
+
+To reach everyone in the Dept., as in this mail, please send to faculty, staff and students. 
+
+
+Regards 
+Ravi. 
+------=_Part_6235_1655141172.1363234548743
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All, :-).<div><br></div><div>Recently there have been several mails s=
+ent out to all@cse which didn't require to be. Since it is hard to moderate=
+ the mails, we have decided to remove the distribution list 'all'. Please u=
+se appropriate target audiences for each mail that you send out. Here are a=
+ list of aliases that we use with fairly large distribution:</div><div><br>=
+</div><div>seminar@cse.iitm.ac.in - for all seminar/talk announcements.</di=
+v><div>faculty@cse.iitm.ac.in - to reach all faculty</div><div>staff@cse.ii=
+tm.ac.in - to reach all office/technical staff</div><div>students@cse.iitm.=
+ac.in - to reach all students&nbsp;</div><div>proj@cse.iitm.ac.in - to reac=
+h all project staff with accounts on zimbra. Largely defunct now.&nbsp;</di=
+v><div><div>scholars - to reach ms and phd scholars</div><div>phd - to reac=
+h phd scholars alone</div><div>ms - to reach ms scholars alone</div></div><=
+div>{1|2}mtech - to reach 1st or 2nd mtech respectively.</div><div>{1|2|3|4=
+}btech - to reach 1st through 4th year BTech and DD resply.</div><div>5btec=
+h - to reach 5th yeard DD students. [Note 2mtech does not go to the 5th yea=
+r DDs currently.]</div><div><br></div><div>csoffice - to reach the office s=
+taff.</div><div><br></div><div>To reach everyone in the Dept., as in this m=
+ail, please send to faculty, staff and students.&nbsp;</div><div><br></div>=
+<div>Regards</div><div>Ravi.</div></div></body></html>
+------=_Part_6235_1655141172.1363234548743--

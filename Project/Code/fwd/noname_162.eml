@@ -1,0 +1,173 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 29 Jul 2013 13:30:15 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id DCA05F7813B;
+	Mon, 29 Jul 2013 13:28:40 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.794
+X-Spam-Level: 
+X-Spam-Status: No, score=0.794 tagged_above=-10 required=6.6
+	tests=[BAYES_40=-0.001, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id oUL-L7PeG7mX; Mon, 29 Jul 2013 13:28:32 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0FDC0F78139
+	for <seminar@cse.iitm.ac.in>; Mon, 29 Jul 2013 13:28:30 +0530 (IST)
+Date: Mon, 29 Jul 2013 13:28:29 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1545439136.80363.1375084709184.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <3609541968964167754@unknownmsgid>
+Subject: Fwd: [Faculty] Talk by Prof. Sanjay Shakkottai, Aug 5, 11 a.m,
+ ESB244
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_80362_209001083.1375084709183"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_80362_209001083.1375084709183
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+From: "Krishna Jagannathan" <krishnaj@ee.iitm.ac.in>=20
+To: "Ravindran B" <ravi@cse.iitm.ac.in>=20
+Sent: Monday, July 29, 2013 1:38:50 PM=20
+Subject: Fwd: [Faculty] Talk by Prof. Sanjay Shakkottai, Aug 5, 11 a.m, ESB=
+244=20
+
+
+This one too!=20
+
+Krishna=20
+
+Begin forwarded message:=20
+
+
+
+
+From: Sudharsan Parthasarathy < ee12d027@ee.iitm.ac.in >=20
+Date: 15 July 2013 10:51:11 AM IST=20
+To: Faculty < faculty@ee.iitm.ac.in >, msphd < msphd@ee.iitm.ac.in >=20
+Subject: [Faculty] Talk by Prof. Sanjay Shakkottai, Aug 5, 11 a.m, ESB244=
+=20
+
+
+
+
+
+
+Title: On Spreading and Detecting Infections=20
+
+Speaker: Prof. Sanjay Shakkottai=20
+UT Austin=20
+
+Date : Monday 5th August 11 a.m .=20
+
+Location : ESB 244=20
+
+Abstract: In this talk, we study the spread of epidemics (infections) over =
+large networks. In the first part, we study the scenario where the spread i=
+s assisted by a small number of external agents: infection sources with bou=
+nded spreading power, but whose movement is unrestricted with respect to th=
+e underlying network topology. For networks which are =E2=80=98spatially co=
+nstrained=E2=80=99 (e.g., random geometric graphs), we show that the spread=
+ of infection can be significantly speeded up even by a few such agents inf=
+ecting randomly. Further for such networks, we show that simple random, sta=
+te-oblivious infection-spreading by an external agent is in fact order-wise=
+ optimal for dissemination.=20
+
+In the second part, we leverage the network propagation characteristics of =
+epidemics to distinguish between epidemic spreading and "random" failures (=
+e.g., flu vs. allergy, worm attack vs. random computer failures). For insta=
+nce, a virus that spreads by taking advantage of physical links or user-acq=
+uaintance links on a social network can grow explosively if it spreads beyo=
+nd a critical radius. On the other hand, random infections (that do not tak=
+e advantage of network structure) have very different propagation character=
+istics. We address questions like: when can we distinguish between these me=
+chanics of infection? Further, how can this be done efficiently? In this ta=
+lk, we discuss sufficient conditions and algorithms for different graph top=
+ologies, for when it is possible to distinguish between a random model of i=
+nfection and a spreading epidemic model, with probability of misclassificat=
+ion going to zero.=20
+
+Biography: Sanjay Shakkottai received his Ph.D. from the ECE Department at =
+the University of Illinois at Urbana-Champaign in 2002. He is with The Univ=
+ersity of Texas at Austin, where he is currently a Professor in the Departm=
+ent of Electrical and Computer Engineering, and the Associate Director of W=
+ireless Networking and Communications Group (WNCG). He received the NSF CAR=
+EER award in 2004. His current research interests include network architect=
+ures, algorithms and performance analysis for wireless networks, and algori=
+thms for learning and inference over complex networks.
+------=_Part_80362_209001083.1375084709183
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><br><br><hr id=3D"zwchr"><b>From: </b>"Krishna Jagannathan" &lt;krishnaj@e=
+e.iitm.ac.in&gt;<br><b>To: </b>"Ravindran B" &lt;ravi@cse.iitm.ac.in&gt;<br=
+><b>Sent: </b>Monday, July 29, 2013 1:38:50 PM<br><b>Subject: </b>Fwd: [Fac=
+ulty] Talk by Prof. Sanjay Shakkottai, Aug 5, 11 a.m, ESB244<br><br><div>Th=
+is one too!<br><br>Krishna</div><div><br>Begin forwarded message:<br><br></=
+div><blockquote><div><b>From:</b> Sudharsan Parthasarathy &lt;<a href=3D"ma=
+ilto:ee12d027@ee.iitm.ac.in" target=3D"_blank">ee12d027@ee.iitm.ac.in</a>&g=
+t;<br>
+<b>Date:</b> 15 July 2013 10:51:11 AM IST<br><b>To:</b> Faculty &lt;<a href=
+=3D"mailto:faculty@ee.iitm.ac.in" target=3D"_blank">faculty@ee.iitm.ac.in</=
+a>&gt;, msphd &lt;<a href=3D"mailto:msphd@ee.iitm.ac.in" target=3D"_blank">=
+msphd@ee.iitm.ac.in</a>&gt;<br><b>Subject:</b> <b>[Faculty] Talk by Prof. S=
+anjay Shakkottai, Aug 5, 11 a.m, ESB244</b><br>
+<br></div></blockquote><blockquote><div><div dir=3D"ltr"><div><span>Title: =
+On Spreading and Detecting Infections</span><br><span><br></span>Speaker: P=
+rof. Sanjay Shakkottai<br></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UT Austin<br><br>
+Date : <span><span>Monday 5th August 11 a.m</span></span>.<br>
+
+<br>Location : ESB 244<br><span><br>Abstract:
+ In this talk, we study the spread of epidemics (infections) over large=20
+networks. In the first part, &nbsp;we study the scenario where the spread i=
+s=20
+assisted by a small number of external agents: infection sources with=20
+bounded spreading power, but whose movement is unrestricted with respect
+ to the underlying network topology. For networks which are =E2=80=98spatia=
+lly=20
+constrained=E2=80=99 (e.g., random geometric graphs), we show that the spre=
+ad of
+ infection can be significantly speeded up even by a few such agents=20
+infecting randomly. &nbsp;Further for such networks, we show that simple=20
+random, state-oblivious infection-spreading by an external agent is in=20
+fact order-wise optimal for dissemination.</span><span><br><br>In
+ the second part, we leverage the network propagation characteristics of
+ epidemics to distinguish between epidemic spreading and "random"=20
+failures (e.g., flu vs. allergy, worm attack vs. random computer=20
+failures). For instance, a virus that spreads by taking advantage of=20
+physical links or user-acquaintance links on a social network can grow=20
+explosively if it spreads beyond a critical radius. On the other hand,=20
+random infections (that do not take advantage of network structure) have
+ very different propagation characteristics. We address questions like:=20
+when can we distinguish between these mechanics of infection? Further,=20
+how can this be done efficiently? In this talk, we discuss sufficient=20
+conditions and algorithms for different graph topologies, for when it is
+ possible to distinguish between a random model of infection and a=20
+spreading epidemic model, with probability of misclassification going to
+ zero.</span><span><br><br>Biography: Sanjay Shakkottai=20
+received his Ph.D. from the ECE Department at the University of Illinois
+ at Urbana-Champaign in 2002. He is with The University of Texas at=20
+Austin, where he is currently a Professor in the Department of=20
+Electrical and Computer Engineering, and the Associate Director of=20
+Wireless Networking and Communications Group (WNCG). He received the NSF
+ CAREER award in 2004. His current research interests include network=20
+architectures, algorithms and performance analysis for wireless=20
+networks, and algorithms for learning and inference over complex=20
+networks.</span></div>
+</div></blockquote>
+</div></body></html>
+------=_Part_80362_209001083.1375084709183--

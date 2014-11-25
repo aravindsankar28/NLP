@@ -1,0 +1,54 @@
+Dear All,
+
+Greetings.
+
+I am happy to invite you to my PhD seminar on 26-Mar-2013 (Tuesday) at 2:00
+PM.
+Request you to mark your calendar, and make it convenient to attend. The
+details
+of the talk are as follows:
+
+ Title:   Application of Entropy of Centrality to Routing in Networks
+Speaker: Vanniarajan C.
+Time:    26-Mar-2013 (Tuesday) at 2:00 PM
+Venue:   BSB 361, Seminar Hall, Department of Computer Science & Engineerin=
+g
+
+Regards,
+Vanniarajan
+
+Abstract :-
+
+Various Centrality measures such as Degree, Closeness, and Betweenness were
+introduced in order to analyze
+networks and understand both the global dynamics of the networks and the
+roles played by individual nodes.
+It will be worthwhile to rank the centrality measures of each node and an
+index of the distribution of centrality
+measures in the entire network. In this proposal, we de=EF=AC=81ne the noti=
+on of
+entropy of centrality measures, which
+extends the concept of centrality to the whole network. We show that this
+measure has wide range of applications,
+in network design, from designing maximally e=EF=AC=83cient networks to ide=
+ntifying
+dominance of one node or link in the
+context of entire network. In particular, we present an application to
+tactical wireless networks.
+
+This entropy measure also provides a good handle in analyzing the routing
+e=EF=AC=83ciency on each link in the context
+of the chosen routing strategy and the topology design. We propose a local
+search algorithm, which consists of
+=EF=AC=81nding appropriate weights of links in the network that results in =
+maximum
+entropy of shortest paths
+betweenness-centrality. This implies that the shortest paths are
+distributed between the links as even as possible
+given the topology constraints. We feel this measurement makes a strong
+case for considering betweenness-centrality
+measures and their entropy in designing maximally e=EF=AC=83cient topologie=
+s, and
+improving the resiliency and quality of routing.
+
+---

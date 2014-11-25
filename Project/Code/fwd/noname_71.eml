@@ -1,0 +1,106 @@
+Return-Path: hema.arunachalam@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 14 Mar 2014 09:40:07 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6BDD5F7803D;
+	Fri, 14 Mar 2014 09:40:05 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.368
+X-Spam-Level: *
+X-Spam-Status: No, score=1.368 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	MIME_QP_LONG_LINE=0.001, SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wmqw0QriDPKz; Fri, 14 Mar 2014 09:39:59 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 4E508F78035;
+	Fri, 14 Mar 2014 09:39:59 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id C9E1E78034C;
+	Fri, 14 Mar 2014 09:41:13 +0530 (IST)
+Received: from mail-pd0-f181.google.com ([209.85.192.181])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201403140355110061572; Fri, 14 Mar 2014 09:25:12 +0530
+Received: by mail-pd0-f181.google.com with SMTP id p10so1989548pdj.12
+        for <multiple recipients>; Thu, 13 Mar 2014 21:11:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=references:mime-version:in-reply-to:content-type
+         :content-transfer-encoding:message-id:cc:from:subject:date:to;
+        bh=NYqRGEdcWIRUmDL92ZefhI2YmnglweAwoYJLmqBF42I=;
+        b=wmWhMjGfPNyf7gw9RC85PqsxQBdbINg6GRDrF7ICJGnf6SdV9JAsoWzKkPa17C4Kw/
+         KFn4pJBttGJsg7alW2VG0Wqdw1S8AbeamgxxaA9yqNuPqOsh9oxzPqa1q+PjzzN7+7+h
+         7ysoDX7vZc47abU0mvt2O9MhJkDmvQV5A05djMxBRbkW7TNjsK5zJJCiumGf4cWKiFgO
+         aTD1gseOMfs6btGeNmcbbviTyV6HfOZYYk9DQ+vQexk4WnS6HqZhSduA/6sTTf9RwfHl
+         F16Wmo5MLL0pCcQMCbWmNohTwtRtB4Dt/fUtuNKd0REWNwd8ULUTl9+R602RU1WUfoPE
+         Uymw==
+X-Received: by 10.66.141.231 with SMTP id rr7mr6557473pab.41.1394770270237;
+        Thu, 13 Mar 2014 21:11:10 -0700 (PDT)
+Received: from [117.96.158.117] ([117.96.158.117])
+        by mx.google.com with ESMTPSA id j3sm11991477pbh.38.2014.03.13.21.11.02
+        for <multiple recipients>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 13 Mar 2014 21:11:09 -0700 (PDT)
+References: <CABf89Sn-CACyGtaaQ09kKDXm9r4E=qzsH-xB=0RebXxojphS-A@mail.gmail.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <CABf89Sn-CACyGtaaQ09kKDXm9r4E=qzsH-xB=0RebXxojphS-A@mail.gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-43EE9D9E-74F5-4E55-9653-59C34B6046D6
+Content-Transfer-Encoding: 7bit
+Message-Id: <7693CEDE-D28D-4AEC-A660-BF0D329AD9A4@gmail.com>
+Cc: "3btech@cse.iitm.ac.in" <3btech@cse.iitm.ac.in>,
+ Saad Yunus Sait <saad@cse.iitm.ac.in>
+X-Mailer: iPad Mail (11D167)
+From: Hema Murthy <hema.arunachalam@gmail.com>
+Subject: Re: info theory and coding mid sem
+Date: Fri, 14 Mar 2014 09:49:40 +0530
+To: Adit Krishnan <adit101293@gmail.com>
+X-Mlf-DKIM: dkim=pass header.i=gmail.com 
+X-Mlf-KeyWords: adit,fano,krishnan,derivations,huffman,away,sem,saas,wrote,undergraduate,particu
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.192.181
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201403140355110061572
+
+
+--Apple-Mail-43EE9D9E-74F5-4E55-9653-59C34B6046D6
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Can u b more specific?   Source coding: Huffman, Shannon fano, lempel ziv, k=
+raft inequality : this is what u need to know.  I am away today.  Talk to sa=
+as
+
+Hema
+
+> On 13-Mar-2014, at 10:25 pm, Adit Krishnan <adit101293@gmail.com> wrote:
+>=20
+> Maam,
+> There are lots of proofs for inequalities and other derivations in general=
+ particularly in the third and fourth subparts.
+> Is it necessary to know their proofs for the exam or will the result be su=
+fficient?
+> Thanks,
+> Adit Krishnan
+> Third Year Undergraduate
+> IIT Madras
+
+--Apple-Mail-43EE9D9E-74F5-4E55-9653-59C34B6046D6
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body dir="auto"><div>Can u b more specific? &nbsp; Source coding: Huffman, Shannon fano, lempel ziv, kraft inequality : this is what u need to know. &nbsp;I am away today. &nbsp;Talk to saas<br><br>Hema</div><div><br>On 13-Mar-2014, at 10:25 pm, Adit Krishnan &lt;<a href="mailto:adit101293@gmail.com">adit101293@gmail.com</a>&gt; wrote:<br><br></div><blockquote type="cite"><div><div dir="ltr">Maam,<div>There are lots of proofs for inequalities and other derivations in general particularly in the third and fourth subparts.</div><div>Is it necessary to know their proofs for the exam or will the result be sufficient?</div>
+<div>Thanks,<br clear="all"><div><div dir="ltr"><font color="#999999"><b>Adit Krishnan</b></font><div><font color="#999999">Third Year Undergraduate</font></div><div><font color="#999999">IIT Madras</font></div></div></div>
+
+</div></div>
+</div></blockquote></body></html>
+--Apple-Mail-43EE9D9E-74F5-4E55-9653-59C34B6046D6--

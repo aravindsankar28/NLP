@@ -1,0 +1,177 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 17 Nov 2014 19:50:24 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 8FD59F781DD;
+	Mon, 17 Nov 2014 19:49:26 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 2.26
+X-Spam-Level: **
+X-Spam-Status: No, score=2.26 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RDNS_NONE=0.793,
+	SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id mwOBOAAt+Sdy; Mon, 17 Nov 2014 19:49:21 +0530 (IST)
+Received: from mx.iitm.ac.in (unknown [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 5AD24F7811B;
+	Mon, 17 Nov 2014 19:47:49 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id E1BC97802DF;
+	Mon, 17 Nov 2014 19:48:51 +0530 (IST)
+Authentication-Results: mailx1.iitm.ac.in;
+	spf=pass smtp.mailfrom=ravindran.b@gmail.com;
+	dkim=policy(identity domain mismatch) header.i=@gmail.com;
+Received: from mail-lb0-f182.google.com ([209.85.217.182])
+	by mailx1.iitm.ac.in (SonicWALL 8.0.6.2773)
+	with ESMTP id 201411171418010003267; Mon, 17 Nov 2014 19:48:03 +0530
+Received: by mail-lb0-f182.google.com with SMTP id f15so17708057lbj.13
+        for <multiple recipients>; Mon, 17 Nov 2014 06:18:49 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:date:message-id:subject:from:to
+         :content-type;
+        bh=DGolqlZwhlP56HtThGJhWYnNJ76qrJiUpcET6JGUcJo=;
+        b=fSSf8abVj/mBZVNkpwD9ASZfTCH8wdS92Y4T78V8JlplR3U4y0gdxb3sLFkavACGaO
+         rZ9E/2byAbHGKHHBz4n/xHroVOP/yQsK+a8BT939LGkcd64ehCK+Lj1q6TtkmFMujytl
+         nBSmeiCvTN+heaaff+BowuT9+7pQP2vwHz2aJTq1KLVyxAjsH9YuedOyC5V+nNsNqS3y
+         a7sCJ4xoVKNAbDOMaFGbE18nTe8pithiuZ28M4mxlkZm5CxM3C3wskRUJ70hCbibvfYZ
+         BCk2Cnez+UfpcP68SeXPQfFFU6yF9xhuYcKgHmGyFFSfaCA1sZLHr76e7/WE5osXmCPX
+         wVBQ==
+MIME-Version: 1.0
+X-Received: by 10.112.132.67 with SMTP id os3mr103597lbb.90.1416233929494;
+ Mon, 17 Nov 2014 06:18:49 -0800 (PST)
+Reply-To: ravi@cse.iitm.ac.in
+Sender: ravindran.b@gmail.com
+Received: by 10.152.29.202 with HTTP; Mon, 17 Nov 2014 06:18:49 -0800 (PST)
+Date: Mon, 17 Nov 2014 19:48:49 +0530
+X-Google-Sender-Auth: 8vRwaxyxjn2xfCefHBYNvv4iXiE
+Message-ID: <CAJ0BqjhAOLeWObZRi410SOErEBtFe3XBH6ZZ7SOQ3BVmf6vWtw@mail.gmail.com>
+Subject: Yahoo! Sponsored Talk on Friday, by Partha Talukdar, IISc.
+From: Balaraman Ravindran <ravi@cse.iitm.ac.in>
+To: seminar@cse.iitm.ac.in, rise-iil <rise-iil@cse.iitm.ac.in>, 
+	DataAnalytics IITM <data.analytics.iitm@gmail.com>, 
+	Krishna Jagannathan <krishnaj@ee.iitm.ac.in>, aidb <aidb@googlegroups.com>, 
+	"Dr. Venkatesh Ramaiyan" <rvenkat@ee.iitm.ac.in>, Nikhil Ketkar <nikhil@indix.com>, 
+	Gopi Koteeswaran <gopi.koteeswaran@latentview.com>, kannan <kannan@mobiusservices.com>
+Content-Type: multipart/alternative; boundary=047d7b3a81924955b905080ea82f
+X-Mlf-SPF: SPF Pass (result=pass;action=none;identity=mailfrom;domain=gmail.com;source=209.85.217.182;details:allowedlist=consider;)
+X-Mlf-DKIM: No DKIM Signature (result=none;action=none;details: none, identity domain mismatched for all signatures.allowedlist=consider;)
+X-Mlf-DMARC: No DMARC Judgment: No DMARC record found.(result=none;action=none;)
+X-Mlf-KeyWords: talk,name,proved,shall,examples,interest,largescale,faculty,supercomputer,intera
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.217.182
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;other;none;none
+X-Mlf-UniqueId: i201411171418010003267
+
+--047d7b3a81924955b905080ea82f
+Content-Type: text/plain; charset=UTF-8
+
+Dear All,
+
+Dr. Partha Talukdar is a faculty at IISc, SERC. He is a very well known
+name in the field of learning on graphs. He will be visiting the CSE
+Department on Friday the 21st. He is giving a talk at 11 a.m. in BSB 361.
+Details below. All are welcome.
+
+If any one is interested in a one-on-one meeting with him, please let me
+know. Partha is here till late in the evening. There will be an interaction
+with students organized in the afternoon.
+
+This talk is supported partly by Yahoo! labs.
+
+Regards
+Ravi.
+
+Coords: Friday, 21st, 11 a.m., BSB 361.
+
+Title: Graph-based methods for Web-scale Knowledge Harvesting
+Abstract: Harvesting knowledge from web-scale text datasets has emerged as
+an interesting and promising area of research over the last few years,
+resulting in the construction of several large knowledge bases (KBs).
+Graphs provide a natural way to organize such harvested knowledge.
+Moreover, graph-based learning and inference methods have proved to be
+effective in the construction of such KBs. In this talk, I shall present an
+overview of my research in this area, with examples and applications of
+techniques ranging from graph-based semi-supervised learning to random walk
+inference over knowledge graphs.
+
+
+Partha Talukdar
+Supercomputer Education and Research Centre
+Indian Institute of Science
+
+Partha Pratim Talukdar is an Assistant Professor in the Supercomputer
+Education and Research Centre (SERC) at the Indian Institute of Science
+(IISc), Bangalore. Before that, he was a Postdoctoral Fellow in the Machine
+Learning Department at Carnegie Mellon University, working with Tom
+Mitchell on the NELL project. Partha received his PhD (2010) in CIS from
+the University of Pennsylvania, working under the supervision of Fernando
+Pereira, Zack Ives, and Mark Liberman. Partha is broadly interested in
+Machine Learning, Natural Language Processing, Data Integration, and
+Cognitive Neuroscience, with particular interest in large-scale learning
+and inference over graphs. His past industrial research affiliations
+include HP Labs, Google Research, and Microsoft Research. He is a co-author
+of the book on Graph-based Semi-Supervised Learning published by Morgan
+Claypool Publishers.
+
+Web: http://www.talukdar.net
+
+--047d7b3a81924955b905080ea82f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small">Dea=
+r All,</div><div class=3D"gmail_default" style=3D"font-size:small"><br></di=
+v><div class=3D"gmail_default" style=3D"font-size:small">Dr. Partha Talukda=
+r is a faculty at IISc, SERC. He is a very well known name in the field of =
+learning on graphs. He will be visiting the CSE Department on Friday the 21=
+st. He is giving a talk at 11 a.m. in BSB 361. Details below. All are welco=
+me.</div><div class=3D"gmail_default" style=3D"font-size:small"><br></div><=
+div class=3D"gmail_default" style=3D"font-size:small">If any one is interes=
+ted in a one-on-one meeting with him, please let me know. Partha is here ti=
+ll late in the evening. There will be an interaction with students organize=
+d in the afternoon.=C2=A0</div><div class=3D"gmail_default" style=3D"font-s=
+ize:small"><br></div><div class=3D"gmail_default" style=3D"font-size:small"=
+>This talk is supported partly by Yahoo! labs. =C2=A0</div><div class=3D"gm=
+ail_default" style=3D"font-size:small"><br></div><div class=3D"gmail_defaul=
+t" style=3D"font-size:small">Regards</div><div class=3D"gmail_default" styl=
+e=3D"font-size:small">Ravi.</div><div class=3D"gmail_default" style=3D"font=
+-size:small"><br></div><div class=3D"gmail_default" style=3D"font-size:smal=
+l">Coords: Friday, 21st, 11 a.m., BSB 361.</div><div class=3D"gmail_quote">=
+<div dir=3D"ltr"><div class=3D"gmail_extra"><div class=3D"gmail_quote"><h5 =
+style=3D"margin:0px;padding:0px;color:rgb(51,51,51);font-family:Arial,Helve=
+tica,sans-serif"><div style=3D"margin:0px;padding:0px"><br></div></h5>Title=
+: Graph-based methods for Web-scale Knowledge Harvesting<br>Abstract: Harve=
+sting knowledge from web-scale text datasets has emerged as an interesting =
+and promising area of research over the last few years, resulting in the co=
+nstruction of several large knowledge bases (KBs). Graphs provide a natural=
+ way to organize such harvested knowledge. Moreover, graph-based learning a=
+nd inference methods have proved to be effective in the construction of suc=
+h KBs. In this talk, I shall present an overview of my research in this are=
+a, with examples and applications of techniques ranging from graph-based se=
+mi-supervised learning to random walk inference over knowledge graphs. <br>=
+<br><br>Partha Talukdar<br>Supercomputer Education and Research Centre<br>I=
+ndian Institute of Science<br><br>Partha Pratim Talukdar is an Assistant Pr=
+ofessor in the Supercomputer Education and Research Centre (SERC) at the In=
+dian Institute of Science (IISc), Bangalore. Before that, he was a Postdoct=
+oral Fellow in the Machine Learning Department at Carnegie Mellon Universit=
+y, working with Tom Mitchell on the NELL project. Partha received his PhD (=
+2010) in CIS from the University of Pennsylvania, working under the supervi=
+sion of Fernando Pereira, Zack Ives, and Mark Liberman. Partha is broadly i=
+nterested in Machine Learning, Natural Language Processing, Data Integratio=
+n, and Cognitive Neuroscience, with particular interest in large-scale lear=
+ning and inference over graphs. His past industrial research affiliations i=
+nclude HP Labs, Google Research, and Microsoft Research. He is a co-author =
+of the book on Graph-based Semi-Supervised Learning published by Morgan Cla=
+ypool Publishers.<br><br>Web: <a href=3D"http://www.talukdar.net" target=3D=
+"_blank">http://www.talukdar.net</a></div></div></div>
+</div><br></div>
+
+--047d7b3a81924955b905080ea82f--

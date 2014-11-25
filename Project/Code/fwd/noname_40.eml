@@ -1,0 +1,212 @@
+Return-Path: dev344@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 16 Jun 2014 10:38:44 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 74FF2F7811C;
+	Mon, 16 Jun 2014 10:38:41 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 2.93
+X-Spam-Level: **
+X-Spam-Status: No, score=2.93 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_ENVFROM_END_DIGIT=1.553,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665,
+	T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id NAo0sEXBe0Yq; Mon, 16 Jun 2014 10:38:36 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 22B14F78107
+	for <students@cse.iitm.ac.in>; Mon, 16 Jun 2014 10:37:50 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 821E77800B8
+	for <students@cse.iitm.ac.in>; Mon, 16 Jun 2014 10:59:05 +0530 (IST)
+Received: from mail-qc0-f174.google.com ([209.85.216.174])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201406160515550056746; Mon, 16 Jun 2014 10:45:56 +0530
+Received: by mail-qc0-f174.google.com with SMTP id x13so6940115qcv.5
+        for <students@cse.iitm.ac.in>; Sun, 15 Jun 2014 22:29:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=xUql/fpLQDVq5UU91C5RpSa4vo6+p1ZAkC8sp7K+3ww=;
+        b=1CPluOWisKAQ/eg7MJrWd+ukKbnnSPfqAbwyufMzI+60uiIiK1bQXTheLQQQHJE3nV
+         zZCjRDSLo6LIqI7Gjy3OhLFVv8feQEpkvsjK2pRiCakhp68TFVKSxZ2LlWpYmhhmuh5F
+         eXz2EZcgwygTxxyz/QJK0QpB/xI6n8bwUPmvEHIfgU7dodzoMjBznyF+3ugkgCpgBE2y
+         LenkeN3cSYCwO36j4uzirxRpLrv9PcW5x45V7PsxpWu0IvCNLD/hRfSSJcBJi1yUwnQ5
+         6Gv7HLCO0FcuA7Kgu1TKUgvTa4aqA9Q2iM0jnHoEqaiRQ2/3XjcEcWehHbX/vPAbm327
+         KgTw==
+X-Received: by 10.140.43.225 with SMTP id e88mr21523944qga.32.1402896543977;
+ Sun, 15 Jun 2014 22:29:03 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.140.20.86 with HTTP; Sun, 15 Jun 2014 22:28:23 -0700 (PDT)
+From: devesh yamparala <dev344@gmail.com>
+Date: Mon, 16 Jun 2014 10:58:23 +0530
+Message-ID: <CAGQuX51hZAfUr4nMftv4+YNOu+B7oz8+10fJVdWAO3TtArVQCw@mail.gmail.com>
+Subject: Dual Degree seminar presentation | 16th June 4:45 PM at MR1
+To: students@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=001a113a5b9629173004fbed4ee7
+X-Mlf-DKIM: dkim=pass header.i=gmail.com 
+X-Mlf-KeyWords: degree,tion,expect,every,unambiguously,helps,present,presentation,robot,implemen
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.216.174
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201406160515550056746
+
+--001a113a5b9629173004fbed4ee7
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi All
+
+I will be presenting briefly on my dual degree project work.
+
+It is hardly going to be any technical talk. So, everyone is free to join.
+
+Where: Meeting Room 1
+When: 16th June (Today! Monday)
+
+You can find a demonstration of my work using a *quadrotor mounted with a
+monocular camera* on youtube.
+https://www.youtube.com/watch?v=3DRyAtT7UOBpQ
+
+Thank you,
+
+Keywords: Quadrotor, Human Robot Interaction, User Interface.
+
+*Abstract:*
+*Every day, robots are becoming smarter and faster, and will soon be quite*
+*ubiquitous. But they are still yet unable to fully understand human
+intents*
+*as well humans can understand other humans. Similarly, there are tasks
+like*
+*scene understanding that are immensely difficult, if not impossible, for
+robots*
+*at present. On the other hand, humans can perform the same tasks quite
+easily.*
+
+*In our work, we have identified two gaps for a well-functioning human-*
+*robot system, viz. in communication, and in perception. We cannot expect a=
+*
+*human user to tediously control a robot using manual controls. Thus, it is
+im-*
+*portant for the user to be able to communicate her intent clearly and
+unambigu-*
+*ously, but still easily. But human communication is usually ambiguous and
+can*
+*be resolved only by knowing the context, like their current surroundings.
+In*
+*such cases, while other humans can easily easily disambiguate since they
+share*
+*the context by understanding the scene around them effortlessly, robot
+percep-*
+*tion is not there yet to be able to understand ambigous human intents.
+There-*
+*fore, in our work, we tackle this problem by empirically trying some
+methods*
+*that couple together perception and communication of human and robot in an=
+*
+*attempt to find the right balance.*
+
+*In this work, we have implemented a working system with which a user can*
+*intuitively control a commercial quadrotor through our semantic interface.
+This*
+*is enabled by making the quadrotor minimally understand the scene and use*
+*this to discern the user=E2=80=99s intent unambiguously. We have also done=
+ the
+reverse*
+*process where the user=E2=80=99s gesture helps the quadrotor in its percep=
+tion
+process*
+*to understand the scene. Demonstrations were first run using a simulator
+and*
+*later were followed by demonstrations with an actual quadrotor in an
+unknown*
+*real world scene.*
+
+--=20
+Devesh Yamparala
+Final Yr, Undergrad
+Dept. of Computer Science and Engineering
+Indian Institute of Technology Madras
+
+--001a113a5b9629173004fbed4ee7
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Hi All</div><div><br></div><div>I will be presenting =
+briefly on my dual degree project work.</div><div><br></div><div>It is hard=
+ly going to be any technical talk. So, everyone is free to join.</div><div>
+
+<br></div><div>
+Where: Meeting Room 1</div><div>When: 16th June (Today! Monday)</div><div><=
+br></div><div>You can find a demonstration of my work using a <b>quadrotor =
+mounted with a monocular camera</b> on youtube.</div><div><a href=3D"https:=
+//www.youtube.com/watch?v=3DRyAtT7UOBpQ" target=3D"_blank">https://www.yout=
+ube.com/watch?v=3DRyAtT7UOBpQ</a><br>
+
+
+</div><div><br></div><div>Thank you,</div><div><br></div><div>Keywords: Qua=
+drotor, Human Robot Interaction, User Interface.</div><div><br></div><div><=
+b>Abstract:</b></div><div><i>Every day, robots are becoming smarter and fas=
+ter, and will soon be quite</i></div>
+
+
+<div><i>ubiquitous. But they are still yet unable to fully understand human=
+ intents</i></div><div><i>as well humans can understand other humans. Simil=
+arly, there are tasks like</i></div><div><i>scene understanding that are im=
+mensely difficult, if not impossible, for robots</i></div>
+
+
+<div><i>at present. On the other hand, humans can perform the same tasks qu=
+ite easily.</i></div><div><i><br></i></div><div><i>In our work, we have ide=
+ntified two gaps for a well-functioning human-</i></div><div><i>robot syste=
+m, viz. in communication, and in perception. We cannot expect a</i></div>
+
+
+<div><i>human user to tediously control a robot using manual controls. Thus=
+, it is im-</i></div><div><i>portant for the user to be able to communicate=
+ her intent clearly and unambigu-</i></div><div><i>ously, but still easily.=
+ But human communication is usually ambiguous and can</i></div>
+
+
+<div><i>be resolved only by knowing the context, like their current surroun=
+dings. In</i></div><div><i>such cases, while other humans can easily easily=
+ disambiguate since they share</i></div><div><i>the context by understandin=
+g the scene around them effortlessly, robot percep-</i></div>
+
+
+<div><i>tion is not there yet to be able to understand ambigous human inten=
+ts. There-</i></div><div><i>fore, in our work, we tackle this problem by em=
+pirically trying some methods</i></div><div><i>that couple together percept=
+ion and communication of human and robot in an</i></div>
+
+
+<div><i>attempt to find the right balance.</i></div><div><i><br></i></div><=
+div><i>In this work, we have implemented a working system with which a user=
+ can</i></div><div><i>intuitively control a commercial quadrotor through ou=
+r semantic interface. This</i></div>
+
+
+<div><i>is enabled by making the quadrotor minimally understand the scene a=
+nd use</i></div><div><i>this to discern the user=E2=80=99s intent unambiguo=
+usly. We have also done the reverse</i></div><div><i>process where the user=
+=E2=80=99s gesture helps the quadrotor in its perception process</i></div>
+
+
+<div><i>to understand the scene. Demonstrations were first run using a simu=
+lator and</i></div><div><i>later were followed by demonstrations with an ac=
+tual quadrotor in an unknown</i></div><div><i>real world scene.</i></div>
+
+
+<div><br></div>-- <br><div dir=3D"ltr"><div>Devesh Yamparala</div><div>Fina=
+l Yr, Undergrad</div><div>Dept. of Computer Science and Engineering</div><d=
+iv>Indian Institute of Technology Madras</div></div>
+</div>
+
+--001a113a5b9629173004fbed4ee7--

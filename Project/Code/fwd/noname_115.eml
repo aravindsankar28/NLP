@@ -1,0 +1,101 @@
+Return-Path: augustine@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 24 Oct 2013 08:47:55 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 8355DF78102;
+	Thu, 24 Oct 2013 08:47:51 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.106
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.106 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, RDNS_NONE=0.793]
+	autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id M7I5MFPh5AU5; Thu, 24 Oct 2013 08:47:50 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7A9FEF78222;
+	Thu, 24 Oct 2013 08:45:49 +0530 (IST)
+Date: Thu, 24 Oct 2013 08:45:47 +0530 (IST)
+From: John Augustine <augustine@cse.iitm.ac.in>
+To: faculty  <faculty@cse.iitm.ac.in>
+Cc: scholars  <scholars@cse.iitm.ac.in>, 1mtech  <1mtech@cse.iitm.ac.in>, 
+	2mtech  <2mtech@cse.iitm.ac.in>, 5btech  <5btech@cse.iitm.ac.in>, 
+	4btech  <4btech@cse.iitm.ac.in>, 3btech  <3btech@cse.iitm.ac.in>, 
+	2btech  <2btech@cse.iitm.ac.in>, 1btech@cse.iitm.ac.in, 
+	elango <elango@cse.iitm.ac.in>
+Message-ID: <1531814980.3411357.1382584547377.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1530756232.3410736.1382584212917.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk Announcement: Sayan Bhattacharya on Nov 5 at 3PM in BSB 361
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+Dear all,
+
+Dr. Sayan Bhattacharya, currently a postdoc at MPI, Saarbruecken, Germany, =
+will be visiting our department next week. He will be presenting his work o=
+n Tuesday, Nov 5th, from 3 - 4PM in BSB 361. Kindly mark your calendars and=
+ make yourself available. The title and abstract are given below.
+
+Regards,
+John.
+
+Price of Anarchy, Auctions, and Approximations.
+Sayan Bhattacharya.
+
+In many applications driven by the internet, computation needs to be perfor=
+med in the presence of=C2=A0 strategic interactions between multiple=C2=A0 =
+autonomous entities. This raises the question: What happens when the input =
+to an algorithm are controlled by rational agents, and each of them has a s=
+take in the algorithm's output? A systematic study of this question led to =
+the inception and growth of ``algorithmic game theory''. In the talk I will=
+ focus on two important topics within this field -- the study of auctions, =
+and price of anarchy.
+
+Motivated by the electronic markets such as eBay and Google adwords, I will=
+ first visit the topic of Auction Theory from an algorithmic perspective.=
+=C2=A0 In this setting, an auctioneer wants to sell some items to a group o=
+f bidders. The bidders' valuations for the items are private knowledge, but=
+ they are drawn from publicly known prior distributions. An auction scheme =
+is called ``truthful'' if it gives an incentive to every bidder to report h=
+er true=C2=A0 value. The goal is to find a truthful auction that maximizes =
+the seller's revenue.
+
+Naturally, to execute the optimal auction we need to know the prior distrib=
+utions. An intriguing question is to design a truthful auction that does no=
+t require the knowledge of these priors, but still manages to get a constan=
+t fraction of the optimal revenue. Such auctions are called {\em prior-free=
+}. I will conclude the first part of the talk by presenting my recent work =
+on prior-free auctions with asymmetric bidders.
+
+Next, I will consider the game-theoretic variant of a classical scheduling-=
+problem. The setting captures a distributed environment with heterogeneous =
+machines (or data centers) and jobs (or clients) that are situated across d=
+ifferent geographical locations.=C2=A0 The objective is to=C2=A0 minimize t=
+he weighted sum of the completion times of the jobs. Each job, however, is =
+a selfish agent and selects a machine that=C2=A0 minimizes=C2=A0 its own co=
+mpletion time. This defines a game between the jobs.=C2=A0 A Nash equilibri=
+um of this game is an outcome where no job wants to switch to another machi=
+ne. The ``price of anarchy'' is now defined as the maximum possible ratio b=
+etween the objective at a Nash equilibrium and the objective at the globall=
+y-optimal outcome.
+
+I will present a generic characterization of the scheduling policies which =
+give a small Price of Anarchy. On the technical side, I will show how to de=
+rive this result using a=C2=A0 linear program for the underlying optimizati=
+on problem and dual-fitting.
+
+I will conclude the talk by presenting some interesting open directions for=
+ future research.
+
+
+--
+John Augustine
+Assistant Professor
+Department of Computer Science and Engineering
+Indian Institute of Technology Madras
+www.cse.iitm.ac.in/~augustine

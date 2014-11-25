@@ -1,0 +1,129 @@
+Return-Path: amannoug@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 21 Oct 2013 08:29:07 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B2EB2F781C5;
+	Mon, 21 Oct 2013 08:29:05 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id MdKib-Oul6L1; Mon, 21 Oct 2013 08:29:05 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id DA518F78132;
+	Mon, 21 Oct 2013 08:27:17 +0530 (IST)
+Date: Mon, 21 Oct 2013 08:27:17 +0530 (IST)
+From: amannoug@cse.iitm.ac.in
+To: scholars@cse.iitm.ac.in
+Cc: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <2107290745.2903939.1382324237365.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1673022019.2903661.1382324110237.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: CANCELLED: Talk by Aman Nougrahiya - "Reducing Synchronization
+ Primitives in OpenMP Programs" - Monday Oct 21 2013 at 3.30 PM
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2903938_509940325.1382324237364"
+X-Originating-IP: [10.22.50.20]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_2903938_509940325.1382324237364
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Dear Scholars, 
+Good Morning :) 
+I am sorry to say that due to my bad health since last late night, I will be unable to give the talk today. 
+I am hoping to give the talk in the next free slot now. 
+Sorry for the inconvenience caused. 
+
+Warm Regards, 
+Aman Nougrahiya 
+Research Scholar (M.S.) 
+PACE Lab, Dept of CSE 
+IIT Madras 
+
+---------- Forwarded message ---------- 
+From: Manikantan S < mani@cse.iitm.ac.in > 
+
+Date: Tue, Oct 15, 2013 at 9:52 AM 
+Subject: Talk by Aman Nougrahiya - "Reducing Synchronization Primitives in OpenMP Programs" - Monday Oct 21 2013 at 3.30 PM 
+To: scholars < scholars@cse.iitm.ac.in > 
+Cc: Seminar < seminar@cse.iitm.ac.in > 
+
+
+
+
+
+
+Dear Scholars 
+
+Greetings. 
+
+The talk planned for yesterday (which had to be postponed, since there was an external faculty talk that happened at the same time) will be held coming Monday Oct 21 2013. The primary reason for the postponing the task is to enable larger audience for the Research scholar forum meeting talks. 
+
+Please make it convenient to attend the upcoming Talk on 21st October 2013. 
+
+Speaker: Aman Nougrahiya (PACE LAB) 
+Title : Reducing Synchronization Primitives in OpenMP Programs 
+Abstract : 
+When multiple threads of execution run in parallel in shared-memory systems, synchronization primitives are required to ensure determinism and correctness of the output of applications. However, these synchronization primitives also introduce high performance costs that increase with the increase in the number of threads used. Unfortunately, many times this cost overshadows a considerable portion of the benefits obtained by parallelizing the applications, sometimes even contributing to the reasons why some parallel versions of the applications perform poorly as compared to the serial ones. 
+In this talk, we'll discuss some of the central ideas used in the framework we are developing for reducing these synchronization primitives from OpenMP programs. 
+This (not yet matured) framework is dependent on the concepts of code scheduling, memory renaming, and loop unrolling. 
+Firstly, I'll try to present these ideas in the form of some short analogous stories from real life . 
+Then, we'll look at some sample translations to better understand and discuss the proposed transformations. 
+
+Kind regards 
+Mani 
+
+------------------------------ ------------------------------ ---------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar, 
+High Performance Computing and Networking (HPCN) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+------------------------------ ------------------------------ ---------------- 
+
+
+
+
+------=_Part_2903938_509940325.1382324237364
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><div class="gmail_quote adL"><div class="im">Dear Scholars,<br>Good Morning :)<br>I am sorry to say that due to my bad health since last late night, I will be unable to give the talk today.<br>I am hoping to give the talk in the next free slot now.<br>Sorry for the inconvenience caused.<br><br>Warm Regards,<br>Aman Nougrahiya<br>Research Scholar (M.S.)<br>PACE Lab, Dept of CSE<br>IIT Madras<br><br>---------- Forwarded message ----------<br>From: <b class="gmail_sendername">Manikantan S</b> <span dir="ltr">&lt;<a href="mailto:mani@cse.iitm.ac.in" target="_blank">mani@cse.iitm.ac.in</a>&gt;</span><br></div><div class="im">
+Date: Tue, Oct 15, 2013 at 9:52 AM<br>Subject: Talk by Aman Nougrahiya - "Reducing Synchronization Primitives in OpenMP Programs" - Monday Oct 21 2013 at 3.30 PM<br>To: scholars &lt;<a href="mailto:scholars@cse.iitm.ac.in" target="_blank">scholars@cse.iitm.ac.in</a>&gt;<br>
+Cc: Seminar &lt;<a href="mailto:seminar@cse.iitm.ac.in" target="_blank">seminar@cse.iitm.ac.in</a>&gt;<br><br><br></div><div><div class="im"><div><div style="font-size:12pt;font-family:Times New Roman">Dear Scholars<br><br>Greetings.<br><br>The
+ talk planned for yesterday (which had to be postponed, since there was 
+an external faculty talk that happened at the same time) will be held 
+coming Monday Oct 21 2013. The primary reason for the postponing the 
+task is to enable larger audience for the Research scholar forum meeting
+ talks.<br>
+<br>Please make it convenient to attend the upcoming Talk on 21st October 2013.<br><br>Speaker: Aman Nougrahiya (PACE LAB)<br><span><u>Title :</u> <b>Reducing Synchronization Primitives in OpenMP Programs</b><br>
+
+<u>Abstract :</u> <br><span style="font-family:times new roman,serif"><font>When
+ multiple threads of execution run in parallel in shared-memory systems,
+ synchronization primitives are required to ensure determinism and 
+correctness of the output of applications. However, these 
+synchronization primitives also introduce high performance costs that 
+increase with the increase in the number of threads used. Unfortunately,
+ many times this cost overshadows a considerable portion of&nbsp; the 
+benefits obtained by parallelizing the applications, sometimes even 
+contributing to the reasons why some parallel versions of the 
+applications perform poorly as compared to the serial ones.<br>
+
+In this talk, we'll discuss some of the central ideas used in the 
+framework we are developing for reducing these synchronization 
+primitives from OpenMP programs.<br>This (not yet matured) framework is dependent on the concepts of code scheduling, memory renaming, and loop unrolling.<br>
+
+Firstly, I'll try to present these ideas in the form of some <i>short analogous stories from real life</i>.<br>Then, we'll look at some sample translations to better understand and discuss the proposed transformations.</font></span><br>
+<span name="x"></span><br>Kind regards<br>Mani<br><br>------------------------------<wbr>------------------------------<wbr>----------------<br>Manikantan (Mani) Srinivasan<br>Research Scholar,<br>High Performance Computing and Networking (HPCN) Lab,<br>
+Department of Computer Science and Engineering,<br>Indian Institute of Technology Madras, Chennai.<br>------------------------------<wbr>------------------------------<wbr>----------------<span name="x"></span><br></span><br></div>
+</div></div></div></div><div class="adL"><br></div></div></body></html>
+------=_Part_2903938_509940325.1382324237364--

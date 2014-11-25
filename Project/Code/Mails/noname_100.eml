@@ -1,0 +1,25 @@
+Dear all,
+
+I am happy to announce a talk by Dr. Umang Bhaskar. (See subject line for details.) The title and abstract are given below. More details about the speaker can be found in his web page at <http://www.its.caltech.edu/~umang>. 
+
+Regards,
+John.
+
+
+Title: Network Improvement for Equilibrium Routing
+
+Abstract:
+
+In many diverse applications, users strategically choose routes in a network to minimize the delay they face. Examples of such applications are road traffic, data networks, and cloud computing marketplaces. Routing games model this strategic behaviour of the users, and are used to understand and predict the impact of this behaviour on the traffic and delays in the network. 
+
+We consider a fundamental problem facing the manager of such a network: to make improvements to the network under a fixed budget, so that the average delay for the strategic users is minimized. The problem is modeled using routing games and widely studied in transportation research. However, despite its practical relevance, there are no proven guarantees for polynomial-time algorithms. In this talk, I will present both algorithms and hardness results for network improvement in a number of different network topologies, and describe a number of related problems as directions for future research.
+
+This is joint work with Katrina Ligett and Leonard Schulman.
+
+
+--
+John Augustine
+Assistant Professor
+Department of Computer Science and Engineering
+Indian Institute of Technology Madras
+www.cse.iitm.ac.in/~augustine

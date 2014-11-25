@@ -1,0 +1,130 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sun, 10 Nov 2013 20:25:56 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 8879A2198028;
+	Sun, 10 Nov 2013 20:25:53 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.467
+X-Spam-Level: *
+X-Spam-Status: No, score=1.467 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id bfsFli9zR2PU; Sun, 10 Nov 2013 20:25:47 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id BB85A2198031;
+	Sun, 10 Nov 2013 20:23:03 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id AAB117805D6;
+	Sun, 10 Nov 2013 20:35:18 +0530 (IST)
+Received: from mail-pb0-f43.google.com ([209.85.160.43])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.3.8205)
+	with ESMTP id 201311101450170026519; Sun, 10 Nov 2013 20:20:18 +0530
+Received: by mail-pb0-f43.google.com with SMTP id md4so4121689pbc.16
+        for <multiple recipients>; Sun, 10 Nov 2013 07:05:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:date:message-id:subject:from:to
+         :content-type;
+        bh=HCtbbGCNglhL6POti3OW1saq6GB0Yg5ktjUgXWpq620=;
+        b=e5x3HxHZgigfC+A8lFenfJi/tt+ipnDp++h9v8M4Gc+Wn9CM+zV7yCu4ZG7s2FBDSX
+         lGrnemwDVV7MTcMBM+IjO51sJAjrVZ0mYygVdde95Slk1Si6IailO4tF/w+zhs2zz0uR
+         0JdShOxKBd8GlD8KLmS1VCHQxrR5EQ7eEgr31pu2ifK/r8EM8zOc4nXxzBNAIhq4qXGi
+         0F9nITOkFssuls4ZtKL+jDruagRApdw0EqSURAMnmnn/FLlugM3jGhbOlWJdlo1tpAJk
+         qVViCtQ8CFuROPzRv+GHrk+RzCYn49cTS8bRUeRX1bJdcxDlb2r/Q67SFmKhqxju+A2Y
+         Zm1Q==
+MIME-Version: 1.0
+X-Received: by 10.68.255.229 with SMTP id at5mr2989076pbd.130.1384095917338;
+ Sun, 10 Nov 2013 07:05:17 -0800 (PST)
+Reply-To: ravi@cse.iitm.ac.in
+Sender: ravindran.b@gmail.com
+Received: by 10.70.12.3 with HTTP; Sun, 10 Nov 2013 07:05:17 -0800 (PST)
+Date: Sun, 10 Nov 2013 20:35:17 +0530
+X-Google-Sender-Auth: VAEotXcVD8Ll_qI54PIG-XBE0M4
+Message-ID: <CAJ0BqjhvP29z3h7f6aZPmjt6pTS2iHO-XJphOzny6bnVfRUoww@mail.gmail.com>
+Subject: Talk tomorrow at 2 p.m. on Computer Vision project at Yahoo!
+From: Balaraman Ravindran <ravi@cse.iitm.ac.in>
+To: rise-iil <rise-iil@cse.iitm.ac.in>, aidb <aidb@googlegroups.com>, 
+	seminar@cse.iitm.ac.in, Chiranjoy Chattopadhyay <chiranjoy@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7b5da0db7d017b04ead3f1ac
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: dear,results,welcome,dr,learning,ontologies,uc,preliminary,bio,abstract,scientis
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.160.43
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201311101450170026519
+
+--047d7b5da0db7d017b04ead3f1ac
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+
+Dr. Vijay Mahadevan from Yahoo! labs will be talking about the various
+computer vision related problems that Yahoo! is trying to solve. The talk
+is at 2 p.m. in BSB 361. Apologies for the short notice, the visit was
+finalized only today. All are welcome
+
+Regards
+Ravi.
+
+ Title: Computer Vision in Yahoo
+Abstract : The first part of the talk will be an overview of the types of
+computer vision problems we are trying to solve at Yahoo Labs. The second
+part will be a more detailed description and preliminary results from one
+specific project that involves the construction of data driven ontologies
+for corpora of tagged images such as Flickr.
+
+ Bio:
+ Vijay Mahadevan is a Scientist at Yahoo Labs Bangalore. He received a PhD
+from UC San Diego, MS from Rensselaer and B.Tech from IIT Madras, all in
+Electrical Engineering.
+
+His research interests are in the areas of computer vision, machine
+learning and the understanding of human vision.
+
+--047d7b5da0db7d017b04ead3f1ac
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"auto">Dear All,</di=
+v><div dir=3D"auto"><br></div><div dir=3D"auto">Dr. Vijay Mahadevan from Ya=
+hoo! labs will be talking about the various computer vision related problem=
+s that Yahoo! is trying to solve. The talk is at 2 p.m. in BSB 361. Apologi=
+es for the short notice, the visit was finalized only today. All are welcom=
+e</div>
+<div dir=3D"auto"><br></div><div dir=3D"auto">Regards</div><div dir=3D"auto=
+">Ravi.<br>
+<div><br>
+</div>
+<div>Title: Computer Vision in Yahoo=A0</div>
+<div>Abstract : The first part of the talk will be an overview of the types=
+ of computer vision problems we are trying to solve at Yahoo Labs. The seco=
+nd part will be a more detailed description and preliminary results
+ from one specific project that involves the construction of data driven on=
+tologies for corpora of tagged images such as Flickr.=A0</div>
+<div><br>
+</div>
+<div>Bio:</div>
+<div>
+<div style=3D"padding:0px 20px 0px 25px"><span style=3D"background-color:rg=
+ba(255,255,255,0)">Vijay Mahadevan is a Scientist at Yahoo Labs Bangalore. =
+He received a PhD from UC San Diego, MS from Rensselaer and
+ B.Tech from IIT Madras, all in Electrical Engineering.<br>
+<br>
+His research interests are in the areas of computer vision, machine learnin=
+g and the understanding of human vision.</span></div>
+<div><br>
+</div>
+<span style=3D"color:rgb(24,24,24);font-family:source_sans_proregular;font-=
+size:22px;line-height:26px;background-color:rgb(230,236,239)"></span></div>
+<div><br></div></div></div></div>
+
+--047d7b5da0db7d017b04ead3f1ac--

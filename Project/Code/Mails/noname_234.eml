@@ -1,0 +1,50 @@
+Dear All,
+
+Apologies for multiple copies received.
+
+I am presenting my first PhD seminar on 14-Feb-2013 (Thursday) by 3.00 P.M.
+Kindly make it convenient to attend the seminar and give your valuable
+suggestions.
+
+The details of the talk are as follows:
+Speaker: Mahendran. V
+Date: 14th February, 2013. Thursday.
+Time: 15:00 hrs to 16:00 hrs.
+Topic: On Buffer Dimensioning of DTN Routing Nodes Using Large Deviations
+Theory.
+Venue: BSB 361, Dept. of CSE.
+
+Abstract:
+
+The Delay-Tolerant Networks (DTNs) have been envisaged to provide
+connectivity in disrupted environments. Unlike conventional wireless
+networks such as Mobile Ad hoc Networks (MANETs), that operate with
+store-and-forward paradigm; wherein the corresponding source-destination
+nodes are assumed to be connected (either via single-hop, or via multi-hop
+with the help of the other nodes) during the time of the message transfer,
+until its delivery.  In contrast, DTNs consider store, carry, and forward
+paradigm wherein the nodes physically carry messages either to the
+destination node or any other potential node (called relay node) that can
+carry them further to the destination nodes. The nodes in the DTN are
+generally mobile and wireless devices that are highly resource constrained.
+The crux of the DTN routing architecture therefore lies in the physical
+transportation of messages by these resource-bound nodes. This demands a
+sufficient buffer space for a seamless functioning of the DTN routing
+protocols. Buffer dimensioning is therefore essential to design a practical
+and efficient DTN. While much of the existing literature on DTN routing
+study assumes either infinite (or) finite buffer space at the nodes, a few
+research works have studied the first order statistics (i.e., average) of
+the buffer size and deal with scheduling policies to further improve the
+routing performance. In our research work, we move a step further by
+studying the tail distribution of the buffer size with the help of large
+deviations theory. To this end, in our study, we propose buffer
+dimensioning frameworks for two different DTN routing models that involve
+single-hop network, and multi-hop replication-based networks. Our extensive
+simulation results validate our analytical models, and also demonstrate the
+routing performance of the proposed dimensioned buffer models to be
+statistically equivalent to that of the infinite buffer models.
+
+ ALL ARE WELCOME
+
+Thanks and regards,
+Mahendran. V

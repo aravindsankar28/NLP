@@ -1,0 +1,136 @@
+Return-Path: geeta@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 1 Apr 2013 09:32:59 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 08CE9F78046;
+	Mon,  1 Apr 2013 09:32:56 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id djShjxXHXGb9; Mon,  1 Apr 2013 09:32:53 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 812A4F78035;
+	Mon,  1 Apr 2013 09:32:52 +0530 (IST)
+Date: Mon, 1 Apr 2013 09:32:52 +0530 (IST)
+From: "geeta@cse.iitm.ac.in" <geeta@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>, faculty@cse.iitm.ac.in, 
+	students@cse.iitm.ac.in
+Cc: djram  <djram@iitm.ac.in>
+Message-ID: <475950605.31711.1364788972453.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Invitation for MS Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_31710_518276291.1364788972452"
+X-Originating-IP: [202.76.242.42]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_31710_518276291.1364788972452
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+Hello All, 
+
+
+I will be giving my MS seminar talk on 03rd April, 2013 (Wednesday) at 3.00 PM. I request you to kindly attend and give your valuable suggestions. The details of the seminar are as follows: 
+
+
+
+
+Speaker: Geeta Iyer 
+Venue: BSB 361 (Seminar Hall), Dept. of CSE 
+Date: 03rd April, 2013 (Wednesday) 
+Time: 3:00 PM 
+Topic: Generate-Map-Reduce: An Extension to Map-Reduce to Support Shared Data and Recursive Computations 
+
+
+
+
+Abstract 
+
+
+It is difficult to express the parallelism present in complex computations using existing higher level abstractions such as MapReduce and Dryad. These computations include applications from wide variety of domains, like Artificial Intelligence, Decision Tree Algorithms, Association Rule Mining, Recommender Systems, Graph Algorithms, Clustering Algorithms , Compute Intensive Scientific Workflows, Optimization Algorithms, etc. Their execution graphs introduce new challenges in terms of programmer expressibility and runtime performance such as iterative and recursive computations, handling dynamically generated data, providing shared communication model, etc. 
+
+We propose an extension to MapReduce, called Generate-Map-Reduce (GMR), targeted towards modeling these applications. GMR introduces a new Generate abstraction into the MapReduce framework that captures recursive computations. GMR features a light-weight runtime that supports iterative and recursive computations efficiently. In addition, the runtime also provides a distributed in-memory shared data structure support. This shared data structure can be instantiated to different types based on application-specific requirements. Due to similar abstractions as MapReduce, it provides an easy switchover for existing MapReduce programmers. GMR supports various refinements to handle different degrees of computation and communication requirements of the tasks. 
+
+
+We illustrate recursive computations with GMR by modeling complex applications like simulated annealing, A* search, adaptive quadrature computation that require recursive spawning of new tasks to handle variable degree of parallelism. GMR runtime supports caching of common data across iterations in memory and local disks. We illustrate how this caching helps in achieving significant speedup for iterative computations by modeling kmeans clustering. 
+
+
+
+
+-- 
+Thanks, 
+Geeta Iyer, 
+MS Scholar, DOS Lab, 
+Dept of CSE, 
+IIT Madras 
+
+
+------=_Part_31710_518276291.1364788972452
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div style=3D"font-family: arial; font-size: small;">Hello All,</div><div =
+style=3D"font-family: arial; font-size: small;"><br></div><div style=3D"fon=
+t-family: arial; font-size: small;">I will be giving my MS seminar talk on =
+03rd April, 2013 (Wednesday) at 3.00 PM. I request you to kindly attend and=
+ give your valuable suggestions. The details of the seminar are as follows:=
+</div><div style=3D"font-family: arial; font-size: small;"><br></div><div s=
+tyle=3D"font-family: arial; font-size: small;"><br></div><div style=3D"font=
+-family: arial; font-size: small;">Speaker: Geeta Iyer</div><div style=3D"f=
+ont-family: arial; font-size: small;">Venue: BSB 361 (Seminar Hall), Dept. =
+of CSE</div><div style=3D"font-family: arial; font-size: small;">Date: 03rd=
+ April, 2013 (Wednesday)</div><div style=3D"font-family: arial; font-size: =
+small;">Time: 3:00 PM</div><div style=3D"font-family: arial; font-size: sma=
+ll;">Topic: Generate-Map-Reduce: An Extension to Map-Reduce to Support Shar=
+ed Data and Recursive Computations</div><div style=3D"font-family: arial; f=
+ont-size: small;"><br></div><div style=3D"font-family: arial; font-size: sm=
+all;"><br></div><div style=3D"font-family: arial; font-size: small;">Abstra=
+ct</div><div style=3D"font-family: arial; font-size: small;"><br></div><div=
+ style=3D"font-family: arial; font-size: small;">It is difficult to express=
+ the parallelism present in complex computations using existing higher leve=
+l abstractions such as MapReduce and Dryad. These computations include appl=
+ications from wide variety of domains, like Artificial Intelligence, Decisi=
+on Tree Algorithms, Association Rule Mining, Recommender Systems, Graph Alg=
+orithms, Clustering Algorithms , Compute Intensive Scientific Workflows, Op=
+timization Algorithms, etc. Their execution graphs introduce new challenges=
+ in terms of programmer expressibility and runtime performance such as iter=
+ative and recursive computations, handling dynamically generated data, prov=
+iding shared communication model, etc.</div><div style=3D"font-family: aria=
+l; font-size: small;">&nbsp;</div><div style=3D"font-family: arial; font-si=
+ze: small;">We propose an extension to MapReduce, called Generate-Map-Reduc=
+e (GMR), targeted towards modeling these applications. GMR introduces a new=
+ Generate abstraction into the MapReduce framework that captures recursive =
+computations. GMR features a light-weight runtime that supports iterative a=
+nd recursive computations efficiently. In addition, the runtime also provid=
+es a distributed in-memory shared data structure support. This shared data =
+structure can be instantiated to different types based on application-speci=
+fic requirements. Due to similar abstractions as MapReduce, it provides an =
+easy switchover for existing MapReduce programmers. GMR supports various re=
+finements to handle different degrees of computation and communication requ=
+irements of the tasks.</div><div style=3D"font-family: arial; font-size: sm=
+all;"><br></div><div style=3D"font-family: arial; font-size: small;">We ill=
+ustrate recursive computations with GMR by modeling complex applications li=
+ke simulated annealing, A* search, adaptive quadrature computation that req=
+uire recursive spawning of new tasks to handle variable degree of paralleli=
+sm. GMR runtime supports caching of common data across iterations in memory=
+ and local disks. We illustrate how this caching helps in achieving signifi=
+cant speedup for iterative computations by modeling kmeans clustering.</div=
+><div style=3D"font-family: arial; font-size: small;"><br></div><div style=
+=3D"font-family: arial; font-size: small;"><br></div><div style=3D"font-fam=
+ily: arial; font-size: small;">--</div><div style=3D"font-family: arial; fo=
+nt-size: small;">Thanks,</div><div style=3D"font-family: arial; font-size: =
+small;">Geeta Iyer,</div><div style=3D"font-family: arial; font-size: small=
+;">MS Scholar, DOS Lab,</div><div style=3D"font-family: arial; font-size: s=
+mall;">Dept of CSE,</div><div style=3D"font-family: arial; font-size: small=
+;">IIT Madras</div><div><br></div></div></body></html>
+------=_Part_31710_518276291.1364788972452--

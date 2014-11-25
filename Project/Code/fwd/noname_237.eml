@@ -1,0 +1,117 @@
+Return-Path: shankar@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 12 Feb 2013 11:20:11 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id DEC3DF7811C;
+	Tue, 12 Feb 2013 11:20:08 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.209
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.209 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_50=0.8, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rz0XuzQ7DSID; Tue, 12 Feb 2013 11:20:07 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7EFF4F78105
+	for <all@cse.iitm.ac.in>; Tue, 12 Feb 2013 11:20:07 +0530 (IST)
+Date: Tue, 12 Feb 2013 11:20:07 +0530 (IST)
+From: Shankar Balachandran <shankar@cse.iitm.ac.in>
+To: all  <all@cse.iitm.ac.in>
+Message-ID: <962840162.2493.1360648207450.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1653725610.183.1360577287178.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Change in venue of the talk on "Safetly Logic Electronics for
+ Nuclear Reactor Systems"
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2492_7595905.1360648207450"
+X-Originating-IP: [10.6.11.28]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_2492_7595905.1360648207450
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All 
+
+There seems to be another seminar scheduled in BSB 361 at the same time. 
+
+The revised venue for the talk on "Safetly Logic Electronics for Nuclear Reactor Systems" is CS24 and there is no change in time. 
+
+Regards 
+Shankar. 
+
+
+
+
+From: "Shankar Balachandran" <shankar@cse.iitm.ac.in> 
+To: "all" <all@cse.iitm.ac.in> 
+Sent: Monday, February 11, 2013 3:38:07 PM 
+Subject: Seminar Talk on Safetly Logic Electronics for Nuclear Reactor Systems 
+
+
+
+
+
+Dear All 
+
+
+
+
+Manoj Misra (CS08S005) will give a seminar talk on "Design, Safety Analysis and Reliability Analysis of a Nuclear Reactor Protection Logic System" in the department tomorrow. 
+
+
+Venue: BSB 361 
+Time : 2:00 - 2:50 pm 
+Date : Tuesday, 12th February, 2013 
+
+
+
+In nuclear reactors, emergency shutdown systems are used to diminish the reactor power rapidly during abnormal conditions which could otherwise lead to undesirable states such as fuel failure, channel failure or liberation of fission products. The talk will cover the design of safety logic for the electronics that is used in the emergency shutdown process. The talk will also cover the implementation details, fabrication and testing of the safety logic. This system is currently being tested in a live plant. 
+
+
+Speaker's Bio: 
+
+
+Manoj K Misra is a Scientific Officer (F level) at the Indira Gandhi Centre for Atomic Research, Kalpakkam. His research interests are in the area of safety critical instrumentation and control systems for nuclear reactors. He is currently pursuing his MS in the CSE department. 
+
+------=_Part_2492_7595905.1360648207450
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All<br><br>There seems to be another seminar scheduled in BSB 361 at =
+the same time.<br><br>The revised venue for the talk on "Safetly Logic Elec=
+tronics for Nuclear Reactor Systems" is CS24 and there is no change in time=
+.<br><br>Regards<br>Shankar.<br><br><hr id=3D"zwchr"><blockquote style=3D"b=
+order-left:2px solid rgb(16, 16, 255);margin-left:5px;padding-left:5px;"><b=
+>From: </b>"Shankar Balachandran" &lt;shankar@cse.iitm.ac.in&gt;<br><b>To: =
+</b>"all" &lt;all@cse.iitm.ac.in&gt;<br><b>Sent: </b>Monday, February 11, 2=
+013 3:38:07 PM<br><b>Subject: </b>Seminar Talk on Safetly Logic Electronics=
+ for Nuclear Reactor Systems<br><br><style>p { margin: 0; }</style><div sty=
+le=3D"font-family: Times New Roman; font-size: 12pt; color: #000000"><style=
+>p { margin: 0; }</style><div style=3D"font-family: Times New Roman; font-s=
+ize: 12pt; color: #000000"><style>p { margin: 0; }</style><div style=3D"fon=
+t-family: Times New Roman; font-size: 12pt; color: #000000"><div>Dear All</=
+div><div><div><div><br></div><div>Manoj Misra (CS08S005) will give a semina=
+r talk on "Design, Safety Analysis and Reliability Analysis of a Nuclear Re=
+actor Protection Logic System" in the department tomorrow.&nbsp;</div><div>=
+<br></div><div>Venue: &nbsp;BSB 361</div><div>Time &nbsp;: 2:00 - 2:50 pm</=
+div><div>Date &nbsp; : Tuesday, 12th February, 2013</div><div><br></div><di=
+v><div>In nuclear reactors, emergency&nbsp;shutdown systems are used to dim=
+inish the reactor power rapidly during abnormal conditions&nbsp;which could=
+ otherwise lead to undesirable states such as fuel failure, channel failure=
+ or liberation of fission products. The talk will cover the design of safet=
+y logic for the electronics that is used in the emergency shutdown process.=
+ The talk will also cover the implementation details, fabrication and testi=
+ng of the safety logic. This system is currently being tested in a live pla=
+nt.</div></div><div><br></div><div>Speaker's Bio:</div><div><br></div><div>=
+Manoj K Misra is a Scientific Officer (F level) at the Indira Gandhi Centre=
+ for Atomic Research, Kalpakkam. His research interests are in the area of =
+safety critical instrumentation and control systems for nuclear reactors. H=
+e is currently pursuing his MS in the CSE department.</div></div></div></di=
+v></div></div></blockquote><br></div></body></html>
+------=_Part_2492_7595905.1360648207450--

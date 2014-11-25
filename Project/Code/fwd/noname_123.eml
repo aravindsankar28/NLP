@@ -1,0 +1,89 @@
+Return-Path: mani@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 15 Oct 2013 09:51:43 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D2D37F781DC;
+	Tue, 15 Oct 2013 09:51:41 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.209
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.209 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_50=0.8, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Tq6iLbnFiG+8; Tue, 15 Oct 2013 09:51:37 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 709FDF781EA;
+	Tue, 15 Oct 2013 09:50:33 +0530 (IST)
+Date: Tue, 15 Oct 2013 09:50:29 +0530 (IST)
+From: Manikantan S <mani@cse.iitm.ac.in>
+Reply-To: Manikantan S <mani@cse.iitm.ac.in>
+To: scholars  <scholars@cse.iitm.ac.in>
+Cc: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <148919981.1869641.1381810829806.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk by Aman Nougrahiya - "Reducing Synchronization Primitives in
+ OpenMP Programs" - Monday Oct 21 2013 at 3.30 PM
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1869640_949874597.1381810829806"
+X-Originating-IP: [10.6.6.16]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_1869640_949874597.1381810829806
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear Scholars 
+
+Greetings. 
+
+The talk planned for yesterday (which had to be postponed, since there was an external faculty talk that happened at the same time) will be held coming Monday Oct 21 2013. The primary reason for the postponing the task is to enable larger audience for the Research scholar forum meeting talks. 
+
+Please make it convenient to attend the upcoming Talk on 21st October 2013. 
+
+Speaker: Aman Nougrahiya (PACE LAB) 
+Title : Reducing Synchronization Primitives in OpenMP Programs 
+Abstract : 
+When multiple threads of execution run in parallel in shared-memory systems, synchronization primitives are required to ensure determinism and correctness of the output of applications. However, these synchronization primitives also introduce high performance costs that increase with the increase in the number of threads used. Unfortunately, many times this cost overshadows a considerable portion of the benefits obtained by parallelizing the applications, sometimes even contributing to the reasons why some parallel versions of the applications perform poorly as compared to the serial ones. 
+In this talk, we'll discuss some of the central ideas used in the framework we are developing for reducing these synchronization primitives from OpenMP programs. 
+This (not yet matured) framework is dependent on the concepts of code scheduling, memory renaming, and loop unrolling. 
+Firstly, I'll try to present these ideas in the form of some short analogous stories from real life . 
+Then, we'll look at some sample translations to better understand and discuss the proposed transformations. 
+
+Kind regards 
+Mani 
+
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar, 
+High Performance Computing and Networking (HPCN) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 
+
+
+------=_Part_1869640_949874597.1381810829806
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'>Dear Scholars<br><br>Greetings.<br><br>The talk planned for yesterday (which had to be postponed, since there was an external faculty talk that happened at the same time) will be held coming Monday Oct 21 2013. The primary reason for the postponing the task is to enable larger audience for the Research scholar forum meeting talks.<br><br>Please make it convenient to attend the upcoming Talk on 21st October 2013.<br><br>Speaker: Aman Nougrahiya (PACE LAB)<br><span><u>Title :</u> <b>Reducing Synchronization Primitives in OpenMP Programs</b><br>
+
+<u>Abstract :</u> <br><span style="font-family:times new roman,serif"><font>When
+ multiple threads of execution run in parallel in shared-memory systems,
+ synchronization primitives are required to ensure determinism and 
+correctness of the output of applications. However, these 
+synchronization primitives also introduce high performance costs that 
+increase with the increase in the number of threads used. Unfortunately,
+ many times this cost overshadows a considerable portion of&nbsp; the 
+benefits obtained by parallelizing the applications, sometimes even 
+contributing to the reasons why some parallel versions of the 
+applications perform poorly as compared to the serial ones.<br>
+
+In this talk, we'll discuss some of the central ideas used in the 
+framework we are developing for reducing these synchronization 
+primitives from OpenMP programs.<br>This (not yet matured) framework is dependent on the concepts of code scheduling, memory renaming, and loop unrolling.<br>
+
+Firstly, I'll try to present these ideas in the form of some <i>short analogous stories from real life</i>.<br>Then, we'll look at some sample translations to better understand and discuss the proposed transformations.</font></span><br><span name="x"></span><br>Kind regards<br>Mani<br><br>----------------------------------------------------------------------------<br>Manikantan (Mani) Srinivasan<br>Research Scholar,<br>High Performance Computing and Networking (HPCN) Lab,<br>Department of Computer Science and Engineering,<br>Indian Institute of Technology Madras, Chennai.<br>----------------------------------------------------------------------------<span name="x"></span><br></span><br></div></body></html>
+------=_Part_1869640_949874597.1381810829806--

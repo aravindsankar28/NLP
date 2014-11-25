@@ -1,0 +1,155 @@
+Return-Path: kunwar@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 17 Mar 2014 13:21:15 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 837D221B000C;
+	Mon, 17 Mar 2014 13:21:13 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id yM6Uo3WXoUO7; Mon, 17 Mar 2014 13:21:08 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id DFAF721B0004;
+	Mon, 17 Mar 2014 13:21:06 +0530 (IST)
+Date: Mon, 17 Mar 2014 13:21:06 +0530 (IST)
+From: kunwar@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>, scholars  <scholars@cse.iitm.ac.in>
+Cc: prangan <prangan@iitm.ac.in>, djram  <djram@cse.iitm.ac.in>, 
+	hema  <hema@cse.iitm.ac.in>, 
+	"chandra@cse.iitm.ac.in" <cchandra@cse.iitm.ac.in>, 
+	tevbal  <tevbal@iitm.ac.in>, shun  <shun@iitm.ac.in>
+Message-ID: <1004673686.10401.1395042666804.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1063438180.10391.1395041931320.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Venue for my PhD seminar is changed to Meeting Room II
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10400_1309223664.1395042666804"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_10400_1309223664.1395042666804
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+
+Dear All, 
+
+I am happy to invite you all for my second PhD seminar talk on Tuesday , 18 th March, 2014 at BSB 361. Please make it convenient to attend the seminar and give your valuable suggestions. 
+
+The details of the seminar are as follows: 
+
+Topic : Studies on Some Lattice Based Public Key Encryption Schemes 
+
+Date : 18 th March , 2014 
+Time : 15:00 - 16:00 Hrs 
+Venue : Meeting Room II, Department of Computer Science and Engineering 
+
+
+
+Abstract: 
+
+
+
+In 1981, David Chaum proposed a cryptographic primitive for privacy called mix network (Mixnet). A mixnet is cryptographic construction that establishes anonymous communication channel through a set of servers. In 2004, Golle et al. proposed a new cryptographic primitive called universal re-encryption which takes the input as encrypted messages under the public key of the recipients not the public key of the universal mixnet . So it dispenses with the complexities of the key generation, key distribution and key maintenance of the public key of mixnet. 
+
+At Eurocrypt 1998, Blaze, Bleumer and Strauss presented a new primitive called Proxy Re-Encryption (PRE). This new primitive allows semi trusted proxy to transform a ciphertext for Alice (delegator) into a ciphertext for Bob (delegatee) without knowing the message. Ateniese et al. introduced master secret security as another security requirement for unidirectional PRE . Master secret security demands that no coalition of dishonest proxy and malicious delegatees can compute the master secret key (private key) of the delegator. 
+
+In this seminar, we will present efficient universal re-encryption scheme under learning with error assumption. Further, we demonstrate that Aono et al.'s unidirectional PRE scheme is not secure under master secret security model. 
+
+All are Welcome. 
+
+
+
+Thanks, 
+
+
+
+With regards, 
+
+
+
+Kunwar Singh 
+
+CS10D002 
+------=_Part_10400_1309223664.1395042666804
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><style>p { margin: 0; }</style><div style="font-family: Times New Roman; font-size: 12pt; color: #000000"><div style="font-family: Times New Roman; font-size: 12pt; color: #000000"><p class="MsoNormal" style="text-align:justify"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;color:black">Dear All,</span></p>
+
+<p class="MsoNormalCxSpMiddle" style="line-height:normal"><span style="font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;color:black">I am happy to invite
+you all for my second PhD seminar talk on <span class="object"><span class="Object" id="OBJ_PREFIX_DWT63">Tuesday</span></span>,<span style="mso-spacerun:yes">&nbsp; </span>18<sup>th&nbsp;</sup>March,<span style="mso-spacerun:yes">&nbsp; </span>2014 at BSB 361. Please make it convenient to
+attend the seminar and give your valuable suggestions.<br>
+<br>
+The details of the seminar are as follows:<br>
+<br>
+</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Topic&nbsp;&nbsp;
+: Studies on Some Lattice Based Public Key Encryption Schemes</span></p>
+
+<p class="MsoNormalCxSpLast" style="line-height:normal"><span style="font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Date&nbsp;&nbsp;&nbsp;&nbsp; : 18<span class="object">th </span><span style="color:black">March</span>, 2014<br>
+Time&nbsp;&nbsp;&nbsp; : 15:00 - 16:00 Hrs<br>
+Venue&nbsp; : Meeting Room II, Department of Computer Science and
+Engineering</span></p>
+
+<p style="margin-bottom:0in;margin-bottom:.0001pt"><span style="color:black">&nbsp;</span></p>
+
+<p style="margin-bottom:0in;margin-bottom:.0001pt;text-align:justify"><span style="color:black">Abstract:</span></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormalCxSpMiddle" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">In 1981, David
+Chaum proposed a cryptographic primitive for privacy called mix network
+(Mixnet). A mixnet is cryptographic construction that establishes anonymous
+communication channel through a set of servers. In 2004, Golle et <span class="Object" id="OBJ_PREFIX_DWT64">al. proposed
+a new cryptographic primitive called universal re-encryption which takes the
+input as encrypted messages under the public key of the recipients not the
+public key of the universal mixnet</span>.<span style="mso-spacerun:yes">&nbsp; </span>So
+it dispenses with the complexities of the key generation, key distribution and
+key maintenance of the public key of mixnet. </span></p>
+
+<p class="MsoNormalCxSpMiddle" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">At Eurocrypt
+1998, Blaze, Bleumer and Strauss presented a new primitive called Proxy
+Re-Encryption (PRE). This new primitive allows semi trusted proxy to transform
+a ciphertext for Alice (delegator) into a ciphertext for Bob (delegatee)
+without knowing the message. Ateniese et <span class="Object" id="OBJ_PREFIX_DWT65">al. introduced master secret security
+as another security requirement for unidirectional PRE</span>. Master secret security
+demands that no coalition of dishonest proxy and malicious delegatees can
+compute the master secret key (private key) of the delegator.<span style="mso-spacerun:yes">&nbsp; </span></span></p>
+
+<p class="MsoNormalCxSpLast" style="text-align:justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">In this seminar,
+we will present efficient universal re-encryption scheme under learning with
+error assumption. Further,<span style="mso-spacerun:yes">&nbsp; </span>we
+demonstrate that Aono et al.'s unidirectional PRE<span style="mso-spacerun:yes">&nbsp; </span>scheme is not secure under master secret
+security model.</span></p>
+
+<p style="text-align:justify"><span style="color:black">All are Welcome.</span></p>
+
+<p style="text-align:justify"><span style="color:black">&nbsp;</span></p>
+
+<p style="text-align:justify"><span style="color:black">Thanks,</span></p>
+
+<p style="text-align:justify"><span style="color:black">&nbsp;</span></p>
+
+<p style="text-align:justify"><span style="color:black">With regards,</span></p>
+
+<p style="text-align:justify"><span style="color:black">&nbsp;</span></p>
+
+<p style="text-align:justify"><span style="color:black">Kunwar Singh</span></p>
+
+<p style="text-align:justify"><span style="color:black">CS10D002</span></p>
+
+</div></div></div></body></html>
+------=_Part_10400_1309223664.1395042666804--

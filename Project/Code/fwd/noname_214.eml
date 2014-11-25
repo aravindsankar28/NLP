@@ -1,0 +1,146 @@
+Return-Path: swamy@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 7 Mar 2013 12:44:45 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id C289921B000C;
+	Thu,  7 Mar 2013 12:44:42 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id yoa2hFeWL-JP; Thu,  7 Mar 2013 12:44:42 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B69F321A0002;
+	Thu,  7 Mar 2013 12:44:41 +0530 (IST)
+Date: Thu, 7 Mar 2013 12:44:41 +0530 (IST)
+From: "swamy@cse.iitm.ac.in" <swamy@cse.iitm.ac.in>
+To: all@cse.iitm.ac.in
+Message-ID: <1762609561.44133.1362640481666.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <CAFZ7rr6WLffPdhcJ7ts00ZVzW5WKy_TaYN91iqMXovUJwk1b5w@mail.gmail.com>
+Subject: Seminar on Tuesday, 12th March
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_44132_603960869.1362640481666"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_44132_603960869.1362640481666
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+Please find attached the seminar details. 
+All are welcome. 
+Regards 
+narayanaswamy 
+
+
+
+
+------------------------------------------------------------------------------------------------------- 
+Venue - BSB 361 
+
+Date and Time - 12/3/2013, Tuesday, 3pm-4pm 
+
+
+Title: Popular Matchings -- structure and cheating strategies. 
+
+
+Speaker: Meghana Nasre. 
+
+
+Abstract: We consider the problem of matching a set of agents A to a set of posts P where agents rank posts according to their preferences, possibly involving ties. This problem occurs in several real world scenarios like assigning jobs to applicants, houses to trainees and DVDs to customers. Several notions of optimality have been considered in the literature and we focus on the notion of popularity. A matching M is popular if there exists no matching M' such that the number of agents that prefer M' to M exceeds the number of agents that prefer M to M'. 
+
+
+In this talk, we consider a centralized market where agents submit their preferences and a central authority matches agents to posts according to the notion of popularity. Since a popular matching need not be unique, we assume that the central authority chooses an arbitrary popular matching. Let a1 be the sole manipulative agent who is aware of the true preference lists of all other agents. The goal of a1 is to falsify her preference list to get better always, that is, to improve the set of posts that she gets matched to as opposed to what she got when she was truthful. We show that the optimal cheating strategy for a single agent to get better always can be computed in O(\sqrt{n}m) time when preference lists are allowed to contain ties and in O(m+n) time when preference lists are all strict. Here n = |A| + |P| and m denotes the combined size of all the preference lists. We also characterize the equilibrium of a non-cooperative game where all agents are manipulative. 
+
+To compute the cheating strategies, we develop a switching graph characterization of the popular matchings problem involving ties. The switching graph characterization for the case of ties is of independent interest and answers a part of the open questions posed by McDermid and Irving (J. Comb. Optim. 2011). 
+
+
+These results have been accepted for publication at STACS 2013. 
+------------------------------------------------------------------------ 
+
+------=_Part_44132_603960869.1362640481666
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<br>Please find attached the seminar details. <br>All are welcome=
+.<br>Regards<br>narayanaswamy<br><div><br></div><div><div style=3D"color:rg=
+b(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:rg=
+b(255,255,255)">
+---------------------------------------------------------------------------=
+----------------------------<br>Venue - BSB 361<br><br>Date and Time - 12/3=
+/2013, Tuesday, 3pm-4pm<br><br></div><div style=3D"color:rgb(34,34,34);font=
+-family:arial,sans-serif;font-size:13px;background-color:rgb(255,255,255)">=
+Title: Popular Matchings -- structure and cheating strategies.</div>
+<span style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:1=
+3px;background-color:rgb(255,255,255)"><div><br></div><div>Speaker: Meghana=
+ Nasre.&nbsp;</div><div><br></div><div>Abstract:</div>We consider the probl=
+em of matching a set of agents A to a set of posts P where agents rank post=
+s according to their preferences, possibly involving ties. This problem occ=
+urs in several real world scenarios like assigning jobs to applicants, hous=
+es to trainees and DVDs to customers. Several notions of optimality have be=
+en considered in the literature and we focus on the notion of popularity.&n=
+bsp;</span><span style=3D"color:rgb(34,34,34);background-color:rgb(255,255,=
+255);line-height:19px;font-size:14px;font-family:'Lucida Grande',helvetica,=
+arial,verdana,sans-serif">&nbsp;A matching M is popular if there exists no =
+matching M' such that the number of agents that prefer M' to M exceeds the =
+number of agents that prefer M to M'.&nbsp;</span><div style=3D"color:rgb(3=
+4,34,34);font-family:arial,sans-serif;font-size:13px;background-color:rgb(2=
+55,255,255)">
+<span style=3D"line-height:19px;font-size:14px;font-family:'Lucida Grande',=
+helvetica,arial,verdana,sans-serif"><br></span></div><div style=3D"color:rg=
+b(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color:rg=
+b(255,255,255)">
+<font face=3D"Lucida Grande, helvetica, arial, verdana, sans-serif" color=
+=3D"#222222"><span style=3D"font-size:14px;line-height:19px">In this talk, =
+we consider a centralized market where agents submit their preferences and =
+a central authority matches agents to posts according to the notion of popu=
+larity. Since a popular matching need not be unique, we assume that the cen=
+tral authority chooses an arbitrary popular matching. Let a1 be the sole ma=
+nipulative agent who is aware of the true preference lists of all other age=
+nts. The goal of a1 is to falsify her preference list to get better always,=
+ that is, to improve the set of posts that she gets matched to as opposed t=
+o what she got when she was truthful. We show that the optimal cheating str=
+ategy for a single agent to get better always can be computed in O(\sqrt{n}=
+m) time when preference lists are allowed to contain ties and in O(m+n) tim=
+e when preference lists are all strict. Here n =3D |A| + |P| and m denotes =
+the combined size of all the preference lists. We also characterize the equ=
+ilibrium of a non-cooperative&nbsp;game where all agents are manipulative.<=
+/span></font></div>
+<div style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13=
+px;background-color:rgb(255,255,255)"><span style=3D"line-height:19px;font-=
+size:14px;font-family:'Lucida Grande',helvetica,arial,verdana,sans-serif">&=
+nbsp;</span><br style=3D"line-height:19px;font-size:14px;font-family:'Lucid=
+a Grande',helvetica,arial,verdana,sans-serif">
+<span style=3D"line-height:19px;font-size:14px;font-family:'Lucida Grande',=
+helvetica,arial,verdana,sans-serif">To compute the cheating strategies, we =
+develop a switching graph characterization of the popular matchings problem=
+ involving ties. The switching graph characterization for the case of ties =
+is of independent interest and answers a part of the open questions posed b=
+y McDermid and Irving&nbsp;</span><span style=3D"font-family:'Lucida Grande=
+',helvetica,arial,verdana,sans-serif;font-size:14px;line-height:19px">(J. C=
+omb. Optim. 2011).</span></div>
+<div style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13=
+px;background-color:rgb(255,255,255)"><span style=3D"font-family:'Lucida Gr=
+ande',helvetica,arial,verdana,sans-serif;font-size:14px;line-height:19px"><=
+br>
+</span></div><div style=3D"color:rgb(34,34,34);font-family:arial,sans-serif=
+;font-size:13px;background-color:rgb(255,255,255)"><span style=3D"font-fami=
+ly:'Lucida Grande',helvetica,arial,verdana,sans-serif;font-size:14px;line-h=
+eight:19px">These results have been accepted for publication at STACS 2013.=
+</span></div>
+<div style=3D"color:rgb(34,34,34);font-family:arial,sans-serif;font-size:13=
+px;background-color:rgb(255,255,255)"><span style=3D"font-family:'Lucida Gr=
+ande',helvetica,arial,verdana,sans-serif;font-size:14px;line-height:19px">-=
+-----------------------------------------------------------------------</sp=
+an></div>
+</div><br></div></body></html>
+------=_Part_44132_603960869.1362640481666--

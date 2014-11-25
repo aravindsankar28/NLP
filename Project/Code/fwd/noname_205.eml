@@ -1,0 +1,205 @@
+Return-Path: vanniaraj@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 25 Mar 2013 08:59:00 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1EBE0F78103;
+	Mon, 25 Mar 2013 08:58:59 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.491
+X-Spam-Level: *
+X-Spam-Status: No, score=1.491 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	SPF_NEUTRAL=0.779, T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id shrlDxtf6q3p; Mon, 25 Mar 2013 08:58:54 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A0ADEF78047;
+	Mon, 25 Mar 2013 08:58:53 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id BF3F878079B;
+	Mon, 25 Mar 2013 09:24:39 +0530 (IST)
+Received: from mail-wi0-f180.google.com ([209.85.212.180])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.2.7669)
+	with ESMTP id 201303250349090057569; Mon, 25 Mar 2013 09:19:12 +0530
+Received: by mail-wi0-f180.google.com with SMTP id c10so1519575wiw.13
+        for <multiple recipients>; Sun, 24 Mar 2013 20:54:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:x-received:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=+lszrtMZJBqxQcYo3cqZyjkjZTI3FAkYOCpDiqpyilg=;
+        b=fozN8LZahFAOTB3AdwSfWx0MB1D/xSx+gkMreO/57LUetFxbG0Rkj+0bUcpmSqkuWx
+         A4kURuFdCW5aHH6hc+QBS9hEucl7z3Uv8qYmZiAGC9As84ueWjV3c6o+FKeG4rfj/guM
+         3ycWpFeEN7BNRDGe8ZezFyNKul4FGCZx57ukl+MYI2rZ+JUNXllr/LjO733DVD+lHdkq
+         j6kD7yIHi1Nhsk4Yd6EY3gNIs43LFyT6gQTvBwijghLyiAKtgthEUuZBvIbXqVJUiC3U
+         IibyriIf6QA5jhaqU0wq/b6OiDk6cJH1vWluGMMtjZQcHYg9C6CflQ4yoOvzOP7cnDEt
+         gLnQ==
+MIME-Version: 1.0
+X-Received: by 10.194.81.132 with SMTP id a4mr303741wjy.34.1364183677684; Sun,
+ 24 Mar 2013 20:54:37 -0700 (PDT)
+Received: by 10.194.152.1 with HTTP; Sun, 24 Mar 2013 20:54:37 -0700 (PDT)
+Date: Mon, 25 Mar 2013 09:24:37 +0530
+Message-ID: <CAEmm431v5WU-DXNQ+U_7iaJYzphYCTuE=n6G5hmby0prXxQ_KA@mail.gmail.com>
+Subject: PhD Seminar
+From: Vanniarajan Chellappan <vanniaraj@gmail.com>
+To: seminar@iitm.ac.in, seminar@cse.iitm.ac.in, students@cse.iitm.ac.in, 
+	faculty@cse.iitm.ac.in
+Cc: "Prof. Krishna M. Sivalingam" <skrishnam@iitm.ac.in>, 
+	"Prof. Krishna M. Sivalingam" <krishna.sivalingam@gmail.com>, KAMALA KRITHIVASAN <kamala@iitm.ac.in>, gram@hcl.com, 
+	vanniarajanc@hcl.com, prabhuramans@hcl.com, 
+	csoffice <csoffice@cse.iitm.ac.in>, elango@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=047d7bf0c5908452bd04d8b7c3dd
+X-Mlf-KeyWords: worthwhile,phd,wide,quality,happy,improving,make,are,nodes,node,pm,measurement,a
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.212.180
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201303250349090057569
+
+--047d7bf0c5908452bd04d8b7c3dd
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,
+
+Greetings.
+
+I am happy to invite you to my PhD seminar on 26-Mar-2013 (Tuesday) at 2:00
+PM.
+Request you to mark your calendar, and make it convenient to attend. The
+details
+of the talk are as follows:
+
+ Title:   Application of Entropy of Centrality to Routing in Networks
+Speaker: Vanniarajan C.
+Time:    26-Mar-2013 (Tuesday) at 2:00 PM
+Venue:   BSB 361, Seminar Hall, Department of Computer Science & Engineerin=
+g
+
+Regards,
+Vanniarajan
+
+Abstract :-
+
+Various Centrality measures such as Degree, Closeness, and Betweenness were
+introduced in order to analyze
+networks and understand both the global dynamics of the networks and the
+roles played by individual nodes.
+It will be worthwhile to rank the centrality measures of each node and an
+index of the distribution of centrality
+measures in the entire network. In this proposal, we de=EF=AC=81ne the noti=
+on of
+entropy of centrality measures, which
+extends the concept of centrality to the whole network. We show that this
+measure has wide range of applications,
+in network design, from designing maximally e=EF=AC=83cient networks to ide=
+ntifying
+dominance of one node or link in the
+context of entire network. In particular, we present an application to
+tactical wireless networks.
+
+This entropy measure also provides a good handle in analyzing the routing
+e=EF=AC=83ciency on each link in the context
+of the chosen routing strategy and the topology design. We propose a local
+search algorithm, which consists of
+=EF=AC=81nding appropriate weights of links in the network that results in =
+maximum
+entropy of shortest paths
+betweenness-centrality. This implies that the shortest paths are
+distributed between the links as even as possible
+given the topology constraints. We feel this measurement makes a strong
+case for considering betweenness-centrality
+measures and their entropy in designing maximally e=EF=AC=83cient topologie=
+s, and
+improving the resiliency and quality of routing.
+
+---
+
+--047d7bf0c5908452bd04d8b7c3dd
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<span style=3D"font-family:courier new,monospace">Dear All,</span><br style=
+=3D"font-family:courier new,monospace">
+<br style=3D"font-family:courier new,monospace"><span style=3D"font-family:=
+courier new,monospace">Greetings.</span><br style=3D"font-family:courier ne=
+w,monospace"><br style=3D"font-family:courier new,monospace"><span style=3D=
+"font-family:courier new,monospace">I am happy to invite you to my PhD semi=
+nar on 26-Mar-2013 (Tuesday) at 2:00 PM. <br>
+
+Request you to mark your calendar, and make it convenient to attend. The de=
+tails <br>of the talk are as follows:</span><br style=3D"font-family:courie=
+r new,monospace">
+<br style=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">
+Title:=C2=A0=C2=A0 Application of Entropy of Centrality to Routing in Netwo=
+rks</span><br style=3D"font-family:courier new,monospace"><span style=3D"fo=
+nt-family:courier new,monospace">
+Speaker: Vanniarajan C.</span><br style=3D"font-family:courier new,monospac=
+e"><span style=3D"font-family:courier new,monospace">
+Time: =C2=A0=C2=A0 26-Mar-2013 (Tuesday) at 2:00 PM</span><br style=3D"font=
+-family:courier new,monospace"><span style=3D"font-family:courier new,monos=
+pace">
+Venue: =C2=A0 BSB 361, Seminar Hall, Department of Computer
+Science &amp; Engineering</span><br style=3D"font-family:courier new,monosp=
+ace"><br style=3D"font-family:courier new,monospace"><span style=3D"font-fa=
+mily:courier new,monospace">Regards,</span><br style=3D"font-family:courier=
+ new,monospace">
+
+<span style=3D"font-family:courier new,monospace">Vanniarajan</span><br sty=
+le=3D"font-family:courier new,monospace"><br style=3D"font-family:courier n=
+ew,monospace"><span style=3D"font-family:courier new,monospace">Abstract :-=
+</span><br style=3D"font-family:courier new,monospace">
+<br style=3D"font-family:courier new,monospace"><span style=3D"font-family:=
+courier new,monospace">Various Centrality measures such as Degree, Closenes=
+s, and Betweenness were introduced in order to analyze </span><br style=3D"=
+font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">networks and understand b=
+oth the global dynamics of the networks and the roles played by individual =
+nodes. </span><br style=3D"font-family:courier new,monospace"><span style=
+=3D"font-family:courier new,monospace">It will be worthwhile to rank the ce=
+ntrality measures of each node and an index of the distribution of centrali=
+ty </span><br style=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">measures in the entire ne=
+twork. In this proposal, we de=EF=AC=81ne the notion of entropy of centrali=
+ty measures, which </span><br style=3D"font-family:courier new,monospace"><=
+span style=3D"font-family:courier new,monospace">extends the concept of cen=
+trality to the whole network. We show that this measure has wide range of a=
+pplications, </span><br style=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">in network design, from d=
+esigning maximally e=EF=AC=83cient networks to identifying dominance of one=
+ node or link in the </span><br style=3D"font-family:courier new,monospace"=
+><span style=3D"font-family:courier new,monospace">context of entire networ=
+k. In particular, we present an application to tactical wireless networks.<=
+/span><br style=3D"font-family:courier new,monospace">
+<br style=3D"font-family:courier new,monospace"><span style=3D"font-family:=
+courier new,monospace">This entropy measure also provides a good handle in =
+analyzing the routing e=EF=AC=83ciency on each link in the context </span><=
+br style=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">of the chosen routing str=
+ategy and the topology design. We propose a local search algorithm, which c=
+onsists of </span><br style=3D"font-family:courier new,monospace"><span sty=
+le=3D"font-family:courier new,monospace">=EF=AC=81nding appropriate weights=
+ of links in the network that results in maximum entropy of shortest paths =
+</span><br style=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">betweenness-centrality. T=
+his implies that the shortest paths are distributed between the links as ev=
+en as possible </span><br style=3D"font-family:courier new,monospace"><span=
+ style=3D"font-family:courier new,monospace">given the topology constraints=
+. We feel this measurement makes a strong case for considering betweenness-=
+centrality </span><br style=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">measures and their entrop=
+y in designing maximally e=EF=AC=83cient topologies, and improving the resi=
+liency and quality of routing.</span><br style=3D"font-family:courier new,m=
+onospace">
+<br style=3D"font-family:courier new,monospace"><span style=3D"font-family:=
+courier new,monospace">---</span><br style=3D"font-family:courier new,monos=
+pace">
+
+--047d7bf0c5908452bd04d8b7c3dd--

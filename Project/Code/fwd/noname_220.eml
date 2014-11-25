@@ -1,0 +1,147 @@
+Return-Path: swamy@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 28 Feb 2013 11:21:52 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id ACCBAF781B8;
+	Thu, 28 Feb 2013 11:21:38 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 5Ise5HhNVlsO; Thu, 28 Feb 2013 11:21:29 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id CA574F78035
+	for <all@cse.iitm.ac.in>; Thu, 28 Feb 2013 11:21:28 +0530 (IST)
+Date: Thu, 28 Feb 2013 11:21:28 +0530 (IST)
+From: "swamy@cse.iitm.ac.in" <swamy@cse.iitm.ac.in>
+To: all  <all@cse.iitm.ac.in>
+Message-ID: <1689150014.31973.1362030688728.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <2138931152.31964.1362030466747.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Reminder:Talk by Ankit Sharma
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_31972_2059165117.1362030688727"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_31972_2059165117.1362030688727
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+This is a reminder for the seminar announced a few days earlier. Please do attend. 
+
+The speaker is a PhD student at CMU working with Avrim Blum and Anupam Gupta. 
+He is a 2008 alumnus of IITK, CSE Department. 
+
+
+Regards 
+narayanaswamy 
+--------------------- 
+Speaker : Ankit Sharma , CMU 
+
+Venue: BSB 361, 10AM-11AM, 1st March 20 13 
+
+Title: Welfare and Profit maximization with Procurement costs 
+
+Abstract: 
+
+What is the problem? 
+A limited resource needs to be allocated amongst a set of self-interested 
+agents. Combinatorial Auctions, that capture this situation, are a central 
+problem in Algorithmic Mechanism Design: how to price and allocate goods 
+to buyers with complex preferences in order to maximize an objective such 
+as social welfare or revenue. 
+
+Hmm.. I see. So, what is your contribution? 
+The problem has been well-studied in the case of limited supply (few 
+copies of each item), and unlimited supply. While in the case of limited 
+supply, there are strong lower bounds known, the case of unlimited supply 
+may be too optimistic for many settings. 
+
+In this talk, we look at how by relaxing the "strength" of the limitation 
+of available copies of an item, we can beat the lower bounds for the 
+limited supply and get a smooth transition to the case of unlimited 
+supply. While if the limitation is "soft", we achieve a constant factor 
+approximation, in case of "hard" limitation, we achieve a logarithmic 
+approximation. 
+
+Highlight of the results. 
+In a work with Avrim Blum, Anupam Gupta and Yishay Mansour, we initiate 
+the study of resource allocation in a more realistic modeling of 
+limitation where each resource has an increasing procurement cost. In this 
+talk, we describe a simple pricing scheme that achieves a constant factor 
+approximation to the optimal social welfare for polynomial and logarithmic 
+procurement cost curves. Furthermore, for arbitrary procurement cost 
+curves, we describe a pricing scheme that achieves a logarithmic 
+approximation to optimal welfare. 
+
+We consider arbitrary combinatorial valuation of the buyers and consider 
+the two objective functions of social welfare and revenue. 
+
+
+The results are part of a work that appeared at Foundations of Computer 
+Science (FOCS), 2011. Joint work with Avrim Blum, Anupam Gupta and Yishay 
+Mansour. 
+
+
+Bio: Ankit Sharma is a graduate student at Carnegie Mellon University. He 
+is advised by Avrim Blum and Anupam Gupta. His current research focuses on 
+algorithms and algorithmic game theory. 
+
+----------------------------------- 
+
+------=_Part_31972_2059165117.1362030688727
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<div>This is a reminder for the seminar announced a few days earl=
+ier. Please do attend.<br><br>The speaker is a PhD student at CMU working w=
+ith Avrim Blum and<span style=3D"font-size: 12pt; "> Anupam Gupta.<br>He is=
+ a 2008 alumnus of IITK, CSE Department.<br><br></span></div><div>Regards</=
+div><div>narayanaswamy</div><div><b>---------------------</b></div><div><b>=
+Speaker : <span id=3D"DWT167" style=3D"background-color:#FEF481">Ankit</spa=
+n> <span id=3D"DWT169" style=3D"background-color:#FEF481">Sharma</span>, CM=
+U</b></div><div><b><br></b></div><b>Venue: BSB 361, &nbsp;10AM-11AM, 1st Ma=
+rch 2013<br></b><br>Title: Welfare and Profit maximization with Procurement=
+ costs<br><br>Abstract:<br><br>What is the problem?<br>A limited resource n=
+eeds to be allocated amongst a set of self-interested<br>agents. Combinator=
+ial Auctions, that capture this situation, are a central<br>problem in Algo=
+rithmic Mechanism Design: how to price and allocate goods<br>to buyers with=
+ complex preferences in order to maximize an objective such<br>as social we=
+lfare or revenue.<br><br>Hmm.. I see. So, what is your contribution?<br>The=
+ problem has been well-studied in the case of limited supply (few<br>copies=
+ of each item), and unlimited supply. While in the case of limited<br>suppl=
+y, there are strong lower bounds known, the case of unlimited supply<br>may=
+ be too optimistic for many settings.<br><br>In this talk, we look at how b=
+y relaxing the "strength" of the limitation<br>of available copies of an it=
+em, we can beat the lower bounds for the<br>limited supply and get a smooth=
+ transition to the case of unlimited<br>supply. While if the limitation is =
+"soft", we achieve a constant factor<br>approximation, in case of "hard" li=
+mitation, we achieve a logarithmic<br>approximation.<br><br>Highlight of th=
+e results.<br>In a work with Avrim Blum, Anupam Gupta and Yishay Mansour, w=
+e initiate<br>the study of resource allocation in a more realistic modeling=
+ of<br>limitation where each resource has an increasing procurement cost. I=
+n this<br>talk, we describe a simple pricing scheme that achieves a constan=
+t factor<br>approximation to the optimal social welfare for polynomial and =
+logarithmic<br>procurement cost curves. Furthermore, for arbitrary procurem=
+ent cost<br>curves, we describe a pricing scheme that achieves a logarithmi=
+c<br>approximation to optimal welfare.<br><br>We consider arbitrary combina=
+torial valuation of the buyers and consider<br>the two objective functions =
+of social welfare and revenue.<br><br><br>The results are part of a work th=
+at appeared at Foundations of Computer<br>Science (FOCS), 2011. &nbsp;Joint=
+ work with Avrim Blum, Anupam Gupta and Yishay<br>Mansour.<br><br><br>Bio: =
+<span id=3D"DWT171" style=3D"background-color:#FEF481">Ankit</span> <span i=
+d=3D"DWT173" style=3D"background-color:#FEF481">Sharma</span> is a graduate=
+ student at Carnegie Mellon University. He<br>is advised by Avrim Blum and =
+Anupam Gupta. His current research focuses on<br>algorithms and algorithmic=
+ game theory.<br><br>-----------------------------------<br></div></body></=
+html>
+------=_Part_31972_2059165117.1362030688727--

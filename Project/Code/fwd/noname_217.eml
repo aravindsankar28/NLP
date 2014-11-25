@@ -1,0 +1,140 @@
+Return-Path: sainageswar@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 6 Mar 2013 10:53:25 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 8AC6BF78043;
+	Wed,  6 Mar 2013 10:53:22 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.48
+X-Spam-Level: *
+X-Spam-Status: No, score=1.48 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, SPF_NEUTRAL=0.779]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id EhVoPdsOBtYH; Wed,  6 Mar 2013 10:53:17 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 42EC6F7803B;
+	Wed,  6 Mar 2013 10:53:17 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id A44B1780AEA;
+	Wed,  6 Mar 2013 10:54:36 +0530 (IST)
+Received: from mail-wg0-f49.google.com ([74.125.82.49])
+	by mailx1.iitm.ac.in (SonicWALL 7.3.5.6377)
+	with ESMTP; Wed, 06 Mar 2013 10:47:33 +0530
+Received: by mail-wg0-f49.google.com with SMTP id 15so6733226wgd.4
+        for <multiple recipients>; Tue, 05 Mar 2013 21:24:34 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=x-received:message-id:date:from:subject:to:cc:reply-to:mime-version
+         :x-priority:content-type:content-transfer-encoding;
+        bh=ElZ62GSD1NStb+k6rlRdwQVIV4XcY9aEbzCF3KO2dvM=;
+        b=0vSf6ySVEM78YfM8nawm73lzRPk8FVE5GsUPvYLGiuJ6nELV/dovIDxEMzalYL9ynx
+         x5h6Sctax5PXJgexSq1yoEjhfP4za/CAU+prwAJ5EugW33fxXL/FYTNn/WWb1LA0HWav
+         dRmD4GPd9rUGDA+HdQLn0acqJcGDG9imnCSIFZFu22R95NlQfQ2ERWcLOR1IV0YfQW/i
+         snjDbyUHHP50VihGCJPiNz9TNkkIz+a15w9fJSM2HPsdu2SP3YrPQgc7j0XZFXuEmc7G
+         Sh8GeD6SHC0OSSQyHcPQl//peZgUWJ4BY2/CvGJtbS56Nk0FjMoN+JHLZCdnjIkRyLQw
+         oMcQ==
+X-Received: by 10.194.172.71 with SMTP id ba7mr35140596wjc.26.1362547474708;
+        Tue, 05 Mar 2013 21:24:34 -0800 (PST)
+Received: from lhrnms-0094-fe.pr.nmsg.s.nokia.com (em1x-33.lhr.messaging.nokia.com. [131.228.18.33])
+        by mx.google.com with ESMTPS id fb8sm12030788wid.1.2013.03.05.21.24.32
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 05 Mar 2013 21:24:33 -0800 (PST)
+Message-ID: <5136d311.e80db50a.5b9f.59d3@mx.google.com>
+Date: Wed, 06 Mar 2013 05:24:55 +0000
+From: "sainageswar@gmail.com" <sainageswar@gmail.com>
+Subject: RE: Exebit 2013 Newsletters
+To: "syamavar@cse.iitm.ac.in" <syamavar@cse.iitm.ac.in> , "rangan@cse.iitm.ac.in" <rangan@cse.iitm.ac.in>
+CC: "students" <students@cse.iitm.ac.in> , "faculty@cse.iitm.ac.in" <faculty@cse.iitm.ac.in>
+Reply-To: sainageswar@gmail.com
+MIME-Version: 1.0
+X-Priority: 3
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mlf-KeyWords: newsletter,sir,awesome,colleges,honour,respected,sai,attached,cordially,desk,sch
+X-Mlf-Language-Detected: NoLanguageFilter_english
+X-Mlf-Connecting-IP: 74.125.82.49
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201303060517290069457
+
+Sir,
+
+I apologize for absence of time change information in schedule. We anno=
+unced about the change of timing multiple times from help desk. May be =
+because people were involved in many events, the announcement might not=
+ have reached some people.
+
+I personally want to appreciate your talk. Your talk has been one of th=
+e best talk in exebit. People from other colleges even praised your tal=
+k a lot and recalled your talks in NIT, tirchy etc. It was presented ve=
+ry well and I'm sure not even a single participant would have missed a =
+single word of you.
+
+Thank you for the awesome talk and adding charm to exebit.
+
+Regards,
+Sai Nageswar Satchidanand
+
+-----Original message-----
+From: rangan@cse.iitm.ac.in
+Sent:  06/03/2013, 8:57  am
+To: syamavar@cse.iitm.ac.in
+Cc: faculty@cse.iitm.ac.in; students
+Subject: Re: Exebit 2013 Newsletters
+
+
+Dear All,=20
+this is not a crib or flame mail but I wish to point out that my talk w=
+as handled very poorly by the organizers . the change in time was not m=
+entioned or not informed properly=20
+and many who wanted to attend missed the talk.=20
+I am aware i am no VIP but if you invite someone, then, a due respect s=
+hould be given. I normally do not accept invitations in such events bec=
+ause technical talks by academics, that too by locals, will be least re=
+spected. Still, i thought i should give a try and did it and , as expec=
+ted, participation even in a lesser event is more. it is not the number=
+ in the audience that bothered me but the general apathy of organizers =
+on my talk did hurt me . Hope other technical talks went off well.=20
+
+
+Again, i want to clarify that this is not a flame mail. this is to poin=
+t out a weak link in the organization of event. hope this feedback will=
+ help organizers of subsequent exhibits=20
+plan and coordinate the events better. no wonder nobody even mentions o=
+n the talk in any newsletter or other stuffs.. not even an acknowledgem=
+ent!!!! In fact, I cut short a trip to accommodate the request of the s=
+tudents and readily agreed but it is clear that return of respect or ho=
+nour was definitely missing..=20
+
+
+cordially,=20
+CPR=20
+
+
+
+
+
+From: syamavar@cse.iitm.ac.in=20
+To: faculty@cse.iitm.ac.in, "students" <students@cse.iitm.ac.in>=20
+Sent: Tuesday, March 5, 2013 11:29:08 AM=20
+Subject: Exebit 2013 Newsletters=20
+
+
+Hi All,=20
+
+
+Exebit News Letter team is glad to share the newsletters for Exebit 201=
+3. Please find them attached. Enjoy!!=20
+
+
+Thanks,=20
+Syama Varma,=20
+News Letter Team=20

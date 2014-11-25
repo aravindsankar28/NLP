@@ -1,0 +1,73 @@
+Return-Path: augustine@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 26 Apr 2013 14:38:50 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 34B6DF78046;
+	Fri, 26 Apr 2013 14:38:48 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id tNtyoC-Q6xIy; Fri, 26 Apr 2013 14:38:44 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 89710F78043
+	for <2btech@cse.iitm.ac.in>; Fri, 26 Apr 2013 14:38:44 +0530 (IST)
+Date: Fri, 26 Apr 2013 14:38:44 +0530 (IST)
+From: John Augustine <augustine@cse.iitm.ac.in>
+To: 2btech  <2btech@cse.iitm.ac.in>
+Message-ID: <530951716.66026.1366967324471.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <619141977.66020.1366967141459.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Computational Geometry course is in E slot
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_66025_291482189.1366967324470"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_66025_291482189.1366967324470
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear students, 
+
+
+I just came to know that many of you were under the impression that the computational geometry course (Aug - Dec, 2013) will be in the D slot (overlapping with a core course). Let me correct this. The course will be offered instead in the E slot. Computational geometry deals with algorithms on geometric data. The course will mostly be a textbook-based course with theory assignments. Please talk to me if you are interested. A good grade (A or S) in Data structures and Algorithms is essential for you to do well in this course. 
+
+
+Regards, 
+John. 
+
+-- 
+John Augustine 
+Assistant Professor 
+Department of Computer Science and Engineering 
+Indian Institute of Technology Madras 
+www.cse.iitm.ac.in/~augustine 
+
+
+------=_Part_66025_291482189.1366967324470
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><span>Dear students,</span><div><span><br></span></div><div><span>I just c=
+ame to know that many of you were under the impression that the computation=
+al geometry course (Aug - Dec, 2013) will be in the D slot (overlapping wit=
+h a core course). Let me correct this. The course will be offered instead i=
+n the E slot. Computational geometry deals with algorithms on geometric dat=
+a.&nbsp;</span><span style=3D"font-size: 12pt;">The course will mostly be a=
+ textbook-based course with theory assignments. Please talk to me if you ar=
+e interested. A good grade (A or S) in Data structures and Algorithms is es=
+sential for you to do well in this course.&nbsp;</span></div><div><span><br=
+></span></div><div><span>Regards,</span></div><div><span>John.<br><span nam=
+e=3D"x"></span><br>--<br>John Augustine<br>Assistant Professor<br>Departmen=
+t of Computer Science and Engineering<br>Indian Institute of Technology Mad=
+ras<br>www.cse.iitm.ac.in/~augustine<span name=3D"x"></span><br></span><br>=
+</div></div></body></html>
+------=_Part_66025_291482189.1366967324470--

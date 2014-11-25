@@ -1,0 +1,166 @@
+Return-Path: spmeena@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 9 May 2013 11:10:33 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 4150DF78126;
+	Thu,  9 May 2013 11:10:31 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.97
+X-Spam-Level: *
+X-Spam-Status: No, score=1.97 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RCVD_IN_XBL=0.375, RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id iwzd9E6JBzCL; Thu,  9 May 2013 11:10:26 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7BCCCF78121;
+	Thu,  9 May 2013 11:10:25 +0530 (IST)
+Date: Thu, 9 May 2013 11:10:25 +0530 (IST)
+From: "spmeena@cse.iitm.ac.in" <spmeena@cse.iitm.ac.in>
+To: phd  <phd@cse.iitm.ac.in>, ms@cse.iitm.ac.in, mtech  <mtech@cse.iitm.ac.in>, 
+	btech  <btech@cse.iitm.ac.in>, faculty@cse.iitm.ac.in
+Cc: S V Raghavan <sv.raghavan@nic.in>, kamakoti  <veezhi@gmail.com>, 
+	prangan@iitm.ac.in, skrishnam@iitm.ac.in, sriram@IITM.AC.IN, 
+	guhanj@IITM.AC.IN
+Message-ID: <1142958825.15313.1368078025444.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1940215330.14488.1368015415181.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: PhD Seminar talk on 10th May 2013 (Friday)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_15312_1812913723.1368078025443"
+X-Originating-IP: [180.149.62.51]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_15312_1812913723.1368078025443
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+Dear all,=20
+
+I am presenting my PhD Seminar talk on 10th May 2013. In this regard , I ki=
+ndly solicit your presence and valuable suggestions. The details of the tal=
+k are given below.=20
+
+Title: Forecasting and Event Detection in Internet Resource Dynamics using =
+Time Series Models=20
+Venue : BSB 361, CSE Seminar Hall=20
+Date : 10/05/2013=20
+Time : 3 - 4 pm=20
+Speaker : S.P.Meenakshi=20
+
+Abstract:=20
+
+At present Internet is a country=E2=80=99s predominant and viable data comm=
+unication infras-=20
+tructure. Autonomous System (AS) topology occupies the top position in the =
+Internet=20
+infrastructure hierarchy. The AS resources which are building blocks of the=
+ topology=20
+such as AS numbers, IPv4 and IPv6 Prefixes are globally competitive because=
+ of the=20
+finite resource pool. The resource requirement for each country is dynamic =
+and driven=20
+by various technical and socio-economic factors. Hence to acquire the resou=
+rces, plan=20
+for future expansions and make policies there is a need for forecasting. In=
+ addition to=20
+this, understanding on long term trend and stochastic variation behaviour a=
+re essential=20
+to detect significant events in the growth. Time series based approximation=
+ is explored=20
+for mathematical modeling, system identification and forecast the yearly AS=
+ growth.=20
+The empirical evaluation performed on AS data extracted from APNIC archive =
+for five=20
+countries namely India, China, Japan, South Korea and Taiwan has exhibited =
+two signif-=20
+icant temporal patterns. In the study, two countries from larger economies =
+and three countries=20
+from advanced technology nations in the APNIC region are considered for ana=
+lysis. The=20
+characterization of the time series is performed for long term growth rate =
+and trend=20
+direction. The statistically significant difference in long term trends bet=
+ween technology=20
+advanced countries and larger economies is established through hypothesis t=
+esting. The=20
+significant variations in the Inter Annual Absolute Variations (IAAV) of AS=
+ growth are iden-=20
+tified using change point detection method. The correlation between IAAV an=
+d Gross=20
+Domestic Product (GDP) hints that the growth in service sector Industry is =
+the driving=20
+force behind significant variations in AS growth from 2007 onwards. The lev=
+el change in=20
+variations, positive growth percentage in IAAV and higher percentage of adv=
+ertised ASes=20
+when compared to other countries indicate India=E2=80=99s fast growth in In=
+ternet Infrastructure=20
+from 2007 onwards.=20
+
+All are welcome=20
+
+regards,=20
+S.P.Meenakshi=20
+CS07D006=20
+Networks Systems Laboratory,=20
+Dept of CSE,=20
+IIT Madras=20
+
+------=_Part_15312_1812913723.1368078025443
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><br><div style=3D"font-family: Times New Roman; font-size: 12pt; color: rg=
+b(0, 0, 0);"><div style=3D"font-family: Times New Roman; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">Dear all,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp; I am presenting my PhD Seminar talk on 10th May 2013. In this r=
+egard , I&nbsp; kindly solicit&nbsp; your presence&nbsp; and valuable sugge=
+stions. The details of the talk are given below.<br><br><strong>Title:</str=
+ong><font face=3D"AdvPTimes, serif" size=3D"3"><strong>&nbsp;</strong> Fore=
+casting
+and Event Detection in Internet Resource Dynamics using Time Series
+Models<br><strong>Venue :</strong> BSB 361, CSE Seminar Hall<br><span style=
+=3D"font-weight: bold;">Date&nbsp;&nbsp;&nbsp; : </span>10/05/2013<br><span=
+ style=3D"font-weight: bold;">Time&nbsp;&nbsp;&nbsp; : </span>3 - 4 pm<br><=
+span style=3D"font-weight: bold;">Speaker :</span> S.P.Meenakshi<br><br><sp=
+an style=3D"font-weight: bold;">Abstract:<br><br></span>At present Internet=
+ is a country=E2=80=99s predominant and viable data communication infras-<b=
+r>tructure. Autonomous System (AS) topology occupies the top position in th=
+e Internet<br>infrastructure hierarchy. The AS resources which are building=
+ blocks of the topology<br>such as AS numbers, IPv4 and IPv6 Prefixes are g=
+lobally competitive because of the<br>finite resource pool. The resource re=
+quirement for each country is dynamic and driven<br>by various technical an=
+d socio-economic factors. Hence to acquire the resources, plan<br>for futur=
+e expansions and make policies there is a need for forecasting. In addition=
+ to<br>this, understanding on long term trend and stochastic variation beha=
+viour are essential<br>to detect significant events in the growth. Time ser=
+ies based approximation is explored<br>for mathematical modeling, system id=
+entification and forecast the yearly AS growth.<br>The empirical evaluation=
+ performed on AS data extracted from APNIC archive for five<br>countries na=
+mely India, China, Japan, South Korea and Taiwan has exhibited two signif-<=
+br>icant temporal patterns. In the study, two countries from larger economi=
+es and three countries<br>from advanced technology nations in the APNIC reg=
+ion are considered for analysis. The<br>characterization of the time series=
+ is performed for long term growth rate and trend<br>direction. The statist=
+ically significant difference in long term trends between technology<br>adv=
+anced countries and larger economies is established through hypothesis test=
+ing. The<br>significant variations in the Inter Annual Absolute Variations =
+(IAAV) of AS growth are iden-<br>tified using change point detection method=
+. The correlation between IAAV and Gross<br>Domestic Product (GDP) hints th=
+at the growth in service sector Industry is the driving<br>force behind sig=
+nificant variations in AS growth from 2007 onwards. The level change in<br>=
+variations, positive growth percentage in IAAV and higher percentage of adv=
+ertised ASes<br>when compared to other countries indicate India=E2=80=99s f=
+ast growth in Internet Infrastructure<br>from 2007 onwards.<br><br>All are =
+welcome<br>&nbsp;&nbsp; <br>regards,<br>S.P.Meenakshi<br>CS07D006<br>Networ=
+ks Systems Laboratory,<br>Dept of CSE,<br>IIT Madras<br></font>
+</div></div></div></body></html>
+------=_Part_15312_1812913723.1368078025443--

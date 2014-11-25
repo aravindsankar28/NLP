@@ -1,0 +1,99 @@
+Return-Path: ksriram@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 16 Aug 2013 13:47:02 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 93FD0F78106;
+	Fri, 16 Aug 2013 13:47:00 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id R8Pv6BG7XpwE; Fri, 16 Aug 2013 13:46:59 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 62320F78035;
+	Fri, 16 Aug 2013 13:46:59 +0530 (IST)
+Date: Fri, 16 Aug 2013 13:46:59 +0530 (IST)
+From: "ksriram@cse.iitm.ac.in" <ksriram@cse.iitm.ac.in>
+To: students  <students@cse.iitm.ac.in>, faculty  <faculty@cse.iitm.ac.in>
+Cc: djram  <djram@iitm.ac.in>
+Message-ID: <1558354164.10640.1376641019212.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <575527265.10364.1376640625371.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk by Dr. Nachiappan Nagappan, Microsoft Research, Redmond
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10639_1692831660.1376641019211"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_10639_1692831660.1376641019211
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+
+Please find below the details of the talk by Dr. Nachiappan Nagappan from Microsoft Research, Redmond. 
+
+Venue: BSB361 
+Date: 20/8/2013 
+Time: 3.00PM 
+
+Title: Software Analytics at Microsoft: Towards Achieving Better Quality Code 
+
+Abstract: 
+Information on the software quality of a product is available too late in the software development lifecycle to affordably guide corrective actions. An important step towards remediation of this problem lies in the ability to provide an early estimation of quaality. Towards this end, in this talk I will talk about software analytics research at Microsoft that uses software engineering data mined from product artifacts such as changes to source code which are recorded in version archives, bugs reported to issue tracking systems, team and organizational structure and communications are archived in e-mails and newsgroups. I will also show how this research is used in practice in large software development teams. 
+
+I will also present a high level overview of the diversity of research themes in the Empirical Software Engineering (ESE) group at Microsoft Research using examples from our data analytics research on data-driven software engineering, socio technical congruence, Xbox game analytics, bug reporting and triaging, and distributed software development. The work presented in this talk has been done by Chris Bird, Brendan Murphy, Tom Zimmermann, myself, and many other interns and visiting faculty at Microsoft. More information can be found at http://research.microsoft.com/en-us/groups/ese/ 
+
+Bio 
+Nachiappan Nagappan is a Principal Researcher in the Empirical Software Engineering group at Microsoft Research in the Redmond, USA lab. His research interests are in the field of software measurement focusing on software reliability and metrics, failure analysis/prediction, data analytics for software systems and empirical software engineering processes. He publishes at all the primary venues for software engineering and has served on the program committees of the primary SE conferences. Most recently he was program co-chair of ISSRE 2012. You can find more information about him here: http://research.microsoft.com/en-us/people/nachin/default.aspx 
+
+Thanks, 
+Sriram 
+
+------=_Part_10639_1692831660.1376641019211
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<br><div style=3D"font-family: Times New Roman; font-size: 12pt; =
+color: #000000"><div style=3D"font-family: Times New Roman; font-size: 12pt=
+; color: #000000">Please find below the details of the talk by Dr. Nachiapp=
+an Nagappan from Microsoft Research, Redmond.<br><br>Venue: BSB361<br>Date:=
+ 20/8/2013<br>Time: 3.00PM<br><br>Title: Software Analytics at Microsoft: T=
+owards Achieving Better Quality Code<br><br>Abstract: <br>Information on th=
+e software quality of a product is available too late in the software devel=
+opment lifecycle to affordably guide corrective actions. An important step =
+towards remediation of this problem lies in the ability to provide an early=
+ estimation of quaality. Towards this end, in this talk I will talk about s=
+oftware analytics research at Microsoft that uses software engineering data=
+ mined from product artifacts such as changes to source code which are reco=
+rded in version archives, bugs reported to issue tracking systems, team and=
+ organizational structure and communications are archived in e-mails and ne=
+wsgroups. I will also show how this research is used in practice in large s=
+oftware development teams. <br><br>I will also present a high level overvie=
+w of the diversity of research themes in the Empirical Software Engineering=
+ (ESE) group at Microsoft Research using examples from our data analytics r=
+esearch on data-driven software engineering, socio technical congruence, Xb=
+ox game analytics, bug reporting and triaging, and distributed software dev=
+elopment. The work presented in this talk has been done by Chris Bird, Bren=
+dan Murphy, Tom Zimmermann, myself, and many other interns and visiting fac=
+ulty at Microsoft. More information can be found at http://research.microso=
+ft.com/en-us/groups/ese/ <br><br>Bio<br>Nachiappan Nagappan is a Principal =
+Researcher in the Empirical Software Engineering group at Microsoft Researc=
+h in the Redmond, USA lab. His research interests are in the field of softw=
+are measurement focusing on software reliability and metrics, failure analy=
+sis/prediction, data analytics for software systems and empirical software =
+engineering processes. He publishes at all the primary venues for software =
+engineering and has served on the program committees of the primary SE conf=
+erences. Most recently he was program co-chair of ISSRE 2012. You can find =
+more information about him here: http://research.microsoft.com/en-us/people=
+/nachin/default.aspx<br><br>Thanks,<br>Sriram<br></div></div></div></body><=
+/html>
+------=_Part_10639_1692831660.1376641019211--

@@ -1,0 +1,48 @@
+Dear All 
+
+
+The venue for the talk on Heterogeneous computing will be BSB 370 (NetLab) which is located in the front wing of BSB. 
+
+
+Regards 
+Shankar. 
+
+
+From: "Shankar Balachandran" <shankar@cse.iitm.ac.in> 
+To: "Seminar" <seminar@cse.iitm.ac.in> 
+Cc: "faculty" <faculty@cse.iitm.ac.in>, "staff" <staff@cse.iitm.ac.in> 
+Sent: Wednesday, July 10, 2013 10:04:34 PM 
+Subject: Talk by Jacques Pienaar from Purdue University 
+
+
+Dear All 
+
+
+Jacques Pienaar, a Ph.D. student from the Integrated Systems Laboratory at Purdue University is going to give a talk on heterogeneous computing. Please see the details below. The talk is arranged through WebEx and therefore the venue is not frozen yet. I will check the setup and announce the venue by Thursday night. Tea will be served after the talk. 
+
+
+Date and time: 12th July 2013, 10 am 
+Venue: To Be Decided 
+
+
+Abstract 
+
+
+Heterogeneous parallel computing platforms, which contain multiple processing units (PUs) with distinct architectures (such as multi-core processors and many-core accelerators), present a potential for significant improvements in the performance and power efficiency of computing platforms. Applications from several domains ported to heterogeneous platforms consisting of multi-core CPUs and accelerators including general-purpose graphics processing units (GPGPUs) from NVIDIA and AMD, IBM's Cell, and Intel's many integrated core (MIC), have shown significant performance improvements. While these results make a compelling case for heterogeneous parallel computing, developers often cite programming heterogeneous parallel platforms as a significant challenge that must be addressed before heterogeneous platform's potential can be realized for mainstream computing. 
+
+
+In this research, we explore technologies that enable performance portable programming of heterogeneous platforms. Performance portability refers to the ability of a program to achieve robust performance on diverse hardware platforms, with minimal programmer effort. It is a highly desirable feature, due to the significant development costs involved in optimizing and maintaining software that executes on different parallel platforms, and to preserve the value of software across hardware generations. We specifically focus on software frameworks, including compilers and runtimes that enable the creation of performance portable programs. 
+
+
+A more detailed description can be found at http://l.japienaar.info/ccehb 
+
+
+Bio of the Speaker 
+
+
+
+
+Jacques Pienaar received his B.Sc in Mathematics and Aplied Mathematics and B.Eng in Electrical and Electronic Engineering from the North-West University, Potchefstroom, South Africa in 2004 and 2006 respectively. He is currently working towards his Ph.D. degree in Electrical and Computer Engineering at Purdue University and is a research assistant in the Integrated Systems Laboratory. His current research interests include programming models and methodology, tools and abstractions to enable performance portability, and heterogeneous parallel platforms. 
+
+
+

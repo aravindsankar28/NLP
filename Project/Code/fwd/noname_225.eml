@@ -1,0 +1,235 @@
+Return-Path: sreenivasa.kumar.p@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 22 Feb 2013 08:42:54 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id CEDBEF78123;
+	Fri, 22 Feb 2013 08:42:51 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.109
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.109 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_NEUTRAL=0.779,
+	T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id kzXuRMgjEgyY; Fri, 22 Feb 2013 08:42:50 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6F0F8F7811E;
+	Fri, 22 Feb 2013 08:42:50 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id C9AE378032C;
+	Fri, 22 Feb 2013 09:08:37 +0530 (IST)
+Received: from mail-ve0-f179.google.com ([209.85.128.179])
+	by mailx1.iitm.ac.in (SonicWALL 7.3.5.6377)
+	with ESMTP; Fri, 22 Feb 2013 09:01:33 +0530
+Received: by mail-ve0-f179.google.com with SMTP id da11so208276veb.10
+        for <multiple recipients>; Thu, 21 Feb 2013 19:38:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:x-received:sender:date:x-google-sender-auth:message-id
+         :subject:from:to:content-type;
+        bh=9cXSIKXQdjOaItXc1EcCZfJuW5tT87rJTx+FdMYhncI=;
+        b=Vx7b3djvSdOTpm6sycbTNW/i7vTBb9Kee1qnQ5VrfujYbc+fqmcfU4wIWrY1M62pRp
+         b7+fzwH82B87adI4px5iniC9MCgSu815Ndz4ziK+PbMHqgoNrQRVFFOXuX6V9YvKDiz4
+         byPW0jB/3Ljb3yAWVmqMaaiJ9OUG6KCcOUB39Wk2YNhyTTlP5fobsHdU7x9sVr/EypKh
+         HPRa/+0T2V+nGsY6G6PzIBzbLf2IK0UGRERBNp1J0Xs2PY7OTs+YQDM3h37a8zrmbWFp
+         ZpSCazqUr43Lw5Qp7GOq7BimJpQwxv6Wh1b8tFcm6PBStboP6mauf3TQ4SEvi1KzA3ol
+         Aigw==
+MIME-Version: 1.0
+X-Received: by 10.220.149.82 with SMTP id s18mr680238vcv.14.1361504314548;
+ Thu, 21 Feb 2013 19:38:34 -0800 (PST)
+Sender: sreenivasa.kumar.p@gmail.com
+Received: by 10.58.248.129 with HTTP; Thu, 21 Feb 2013 19:38:34 -0800 (PST)
+Date: Fri, 22 Feb 2013 09:08:34 +0530
+X-Google-Sender-Auth: mRZkbOOBKGAtD7TyCdtHEOsRtuw
+Message-ID: <CAFdB0Z0ShP_r_s8gtivkk3Wpwx3Fianyz_=3imBqj+zNMcaEhA@mail.gmail.com>
+Subject: Seminar Talk by Dr C Mohan at 2pm in CS25
+From: P Sreenivasa Kumar <psk@cse.iitm.ac.in>
+To: dccfaculty@cse.iitm.ac.in, all@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=f46d043d64a30768a804d647edc2
+X-Mlf-KeyWords: population,chennai,italy,madras,history,indian,india,hopefully,2pm,hoc,reminder,
+X-Mlf-Language-Detected: NoLanguageFilter_english
+X-Mlf-GRID-Network: Junk_Domains
+X-Mlf-Connecting-IP: 209.85.128.179
+X-Mlf-Country-Code: US
+X-Mlf-Threat: likelyspam
+X-Mlf-Threat-Detailed: likelyspam;collab;none;community_mlf_collab__DT=G0RBZ_GPJgpCRw==
+X-Mlf-UniqueId: i201302220331310007663
+
+--f46d043d64a30768a804d647edc2
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Dear All:
+
+Reminder about the talk today by Dr C Mohan, IBM at 2PM in CS25
+
+psk
+
+------------------------------
+*From: *"P Sreenivasa Kumar" <psk@cse.iitm.ac.in>
+*To: *dccfaculty@cse.iitm.ac.in, all@cse.iitm.ac.in
+*Sent: *Thursday, February 14, 2013 5:34:36 PM
+*Subject: *Seminar Talk by Dr C Mohan:
+
+Dear Colleagues and Students:
+
+I am organizing a technical talk by Dr C Mohan, IBM Fellow, on 22nd Feb,
+Friday at 2PM in CS24 or CS25. The details of the talk are below.
+Dr C Mohan is a very accomplished person in the Database Systems world and
+an alumnus of Chemical Engineering of IITM.
+
+psk
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+ *History Repeats Itself:
+Sensible and NonsenSQL Aspects of the NoSQL Hoopla
+*
+
+*C. Mohan* <http://bit.ly/CMbio>
+IBM Almaden Research Center
+650 Harry Road, K01/B1
+San Jose, CA 95120, USA*
+**cmohan@us.ibm.com* <cmohan@us.ibm.com>, *
+http://www.almaden.ibm.com/u/mohan/* <http://bit.ly/cmohan>
+
+
+In this talk, I will describe some of the recent developments in the
+database management area, in particular the NoSQL phenomenon and the hoopla
+associated with it. The goal of the talk is not to do an exhaustive survey
+of NoSQL systems. The aim is to do a broad brush analysis of what these
+developments mean - the good and the bad aspects! Based on my more than
+three decades of database systems work in the research and product arenas,
+I will outline what are many of the pitfalls to avoid since there is
+currently a mad rush to develop and adopt a plethora of NoSQL systems in a
+segment of the IT population, including the research community. In rushing
+to develop these systems to overcome some of the shortcomings of the
+relational systems, many good principles of the latter, which go beyond the
+relational model and the SQL language, have been left by the wayside. Now
+many of the features that were initially discarded as unnecessary in the
+NoSQL systems are being brought in, but unfortunately in ad hoc ways.
+Hopefully, the lessons learnt over three decades with relational and other
+systems would not go to waste and we wouldn=92t let history repeat itself
+with respect to simple minded approaches leading to enormous pain later on
+for developers as well as users of the NoSQL systems! This talk would be
+delivered as an Invited Keynote at the 16th International Conference in
+Extending Database Technology in Genoa (Italy) in March 2013. The basis for
+it is the paper at http://bit.ly/NoSQLp
+
+
+--=20
+Dr P Sreenivasa Kumar
+Professor and Head, CSE Dept,
+http://www.cse.iitm.ac.in/~psk/
+Indian Institute of Technology Madras
+Chennai 600 036, India.
+Ph: 044 2257 4350/4366
+Fax: 044 2257 4352
+
+
+
+
+
+
+
+--=20
+Dr P Sreenivasa Kumar
+Professor and Head, CSE Dept,
+http://www.cse.iitm.ac.in/~psk/
+Indian Institute of Technology Madras
+Chennai 600 036, India.
+Ph: 044 2257 4350/4366
+Fax: 044 2257 4352
+
+--f46d043d64a30768a804d647edc2
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote"><div><div style=3D"font-size:12pt;font-f=
+amily:Times New Roman"><div>Dear All: <br><br>Reminder about the talk today=
+ by Dr C Mohan, IBM at 2PM in CS25<br><br>psk<br><br><hr><b>From: </b>&quot=
+;P Sreenivasa Kumar&quot; &lt;<a href=3D"mailto:psk@cse.iitm.ac.in" target=
+=3D"_blank">psk@cse.iitm.ac.in</a>&gt;<br>
+<b>To: </b><a href=3D"mailto:dccfaculty@cse.iitm.ac.in" target=3D"_blank">d=
+ccfaculty@cse.iitm.ac.in</a>, <a href=3D"mailto:all@cse.iitm.ac.in" target=
+=3D"_blank">all@cse.iitm.ac.in</a><br><b>Sent: </b>Thursday, February 14, 2=
+013 5:34:36 PM<br>
+<b>Subject: </b>Seminar Talk by Dr C Mohan:<br><br>Dear Colleagues and Stud=
+ents:<br><br>I am organizing a technical talk by Dr C Mohan, IBM Fellow, on=
+ 22nd Feb, Friday at 2PM in CS24 or CS25. The details of the talk are below=
+.<br>
+Dr C Mohan is a very accomplished person in the Database Systems world and =
+an alumnus of Chemical Engineering of IITM. <br>
+<br>psk<br><br><div align=3D"center"><font face=3D"Times New Roman" size=3D=
+"3">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</font></div>
+<div>
+<div align=3D"center"><font face=3D"Verdana" size=3D"3"><b>History Repeats =
+Itself:
+<br>
+Sensible and NonsenSQL Aspects of the NoSQL Hoopla<br>
+</b></font>
+<p><a href=3D"http://bit.ly/CMbio" target=3D"_blank"><font color=3D"blue" f=
+ace=3D"Verdana" size=3D"3"><b><u>C.
+Mohan</u></b></font></a><font face=3D"Times New Roman" size=3D"3"><br>
+IBM Almaden Research Center<br>
+650 Harry Road, K01/B1<br>
+San Jose, CA 95120, USA</font><font color=3D"blue" face=3D"Times New Roman"=
+ size=3D"3"><u><br>
+</u></font><a href=3D"mailto:cmohan@us.ibm.com" target=3D"_blank"><font col=
+or=3D"blue" face=3D"Times New Roman" size=3D"3"><u>cmohan@us.ibm.com</u></f=
+ont></a><font face=3D"Times New Roman" size=3D"3">,
+</font><a href=3D"http://bit.ly/cmohan" target=3D"_blank"><font color=3D"bl=
+ue" face=3D"Times New Roman" size=3D"3"><u>http://www.almaden.ibm.com/u/moh=
+an/</u></font></a><font face=3D"Times New Roman" size=3D"3">
+</font>
+</p><p><font face=3D"sans-serif">
+</font></p></div>
+<br><font face=3D"Verdana" size=3D"3">In this talk, I will describe some of=
+ the
+recent developments in the database management area, in particular the
+NoSQL phenomenon and the hoopla associated with it. The goal of the talk
+is not to do an exhaustive survey of NoSQL systems. The aim is to do a
+broad brush analysis of what these developments mean - the good and the
+bad aspects! Based on my more than three decades of database systems work
+in the research and product arenas, I will outline what are many of the
+pitfalls to avoid since there is currently a mad rush to develop and adopt
+a plethora of NoSQL systems in a segment of the IT population, including
+the research community. In rushing to develop these systems to overcome
+some of the shortcomings of the relational systems, many good principles
+of the latter, which go beyond the relational model and the SQL language,
+have been left by the wayside. Now many of the features that were initially
+discarded as unnecessary in the NoSQL systems are being brought in, but
+unfortunately in ad hoc ways. Hopefully, the lessons learnt over three
+decades with relational and other systems would not go to waste and we
+wouldn=92t let history repeat itself with respect to simple minded approach=
+es
+leading to enormous pain later on for developers as well as users of the
+NoSQL systems! This talk would be delivered as an Invited Keynote at the
+16<sup>th</sup> International Conference in Extending Database Technology
+in Genoa (Italy) in March 2013. The basis for it is the paper at </font><a =
+href=3D"http://bit.ly/NoSQLp" target=3D"_blank"><font face=3D"Verdana" size=
+=3D"3">http://bit.ly/NoSQLp</font></a><span class=3D"HOEnZb"><font color=3D=
+"#888888">
+</font></span></div><span class=3D"HOEnZb"><font color=3D"#888888"><br clea=
+r=3D"all"><br>-- <br>Dr P Sreenivasa Kumar<br>Professor and Head, CSE Dept,=
+<br><a href=3D"http://www.cse.iitm.ac.in/%7Epsk/" target=3D"_blank">http://=
+www.cse.iitm.ac.in/~psk/</a> <br>
+Indian Institute of Technology Madras<br>Chennai 600 036, India.<br>
+Ph: 044 2257 4350/4366<br>Fax: 044 2257 4352<br><br>
+<br><br>
+</font></span></div></div></div><br></div><br><br clear=3D"all"><br>-- <br>=
+Dr P Sreenivasa Kumar<br>Professor and Head, CSE Dept,<br><a href=3D"http:/=
+/www.cse.iitm.ac.in/%7Epsk/" target=3D"_blank">http://www.cse.iitm.ac.in/~p=
+sk/</a> <br>
+Indian Institute of Technology Madras<br>Chennai 600 036, India.<br>Ph: 044=
+ 2257 4350/4366<br>Fax: 044 2257 4352<br><br>
+
+--f46d043d64a30768a804d647edc2--

@@ -1,0 +1,98 @@
+Return-Path: bhautik@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sat, 3 Aug 2013 10:47:23 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 294EFF78105;
+	Sat,  3 Aug 2013 10:47:21 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.01
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.01 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_40=-0.001, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id WulnzNS2hqnd; Sat,  3 Aug 2013 10:47:15 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0AF3CF78046;
+	Sat,  3 Aug 2013 10:47:15 +0530 (IST)
+Date: Sat, 3 Aug 2013 10:47:14 +0530 (IST)
+From: bhautik@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>, mahalingam <mahalingam@iitm.ac.in>
+Cc: Ashish Tendulkar <ashishvt@gmail.com>
+Message-ID: <1527840855.88488.1375507034942.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1145778275.88448.1375505000343.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_88487_1847690925.1375507034941"
+X-Originating-IP: [10.6.5.254]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_88487_1847690925.1375507034941
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+
+
+
+
+Dear All, 
+
+I will be giving my MS seminar talk on 6th August , 2013 ( Tuesday ) at 3:00 PM . I request you to kindly attend the seminar and give your valuable suggestions. The details of the talk are as follows: 
+
+Speaker : Bhautik S Patel (CS10S002) 
+Date : 6-08-2013, Tuesday 
+Time : 3:00 PM to 4:00 PM 
+Topic : Towards selective user specific query expansion 
+Venue : BSB 361, Department of Computer Science & Engg. 
+Guide : Dr.Sutanu Chakraborti 
+: Dr.Ashish V Tendulkar 
+
+
+Abstract: 
+
+The World Wide Web (WWW) is a rich storehouse of heterogeneous information content such as text and multimedia data. The prevalent practice is that users need to specify their information requirements in terms of a query and use a search engine to obtain the desired information. These queries are usually short and ambiguous. Resolving an ambiguity is an important task in information retrieval. This ambiguity can be resolved effectively using query expansion. 
+
+We attempt to make a consolidated study of the effectiveness of query logs in personalized query expansion and report empirical findings by analyzing the effect of personalization over anonymous query logs. We have designed a novel evaluation method to quantify improvements due to personalization. In the second part of our work, we present a novel approach to intelligently detect queries whose expansions may lead to improvements in retrieval. Empirical results obtained using this approach clearly show significant improvements over indiscriminate query expansion. 
+
+
+
+
+
+All are welcome 
+
+Bhautik S Patel 
+M.S. (Research) 
+Reconfigurable Intelligent Systems & Engineering Lab 
+Department of Computer Science & Engineering 
+IIT Madras 
+------=_Part_88487_1847690925.1375507034941
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><style>p { margin: 0; }</style><div style="font-family: Times New Roman; font-size: 12pt; color: #000000"><style>p { margin: 0; }</style><div style="font-family: Times New Roman; font-size: 12pt; color: #000000"><style>p { margin: 0; }</style><div style="font-family: Times New Roman; font-size: 12pt; color: #000000"><div id=":1kh" style="overflow: hidden;"><div><div style="font-size:12pt;font-family:Times New Roman"><div style="text-align:justify">Dear All,<br><br>I will be giving my MS seminar talk on <span class="aBn"><span class="aQJ"><span style="color: rgb(0, 0, 153);">6th August</span>, 2013</span></span>
+ (<span style="color: rgb(0, 0, 153);" class="aBn"><span class="aQJ">Tuesday</span></span>) at <span style="color: rgb(0, 0, 153);" class="aBn"><span class="aQJ">3:00 PM</span></span>. I request you to kindly attend the seminar and 
+give your valuable suggestions. The details of the talk are as follows:<br><br>Speaker : Bhautik S Patel (CS10S002)<br>Date&nbsp;&nbsp; &nbsp;&nbsp; : 6-08-2013, <span class="aBn"><span class="aQJ">Tuesday</span></span><br>Time&nbsp;&nbsp; &nbsp; : <span class="aBn"><span class="aQJ">3:00 PM to 4:00 PM</span></span><br>Topic&nbsp; &nbsp; : Towards selective user specific query expansion<br>Venue&nbsp;&nbsp; : BSB 361, Department of Computer Science &amp; Engg.<br>
+Guide&nbsp;&nbsp; : Dr.Sutanu Chakraborti <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Dr.Ashish V Tendulkar<br><br><br>Abstract:<br><div style="text-align: justify;">The
+ World Wide Web (WWW) is a rich storehouse of heterogeneous information 
+content such as text and multimedia data. The prevalent practice is that
+ users need to specify their information requirements in terms of a 
+query and use a search engine to obtain the desired information. These queries are usually short and ambiguous. Resolving an ambiguity is an important task in information retrieval. This ambiguity can be resolved effectively using query expansion.<br><br>We attempt to make a consolidated study of the effectiveness of 
+query logs in personalized query expansion and report empirical findings
+ by analyzing the effect of personalization over anonymous query logs. 
+We have designed a novel evaluation method to quantify improvements due 
+to personalization. In the second part of our work, we present a novel 
+approach to intelligently detect queries whose expansions may lead to 
+improvements in retrieval. Empirical results obtained using this 
+approach clearly show significant improvements over indiscriminate query
+ expansion.<br></div><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+
+<div style="text-align:justify" dir="ltr"><div style="text-align: center;">All are welcome<br></div><br>Bhautik S Patel<br>M.S. (Research)<br>Reconfigurable Intelligent Systems &amp; Engineering Lab<br>Department of Computer Science &amp; Engineering<br>
+IIT Madras</div></div></div></div></div></div></div></div></body></html>
+------=_Part_88487_1847690925.1375507034941--

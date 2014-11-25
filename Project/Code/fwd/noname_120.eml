@@ -1,0 +1,188 @@
+Return-Path: madhur@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sat, 26 Oct 2013 21:51:15 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3C27FF781FD;
+	Sat, 26 Oct 2013 21:51:12 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id W+ANdP7eDpFT; Sat, 26 Oct 2013 21:51:11 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id BD3D0F78121;
+	Sat, 26 Oct 2013 21:48:58 +0530 (IST)
+Date: Sat, 26 Oct 2013 21:48:57 +0530 (IST)
+From: madhur@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: shankar  <shankar@cse.iitm.ac.in>, 
+	"rangan@cse.iitm.ac.in" <rangan@cse.iitm.ac.in>, 
+	sridhara@ee.iitm.ac.in, 
+	"Madhu Mutyam@cse.iitm.ac.in" <madhu@cse.iitm.ac.in>
+Message-ID: <541878687.3837200.1382804337805.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1750574925.3835990.1382803703611.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar Talk
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3837199_220952050.1382804337804"
+X-Originating-IP: [10.93.0.36]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_3837199_220952050.1382804337804
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+I will be giving my MS seminar talk on 31st October 2013 ( Thursday ) at 2:=
+00 PM in BSB 361. Kindly attend the seminar and provide your valuable feedb=
+ack.=20
+
+Details:=20
+
+
+Speaker : Madhur D. Amilkanthwar=20
+Date : 31st October 2013, Thursday.=20
+Time : 14:00 hrs to 15:00 hrs=20
+Topic : Mitigating Penalties of Uncoalesced Access Pattern on CUDA=20
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineeri=
+ng.=20
+
+
+
+
+
+Abstract :=20
+Modern architectures like Graphics Processing Units (GPUs) offer massive on=
+-chip par allelism and are ideally suited for data parallel applications. I=
+n spite of high compute=20
+resources present on GPU, programming and fully utilizing GPUs is not an ea=
+sy task. NVIDIA=E2=80=99s GPU programming platform is known as Compute Unif=
+ied Device Archi-=20
+tecture(CUDA). One of the challenges faced by a programmer on CUDA platform=
+ is address coalescing. Developing applications with coalesced accesses to =
+a data structure=20
+may require series of optimize-code-profile passes and may affect develomen=
+t time and programmers=E2=80=99 productivity. This thesis proposes a compil=
+er tool called Compile-time=20
+Uncoalesced Memory Access Pattern Locator (CUPL) which helps a programmer t=
+o locate Uncoalesced accesses to a data structure. Our tool takes a CUDA ke=
+rnel and=20
+corresponding kernel launch configuration as inputs and emits warnings if a=
+n access is uncoalesced. To the best of our knowledge, CUPL is the first to=
+ol in the research com-=20
+munity which identifies access patterns at compile-time by analyzing the in=
+put source code. We have tested correctness of CUPL on benchmarks from Poly=
+bench-GPU and=20
+Rodinia suite and CUPL emits warnings whenever there is an uncoalesced acce=
+ss. In ad dition to emitting performance warnings, CUPL also fixes these wa=
+rnings automatically.=20
+After locating an uncoalesced access to a data structure, CUPL splits the i=
+nput CUDA kernel into two and performs data layout transformation. Our data=
+ layout transforma-=20
+tion moves non-contiguous data points to contiguous locations. To hide the =
+latency of data layout transformation, we divide the memory region occupied=
+ by the data structure=20
+into several chunks and perform transformation on a chunk level. We further=
+ overlap this time with data transfer (between CPU and GPU) time. Our trans=
+formation yields=20
+an average 2x speedup over naive implementation on benchmarks from Polybenc=
+h-GPU.=20
+
+All are welcome!=20
+
+---=20
+Madhur D. Amilkanthwar(CS11S015)=20
+RISE Lab,=20
+Department of Computer Science and Engineering, IIT Madras.
+------=_Part_3837199_220952050.1382804337804
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"=
+>Dear All,</span><span style=3D"color: rgb(0, 0, 0); background-color: rgb(=
+255, 255, 255);">&nbsp;</span><br style=3D"background-color: rgb(255, 255, =
+255);"><br style=3D"background-color: rgb(255, 255, 255);"><span style=3D"c=
+olor: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">I will be giving=
+ my MS seminar talk on </span><span style=3D"background-color: rgb(255, 255=
+, 255);"><font color=3D"#00008b">31st October 2013</font></span><span style=
+=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">&nbsp;</spa=
+n><span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);=
+">(</span><span style=3D"background-color: rgb(255, 255, 255);"><font color=
+=3D"#00008b">Thursday</font></span><span style=3D"color: rgb(0, 0, 0); back=
+ground-color: rgb(255, 255, 255);">) at 2:00 PM in BSB 361. Kindly attend t=
+he seminar and provide your valuable feedback.</span><br style=3D"backgroun=
+d-color: rgb(255, 255, 255);"><br style=3D"background-color: rgb(255, 255, =
+255);"><span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, =
+255);">Details:</span><br style=3D"background-color: rgb(255, 255, 255);"><=
+span style=3D"background-color: rgb(255, 255, 255); font-size: 12pt;"><br><=
+/span><div><span style=3D"background-color: rgb(255, 255, 255); font-size: =
+12pt;">Speaker :</span><span style=3D"background-color: rgb(255, 255, 255);=
+ font-size: 12pt;">&nbsp;Madhur D. Amilkanthwar</span><br><span style=3D"co=
+lor: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">Date :</span><spa=
+n style=3D"background-color: rgb(255, 255, 255);">&nbsp;<font color=3D"#000=
+08b">31st October 2013, Thursday.</font></span><br style=3D"background-colo=
+r: rgb(255, 255, 255);"><span style=3D"color: rgb(0, 0, 0); background-colo=
+r: rgb(255, 255, 255);">Time : 14:00 hrs to 15:00 hrs</span><span style=3D"=
+color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">&nbsp;</span><b=
+r style=3D"background-color: rgb(255, 255, 255);"><span style=3D"color: rgb=
+(0, 0, 0); background-color: rgb(255, 255, 255);">Topic : Mitigating Penalt=
+ies of Uncoalesced Access Pattern on CUDA</span><div style=3D"color: rgb(0,=
+ 0, 0);"><span style=3D"font-size: 12pt; background-color: rgb(255, 255, 25=
+5);">Venue : BSB 361, Seminar Hall, Department of Computer Science and Engi=
+neering.</span><span style=3D"font-size: 12pt; background-color: rgb(255, 2=
+55, 255);">&nbsp;</span><br><div><br></div><div><br></div><div>Abstract :</=
+div><div>Modern architectures like Graphics Processing Units (GPUs) offer m=
+assive on-chip par<span style=3D"font-size: 12pt;">allelism and are ideally=
+ suited for data parallel applications. In spite of high compute</span></di=
+v><div>resources present on GPU, programming and fully utilizing GPUs is no=
+t an easy task.&nbsp;<span style=3D"font-size: 12pt;">NVIDIA=E2=80=99s GPU =
+programming platform is known as Compute Unified Device Archi-</span></div>=
+<div>tecture(CUDA). One of the challenges faced by a programmer on CUDA pla=
+tform is&nbsp;<span style=3D"font-size: 12pt;">address coalescing. Developi=
+ng applications with coalesced accesses to a data structure</span></div><di=
+v>may require series of optimize-code-profile passes and may affect develom=
+ent time and&nbsp;<span style=3D"font-size: 12pt;">programmers=E2=80=99 pro=
+ductivity. This thesis proposes a compiler tool called Compile-time</span><=
+/div><div>Uncoalesced Memory Access Pattern Locator (CUPL) which helps a pr=
+ogrammer to&nbsp;<span style=3D"font-size: 12pt;">locate Uncoalesced access=
+es to a data structure. Our tool takes a CUDA kernel and</span></div><div>c=
+orresponding kernel launch configuration as inputs and emits warnings if an=
+ access is&nbsp;<span style=3D"font-size: 12pt;">uncoalesced. To the best o=
+f our knowledge, CUPL is the first tool in the research com-</span></div><d=
+iv>munity which identifies access patterns at compile-time by analyzing the=
+ input source&nbsp;<span style=3D"font-size: 12pt;">code. We have tested co=
+rrectness of CUPL on benchmarks from Polybench-GPU and</span></div><div>Rod=
+inia suite and CUPL emits warnings whenever there is an uncoalesced access.=
+ In ad<span style=3D"font-size: 12pt;">dition to emitting performance warni=
+ngs, CUPL also fixes these warnings automatically.</span></div><div>After l=
+ocating an uncoalesced access to a data structure, CUPL splits the input CU=
+DA&nbsp;<span style=3D"font-size: 12pt;">kernel into two and performs data =
+layout transformation. Our data layout transforma-</span></div><div>tion mo=
+ves non-contiguous data points to contiguous locations. To hide the latency=
+ of&nbsp;<span style=3D"font-size: 12pt;">data layout transformation, we di=
+vide the memory region occupied by the data structure</span></div><div>into=
+ several chunks and perform transformation on a chunk level. We further ove=
+rlap&nbsp;<span style=3D"font-size: 12pt;">this time with data transfer (be=
+tween CPU and GPU) time. Our transformation yields</span></div><div>an aver=
+age 2x speedup over naive implementation on benchmarks from Polybench-GPU.<=
+/div><span style=3D"background-color: rgb(255, 255, 255);"><div><span style=
+=3D"background-color: rgb(255, 255, 255);"><br></span></div>All are welcome=
+!</span><span style=3D"background-color: rgb(255, 255, 255);">&nbsp;</span>=
+<br style=3D"background-color: rgb(255, 255, 255);"><br style=3D"background=
+-color: rgb(255, 255, 255);"><span style=3D"background-color: rgb(255, 255,=
+ 255);">---</span><br style=3D"background-color: rgb(255, 255, 255);"><span=
+ style=3D"background-color: rgb(255, 255, 255);">Madhur D. Amilkanthwar(CS1=
+1S015)</span></div><div style=3D"color: rgb(0, 0, 0);"><span style=3D"backg=
+round-color: rgb(255, 255, 255);">RISE Lab,</span><br style=3D"background-c=
+olor: rgb(255, 255, 255);"><span style=3D"background-color: rgb(255, 255, 2=
+55);">Department of Computer Science and Engineering, IIT Madras.</span></d=
+iv></div></div></body></html>
+------=_Part_3837199_220952050.1382804337804--

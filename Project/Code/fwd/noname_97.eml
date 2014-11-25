@@ -1,0 +1,124 @@
+Return-Path: shankar@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 3 Dec 2013 15:37:50 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6340FF7824D;
+	Tue,  3 Dec 2013 15:37:47 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -2.909
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.909 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id lsZb+nTuVSJk; Tue,  3 Dec 2013 15:37:41 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 918A1758026;
+	Tue,  3 Dec 2013 15:33:43 +0530 (IST)
+Date: Tue, 3 Dec 2013 15:33:43 +0530 (IST)
+From: Shankar Balachandran <shankar@cse.iitm.ac.in>
+To: scholars  <scholars@cse.iitm.ac.in>
+Cc: students  <students@cse.iitm.ac.in>
+Message-ID: <1856083944.10108658.1386065023052.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Dr. Chester Rebeiro's talk tomorrow at 10 am
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10108657_636804135.1386065023051"
+X-Originating-IP: [10.6.11.27]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_10108657_636804135.1386065023051
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Dear All=20
+
+
+Dr. Chester Rebeiro is giving a talk tomorrow. Please see the bio and talk =
+details below.=20
+
+
+Time: 10-11am on 4/12/2013=20
+Venue: CS25=20
+
+
+Talk: Covert Timing Channels in Cryptography - the Case of Time-Driven Cach=
+e Attacks on Block Ciphers=20
+
+
+
+
+Most implementations of cryptographic algorithms leak sensitive information=
+ through side-channels such as power, timing, and electro-magnetic radiatio=
+n of the device thus leading to the compromise of the system. The analysis =
+of side-channel attacks is difficult because the leakage not only depends o=
+n the cipher algorithm but also on the implementation and the execution pla=
+tform. As a result most prevention techniques are ad-hoc, bulky, and not ve=
+ry effective. This talk focuses on a category of side-channel attacks known=
+ as time-driven cache attacks, which retrieves sensitive information by uti=
+lizing variations in the execution time of a block cipher. The talk shows h=
+ow the magnitude of information leakage is affected by the interplay of the=
+ cache architecture, the block cipher algorithm, and its implementation. Fu=
+rthermore, for a given block cipher algorithm and cache architecture, infor=
+mation leakage can be eliminated by carefully tuning the implementation. Th=
+e talk demonstrates how such ideal implementations can be mathematically de=
+rived thus providing a systematic approach to implementing block ciphers se=
+cure against time-driven cache attacks.=20
+
+
+
+
+Speaker Bio:=20
+Chester Rebeiro is a post-doctoral researcher in the Department of Computer=
+ Science, Columbia University. He completed his PhD from IIT Kharagpur and =
+MS from IIT Madras, both from the CSE departments. Previously he was a memb=
+er technical staff at the real-time systems group in C-DAC, Bangalore. His =
+areas of interest include cryptography, computer architecture, and side-cha=
+nnel analysis.=20
+
+
+
+------=_Part_10108657_636804135.1386065023051
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><meta http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf-8"><=
+span class=3D"Apple-style-span" style=3D"font-size: 15.9722px; "><div>Dear =
+All</div><div><br></div><div>Dr. Chester Rebeiro is giving a talk tomorrow.=
+ Please see the bio and talk details below.</div><div><br></div><div>Time: =
+10-11am on 4/12/2013</div><div>Venue: CS25</div><div><span class=3D"Apple-s=
+tyle-span" style=3D"font-size: 15.9722px; "><br></span></div><div><span cla=
+ss=3D"Apple-style-span" style=3D"font-size: 15.9722px; ">Talk: Covert Timin=
+g Channels in Cryptography - the Case of Time-Driven Cache Attacks on Block=
+ Ciphers</span></div><div><br></div><div><br></div><div>Most implementation=
+s of cryptographic algorithms leak sensitive information through side-chann=
+els such as power, timing, and electro-magnetic radiation of the device thu=
+s leading to the compromise of the system. The analysis of side-channel att=
+acks is difficult because the leakage not only depends on the cipher algori=
+thm but also on the implementation and the execution platform. As a result =
+most prevention techniques are ad-hoc, bulky, and not very effective. This =
+talk focuses on a category of side-channel attacks known as time-driven cac=
+he attacks, which retrieves sensitive information by utilizing variations i=
+n the execution time of a block cipher. The talk shows how the magnitude of=
+ information leakage is affected by the interplay of the cache architecture=
+, the block cipher algorithm, and its implementation. Furthermore, for a gi=
+ven block cipher algorithm and cache architecture, information leakage can =
+be eliminated by carefully tuning the implementation. &nbsp;The talk demons=
+trates how such ideal implementations can be mathematically derived thus pr=
+oviding a systematic approach to implementing block ciphers secure against =
+time-driven cache attacks.</div><div><br></div><div><br></div><div>Speaker&=
+nbsp;<span id=3D"DWT82" style=3D"background-color: rgb(254, 244, 129); ">Bi=
+o:</span></div><div><span><span id=3D"DWT84" style=3D"background-color: rgb=
+(254, 244, 129); ">Chester</span></span>&nbsp;Rebeiro is a post-doctoral re=
+searcher in the Department of Computer Science, Columbia University. He com=
+pleted his PhD from IIT Kharagpur and MS from IIT Madras, both from the CSE=
+ departments. Previously he was a member technical staff at the real-time s=
+ystems group in C-DAC, Bangalore. His areas of interest include cryptograph=
+y, computer &nbsp;architecture, and side-channel analysis.</div><div><br></=
+div><div></div></span></div></body></html>
+------=_Part_10108657_636804135.1386065023051--

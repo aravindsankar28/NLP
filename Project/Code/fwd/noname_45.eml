@@ -1,0 +1,221 @@
+Return-Path: prateekndfrnds@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 4 Jun 2014 10:57:42 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 5B90CF78122;
+	Wed,  4 Jun 2014 10:57:39 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 2.109
+X-Spam-Level: **
+X-Spam-Status: No, score=2.109 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, FROM_LOCAL_NOVOWEL=0.5,
+	HK_RANDOM_ENVFROM=0.001, HK_RANDOM_FROM=2.941, HTML_MESSAGE=0.001,
+	SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id M87m5Llahp7b; Wed,  4 Jun 2014 10:57:34 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0978FF7804C;
+	Wed,  4 Jun 2014 10:56:46 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 7F8097807FB;
+	Wed,  4 Jun 2014 11:17:11 +0530 (IST)
+Received: from mail-wg0-f48.google.com ([74.125.82.48])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201406040533380037683; Wed, 04 Jun 2014 11:03:40 +0530
+Received: by mail-wg0-f48.google.com with SMTP id k14so7861203wgh.7
+        for <multiple recipients>; Tue, 03 Jun 2014 22:47:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:cc:content-type;
+        bh=zDoQ2aBoVaPJ+pfVaCsjLiipuLnhyDDa67FUWUo9DlI=;
+        b=PtHM5010+RjVaGgVMG7b3vtowhie4eW6fck8poc4waTJI66nZVjoHJ6QGzmNm1Tpin
+         Iczj2eAipvV+S1UY/Ji3rA7nIwEzpFTfrJvjiPxHr9vbBCX7XNu8XlWZQaEPcEbtofhV
+         GMH/Zc2vIHi9lT7rBEJX7BhzynI2qOwKOXytkLoJiYtmo8fNxfq153L8fevVi5ozM0N1
+         z7HWCTm6Er1GkgkeabFFuOWpt2REuTwg75Za9UZhWXZVmmiBe3d/BCJM7yYGIhEcMRrK
+         zCZZnV3hXvb8FrG+0+DI1DX4gSORGZLpYESYU293mKvU4X0LyKxKbRVJLnmI+zyYo3yv
+         aDcA==
+MIME-Version: 1.0
+X-Received: by 10.180.81.102 with SMTP id z6mr1585964wix.54.1401860829818;
+ Tue, 03 Jun 2014 22:47:09 -0700 (PDT)
+Received: by 10.216.178.199 with HTTP; Tue, 3 Jun 2014 22:47:09 -0700 (PDT)
+Date: Wed, 4 Jun 2014 11:17:09 +0530
+Message-ID: <CAL_-sySyWei86UjD_dSTV_XTKs1wfoDVAQwjK=0_1W9q_YpNWg@mail.gmail.com>
+Subject: MS Seminar Talk on 6th June at 3:00 PM
+From: prateek dhawalia <prateekndfrnds@gmail.com>
+To: Seminar <seminar@cse.iitm.ac.in>, scholars <scholars@cse.iitm.ac.in>
+Cc: rangan@cse.iitm.ac.in, shankar@cse.iitm.ac.in, 
+	Janakiram Dharanipragada <dharanipragada.janakiram@gmail.com>, karmal@iitm.ac.in
+Content-Type: multipart/alternative; boundary=f46d04428fb4c93c5e04fafc286c
+X-Mlf-DKIM: dkim=pass header.i=gmail.com 
+X-Mlf-KeyWords: emphasizes,continuously,huge,dear,kindly,collect,unprecedented,researchers,compu
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 74.125.82.48
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201406040533380037683
+
+--f46d04428fb4c93c5e04fafc286c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,
+     I invite you to my MS seminar on 6th June 2014 (Friday) at 3:00 PM.
+Kindly make it convenient to attend the seminar. The details of the seminar
+are as follows.
+
+*Title :* Handling Skew in MapReduce Applications.
+*Speaker :* Prateek Dhawalia(CS11S020)
+*Time :* 06-06-2014 (Friday) at 3:00 PM
+*Venue :* BSB 361, Seminar Hall, Department of Computer Science and
+Engineering
+
+*Abstract:*
+
+Web, scientific research and surveys, businesses are generating huge
+volumes of data. Users are leveraging the power of advanced technologies
+and sensors to collect data at an unprecedented rate. The voluminous amount
+of data being generated is also termed as Big Data and its study is not
+restricted to any particular field. Analyzing such data gives meaningful
+insights and exposes the hidden co-relation among data to promote business,
+solve scientific mysteries and much more. Researchers and industry are
+continuously striving to develop tools to process such huge volumes of data
+generated. Tools like parallel DBMS=E2=80=99s and MapReduce have been popul=
+arly
+used for processing big data. This work focuses on handling skew in
+MapReduce applications by making MapReduce frameworks detect skew
+dynamically in the system. Skew occurs in a MapReduce job when there is
+significant variance in the execution times of the parallel tasks in a job.
+Completing all the tasks at the same time is important for the completion
+of the entire job. One slow running task delays the completion of the
+entire job. Resource utilization also decreases because only a few slow
+running tasks utilize the cluster in the presence of skew. This extremely
+diminishes the performance achievable by parallel programming frameworks
+like MapReduce and the main objective of using such frameworks is defeated.
+This work emphasizes on dynamically handling skew in the system. It
+proposes and implements two approaches i.e Chisel and Chisel++, to handle
+skew in the parallel tasks of a job. Chisel deals in dynamically handling
+computation skew in map tasks and data skew in reduce tasks. It also
+modifies the job scheduler to improve the completion time of jobs. It is
+provisioned to dynamically decide the point at which the reduce tasks
+should start so that the pipelining between the map and reduce phase
+is maximized. Chisel++ is an extension to Chisel and focuses only on
+alleviating the disadvantages of Chisel when handling data skew in reduce
+tasks. It incorporates an efficient range-partitioning technique to achieve
+better performance.
+--=20
+*--- ALL ARE WELCOME ---*
+
+
+
+
+
+
+*regardsPrateek DhawaliaMS ScholarDOS LabIIT, Chennai*
+
+--f46d04428fb4c93c5e04fafc286c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"color:rgb(0,0,0);font-family:&#39;Times New=
+ Roman&#39;;font-size:16.363636016845703px">Dear All,</span><br style=3D"co=
+lor:rgb(0,0,0);font-family:&#39;Times New Roman&#39;;font-size:16.363636016=
+845703px">
+<span style=3D"color:rgb(0,0,0);font-family:&#39;Times New Roman&#39;;font-=
+size:16.363636016845703px">=C2=A0=C2=A0=C2=A0=C2=A0 I invite you to my MS s=
+eminar on=C2=A0</span><span style=3D"color:rgb(0,0,0);font-family:&#39;Time=
+s New Roman&#39;;font-size:16.363636016845703px">6th June 2014</span><span =
+style=3D"color:rgb(0,0,0);font-family:&#39;Times New Roman&#39;;font-size:1=
+6.363636016845703px">=C2=A0(</span><span style=3D"color:rgb(0,0,0);font-fam=
+ily:&#39;Times New Roman&#39;;font-size:16.363636016845703px">Friday</span>=
+<span style=3D"color:rgb(0,0,0);font-family:&#39;Times New Roman&#39;;font-=
+size:16.363636016845703px">) at=C2=A03</span><span class=3D"" tabindex=3D"0=
+" style=3D"color:rgb(0,0,0);font-family:&#39;Times New Roman&#39;;font-size=
+:16.363636016845703px"><span class=3D"">:00 PM</span></span><span style=3D"=
+color:rgb(0,0,0);font-family:&#39;Times New Roman&#39;;font-size:16.3636360=
+16845703px">. Kindly make it convenient to attend the seminar. The details =
+of the seminar are as follows.</span><div style=3D"color:rgb(0,0,0);font-fa=
+mily:&#39;Times New Roman&#39;;font-size:16.363636016845703px">
+<br></div><div style=3D"color:rgb(0,0,0);font-family:&#39;Times New Roman&#=
+39;;font-size:16.363636016845703px"><b>Title :</b>=C2=A0Handling Skew in Ma=
+pReduce Applications.</div><div style=3D"font-family:&#39;Times New Roman&#=
+39;;font-size:16.363636016845703px">
+<span style=3D"color:rgb(0,0,0)"><b>Speaker :</b>=C2=A0</span><span style=
+=3D"background-color:rgb(255,255,204)">Prateek Dhawalia</span><font color=
+=3D"#000000">(CS11S020)</font></div><div style=3D"color:rgb(0,0,0);font-fam=
+ily:&#39;Times New Roman&#39;;font-size:16.363636016845703px">
+<b>Time :</b>=C2=A006-06-2014 (Friday) at=C2=A03<span class=3D"" tabindex=
+=3D"0"><span class=3D"">:00 PM</span></span></div><div style=3D"color:rgb(0=
+,0,0);font-family:&#39;Times New Roman&#39;;font-size:16.363636016845703px"=
+><b>Venue :</b>=C2=A0BSB 361, Seminar Hall, Department of Computer Science =
+and Engineering</div>
+<div style=3D"color:rgb(0,0,0);font-family:&#39;Times New Roman&#39;;font-s=
+ize:16.363636016845703px"><br></div><div style=3D"color:rgb(0,0,0);font-fam=
+ily:&#39;Times New Roman&#39;;font-size:16.363636016845703px"><b>Abstract:<=
+/b><br>
+</div><div style=3D"color:rgb(0,0,0);font-family:&#39;Times New Roman&#39;;=
+font-size:16.363636016845703px"><b><br></b></div><div style=3D"color:rgb(0,=
+0,0);font-family:&#39;Times New Roman&#39;;font-size:16.363636016845703px">
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:12.5pt;background-image:initial;background-repeat:initial">Web,
+scientific research and surveys, businesses are generating huge volumes of
+data. Users are leveraging the power of advanced technologies and sensors t=
+o
+collect data at an unprecedented rate. The voluminous amount of data being
+generated is also termed as Big Data and its study is not restricted to any
+particular field. Analyzing such data gives meaningful insights and exposes=
+ the
+hidden co-relation among data to promote business, solve scientific mysteri=
+es
+and much more. Researchers and industry are continuously striving to develo=
+p
+tools to process such huge volumes of data generated. Tools like parallel
+DBMS=E2=80=99s and MapReduce have been popularly used for processing big da=
+ta. This
+work focuses on handling skew in MapReduce applications by making MapReduce
+frameworks detect skew dynamically in the system. Skew occurs in a MapReduc=
+e
+job when there is significant variance in the execution times of the parall=
+el
+tasks in a job. Completing all the tasks at the same time is important for =
+the
+completion of the entire job. One slow running task delays the completion o=
+f
+the entire job. Resource utilization also decreases because only a few slow
+running tasks utilize the cluster in the presence of skew. This extremely
+diminishes the performance achievable by parallel programming frameworks li=
+ke
+MapReduce and the main objective of using such frameworks is defeated. This
+work emphasizes on dynamically handling skew in the system. It proposes and
+implements two approaches i.e Chisel and Chisel++, to handle skew in the pa=
+rallel
+tasks of a job. Chisel deals in dynamically handling computation skew in ma=
+p
+tasks and data skew in reduce tasks. It also modifies the job scheduler to
+improve the completion time of jobs. It is provisioned to dynamically decid=
+e
+the point at which the reduce tasks should start so that the pipelining bet=
+ween
+the map and reduce phase is=C2=A0maximized. Chisel++ is an extension to Chi=
+sel
+and focuses only on alleviating the disadvantages of Chisel when handling d=
+ata
+skew in reduce tasks. It incorporates an efficient range-partitioning techn=
+ique
+to achieve better performance.</span><span style=3D"font-size:12pt"></span>=
+</p></div>--=C2=A0<div><span style=3D"font-family:arial,sans-serif;font-siz=
+e:12.727272033691406px;text-align:center"><b>--- ALL ARE WELCOME ---</b></s=
+pan></div>
+<div><div style=3D"text-align:center"><font face=3D"arial, sans-serif"><br>=
+</font></div><i style=3D"font-family:verdana,sans-serif;color:rgb(51,51,153=
+)">regards<br><br>Prateek Dhawalia<br>MS Scholar<br>DOS Lab<br>IIT, Chennai=
+</i><br>
+
+</div></div>
+
+--f46d04428fb4c93c5e04fafc286c--

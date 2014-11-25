@@ -1,0 +1,114 @@
+Return-Path: sjbalaji@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 20 Feb 2014 00:06:21 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id DCBAEF7C256;
+	Thu, 20 Feb 2014 00:05:06 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id hD2-0jJynvde; Thu, 20 Feb 2014 00:05:03 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 90BD5F78915;
+	Thu, 20 Feb 2014 00:05:00 +0530 (IST)
+Date: Thu, 20 Feb 2014 00:04:54 +0530 (IST)
+From: "sjbalaji@cse.iitm.ac.in" <sjbalaji@cse.iitm.ac.in>
+To: scholars@cse.iitm.ac.in, students@cse.iitm.ac.in
+Cc: "djram@cse.iitm.ac.in" <djram@cse.iitm.ac.in>
+Message-ID: <645516351.11455.1392834894225.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1388048767.11170.1392834677409.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk on Accuracy-Aware Program Transformations
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_11454_1648823377.1392834894207"
+X-Originating-IP: [10.22.55.55]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_11454_1648823377.1392834894207
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear all,=20
+
+Talk Title: Accuracy-Aware Program Transformations=20
+
+Speaker : Sasa Misailovic=20
+
+Time and Venue : Feb 20th 12:00 - 13:00 PM at BSB361=20
+
+Abstract:=20
+
+Despite the fact that approximate computations have come to dominate many a=
+reas of computer science, the field of program transformations has focused =
+almost exclusively on traditional semantics-preserving transformations that=
+ do not attempt to exploit the opportunity, available in many computations,=
+ to acceptably trade off accuracy for benefits such as increased performanc=
+e and reduced resource consumption.=20
+
+
+We present a model of computation for approximate computations and an algor=
+ithm for optimizing these computations. The algorithm works with two classe=
+s of transformations: substitution transformations (which select one of a n=
+umber of available implementations for a given function, with each implemen=
+tation offering a different combination of accuracy and resource consumptio=
+n) and sampling transformations (which randomly discard some of the inputs =
+to a given reduction). The algorithm produces a (1+=CE=B5) randomized appro=
+ximation to the optimal randomized computation (which minimizes resource co=
+nsumption subject to a probabilistic accuracy specification in the form of =
+a maximum expected error or maximum error variance).=20
+Bio:=20
+
+Sasa Misailovic received his B.Sc. in Computer Science from the School of E=
+E, Univ. of Belgrade, Serbia. He is currently a graduate student at the Dep=
+t. of EE&CS at MIT. His current research interests includes program analysi=
+s, software engineering, and programming languages.=20
+
+--=20
+
+Thanks, S J Balaji=20
+MS Scholar=20
+DOS Lab
+------=_Part_11454_1648823377.1392834894207
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear all,<br><br>Talk Title: <b>Accuracy-Aware Program Transformations<br>=
+</b><span style=3D"letter-spacing:0px"><br>Speaker : Sasa Misailovic<br></s=
+pan><h2> </h2>
+
+        Time and Venue : Feb 20th 12:00 - 13:00 PM at BSB361<br><br>Abstrac=
+t: <br><br>Despite the fact that=20
+approximate computations have come to dominate many areas of computer=20
+science, the field of program transformations has focused almost=20
+exclusively on traditional semantics-preserving transformations that do=20
+not attempt to exploit the opportunity, available in many computations,=20
+to acceptably trade off accuracy for benefits such as increased=20
+performance and reduced resource consumption.<div style=3D"display:inline">=
+ <p>We present a model=20
+of computation for approximate computations and an algorithm for=20
+optimizing these computations. The algorithm works with two classes of=20
+transformations: substitution transformations (which select one of a=20
+number of available implementations for a given function, with each=20
+implementation offering a different combination of accuracy and resource
+ consumption) and sampling transformations (which randomly discard some=20
+of the inputs to a given reduction). The algorithm produces a (1+=CE=B5)=20
+randomized approximation to the optimal randomized computation (which=20
+minimizes resource consumption subject to a probabilistic accuracy=20
+specification in the form of a maximum expected error or maximum error=20
+variance).</p></div><br>Bio: <span style=3D"letter-spacing:0px"><br><br>Sas=
+a Misailovic </span><span style=3D"letter-spacing:0px">received
+ his B.Sc. in Computer Science from the School of EE, Univ. of Belgrade,
+ Serbia. He is currently a graduate student at the Dept. of EE&amp;CS at
+ MIT. His current research interests includes </span> program analysis, sof=
+tware engineering, and programming languages.<br>
+<br>-- <br><div>Thanks,</div>S J Balaji<br>MS Scholar <br>DOS Lab</div></bo=
+dy></html>
+------=_Part_11454_1648823377.1392834894207--

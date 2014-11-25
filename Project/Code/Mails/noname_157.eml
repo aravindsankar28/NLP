@@ -1,0 +1,52 @@
+Dear All,=20
+
+
+There will be a Department Seminar by Gurulingesh Raravi from University of=
+ Porto at 4 p.m. in BSB 361 on Wednesday, the 7th. Details below. All are w=
+elcome.=20
+
+
+Regards=20
+Ravi.=20
+
+
+
+Title:=20
+Real-Time Scheduling on Heterogeneous Multicores=20
+
+
+Abstract:=20
+Parallel processing platforms are spreading at an unprecedented rate. Tradi=
+tionally, parallel processing platforms were used to reduce the execution t=
+ime of a large computational job such as predicting the weather but now the=
+y are also used in low-end systems and embedded real-time systems thanks to=
+ the availability of multicore processors. Specifically, heterogeneous mult=
+icores now enjoy a period of widespread use since specialized processing un=
+its in those multicores such as graphics processors, digital signal process=
+ors, network processors, etc. offer a significant performance boost. All ma=
+jor semiconductor companies are offering heterogeneous multicores, e.g., In=
+tel Atom, AMD Fusion and NVIDIA Tegra. Although the processor cores in such=
+ a heterogeneous multicore are different and each type offers its own disti=
+nct advantage for various workloads, the trend is to make the processor cor=
+es generic. For example, a graphics processor can be efficiently used (to o=
+btain a good performance) for some computations that are not computer graph=
+ics operations, such as sorting and numerical vector calculations. We can t=
+herefore expect that the computational workhorse for both desktop and embed=
+ded computer systems in the near future will be a heterogeneous multicore. =
+Deploying embedded real-time systems on such heterogeneous multicores requi=
+res development of real-time scheduling theory with provably good algorithm=
+s. Hence, my PhD work aimed at developing provably good real-time schedulin=
+g algorithms for heterogeneous multicores. This talk (i) will describe in d=
+etail one such algorithm that works for two-type heterogeneous multicores i=
+n which there are two distinct types of processors and (ii) will also provi=
+de an overview of the other contributions of my dissertation work.=20
+
+
+Speaker Bio:=20
+Gurulingesh raravi is currently a fourth year PhD student at the University=
+ of Porto and he is associated with the CISTER Research Centre in Porto. Hi=
+s current research interest is in embedded real-time systems scheduling the=
+ory. He received the Masters degree from Indian Institute of Technology Bom=
+bay in 2005, and the Bachelors degree from Karnataka University in 2001. Pr=
+ior to entering graduate school, he worked for three years as a research en=
+gineer.

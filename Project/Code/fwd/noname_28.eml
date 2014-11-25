@@ -1,0 +1,206 @@
+Return-Path: jayalal.sarma@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 31 Jul 2014 07:07:13 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9E8282198003;
+	Thu, 31 Jul 2014 07:07:10 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.223
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.223 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665,
+	T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id kkmxjOWz1DRK; Thu, 31 Jul 2014 07:07:02 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id BD39FF78051
+	for <seminar@cse.iitm.ac.in>; Thu, 31 Jul 2014 07:07:01 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 06974780A80
+	for <seminar@cse.iitm.ac.in>; Thu, 31 Jul 2014 07:30:12 +0530 (IST)
+Authentication-Results: mailx1.iitm.ac.in;
+	spf=pass smtp.mailfrom=jayalal.sarma@gmail.com;
+Received: from mail-ig0-f171.google.com ([209.85.213.171])
+	by mailx1.iitm.ac.in (SonicWALL 8.0.0.2099)
+	with ESMTP id 201407310159380024961; Thu, 31 Jul 2014 07:29:39 +0530
+Received: by mail-ig0-f171.google.com with SMTP id l13so8466356iga.4
+        for <seminar@cse.iitm.ac.in>; Wed, 30 Jul 2014 19:00:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:from:date:message-id
+         :subject:to:content-type;
+        bh=JAiITYa0Nzo8eSB2oFpcYF7ylvnvbfPO/wu15Y5eueA=;
+        b=HZQaj2QG2LDanjCOcg0XWblHrekjEQxFgcd9iS2dBVuPdeVaEXRuzu7nymlmFeVKRF
+         l/8D/H3+4HQcaYywpPSWlMdg0IofkMUKu1Yi/MmOC6Xm+DE3tpkWM1ojHdpeDd9ideWf
+         O76j0Pz0dRwHgBxUucld6Zx7/aSUwXrM/PVOqlDREDs8JXfWZ+n5HXUT1pdgc8nTOcx1
+         fOWlFETX2vjJDl3KrLSentEHREyJkvSCyjtr6IjaZO4mEjm/EtgaiYPunczrxu/EYwSZ
+         MLN3F40tp6yeezLRuqEHGKdC6bhOIuTt4r065GqSe+ldGYyDOcau01/inwn3mnCUD1Yv
+         jnYg==
+X-Received: by 10.42.189.73 with SMTP id dd9mr10507044icb.84.1406772011082;
+ Wed, 30 Jul 2014 19:00:11 -0700 (PDT)
+MIME-Version: 1.0
+Sender: jayalal.sarma@gmail.com
+Received: by 10.64.31.227 with HTTP; Wed, 30 Jul 2014 18:59:50 -0700 (PDT)
+In-Reply-To: <CAL_Lm_g_F_W6DqtK5unW-ruSCFwdgdrpWVP+W56Az02U+gmN7w@mail.gmail.com>
+References: <CAL_Lm_g_F_W6DqtK5unW-ruSCFwdgdrpWVP+W56Az02U+gmN7w@mail.gmail.com>
+From: Jayalal Sarma <jayalal@cse.iitm.ac.in>
+Date: Thu, 31 Jul 2014 07:29:50 +0530
+X-Google-Sender-Auth: FMP-yOfe08NWDv_vAOF5bDfS66k
+Message-ID: <CAL_Lm_g4a7jetG=ME-OPPXd+m5ypT9FYbyD6RgNagZK7GyebFA@mail.gmail.com>
+Subject: Re: Seminar Announcement : Talk by Venkatesan Guruswami (CMU,
+ Pittsburgh, USA)
+To: seminar@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=20cf303ea622002c9e04ff73a2a6
+X-Mlf-SPF: result=pass;action=none;identity=mailfrom;domain=gmail.com;source=209.85.213.171;details:allowedlist=consider;
+X-Mlf-KeyWords: talk,satisfaction,cs,gentle,usa,color,efficient,test,faculty,constraint,clause,a
+X-Mlf-AddressBook: jayalal.sarma@gmail.com,people,allowed
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.213.171
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;allowlist_sender;none;list_addrbk_sender
+X-Mlf-UniqueId: i201407310159380024961
+
+--20cf303ea622002c9e04ff73a2a6
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+A gentle reminder.
+
+
+On 22 July 2014 17:41, Jayalal Sarma <jayalal@cse.iitm.ac.in> wrote:
+
+> Dear All,
+>
+> Dr. Venkatesan Guruswami (http://www.cs.cmu.edu/~venkatg/), who is our
+> alumnus and currently a faculty member at CMU, USA, will be visiting
+> the department during Jul 31st - Aug 1st. He will be giving a talk at
+> the department on Jul 31st, Thursday. Please find below the details of
+> the talk.
+>
+>
+> -------------------------------------------------------------------------=
+-----
+> Title : Hardness of (2+eps)-SAT and Balanced Hypergraph Coloring
+> Speaker : Dr. Venkatesan Guruswami (CMU, Pittsburgh, USA)
+> Date & TIme : Jul 31, 2014, Thursday, 2:30pm - 3:30pm.
+> Venue : CS25
+>
+> -------------------------------------------------------------------------=
+-----
+> Abstract:
+> Given a k-SAT instance with the promise that there is an assignment
+> satisfying at least t out of k literals in each clause, can one
+> efficiently find a satisfying assignment (setting at least one literal
+> to true in every clause)? The NP-hardness of 3-SAT implies that this
+> problem is NP-hard when t <=3D k/3, and extensions of some 2-SAT
+> algorithms give efficient solutions when t >=3D k/2.
+>
+> We prove that for t < k/2, the problem is NP-hard. Thus,
+> satisfiability becomes hard when the promised density of true literals
+> falls below 1/2. One might thus say that the transition from easy to
+> hard in 2-SAT vs. 3-SAT takes place just after two and not just before
+> three.
+>
+> A strengthening of this result shows that given a (2k+1)-uniform
+> hypergraph that can be 2-colored such that each edge has near-perfect
+> balance (at most k+1 vertices of each color), it is NP-hard to even
+> find a 2-coloring that avoids a monochromatic edge. This shows extreme
+> hardness of discrepancy minimization for systems of bounded-size sets.
+>
+> The talk will sketch our proof of the SAT result, which is based on
+> the fact that the only functions passing a natural ``dictatorship
+> test" are ``juntas" depending on few variables. We might also briefly
+> mention the general principle (based on the lack of certain
+> ``polymorphisms") that underlies hardness of constraint satisfaction,
+> and an improvement of the hypergraph coloring result (for 2k-uniform
+> hypergraphs) ruling out coloring with any constant number of colors.
+>
+> Based on joint works with Per Austrin and Johan H=C3=A5stad
+> (http://eccc.hpi-web.de/report/2013/159/) and Euiwoong Lee
+> (http://eccc.hpi-web.de/report/2014/043/)
+>
+> -------------------------------------------------------------------------=
+-----
+>
+>
+> Best regarrds,
+> Jayalal
+>
+
+--20cf303ea622002c9e04ff73a2a6
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>A gentle reminder.<br></div></div><div class=3D"gmail=
+_extra"><br><br><div class=3D"gmail_quote">On 22 July 2014 17:41, Jayalal S=
+arma <span dir=3D"ltr">&lt;<a href=3D"mailto:jayalal@cse.iitm.ac.in" target=
+=3D"_blank">jayalal@cse.iitm.ac.in</a>&gt;</span> wrote:<br>
+
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">Dear All,<br>
+<br>
+Dr. Venkatesan Guruswami (<a href=3D"http://www.cs.cmu.edu/~venkatg/" targe=
+t=3D"_blank">http://www.cs.cmu.edu/~venkatg/</a>), who is our<br>
+alumnus and currently a faculty member at CMU, USA, will be visiting<br>
+the department during Jul 31st - Aug 1st. He will be giving a talk at<br>
+the department on Jul 31st, Thursday. Please find below the details of<br>
+the talk.<br>
+<br>
+---------------------------------------------------------------------------=
+---<br>
+Title : Hardness of (2+eps)-SAT and Balanced Hypergraph Coloring<br>
+Speaker : Dr. Venkatesan Guruswami (CMU, Pittsburgh, USA)<br>
+Date &amp; TIme : Jul 31, 2014, Thursday, 2:30pm - 3:30pm.<br>
+Venue : CS25<br>
+---------------------------------------------------------------------------=
+---<br>
+Abstract:<br>
+Given a k-SAT instance with the promise that there is an assignment<br>
+satisfying at least t out of k literals in each clause, can one<br>
+efficiently find a satisfying assignment (setting at least one literal<br>
+to true in every clause)? The NP-hardness of 3-SAT implies that this<br>
+problem is NP-hard when t &lt;=3D k/3, and extensions of some 2-SAT<br>
+algorithms give efficient solutions when t &gt;=3D k/2.<br>
+<br>
+We prove that for t &lt; k/2, the problem is NP-hard. Thus,<br>
+satisfiability becomes hard when the promised density of true literals<br>
+falls below 1/2. One might thus say that the transition from easy to<br>
+hard in 2-SAT vs. 3-SAT takes place just after two and not just before<br>
+three.<br>
+<br>
+A strengthening of this result shows that given a (2k+1)-uniform<br>
+hypergraph that can be 2-colored such that each edge has near-perfect<br>
+balance (at most k+1 vertices of each color), it is NP-hard to even<br>
+find a 2-coloring that avoids a monochromatic edge. This shows extreme<br>
+hardness of discrepancy minimization for systems of bounded-size sets.<br>
+<br>
+The talk will sketch our proof of the SAT result, which is based on<br>
+the fact that the only functions passing a natural ``dictatorship<br>
+test&quot; are ``juntas&quot; depending on few variables. We might also bri=
+efly<br>
+mention the general principle (based on the lack of certain<br>
+``polymorphisms&quot;) that underlies hardness of constraint satisfaction,<=
+br>
+and an improvement of the hypergraph coloring result (for 2k-uniform<br>
+hypergraphs) ruling out coloring with any constant number of colors.<br>
+<br>
+Based on joint works with Per Austrin and Johan H=C3=A5stad<br>
+(<a href=3D"http://eccc.hpi-web.de/report/2013/159/" target=3D"_blank">http=
+://eccc.hpi-web.de/report/2013/159/</a>) and Euiwoong Lee<br>
+(<a href=3D"http://eccc.hpi-web.de/report/2014/043/" target=3D"_blank">http=
+://eccc.hpi-web.de/report/2014/043/</a>)<br>
+---------------------------------------------------------------------------=
+---<br>
+<br>
+<br>
+Best regarrds,<br>
+Jayalal<br>
+</blockquote></div><br></div>
+
+--20cf303ea622002c9e04ff73a2a6--

@@ -1,0 +1,60 @@
+Return-Path: cchatto@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 11 Feb 2013 21:55:02 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6124DF7811C;
+	Mon, 11 Feb 2013 21:55:00 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id UoSsa4W+mfyu; Mon, 11 Feb 2013 21:54:52 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 48563F78105
+	for <all@cse.iitm.ac.in>; Mon, 11 Feb 2013 21:54:52 +0530 (IST)
+Date: Mon, 11 Feb 2013 21:54:52 +0530 (IST)
+From: cchatto@cse.iitm.ac.in
+To: all  <all@cse.iitm.ac.in>
+Message-ID: <324370472.1197.1360599892210.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <934142343.1188.1360599589742.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Prof. C.A. Murthy's Talk
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1196_736248298.1360599892209"
+X-Originating-IP: [203.199.213.70]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_1196_736248298.1360599892209
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+
+Prof. C.A.Murthy of ISI Kolkata (http://www.isical.ac.in/~murthy/) will be giving a talk as part of the NPTEL video lectures. The details are as follows, 
+
+
+Topic: Support Vector Machines 
+Date : 12 Feb, 2013 
+Time: 3 - 5 PM 
+Place : NPTEL Studios, ICSR 
+
+
+Those who are interested may attend the lecture. 
+
+
+Regards, 
+
+
+Chiranjoy 
+------=_Part_1196_736248298.1360599892209
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'>Dear All,<div><br></div><div>Prof. C.A.Murthy of ISI Kolkata (http://www.isical.ac.in/~murthy/) will be giving a talk as part of the NPTEL video lectures. The details are as follows,</div><div><br></div><div>Topic: Support Vector Machines</div><div>Date : 12 Feb, 2013</div><div>Time: 3 - 5 PM</div><div>Place : NPTEL Studios, ICSR&nbsp;</div><div><br></div><div>Those who are interested may attend the lecture.</div><div><br></div><div>Regards,</div><div><br></div><div>Chiranjoy&nbsp;</div></div></body></html>
+------=_Part_1196_736248298.1360599892209--

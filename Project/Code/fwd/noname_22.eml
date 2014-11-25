@@ -1,0 +1,146 @@
+Return-Path: niharr@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 14 Aug 2014 07:03:35 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B365DF7812D;
+	Thu, 14 Aug 2014 07:03:33 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id cQZJACAzcfUM; Thu, 14 Aug 2014 07:03:30 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 2C19CF78129;
+	Thu, 14 Aug 2014 07:03:29 +0530 (IST)
+Date: Thu, 14 Aug 2014 07:03:29 +0530 (IST)
+From: niharr@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>, scholars@cse.iitm.ac.in
+Cc: Shankar Balachandran <shankar@cse.iitm.ac.in>, madhu  <madhu@cse.iitm.ac.in>, 
+	sridhara@ee.iitm.ac.in, sdas  <sdas@cse.iitm.ac.in>
+Message-ID: <2012676843.48387.1407980009112.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <145089523.48375.1407979525861.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar Invitation
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_48386_1584762591.1407980009111"
+X-Originating-IP: [10.93.0.36]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_48386_1584762591.1407980009111
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Dear All, 
+I am presenting my MS Seminar on 19 th August , 2014( Tuesday ) . Please make it convenient to attend the talk and give your valuable feedback. 
+
+Details: 
+
+Topic : Low c ost router micro-architecture for Network on-Chip 
+
+
+Speaker : Rathod Nihar B 
+
+Guide : Dr Shankar Balachandran 
+
+Date : August 19 , 2014 
+Time : 3PM to 4 PM 
+Venue : BSB 361(Seminar Hall), Dept of Computer Science and Engineering 
+
+
+Abstract 
+
+
+
+Network on Chip(NoC) architectures are widely accepted as effective communication fabric to handle large and high performance Chip Multi-Processor (CMP) systems. Chip designers are use more processing elements on a single chip to gain performance by exploiting parallelism. As core count in increases, design complexity, area and power consumption have become serious concern for scalable multi-core systems. Enhancing performance of NoCs under strict area and power budgets is of practical concern. Many low cost router micro-architecture have been proposed with simple design, which consumes less power and area but at the cost of increase in the average latency of the network. 
+
+
+In this work, we analysed the existing low cost router for unidirectional torus topology. We identified the scenarios that affects the performance of the router. We have optimized the router design and proposed CAERUS router micro-architecture. CAERUS design has an effective ejection policy, which avoids unnecessary traversals and an arbitration policy, which balances the opportunity for progress among the router. Experimental results show that, compared to the existing low-cost router designs, CAERUS reduces the traversal latency of the flits in the network and sustain the throughput at higher injection rates. The area and power expenditures are comparable to the existing low cost router architectures. 
+
+All are invited. 
+
+
+
+Thanks, 
+
+
+Best Regards, Nihar Rathod 
+CS12S041 
+RISE Lab 
+CSE Dept. 
+
+------=_Part_48386_1584762591.1407980009111
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div style=3D"font-family: Times New Roman; font-size: 12pt; color: #00000=
+0"><div style=3D"text-align: justify;">Dear All,</div><br><font size=3D"3">=
+I am presenting my MS Seminar on </font><b style=3D"color: rgb(0, 0, 0); fo=
+nt-family: 'Times New Roman'; font-size: 12pt;"><span class=3D"Object" id=
+=3D"OBJ_PREFIX_DWT61">19th August</span>, 2014(Tuesday)</b><font size=3D"3"=
+>. Please make it convenient to attend the talk and give your valuable feed=
+back.</font><br><br><font size=3D"3">Details:</font><br><br><b style=3D"col=
+or: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;">Topic &=
+nbsp; &nbsp; &nbsp; : Low cost router micro-architecture for Network on-Chi=
+p<br></b><div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Ro=
+man'; font-size: 12pt;"><b>Speaker &nbsp;:&nbsp; </b>Rathod Nihar B<br></di=
+v><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-s=
+ize: 12pt;"><b>Guide &nbsp; &nbsp; &nbsp;: &nbsp;</b>Dr Shankar Balachandra=
+n<br></div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman=
+'; font-size: 12pt;"><b>Date &nbsp; &nbsp; &nbsp; &nbsp;:</b>&nbsp; <span c=
+lass=3D"Object" id=3D"OBJ_PREFIX_DWT63">August 19</span>, 2014&nbsp;</div><=
+div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size=
+: 12pt;"><b>Time &nbsp; &nbsp; &nbsp; :&nbsp; </b>3PM to 4 PM</div><div sty=
+le=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;=
+"><b>Venue &nbsp; &nbsp; :&nbsp; </b>BSB 361(Seminar Hall), Dept of Compute=
+r Science and Engineering</div><div style=3D"color: rgb(0, 0, 0); font-fami=
+ly: 'Times New Roman'; font-size: 12pt;"><br></div><div style=3D"color: rgb=
+(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;"><b>Abstract</b=
+></div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; f=
+ont-size: 12pt;"><br><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0p=
+t;margin-bottom:0pt;" id=3D"docs-internal-guid-5e61ce7d-d236-db5f-cb5f-0946=
+e1a33434"><span style=3D"font-size:15px;font-family:Arial;color:#000000;bac=
+kground-color:transparent;font-weight:normal;font-style:normal;font-variant=
+:normal;text-decoration:none;vertical-align:baseline;">Network on Chip(NoC)=
+ architectures are widely accepted as effective communication fabric to han=
+dle large and high performance Chip Multi-Processor (CMP) systems. Chip des=
+igners are use more processing elements on a single chip to gain performanc=
+e by exploiting parallelism. As core count in increases, design complexity,=
+ area and power consumption have become serious concern for scalable multi-=
+core systems. Enhancing performance of NoCs under strict area and power bud=
+gets is of practical concern. Many low cost router micro-architecture have =
+&nbsp;been proposed with simple design, which consumes less power and area =
+but at the cost of increase in the average latency of the network. </span><=
+/p><br><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;margin-botto=
+m:0pt;"><span style=3D"font-size:15px;font-family:Arial;color:#000000;backg=
+round-color:transparent;font-weight:normal;font-style:normal;font-variant:n=
+ormal;text-decoration:none;vertical-align:baseline;">In this work, we analy=
+sed the existing low cost router for unidirectional torus topology. We iden=
+tified the scenarios that affects the performance of the router. We have op=
+timized the router design and proposed CAERUS router micro-architecture. CA=
+ERUS design has an effective ejection policy, which avoids unnecessary trav=
+ersals and an arbitration policy, which balances the opportunity for progre=
+ss among the router. Experimental results show that, compared to the existi=
+ng low-cost router designs, CAERUS reduces the traversal latency of the fli=
+ts in the network and sustain the throughput at higher injection rates. The=
+ area and power expenditures are comparable to the existing low cost router=
+ architectures.</span></p></div><div><span style=3D"font-family: 'Times New=
+ Roman', serif; background-color: rgb(255, 255, 255);"><br>All are invited.=
+</span></div><div><div style=3D"text-align: left; color: rgb(0, 0, 0); font=
+-family: 'Times New Roman'; font-size: 12pt;"><br></div><div style=3D"text-=
+align: left; color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size=
+: 12pt;">Thanks,</div><div style=3D"text-align: left; color: rgb(0, 0, 0); =
+font-family: 'Times New Roman'; font-size: 12pt;"><br></div><div style=3D"t=
+ext-align: left; font-family: 'Times New Roman'; font-size: 12pt;"><font co=
+lor=3D"#330033">Best Regards,</font></div><font color=3D"#3333ff"><font siz=
+e=3D"3">Nihar Rathod</font><br>CS12S041<br>RISE Lab<br>CSE Dept.<br></font>=
+</div></div></div></div></body></html>
+------=_Part_48386_1584762591.1407980009111--

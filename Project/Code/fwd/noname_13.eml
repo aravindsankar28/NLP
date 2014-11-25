@@ -1,0 +1,180 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 9 Sep 2014 10:02:45 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 8D512F78121;
+	Tue,  9 Sep 2014 10:02:42 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.477
+X-Spam-Level: *
+X-Spam-Status: No, score=1.477 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665,
+	T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0yhBXSremazQ; Tue,  9 Sep 2014 10:02:36 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 19208F78107
+	for <seminar@cse.iitm.ac.in>; Tue,  9 Sep 2014 10:02:36 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id E053E78011B
+	for <seminar@cse.iitm.ac.in>; Tue,  9 Sep 2014 10:28:21 +0530 (IST)
+Authentication-Results: mailx1.iitm.ac.in;
+	spf=pass smtp.mailfrom=ravindran.b@gmail.com;
+Received: from mail-lb0-f172.google.com ([209.85.217.172])
+	by mailx1.iitm.ac.in (SonicWALL 8.0.1.2355)
+	with ESMTP id 201409090456170054808; Tue, 09 Sep 2014 10:26:18 +0530
+Received: by mail-lb0-f172.google.com with SMTP id w7so3278899lbi.17
+        for <seminar@cse.iitm.ac.in>; Mon, 08 Sep 2014 21:58:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:in-reply-to:references:date:message-id
+         :subject:from:to:content-type;
+        bh=8hHu4cx9qEmbG8hllxWpK/21lGSr+SjzAmshMlDoSBQ=;
+        b=GzSPfcNh9kKNqa0ZyNjNo2/ML4leAM26VQfWuRFrFmRn1h3mtTj0R1kSJMlK5k+ra1
+         MXIqD/gnQS2MEj3F3IpxKC/efITYldZeKqrPxNxRS12DzsiwB3Ws42XM9mANXroOxoyu
+         vYNNUii9WMlelaxtzvCCL3XuptsSNwonm9X8K68ej+eV52NYrdTQK2OASIlly8faztJm
+         qmklte3GEbpZTtv/Hg/62Q26kGHDBTtuj3bCYDsXYRKwh3ioC1/SEV/HtT4xmtypq5ol
+         Vh4IvwKYRspmXcctg0GVZgd8Vg0Gb+WN8pmcLVzhIE4roVqcl+T01eW/zAg2fQp2FBJC
+         GukA==
+MIME-Version: 1.0
+X-Received: by 10.112.199.197 with SMTP id jm5mr1472554lbc.19.1410238698542;
+ Mon, 08 Sep 2014 21:58:18 -0700 (PDT)
+Reply-To: ravi@cse.iitm.ac.in
+Sender: ravindran.b@gmail.com
+Received: by 10.152.46.207 with HTTP; Mon, 8 Sep 2014 21:58:18 -0700 (PDT)
+Received: by 10.152.46.207 with HTTP; Mon, 8 Sep 2014 21:58:18 -0700 (PDT)
+In-Reply-To: <CANKd_iNO6=fSO-4dy6rhg_8tGEppeRXScAnqrhWmqcdiv9okyQ@mail.gmail.com>
+References: <CAFdB0Z0f76SViB8zt2TQ1FJQktqUfYb4G+mVTF5SiqPSW5F6vA@mail.gmail.com>
+	<CANKd_iMGxddd=M0m4=eezP1sN8SnxMUPJDeNHGJcTtT+D6cGBw@mail.gmail.com>
+	<CAJ0BqjgVjajUpnpQrkDGAsHFt2r30KNmJzkX2Ak1aknsusND-w@mail.gmail.com>
+	<CANKd_iP3Kp+06vmpXVTEDaoJMD-LabUjhhitv_LGv1R1hWzFGQ@mail.gmail.com>
+	<CAJ0Bqjh9aK9C8cKQVTpPuRQ6La5BWMuAx=iA6p4vn2Wt-3igzQ@mail.gmail.com>
+	<CANKd_iNEw0ynTMN_GbWzOrrDfZN-MczvLOYpzMPjwZYZ5K3ZpA@mail.gmail.com>
+	<CAJ0Bqjg7LE19SALW9-SgcbB89pnARw=jq6yK4vDB2x-Xr3DwVg@mail.gmail.com>
+	<CANKd_iM6ABKT=p5rch5o7emSu=O+3Z+=XJzNJ2crCEX2JjCu0w@mail.gmail.com>
+	<CANKd_iNO6=fSO-4dy6rhg_8tGEppeRXScAnqrhWmqcdiv9okyQ@mail.gmail.com>
+Date: Tue, 9 Sep 2014 10:28:18 +0530
+X-Google-Sender-Auth: wlY171_Zcy4DgFc6ejeN-FpQkhU
+Message-ID: <CAJ0BqjiDwT-VxV2Hyc2nxVf4UGxJ6XiuWqKpmVvBcwtROL7iVA@mail.gmail.com>
+Subject: Fwd: Re: Visit of Ayan Acharya - reg
+From: Balaraman Ravindran <ravi@cse.iitm.ac.in>
+To: seminar@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=001a11c25f7cacdcfd05029ac8b2
+X-Mlf-SPF: result=pass;action=none;identity=mailfrom;domain=gmail.com;source=209.85.217.172;details:allowedlist=consider;
+X-Mlf-KeyWords: combs,mining,capable,images,exploration,strength,ut,usa,sunnyvale,laboratories,b
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.217.172
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;other;none;none
+X-Mlf-UniqueId: i201409090456170054808
+
+--001a11c25f7cacdcfd05029ac8b2
+Content-Type: text/plain; charset=UTF-8
+
+Dear All
+
+Ayan Acharya from Univ.  of Texas, Austin, will be visiting the Department
+on 15th and 16th and will be giving a talk on knowledge transfer using
+latent variable models at 3 pm on 15th in BSB 361.  All are welcome.
+Details below.
+
+Regards
+Ravi.
+
+Title: Knowledge Transfer Using Latent Variable Models
+
+Abstract:
+
+In several applications, scarcity of labeled data is a challenging problem
+that hinders the predictive capabilities of machine learning algorithms.
+Additionally, the distribution of the data changes over time rendering
+models trained with older data less capable of discovering useful structure
+from the newly available data. Transfer learning is a convenient framework
+to overcome such problems where the learning of a model specific to a
+domain can benefit the learning of other models in other domains through
+either simultaneous training of domains or systematic sequential transfer
+of knowledge from one domain to the others.
+
+In this talk, variety of methods for achieving transfer learning are
+explored where a hidden layer is shared across different domains in
+hierarchical latent variable based models. Applications of such frameworks
+in problems like text classification, object recognition from images,
+network modeling for community detection and evolution of count values
+vectors and matrices have shown excellent results so far. In particular,
+the strength of non-parametric Poisson factorization will also be explored
+in the context of knowledge transfer and modeling of large scale count data
+prevalent in text mining, image analysis and recommender systems.
+
+Bio:
+
+Ayan Acharya is a fifth year Ph.D. student in Department of Electrical and
+Computer Engineering at University of Texas at Austin, USA. He is
+associated with Intelligent Data Exploration and Analysis Laboratory
+(IDEAL) led by Dr. Joydeep Ghosh and Machine Learning Research Group led by
+Dr. Raymond J. Mooney. He also collaborates actively with Dr. Mingyuan Zhou
+from McCombs School of Business and Applied Research Laboratories, UT
+Austin. His research focus is on developing generative models and efficient
+inference algorithms for solving transfer learning problems prevalent in
+text document analysis, social network study, recommender systems and
+object recognition from images. Over the years, he has also garnered
+sufficient experience in industry through his internships in places like
+eBay Research Lab, Qualcomm Inc., Yahoo! Research, Sunnyvale, CA and
+Cognitive Scale, Austin, TX. Before joining UT Austin, he completed his
+Bachelor's degree in Electronics and Telecommunication Engineering from
+Jadavpur University, Kolkata, India in the year 2009.
+
+--001a11c25f7cacdcfd05029ac8b2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Dear All</p>
+<p dir=3D"ltr">Ayan Acharya from Univ.=C2=A0 of Texas, Austin, will be visi=
+ting the Department on 15th and 16th and will be giving a talk on knowledge=
+ transfer using latent variable models at 3 pm on 15th in BSB 361.=C2=A0 Al=
+l are welcome. Details below. <br></p>
+<p dir=3D"ltr">Regards<br>
+Ravi. </p>
+<p dir=3D"ltr"> Title: Knowledge Transfer Using Latent Variable Models</p>
+<p dir=3D"ltr"> Abstract:</p>
+<p dir=3D"ltr">In several applications, scarcity of labeled data is a chall=
+enging problem that hinders the predictive capabilities of machine learning=
+ algorithms. Additionally, the distribution of the data changes over time r=
+endering models trained with older data less capable of discovering useful =
+structure from the newly available data. Transfer learning is a convenient =
+framework to overcome such problems where the learning of a model specific =
+to a domain can benefit the learning of other models in other domains throu=
+gh either simultaneous training of domains or systematic sequential transfe=
+r of knowledge from one domain to the others.=C2=A0</p>
+<p dir=3D"ltr"> In this talk, variety of methods for achieving transfer lea=
+rning are explored where a hidden layer is shared across different domains =
+in hierarchical latent variable=C2=A0based models. Applications of such fra=
+meworks in problems like text classification, object recognition from image=
+s, network modeling for community detection and evolution of count values v=
+ectors and matrices have shown excellent results so far. In particular, the=
+ strength of non-parametric Poisson factorization will also be explored in =
+the context of knowledge transfer and modeling of large scale count data pr=
+evalent in text mining, image analysis and recommender systems.=C2=A0</p>
+<p dir=3D"ltr"> Bio:</p>
+<p dir=3D"ltr">Ayan Acharya=C2=A0is a fifth year Ph.D. student in Departmen=
+t of Electrical and Computer Engineering at University of Texas at Austin, =
+USA. He is associated with Intelligent Data Exploration and Analysis Labora=
+tory (IDEAL) led by Dr. Joydeep Ghosh and Machine Learning Research Group l=
+ed by Dr. Raymond J. Mooney. He also=C2=A0collaborates actively with Dr. Mi=
+ngyuan Zhou from McCombs School of Business and Applied Research Laboratori=
+es, UT Austin. His research focus is on developing generative models and ef=
+ficient inference algorithms for solving transfer learning problems prevale=
+nt in text document analysis, social network study, recommender systems and=
+ object recognition from images. Over the years, he has also garnered suffi=
+cient experience in industry through his internships in places like eBay Re=
+search Lab, Qualcomm Inc., Yahoo! Research, Sunnyvale, CA and Cognitive Sca=
+le, Austin, TX. Before joining UT Austin, he completed his Bachelor&#39;s d=
+egree in Electronics and Telecommunication Engineering from Jadavpur Univer=
+sity, Kolkata, India in the year 2009.</p>
+
+--001a11c25f7cacdcfd05029ac8b2--

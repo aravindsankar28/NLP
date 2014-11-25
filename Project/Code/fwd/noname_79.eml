@@ -1,0 +1,152 @@
+Return-Path: ksriram@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 20 Feb 2014 08:19:58 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 79D18F78901;
+	Thu, 20 Feb 2014 08:19:30 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.105
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.105 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id R3xbQlVVW-HC; Thu, 20 Feb 2014 08:19:29 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9BD66F788EC;
+	Thu, 20 Feb 2014 08:18:53 +0530 (IST)
+Date: Thu, 20 Feb 2014 08:18:40 +0530 (IST)
+From: "ksriram@cse.iitm.ac.in" <ksriram@cse.iitm.ac.in>
+To: 3btech  <3btech@cse.iitm.ac.in>
+Cc: Seminar <seminar@cse.iitm.ac.in>, djram  <djram@iitm.ac.in>, 
+	MSITARA@clemson.edu, bwweide@gmail.com
+Message-ID: <1229893269.51735.1392864520759.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: CS25 talk on Building Verified Software Components at 3pm
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_51734_794822287.1392864520758"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_51734_794822287.1392864520758
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello all,=20
+There is a talk in CS25 at 3pm on "Using a Push-Button Verifying Compiler t=
+o Build Verified Software Components " .=20
+
+Thanks,=20
+Sriram=20
+
+Title: Using a Push-Button Verifying Compiler to Build Verified Software Co=
+mponents=20
+Murali Sitaraman (Clemson)=20
+Bruce W. Weide (Ohio State)=20
+
+Abstract: In this talk, students will see how to design, specify, and imple=
+ment verified software components using a web-integrated software engineeri=
+ng environment that requires no software installation. The talk will discus=
+s how to engineer specifications and how to design and annotate object-base=
+d component implementations of software components. To make the ideas concr=
+ete, the talk will use RESOLVE, an integrated specification and programming=
+ language especially designed for building verified components, which featu=
+res a prototype =E2=80=9Cpush-button=E2=80=9D verifying compiler. It will a=
+lso summarize the presenters=E2=80=99 experiences in adapting a RESOLVE dis=
+cipline of component-based development to C++ and Java.=20
+
+Organizer biographies:=20
+
+Murali Sitaraman is Professor of Computer Science in the School of Computin=
+g at Clemson. He directs the RESOLVE/Reusable Software Research Group (RSRG=
+) at Clemson. His research spans a spectrum of foundational, practical, and=
+ educational topics in software engineering, and it has been supported by U=
+S NSF grants continuously for over 20 years. He has co-edited a book on Fou=
+ndations of Component-Based Systems with Gary Leavens for Cambridge Univers=
+ity Press. Together with members of his group, he has published over 100 pa=
+pers in various forums. He has offered tutorials and workshops to educators=
+ on teaching mathematical reasoning at the ACM SIGCSE conference several ti=
+mes, including each of the last four years. Sitaraman has taught these idea=
+s to graduate and undergraduate students for over 20 years.=20
+
+Bruce W. Weide is Professor of Computer Science and Engineering at Ohio Sta=
+te University. He and his colleagues in the RESOLVE/Reusable Software Resea=
+rch Group (RSRG) have studied design, specification, and verification of co=
+mponent-based software. Weide and his colleague, Prof. Tim Long, were award=
+ed the IEEE Computer Society Computer Science and Engineering Undergraduate=
+ Teaching Award in 2000 =E2=80=9Cfor innovative work in the content and ped=
+agogy of introductory computer science education, linking research advances=
+ in software engineering with educational delivery of the material taught i=
+n the introductory courses.=E2=80=9D Weide has taught these ideas to gradua=
+te and undergraduate students for over 30 years.=20
+
+Relevant Web Pages: www.cs.clemson.edu/group/ resolve and http://www.cse.oh=
+io-state.edu/ rsrg/
+------=_Part_51734_794822287.1392864520758
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Hello all,<br>There is a talk in CS25 at 3pm on "Using a Push-Button Verif=
+ying Compiler to Build Verified Software Components".<br><br>Thanks,<br>Sri=
+ram<br><br>Title: Using a Push-Button Verifying Compiler to Build Verified =
+Software Components<br>
+Murali Sitaraman (Clemson)<br>
+Bruce W. Weide (Ohio State)<br>
+<br>
+Abstract: In this talk, students will see how to design, specify, and=20
+implement verified software components using a web-integrated software=20
+engineering environment that requires no software installation. &nbsp;The=
+=20
+talk will discuss how to engineer specifications and how to design and=20
+annotate object-based component implementations of software components.=20
+&nbsp;To make the ideas concrete, the talk will use RESOLVE, an integrated=
+=20
+specification and programming language especially designed for building=20
+verified components, which features a prototype =E2=80=9Cpush-button=E2=80=
+=9D verifying=20
+compiler. &nbsp;It will also summarize the presenters=E2=80=99 experiences =
+in=20
+adapting a RESOLVE discipline of component-based development to C++ and=20
+Java.<br>
+<br>
+Organizer biographies:<br>
+<br>
+Murali Sitaraman is Professor of Computer Science in the School of=20
+Computing at Clemson. &nbsp;He directs the RESOLVE/Reusable Software Resear=
+ch
+ Group (RSRG) at Clemson. &nbsp;His research spans a spectrum of=20
+foundational, practical, and educational topics in software engineering,
+ and it has been supported by US NSF grants continuously for over 20=20
+years. &nbsp;He has co-edited a book on Foundations of Component-Based=20
+Systems with Gary Leavens for Cambridge University Press. &nbsp;Together wi=
+th
+ members of his group, he has published over 100 papers in various=20
+forums. &nbsp;He has offered tutorials and workshops to educators on teachi=
+ng
+ mathematical reasoning at the ACM SIGCSE conference several times,=20
+including each of the last four years. Sitaraman has taught these ideas=20
+to graduate and undergraduate students for over 20 years.<br>
+<br>
+Bruce W. Weide is Professor of Computer Science and Engineering at Ohio=20
+State University. &nbsp;He and his colleagues in the RESOLVE/Reusable=20
+Software Research Group (RSRG) have studied design, specification, and=20
+verification of component-based software. &nbsp;Weide and his colleague,=20
+Prof. Tim Long, were awarded the IEEE Computer Society Computer Science=20
+and Engineering Undergraduate Teaching Award in 2000 =E2=80=9Cfor innovativ=
+e=20
+work in the content and pedagogy of introductory computer science=20
+education, linking research advances in software engineering with=20
+educational delivery of the material taught in the introductory=20
+courses.=E2=80=9D &nbsp;Weide has taught these ideas to graduate and underg=
+raduate=20
+students for over 30 years.<br>
+<br>
+Relevant Web Pages: <a href=3D"http://www.cs.clemson.edu/group/resolve" tar=
+get=3D"_blank">www.cs.clemson.edu/group/<wbr>resolve</a> and <a href=3D"htt=
+p://www.cse.ohio-state.edu/rsrg/" target=3D"_blank">http://www.cse.ohio-sta=
+te.edu/<wbr>rsrg/</a></div></body></html>
+------=_Part_51734_794822287.1392864520758--

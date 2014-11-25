@@ -1,0 +1,167 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 17 Apr 2014 10:26:27 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 20B8621B0007;
+	Thu, 17 Apr 2014 10:26:26 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.666
+X-Spam-Level: 
+X-Spam-Status: No, score=0.666 tagged_above=-10 required=6.6
+	tests=[BAYES_40=-0.001, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id nuFQIC34f1Po; Thu, 17 Apr 2014 10:26:19 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D17B621A0005;
+	Thu, 17 Apr 2014 10:25:33 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 747D37806BA;
+	Thu, 17 Apr 2014 10:29:02 +0530 (IST)
+Received: from mail-pa0-f45.google.com ([209.85.220.45])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201404170444000075982; Thu, 17 Apr 2014 10:14:01 +0530
+Received: by mail-pa0-f45.google.com with SMTP id kl14so11755712pab.4
+        for <multiple recipients>; Wed, 16 Apr 2014 21:59:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=uId9x93NX/o7muO2u0MKmmx1r9GmRj+dvukhHjcF55g=;
+        b=dlznPjfluHBGTnmhrAihyQHFlg2L24m5xlXyzVk3yRLF3CgGsK6X6ZJEDbywc2knul
+         4sMaO4i6CtWdK6Mr9nKBNphInSET9B/Ssy16cz/pfIk0kjtHu1620S/q3hTUeK2ag032
+         l3I71OAX5UC+7KfMBewsjhOJUZik3StyUWmEVxOCWBiLmQw3Im2KtBrVgGx+lQzc1li0
+         DjwfZU213GOiYd1BfB7n8ILwXMgsC1kFc+gQciv7CC+Eo7IlD4UeftHfJAxClbcgKRls
+         IBPqWnNtDw9+XDIHmz1SoeN87vdt4O/gu1lMa3Vvi2PadcAxFW/rH2xuGIKt/TtlEaKn
+         +dSA==
+MIME-Version: 1.0
+X-Received: by 10.68.131.202 with SMTP id oo10mr13177889pbb.35.1397710739184;
+ Wed, 16 Apr 2014 21:58:59 -0700 (PDT)
+Reply-To: ravi@cse.iitm.ac.in
+Sender: ravindran.b@gmail.com
+Received: by 10.70.132.39 with HTTP; Wed, 16 Apr 2014 21:58:59 -0700 (PDT)
+Date: Thu, 17 Apr 2014 10:28:59 +0530
+X-Google-Sender-Auth: 9blBvSO_Tedf7_NBe8qcwIOj24U
+Message-ID: <CAJ0Bqjj7o=b_ou88f9X2x+jt+Aqi0N7s3dBBwnrMoP=0=jWw+w@mail.gmail.com>
+Subject: Reminder: F1: A distributed database that scales: DAA Seminar on
+ April 17th (Thursday) [Sridhar Ramaswamy]
+From: Balaraman Ravindran <ravi@cse.iitm.ac.in>
+To: seminar@cse.iitm.ac.in, Suresh <oaasuresh@iitm.ac.in>, 
+	DataAnalytics IITM <data.analytics.iitm@gmail.com>, rise-iil <rise-iil@cse.iitm.ac.in>, 
+	aidb <aidb@googlegroups.com>
+Cc: elango@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=001a11c3611c1ba56504f735e47c
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: highly,bachelors,dear,adwords,scales,cs,reminder,lucent,bio,applications,ph.d,re
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.220.45
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201404170444000075982
+
+--001a11c3611c1ba56504f735e47c
+Content-Type: text/plain; charset=UTF-8
+
+Dear All,
+
+A gentle reminder about the DAA seminar TODAY afternoon at 2 p.m.
+
+
+On Fri, Apr 11, 2014 at 10:50 PM, Balaraman Ravindran <ravindran.b@gmail.com
+> wrote:
+
+> Distinguished Alumnus Award Recipient Seminar
+> Department of Computer Science
+>
+> Speaker: Sridhar Ramaswamy, Senior VP, Google Inc.
+>
+> Date: April 17, Thursday, Time: 2 p.m., Venue: CS 25
+>
+> Title: F1: A Distributed Database That Scales.
+>
+> Abstract: Conventional wisdom in computing is that high availability,
+> scale and query processing aren't simultaneously possible for database
+> applications. In this talk, I will talk about F1, a highly available,
+> disaster resistant database that also supports declarative query processing
+> at scale. This system supports one of the most critical databases at
+> Google: the ones used for ads data. My talk is based on the paper that was
+> presented in VLDB 2013.
+>
+> Bio: Sridhar Ramaswamy serves as Senior Vice President of Ads & Commerce
+> at Google Inc. Since joining Google in 2003, Mr. Ramaswamy and his teams
+> have taken a lead role in defining the vision and direction of AdWords.
+> Prior to joining Google, he held several roles at E.piphany. He served as
+> Director of Engineering for E.piphany's Analytic Platform. Previously, he
+> held research positions at Bell Labs, Lucent Technologies and Bell
+> Communications Research (Bellcore). He has published numerous papers on
+> database systems and database theory. Mr. Ramaswamy earned a bachelor's
+> degree in computer science from the Indian Institute of Technology Madras.
+> He received his Ph.D. and master's degree in computer science from Brown
+> University.
+>
+
+--001a11c3611c1ba56504f735e47c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small">Dea=
+r All,</div><div class=3D"gmail_default" style=3D"font-size:small"><br></di=
+v><div class=3D"gmail_default" style=3D"font-size:small">A gentle reminder =
+about the DAA seminar TODAY afternoon at 2 p.m.</div>
+<div class=3D"gmail_extra"><br><br><div class=3D"gmail_quote">On Fri, Apr 1=
+1, 2014 at 10:50 PM, Balaraman Ravindran <span dir=3D"ltr">&lt;<a href=3D"m=
+ailto:ravindran.b@gmail.com" target=3D"_blank">ravindran.b@gmail.com</a>&gt=
+;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div style=3D"font-size:sma=
+ll"><span style=3D"font-family:arial,sans-serif;font-size:13px">Distinguish=
+ed Alumnus Award Recipient Seminar</span><br>
+</div><div style=3D"font-size:small">
+<span style=3D"font-family:arial,sans-serif;font-size:13px">Department of C=
+omputer Science=C2=A0</span></div><div style=3D"font-size:small"><br></div>=
+<div><font face=3D"arial, sans-serif">Speaker: Sridhar Ramaswamy, Senior VP=
+, Google Inc.</font></div>
+
+<div><font face=3D"arial, sans-serif"><br></font></div><div><font face=3D"a=
+rial, sans-serif">Date: April 17, Thursday, Time: 2 p.m., Venue: CS 25 =C2=
+=A0</font></div><div style=3D"font-size:small">
+<span style=3D"font-family:arial,sans-serif;font-size:13px"><br></span></di=
+v><div style=3D"font-size:small"><span style=3D"font-family:arial,sans-seri=
+f;font-size:13px">Title: F1: A Distributed Database That Scales.</span><spa=
+n style=3D"font-family:arial,sans-serif;font-size:13px"><br>
+
+</span></div><div style=3D"font-size:small"><span style=3D"font-family:aria=
+l,sans-serif;font-size:13px"><br></span></div><div style=3D"font-size:small=
+"><span style=3D"font-family:arial,sans-serif;font-size:13px">Abstract: Con=
+ventional wisdom in computing is that high availability, scale and query pr=
+ocessing aren&#39;t simultaneously possible for database applications. In t=
+his talk, I will talk about F1, a highly available, disaster resistant data=
+base that also supports declarative query processing at scale. This system =
+supports one of the most critical databases at Google: the ones used for ad=
+s data. My talk is based on the paper that was presented in VLDB 2013.</spa=
+n><br>
+
+</div><div style=3D"font-size:small"><span style=3D"font-family:arial,sans-=
+serif;font-size:13px"><br></span></div><div><font face=3D"arial, sans-serif=
+">Bio: Sridhar Ramaswamy serves as Senior Vice President of Ads &amp; Comme=
+rce at Google Inc. Since joining Google in 2003, Mr. Ramaswamy and his team=
+s have taken a lead role in defining the vision and direction of AdWords. P=
+rior to joining Google, he held several roles at E.piphany. He served as Di=
+rector of Engineering for E.piphany&#39;s Analytic Platform. Previously, he=
+ held research positions at Bell Labs, Lucent Technologies and Bell Communi=
+cations Research (Bellcore). He has published numerous papers on database s=
+ystems and database theory. Mr. Ramaswamy earned a bachelor&#39;s degree in=
+ computer science from the Indian Institute of Technology Madras. He receiv=
+ed his Ph.D. and master&#39;s degree in computer science from Brown Univers=
+ity.</font><br>
+
+</div></div>
+</blockquote></div><br></div></div>
+
+--001a11c3611c1ba56504f735e47c--

@@ -1,0 +1,150 @@
+Return-Path: jayalal.sarma@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sat, 15 Nov 2014 15:41:40 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 8F4B9F78131;
+	Sat, 15 Nov 2014 15:41:37 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 2.16
+X-Spam-Level: **
+X-Spam-Status: No, score=2.16 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793, SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id SBSD4dqSF44z; Sat, 15 Nov 2014 15:41:32 +0530 (IST)
+Received: from mx.iitm.ac.in (unknown [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id CA4F1F78104;
+	Sat, 15 Nov 2014 15:40:07 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 15A8F7804D8;
+	Sat, 15 Nov 2014 15:41:01 +0530 (IST)
+Authentication-Results: mailx1.iitm.ac.in;
+	spf=pass smtp.mailfrom=jayalal.sarma@gmail.com;
+Received: from mail-ig0-f169.google.com ([209.85.213.169])
+	by mailx1.iitm.ac.in (SonicWALL 8.0.4.2607)
+	with ESMTP id 201411151010020052192; Sat, 15 Nov 2014 15:40:04 +0530
+Received: by mail-ig0-f169.google.com with SMTP id hn18so1058459igb.2
+        for <multiple recipients>; Sat, 15 Nov 2014 02:11:01 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        bh=rx9UMiXCvU390rp2Q15uMZwG5BdrXMxtbIPaQVUSEVU=;
+        b=FGAwEARV+hW+fzAr6Gn6WtALLDGTNc3JM9skIAv1GfThq+W6fLtVhz+h37kicbjj0d
+         u5j9YABnLVY4zZPPHGa4UexWrJy3ybnG/Giyf43GLewtXxZmNtoFjSsvXSewcAO2gVMO
+         hOeUOn6Xqv3m/NtkIH2xs60NmW3itrZEFbBPccpr0VIbakpKF1xgI4QEF+jrYh0CROSx
+         KO29THiqtp/gXTx1xaSjLus/9gDIILuPdxwX+WDho+OuwNHZLsuE+dmcuB/Y1gcIT33t
+         J8rWpphxgfaRbmqjdD3U3tXHCO32JoPnnmI0Sdx330JOpSEGIxv8CmBBtzcMiWqtdSKm
+         QiUA==
+MIME-Version: 1.0
+X-Received: by 10.107.10.92 with SMTP id u89mr16179148ioi.46.1416046260912;
+ Sat, 15 Nov 2014 02:11:00 -0800 (PST)
+Received: by 10.64.103.232 with HTTP; Sat, 15 Nov 2014 02:11:00 -0800 (PST)
+Received: by 10.64.103.232 with HTTP; Sat, 15 Nov 2014 02:11:00 -0800 (PST)
+In-Reply-To: <CAL_Lm_gijL5KBQD67949rMKVvbLC3+YBFdDeGnWdF2nMBA9PAA@mail.gmail.com>
+References: <CAL_Lm_gijL5KBQD67949rMKVvbLC3+YBFdDeGnWdF2nMBA9PAA@mail.gmail.com>
+Date: Sat, 15 Nov 2014 15:41:00 +0530
+Message-ID: <CAL_Lm_hgocdWqoy_gzM5bUkHg7-1yX405NchnBO7doAyj=BxrA@mail.gmail.com>
+Subject: Talk by Sayan Bhattacharya (IMSc) - Tue, Nov 18, 2:00 PM - BSB 361
+From: Jayalal Sarma <jayalal.sarma@gmail.com>
+To: tmeet <tmeet@googlegroups.com>, seminar@cse.iitm.ac.in
+Cc: Sayan Bhattacharya <jucse.sayan@gmail.com>, elango <elango@cse.iitm.ac.in>
+Content-Type: multipart/alternative; boundary=001a113f9b525e09ef0507e2f644
+X-Mlf-SPF: SPF Pass (result=pass;action=none;identity=mailfrom;domain=gmail.com;source=209.85.213.169;details:allowedlist=consider;)
+X-Mlf-DKIM: DKIM Disabled (result=disabled;)
+X-Mlf-DMARC: DMARC Disabled (result=disabled;)
+X-Mlf-KeyWords: talk,italiano,present,em,cite,postdoc,monika,faculty,settles,essentially,duke,un
+X-Mlf-AddressBook: jayalal.sarma@gmail.com,people,allowed
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.213.169
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;allowlist_sender;none;list_addrbk_sender
+X-Mlf-UniqueId: i201411151010020052192
+
+--001a113f9b525e09ef0507e2f644
+Content-Type: text/plain; charset=UTF-8
+
+Dear All,
+
+Please find below the details of the tMeet talk on Tuesday.
+---------------------------------------------------------------------------------------------------------------------------
+Title : Deterministic Fully Dynamic Data Structures for Vertex Cover and
+Matching.
+Speaker : Sayan Bhattacharya, IMSc, Chennai
+Date, Time & Venue : Tue, Nov 18, 2014, 2:00 PM - BSB 361
+---------------------------------------------------------------------------------------------------------------------------
+[Abstract]
+We present the first deterministic data structures for maintaining
+approximate minimum vertex cover and maximum matching in a fully dynamic
+graph in $o(sqrt{m})$ time per update. In particular, for minimum vertex
+cover we provide deterministic data structures for maintaining a
+$(2+epsilon)$ approximation in $O(log n/epsilon^2)$ amortized time per
+update. For maximum matching, we show how to maintain a $(3+epsilon)$
+approximation in $O(m^{1/3}/epsilon^2)$ {em amortized} time per update, and
+a $(4+epsilon)$ approximation in $O(m^{1/3}/epsilon^2)$ {em worst-case}
+time per update. Our data structure for fully dynamic minimum vertex cover
+is essentially near-optimal and settles an open problem by Onak and
+Rubinfeld~cite{OnakR10}.
+
+Joint work with Monika Henzinger and Giuseppe F. Italiano. To appear in
+SODA 2015
+---------------------------------------------------------------------------------------------------------------------------
+About the Speaker :
+Sayan Bhattacharya ( http://www.cs.duke.edu/~bsayan/  ) is a faculty member
+of the theoretical computer science group at IMSc. Prior to joining IMSc,
+he obtained his PhD from Duke University and later was a PostDoc at MPI
+Saarbrucken. His research interests are broadly in algorithmic game theory.
+-------------------------------------------------------------------------------------------------------------------------
+
+tMeet Organizers.
+http://theory.cse.iitm.ac.in/tMeet.php
+
+--001a113f9b525e09ef0507e2f644
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Dear All,</p>
+<p dir=3D"ltr">Please find below the details of the tMeet talk on Tuesday. =
+<br>
+---------------------------------------------------------------------------=
+------------------------------------------------<br>
+Title : Deterministic Fully Dynamic Data Structures for Vertex Cover and Ma=
+tching.<br>
+Speaker : Sayan Bhattacharya, IMSc, Chennai<br>
+Date, Time &amp; Venue : Tue, Nov 18, 2014, 2:00 PM - BSB 361<br>
+---------------------------------------------------------------------------=
+------------------------------------------------<br>
+[Abstract]<br>
+We present the first deterministic data structures for maintaining approxim=
+ate minimum vertex cover and maximum matching in a fully dynamic graph in $=
+o(sqrt{m})$ time per update. In particular, for minimum vertex cover we pro=
+vide deterministic data structures for maintaining a $(2+epsilon)$ approxim=
+ation in $O(log n/epsilon^2)$ amortized time per update. For maximum matchi=
+ng, we show how to maintain a $(3+epsilon)$ approximation in $O(m^{1/3}/eps=
+ilon^2)$ {em amortized} time per update, and a $(4+epsilon)$ approximation =
+in $O(m^{1/3}/epsilon^2)$ {em worst-case} time per update. Our data structu=
+re for fully dynamic minimum vertex cover is essentially near-optimal and s=
+ettles an open problem by Onak and Rubinfeld~cite{OnakR10}.</p>
+<p dir=3D"ltr">Joint work with Monika Henzinger and Giuseppe F. Italiano. T=
+o appear in SODA 2015<br>
+---------------------------------------------------------------------------=
+------------------------------------------------<br>
+About the Speaker : <br>
+Sayan Bhattacharya ( <a href=3D"http://www.cs.duke.edu/~bsayan/">http://www=
+.cs.duke.edu/~bsayan/</a>=C2=A0 ) is a faculty member of the theoretical co=
+mputer science group at IMSc. Prior to joining IMSc,=C2=A0 he obtained his =
+PhD from Duke University and later was a PostDoc at MPI Saarbrucken. His re=
+search interests are broadly in algorithmic game theory.<br>
+---------------------------------------------------------------------------=
+----------------------------------------------</p>
+<p dir=3D"ltr">tMeet Organizers.<br>
+<a href=3D"http://theory.cse.iitm.ac.in/tMeet.php">http://theory.cse.iitm.a=
+c.in/tMeet.php</a></p>
+
+--001a113f9b525e09ef0507e2f644--

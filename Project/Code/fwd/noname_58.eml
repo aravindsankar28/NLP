@@ -1,0 +1,130 @@
+Return-Path: sarala@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 15 Apr 2014 07:13:40 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0AAE9F78044;
+	Tue, 15 Apr 2014 07:13:39 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id NDZy4YrmBERh; Tue, 15 Apr 2014 07:13:30 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A9CBCF78037;
+	Tue, 15 Apr 2014 07:13:29 +0530 (IST)
+Date: Tue, 15 Apr 2014 07:13:29 +0530 (IST)
+From: Padi Sarala <sarala@cse.iitm.ac.in>
+To: seminar@cse.iitm.ac.in, scholars <scholars@cse.iitm.ac.in>, 
+	cse-speech@googlegroups.com
+Cc: hema <hema@cse.iitm.ac.in>, chandra <chandra@cse.iitm.ac.in>, 
+	kama <kama@cse.iitm.ac.in>, "B. Ravindran" <ravi@cse.iitm.ac.in>, 
+	umeshs <umeshs@ee.iitm.ac.in>, "C.S. Ramalingam" <csr@ee.iitm.ac.in>
+Message-ID: <367748126.43260.1397526209579.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Gental Remainder --Phd Seminar talk on 15th April at 4 PM at CS25
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_43259_473549244.1397526209578"
+X-Originating-IP: [10.93.0.36]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (zclient/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_43259_473549244.1397526209578
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Gentle Remainder
+---------------------------------------------------------------------------=
+------------------------
+Dear all,
+
+I am presenting my second PhD seminar talk on Tuesday, 15th April, 2014 at =
+4:00 PM. Kindly make it convenient to attend the seminar and give your valu=
+able suggestions.
+
+The details of the talk are as follows.
+
+Title                 :    Cent Filter-banks and its Relevance to Carnatic =
+Music
+Date                 :    15th April, 2014
+Time                :     4.00 PM
+Venue              :     CS25, Seminar Hall, Department of Computer Science=
+Abstract of the talk:
+---------------------Carnatic music and Hindustani music are two popular mu=
+sic traditions in India. In both music traditions, the tonic or key is chos=
+en by the performer. All accompanying instruments are tuned to the same ton=
+ic. Carnatic music is based on the twelve semitone scales and frequencies o=
+f semitones depends on the tonic. The tonic can vary across concerts as wel=
+l as musicians. In this work, we propose new features that are extracted fr=
+om cent filterbank energies. Cent filterbank energies are obtained by passi=
+ng the tonic normalised spectrum through constant Q filters that are placed=
+ uniformly on the cent scale. These features are evaluated on different tas=
+ks in Carnatic music, namely Carnatic music concert segmentation, motif rec=
+ognition, mridangam stroke recognition and other applications. The song ide=
+ntification performed on 50 live recordings of Carnatic music using GMMs an=
+d Motif recognition performed on 5 different ragas using HMMs. Mridangam st=
+roke recognition performed on 10 different strokes using HMMs. Song segment=
+ation accuracy is 95%, motif recognition accuracy is 73% and mridangam stro=
+ke recognition accuracy is 77% with cent filter-bank features. The results =
+show that cent filter-bank features are indeed important for Carnatic music=
+ processing tasks. Cent filterbank based features are compared with the tra=
+ditional MFCC and Chroma Filterbank based features. For Carnatic music Cent=
+ filterbanks perform significantly better in comparison with the other feat=
+ures. Finally, given the list of items performed in a concert (as meta data=
+), the audio is marked using the text.
+
+ALL ARE WELCOME
+Thanks and RegardsPadi Sarala
+------=_Part_43259_473549244.1397526209578
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style> body {height: 100%; color:#000000; font-size:12pt; font=
+-family:Times New Roman;}</style></head><body>Gentle Remainder<br>---------=
+---------------------------------------------------------------------------=
+---------------<br>Dear all,<br><br>I am presenting my second PhD seminar t=
+alk on Tuesday, 15th<span><span> April</span></span><span>, 2014</span> at =
+4:00 PM. Kindly make it convenient to attend the seminar and give your valu=
+able suggestions.<br><br>The details of the talk are as follows.<br><p styl=
+e=3D"margin-bottom:0in" align=3D"justify"><a name=3D"14502123aec71e70_144fd=
+e71b5db7112_OLE_LINK1"></a><br>Title&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &=
+nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; : &nbsp;&nbsp; Cent Filter-banks and =
+its Relevance to Carnatic Music<br>Date&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp=
+; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; <span class=3D=
+"aBn"><span class=3D"aQJ">15th April, 2014</span></span><br>Time&nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; :&nbsp;&nb=
+sp;&nbsp;&nbsp; <span><span><span class=3D"aBn"><span class=3D"aQJ">4.00 PM=
+</span></span></span></span><br>Venue&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp; &nbsp; :&nbsp; &nbsp;&nbsp; CS25, Seminar Hall, Departme=
+nt of Computer Science</p><p style=3D"margin-bottom:0in" align=3D"justify">=
+Abstract of the talk:<br>---------------------</p>Carnatic music and Hindus=
+tani music are two popular music traditions in India. In both music traditi=
+ons, the tonic or key is chosen by the performer. All accompanying instrume=
+nts are tuned to the same tonic. Carnatic music is based on the twelve semi=
+tone scales and frequencies of semitones depends on the tonic. The tonic ca=
+n vary across concerts as well as musicians. In this work, we propose new f=
+eatures that are extracted from cent filterbank energies. Cent filterbank e=
+nergies are obtained by passing the tonic normalised spectrum through const=
+ant Q filters that are placed uniformly on the cent scale. These features a=
+re evaluated on different tasks in Carnatic music, namely Carnatic music co=
+ncert segmentation, motif recognition, mridangam stroke recognition and oth=
+er applications. The song identification performed on 50 live recordings of=
+ Carnatic music using GMMs and Motif recognition performed on 5 different r=
+agas using HMMs. Mridangam stroke recognition performed on 10 different str=
+okes using HMMs. Song segmentation accuracy is 95%, motif recognition accur=
+acy is 73% and mridangam stroke recognition accuracy is 77% with cent filte=
+r-bank features. The results show that cent filter-bank features are indeed=
+ important for Carnatic music processing tasks. Cent filterbank based featu=
+res are compared with the traditional MFCC and Chroma Filterbank based feat=
+ures. For Carnatic music Cent filterbanks perform significantly better in c=
+omparison with the other features. Finally, given the list of items perform=
+ed in a concert (as meta data), the audio is marked using the text.<br><br>=
+<p style=3D"margin-bottom:0in" align=3D"center">ALL ARE WELCOME</p><br><p s=
+tyle=3D"margin-bottom:0in;text-align:left">Thanks and Regards</p><div class=
+=3D"yj6qo ajU"><div id=3D":104" class=3D"ajR"><img  class=3D"ajT "></div></=
+div><span class=3D"HOEnZb adL"><font color=3D"#888888">Padi Sarala</font></=
+span></body></html>
+------=_Part_43259_473549244.1397526209578--

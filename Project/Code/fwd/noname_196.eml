@@ -1,0 +1,138 @@
+Return-Path: prasun@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 22 Apr 2013 16:12:08 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 8E00DF78061;
+	Mon, 22 Apr 2013 16:12:06 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id QHOn0xmnAhLI; Mon, 22 Apr 2013 16:12:02 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A8E6EF78035;
+	Mon, 22 Apr 2013 16:12:01 +0530 (IST)
+Date: Mon, 22 Apr 2013 16:12:01 +0530 (IST)
+From: prasun@mail.cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: students  <students@cse.iitm.ac.in>, faculty  <faculty@cse.iitm.ac.in>
+Message-ID: <306737016.59694.1366627321591.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1081370011.51172.1366026051391.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar Reminder
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_59693_1866912019.1366627321590"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_59693_1866912019.1366627321590
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi,=20
+
+This mail is to remind you of my MS Seminar tomorrow, April 23, at 3 PM in =
+BSB 361.=20
+
+Regards,=20
+Prasun.=20
+
+
+Dear All,=20
+
+
+
+I am happy to invite all of you to my MS seminar on April 23, 2013 ( Tuesda=
+y ) at 2:00 PM. Kindly make it convenient to attend the seminar and give yo=
+ur valuable suggestions. The details of the talk are as follows:=20
+
+Title : Degree Sets : Realizability and Extension Problems=20
+Speaker : Prasun Kumar=20
+Guide : Dr. Jayalal Sarma M. N.=20
+Date & Time : April 23, 2013(Tuesday) at 3:00 PM=20
+Venue : BSB 361, CSE Department=20
+
+Abstract:=20
+
+Degree sequence of a graph is defined as a sequence whose elements are the =
+degrees of all the vertices in the graph, and if we form a set correspondin=
+g to the given degree sequence we get a degree set. They give an another wa=
+y of representing graphs(simple),=20
+using O(|V |log|V |) space, but at the cost of loosing their uniqueness. Du=
+e to Kapoor et al, we know that any set S =3D {a_1 < =C2=B7 =C2=B7 =C2=B7 <=
+ a_n}, of positive integers is always realizable by a simple graph with a_n=
+ + 1 vertices. Here the interesting question is: Can we realize S by a simp=
+le graph with exactly r (a_n+1) vertices? We have answered this in a positi=
+ve way. Amazingly if we ask the same question for tree realizability (a_1 =
+=3D 1) of S, then we found the problem to be NP-Complete. With the same mot=
+ivation, we extended the degree set definition to digraphs(simple) under di=
+fferent realizibility notions, and showed that any set, S =3D {a_1 < =C2=B7=
+ =C2=B7 =C2=B7 < a_n}, of positive integers can always be realized by an as=
+ymmetric graph with exactly r vertices. Even for directed trees, such exten=
+sions are always possible. We will also discuss about multiplicity-constrai=
+ned degree sets, an intermediate case between degree sets and degree sequen=
+ces, where we restrict the number of times that a vertex in the degree set =
+appears in the realization. In this direction, we particularly focus on the=
+ tree-realizability of degree sets under multiplicity constraints on each d=
+egree.=20
+
+All are welcome!=20
+
+Regards,=20
+Prasun=20
+(CS11S005)=20
+Dept of CSE, IIT Madras.
+------=_Part_59693_1866912019.1366627321590
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Hi,<br><br>This mail is to remind you of my MS Seminar tomorrow, April 23,=
+ at 3 PM in BSB 361.<br><br>Regards,<br>Prasun.<br><br><hr id=3D"zwchr"><b>=
+</b>Dear All, <br><div style=3D"font-family: Times New Roman; font-size: 12=
+pt; color: rgb(0, 0, 0);"><div style=3D"font-family: Times New Roman; font-=
+size: 12pt; color: rgb(0, 0, 0);"><span><br>I am happy to invite all of you=
+ to my MS seminar<em> </em>on April 23, 2013 (<span class=3D"Object" id=3D"=
+OBJ_PREFIX_DWT173"><span class=3D"Object" id=3D"OBJ_PREFIX_DWT42"><span cla=
+ss=3D"Object" id=3D"OBJ_PREFIX_DWT161">Tuesday</span></span></span>)
+ at 2:00 PM. Kindly make it convenient to attend the seminar and give=20
+your valuable suggestions. The details of the talk are as follows:<br><br>T=
+itle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; <i>Degree Sets : Realizability and Extens=
+ion Problems</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>Speaker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; Prasun Kumar<br>Guide&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; Dr. Jayala=
+l Sarma M. N.<br>Date &amp; Time&nbsp; : &nbsp; April 23, 2013(Tuesday) at =
+3:00 PM<br>Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp; :&nbsp;&nbsp;&nbsp; BSB 361, CSE Department<br><br><em>Abstract:<br=
+></em><br>Degree sequence of a graph is defined as a sequence whose element=
+s are the degrees of all the vertices in the graph, and if we form a set co=
+rresponding to the given degree sequence we get a degree set. They give an =
+another way of representing graphs(simple),<br>using O(|V |log|V |) space, =
+but at the cost of loosing their uniqueness. Due to Kapoor et al, we know t=
+hat any set S =3D {a_1 &lt; =C2=B7 =C2=B7 =C2=B7 &lt; a_n}, of positive int=
+egers is always realizable by a simple graph with a_n + 1 vertices. Here th=
+e interesting question is: Can we realize S by a simple graph with exactly =
+r (a_n+1) vertices? We have answered this in a positive way. Amazingly if w=
+e ask the same question for tree realizability (a_1 =3D 1) of S, then we fo=
+und the problem to be NP-Complete. With the same motivation, we extended th=
+e degree set definition to digraphs(simple) under different realizibility n=
+otions, and showed that any set, S =3D {a_1 &lt; =C2=B7 =C2=B7 =C2=B7 &lt; =
+a_n}, of positive integers can always be realized by an asymmetric graph wi=
+th exactly r vertices. Even for directed trees, such extensions are always =
+possible. We will also discuss about multiplicity-constrained degree sets, =
+an intermediate case between degree sets and degree sequences, where we res=
+trict the number of times that a vertex in the degree set appears in the re=
+alization. In this direction, we particularly focus on the tree-realizabili=
+ty of degree sets under multiplicity constraints on each degree.<em><br></e=
+m><br></span><em>All are welcome!</em><br><span id=3D"93719fef-b744-4148-b2=
+6c-c7959c22da0e"><br>Regards,<br>Prasun<br>(CS11S005)<br>Dept of CSE, IIT M=
+adras.</span></div></div></div></body></html>
+------=_Part_59693_1866912019.1366627321590--

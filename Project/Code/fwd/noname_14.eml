@@ -1,0 +1,125 @@
+Return-Path: kalyantv@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 5 Sep 2014 08:53:12 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A8F002290007;
+	Fri,  5 Sep 2014 08:53:10 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.794
+X-Spam-Level: 
+X-Spam-Status: No, score=0.794 tagged_above=-10 required=6.6
+	tests=[BAYES_40=-0.001, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id MEhb2gIUHK9w; Fri,  5 Sep 2014 08:53:06 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9ADD721D0001;
+	Fri,  5 Sep 2014 08:53:05 +0530 (IST)
+Date: Fri, 5 Sep 2014 08:53:05 +0530 (IST)
+From: T V Kalyan <kalyantv@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>, scholars <scholars@cse.iitm.ac.in>
+Message-ID: <2569476.68145.1409887385582.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1368295238.62769.1409368526841.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: PhD Seminar - Gentle reminder
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_68144_592995429.1409887385581"
+X-Originating-IP: [10.93.0.36]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_68144_592995429.1409887385581
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Hi all, 
+A gentle reminder for the seminar. 
+
+thank you, 
+
+regards, 
+t v kalyan 
+
+
+
+
+Hi all, 
+I am happy to share our experience and findings in 'refresh aspect for DRAM based main memory' as part of my PhD seminar. Required basics will be presented to the ease the assimilation of the concepts. Please make it convenient to attend and drop-in yours views and insights. 
+
+Below are the details of the talk and the abstract for your consideration - 
+
+
+
+Title: EFGR: An Enhanced Fine Granularity Refresh Feature for High-Performance DDR4 DRAM Devices 
+
+Date: 5th Sept 2014 
+
+
+Time: 2.30PM - 3.30PM 
+
+Venue: BSB 361 
+
+
+
+
+Abstract - 
+A Dynamic Random Access Memory (DRAM) cell holds data as charge in a capacitor and this capacitor has the tendency to leak the charge gradually over time. To maintain 
+data integrity, DRAM devices periodically refresh the storage cells. The need for refresh operations is further aggravated by technology scaling and process variation, along 
+with dynamic cell behaviours such as, variable retention and data pattern dependency. Recently proposed JEDEC DDR4 standard provides Fine Granularity Refresh (FGR) 
+feature to tackle refresh by providing a range of options for refresh intervals and refresh cycles times. 
+
+Motivated by the observation that during an FGR mode, only few banks are involved in the refresh operation, we aim to overlap an ongoing refresh operation by accessing the 
+idle (non-refreshing) banks within a rank to service the memory requests. We propose an Enhanced FGR (EFGR) feature that introduces three optimizations to the basic FGR 
+feature and exposes the bank-level parallelism within the rank even during the refresh. As the first optimization we bring-in minor modifications to the peripheral circuitry of 
+the DRAM device so as to decouple the non-refreshing banks from the ongoing refresh operation. Second and third optimizations determine the maximum number of non- 
+refreshing banks that can be active during refresh and selectively precharge the banks before refresh, respectively. Our simulation results show that EFGR feature is able 
+to recover almost 56.6% of performance loss incurred due to refresh operations. EFGR being simple to implement, and compatible with other refresh handling techniques makes 
+it an attractive candidate for future DDR standards. 
+
+thank you, 
+
+- regards 
+kalyan t v 
+CS09D017 
+
+------=_Part_68144_592995429.1409887385581
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'>Hi all,<br>A gentle reminder for the seminar.<br><br>thank you,<br><br>regards,<br>t v kalyan<br><br><hr id="zwchr"><br><style>p { margin: 0; }</style><div style="font-family: Times New Roman; font-size: 12pt; color: #000000">Hi all,<br>I am happy to share our experience and findings in 'refresh aspect for DRAM 
+based main memory' as part of my PhD seminar. Required basics will be presented to the ease the assimilation of the concepts. Please make 
+it convenient to attend and drop-in yours views and insights.<br><br>Below are the details of the talk and the abstract for your consideration - <br><br><p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Title: EFGR: An Enhanced Fine Granularity Refresh Feature for High-Performance DDR4 DRAM Devices</span></p><p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Date: 5th Sept 2014<br></span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Time: 2.30PM - 3.30PM</span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Venue:
+BSB 361</span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><br></span></p><p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Abstract - <br></span></p>
+
+<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">A Dynamic Random Access 
+Memory (DRAM) cell holds data as charge in a capacitor and this 
+capacitor has the tendency to leak the charge gradually over time. To 
+maintain<br>data integrity, DRAM devices periodically refresh the 
+storage cells. The need for refresh operations is further aggravated by 
+technology scaling and process variation, along<br>with dynamic cell 
+behaviours such as, variable retention and data pattern dependency. 
+Recently proposed JEDEC DDR4 standard provides Fine Granularity Refresh 
+(FGR)<br>feature to tackle refresh by providing a range of options for refresh intervals and refresh cycles times.<br><br>Motivated
+ by the observation that during an FGR mode, only few banks are involved
+ in the refresh operation, we aim to overlap an ongoing refresh 
+operation by accessing the<br>idle (non-refreshing) banks within a rank 
+to service the memory requests. We propose an Enhanced FGR (EFGR) 
+feature that introduces three optimizations to the basic FGR<br>feature 
+and exposes the bank-level parallelism within the rank even during the 
+refresh. As the first optimization we bring-in minor modifications to 
+the peripheral circuitry of<br>the DRAM device so as to decouple the 
+non-refreshing banks from the ongoing refresh operation. Second and 
+third optimizations determine the maximum number of non-<br>refreshing 
+banks that can be active during refresh and selectively precharge the 
+banks before refresh, respectively. Our simulation results show that 
+EFGR feature is able<br>to recover almost 56.6% of performance loss 
+incurred due to refresh operations. EFGR being simple to implement, and 
+compatible with other refresh handling techniques makes<br>it an attractive candidate for future DDR standards.<br><br>thank you,<br><br>- regards<br>kalyan t v<br>CS09D017</span><br></div></div></body></html>
+------=_Part_68144_592995429.1409887385581--

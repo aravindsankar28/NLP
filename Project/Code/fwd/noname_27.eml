@@ -1,0 +1,122 @@
+Return-Path: jayalal.sarma@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 22 Jul 2014 17:19:52 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 4F470F78105;
+	Tue, 22 Jul 2014 17:19:49 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.476
+X-Spam-Level: *
+X-Spam-Status: No, score=1.476 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, SPF_SOFTFAIL=0.665, T_TO_NO_BRKTS_FREEMAIL=0.01]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id qcdSdfYJreqY; Tue, 22 Jul 2014 17:19:44 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3645BF78050;
+	Tue, 22 Jul 2014 17:18:58 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id DD8F67804A5;
+	Tue, 22 Jul 2014 17:41:35 +0530 (IST)
+Authentication-Results: mailx1.iitm.ac.in;
+	spf=pass smtp.mailfrom=jayalal.sarma@gmail.com;
+	dkim=policy(identity domain mismatch) header.i=@gmail.com;
+Received: from mail-ie0-f179.google.com ([209.85.223.179])
+	by mailx1.iitm.ac.in (SonicWALL 8.0.0.2099)
+	with ESMTP id 201407221200570059647; Tue, 22 Jul 2014 17:30:59 +0530
+Received: by mail-ie0-f179.google.com with SMTP id rl12so7728501iec.24
+        for <multiple recipients>; Tue, 22 Jul 2014 05:11:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:from:date:message-id:subject:to:cc:content-type
+         :content-transfer-encoding;
+        bh=iwwsR4a/OSMAbMBTHxJmbRyxWqOvf9ma4csZzaKmiaw=;
+        b=kbqbl+4VJnBBwY1CRzej0bnvVqN1dpwgzX4Zus1tqwVlVh2NgN99ZY0kzj2BOrJoxc
+         on67/CwTneXS7JHxa9jPEIzW2QWBi4vyWPKBVvVWZKLhQlR3qc+sL9rkGJVP43u2bac+
+         jkZKR5rt5xZdlD3KEU7ndyZmcIJjTOBtMX9n4sgZAFvgnXVteqAuux0TmiOTCp9X9riI
+         qEjRyFwLcrr2rDRAt5dD3iLAdR8bEOFTFhZBawBc+0LaPs72b1Gf3GF+lpS2q98U2aSz
+         BmVamAWRz5AS8dnqN6zBlFO40QLxKbV4lc3wcb3Tyzk0mdGax+rkNNZwFk8/XkRE/i4b
+         Z1NQ==
+X-Received: by 10.50.80.45 with SMTP id o13mr16055780igx.7.1406031094126; Tue,
+ 22 Jul 2014 05:11:34 -0700 (PDT)
+MIME-Version: 1.0
+Sender: jayalal.sarma@gmail.com
+Received: by 10.64.31.227 with HTTP; Tue, 22 Jul 2014 05:11:14 -0700 (PDT)
+From: Jayalal Sarma <jayalal@cse.iitm.ac.in>
+Date: Tue, 22 Jul 2014 17:41:14 +0530
+X-Google-Sender-Auth: EkeZSqmmKNY6pnkpXalj2O0pO_8
+Message-ID: <CAL_Lm_g_F_W6DqtK5unW-ruSCFwdgdrpWVP+W56Az02U+gmN7w@mail.gmail.com>
+Subject: Seminar Announcement : Talk by Venkatesan Guruswami (CMU, Pittsburgh, USA)
+To: seminar@cse.iitm.ac.in
+Cc: Venkatesan Guruswami <venkatg@cs.cmu.edu>, "csoffice@cse.iitm.ac.in" <csoffice@cse.iitm.ac.in>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Mlf-SPF: result=pass;action=none;identity=mailfrom;domain=gmail.com;source=209.85.223.179;details:allowedlist=consider;
+X-Mlf-DKIM: result=none;action=none;details: allowedlist=consider;dkim=none, identity domain mismatched for all signatures.
+X-Mlf-KeyWords: talk,satisfaction,ha,cs,usa,stad,color,test,faculty,constraint,clause,abstract,a
+X-Mlf-AddressBook: jayalal.sarma@gmail.com,people,allowed
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.223.179
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;allowlist_sender;none;list_addrbk_sender
+X-Mlf-UniqueId: i201407221200570059647
+
+Dear All,
+
+Dr. Venkatesan Guruswami (http://www.cs.cmu.edu/~venkatg/), who is our
+alumnus and currently a faculty member at CMU, USA, will be visiting
+the department during Jul 31st - Aug 1st. He will be giving a talk at
+the department on Jul 31st, Thursday. Please find below the details of
+the talk.
+
+---------------------------------------------------------------------------=
+---
+Title : Hardness of (2+eps)-SAT and Balanced Hypergraph Coloring
+Speaker : Dr. Venkatesan Guruswami (CMU, Pittsburgh, USA)
+Date & TIme : Jul 31, 2014, Thursday, 2:30pm - 3:30pm.
+Venue : CS25
+---------------------------------------------------------------------------=
+---
+Abstract:
+Given a k-SAT instance with the promise that there is an assignment
+satisfying at least t out of k literals in each clause, can one
+efficiently find a satisfying assignment (setting at least one literal
+to true in every clause)? The NP-hardness of 3-SAT implies that this
+problem is NP-hard when t <=3D k/3, and extensions of some 2-SAT
+algorithms give efficient solutions when t >=3D k/2.
+
+We prove that for t < k/2, the problem is NP-hard. Thus,
+satisfiability becomes hard when the promised density of true literals
+falls below 1/2. One might thus say that the transition from easy to
+hard in 2-SAT vs. 3-SAT takes place just after two and not just before
+three.
+
+A strengthening of this result shows that given a (2k+1)-uniform
+hypergraph that can be 2-colored such that each edge has near-perfect
+balance (at most k+1 vertices of each color), it is NP-hard to even
+find a 2-coloring that avoids a monochromatic edge. This shows extreme
+hardness of discrepancy minimization for systems of bounded-size sets.
+
+The talk will sketch our proof of the SAT result, which is based on
+the fact that the only functions passing a natural ``dictatorship
+test" are ``juntas" depending on few variables. We might also briefly
+mention the general principle (based on the lack of certain
+``polymorphisms") that underlies hardness of constraint satisfaction,
+and an improvement of the hypergraph coloring result (for 2k-uniform
+hypergraphs) ruling out coloring with any constant number of colors.
+
+Based on joint works with Per Austrin and Johan H=C3=A5stad
+(http://eccc.hpi-web.de/report/2013/159/) and Euiwoong Lee
+(http://eccc.hpi-web.de/report/2014/043/)
+---------------------------------------------------------------------------=
+---
+
+
+Best regarrds,
+Jayalal

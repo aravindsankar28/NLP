@@ -1,0 +1,211 @@
+Return-Path: debarunk@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 1 Apr 2013 11:41:54 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 80C15F78102;
+	Mon,  1 Apr 2013 11:41:51 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.209
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.209 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_50=0.8, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=ham
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id RS8eEWqb69W7; Mon,  1 Apr 2013 11:41:50 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 12878F78101
+	for <seminar@cse.iitm.ac.in>; Mon,  1 Apr 2013 11:41:50 +0530 (IST)
+Date: Mon, 1 Apr 2013 11:41:50 +0530 (IST)
+From: Debarun Kar <debarunk@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1135750738.32248.1364796709999.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <751240936.28027.1364452088857.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Reminder : MS Seminar (2nd April)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_32247_1897626905.1364796709998"
+X-Originating-IP: [10.6.30.150]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - [unknown] (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_32247_1897626905.1364796709998
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+A Gentle Reminder.=20
+
+Regards,=20
+Debarun.=20
+
+
+
+From: "Debarun Kar" <debarunk@cse.iitm.ac.in>=20
+To: "Seminar" <seminar@cse.iitm.ac.in>=20
+Sent: Thursday, March 28, 2013 11:58:08 AM=20
+Subject: MS Seminar=20
+
+
+
+
+
+Dear All,=C2=A0=20
+
+
+
+
+I will be giving my MS seminar talk on 2nd April , 2013 (Tuesda y ) at 3:00=
+ PM. I request you to kindly attend the seminar and give your valuable sugg=
+estions.=20
+
+
+
+
+Venue Details=20
+
+
+Title: Complexity Guided Feature Weighting, Con=EF=AC=81dence Augmented Pre=
+diction and Visualization for Case based Reasoning Systems=20
+
+
+Speaker: Debarun Kar=20
+
+Date: 2nd April , 2013=20
+Time: 3:00 PM=C2=A0=20
+Venue: BSB 361 (Seminar Hall), Dept. of CSE.=20
+
+
+About the Talk:=20
+
+Case based reasoning (CBR) attempts to solve a given problem by referring t=
+o similar problems encountered in the past and using their solutions to arr=
+ive at a solution for the new problem. Past experiences, referred to as cas=
+es, are typically stored in a case base as problem-solution pairs. So, the =
+primary assumption behind all CBR systems is that =E2=80=9Csimilar problems=
+ have similar solutions=E2=80=9D and the measure which calculates the degre=
+e to which this similarity assumption holds good is called =E2=80=98alignme=
+nt=E2=80=99. However, this traditional view of CBR may be a=EF=AC=80ected i=
+n some regions of the case base due to the presence of noisy cases, an irre=
+levant set of attributes or an inappropriate similarity measure. The qualit=
+y of the cases maintained in a case base has a direct in=EF=AC=82uence on t=
+he quality of the proposed solutions. The presence of cases that do not con=
+form to the similarity hypothesis decreases the alignment of the case base =
+and often degrades the performance of a CBR system. It is therefore importa=
+nt to =EF=AC=81nd out the suitability of each case for the application of C=
+BR and associate a solution with a certain degree of con=EF=AC=81dence. Fea=
+ture weighting also determines the success of a system, as the presence of =
+irrelevant and redundant attributes results in incorrect solutions. We addr=
+ess the above problems with reference to a real-world CBR application calle=
+d InfoChrom. It is used to predict the values of several soil nutrients bas=
+ed on features extracted from a chromatogram image of a soil sample. We pro=
+pose novel feature weighting techniques based on alignment, as well as a ne=
+w alignment and con=EF=AC=81dence measure as potential solutions to these p=
+roblems. The hypotheses are evaluated on UCI datasets and the case base of =
+Infochrom and show promising results. We also present ways of learning case=
+-case similarities which is often a non-trivial task and involves signi=EF=
+=AC=81cant amount of domain expertise. Our approach to learning similaritie=
+s involves learning an appropriate set of feature weights while the domain =
+expert iteratively interacts with a case base visualizer called iCaseViz de=
+veloped for the above purpose. We provide results on the e=EF=AC=83ciency o=
+f the visualizer and the e=EF=AC=80ectiveness of our similarity learning al=
+gorithm on UCI datasets and the case base of InfoChrom.=20
+
+
+--=C2=A0=20
+
+
+Regards,=20
+Debarun Kar.=20
+
+------=_Part_32247_1897626905.1364796709998
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12p=
+t">A Gentle Reminder.</DIV>
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+">&nbsp;</DIV>
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+">Regards,</DIV>
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+">Debarun.<BR></DIV>
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+">
+<HR id=3Dzwchr>
+</DIV>
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+"><B>From: </B>"Debarun Kar" &lt;debarunk@cse.iitm.ac.in&gt;<BR><B>To: </B>=
+"Seminar" &lt;seminar@cse.iitm.ac.in&gt;<BR><B>Sent: </B>Thursday, March 28=
+, 2013 11:58:08 AM<BR><B>Subject: </B>MS Seminar<BR><BR></DIV>
+<STYLE>p { margin: 0; }</STYLE>
+
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+">
+<STYLE>p { margin: 0; }</STYLE>
+
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+">
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+">
+<DIV>Dear All,&nbsp;</DIV>
+<DIV><BR></DIV>
+<DIV><BR></DIV>
+<DIV>I will be giving my MS seminar talk on <SPAN id=3DOBJ_PREFIX_DWT74 cla=
+ss=3DObject>2nd April</SPAN>, 2013 (Tuesda<SPAN id=3DOBJ_PREFIX_DWT75 class=
+=3DObject>y</SPAN>) at 3:00 PM. I request you to kindly attend the seminar =
+and give your valuable suggestions.</DIV>
+<DIV><BR></DIV>
+<DIV><BR></DIV>
+<DIV>Venue Details</DIV>
+<DIV><BR></DIV>
+<DIV>Title: Complexity Guided Feature Weighting, Con=EF=AC=81dence Augmente=
+d Prediction and Visualization for Case based Reasoning Systems</DIV>
+<DIV><BR></DIV>
+<DIV>Speaker: Debarun Kar<BR></DIV>
+<DIV>Date: <SPAN id=3DOBJ_PREFIX_DWT74 class=3DObject>2nd April</SPAN>, 201=
+3</DIV>
+<DIV>Time: 3:00 PM&nbsp;</DIV>
+<DIV>Venue: BSB 361 (Seminar Hall), Dept. of CSE.</DIV>
+<DIV><BR></DIV>
+<DIV>About the Talk:</DIV>
+<DIV><BR></DIV>Case based reasoning (CBR) attempts to solve a given problem=
+ by referring to similar problems encountered in the past and using their s=
+olutions to arrive at a solution for the new problem. Past experiences, ref=
+erred to as cases, are typically stored in a case base as problem-solution =
+pairs. So, the primary assumption behind all CBR systems is that =E2=80=9Cs=
+imilar problems have similar solutions=E2=80=9D and the measure which calcu=
+lates the degree to which this similarity assumption holds good is called =
+=E2=80=98alignment=E2=80=99. However, this traditional view of CBR may be a=
+=EF=AC=80ected in some regions of the case base due to the presence of nois=
+y cases, an irrelevant set of attributes or an inappropriate similarity mea=
+sure. The quality of the cases maintained in a case base has a direct in=EF=
+=AC=82uence on the quality of the proposed solutions. The presence of cases=
+ that do not conform to the similarity hypothesis decreases the alignment o=
+f the case base and often degrades the performance of a CBR system. It is t=
+herefore important to =EF=AC=81nd out the suitability of each case for the =
+application of CBR and associate a solution with a certain degree of con=EF=
+=AC=81dence. Feature weighting also determines the success of a system, as =
+the presence of irrelevant and redundant attributes results in incorrect so=
+lutions. We address the above problems with reference to a real-world CBR a=
+pplication called InfoChrom. It is used to predict the values of several so=
+il nutrients based on features extracted from a chromatogram image of a soi=
+l sample. We propose novel feature weighting techniques based on alignment,=
+ as well as a new alignment and con=EF=AC=81dence measure as potential solu=
+tions to these problems. The hypotheses are evaluated on UCI datasets and t=
+he case base of Infochrom and show promising results. We also present ways =
+of learning case-case similarities which is often a non-trivial task and in=
+volves signi=EF=AC=81cant amount of domain expertise. Our approach to learn=
+ing similarities involves learning an appropriate set of feature weights wh=
+ile the domain expert iteratively interacts with a case base visualizer cal=
+led iCaseViz developed for the above purpose. We provide results on the e=
+=EF=AC=83ciency of the visualizer and the e=EF=AC=80ectiveness of our simil=
+arity learning algorithm on UCI datasets and the case base of InfoChrom.<BR=
+><BR>
+<DIV>--&nbsp;</DIV>
+<DIV><BR></DIV>
+<DIV>Regards,</DIV>
+<DIV>Debarun Kar.<BR></DIV></DIV></DIV></DIV></div></body></html>
+------=_Part_32247_1897626905.1364796709998--

@@ -1,0 +1,179 @@
+Return-Path: anupsjoshi@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 31 Dec 2013 11:04:53 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E0222F781E5;
+	Tue, 31 Dec 2013 11:04:49 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.367
+X-Spam-Level: *
+X-Spam-Status: No, score=1.367 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id vBxeHa-1UGq6; Tue, 31 Dec 2013 11:04:44 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7E2D4F7805D
+	for <seminar@cse.iitm.ac.in>; Tue, 31 Dec 2013 11:00:06 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id EDF1B780422
+	for <seminar@cse.iitm.ac.in>; Tue, 31 Dec 2013 11:16:16 +0530 (IST)
+Received: from mail-wg0-f48.google.com ([74.125.82.48])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201312310528040015800; Tue, 31 Dec 2013 10:58:05 +0530
+Received: by mail-wg0-f48.google.com with SMTP id z12so10783906wgg.27
+        for <seminar@cse.iitm.ac.in>; Mon, 30 Dec 2013 21:46:15 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=pcQlPPgMWeUbZ/j8oZo779hMDyu+vo6fKpI0RUlu8vQ=;
+        b=zb3fbzFVkVZO4DTnuNRQb/enDuBeLjW/m+OmFspGqkxgw32PW35PEJ3kfw4E4Sf68A
+         z/HH2wyRf+Dg+m3mtPE32T8D3eIEtWRtMaAVylhyTC7LtdZ3p9NzGVKVOFGjzyQSZCV3
+         O4DRqzJq6b3gNmxN4xjXhLbRHDSe6ry8YMR1xo7b34dYlG362jaHkZp5LEtgKcDM5JTL
+         Lw3CtVDc85RTI8orGHgQLLpoMuL26Flq7ML3vWpCKa4gXS3LbwITSxeuWdZunyUfIFuE
+         5Bvu5k/JzkJIEFA6KhO+UZjv4CQTKjfH80YHhQDWTxYKdbJLwkXtcaEcBwTI6H13RwDl
+         UUgw==
+MIME-Version: 1.0
+X-Received: by 10.180.171.34 with SMTP id ar2mr46821715wic.25.1388468775346;
+ Mon, 30 Dec 2013 21:46:15 -0800 (PST)
+Received: by 10.216.104.202 with HTTP; Mon, 30 Dec 2013 21:46:15 -0800 (PST)
+In-Reply-To: <1416586574.14120046.1388234789158.JavaMail.root@mail.cse.iitm.ac.in>
+References: <1416586574.14120046.1388234789158.JavaMail.root@mail.cse.iitm.ac.in>
+Date: Tue, 31 Dec 2013 11:16:15 +0530
+Message-ID: <CAOx=zqmTN4VhqfnzrD=5pLNkcsOzier=+Twce5mLn-Hn8qrbYA@mail.gmail.com>
+Subject: Fwd: MS Seminar
+From: Anup Joshi <anupsjoshi@gmail.com>
+To: Anup Joshi <anupsjoshi@gmail.com>
+Content-Type: multipart/alternative; boundary=001a11361aa022e7c804eece1469
+X-Mlf-DKIM: dkim=pass header.i=gmail.com 
+X-Mlf-KeyWords: girth,exploiting,dear,placing,kindly,cs,suggestions,algorithm,forwarded,attend,f
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 74.125.82.48
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201312310528040015800
+
+--001a11361aa022e7c804eece1469
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi All,
+A gentle reminder regarding my MS Seminar today. The venue has been shifted
+to *CS 34*, Time: *4:00 PM*. Kindly make it convenient to attend the
+seminarand give your valuable suggestions.
+
+Regards
+Anup
+
+---------- Forwarded message ----------
+From: Anup Joshi <anup@cse.iitm.ac.in>
+
+Dear All,
+
+I am happy to invite all of you to my MS seminar on December 31, 2013 (
+Tuesday) at 4:00 PM. Kindly make it convenient to attend the seminar and
+give your valuable suggestions. The details of the talk are as follows:
+
+Title               :  *Approximation Algorithms for special instances of
+Guarding a Set of Segments*
+Speaker         :    Anup Joshi
+Guide            :    Dr. N. S. Narayanaswamy
+Date & Time :   December 31, 2013(Tuesday) at 4:00 PM
+Venue           :    CS 34, CSE Department
+
+
+*Abstract:*
+One of the classical problems in Theoretical Computer Science is Hitting
+Set. We investigate a problem called Guarding a Set of Segments(GSS) which
+is a hitting set problem on a set of line segments. The problem is, given a
+set of line segments, how can one select a minimum number of points so that
+every segment passes through at least one of the selected points. We
+investigate this problem in the context of a 2-dimensional euclidean space.
+The problem falls in the category of Art Gallery Problems, an example would
+be to consider a road network approximated by a set of line segments on the
+2-d plane, and the task is to observe all the roads by placing minimum
+security cameras.
+
+We present constant-factor approximation algorithms for special instances
+of GSS by exploiting the structure of the underlying planar graph of a GSS
+instance. In the underlying graph the vertex set consists of the
+intersection points as well as the endpoints of the line segments, and the
+edge set is the set of all pairs of vertices which are adjacent to each
+other on a segment. We present a 3-factor approximation algorithm for the
+special instances of GSS in which the underlying graph has girth at least
+4. This also gives a 3-factor approximation for Hitting Set on GSS
+instances satisfying the Helly Property. We also obtain a 2-factor
+approximation algorithm for GSS instances whose underlying graph is
+outerplanar.
+
+*All are welcome!*
+
+Regards,
+Anup
+(CS11S012)
+Dept of CSE, IIT Madras.
+
+--001a11361aa022e7c804eece1469
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div>Hi All,<br></div>A gentle reminder regardin=
+g my MS Seminar today. The venue has been shifted to <b>CS 34</b>, Time: <b=
+>4:00 PM</b>. <span>Kindly make it convenient to attend the <span>seminar</=
+span> and give=20
+your valuable suggestions.<br><br></span></div><span>Regards<br></span></di=
+v><span>Anup<br></span><div><div><div><div><br><div class=3D"gmail_quote">-=
+--------- Forwarded message ----------<br>From: <b class=3D"gmail_sendernam=
+e">Anup Joshi</b> <span dir=3D"ltr">&lt;<a href=3D"mailto:anup@cse.iitm.ac.=
+in">anup@cse.iitm.ac.in</a>&gt;</span><br>
+<br><div dir=3D"ltr">Dear All, <br><div style=3D"font-size:12pt;font-family=
+:Times New Roman"><div style=3D"font-size:12pt;font-family:Times New Roman"=
+><div style=3D"font-size:12pt;font-family:Times New Roman"><span><br>I am h=
+appy to invite all of you to my MS <span>seminar</span><i> </i>on December =
+31, 2013 (<span><span><span>Tuesday</span></span></span>)
+ at 4:00 PM. Kindly make it convenient to attend the <span>seminar</span> a=
+nd give=20
+your valuable suggestions. The details of the talk are as follows:<br><br>T=
+itle=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 :=A0 <i>Approximation Algori=
+thms for special instances of Guarding a Set of Segments</i> =A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 <br>Speaker=A0=A0=A0=A0=A0=A0 =A0 :=A0=A0=
+=A0 Anup Joshi<br>
+
+
+Guide=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 :=A0=A0=A0 Dr. N. S. Narayanaswamy<b=
+r>Date &amp; Time : =A0 December 31, 2013(Tuesday) at 4:00 PM<br>Venue=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0 :=A0=A0=A0 CS 34, CSE Department<br><br><i>Abst=
+ract:<br></i><br>One of the classical problems in Theoretical Computer Scie=
+nce is Hitting Set. We investigate a problem called Guarding a Set of Segme=
+nts(GSS) which is a hitting set problem on a set of line segments. The prob=
+lem is, given a set of line segments, how can one select a minimum number o=
+f points so that every segment passes through at least one of the selected =
+points. We investigate this problem in the context of a 2-dimensional eucli=
+dean space. The problem falls in the category of Art Gallery Problems, an e=
+xample would be to consider a road network approximated by a set of line se=
+gments on the 2-d plane, and the task is to observe all the roads by placin=
+g minimum security cameras.<br>
+
+<br>We present constant-factor approximation algorithms for special instanc=
+es of GSS by exploiting the structure of the underlying planar graph of a G=
+SS instance. In the underlying graph the vertex set consists of the interse=
+ction points as well as the endpoints of the line segments, and the edge se=
+t is the set of all pairs of vertices which are adjacent to each other on a=
+ segment. We present a 3-factor approximation algorithm for the special ins=
+tances of GSS in which the underlying graph has girth at least 4. This also=
+ gives a 3-factor approximation for Hitting Set on GSS instances satisfying=
+ the Helly Property. We also obtain a 2-factor approximation algorithm for =
+GSS instances whose underlying graph is outerplanar.<br>
+
+
+<br></span><i>All are welcome!</i><br><span><br>Regards,<br><span>Anup</spa=
+n><br>(CS11S012)<br>Dept of CSE, IIT Madras.</span></div></div></div></div>
+</div><br></div></div></div></div></div>
+
+--001a11361aa022e7c804eece1469--

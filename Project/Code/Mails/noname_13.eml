@@ -1,0 +1,51 @@
+Dear All
+
+Ayan Acharya from Univ.  of Texas, Austin, will be visiting the Department
+on 15th and 16th and will be giving a talk on knowledge transfer using
+latent variable models at 3 pm on 15th in BSB 361.  All are welcome.
+Details below.
+
+Regards
+Ravi.
+
+Title: Knowledge Transfer Using Latent Variable Models
+
+Abstract:
+
+In several applications, scarcity of labeled data is a challenging problem
+that hinders the predictive capabilities of machine learning algorithms.
+Additionally, the distribution of the data changes over time rendering
+models trained with older data less capable of discovering useful structure
+from the newly available data. Transfer learning is a convenient framework
+to overcome such problems where the learning of a model specific to a
+domain can benefit the learning of other models in other domains through
+either simultaneous training of domains or systematic sequential transfer
+of knowledge from one domain to the others.
+
+In this talk, variety of methods for achieving transfer learning are
+explored where a hidden layer is shared across different domains in
+hierarchical latent variable based models. Applications of such frameworks
+in problems like text classification, object recognition from images,
+network modeling for community detection and evolution of count values
+vectors and matrices have shown excellent results so far. In particular,
+the strength of non-parametric Poisson factorization will also be explored
+in the context of knowledge transfer and modeling of large scale count data
+prevalent in text mining, image analysis and recommender systems.
+
+Bio:
+
+Ayan Acharya is a fifth year Ph.D. student in Department of Electrical and
+Computer Engineering at University of Texas at Austin, USA. He is
+associated with Intelligent Data Exploration and Analysis Laboratory
+(IDEAL) led by Dr. Joydeep Ghosh and Machine Learning Research Group led by
+Dr. Raymond J. Mooney. He also collaborates actively with Dr. Mingyuan Zhou
+from McCombs School of Business and Applied Research Laboratories, UT
+Austin. His research focus is on developing generative models and efficient
+inference algorithms for solving transfer learning problems prevalent in
+text document analysis, social network study, recommender systems and
+object recognition from images. Over the years, he has also garnered
+sufficient experience in industry through his internships in places like
+eBay Research Lab, Qualcomm Inc., Yahoo! Research, Sunnyvale, CA and
+Cognitive Scale, Austin, TX. Before joining UT Austin, he completed his
+Bachelor's degree in Electronics and Telecommunication Engineering from
+Jadavpur University, Kolkata, India in the year 2009.

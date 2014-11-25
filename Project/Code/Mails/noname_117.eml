@@ -1,0 +1,65 @@
+
+
+Dear All,=20
+
+Just a reminder. I will be giving my MS seminar talk on 31st October 2013 (=
+ Thursday ) at 2:00 PM in BSB 361. Kindly attend the seminar and provide yo=
+ur valuable feedback.=20
+
+Details:=20
+
+
+Speaker : Madhur D. Amilkanthwar=20
+Date : 31st October 2013 , Thursday .=20
+Time : 14:00 hrs to 15:00 hrs=20
+Topic : Mitigating Penalties of Uncoalesced Access Pattern on CUDA=20
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineeri=
+ng.=20
+
+
+
+
+
+Abstract :=20
+Modern architectures like Graphics Processing Units (GPUs) offer massive on=
+-chip par allelism and are ideally suited for data parallel applications. I=
+n spite of high compute=20
+resources present on GPU, programming and fully utilizing GPUs is not an ea=
+sy task. NVIDIA=E2=80=99s GPU programming platform is known as Compute Unif=
+ied Device Archi-=20
+tecture(CUDA). One of the challenges faced by a programmer on CUDA platform=
+ is address coalescing. Developing applications with coalesced accesses to =
+a data structure=20
+may require series of optimize-code-profile passes and may affect develomen=
+t time and programmers=E2=80=99 productivity. This thesis proposes a compil=
+er tool called Compile-time=20
+Uncoalesced Memory Access Pattern Locator (CUPL) which helps a programmer t=
+o locate Uncoalesced accesses to a data structure. Our tool takes a CUDA ke=
+rnel and=20
+corresponding kernel launch configuration as inputs and emits warnings if a=
+n access is uncoalesced. To the best of our knowledge, CUPL is the first to=
+ol in the research com-=20
+munity which identifies access patterns at compile-time by analyzing the in=
+put source code. We have tested correctness of CUPL on benchmarks from Poly=
+bench-GPU and=20
+Rodinia suite and CUPL emits warnings whenever there is an uncoalesced acce=
+ss. In ad dition to emitting performance warnings, CUPL also fixes these wa=
+rnings automatically.=20
+After locating an uncoalesced access to a data structure, CUPL splits the i=
+nput CUDA kernel into two and performs data layout transformation. Our data=
+ layout transforma-=20
+tion moves non-contiguous data points to contiguous locations. To hide the =
+latency of data layout transformation, we divide the memory region occupied=
+ by the data structure=20
+into several chunks and perform transformation on a chunk level. We further=
+ overlap this time with data transfer (between CPU and GPU) time. Our trans=
+formation yields=20
+an average 2x speedup over naive implementation on benchmarks from Polybenc=
+h-GPU.=20
+
+All are welcome!=20
+
+---=20
+Madhur D. Amilkanthwar(CS11S015)=20
+RISE Lab,=20
+Department of Computer Science and Engineering, IIT Madras.

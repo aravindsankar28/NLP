@@ -1,0 +1,85 @@
+Return-Path: augustine@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 16 Aug 2013 13:32:21 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id BD2E7F78137;
+	Fri, 16 Aug 2013 13:32:20 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.594
+X-Spam-Level: *
+X-Spam-Status: No, score=1.594 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, RDNS_NONE=0.793]
+	autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id YID11CcfiLu7; Fri, 16 Aug 2013 13:32:08 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3527EF78035;
+	Fri, 16 Aug 2013 13:32:08 +0530 (IST)
+Date: Fri, 16 Aug 2013 13:32:08 +0530 (IST)
+From: John Augustine <augustine@cse.iitm.ac.in>
+To: faculty <faculty@cse.iitm.ac.in>, students <students@cse.iitm.ac.in>
+Cc: Russ Arun <Russ.Arun@microsoft.com>
+Message-ID: <1032060520.9817.1376640128157.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <436186009.8985.1376636427415.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Re: Talk Announcement:  (Monday, August 19, 3 - 4PM, BSB 361)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+Dear all,
+
+Apologies for flooding your inbox. Please note a change in the title and ab=
+stract of the talk by Russ Arun. The other details (time, place, and of cou=
+rse, the speaker's bio) remain the same.
+
+Regards,
+John.
+
+Title: Building Online Services at scale
+
+Abstract: The talk will outline some key learnings from building online ser=
+vices at scale. A lot of these learnings would seem like common sense, but =
+over multiple teams it is clear that it is not obvious enough to make sense=
+ as teams getting into the online services space for the first time repeat =
+many of these mistakes. The talk usually illustrates the key points with re=
+al world examples, but for confidentiality the learnings will be illustrate=
+d through fictitious examples.
+
+Bio of speaker:=20
+
+Rasipuram (Russ) Arun, General Manager, Bing Search & Advertising, Microsof=
+t India Development Centre.
+
+Russ Arun is the General Manager for Bing Search & Advertising at Microsoft=
+ India Development Center.=C2=A0 Prior to this role, Russ was the Partner G=
+roup Program Manager for Display Ads and then Search Ads in the Online Serv=
+ices Division (OSD).=C2=A0
+Before working in OSD, Russ worked for the Windows Live team and was respon=
+sible for the server side of Messenger, Hotmail, storage, mobile and alerts=
+. In a previous incarnation of this role, Russ was General Manager for the =
+Live Platform Services backend team and led the transition of Hotmail, Mess=
+enger and Storage through a critical period to increase their operational e=
+fficiency and compete effectively. His work was recognized by his peers thr=
+ough the =E2=80=9COutstanding Technical Leadership=E2=80=9D award given by =
+the Technical Community Network. Prior to this role, Russ was the General M=
+anager for MSN Mobile.
+=C2=A0
+Russ=E2=80=99 earlier work in Microsoft includes Windows 95, IE 3.0, IE 4.0=
+ and.Net CF. Before Microsoft, Russ was a development manager at Sun Micros=
+ystems working on Windows & networking products.
+=C2=A0
+Russ holds an MBA from UCLA, MS from Syracuse University and BS from IIT Ma=
+dras. His hobbies include water activities, racquet sports, hiking, skiing =
+and traveling.
+
+
+--
+John Augustine
+Assistant Professor
+Department of Computer Science and Engineering
+Indian Institute of Technology Madras
+www.cse.iitm.ac.in/~augustine

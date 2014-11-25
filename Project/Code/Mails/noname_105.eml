@@ -1,0 +1,49 @@
+
+All, 
+
+I am giving my 2nd Ph.D seminar on 19 th November 2013 ( Tuesday) from 3pm to 4pm at BSB 361. 
+Please make it convenient to attend and give your valuable suggestions. 
+
+Title of the talk : Methods to reduce power and delay in the Internet 
+Date : 19-Nove mber , 2013, Tuesday 
+
+Time : 15:00 hrs to 16:00 hrs 
+
+Venue : BSB 361, Dept. of CSE. 
+
+Speaker: Shankar Raman M J, Ph.D scholar, NetFPGA / R I SE Lab 
+
+
+
+
+
+Abstract The Internet consumes about 2% of the total generated power in the world. With increasing 
+bandwidth of the networking devices attached to the Internet, power consumed by these 
+devices is becoming a major concern. We address the high power consumption problem by 
+dividing the Internet into three distinct layers namely: device, network and transport layers. In 
+the first seminar we considered methods to reduce power consumption at the network layer. 
+We used a metric-based approach to reduce the power consumption of the Internet by finding 
+low-power paths through the use of routing protocols. Re-routing could lead to increased delays 
+between the end systems. Hence, we proposed an ant-colony based heuristic to balance both 
+power and delay in the Internet. 
+
+In this second seminar, we analyze the transport protocol (Transmission Control Protocol - Reno) 
+which uses packet-loss as a feedback signal. We choose to study TCP-Reno as it forms the base 
+protocol for Cubic and Compound TCP, which are deployed in the Internet. We study local stability 
+and the local Hopf bifurcation properties of a fluid model for TCP Reno coupled with queue 
+management schemes in routers. We analyze models for the widely deployed Drop-Tail queue policy, 
+over a small and an intermediate buffer regime. We also study a model for a threshold based queue 
+policy. In small Drop-Tail buffers, stability depends crucially on the buffer size. With intermediate 
+buffer Drop-Tail, the system can be locally unstable for large values of the feedback delay and link 
+capacities. The threshold based policy highlights the importance of setting queue thresholds guided 
+by stability analysis. We show that variations in system parameters can produce Hopf induced limit 
+cycles. Using the theory of normal forms and the center manifold theorem, we establish that the Hopf 
+bifurcation is supercritical. Packet-level simulations and NetFPGA based experiments for the Drop-Tail 
+queue policy corroborate our theoretical analysis. Our work highlights the importance of using a queue 
+management schemes that could reduce delay, as well as provide network stability. 
+
+All are welcome 
+
+
+Regards 
+Shankar Raman 

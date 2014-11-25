@@ -1,0 +1,45 @@
+
+
+Dear All,=20
+I invite you to my MS seminar on 22nd April 2014 ( Tuesday ) at 2:00 PM. Ki=
+ndly make it convenient to attend the seminar. The details of the seminar a=
+re as follows.=20
+
+
+Title : Fast Method for Finding Resolution Limit Free Communities in Large =
+Networks=20
+Speaker : Vishnu Sankar M (CS11S024)=20
+Time : 22-04-2014 ( Tuesday ) at 2:00 PM=20
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineeri=
+ng=20
+
+Abstract: Networks are the simplest form of representation of the interacti=
+ons between real world objects. Most of these real world networks exhibit t=
+he property of community structure , i.e., nodes in the network can be part=
+itioned into communities such that more edges are present between nodes bel=
+onging to the same community than between the nodes belonging to different =
+community. This structural property has attracted researchers as the commun=
+ities in networks correspond to a real world property of the network e.g., =
+research area in a collaboration network , related pages in world wide web,=
+ etc., Modularity is the widely used scoring function used to measure the q=
+uality of these communities. But modularity in itself suffers from resoluti=
+on limit, an inability to find communities which are smaller in size when c=
+ompared to size of the network. In this work, we identify the necessary fea=
+tures that a good scoring function should incorporate in order to character=
+ize good community structure and propose a new scoring function which confo=
+rms closely with our characterization and which is free from resolution lim=
+it. We also do a comparative study of our scoring function with the existin=
+g scoring functions and find that our scoring function models the ground-tr=
+uth communities better than the existing scoring functions.=20
+
+Louvain method, which greedily maximizes modularity , is the state of the a=
+rt algorithm to find communities. We modify Louvain method to greedily maxi=
+mize our scoring function. We show that our algorithm gives the expected co=
+mmunities in synthetic networks as opposed to Louvain method. We also show =
+that the community labels given by our algorithm matches closely with the g=
+round-truth community labels in real world networks. Our algorithm is on pa=
+r with Louvain method in computation time and hence it can be applied on la=
+rge networks also.=20
+
+Regards,=20
+Vishnu.=20

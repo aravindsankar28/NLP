@@ -1,0 +1,142 @@
+Return-Path: mjsraman@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 18 Nov 2013 11:23:06 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B358AF781E1;
+	Mon, 18 Nov 2013 11:23:02 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.794
+X-Spam-Level: 
+X-Spam-Status: No, score=0.794 tagged_above=-10 required=6.6
+	tests=[BAYES_40=-0.001, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id eAzI5nVRxb5w; Mon, 18 Nov 2013 11:23:02 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A753DF78128
+	for <seminar@cse.iitm.ac.in>; Mon, 18 Nov 2013 11:19:26 +0530 (IST)
+Date: Mon, 18 Nov 2013 11:19:24 +0530 (IST)
+From: "mjsraman@cse.iitm.ac.in" <mjsraman@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <822635202.7594723.1384753764571.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1576437250.7593730.1384753212097.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: 2nd Seminar Invite - Tuesday, 19th Nov, 2013 - 3 - 4 pm BSB 361
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7594722_1696237761.1384753764570"
+X-Originating-IP: [10.93.246.202]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_7594722_1696237761.1384753764570
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+All, 
+
+I am giving my 2nd Ph.D seminar on 19 th November 2013 ( Tuesday) from 3pm to 4pm at BSB 361. 
+Please make it convenient to attend and give your valuable suggestions. 
+
+Title of the talk : Methods to reduce power and delay in the Internet 
+Date : 19-Nove mber , 2013, Tuesday 
+
+Time : 15:00 hrs to 16:00 hrs 
+
+Venue : BSB 361, Dept. of CSE. 
+
+Speaker: Shankar Raman M J, Ph.D scholar, NetFPGA / R I SE Lab 
+
+
+
+
+
+Abstract The Internet consumes about 2% of the total generated power in the world. With increasing 
+bandwidth of the networking devices attached to the Internet, power consumed by these 
+devices is becoming a major concern. We address the high power consumption problem by 
+dividing the Internet into three distinct layers namely: device, network and transport layers. In 
+the first seminar we considered methods to reduce power consumption at the network layer. 
+We used a metric-based approach to reduce the power consumption of the Internet by finding 
+low-power paths through the use of routing protocols. Re-routing could lead to increased delays 
+between the end systems. Hence, we proposed an ant-colony based heuristic to balance both 
+power and delay in the Internet. 
+
+In this second seminar, we analyze the transport protocol (Transmission Control Protocol - Reno) 
+which uses packet-loss as a feedback signal. We choose to study TCP-Reno as it forms the base 
+protocol for Cubic and Compound TCP, which are deployed in the Internet. We study local stability 
+and the local Hopf bifurcation properties of a fluid model for TCP Reno coupled with queue 
+management schemes in routers. We analyze models for the widely deployed Drop-Tail queue policy, 
+over a small and an intermediate buffer regime. We also study a model for a threshold based queue 
+policy. In small Drop-Tail buffers, stability depends crucially on the buffer size. With intermediate 
+buffer Drop-Tail, the system can be locally unstable for large values of the feedback delay and link 
+capacities. The threshold based policy highlights the importance of setting queue thresholds guided 
+by stability analysis. We show that variations in system parameters can produce Hopf induced limit 
+cycles. Using the theory of normal forms and the center manifold theorem, we establish that the Hopf 
+bifurcation is supercritical. Packet-level simulations and NetFPGA based experiments for the Drop-Tail 
+queue policy corroborate our theoretical analysis. Our work highlights the importance of using a queue 
+management schemes that could reduce delay, as well as provide network stability. 
+
+All are welcome 
+
+
+Regards 
+Shankar Raman 
+
+------=_Part_7594722_1696237761.1384753764570
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><style>p { margin: 0; }</style><div style=3D"font-family: Times New Roman;=
+ font-size: 12pt; color: #000000">All,<br><br>I am giving my 2nd Ph.D <span=
+ id=3D"DWT60" style=3D"background-color:#FEF481">seminar</span> on 19<span =
+class=3D"Object" id=3D"OBJ_PREFIX_DWT61">th November 2013</span> (<span cla=
+ss=3D"Object" id=3D"OBJ_PREFIX_DWT62">Tuesday)</span> from 3pm to 4pm at BS=
+B 361.<br>Please make it convenient to attend and give your valuable sugges=
+tions.<br><br><b>Title of the talk : Methods to reduce power and delay in t=
+he Internet</b>
+<br><strong>Date : 19-November, 2013, Tuesday<span class=3D"Object" id=3D"O=
+BJ_PREFIX_DWT63"></span></strong>
+<p style=3D"margin: 0px; text-indent: 0px; font-weight: bold;">Time : 15:00=
+ hrs to 16:00 hrs</p>
+<p style=3D"margin: 0px; text-indent: 0px; font-weight: bold;">Venue : BSB =
+361, Dept. of CSE.</p><p style=3D"margin: 0px; text-indent: 0px;"><strong>S=
+peaker: Shankar Raman M J, Ph.D scholar, NetFPGA / RISE Lab</strong><br></p=
+>
+<p style=3D"margin: 0px; text-indent: 0px;"><br></p>
+
+<p style=3D"margin: 0px; text-indent: 0px; font-weight: bold;">Abstract</p>=
+The Internet consumes about 2% of the total generated power in the world. W=
+ith increasing <br>bandwidth of the networking devices attached to the Inte=
+rnet, power consumed by these&nbsp; <br>devices is becoming a major concern=
+. We address the high power consumption problem by <br>dividing the Interne=
+t into three distinct layers namely: device, network and transport layers. =
+In <br>the first seminar we considered methods to reduce power consumption =
+at the network layer. <br>We used a metric-based approach to reduce the pow=
+er consumption of the Internet by finding <br>low-power paths through the u=
+se of routing protocols. Re-routing could lead to increased delays <br>betw=
+een the end systems. Hence, we proposed an ant-colony based heuristic to ba=
+lance both <br>power and delay in the Internet.<br><br>In this second semin=
+ar, we analyze the transport protocol (Transmission Control Protocol - Reno=
+) <br>which uses packet-loss as a feedback signal. We choose to study TCP-R=
+eno as it forms the base <br>protocol for Cubic and Compound TCP, which are=
+ deployed in the Internet. We study local stability <br>and the local Hopf =
+bifurcation properties of a fluid model for TCP Reno coupled with queue <br=
+>management schemes in routers. We analyze models for the widely deployed D=
+rop-Tail queue policy, <br>over a small and an intermediate buffer regime. =
+We also study a model for a threshold based queue <br>policy. In small Drop=
+-Tail buffers, stability depends crucially on the buffer size. With interme=
+diate<br>buffer Drop-Tail, the system can be locally unstable for large val=
+ues of the feedback delay and link <br>capacities. The threshold based poli=
+cy highlights the importance of setting queue thresholds guided <br>by stab=
+ility analysis. We show that variations in system parameters can produce Ho=
+pf induced limit <br>cycles. Using the theory of normal forms and the cente=
+r manifold theorem, we establish that the Hopf <br>bifurcation is supercrit=
+ical. Packet-level simulations and NetFPGA based experiments for the Drop-T=
+ail <br>queue policy corroborate our theoretical analysis. Our work highlig=
+hts the importance of using a queue <br>management schemes that could reduc=
+e delay, as well as provide network stability.<br><br>All are welcome<br><b=
+r><br>Regards<br>Shankar Raman<br></div></div></body></html>
+------=_Part_7594722_1696237761.1384753764570--

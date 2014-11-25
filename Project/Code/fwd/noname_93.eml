@@ -1,0 +1,235 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 1 Jan 2014 16:05:31 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id AB629F781EA;
+	Wed,  1 Jan 2014 16:05:25 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.467
+X-Spam-Level: *
+X-Spam-Status: No, score=1.467 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id TiC+Cwwv4puJ; Wed,  1 Jan 2014 16:05:20 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 64135F78133;
+	Wed,  1 Jan 2014 16:00:32 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id F3C9278069A;
+	Wed,  1 Jan 2014 16:16:47 +0530 (IST)
+Received: from mail-pd0-f170.google.com ([209.85.192.170])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201401011028370040749; Wed, 01 Jan 2014 15:58:38 +0530
+Received: by mail-pd0-f170.google.com with SMTP id g10so13262258pdj.1
+        for <multiple recipients>; Wed, 01 Jan 2014 02:46:46 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:in-reply-to:references:date:message-id
+         :subject:from:to:cc:content-type;
+        bh=DLiYVcmZ8ym8KBFrKA7q4ax5jBpsmg0ttdgXx2O5MzE=;
+        b=Ti3PAVI+a8++8d02yA2QXqmfcFZo4+yJh1YCDG5vWLDXFpdfqGXHCuGIEWf65ofb1M
+         ewRYGsAriDMFoaml9gjiCjY4ZOcYBvNqielO+lTVrz/BUZ24A6MHb17580ZCGRxxf6XI
+         SJbl5FGa8SF1sop4Tth5XKJnRi7HkGZJSLVRphRj86uhLNoSRAH3AbGAJVRmIDOOKFNW
+         rIDicXY2OsKfctxxR/ckbbBY0CZlpEH53eI6Jmw9ePT3hG8bD/pghTAIhDFg4KddC5ag
+         +HTGuFbO/tKbUTiuWbAxvkvq8rBzuvhdcJJHVw7wG1YhhRTWwI/VBLAHOfE63AVoRAWe
+         0brw==
+MIME-Version: 1.0
+X-Received: by 10.66.4.226 with SMTP id n2mr35059176pan.84.1388573206626; Wed,
+ 01 Jan 2014 02:46:46 -0800 (PST)
+Reply-To: ravi@cse.iitm.ac.in
+Sender: ravindran.b@gmail.com
+Received: by 10.70.132.101 with HTTP; Wed, 1 Jan 2014 02:46:46 -0800 (PST)
+In-Reply-To: <CAN5dWfNU15MSxeBc8S_n3LNj3tFqboBLWhXaWfQqUyruKDd14w@mail.gmail.com>
+References: <CAN5dWfNJ+0rT0SNVpxw6n3HLWY-pLy8RrspSpKhFiYVJF0PNVQ@mail.gmail.com>
+	<CAJ0BqjjaR6U8qgYkVeeTNfFVabSX=6YKjk2CbtoV=5qw2EyOtg@mail.gmail.com>
+	<CAN5dWfNU15MSxeBc8S_n3LNj3tFqboBLWhXaWfQqUyruKDd14w@mail.gmail.com>
+Date: Wed, 1 Jan 2014 16:16:46 +0530
+X-Google-Sender-Auth: TFyIJqyasIKy8HL4A6rDejlklzo
+Message-ID: <CAJ0Bqji4GF+9Y8ZihO6OiGa4WLN0C=3Ov-jio+jaSuEs6pF_Mw@mail.gmail.com>
+Subject: Re: Visit IITM?
+From: Balaraman Ravindran <ravi@cse.iitm.ac.in>
+To: Aaditya Ramdas <aramdas@cs.cmu.edu>, seminar@cse.iitm.ac.in
+Cc: rise-iil <rise-iil@cse.iitm.ac.in>, aidb <aidb@googlegroups.com>, 
+	Krishna Jagannathan <krishnaj@ee.iitm.ac.in>, Nirav bhatt <niravbhatt147@gmail.com>, naras@iitm.ac.in, 
+	Radhakrishna Ganti <rganti@ee.iitm.ac.in>, nandan.sudarsanam@gmail.com
+Content-Type: multipart/alternative; boundary=bcaec51dd281b9cb7a04eee664c4
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: exploiting,dear,tight,locating,every,nature,statistics,optimization,coordinate,a
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.192.170
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201401011028370040749
+
+--bcaec51dd281b9cb7a04eee664c4
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+
+Aaditya Ramdas, who is currently pursuing his PhD at CMU, will be giving a
+talk on connections between  convex optimization and active learning at 11
+a.m. on Monday, 6th January, in the CSE Seminar Hall, BSB 361. All are
+welcome. Details below.
+
+Regards
+Ravi.
+
+*Speaker*: Aaditya Ramdas
+*Affiliation*: PhD student in Statistics and Machine Learning, Carnegie
+Mellon University
+*Website: *http://www.cs.cmu.edu/~aramdas/
+
+*Title*: Theoretical Connections between Convex Optimization and Active
+Learning
+
+*Abstract*: Stochastic convex optimization (SCO) under the first order
+oracle model deals with approximately optimizing a convex function over a
+convex set, given access to noisy function and gradient values at any
+point, using as few queries as possible. Active learning of threshold (ALT)
+classifiers, is a classification problem where every point has a binary
+label, and it deals with approximately locating a "threshold" on a
+subinterval of the real line (which is a point to the left of which labels
+are more likely to be negative, and to the right of which labels are more
+likely to be positive), given access to an oracle that returns noisy
+labels, using as few queries as possible.
+
+In this talk, we will discuss four things
+1) The key insight : Exploiting the sequential nature of both problems, we
+establish a concrete similarity between "Tsybakov Noise" from ALT theory
+and "Strong/Uniform Convexity" from SCO theory
+2) Lower bounds: We will show how information-theoretic lower-bound
+techniques from ALT can be used to get very similar lower bounds in SCO
+(and show these are tight with matching upper bounds).
+3) Upper bounds: We will go the other way, and show how upper-bound
+techniques from SCO can be used to get a very similar algorithm in ALT,
+that is adaptive to unknown Tsybakov noise parameters.
+4) Combination: We will combine some of these techniques, to yield a
+coordinate descent algorithm that uses active learning for line search,
+that is adaptive to unknown strong/uniform convexity parameters.
+
+*Relevant Papers (joint with Aarti Singh)*:
+1. Optimal Stochastic Convex Optimization under Tsybakov Noise
+Condition, appeared
+in International Conference in Machine Learning, (ICML) 2013 (
+http://jmlr.csail.mit.edu/proceedings/papers/v28/ramdas13.pdf)
+2. Algorithmic Connections between Active Learning and Stochastic Convex
+Optimization, appeared in Algorithmic Learning Theory, (ALT) 2013 (
+http://www.cs.cmu.edu/~aramdas/ALT13Final.pdf) - invited for submission to
+the journal Theoretical Computer Science.
+
+--bcaec51dd281b9cb7a04eee664c4
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Dear All,<br><br></div>Aaditya Ramdas, who is current=
+ly pursuing his PhD at CMU, will be giving a talk on connections between=A0=
+ convex optimization and active learning at 11 a.m. on Monday, 6th January,=
+ in the CSE Seminar Hall, BSB 361. All are welcome. Details below.<br>
+<br>Regards<br>Ravi.<br><div><div><br><div><div class=3D"gmail_quote"><div =
+dir=3D"ltr"><div style=3D"font-family:arial,sans-serif;font-size:13px"><b>S=
+peaker</b>: Aaditya Ramdas</div><div><div dir=3D"ltr">
+<div><div><div><div style=3D"overflow:hidden"><div dir=3D"ltr"><div style=
+=3D"font-family:arial,sans-serif;font-size:13px"><b>Affiliation</b>: PhD st=
+udent in Statistics and Machine Learning, Carnegie Mellon University</div><=
+div>
+
+<b style=3D"font-family:arial,sans-serif;font-size:13px">Website:=A0</b><fo=
+nt face=3D"arial, sans-serif"><a href=3D"http://www.cs.cmu.edu/~aramdas/" t=
+arget=3D"_blank">http://www.cs.cmu.edu/~aramdas/</a></font></div>
+
+<div style=3D"font-family:arial,sans-serif;font-size:13px"><br></div><div s=
+tyle=3D"font-family:arial,sans-serif;font-size:13px"><div><span style=3D"fo=
+nt-size:12.727272033691406px"><font color=3D"#000000"><b>Title</b>: Theoret=
+ical Connections between Convex Optimization and Active Learning</font></sp=
+an><div style=3D"font-size:12.727272033691406px">
+
+
+
+<font color=3D"#000000"><br></font></div></div><div style=3D"font-size:12.7=
+27272033691406px"><font color=3D"#000000"><b>Abstract</b>: Stochastic conve=
+x optimization (SCO) under the first order oracle model deals with approxim=
+ately optimizing a convex function over a convex set, given access to noisy=
+ function and gradient values at any point, using as few queries as possibl=
+e. Active learning of threshold (ALT) classifiers, is a classification prob=
+lem where every point has a binary label, and it deals with approximately l=
+ocating a &quot;threshold&quot; on a subinterval of the real line (which is=
+ a point to the left of which labels are more likely to be negative, and to=
+ the right of which labels are more likely to be positive), given access to=
+ an oracle that returns noisy labels, using as few queries as possible.=A0<=
+/font></div>
+
+
+
+<div style=3D"font-size:12.727272033691406px"><font color=3D"#000000"><br><=
+/font></div><div style=3D"font-size:12.727272033691406px"><font color=3D"#0=
+00000">In this talk, we will discuss four things</font></div><div><div styl=
+e=3D"font-size:12.727272033691406px">
+
+
+
+<font color=3D"#000000">1) The key insight :=A0</font><span style=3D"font-s=
+ize:12.727272033691406px">Exploiting the sequential nature of both problems=
+, we establish a concrete similarity between &quot;Tsybakov Noise&quot; fro=
+m ALT theory and &quot;Strong/Uniform Convexity&quot; from SCO theory</span=
+></div>
+
+
+
+<div style=3D"font-size:12.727272033691406px"><span style=3D"font-size:12.7=
+27272033691406px">2) Lower bounds: We will show how information-theoretic l=
+ower-bound techniques from ALT can be used to get very similar lower bounds=
+ in SCO (and show these are tight with matching upper bounds).=A0</span></d=
+iv>
+
+
+
+<div style=3D"font-size:12.727272033691406px"><span style=3D"font-size:12.7=
+27272033691406px">3) Upper bounds: We will go the other way, and show how u=
+pper-bound techniques from SCO can be used to get a very similar algorithm =
+in ALT, that is adaptive to unknown Tsybakov noise parameters.=A0</span></d=
+iv>
+
+
+
+<div style=3D"font-size:12.727272033691406px"><span style=3D"font-size:12.7=
+27272033691406px">4) Combination: We will combine some of these techniques,=
+ to yield a coordinate descent algorithm that uses active learning for line=
+ search, that is adaptive to unknown strong/uniform convexity parameters.</=
+span><br>
+
+
+
+</div><div style=3D"font-size:12.727272033691406px"><br></div><div><font st=
+yle=3D"font-size:12.727272033691406px" color=3D"#000000"><b>Relevant Papers=
+ (joint with Aarti Singh)</b>:</font></div><div><font style=3D"font-size:12=
+.727272033691406px" color=3D"#000000">1. Optimal Stochastic Convex Optimiza=
+tion under Tsybakov Noise Condition,</font><span style=3D"font-size:12.7272=
+72033691406px">=A0appeared in International Conference in Machine Learning,=
+ (ICML) 2013 (</span><a href=3D"http://jmlr.csail.mit.edu/proceedings/paper=
+s/v28/ramdas13.pdf" style=3D"font-size:12.727272033691406px" target=3D"_bla=
+nk">http://jmlr.csail.mit.edu/proceedings/papers/v28/ramdas13.pdf</a><span =
+style=3D"font-size:12.727272033691406px">)=A0</span></div>
+
+
+
+<div><font style=3D"font-size:12.727272033691406px" color=3D"#000000">2.=A0=
+</font>Algorithmic Connections between Active Learning and Stochastic Conve=
+x Optimization,<font style=3D"font-size:12.727272033691406px" color=3D"#000=
+000">=A0appeared in Algorithmic Learning Theory, (ALT) 2013 (</font><font c=
+olor=3D"#000000" face=3D"arial, sans-serif"><a href=3D"http://www.cs.cmu.ed=
+u/~aramdas/ALT13Final.pdf" target=3D"_blank">http://www.cs.cmu.edu/~aramdas=
+/ALT13Final.pdf</a></font><span style=3D"font-size:12.727272033691406px">) =
+- invited for submission to the journal Theoretical Computer Science.</span=
+></div>
+
+<br></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div>
+
+--bcaec51dd281b9cb7a04eee664c4--

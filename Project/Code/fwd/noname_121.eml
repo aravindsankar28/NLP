@@ -1,0 +1,130 @@
+Return-Path: mani@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 25 Oct 2013 12:04:01 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B842BF78226;
+	Fri, 25 Oct 2013 12:03:48 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.509
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.509 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_05=-0.5, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id AoFh-J7j9l+a; Fri, 25 Oct 2013 12:03:41 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 16A8E3190005;
+	Fri, 25 Oct 2013 12:01:50 +0530 (IST)
+Date: Fri, 25 Oct 2013 12:01:48 +0530 (IST)
+From: Manikantan S <mani@cse.iitm.ac.in>
+Reply-To: Manikantan S <mani@cse.iitm.ac.in>
+To: scholars <scholars@cse.iitm.ac.in>, Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1073532914.3598668.1382682708767.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <148919981.1869641.1381810829806.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk by Aman Nougrahiya - "Reducing Synchronization Primitives in
+ OpenMP Programs" - Monday Oct 28 2013 at 3.00 PM
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3598667_1459872327.1382682708767"
+X-Originating-IP: [10.6.6.16]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_3598667_1459872327.1382682708767
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+Dear Scholars 
+
+
+Greetings. 
+
+The talk planned earlier which could not happen for multiple reasons will happen coming Monday 28 October 2013.. 
+
+Please make it convenient to attend the upcoming Talk on 28st October 2013 3.00 PM 
+
+Speaker: Aman Nougrahiya (PACE LAB) 
+Title : Reducing Synchronization Primitives in OpenMP Programs 
+Abstract : 
+When multiple threads of execution run in parallel in shared-memory systems, synchronization primitives are required to ensure determinism and correctness of the output of applications. However, these synchronization primitives also introduce high performance costs that increase with the increase in the number of threads used. Unfortunately, many times this cost overshadows a considerable portion of the benefits obtained by parallelizing the applications, sometimes even contributing to the reasons why some parallel versions of the applications perform poorly as compared to the serial ones. 
+In this talk, we'll discuss some of the central ideas used in the framework we are developing for reducing these synchronization primitives from OpenMP programs. 
+This (not yet matured) framework is dependent on the concepts of code scheduling, memory renaming, and loop unrolling. 
+Firstly, I'll try to present these ideas in the form of some short analogous stories from real life . 
+Then, we'll look at some sample translations to better understand and discuss the proposed transformations. 
+
+Please note the start time is 3 PM . This to enable there is sufficient time for the presentation and 
+if some one wishes to attend the Extra Mural Lecture at CLT (4 PM the same day) they can do so as well. 
+
+Kind regards 
+Mani 
+
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar, 
+High Performance Computing and Networking ( HPCN ) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 
+
+
+------=_Part_3598667_1459872327.1382682708767
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><style>p { margin: 0; }</style><div style=3D"font-family: Times New Roman;=
+ font-size: 12pt; color: #000000">Dear Scholars<br><div style=3D"font-famil=
+y: Times New Roman; font-size: 12pt; color: #000000"><br>Greetings.<br><br>=
+The talk planned earlier which could not happen for multiple reasons will h=
+appen coming Monday 28 October 2013..<br><br>Please make it convenient to a=
+ttend the upcoming <u><font size=3D"4"><b>Talk on 28st October 2013 3.00 PM=
+</b></font></u><br><br>Speaker: <span word=3D"Aman" id=3D"DWT365" class=3D"=
+ZM-SPELLCHECK-MISSPELLED">Aman</span> <span word=3D"Nougrahiya" id=3D"DWT36=
+6" class=3D"ZM-SPELLCHECK-MISSPELLED">Nougrahiya</span> (PACE LAB)<br><span=
+><u>Title :</u> <b>Reducing Synchronization Primitives in <span word=3D"Ope=
+nMP" id=3D"DWT367" class=3D"ZM-SPELLCHECK-MISSPELLED">OpenMP</span> Program=
+s</b><br>
+
+<u>Abstract :</u> <br><span style=3D"font-family:times new roman,serif"><fo=
+nt>When
+ multiple threads of execution run in parallel in shared-memory systems,
+ synchronization primitives are required to ensure determinism and=20
+correctness of the output of applications. However, these=20
+synchronization primitives also introduce high performance costs that=20
+increase with the increase in the number of threads used. Unfortunately,
+ many times this cost overshadows a considerable portion of&nbsp; the=20
+benefits obtained by <span word=3D"parallelizing" id=3D"DWT368" class=3D"ZM=
+-SPELLCHECK-MISSPELLED">parallelizing</span> the applications, sometimes ev=
+en=20
+contributing to the reasons why some parallel versions of the=20
+applications perform poorly as compared to the serial ones.<br>
+
+In this talk, we'll discuss some of the central ideas used in the=20
+framework we are developing for reducing these synchronization=20
+primitives from <span word=3D"OpenMP" id=3D"DWT369" class=3D"ZM-SPELLCHECK-=
+MISSPELLED">OpenMP</span> programs.<br>This (not yet matured) framework is =
+dependent on the concepts of code scheduling, memory renaming, and loop unr=
+olling.<br>
+
+Firstly, I'll try to present these ideas in the form of some <i>short analo=
+gous stories from real life</i>.<br>Then, we'll look at some sample transla=
+tions to better understand and discuss the proposed transformations.</font>=
+</span><br><span></span><br><font size=3D"4"><u><b>Please note the start ti=
+me is 3 PM</b></u></font>.&nbsp; This to enable there is sufficient time fo=
+r the presentation and <br>if some one wishes to attend the Extra Mural Lec=
+ture at <span word=3D"CLT" id=3D"DWT370" class=3D"ZM-SPELLCHECK-MISSPELLED"=
+>CLT</span> (4 PM the same day) they can do so as well.<br><br>Kind regards=
+<br>Mani<br><br>-----------------------------------------------------------=
+-----------------<br><span word=3D"Manikantan" id=3D"DWT371" class=3D"ZM-SP=
+ELLCHECK-MISSPELLED">Manikantan</span> (Mani) <span word=3D"Srinivasan" id=
+=3D"DWT372" class=3D"ZM-SPELLCHECK-MISSPELLED">Srinivasan</span><br>Researc=
+h Scholar,<br>High Performance Computing and Networking (<span word=3D"HPCN=
+" id=3D"DWT373" class=3D"ZM-SPELLCHECK-MISSPELLED">HPCN</span>) Lab,<br>Dep=
+artment of Computer Science and Engineering,<br>Indian Institute of Technol=
+ogy Madras, Chennai.<br>---------------------------------------------------=
+-------------------------<span></span><br></span><br></div></div></div></bo=
+dy></html>
+------=_Part_3598667_1459872327.1382682708767--

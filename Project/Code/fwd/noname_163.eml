@@ -1,0 +1,131 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 29 Jul 2013 13:28:20 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 436C1F78121;
+	Mon, 29 Jul 2013 13:28:18 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 6mU-EeFs1ozA; Mon, 29 Jul 2013 13:28:11 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A671CF78035
+	for <seminar@cse.iitm.ac.in>; Mon, 29 Jul 2013 13:28:10 +0530 (IST)
+Date: Mon, 29 Jul 2013 13:28:10 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <231077447.80326.1375084690579.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <-4071049648647191996@unknownmsgid>
+Subject: Fwd: [Faculty] Talk by Dr. Vijay Subramanian, Aug 2, 3 p.m, ESB244
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_80325_1332815672.1375084690578"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_80325_1332815672.1375084690578
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+From: "Krishna Jagannathan" <krishnaj@ee.iitm.ac.in> 
+To: "Ravindran B" <ravi@cse.iitm.ac.in> 
+Sent: Monday, July 29, 2013 1:36:41 PM 
+Subject: Fwd: [Faculty] Talk by Dr. Vijay Subramanian, Aug 2, 3 p.m, ESB244 
+
+
+Ravi, 
+
+
+This talk might be of interest to CSE folks. 
+
+Krishna 
+
+Begin forwarded message: 
+
+
+
+
+From: Sudharsan Parthasarathy < ee12d027@ee.iitm.ac.in > 
+Date: 16 July 2013 10:18:36 AM IST 
+To: Faculty < faculty@ee.iitm.ac.in >, students < students@ee.iitm.ac.in > 
+Subject: [Faculty] Talk by Dr. Vijay Subramanian, Aug 2, 3 p.m, ESB244 
+
+
+
+
+
+
+Title: Searching and Bargaining with Middlemen 
+
+Speaker: Dr. Vijay G Subramanian 
+Northwestern University 
+
+
+Room: ESB244 
+
+Time: Aug 2 (Friday), 3 p. m. 
+
+Abstract: We study decentralized markets which include middlemen, producers and consumers 
+connected via a trading network. We develop a model for trade in such settings based on 
+non-cooperative bargaining with search frictions. Our goal is to investigate how the structure of 
+the trading network and the role of middlemen influence the market's efficiency and fairness. To 
+this end, we introduce the concept of limit stationary equilibrium which characterizes the trading 
+patterns that emerge in a general trading network with a large population of agents. We use this 
+concept to analyze how competition among middlemen is influenced by the network structure, how 
+endogenous delay emerges in trade and how surplus is shared between producers and 
+consumers. This is joint work with Thanh Nguyen and Randy Berry at Northwestern University. 
+
+Bio: Vijay G. Subramanian is a Research Assistant Faculty in the EECS Department at 
+Northwestern University. He obtained his Ph. D. from UIUC in 1999. After graduating he worked 
+in the research arm of Motorola, and thereafter at the Hamilton Institute in Ireland. His current 
+research interests are on game theoretic and economic modeling of socio-technological systems 
+and networks, social networks and the analysis of associated stochastic processes. Other research interests are in stochastic modeling, communications, information theory and applied mathematics with a large portion of past work on probabilistic analysis of communication networks, especially analysis of scheduling and routing algorithms. In the past he has also done some work with applications in immunology and coding of stochastic processes. 
+------=_Part_80325_1332815672.1375084690578
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><br><b>From:&nbsp;</b>"Krishna Jagannathan" &lt;krishnaj@ee.iitm.ac.in&gt;<br><b>To: </b>"Ravindran B" &lt;ravi@cse.iitm.ac.in&gt;<br><b>Sent: </b>Monday, July 29, 2013 1:36:41 PM<br><b>Subject: </b>Fwd: [Faculty] Talk by Dr. Vijay Subramanian, Aug 2, 3 p.m, ESB244<br><br><div>Ravi,</div><div><br></div><div>This talk might be of interest to CSE folks.<br><br>Krishna</div><div><br>Begin forwarded message:<br>
+<br></div><blockquote><div><b>From:</b> Sudharsan Parthasarathy &lt;<a href="mailto:ee12d027@ee.iitm.ac.in" target="_blank">ee12d027@ee.iitm.ac.in</a>&gt;<br><b>Date:</b> 16 July 2013 10:18:36 AM IST<br><b>To:</b> Faculty &lt;<a href="mailto:faculty@ee.iitm.ac.in" target="_blank">faculty@ee.iitm.ac.in</a>&gt;, students &lt;<a href="mailto:students@ee.iitm.ac.in" target="_blank">students@ee.iitm.ac.in</a>&gt;<br>
+<b>Subject:</b> <b>[Faculty] Talk by Dr. Vijay Subramanian, Aug 2, 3 p.m, ESB244</b><br><br></div></blockquote><blockquote><div><div dir="ltr"><div>Title: <span>Searching and Bargaining with Middlemen</span><br>
+<br>
+Speaker: Dr. Vijay G Subramanian<br></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Northwestern University<br><div>
+<br>
+Room: ESB244<br><br>
+Time: Aug 2 (Friday), <span><span>3 p. m.</span></span><br>
+<br>
+Abstract: <span>We study &nbsp;decentralized markets which include middlemen, producers and consumers </span><br>
+<span>connected via a trading network. We develop a model for trade in such settings based on </span><br><span>non-cooperative bargaining with search frictions. Our goal is to investigate &nbsp;how the structure of </span><br>
+
+
+
+
+<span>the trading network and the role of middlemen &nbsp;influence the market's &nbsp;efficiency and &nbsp;fairness. To </span><br><span>this end, we introduce the concept of limit stationary equilibrium which characterizes the trading </span><br>
+
+
+
+
+<span>patterns that emerge in a general trading network with a large population of agents. We use this </span><br><span>concept to analyze how competition among middlemen is influenced by the network structure, how </span><br>
+
+
+
+
+<span>endogenous &nbsp;delay emerges in trade and &nbsp;how surplus is shared between producers and </span><br><span>consumers. This is joint work with Thanh Nguyen and Randy Berry at Northwestern University.</span><br>
+<br>
+Bio: <span>Vijay G. Subramanian is a Research Assistant Faculty in the EECS Department at </span><br><span>Northwestern University. He obtained his Ph. D. from UIUC in 1999. After graduating he worked </span><br><span>in the research arm of Motorola, and thereafter at the Hamilton Institute in Ireland. His current </span><br>
+
+
+
+
+<span>research interests are on game theoretic and economic modeling of socio-technological systems </span><br><span>and networks, social networks and the analysis of associated stochastic processes. Other research </span><span>interests are in stochastic modeling, communications, information theory and applied mathematics </span><span>with a large portion of past work on probabilistic analysis of communication networks, especially </span><span>analysis of scheduling and routing algorithms. In the past he has also done some work with </span><span>applications in immunology and coding of stochastic processes.</span></div>
+
+</div>
+</div></blockquote>
+</div></body></html>
+------=_Part_80325_1332815672.1375084690578--

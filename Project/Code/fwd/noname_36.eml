@@ -1,0 +1,133 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 4 Jul 2014 14:34:38 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E8ACEF78104;
+	Fri,  4 Jul 2014 14:34:35 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.367
+X-Spam-Level: *
+X-Spam-Status: No, score=1.367 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id T4Ge4ZvwvskT; Fri,  4 Jul 2014 14:34:31 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9D10CF78051;
+	Fri,  4 Jul 2014 14:34:30 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 12B3378096E;
+	Fri,  4 Jul 2014 14:55:54 +0530 (IST)
+Received: from mail-lb0-f169.google.com ([209.85.217.169])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201407040913180016764; Fri, 04 Jul 2014 14:43:20 +0530
+Received: by mail-lb0-f169.google.com with SMTP id l4so994301lbv.28
+        for <multiple recipients>; Fri, 04 Jul 2014 02:25:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=JmcDDR8aB86zYKIuGcLWRAWzsePZPeXl+JCCrQaTFBU=;
+        b=oZHYranJ/9+IoqP4YkFAFKSj91Gr8H0/XrcVLo3RYXCknwaMYPrU5+Xyf0sQE5JVtp
+         5/myl0UxDW6/R5U3o1OiMKnNA2yb4vS37remdDB5vui+l9UPMnTuhc5fDawrn/vIhByH
+         K+YwSita8cmqPBttJ+AtkZn3Y37einmZa4mS4AWvmhE86/t5FfssNhJZbCAzyG8q0kO/
+         a8p+7+yifHPEpSpwp+nJE25TbDMQS5eOGxSVLZPuA8rCU+fSw8P0K4CIc/UCFlguLdij
+         GjVfgW6vZL+SmmcRoYI09WC6NxPWY747YMwWsKTLei06LUL5LqOlCP9BV5dVz4OrY1Rn
+         8zsA==
+MIME-Version: 1.0
+X-Received: by 10.152.184.73 with SMTP id es9mr911629lac.66.1404465952965;
+ Fri, 04 Jul 2014 02:25:52 -0700 (PDT)
+Received: by 10.152.202.230 with HTTP; Fri, 4 Jul 2014 02:25:52 -0700 (PDT)
+Date: Fri, 4 Jul 2014 14:55:52 +0530
+Message-ID: <CAJ0BqjjdsR0yYVcj+t+R4km=4cyXqN=MwmpG96JNEe59H4uOHw@mail.gmail.com>
+Subject: Machine learning seminar by Dr. Pradeep Ravikumar, UT Austin
+From: Balaraman Ravindran <ravindran.b@gmail.com>
+To: seminar@cse.iitm.ac.in, DataAnalytics IITM <data.analytics.iitm@gmail.com>, 
+	rise-iil <rise-iil@cse.iitm.ac.in>, Krishna Jagannathan <krishnaj@ee.iitm.ac.in>, 
+	Radhakrishna Ganti <rganti@ee.iitm.ac.in>
+Content-Type: multipart/alternative; boundary=001a1134d99239cd6104fd5ab6f3
+X-Mlf-DKIM: dkim=pass header.i=gmail.com 
+X-Mlf-KeyWords: learning,dr,affirmative,dear,programs,nonsmooth,corroboration,optimization,obser
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.217.169
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201407040913180016764
+
+--001a1134d99239cd6104fd5ab6f3
+Content-Type: text/plain; charset=UTF-8
+
+Dear All,
+
+Dr. Pradeep Ravikumar from Univ.  Texas Austin will be giving a talk at 11
+AM on Monday 7th in BSB 361.  Details below.  All are welcome.
+
+Regards
+Ravi.
+
+Title: Elementary Estimators for High-dimensional Statistical Models
+
+Abstract: We consider the problem of learning high-dimensional statistical
+models, where the number of variables could be even larger than the number
+of observations. This class of problems has attracted considerable
+attention in statistical machine learning over the last decade, with state
+of the art statistical estimators based on solving regularized convex
+programs. Scaling these typically non-smooth convex programs to the very
+large-scale problems of the Big Data era comprises an ongoing and rich area
+of research.
+In contrast to this two-stage approach of first devising statistically
+efficient estimators, and then devising computationally efficient
+optimization methods to solve these estimators, we attempt to address this
+scaling issue at the source, by asking whether one can build simpler
+closed-form estimators, that yet come with statistical guarantees that are
+nonetheless comparable to regularized likelihood estimators. Surprisingly,
+we are able to answer this question in the affirmative. We analyze our
+estimators in the high-dimensional setting, and moreover provide empirical
+corroboration of our statistical and computational performance guarantees.
+
+About the speaker: http://www.cs.utexas.edu/~pradeepr
+
+
+
+
+
+
+
+-- 
+Sent from my phone
+
+--001a1134d99239cd6104fd5ab6f3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All, <br><br>Dr. Pradeep Ravikumar from Univ. =C2=A0Texas Austin will =
+be giving a talk at 11 AM on Monday 7th in BSB 361. =C2=A0Details below. =
+=C2=A0All are welcome. <br><br>Regards<br>Ravi. <br><br>Title: Elementary E=
+stimators for High-dimensional Statistical Models<br>
+<br>Abstract: We consider the problem of learning high-dimensional statisti=
+cal models, where the number of variables could be even larger than the num=
+ber of observations. This class of problems has attracted considerable atte=
+ntion in statistical machine learning over the last decade, with state of t=
+he art statistical estimators based on solving regularized convex programs.=
+ Scaling these typically non-smooth convex programs to the very large-scale=
+ problems of the Big Data era comprises an ongoing and rich area of researc=
+h.=C2=A0<br>
+In contrast to this two-stage approach of first devising statistically effi=
+cient estimators, and then devising computationally efficient optimization =
+methods to solve these estimators, we attempt to address this scaling issue=
+ at the source, by asking whether one can build simpler closed-form estimat=
+ors, that yet come with statistical guarantees that are nonetheless compara=
+ble to regularized likelihood estimators. Surprisingly, we are able to answ=
+er this question in the affirmative. We analyze our estimators in the high-=
+dimensional setting, and moreover provide empirical corroboration of our st=
+atistical and computational performance guarantees.<br>
+<br>About the speaker: <a href=3D"http://www.cs.utexas.edu/~pradeepr">http:=
+//www.cs.utexas.edu/~pradeepr</a><br><br><br><br><br><br><br><br>-- <br>Sen=
+t from my phone<br>
+
+--001a1134d99239cd6104fd5ab6f3--

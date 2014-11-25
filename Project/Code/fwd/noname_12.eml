@@ -1,0 +1,176 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sun, 14 Sep 2014 19:53:53 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9865FF781DF;
+	Sun, 14 Sep 2014 19:53:06 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.067
+X-Spam-Level: 
+X-Spam-Status: No, score=0.067 tagged_above=-10 required=6.6
+	tests=[BAYES_05=-0.5, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id zJGUDjmSBNp2; Sun, 14 Sep 2014 19:52:56 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3D4D1F781BA
+	for <seminar@cse.iitm.ac.in>; Sun, 14 Sep 2014 19:52:10 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id C871E780259
+	for <seminar@cse.iitm.ac.in>; Sun, 14 Sep 2014 20:18:17 +0530 (IST)
+Authentication-Results: mailx1.iitm.ac.in;
+	spf=pass smtp.mailfrom=ravindran.b@gmail.com;
+Received: from mail-lb0-f170.google.com ([209.85.217.170])
+	by mailx1.iitm.ac.in (SonicWALL 8.0.1.2355)
+	with ESMTP id 201409141445530047873; Sun, 14 Sep 2014 20:15:55 +0530
+Received: by mail-lb0-f170.google.com with SMTP id c11so3230640lbj.1
+        for <seminar@cse.iitm.ac.in>; Sun, 14 Sep 2014 07:48:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=H03S9JlaatTm/1wAlWF975t/q14KX1m6EdwqME6vF4o=;
+        b=tngNDB719Y/CR6bl/OLD0NNnYpzAZL5kUsLJIKrQaT9QOXm7E4XTj1B/ZethneN6Jg
+         UE+eXmp5vvdZGr5xJS3DQNb5lLTbEh5aYiREcdS4ri4sHgY0YuQeo61ugggjle/7njae
+         RAUzn4CligR3Obr3uD/iMJtC3441fxnmbzoy7J8kCqn9LMlB658nAlst3tTFWlI/XyTq
+         LSO6nDDDLF8gUdka8060ioDWxNXZYe2JumhaEKvJfL+SXrVN6ECiWChGW3WnPMciPlE+
+         9gcV1TiXiXC/VguPoHhdzc+iFfx0klLlVsuwH3y3RpUDbc+SYqreHzrIAsl8htcrNKex
+         nbhQ==
+MIME-Version: 1.0
+X-Received: by 10.152.204.231 with SMTP id lb7mr20327837lac.44.1410706096147;
+ Sun, 14 Sep 2014 07:48:16 -0700 (PDT)
+Received: by 10.152.46.207 with HTTP; Sun, 14 Sep 2014 07:48:16 -0700 (PDT)
+Date: Sun, 14 Sep 2014 20:18:16 +0530
+Message-ID: <CAJ0BqjjmUkk7kBmf_4_64vvz6gXX52472MKvrO=Wf3ab9m=eeA@mail.gmail.com>
+Subject: REMINDER: Talk on Latent Variable Models
+From: Balaraman Ravindran <ravindran.b@gmail.com>
+To: seminar@cse.iitm.ac.in, DataAnalytics IITM <data.analytics.iitm@gmail.com>, 
+	Krishna Jagannathan <krishnaj@ee.iitm.ac.in>, Radhakrishna Ganti <rganti@ee.iitm.ac.in>
+Content-Type: multipart/alternative; boundary=001a1134d304be514b0503079bb8
+X-Mlf-SPF: result=pass;action=none;identity=mailfrom;domain=gmail.com;source=209.85.217.170;details:allowedlist=consider;
+X-Mlf-KeyWords: models,combs,talk,mining,capable,images,exploration,strength,sunnyvale,laborator
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.217.170
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;other;none;none
+X-Mlf-UniqueId: i201409141445530047873
+
+--001a1134d304be514b0503079bb8
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All
+
+Ayan Acharya from Univ.  of Texas, Austin, will be giving a talk on
+knowledge transfer using latent variable models at 3 pm on 15th in
+=E2=80=8BCSE Department Seminar Hall, =E2=80=8B
+BSB 361.  All are welcome. Details below.
+
+Regards
+Ravi.
+
+Title: Knowledge Transfer Using Latent Variable Models
+
+=E2=80=8BCoordinates: =E2=80=8BBSB 361, CSE Seminar Hall. 3 p.m., Monday, S=
+eptember 15th.
+
+ Abstract:
+
+In several applications, scarcity of labeled data is a challenging problem
+that hinders the predictive capabilities of machine learning algorithms.
+Additionally, the distribution of the data changes over time rendering
+models trained with older data less capable of discovering useful structure
+from the newly available data. Transfer learning is a convenient framework
+to overcome such problems where the learning of a model specific to a
+domain can benefit the learning of other models in other domains through
+either simultaneous training of domains or systematic sequential transfer
+of knowledge from one domain to the others.
+
+In this talk, variety of methods for achieving transfer learning are
+explored where a hidden layer is shared across different domains in
+hierarchical latent variable based models. Applications of such frameworks
+in problems like text classification, object recognition from images,
+network modeling for community detection and evolution of count values
+vectors and matrices have shown excellent results so far. In particular,
+the strength of non-parametric Poisson factorization will also be explored
+in the context of knowledge transfer and modeling of large scale count data
+prevalent in text mining, image analysis and recommender systems.
+
+Bio:
+
+Ayan Acharya is a fifth year Ph.D. student in Department of Electrical and
+Computer Engineering at University of Texas at Austin, USA. He is
+associated with Intelligent Data Exploration and Analysis Laboratory
+(IDEAL) led by Dr. Joydeep Ghosh and Machine Learning Research Group led by
+Dr. Raymond J. Mooney. He also collaborates actively with Dr. Mingyuan Zhou
+from McCombs School of Business and Applied Research Laboratories, UT
+Austin. His research focus is on developing generative models and efficient
+inference algorithms for solving transfer learning problems prevalent in
+text document analysis, social network study, recommender systems and
+object recognition from images. Over the years, he has also garnered
+sufficient experience in industry through his internships in places like
+eBay Research Lab, Qualcomm Inc., Yahoo! Research, Sunnyvale, CA and
+Cognitive Scale, Austin, TX. Before joining UT Austin, he completed his
+Bachelor's degree in Electronics and Telecommunication Engineering from
+Jadavpur University, Kolkata, India in the year 2009.
+
+--001a1134d304be514b0503079bb8
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small">Dea=
+r All<br></div><div class=3D"gmail_quote">
+<p dir=3D"ltr">Ayan Acharya from Univ.=C2=A0 of Texas, Austin, will be givi=
+ng a talk on knowledge transfer using latent variable models at 3 pm on 15t=
+h in </p><div class=3D"gmail_default" style=3D"font-size:small;display:inli=
+ne">=E2=80=8BCSE Department Seminar Hall, =E2=80=8B</div>BSB 361.=C2=A0 All=
+ are welcome. Details below. <br><p></p>
+<p dir=3D"ltr">Regards<br>
+Ravi. </p><div class=3D"HOEnZb"><div class=3D"h5">
+<p dir=3D"ltr"> Title: Knowledge Transfer Using Latent Variable Models</p><=
+p dir=3D"ltr"></p><div class=3D"gmail_default" style=3D"font-size:small;dis=
+play:inline">=E2=80=8BCoordinates: =E2=80=8BBSB 361, CSE Seminar Hall. 3 p.=
+m., Monday, September 15th.</div><br><p></p>
+<p dir=3D"ltr"> Abstract:</p>
+<p dir=3D"ltr">In several applications, scarcity of labeled data is a chall=
+enging problem that hinders the predictive capabilities of machine learning=
+ algorithms. Additionally, the distribution of the data changes over time r=
+endering models trained with older data less capable of discovering useful =
+structure from the newly available data. Transfer learning is a convenient =
+framework to overcome such problems where the learning of a model specific =
+to a domain can benefit the learning of other models in other domains throu=
+gh either simultaneous training of domains or systematic sequential transfe=
+r of knowledge from one domain to the others.=C2=A0</p>
+<p dir=3D"ltr"> In this talk, variety of methods for achieving transfer lea=
+rning are explored where a hidden layer is shared across different domains =
+in hierarchical latent variable=C2=A0based models. Applications of such fra=
+meworks in problems like text classification, object recognition from image=
+s, network modeling for community detection and evolution of count values v=
+ectors and matrices have shown excellent results so far. In particular, the=
+ strength of non-parametric Poisson factorization will also be explored in =
+the context of knowledge transfer and modeling of large scale count data pr=
+evalent in text mining, image analysis and recommender systems.=C2=A0</p>
+<p dir=3D"ltr"> Bio:</p>
+<p dir=3D"ltr">Ayan Acharya=C2=A0is a fifth year Ph.D. student in Departmen=
+t of Electrical and Computer Engineering at University of Texas at Austin, =
+USA. He is associated with Intelligent Data Exploration and Analysis Labora=
+tory (IDEAL) led by Dr. Joydeep Ghosh and Machine Learning Research Group l=
+ed by Dr. Raymond J. Mooney. He also=C2=A0collaborates actively with Dr. Mi=
+ngyuan Zhou from McCombs School of Business and Applied Research Laboratori=
+es, UT Austin. His research focus is on developing generative models and ef=
+ficient inference algorithms for solving transfer learning problems prevale=
+nt in text document analysis, social network study, recommender systems and=
+ object recognition from images. Over the years, he has also garnered suffi=
+cient experience in industry through his internships in places like eBay Re=
+search Lab, Qualcomm Inc., Yahoo! Research, Sunnyvale, CA and Cognitive Sca=
+le, Austin, TX. Before joining UT Austin, he completed his Bachelor&#39;s d=
+egree in Electronics and Telecommunication Engineering from Jadavpur Univer=
+sity, Kolkata, India in the year 2009.</p>
+</div></div></div><br></div>
+
+--001a1134d304be514b0503079bb8--

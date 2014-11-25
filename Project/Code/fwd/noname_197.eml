@@ -1,0 +1,138 @@
+Return-Path: johnjose@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 17 Apr 2013 18:55:58 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A3F78F7803B;
+	Wed, 17 Apr 2013 18:55:55 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id BSntV2jiSwbi; Wed, 17 Apr 2013 18:55:48 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 8B6D3F78035
+	for <seminar@cse.iitm.ac.in>; Wed, 17 Apr 2013 18:55:47 +0530 (IST)
+Date: Wed, 17 Apr 2013 18:55:47 +0530 (IST)
+From: "johnjose@cse.iitm.ac.in" <johnjose@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1495515896.54167.1366205147376.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: 2nd Ph.D seminar invitation
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_54166_253207629.1366205147375"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_54166_253207629.1366205147375
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Hi all 
+
+I am giving my 2nd Ph.D seminar on 25th April 2013 (Thursday) from 3pm to 4pm at BSB 361. 
+Please make it convenient to attend and give your valuable suggestions. 
+
+
+
+Title of the talk : Implementation and analysis of a novel deflection based adaptive NoC router with minimal buffering 
+
+Date : 25-April, 2013, Thursday 
+
+Time : 15:00 hrs to 16:00 hrs 
+
+Venue : BSB 361, Dept. of CSE . 
+
+Speaker: John Jose, Ph.D scholar, PACE Lab 
+
+
+
+
+
+
+
+Abstract 
+
+
+
+Apart from high speed computing cores, efficient and reliable communication is also essential for achieving high performance in multicore processors. Network-on-chip (NoC) is an emerging paradigm that can efficiently support integration of a massive number of cores on a chip by decoupling the on-chip computation and communication infrastructure, thereby overcoming the scalability issues faced by conventional buses. Energy efficiency of the underlying communication framework plays a major role in the performance of multicore systems. NoCs with buffer-less routing are gaining popularity due to simplicity in the router design, low power consumption, and load balancing capacity. 
+
+
+
+We propose an adaptive deflection router, DeBAR, that uses a minimal set of central buffers to accommodate a fraction of mis-routed flits. DeBAR incorporates a hybrid flit ejection mechanism that gives the effect of dual ejection with a single ejection port, an innovative adaptive routing algorithm, and a selective flit buffering based on flit marking. Our proposed router design reduces the average flit latency and the deflection rate, and improves the throughput with respect to the existing minimally buffered deflection routers without any change in the critical path. Experimental results on real and synthetic workloads show that our proposed router significantly outperforms state of the art minimally buffered deflection routers. 
+
+
+
+
+NB: Tea will be served after the talk. 
+
+
+
+
+regards 
+
+
+
+
+John Jose 
+
+http://www.cse.iitm.ac.in/~johnjose/ 
+
+------=_Part_54166_253207629.1366205147375
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>
+<style type=3D"text/css">p, li { white-space: pre-wrap; }</style>Hi all<br>=
+<br>I am giving my 2nd Ph.D seminar on 25th April 2013 (Thursday) from 3pm =
+to 4pm at BSB 361.<br>Please make it convenient to attend and give your val=
+uable suggestions.<br><br><p style=3D"margin: 0px; text-indent: 0px; font-w=
+eight: bold;">Title of the talk : Implementation and analysis of a novel de=
+flection based adaptive NoC router with minimal buffering</p>
+<p style=3D"margin: 0px; text-indent: 0px; font-weight: bold;"></p><strong>=
+Date : 25-April, 2013, Thursday</strong>
+<p style=3D"margin: 0px; text-indent: 0px; font-weight: bold;">Time : 15:00=
+ hrs to 16:00 hrs</p>
+<p style=3D"margin: 0px; text-indent: 0px; font-weight: bold;">Venue : BSB =
+361, Dept. of CSE.</p><p style=3D"margin: 0px; text-indent: 0px;"><span sty=
+le=3D"font-weight: bold;">Speaker: John Jose, Ph.D scholar, PACE Lab</span>=
+<br></p>
+<p style=3D"margin: 0px; text-indent: 0px;"><br></p>
+<p style=3D"margin: 0px; text-indent: 0px;"></p>
+<p style=3D"margin: 0px; text-indent: 0px; font-weight: bold;">Abstract</p>
+<p style=3D"margin: 0px; text-indent: 0px;"></p>
+<p style=3D"margin: 0px; text-indent: 0px;">Apart from high speed computing=
+ cores, efficient and reliable communication is also essential for achievin=
+g high performance in multicore processors. Network-on-chip (NoC) is an eme=
+rging paradigm that can efficiently support integration of a massive number=
+ of cores on a chip by decoupling the on-chip computation and communication=
+ infrastructure, thereby overcoming the scalability issues faced by convent=
+ional buses. Energy efficiency of the underlying communication framework pl=
+ays a major role in the performance of multicore systems. NoCs with buffer-=
+less routing are gaining popularity due to simplicity in the router design,=
+ low power consumption, and load balancing capacity. </p>
+<p style=3D"margin: 0px; text-indent: 0px;"></p>
+<p style=3D"margin: 0px; text-indent: 0px;">We propose an adaptive deflecti=
+on router, DeBAR, that uses a minimal set of central buffers to accommodate=
+ a fraction of mis-routed flits. DeBAR incorporates a hybrid flit ejection =
+mechanism that gives the effect of dual ejection with a single ejection por=
+t, an innovative adaptive routing algorithm, and a selective flit buffering=
+ based on flit marking. Our proposed router design reduces the average flit=
+ latency and the deflection rate, and improves the throughput with respect =
+to the existing minimally buffered deflection routers without any change in=
+ the critical path.  Experimental results on real and synthetic workloads s=
+how that our proposed router significantly outperforms state of the art min=
+imally buffered deflection routers.</p><p style=3D"margin: 0px; text-indent=
+: 0px;"><br></p><p style=3D"margin: 0px; text-indent: 0px;">NB: Tea will be=
+ served after the talk.</p><p style=3D"margin: 0px; text-indent: 0px;"><br>=
+</p><p style=3D"margin: 0px; text-indent: 0px;">regards</p><p style=3D"marg=
+in: 0px; text-indent: 0px;"><br></p><p style=3D"margin: 0px; text-indent: 0=
+px;">John Jose</p><p style=3D"margin: 0px; text-indent: 0px;">http://www.cs=
+e.iitm.ac.in/~johnjose/<br></p></div></body></html>
+------=_Part_54166_253207629.1366205147375--

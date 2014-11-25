@@ -1,0 +1,71 @@
+Return-Path: ankitsvt@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 12 Feb 2013 18:32:41 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0BC1521D0002;
+	Tue, 12 Feb 2013 18:32:39 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id aInEW5e14eir; Tue, 12 Feb 2013 18:32:36 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 008A321B0004
+	for <all@cse.iitm.ac.in>; Tue, 12 Feb 2013 18:32:35 +0530 (IST)
+Date: Tue, 12 Feb 2013 18:32:35 +0530 (IST)
+From: ankitsvt@cse.iitm.ac.in
+To: all@cse.iitm.ac.in
+Message-ID: <1788340016.3202.1360674155906.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <165047799.3197.1360673888387.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Prof. C.A. Murthy's Talk
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3201_299606712.1360674155905"
+X-Originating-IP: [10.65.0.31]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_3201_299606712.1360674155905
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+
+Prof. C. A. Murthy of ISI Kolkata ( http://www.isical.ac.in/~murthy/ ) will be giving a talk as part of the NPTEL video lectures. The details are as follows: 
+
+
+Topic: Fuzzy c-Means Algorithm 
+
+Date : 14 Feb , 2013 
+Time: 11 AM - 1 PM 
+Place : NPTEL Studio 1, ICSR 
+
+
+Those who are interested may attend the lecture. 
+
+
+Regards, 
+Ankit 
+
+------=_Part_3201_299606712.1360674155905
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'>Dear All, 
+<div><br></div>
+<div>Prof. C. A. Murthy of ISI Kolkata (<span class="Object" id="OBJ_PREFIX_DWT53"><a target="_blank" href="http://www.isical.ac.in/%7Emurthy/">http://www.isical.ac.in/~murthy/</a></span>) will be giving a talk as part of the NPTEL video lectures. The details are as follows:</div>
+<div><br></div>
+<div>Topic: Fuzzy c-Means Algorithm<br></div>
+<div>Date : <span class="Object" id="OBJ_PREFIX_DWT54">14 Feb</span>, 2013</div>
+<div>Time: 11 AM - 1 PM</div>
+<div>Place : NPTEL Studio 1, ICSR&nbsp;</div>
+<div><br></div>
+<div>Those who are interested may attend the lecture.</div>
+<div><br></div>
+<div>Regards,</div><div>Ankit<br></div></div></body></html>
+------=_Part_3201_299606712.1360674155905--

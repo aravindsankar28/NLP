@@ -1,0 +1,131 @@
+Return-Path: cchatto@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 13 Mar 2013 06:36:45 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E33E1F78103;
+	Wed, 13 Mar 2013 06:36:42 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id kwfGMhRfjJtS; Wed, 13 Mar 2013 06:36:38 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0C68DF78046;
+	Wed, 13 Mar 2013 06:36:38 +0530 (IST)
+Date: Wed, 13 Mar 2013 06:36:38 +0530 (IST)
+From: cchatto@cse.iitm.ac.in
+To: all  <all@cse.iitm.ac.in>, aravind  <aravind@ee.iitm.ac.in>, 
+	vjkumar  <vjkumar@ee.iitm.ac.in>
+Message-ID: <743743482.2426.1363136797963.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <268075442.2418.1363136315601.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Reg: First Departmental PhD Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2425_749689433.1363136797962"
+X-Originating-IP: [203.199.213.70]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_2425_749689433.1363136797962
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+Greetings, 
+
+
+
+I am presenting my first Ph D seminar on 19-Mar-2013 ( Tuesday ) by 2.00 P.M. Kindly make it convenient to attend the seminar and give your valuable suggestions. 
+
+
+The details of the talk are as follows: 
+
+
+
+Title : Spatio -Temporal Analysis of Video Shots for Content Based Video Retrieval ( CBVR ) Task 
+Speaker: Chiranjoy Chattopadhyay (CS10D009) 
+Date : 19 March, 2013 (Tuesday) 
+Time : 2 PM 
+Place : BSB 361, Dept. of CS&E 
+
+
+
+
+ABSTRACT: 
+
+The task of Content Based Video Retrieval (CBVR) is far from mature and is influenced by a high degree of subjectivity. The overall objective of the work is to give a "compact representation of video content and retrieve similar video shots'' from a database. This requires efficient organization of video database for fast search and a robust representation of video shots for accurate retrieval of video based on its content. 
+
+In this talk, I will be presenting some novel and efficient techniques (e.g. hyperstring and EMST-CSS) proposed by us for video content representation, by combining spatial and temporal features. Results will be shown using a few benchmark real-world datasets. 
+
+
+
+
+Regards, 
+
+Joy 
+------=_Part_2425_749689433.1363136797962
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><font face=3D"tahoma, new york, times, serif">Dear All,</font><div><font f=
+ace=3D"tahoma, new york, times, serif">Greetings,</font></div><div><font fa=
+ce=3D"tahoma, new york, times, serif"><br></font></div><div><div><font face=
+=3D"tahoma, new york, times, serif">I am presenting my first Ph D seminar o=
+n 19-Mar-2013 (<span class=3D"Object" id=3D"OBJ_PREFIX_DWT337" style=3D"col=
+or: rgb(0, 0, 139); cursor: pointer; ">Tuesday</span>) by 2.00 P.M. Kindly =
+make it convenient to attend the seminar and give your valuable suggestions=
+.</font></div><div><font face=3D"tahoma, new york, times, serif"><br></font=
+></div><div><font face=3D"tahoma, new york, times, serif">The details of th=
+e talk are as follows:<br><br></font></div><div><div style=3D"color: rgb(34=
+, 34, 34); background-color: rgb(255, 255, 255); "><font face=3D"tahoma, ne=
+w york, times, serif"><b>Title :&nbsp;Spatio-Temporal Analysis of Video Sho=
+ts for Content&nbsp;Based Video Retrieval (CBVR) Task</b></font></div><div =
+style=3D"color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); "><f=
+ont face=3D"tahoma, new york, times, serif"><b>Speaker: Chiranjoy Chattopad=
+hyay (CS10D009)</b></font></div><div style=3D"color: rgb(34, 34, 34); backg=
+round-color: rgb(255, 255, 255); "><font face=3D"tahoma, new york, times, s=
+erif"><b>Date : 19 March, 2013 (Tuesday)</b></font></div><div style=3D"colo=
+r: rgb(34, 34, 34); background-color: rgb(255, 255, 255); "><font face=3D"t=
+ahoma, new york, times, serif"><b>Time : 2 PM</b></font></div><div style=3D=
+"color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); "><font face=
+=3D"tahoma, new york, times, serif"><b>Place : BSB 361, Dept. of CS&amp;E</=
+b></font></div><div style=3D"font-weight: normal; color: rgb(34, 34, 34); b=
+ackground-color: rgb(255, 255, 255); "><font face=3D"tahoma, new york, time=
+s, serif"><br></font></div><div style=3D"color: rgb(34, 34, 34); background=
+-color: rgb(255, 255, 255); "><p class=3D"MsoNormal" style=3D"margin: 0cm 0=
+cm 10pt; text-align: justify; "><span style=3D"line-height: 18px; "><font f=
+ace=3D"tahoma, new york, times, serif"><b>ABSTRACT:</b></font></span></p><p=
+ class=3D"MsoNormal" style=3D"font-weight: normal; margin: 0cm 0cm 10pt; te=
+xt-align: justify; "><span style=3D"line-height: 18px; "><font face=3D"taho=
+ma, new york, times, serif">&nbsp;&nbsp;&nbsp;&nbsp;The task of Content Bas=
+ed Video Retrieval (CBVR) is far from mature and is influenced by a high de=
+gree of subjectivity. The overall objective of the work is to give a "compa=
+ct representation of video content and retrieve similar video shots'' from =
+a database. This requires efficient organization of video database for fast=
+ search and a robust representation of video shots for accurate retrieval o=
+f video based on its content.<u></u><u></u><u></u></font></span></p><p clas=
+s=3D"MsoNormal" style=3D"font-weight: normal; margin: 0cm 0cm 10pt; text-al=
+ign: justify; "><span style=3D"font-family: tahoma, 'new york', times, seri=
+f; line-height: 18px; ">&nbsp; &nbsp; &nbsp; &nbsp;</span><span style=3D"fo=
+nt-family: tahoma, 'new york', times, serif; line-height: 18px; ">&nbsp;</s=
+pan><span style=3D"font-family: tahoma, 'new york', times, serif; line-heig=
+ht: 18px; ">In this talk, I will be presenting some novel and efficient tec=
+hniques (e.g. hyperstring and EMST-CSS) proposed by us for video content re=
+presentation, by combining spatial and temporal features. Results will be s=
+hown using a few benchmark real-world datasets.</span></p><p class=3D"MsoNo=
+rmal" style=3D"font-weight: normal; margin: 0cm 0cm 10pt; text-align: justi=
+fy; "><span style=3D"line-height: 18px; "><font face=3D"tahoma, new york, t=
+imes, serif"><br></font></span></p><p class=3D"MsoNormal" style=3D"font-wei=
+ght: normal; margin: 0cm 0cm 10pt; text-align: justify; "><span style=3D"li=
+ne-height: 18px; "><font face=3D"tahoma, new york, times, serif">Regards,</=
+font></span></p><p class=3D"MsoNormal" style=3D"font-weight: normal; margin=
+: 0cm 0cm 10pt; text-align: justify; "><span style=3D"font-family: tahoma, =
+'new york', times, serif; line-height: 18px; ">Joy</span></p></div></div></=
+div></div></body></html>
+------=_Part_2425_749689433.1363136797962--

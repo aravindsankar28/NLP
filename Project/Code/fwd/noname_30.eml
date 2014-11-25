@@ -1,0 +1,241 @@
+Return-Path: gsingh@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 28 Jul 2014 10:25:15 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 5527EF78106;
+	Mon, 28 Jul 2014 10:25:13 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.105
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.105 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id VpMNfD1Ufj8d; Mon, 28 Jul 2014 10:25:09 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0BED7F78050;
+	Mon, 28 Jul 2014 10:25:09 +0530 (IST)
+Date: Mon, 28 Jul 2014 10:25:08 +0530 (IST)
+From: gsingh@cse.iitm.ac.in
+To: scholars <scholars@cse.iitm.ac.in>, Seminar <seminar@cse.iitm.ac.in>
+Cc: sdas  <sdas@cse.iitm.ac.in>, "N. S. Narayanaswamy" <swamy@cse.iitm.ac.in>, 
+	John Augustine <augustine@cse.iitm.ac.in>, 
+	andrew  <andrew@ee.iitm.ac.in>
+Message-ID: <1412083414.31301.1406523308886.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <632068371.25104.1405929129403.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Reminder: MS Seminar Invitation
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_31300_170022332.1406523308885"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_31300_170022332.1406523308885
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+A gentle reminder for my seminar talk, today at 3 PM in BSB 361.=20
+
+Gaurav Singh=20
+AIDB Lab,=20
+CSE Department, IIT Madras=20
+
+
+From: gsingh@cse.iitm.ac.in=20
+To: "Seminar" <seminar@cse.iitm.ac.in>, "scholars" <scholars@cse.iitm.ac.in=
+>=20
+Cc: sdas@cse.iitm.ac.in, "N. S. Narayanaswamy" <swamy@cse.iitm.ac.in>, "Joh=
+n Augustine" <augustine@cse.iitm.ac.in>, "andrew" <andrew@ee.iitm.ac.in>, c=
+soffice@cse.iitm.ac.in=20
+Sent: Monday, July 21, 2014 1:22:09 PM=20
+Subject: MS Seminar Invitation=20
+
+
+
+Dear All,=20
+I am presenting my MS Seminar on 28th July, 2014(Monday) . Please make it c=
+onvenient to attend the talk and give your valuable feedback.=20
+
+Details:=20
+
+Topic : A Linear Size Approximate Distance Oracle for Chordal Graphs=20
+
+Speaker : Gaurav Singh=20
+Guide : Dr N.S. Narayanaswamy=20
+Date : July 28, 2014=20
+Time : 3PM to 4 PM=20
+Venue : BSB 361(Seminar Hall), Dept of Computer Science and Engineering=20
+
+
+Abstract=20
+
+
+A Graph is chordal if every cycle of length greater than three has a chord.=
+ Chord is an edge joining two non adjacent vertices. We present a distance =
+oracle for chordal graphs. Distance oracle is a data structure that stores =
+information of the distance between vertices of a graph.=20
+
+
+Given a chordal graph G on n vertices we preprocess it in O(n^2) time and s=
+pace to build a data structure of size O(n) such that any subsequent distan=
+ce query can be answered in constant time with a bounded constant factor er=
+ror. In particular, for each pair of vertices u,v in V(G), we output a dist=
+ance value d <=3D d_G(u,v) + 11, where d_G(u,v) is the distance between u a=
+nd v in G. In contrast, for the closely related APSP problem on chordal gra=
+phs, the current best algorithm runs in O(n^2.376) time. Our improvement co=
+mes from a relationship that we discover between the graph distance and min=
+imum hitting sets of cliques on certain paths in a clique tree associated w=
+ith a chordal graph. We then design an efficient data structure to additive=
+ly approximate (error of +3) these minimum hitting sets of cliques for all =
+paths in the clique tree. These are then integrated with an efficient data =
+structure to answer LCA queries in rooted trees to yield our distance oracl=
+e for a given chordal graph.=20
+
+
+
+
+Chordal graphs are often represented by its Clique Tree in very compact and=
+ efficient manner. Clique tree is a structure that contains most of the inf=
+ormation of the associated chordal graph. We exploit the structural propert=
+ies of the clique tree to extract the distance information of the associate=
+d chordal graph. We keep this information in a data structure that can answ=
+er any query of distance between any pair of vertices of graph in constant =
+time. The most impressive feature of our data structure is its constant que=
+ry time in spite of the fact that it uses only linear space, i.e., it does =
+not store distance between all the pairs of vertices explicitly.=20
+
+
+Key Word : Chordal graph, Distance oracle, Clique tree, Hitting set=20
+
+
+
+
+All are cordially invited.=20
+
+
+Thanks,=20
+
+
+Best Regards, Gaurav Singh=20
+CS12S025=20
+AIDB Lab,=20
+CSE Department, IIT Madras
+------=_Part_31300_170022332.1406523308885
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><span><span style=3D"background-color: rgb(255, 255, 255);">A gentle remin=
+der for my seminar talk,</span><span style=3D"background-color: rgb(255, 25=
+5, 255);">&nbsp;</span><b style=3D"background-color: rgb(255, 255, 255);"><=
+span class=3D"Object" id=3D"OBJ_PREFIX_DWT153" style=3D"color: rgb(0, 0, 13=
+9); cursor: pointer;">today</span>&nbsp;at 3 PM in BSB 361.</b><br><br><spa=
+n name=3D"x"></span>Gaurav Singh<br>AIDB Lab,<br>CSE Department, IIT Madras=
+<span name=3D"x"></span><br></span><br><hr id=3D"zwchr"><b>From: </b>gsingh=
+@cse.iitm.ac.in<br><b>To: </b>"Seminar" &lt;seminar@cse.iitm.ac.in&gt;, "sc=
+holars" &lt;scholars@cse.iitm.ac.in&gt;<br><b>Cc: </b>sdas@cse.iitm.ac.in, =
+"N. S. Narayanaswamy" &lt;swamy@cse.iitm.ac.in&gt;, "John Augustine" &lt;au=
+gustine@cse.iitm.ac.in&gt;, "andrew" &lt;andrew@ee.iitm.ac.in&gt;, csoffice=
+@cse.iitm.ac.in<br><b>Sent: </b>Monday, July 21, 2014 1:22:09 PM<br><b>Subj=
+ect: </b>MS Seminar Invitation<br><br><style>p { margin: 0; }</style><div s=
+tyle=3D"font-family: Times New Roman; font-size: 12pt; color: #000000"><div=
+ style=3D"text-align: justify;">Dear All,</div><br><font size=3D"3">I am pr=
+esenting my MS Seminar on </font><b style=3D"color: rgb(0, 0, 0); font-fami=
+ly: 'Times New Roman'; font-size: 12pt;">28th July, 2014(Monday)</b><font s=
+ize=3D"3">. Please make it convenient to attend the talk and give your valu=
+able feedback.</font><br><br><font size=3D"3">Details:</font><br><br><b sty=
+le=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;=
+">Topic &nbsp; &nbsp; &nbsp; : A Linear Size Approximate Distance Oracle fo=
+r Chordal Graphs</b><div><div style=3D"color: rgb(0, 0, 0); font-family: 'T=
+imes New Roman'; font-size: 12pt;"><b>Speaker &nbsp;: &nbsp;</b>Gaurav Sing=
+h&nbsp;</div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Rom=
+an'; font-size: 12pt;"><b>Guide &nbsp; &nbsp; &nbsp;: &nbsp;</b>Dr N.S. Nar=
+ayanaswamy</div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New =
+Roman'; font-size: 12pt;"><b>Date &nbsp; &nbsp; &nbsp; &nbsp;:</b>&nbsp;Jul=
+y 28, 2014&nbsp;</div><div style=3D"color: rgb(0, 0, 0); font-family: 'Time=
+s New Roman'; font-size: 12pt;"><b>Time &nbsp; &nbsp; &nbsp; : </b>3PM to 4=
+ PM</div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman';=
+ font-size: 12pt;"><b>Venue &nbsp; &nbsp; : </b>BSB 361(Seminar Hall), Dept=
+ of Computer Science and Engineering</div><div style=3D"color: rgb(0, 0, 0)=
+; font-family: 'Times New Roman'; font-size: 12pt;"><br></div><div style=3D=
+"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;"><b>=
+Abstract</b></div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times Ne=
+w Roman'; font-size: 12pt;"><b><br></b></div><div style=3D"text-align: just=
+ify; color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;"=
+>A Graph is chordal if every cycle of length greater than three has a chord=
+. Chord is an edge joining two non adjacent vertices. We present a distance=
+ oracle for chordal graphs. Distance oracle is a data structure that stores=
+ information of the distance between vertices &nbsp;of a graph.&nbsp;</div>=
+<div style=3D"text-align: justify; color: rgb(0, 0, 0); font-family: 'Times=
+ New Roman'; font-size: 12pt;"><span style=3D"font-size: 12pt; text-align: =
+justify;"><br></span></div><div style=3D"text-align: justify; color: rgb(0,=
+ 0, 0); font-family: 'Times New Roman'; font-size: 12pt;"><span style=3D"fo=
+nt-size: 12pt; text-align: justify;">Given a chordal graph G</span><span st=
+yle=3D"font-size: 12pt; text-align: justify;">&nbsp;on n vertices we prepro=
+cess it in O(n^2) time and space to build a data structure of&nbsp;</span><=
+span style=3D"font-size: 12pt; text-align: justify;">size O(n) such that an=
+y subsequent distance&nbsp;</span><span style=3D"font-size: 12pt; text-alig=
+n: justify;">query&nbsp;</span><span style=3D"font-size: 12pt; text-align: =
+justify;">can be answered in&nbsp;</span><span style=3D"font-size: 12pt; te=
+xt-align: justify;">constant time with a bounded constant factor error. In =
+particular, for&nbsp;</span><span style=3D"font-size: 12pt; text-align: jus=
+tify;">each pair of vertices u,v in V(G), we output a distance&nbsp;</span>=
+<span style=3D"font-size: 12pt; text-align: justify;">value d &lt;=3D d_G(u=
+,v) + 11,&nbsp;</span><span style=3D"font-size: 12pt; text-align: justify;"=
+>where&nbsp;</span><span style=3D"font-size: 12pt; text-align: justify;">d_=
+G(u,v) is the distance between u and v in G. In contrast,&nbsp;</span><span=
+ style=3D"font-size: 12pt; text-align: justify;">for the closely related AP=
+SP problem on chordal graphs, the current&nbsp;</span><span style=3D"font-s=
+ize: 12pt; text-align: justify;">best algorithm runs in O(n^2.376) time.&nb=
+sp;</span><span style=3D"font-size: 12pt; text-align: justify;">Our improve=
+ment comes&nbsp;</span><span style=3D"font-size: 12pt; text-align: justify;=
+">from a&nbsp;</span><span style=3D"font-size: 12pt; text-align: justify;">=
+relationship that we discover between the graph distance and minimum&nbsp;<=
+/span><span style=3D"font-size: 12pt; text-align: justify;">hitting sets of=
+ cliques on certain paths in a clique tree associated with a&nbsp;</span><s=
+pan style=3D"font-size: 12pt; text-align: justify;">chordal graph.&nbsp;</s=
+pan><span style=3D"font-size: 12pt; text-align: justify;">We then design an=
+ efficient data structure to additively&nbsp;</span><span style=3D"font-siz=
+e: 12pt; text-align: justify;">approximate (error of +3) these minimum hitt=
+ing sets of cliques for all&nbsp;</span><span style=3D"font-size: 12pt; tex=
+t-align: justify;">paths in the clique tree. These are then&nbsp;</span><sp=
+an style=3D"font-size: 12pt; text-align: justify;">integrated with an effic=
+ient data&nbsp;</span><span style=3D"font-size: 12pt; text-align: justify;"=
+>structure to answer LCA queries in rooted trees to yield our distance&nbsp=
+;</span><span style=3D"font-size: 12pt; text-align: justify;">oracle for a =
+given chordal graph.</span></div><div><div style=3D"text-align: left; color=
+: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;"><div styl=
+e=3D"text-align: justify; font-size: 12pt;"><span style=3D"font-size: 12pt;=
+"><br></span></div><div style=3D"text-align: justify; font-size: 12pt;"><sp=
+an style=3D"font-size: 12pt;">Chordal graphs are often represented by its C=
+lique Tree in very compact and efficient manner. Clique tree is a structure=
+ that contains most of the information of the associated chordal graph. We =
+exploit the structural properties of the clique tree to extract the distanc=
+e information of the associated chordal graph. We keep this information in =
+a data structure that can answer any query of distance between any pair of =
+vertices of graph in constant time.</span><span style=3D"font-size: 12pt;">=
+The most impressive feature of our data structure is its constant query tim=
+e in spite of the fact that it uses only linear space, i.e., it does not st=
+ore distance between all the pairs of vertices explicitly.&nbsp;</span></di=
+v><div style=3D"text-align: justify; font-size: 12pt;"><span style=3D"font-=
+size: 12pt;"><br></span></div><div style=3D"text-align: justify; font-size:=
+ 12pt;"><span style=3D"font-size: 12pt;"><b>Key Word : </b>Chordal graph, D=
+istance oracle, Clique tree, Hitting set</span></div><div style=3D"text-ali=
+gn: justify; font-size: 12pt;"><span style=3D"font-size: 12pt;"><br></span>=
+</div><div style=3D"text-align: justify; font-size: 12pt;"><span style=3D"f=
+ont-size: 12pt;"><br></span></div><div><span style=3D"font-family: 'Times N=
+ew Roman', serif; background-color: rgb(255, 255, 255);">All are cordially =
+invited.</span></div></div><div style=3D"text-align: left; color: rgb(0, 0,=
+ 0); font-family: 'Times New Roman'; font-size: 12pt;"><br></div><div style=
+=3D"text-align: left; color: rgb(0, 0, 0); font-family: 'Times New Roman'; =
+font-size: 12pt;">Thanks,</div><div style=3D"text-align: left; color: rgb(0=
+, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;"><br></div><div s=
+tyle=3D"text-align: left; font-family: 'Times New Roman'; font-size: 12pt;"=
+><font color=3D"#330033">Best Regards,</font></div><font size=3D"3" color=
+=3D"#3333ff">Gaurav Singh</font></div><div><font color=3D"#3333ff">CS12S025=
+<br><font size=3D"3">AIDB Lab,</font><br><font size=3D"3">CSE Department, I=
+IT Madras</font></font></div></div></div></div></body></html>
+------=_Part_31300_170022332.1406523308885--

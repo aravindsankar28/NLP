@@ -1,0 +1,263 @@
+Return-Path: bibek@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 30 Apr 2013 08:23:04 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D2BF3F78107;
+	Tue, 30 Apr 2013 08:23:01 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.105
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.105 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 9byak9QvTdNb; Tue, 30 Apr 2013 08:22:57 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E2C5CF78105
+	for <seminar@cse.iitm.ac.in>; Tue, 30 Apr 2013 08:22:56 +0530 (IST)
+Date: Tue, 30 Apr 2013 08:22:56 +0530 (IST)
+From: "bibek@cse.iitm.ac.in" <bibek@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1461763241.1819.1367290376870.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <386451186.68924.1367207061594.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Gentle reminder: MS Seminar ( April30,2013 Tuesday from 3.30 to
+ 4.30 PM in BSB 361)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1818_1439962812.1367290376869"
+X-Originating-IP: [10.22.52.229]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - [unknown] (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_1818_1439962812.1367290376869
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+A Gentle Reminder.=20
+
+
+
+Regards,=20
+
+Bibekananda Kundu=20
+
+
+
+
+
+
+
+
+
+From: bibek@cse.iitm.ac.in=20
+To: "Seminar" <seminar@cse.iitm.ac.in>, faculty@cse.iitm.ac.in, students@cs=
+e.iitm.ac.in=20
+Sent: Thursday, April 25, 2013 11:03:53 AM=20
+Subject: MS Seminar=20
+
+
+
+
+Dear All,=20
+
+
+I am glad to invite all of you to my MS seminar on April 30, 2013 (Tuesday)=
+ from=C2=A03.30 to 4.30 PM=C2=A0in BSB 361 (CSE dept.). Kindly make it conv=
+enient to attend the seminar and give your valuable suggestions. The detail=
+s of my talk are as follows:=20
+
+Title=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0 :=C2=A0=C2=A0 Natural Language Generation for Bangla Gramma=
+tical Error Detection and Correction =C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=20
+Speaker=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0 :=C2=A0=C2=A0=C2=A0 Bibe=
+kananda Kundu=20
+Guide=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 :=
+=C2=A0=C2=A0=C2=A0 Dr. Sutanu Chakraborti=20
+
+
+Date & Time : =C2=A0 April 30, 2013(Tuesday) from=C2=A03.30 to 4.30 PM=20
+
+Venue=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 :=C2=A0=
+=C2=A0=C2=A0 BSB 361, CSE Department=20
+
+Abstract:=20
+
+Automatic detection and correction of grammatical errors in a morphological=
+ly rich and free word order language like Bangla is a non trivial task. The=
+ problem is to automatically detect and correct errors in an ungrammatical =
+Bangla sentence having postpositional and nominal inflectional errors. A me=
+thodology needs to be devised for correcting the mistakes committed by user=
+s and also to provide relevant examples for supporting the suggested correc=
+tion. To have an idea on how strongly we can rely on such a correction, it =
+will be useful to devise a measure of sentence complexity with respect to t=
+he grammar correction task. If a sentence is complex, the user should not b=
+e overtly reliant on the correction suggested by the system. Conversely if =
+the complexity measure is low, the user can confidently choose the suggesti=
+on.=20
+
+=C2=A0A sufficiently large number of error corpus is essential for training=
+ and testing of any grammar correction methodology. Manual collection of su=
+ch huge error corpora is a tedious and time consuming task. Therefore, a no=
+vel synthetic error corpora creation methodology has been proposed. This ha=
+s been done using a combination of confidence score estimator and mal-rule =
+filter to introduce errors into a corpus of correct text. A novel approach =
+has been proposed for automatic detection and correction of Bangla grammati=
+cal errors using a Natural Language Generation (NLG) technique. Our NLG bas=
+ed grammar correction approach follows lemmatization, over generation, prun=
+ing of search space and best path selection procedures. In order to ensure =
+that the suggested correction is not too divergent from the source erroneou=
+s sentence, the WER and BLEU score have been used. The proposed approach al=
+so estimates the complexity of the grammar correction task so that the user=
+ can be informed about the system=E2=80=99s confidence. An active learning =
+based complexity estimation has been used to estimate the complexity of gra=
+mmar correction. Evaluation of grammar correction system is one of the chal=
+lenges in this area of research. Performance of most of the available gramm=
+ar checker systems cannot be compared as different systems address differen=
+t types of errors. Moreover, systems are not tested on common data set. Tes=
+ting on a common data set is particularly problematic when different gramma=
+r checkers are designed for different languages. To circumvent these proble=
+ms, a Methodology for Evaluation of Grammar Assessment (MEGA) combining a G=
+raded Acceptability Assessment Metric (GAAM) and a Complexity Measurement M=
+etric (CMM) has been introduced.=20
+
+=C2=A0=20
+
+=C2=A0=20
+
+All are welcome!=20
+
+Regards,=20
+Bibekananda Kundu=20
+
+=C2=A0 MS External=20
+(CS10s022)=20
+Department of CSE, IIT Madras.
+------=_Part_1818_1439962812.1367290376869
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12p=
+t">A Gentle Reminder.</DIV>
+<P>&nbsp;</P>
+<P>Regards,</P>
+<P>Bibekananda Kundu<BR><BR></P>
+<P>
+<HR id=3Dzwchr>
+</P>
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+">
+<P></P>
+<P><B>From: </B>bibek@cse.iitm.ac.in<BR><B>To: </B>"Seminar" &lt;seminar@cs=
+e.iitm.ac.in&gt;, faculty@cse.iitm.ac.in, students@cse.iitm.ac.in<BR><B>Sen=
+t: </B>Thursday, April 25, 2013 11:03:53 AM<BR><B>Subject: </B>MS Seminar<B=
+R><BR></P>
+<STYLE>p { margin: 0; }</STYLE>
+
+<DIV style=3D"FONT-FAMILY: Times New Roman; COLOR: #000000; FONT-SIZE: 12pt=
+">
+<P style=3D"LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt" class=3DMsoNormal><SPA=
+N style=3D"FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 12pt; mso-far=
+east-font-family: 'Times New Roman'">Dear All, </SPAN></P>
+<P style=3D"LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt" class=3DMsoNormal><SPA=
+N style=3D"FONT-FAMILY: 'Times New Roman','serif'; COLOR: black; FONT-SIZE:=
+ 12pt; mso-fareast-font-family: 'Times New Roman'"><BR>I am glad to invite =
+all of you to my MS seminar<I> </I>on April 30, 2013 (Tuesday) </SPAN><SPAN=
+ style=3D"FONT-FAMILY: 'Times New Roman','serif'; COLOR: black; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'">from&nbsp;3.30 to 4.30 PM=
+&nbsp;in BSB 361 (CSE dept.). Kindly make it convenient to attend the semin=
+ar and give your valuable suggestions. The details of my talk are as follow=
+s:<BR><BR>Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp; </SPAN><I style=3D"mso-bidi-font-sty=
+le: normal"><SPAN style=3D"FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZ=
+E: 12pt">Natural Language Generation for Bangla Grammatical Error Detection=
+ and Correction</SPAN></I><I style=3D"mso-bidi-font-style: normal"><SPAN st=
+yle=3D"FONT-FAMILY: 'Times New Roman','serif'; COLOR: black; FONT-SIZE: 12p=
+t; mso-fareast-font-family: 'Times New Roman'">&nbsp;</SPAN></I><SPAN style=
+=3D"FONT-FAMILY: 'Times New Roman','serif'; COLOR: black; FONT-SIZE: 12pt; =
+mso-fareast-font-family: 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <BR>Speaker&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; :&nbsp;&nbsp;&nbsp; Bibekananda Kundu</SP=
+AN><BR><SPAN>Guide&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp; :&nbsp;&nbsp;&nbsp; Dr. Sutanu Chakraborti<BR></SPAN></P>
+<P style=3D"LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt" class=3DMsoNormal><SPA=
+N style=3D"FONT-FAMILY: 'Times New Roman','serif'; COLOR: black; FONT-SIZE:=
+ 12pt; mso-fareast-font-family: 'Times New Roman'">Date &amp; Time : &nbsp;=
+ April 30, 2013(Tuesday) </SPAN><SPAN style=3D"FONT-FAMILY: 'Times New Roma=
+n','serif'; COLOR: black; FONT-SIZE: 12pt; mso-fareast-font-family: 'Times =
+New Roman'"><SPAN style=3D"FONT-FAMILY: 'Times New Roman','serif'; COLOR: b=
+lack; FONT-SIZE: 12pt; mso-fareast-font-family: 'Times New Roman'">from&nbs=
+p;3.30 to 4.30 PM</SPAN></SPAN></P>
+<P style=3D"LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt" class=3DMsoNormal><SPA=
+N style=3D"FONT-FAMILY: 'Times New Roman','serif'; COLOR: black; FONT-SIZE:=
+ 12pt; mso-fareast-font-family: 'Times New Roman'"><SPAN style=3D"FONT-FAMI=
+LY: 'Times New Roman','serif'; COLOR: black; FONT-SIZE: 12pt; mso-fareast-f=
+ont-family: 'Times New Roman'"></SPAN>Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; BSB 361, CSE Department<BR=
+><BR><I>Abstract:</I></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; T=
+EXT-AUTOSPACE: ; mso-margin-top-alt: auto; mso-layout-grid-align: none" cla=
+ss=3DMsoNormal><SPAN style=3D"FONT-FAMILY: 'Times New Roman','serif'; FONT-=
+SIZE: 12pt; mso-fareast-font-family: 'Times New Roman'">Automatic detection=
+ and correction of grammatical errors in a morphologically rich and free wo=
+rd order language like Bangla is a non trivial task. The problem is to auto=
+matically detect and correct errors in an ungrammatical Bangla sentence hav=
+ing postpositional and nominal inflectional errors. A methodology needs to =
+be devised for correcting the mistakes committed by users and also to provi=
+de relevant examples for supporting the suggested correction. To have an id=
+ea on how strongly we can rely on such a correction, it will be useful to d=
+evise a measure of sentence complexity with respect to the grammar correcti=
+on task. If a sentence is complex, the user should not be overtly reliant o=
+n the correction suggested by the system. Conversely if the complexity meas=
+ure is low, the user can confidently choose the suggestion.</SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; T=
+EXT-AUTOSPACE: ; mso-margin-top-alt: auto; mso-layout-grid-align: none" cla=
+ss=3DMsoNormal><SPAN style=3D"FONT-FAMILY: 'Times New Roman','serif'; FONT-=
+SIZE: 12pt; mso-fareast-font-family: 'Times New Roman'">&nbsp;A sufficientl=
+y large number of error corpus is essential for training and testing of any=
+ grammar correction methodology. Manual collection of such huge error corpo=
+ra is a tedious and time consuming task. Therefore, a novel synthetic error=
+ corpora creation methodology has been proposed. This has been done using a=
+ combination of confidence score estimator and mal-rule filter to introduce=
+ errors into a corpus of correct text. A novel approach has been proposed f=
+or automatic detection and correction of Bangla grammatical errors using a =
+Natural Language Generation (NLG) technique. Our NLG based grammar correcti=
+on approach follows lemmatization, over generation, pruning of search space=
+ and best path selection procedures. In order to ensure that the suggested =
+correction is not too divergent from the source erroneous sentence, the WER=
+ and BLEU score have been used. The proposed approach also estimates the co=
+mplexity of the grammar correction task so that the user can be informed ab=
+out the system=E2=80=99s confidence. An active learning based complexity es=
+timation has been used to estimate the complexity of grammar correction. Ev=
+aluation of grammar correction system is one of the challenges in this area=
+ of research. Performance of most of the available grammar checker systems =
+cannot be compared as different systems address different types of errors. =
+Moreover, systems are not tested on common data set. Testing on a common da=
+ta set is particularly problematic when different grammar checkers are desi=
+gned for different languages. To circumvent these problems, a Methodology f=
+or Evaluation of Grammar Assessment (MEGA) combining a Graded Acceptability=
+ Assessment Metric (GAAM) and a Complexity Measurement Metric (CMM) has bee=
+n introduced. </SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; T=
+EXT-AUTOSPACE: ; mso-margin-top-alt: auto; mso-layout-grid-align: none" cla=
+ss=3DMsoNormal><SPAN style=3D"FONT-FAMILY: 'Times New Roman','serif'; FONT-=
+SIZE: 12pt; mso-fareast-font-family: 'Times New Roman'">&nbsp;</SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; T=
+EXT-AUTOSPACE: ; mso-margin-top-alt: auto; mso-layout-grid-align: none; mso=
+-add-space: auto" class=3DMsoNormalCxSpMiddle><SPAN style=3D"FONT-FAMILY: '=
+Times New Roman','serif'; FONT-SIZE: 12pt; mso-fareast-font-family: 'Times =
+New Roman'">&nbsp;</SPAN></P>
+<P class=3DMsoNormal><EM><SPAN style=3D"LINE-HEIGHT: 115%; FONT-STYLE: norm=
+al; FONT-SIZE: 12pt; mso-bidi-font-style: italic">All are welcome!</SPAN></=
+EM><SPAN style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: 'Times New Roman','serif'=
+; FONT-SIZE: 12pt"><BR><BR><SPAN id=3D93719fef-b744-4148-b26c-c7959c22da0e>=
+Regards,<BR>Bibekananda Kundu</SPAN></SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: 'Times =
+New Roman','serif'; FONT-SIZE: 12pt"><SPAN style=3D"mso-spacerun: yes">&nbs=
+p;</SPAN>MS External<BR>(CS10s022)<BR>Department of CSE, IIT Madras.</SPAN>=
+</P></DIV></DIV></div></body></html>
+------=_Part_1818_1439962812.1367290376869--

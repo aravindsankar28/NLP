@@ -1,0 +1,188 @@
+Return-Path: mahe0412@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 13 Feb 2013 17:24:45 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B62F921B0007;
+	Wed, 13 Feb 2013 17:24:43 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 3.044
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.044 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_ENVFROM_END_DIGIT=1.553,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_NEUTRAL=0.779,
+	T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Chql3d9bKHmE; Wed, 13 Feb 2013 17:24:38 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id AC85F21A0002
+	for <all@cse.iitm.ac.in>; Wed, 13 Feb 2013 17:24:37 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id C29E7780C79
+	for <all@cse.iitm.ac.in>; Wed, 13 Feb 2013 17:49:46 +0530 (IST)
+Received: from mail-qe0-f45.google.com ([209.85.128.45])
+	by mailx1.iitm.ac.in (SonicWALL 7.3.5.6377)
+	with ESMTP; Wed, 13 Feb 2013 17:42:45 +0530
+Received: by mail-qe0-f45.google.com with SMTP id b4so498014qen.32
+        for <all@cse.iitm.ac.in>; Wed, 13 Feb 2013 04:19:44 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:x-received:date:message-id:subject:from:to
+         :content-type;
+        bh=EYv9cHm7ACdQTIB7wU7Hb+2I0l0R5BFyIODcNgCS1JI=;
+        b=hJNumuOdt2jxtqULEfxnu5F26qDQbSfQlhB0PXp2O3KML/mHwvuPZjXdXua8Kw/cNe
+         gn2gAEAe4aKlRF3dQf0sCyQm8IoVh4cZmkZvAad5DRX9PZFUKbLbV5z37uTm9sfSxWNv
+         L+1C7SvlKYUtOtPfGnmPCbOTDxfFkvktbZW3MglrSQM8CwxxHQIIVvspjS6/ohJpLX+h
+         kP6yGFDx0+BJ0CL8uC2XZbqWgRCYS5cteMJ5x1qL5PE5fE0jcAUsh0ZGL7DaLyOyNexI
+         FEBE+189LroQ6hO4lGlNKnwmbrKCCyrtNEGEuKSNpArBAHJ1M1zpvCJOBkXB51h/qkzo
+         l4rw==
+MIME-Version: 1.0
+X-Received: by 10.49.59.48 with SMTP id w16mr9380665qeq.38.1360757984597; Wed,
+ 13 Feb 2013 04:19:44 -0800 (PST)
+Received: by 10.49.120.132 with HTTP; Wed, 13 Feb 2013 04:19:44 -0800 (PST)
+Date: Wed, 13 Feb 2013 17:49:44 +0530
+Message-ID: <CAK6-y+Zvuv=1dbHb2cvBY41rfXaS6d7fi4s9DRi-c0j-=Nvorw@mail.gmail.com>
+Subject: Gentle reminder: PhD Seminar Invitation - reg
+From: Mahendran Veeramani <mahe0412@gmail.com>
+To: all@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=047d7b6d88da4c15c004d59a28c0
+X-Mlf-KeyWords: literature,highly,invitation,studied,statistics,lies,extensive,scheduling,sugges
+X-Mlf-Language-Detected: NoLanguageFilter_english
+X-Mlf-Connecting-IP: 209.85.128.45
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201302131212430010763
+
+--047d7b6d88da4c15c004d59a28c0
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+
+Apologies for multiple copies received.
+
+I am presenting my first PhD seminar on 14-Feb-2013 (Thursday) by 3.00 P.M.
+Kindly make it convenient to attend the seminar and give your valuable
+suggestions.
+
+The details of the talk are as follows:
+Speaker: Mahendran. V
+Date: 14th February, 2013. Thursday.
+Time: 15:00 hrs to 16:00 hrs.
+Topic: On Buffer Dimensioning of DTN Routing Nodes Using Large Deviations
+Theory.
+Venue: BSB 361, Dept. of CSE.
+
+Abstract:
+
+The Delay-Tolerant Networks (DTNs) have been envisaged to provide
+connectivity in disrupted environments. Unlike conventional wireless
+networks such as Mobile Ad hoc Networks (MANETs), that operate with
+store-and-forward paradigm; wherein the corresponding source-destination
+nodes are assumed to be connected (either via single-hop, or via multi-hop
+with the help of the other nodes) during the time of the message transfer,
+until its delivery.  In contrast, DTNs consider store, carry, and forward
+paradigm wherein the nodes physically carry messages either to the
+destination node or any other potential node (called relay node) that can
+carry them further to the destination nodes. The nodes in the DTN are
+generally mobile and wireless devices that are highly resource constrained.
+The crux of the DTN routing architecture therefore lies in the physical
+transportation of messages by these resource-bound nodes. This demands a
+sufficient buffer space for a seamless functioning of the DTN routing
+protocols. Buffer dimensioning is therefore essential to design a practical
+and efficient DTN. While much of the existing literature on DTN routing
+study assumes either infinite (or) finite buffer space at the nodes, a few
+research works have studied the first order statistics (i.e., average) of
+the buffer size and deal with scheduling policies to further improve the
+routing performance. In our research work, we move a step further by
+studying the tail distribution of the buffer size with the help of large
+deviations theory. To this end, in our study, we propose buffer
+dimensioning frameworks for two different DTN routing models that involve
+single-hop network, and multi-hop replication-based networks. Our extensive
+simulation results validate our analytical models, and also demonstrate the
+routing performance of the proposed dimensioned buffer models to be
+statistically equivalent to that of the infinite buffer models.
+
+ ALL ARE WELCOME
+
+Thanks and regards,
+Mahendran. V
+
+--047d7b6d88da4c15c004d59a28c0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote"><div><span style=3D"font-family:arial,helvetica,=
+sans-serif">Dear All,</span><font size=3D"3" style=3D"font-family:arial,hel=
+vetica,sans-serif">=A0</font></div><div><div><font face=3D"arial, helvetica=
+, sans-serif"><br>
+</font></div><div><font face=3D"arial, helvetica, sans-serif">Apologies for=
+ multiple copies received.</font></div><div><font face=3D"arial, helvetica,=
+ sans-serif"><br></font></div><font face=3D"arial, helvetica, sans-serif"><=
+div style=3D"color:rgb(34,34,34);font-size:16px">
+
+<font>I am presenting my first PhD=A0</font><font size=3D"3"></font><font><=
+span style=3D"background-color:rgb(255,255,204)">seminar</span>=A0on 14-Feb=
+-2013 (<span style=3D"color:rgb(0,0,139)">Thursday</span>) by 3.00 P.M. Kin=
+dly make it convenient to attend the=A0<span style=3D"background-color:rgb(=
+255,255,204)">seminar</span>=A0and give your valuable suggestions.</font></=
+div>
+
+<div style=3D"color:rgb(34,34,34);font-size:16px"><font><br></font></div><d=
+iv style=3D"color:rgb(34,34,34);font-size:16px"><font>The details of the ta=
+lk are as follows:</font></div>
+<div style=3D"color:rgb(34,34,34);font-size:16px">Speaker: Mahendran. V</di=
+v><div style=3D"color:rgb(34,34,34);font-size:16px"><font>Date: 14th Februa=
+ry, 2013. Thursday.</font></div>
+<div style=3D"color:rgb(34,34,34);font-size:16px"><font>Time: 15:00 hrs to =
+16:00 hrs.</font></div><div style=3D"color:rgb(34,34,34);font-size:16px"><f=
+ont>Topic: On <span class=3D"GRcorrect">Buffer Dimensioning</span> of DTN R=
+outing Nodes Using Large Deviations Theory.</font></div>
+
+<div style=3D"color:rgb(34,34,34);font-size:16px"><font>Venue: BSB 361, Dep=
+t. <span class=3D"GRcorrect">of</span> CSE.</font></div><div style=3D"color=
+:rgb(34,34,34);font-size:16px"><font><br>
+</font></div><div style=3D"color:rgb(34,34,34);font-size:16px">Abstract:</d=
+iv><div style=3D"color:rgb(34,34,34);font-size:16px"><br></div><div style>
+<font color=3D"#222222" size=3D"3">The Delay-Tolerant Networks (DTNs) have =
+been envisaged to provide connectivity in disrupted environments. Unlike co=
+nventional wireless networks such as Mobile Ad hoc Networks (MANETs), that =
+operate with store-and-forward paradigm; wherein the corresponding source-d=
+estination nodes are assumed to be connected (either via single-hop, or via=
+ multi-hop with the help of the other nodes) during the time of the message=
+ transfer, until its delivery. =A0In contrast, DTNs consider <span class=3D=
+"GRcorrect">store</span>, carry, and forward paradigm wherein the nodes phy=
+sically carry messages either to the destination node or any other potentia=
+l node (called <span class=3D"GRcorrect">relay node</span>) that can carry =
+them further to the destination nodes. The nodes in the DTN are generally m=
+obile and wireless devices that are highly resource constrained. The crux o=
+f the DTN routing architecture therefore lies in the physical transportatio=
+n of messages by these <span class=3D"GRcorrect">resource</span>-bound node=
+s. This demands a sufficient buffer space for a seamless functioning of the=
+ DTN routing protocols. Buffer dimensioning is therefore essential to desig=
+n a practical and efficient DTN. While much of the existing literature on <=
+span class=3D"GRcorrect">DTN routing study</span> assumes either infinite (=
+or) finite buffer space at the nodes, a few research works have studied the=
+ first order statistics (i.e., average) of the buffer size and deal with sc=
+heduling policies to further improve the routing performance. In our resear=
+ch work, we move a step further by studying the tail distribution of the bu=
+ffer size with the help of large deviations theory. To this end, in our stu=
+dy, we propose buffer dimensioning frameworks for two different DTN routing=
+ models that involve single-hop network, and multi-hop replication-based ne=
+tworks. Our extensive simulation results validate our analytical models, an=
+d also demonstrate the routing performance of the proposed dimensioned buff=
+er models to be statistically equivalent to that of the infinite buffer <sp=
+an class=3D"GRcorrect">models</span>.=A0</font></div>
+
+<div><font><br></font></div><div><font>=A0ALL ARE WELCOME</font></div><div>=
+<font><br></font></div><div>Thanks and regards,</div><div><span><span class=
+=3D"GRnoSuggestion GRcorrect">Mahendran</span></span>. V</div><font style=
+=3D"color:rgb(34,34,34);font-size:16px"></font></font></div>
+
+</div><br>
+
+--047d7b6d88da4c15c004d59a28c0--

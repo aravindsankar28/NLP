@@ -1,0 +1,3 @@
+Fix scaling of P(t|c) and ngram score
+Combine multiple errors. (What about context sensitive words ?)
+

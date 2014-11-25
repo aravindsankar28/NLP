@@ -1,0 +1,133 @@
+Return-Path: kristhri@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 4 Feb 2014 11:49:28 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3B079F7811F;
+	Tue,  4 Feb 2014 11:43:45 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.476
+X-Spam-Level: *
+X-Spam-Status: No, score=1.476 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, SPF_SOFTFAIL=0.665, T_TO_NO_BRKTS_FREEMAIL=0.01]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Uu3pp7yCtR6k; Tue,  4 Feb 2014 11:43:34 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 90F2BF7821C;
+	Tue,  4 Feb 2014 11:28:11 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 2A4D3780611;
+	Tue,  4 Feb 2014 11:46:41 +0530 (IST)
+Received: from mail-wg0-f49.google.com ([74.125.82.49])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201402040559310037583; Tue, 04 Feb 2014 11:29:33 +0530
+Received: by mail-wg0-f49.google.com with SMTP id a1so12131677wgh.4
+        for <multiple recipients>; Mon, 03 Feb 2014 22:16:39 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:from:date:message-id
+         :subject:to:cc:content-type;
+        bh=+AXOdz0fCma+dqQDzak2fmLyHY62bRdapIId/UqDpg0=;
+        b=rE2G9V7E250BX2qoWz1gfs8IPDQhJgXSPG+tYjJnG7UchZ7AjAamPNjhnXTv4+m8S4
+         sLWSacQ03sCDGfPKBBJbYzEuqH5qB1vrXrBsNcOcalFiMlAkXJczblces692LzQiDLYL
+         r1XZUGVKxMRYaOe9vQmKadPvtM2E5ed1S3css+ia8FABTCPbIhYe4zRv9R6oFuXRwLmW
+         SU5yzBkUJMvJkvcfXYEQHZFPSk10rOoV5E1zEE+LmDbsUK9yt4LJoC1f+0iYkAG88uN/
+         m4IV8Or/WjmUhBDVQN8unLA3rm5FRrbIt/ewhE2XgAPUWU2em734o21DLq/eBKmlgWbn
+         WtNg==
+X-Received: by 10.180.98.199 with SMTP id ek7mr11160010wib.21.1391494599493;
+ Mon, 03 Feb 2014 22:16:39 -0800 (PST)
+MIME-Version: 1.0
+Sender: kristhri@gmail.com
+Received: by 10.194.222.6 with HTTP; Mon, 3 Feb 2014 22:15:59 -0800 (PST)
+In-Reply-To: <CAMxjh4RS270DhwJhdeBHxxmjnzxzwMnTqNLfUH4kf1ew3xYxeQ@mail.gmail.com>
+References: <CAMxjh4TEEOMUzCOMzWaAUMTpGTynrOphPBwkAoDCa5KfeEeUKA@mail.gmail.com>
+ <CAMxjh4RS270DhwJhdeBHxxmjnzxzwMnTqNLfUH4kf1ew3xYxeQ@mail.gmail.com>
+From: "Prof. Krishna M. Sivalingam" <skrishnam@iitm.ac.in>
+Date: Tue, 4 Feb 2014 11:45:59 +0530
+X-Google-Sender-Auth: 6JVksbniyogvZ-12bMH92ewbbyk
+Message-ID: <CAE-r0RFED-dzAGCw9x8m0ewy8qXa5w_dn_XpsvRLG0D27kLLRQ@mail.gmail.com>
+Subject: Fwd: Talk on Big Data, Analytics & Wearables: 6th Feb, 2-3pm at ESB 244
+To: seminar@cse.iitm.ac.in
+Cc: "Dr. B. Ravindran" <RAVI@cse.iitm.ac.in>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: hundred,presently,dear,big,knows,delivery,nike,oil,fyi,infrastructure,forwarded,
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 74.125.82.49
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201402040559310037583
+
+FYI
+
+---------- Forwarded message ----------
+From: Gaurav Raina <gaurav@ee.iitm.ac.in>
+Date: Tue, Feb 4, 2014 at 11:41 AM
+Subject: Talk on Big Data, Analytics & Wearables: 6th Feb, 2-3pm at ESB 244
+To: 2011-Btech <11btech@ee.iitm.ac.in>, mtech <mtech@ee.iitm.ac.in>,
+ms <ms@ee.iitm.ac.in>
+
+
+Dear Students,
+
+There is a talk by the CTO of Mahindra-Comviva: 2PM-3PM in ESB 244 on
+Thursday 6th Feb, 2014.
+
+They have some interesting analytics, big data, mobile financial
+services related problems to work on. They are also looking for
+interns and potential hires, so this may be a good opportunity if
+you're interested in this space.
+
+Regards,
+
+Gaurav
+
+
+Abstract of talk
+
+Big Data is the new Oil, Big Data is the new Currency and what can we
+do about it? Will we move to a world of Correlation rather than
+Causation? How can we equip ourselves to make better sense of what is
+happening around us? Do we know ourselves better or does Google knows
+us better?
+
+
+
+Google Glass, Nike Fuel Band, and Fitbit are some of the wearables
+that have already started making waves and they are only the tip of
+the iceberg. As the power of yester years Cray is packed into a
+Samsung Smartphone today, the possibilities that the five forces of
+Mobile, Data, Social Media, Location and Sensors are immense.
+Wearables play a significant role as a part of these five forces that
+shall take many avatars and enter into our lives slowly but surely.
+
+
+
+Please join for a primer / talk into two emerging topics
+
+(i)                  Big Data and Analytics: From Causation to Correlation
+
+(ii)                Wearables: The wave that has started and shall endure
+
+
+
+Bio of speaker
+
+Zunder is the CTO of Mahindra Comviva and has over 19 years of rich
+experience in Telecom sector. He has built and owned products serving
+several hundred million users on a daily basis. His core competence
+includes End to End product development and solution delivery of VAS
+Infrastructure products. He has been instrumental in driving
+innovation culture and formulating technology strategy for company.
+Throughout his career, he has been in several roles spanning in
+Product Development, Project Management, Technology, Research and
+Strategy. He holds an M.Sc. in Computer Science from Pondicherry
+University and PGDCM from IIM Kozhikode. Personally, he is passionate
+about taking education to the less fortunate and is presently driving
+a bumblebee initiative to realize his long standing dream.

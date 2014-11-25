@@ -1,0 +1,50 @@
+Return-Path: madhu@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 14 Aug 2013 12:38:04 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id BBD05F7811B;
+	Wed, 14 Aug 2013 12:38:01 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -2.9
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.9 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9] autolearn=ham
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id uXjsN9pYzNMR; Wed, 14 Aug 2013 12:37:53 +0530 (IST)
+Received: from [10.6.30.25] (unknown [10.6.30.25])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTPSA id B7313F78103;
+	Wed, 14 Aug 2013 12:37:52 +0530 (IST)
+From: Madhu Mutyam <madhu@cse.iitm.ac.in>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Subject: Talk by Prof. Vijaykrishnan Narayanan, Penn State
+Message-Id: <838D0833-C13E-4397-8408-9A37EB7BD1E9@cse.iitm.ac.in>
+Date: Wed, 14 Aug 2013 12:40:48 +0530
+To: "seminar@cse.iitm.ac.in" <seminar@cse.iitm.ac.in>,
+ Nitin Chandrachoodan <nitin@ee.iitm.ac.in>
+Mime-Version: 1.0 (Mac OS X Mail 6.5 \(1508\))
+X-Mailer: Apple Mail (2.1508)
+
+Dear All,
+
+PFB the details of a talk by Prof. Vijaykrishnan Narayanan, Penn State.
+
+Title: Tearing down the power wall: Coordinated technology-architecture =
+advances
+
+Venue: BSB 361
+Date: 22/8/2013
+Time: 3:30PM
+
+Abstract: This talk will highlight power-efficiency innovations driven =
+by steep slope transistors and domain-specific customization. First, =
+heterogeneous architectures that combine CMOS technology with Tunnel FET =
+technology will be discussed. Second, domain specific accelerators for =
+video analytic applications will be presented.
+
+Speaker Bio: Please visit www.cse.psu.edu/~vijay
+
+regards,
+madhu mutyam=

@@ -1,0 +1,142 @@
+Return-Path: shankar@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 10 Jul 2013 22:04:45 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id CA8532198007;
+	Wed, 10 Jul 2013 22:04:42 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ERsLnNJmDIIw; Wed, 10 Jul 2013 22:04:34 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 4C1F92198001;
+	Wed, 10 Jul 2013 22:04:34 +0530 (IST)
+Date: Wed, 10 Jul 2013 22:04:34 +0530 (IST)
+From: Shankar Balachandran <shankar@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: faculty  <faculty@cse.iitm.ac.in>, staff  <staff@cse.iitm.ac.in>
+Message-ID: <971728235.62622.1373474074219.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1457831547.62601.1373473663884.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk by Jacques Pienaar from Purdue University
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_62621_2011335266.1373474074218"
+X-Originating-IP: [10.23.1.231]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_62621_2011335266.1373474074218
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All 
+
+
+Jacques Pienaar, a Ph.D. student from the Integrated Systems Laboratory at Purdue University is going to give a talk on heterogeneous computing. Please see the details below. The talk is arranged through WebEx and therefore the venue is not frozen yet. I will check the setup and announce the venue by Thursday night. Tea will be served after the talk. 
+
+
+Date and time: 12th July 2013, 10 am 
+Venue: To Be Decided 
+
+
+Abstract 
+
+
+Heterogeneous parallel computing platforms, which contain multiple processing units (PUs) with distinct architectures (such as multi-core processors and many-core accelerators), present a potential for significant improvements in the performance and power efficiency of computing platforms. Applications from several domains ported to heterogeneous platforms consisting of multi-core CPUs and accelerators including general-purpose graphics processing units (GPGPUs) from NVIDIA and AMD, IBM's Cell, and Intel's many integrated core (MIC), have shown significant performance improvements. While these results make a compelling case for heterogeneous parallel computing, developers often cite programming heterogeneous parallel platforms as a significant challenge that must be addressed before heterogeneous platform's potential can be realized for mainstream computing. 
+
+
+In this research, we explore technologies that enable performance portable programming of heterogeneous platforms. Performance portability refers to the ability of a program to achieve robust performance on diverse hardware platforms, with minimal programmer effort. It is a highly desirable feature, due to the significant development costs involved in optimizing and maintaining software that executes on different parallel platforms, and to preserve the value of software across hardware generations. We specifically focus on software frameworks, including compilers and runtimes that enable the creation of performance portable programs. 
+
+
+A more detailed description can be found at http://l.japienaar.info/ccehb 
+
+
+Bio of the Speaker 
+
+
+
+
+Jacques Pienaar received his B.Sc in Mathematics and Aplied Mathematics and B.Eng in Electrical and Electronic Engineering from the North-West University, Potchefstroom, South Africa in 2004 and 2006 respectively. He is currently working towards his Ph.D. degree in Electrical and Computer Engineering at Purdue University and is a research assistant in the Integrated Systems Laboratory. His current research interests include programming models and methodology, tools and abstractions to enable performance portability, and heterogeneous parallel platforms. 
+
+
+
+
+------=_Part_62621_2011335266.1373474074218
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><font face=3D"times new roman, new york, times, serif">Dear All</font><div=
+><font face=3D"times new roman, new york, times, serif"><br></font></div><d=
+iv><font face=3D"times new roman, new york, times, serif">Jacques Pienaar, =
+a Ph.D. student from the Integrated Systems Laboratory at Purdue University=
+ is going to give a talk on heterogeneous computing. Please see the details=
+ below. The talk is arranged through WebEx and therefore the venue is not f=
+rozen yet. I will check the setup and announce the venue by Thursday night.=
+ Tea will be served after the talk.</font></div><div><br></div><div><span s=
+tyle=3D"font-family: 'times new roman', 'new york', times, serif;">Date and=
+ time: 12th July 2013, 10 am</span></div><div><font face=3D"times new roman=
+, new york, times, serif">Venue: To Be Decided</font></div><div><font face=
+=3D"times new roman, new york, times, serif"><br></font></div><div><font fa=
+ce=3D"times new roman, new york, times, serif">Abstract</font></div><div><s=
+pan id=3D"docs-internal-guid-54f4c8bc-c986-400e-2a97-3cdfccadff8b"><p dir=
+=3D"ltr" style=3D"line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;">=
+<span style=3D"vertical-align: baseline; white-space: pre-wrap;"><font face=
+=3D"times new roman, new york, times, serif">Heterogeneous parallel computi=
+ng platforms, which contain multiple processing units (PUs) with distinct a=
+rchitectures (such as multi-core processors and many-core accelerators), pr=
+esent a potential for significant improvements in the performance and power=
+ efficiency of computing platforms. Applications from several domains porte=
+d to heterogeneous platforms consisting of multi-core CPUs and accelerators=
+ including general-purpose graphics processing units (GPGPUs) from NVIDIA a=
+nd AMD, IBM's Cell, and Intel's many integrated core (MIC), have shown sign=
+ificant performance improvements. While these results make a compelling cas=
+e for heterogeneous parallel computing, developers often cite programming h=
+eterogeneous parallel platforms as a significant challenge that must be add=
+ressed before heterogeneous platform's potential can be realized for mainst=
+ream computing.</font></span></p><font face=3D"times new roman, new york, t=
+imes, serif"><br><span style=3D"vertical-align: baseline; white-space: pre-=
+wrap;"></span></font><p dir=3D"ltr" style=3D"line-height: 1.15; margin-top:=
+ 0pt; margin-bottom: 0pt;"><span style=3D"vertical-align: baseline; white-s=
+pace: pre-wrap;"><font face=3D"times new roman, new york, times, serif">In =
+this research, we explore technologies that enable performance portable pro=
+gramming of heterogeneous platforms. Performance portability refers to the =
+ability of a program to achieve robust performance on diverse hardware plat=
+forms, with minimal programmer effort. It is a highly desirable feature, du=
+e to the significant development costs involved in optimizing and maintaini=
+ng software that executes on different parallel platforms, and to preserve =
+the value of software across hardware generations. We specifically focus on=
+ software frameworks, including compilers and runtimes that enable the crea=
+tion of performance portable programs.</font></span></p><div><span style=3D=
+"vertical-align: baseline; white-space: pre-wrap;"><font face=3D"times new =
+roman, new york, times, serif"><br></font></span></div><div><font face=3D"t=
+imes new roman, new york, times, serif"><span style=3D"vertical-align: base=
+line; white-space: pre-wrap;">A more detailed description can be found at <=
+/span><span style=3D"color: rgb(34, 34, 34); background-color: rgb(255, 255=
+, 255);">&nbsp;</span><a href=3D"http://l.japienaar.info/ccehb" target=3D"_=
+blank" style=3D"color: rgb(17, 85, 204); background-color: rgb(255, 255, 25=
+5);">http://l.japienaar.info/ccehb</a></font></div><div><font face=3D"times=
+ new roman, new york, times, serif"><br></font></div><div><font face=3D"tim=
+es new roman, new york, times, serif">Bio of the Speaker</font></div><div><=
+font face=3D"times new roman, new york, times, serif"><br></font></div><div=
+><span id=3D"docs-internal-guid-54f4c8bc-c988-e55a-a8d7-bc3b54649c9b"><font=
+ face=3D"times new roman, new york, times, serif"><p dir=3D"ltr" style=3D"l=
+ine-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style=3D"vertical-=
+align: baseline; white-space: pre-wrap;">Jacques Pienaar received his B.Sc =
+in Mathematics and Aplied Mathematics and B.Eng in Electrical and Electroni=
+c Engineering from the North-West University, Potchefstroom, South Africa i=
+n 2004 and 2006 respectively. He is currently working towards his Ph.D. deg=
+ree in Electrical and Computer Engineering at Purdue University and is a re=
+search assistant in the Integrated Systems Laboratory. His current research=
+ interests include programming models and methodology, tools and abstractio=
+ns to enable performance portability, and heterogeneous parallel platforms.=
+</span></p><div><span style=3D"vertical-align: baseline; white-space: pre-w=
+rap;"><br></span></div></font></span></div><div><br></div></span></div></di=
+v></body></html>
+------=_Part_62621_2011335266.1373474074218--

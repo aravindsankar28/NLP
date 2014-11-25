@@ -1,0 +1,194 @@
+Return-Path: tejasvk@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 10 Jul 2014 10:19:30 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1B9D7F7811C;
+	Thu, 10 Jul 2014 10:19:28 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.794
+X-Spam-Level: 
+X-Spam-Status: No, score=0.794 tagged_above=-10 required=6.6
+	tests=[BAYES_20=-0.001, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id hJaNIIQsbWMA; Thu, 10 Jul 2014 10:19:21 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 06EA5F78107;
+	Thu, 10 Jul 2014 10:19:21 +0530 (IST)
+Date: Thu, 10 Jul 2014 10:19:20 +0530 (IST)
+From: Tejas Kulkarni <tejasvk@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: John Augustine <augustine@cse.iitm.ac.in>, swamy  <swamy@cse.iitm.ac.in>, 
+	sdas  <sdas@cse.iitm.ac.in>, krishnaj  <krishnaj@ee.iitm.ac.in>
+Message-ID: <1838651014.15511.1404967760928.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1345614516.10666.1404498905397.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Remainder: Invitation to my seminar on 10 th July 2014.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_15510_1617589941.1404967760927"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_15510_1617589941.1404967760927
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+A gentle remainder for my seminar talk, today at 3 PM in BSB 361. 
+
+From: "Tejas Kulkarni" <tejasvk@cse.iitm.ac.in> 
+To: "Seminar" <seminar@cse.iitm.ac.in> 
+Cc: "John Augustine" <augustine@cse.iitm.ac.in>, "swamy" <swamy@cse.iitm.ac.in>, "sdas" <sdas@cse.iitm.ac.in>, "krishnaj" <krishnaj@ee.iitm.ac.in> 
+Sent: Saturday, July 5, 2014 12:05:05 AM 
+Subject: Invitation to my seminar on 10 th July 2014. 
+
+
+Dear All, 
+
+
+I am happy to invite you all for my MS seminar on Thursday, 10 th July , 2014 at BSB 361 . Please make it convenient to attend the seminar and give your valuable feedback. 
+
+
+Title: Dynamic Leader Election for Fast Changing World. 
+
+
+Venue - BSB 361, Seminar Hall, Department of Computer Science and Engineering 
+
+
+Time - 3 PM to 4 PM 
+
+
+Background Needed: Nothing more than basics of discrete probability, algorithm designer's mindset & appreciation for theoretical work . 
+
+
+Regards 
+
+
+Tejas Kulkarni 
+
+
+Abstract: We consider the problem of electing a leader among nodes in a highly dynamic network where adversary has unbounded capacity to insert and remove nodes (including the leader) from the network and change topology at will. We present a randomized algorithm that elects & re-elects a leader in $O(D log n)$ rounds W.H.P. where D is a bound on dynamic diameter of the network and n is a number of nodes in the network in any round. We assume a model of broadcast-based communication where a node can send only one message of $O(log n)$ bits per round per edge and is not aware of recipients in advance(i.e. before the start of the round). Our solution improves the deterministic solution of $O(D.n)$ rounds for termination time, presented at FOMC 2011. We also show that any randomized algorithm solving leader election in our settings, takes $Omega(D. log n)$ rounds to elect a leader which shows that our algorithm yields the most optimal termination time. 
+This is joint work with John Augustine, Paresh Nakhe, and Peter Robinson and got accepted in The Ninth ACM International Workshop on Foundation of Mobile Computing (FOMC-2013) , Jerusalem, Israel. Journal version of the same work will be submitted soon. . 
+------=_Part_15510_1617589941.1404967760927
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><br>A gentle remainder for my seminar talk, <b>today at 3 PM in BSB 361.</=
+b><br><hr id=3D"zwchr" style=3D"color: rgb(0, 0, 0); font-family: 'Times Ne=
+w Roman'; font-size: 12pt;"><b style=3D"color: rgb(0, 0, 0); font-family: '=
+Times New Roman'; font-size: 12pt;">From: </b><font size=3D"3">"Tejas Kulka=
+rni" &lt;tejasvk@cse.iitm.ac.in&gt;</font><br><b style=3D"color: rgb(0, 0, =
+0); font-family: 'Times New Roman'; font-size: 12pt;">To: </b><font size=3D=
+"3">"Seminar" &lt;seminar@cse.iitm.ac.in&gt;</font><br><b style=3D"color: r=
+gb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;">Cc: </b><fon=
+t size=3D"3">"John Augustine" &lt;augustine@cse.iitm.ac.in&gt;, "swamy" &lt=
+;swamy@cse.iitm.ac.in&gt;, "sdas" &lt;sdas@cse.iitm.ac.in&gt;, "krishnaj" &=
+lt;krishnaj@ee.iitm.ac.in&gt;</font><br><b style=3D"color: rgb(0, 0, 0); fo=
+nt-family: 'Times New Roman'; font-size: 12pt;">Sent: </b><font size=3D"3">=
+Saturday, July 5, 2014 12:05:05 AM</font><br><b style=3D"color: rgb(0, 0, 0=
+); font-family: 'Times New Roman'; font-size: 12pt;">Subject: </b><font siz=
+e=3D"3">Invitation to my seminar on 10 th July 2014.</font><br><br><style>p=
+ { margin: 0; }</style><div><font size=3D"3" style=3D"color: rgb(0, 0, 0); =
+font-family: 'Times New Roman'; font-size: 12pt;">Dear All,&nbsp;</font><di=
+v style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: =
+12pt;"><br></div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New=
+ Roman'; font-size: 12pt;"><font face=3D"Times New Roman, serif" style=3D"f=
+ont-size: medium; background-color: rgb(255, 255, 255);">I am happy to invi=
+te you all for my&nbsp;<span class=3D"il" style=3D"background-color: rgb(25=
+5, 255, 204); color: rgb(34, 34, 34); background-position: initial initial;=
+ background-repeat: initial initial;">MS</span>&nbsp;<span class=3D"il" sty=
+le=3D"background-color: rgb(255, 255, 204); color: rgb(34, 34, 34); backgro=
+und-position: initial initial; background-repeat: initial initial;">seminar=
+</span>&nbsp;on <b>Thursday, 10</b></font><b><sup style=3D"background-color=
+: rgb(255, 255, 255);"><font face=3D"Times New Roman, serif">th</font></sup=
+><sup style=3D"background-color: rgb(255, 255, 255);">&nbsp; </sup><span st=
+yle=3D"background-color: rgb(255, 255, 255); font-family: 'Times New Roman'=
+, serif; font-size: medium;">July</span></b><span style=3D"font-size: mediu=
+m; background-color: rgb(255, 255, 255); font-family: 'Times New Roman', se=
+rif;"><b>, 2014 at BSB 361</b>. Please make it convenient to attend the&nbs=
+p;</span><span class=3D"il" style=3D"font-size: medium; font-family: 'Times=
+ New Roman', serif; background-color: rgb(255, 255, 204); color: rgb(34, 34=
+, 34);">seminar</span><span style=3D"font-size: medium; background-color: r=
+gb(255, 255, 255); font-family: 'Times New Roman', serif;">&nbsp;</span><sp=
+an style=3D"font-size: medium; background-color: rgb(255, 255, 255); font-f=
+amily: 'Times New Roman', serif;">and give your valuable feedback.</span></=
+div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font=
+-size: 12pt;"><span style=3D"font-size: medium; background-color: rgb(255, =
+255, 255); font-family: 'Times New Roman', serif;"><br></span></div><div st=
+yle=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt=
+;"><span style=3D"font-size: medium; background-color: rgb(255, 255, 255); =
+font-family: 'Times New Roman', serif;"><b>Title:</b> &nbsp; Dynamic Leader=
+ Election for Fast Changing World.</span></div><div style=3D"color: rgb(0, =
+0, 0); font-family: 'Times New Roman'; font-size: 12pt;"><span style=3D"fon=
+t-size: medium; background-color: rgb(255, 255, 255); font-family: 'Times N=
+ew Roman', serif;"><br></span></div><div style=3D"color: rgb(0, 0, 0); font=
+-family: 'Times New Roman'; font-size: 12pt;"><span style=3D"font-size: med=
+ium; background-color: rgb(255, 255, 255); font-family: 'Times New Roman', =
+serif;"><b>Venue</b> - BSB 361,&nbsp;</span><span class=3D"il" style=3D"bac=
+kground-color: rgb(255, 255, 204); color: rgb(34, 34, 34);">Seminar</span><=
+span style=3D"background-color: rgb(255, 255, 255);">&nbsp;Hall, Department=
+ of Computer Science and Engineering</span></div><div style=3D"color: rgb(0=
+, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;"><span style=3D"b=
+ackground-color: rgb(255, 255, 255);"><br></span></div><div style=3D"color:=
+ rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 12pt;"><span styl=
+e=3D"font-size: medium; background-color: rgb(255, 255, 255); font-family: =
+'Times New Roman', serif;"><b>Time </b>- 3 PM to 4 PM&nbsp;</span></div><di=
+v style=3D"color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: =
+12pt;"><span style=3D"font-size: medium; background-color: rgb(255, 255, 25=
+5); font-family: 'Times New Roman', serif;"><br></span></div><div><span sty=
+le=3D"background-color: rgb(255, 255, 255);"><b style=3D"color: rgb(0, 0, 0=
+); font-family: 'Times New Roman', serif; font-size: medium;">Background Ne=
+eded:</b><font face=3D"Times New Roman, serif"><font face=3D"Times New Roma=
+n" size=3D"3">&nbsp;Nothing more than basics of discrete probability, algor=
+ithm designer's mindset &amp; appreciation for&nbsp;</font><i>theoretical</=
+i><font face=3D"Times New Roman" size=3D"3"><i>&nbsp;work</i>.</font></font=
+></span></div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New Ro=
+man'; font-size: 12pt;"><br></div><div style=3D"color: rgb(0, 0, 0); font-f=
+amily: 'Times New Roman'; font-size: 12pt;"><span style=3D"font-size: mediu=
+m; background-color: rgb(255, 255, 255); font-family: 'Times New Roman', se=
+rif;">Regards</span></div><div style=3D"color: rgb(0, 0, 0); font-family: '=
+Times New Roman'; font-size: 12pt;"><span style=3D"font-size: medium; backg=
+round-color: rgb(255, 255, 255); font-family: 'Times New Roman', serif;"><b=
+r></span></div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New R=
+oman'; font-size: 12pt;"><span style=3D"font-size: medium; background-color=
+: rgb(255, 255, 255); font-family: 'Times New Roman', serif;">Tejas Kulkarn=
+i&nbsp;</span></div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times =
+New Roman'; font-size: 12pt;"><span style=3D"font-size: medium; background-=
+color: rgb(255, 255, 255); font-family: 'Times New Roman', serif;"><b><br><=
+/b></span></div><div style=3D"color: rgb(0, 0, 0); font-family: 'Times New =
+Roman'; font-size: 12pt;"><span style=3D"font-size: medium; background-colo=
+r: rgb(255, 255, 255); font-family: 'Times New Roman', serif;"><b>Abstract:=
+&nbsp;</b></span><span style=3D"background-color: rgb(231, 235, 238); color=
+: rgb(11, 38, 59); font-family: Arial, Verdana, sans-serif; font-size: smal=
+l;">&nbsp;We consider the problem of electing a leader among nodes in a hig=
+hly dynamic network where adversary has unbounded capacity to insert and re=
+move nodes (including the leader) from the network and change topology at w=
+ill. We present a randomized algorithm that elects &amp; re-elects a leader=
+ in $O(D log n)$ rounds W.H.P. where D is a bound on dynamic diameter of th=
+e network and n is a number of nodes in the network in any round. We assume=
+ a model of broadcast-based&nbsp;</span><span style=3D"background-color: rg=
+b(231, 235, 238); color: rgb(11, 38, 59); font-family: Arial, Verdana, sans=
+-serif; font-size: small;">communication where a node can send only one mes=
+sage of $O(log n)$ bits per round per edge and is not aware of recipients i=
+n advance(i.e. before the start of the round). Our solution improves the de=
+terministic solution of $O(D.n)$ rounds for termination time,&nbsp;</span><=
+span style=3D"color: rgb(11, 38, 59); font-family: Arial, Verdana, sans-ser=
+if; font-size: small; background-color: rgb(231, 235, 238);">presented at F=
+OMC 2011. We also show that any randomized algorithm solving leader electio=
+n in our settings, takes $Omega(D. log n)$ rounds to elect a leader which s=
+hows that our algorithm yields the&nbsp;</span><span style=3D"color: rgb(11=
+, 38, 59); font-family: Arial, Verdana, sans-serif; font-size: small; backg=
+round-color: rgb(231, 235, 238);">most optimal termination time.</span></di=
+v><br style=3D"color: rgb(11, 38, 59); font-family: Arial, Verdana, sans-se=
+rif; font-size: small; background-color: rgb(231, 235, 238);"><span style=
+=3D"color: rgb(11, 38, 59); font-family: Arial, Verdana, sans-serif; font-s=
+ize: small; background-color: rgb(231, 235, 238);">This is joint work with =
+John Augustine, Paresh Nakhe, and Peter Robinson and got accepted in The Ni=
+nth ACM International Workshop on Foundation of Mobile Computing (FOMC-2013=
+) , Jerusalem, Israel. Journal version of the same work will be submitted s=
+oon. .</span></div></div></body></html>
+------=_Part_15510_1617589941.1404967760927--

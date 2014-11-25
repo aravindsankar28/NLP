@@ -1,0 +1,154 @@
+Return-Path: ajeesh@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 11 Mar 2013 09:15:28 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A5C93259001F;
+	Mon, 11 Mar 2013 09:14:36 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.209
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.209 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_50=0.8, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id s+lsQE3Gphjs; Mon, 11 Mar 2013 09:14:33 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9E7B2F783D0;
+	Mon, 11 Mar 2013 09:14:32 +0530 (IST)
+Date: Mon, 11 Mar 2013 09:14:32 +0530 (IST)
+From: "ajeesh@cse.iitm.ac.in" <ajeesh@cse.iitm.ac.in>
+To: all@cse.iitm.ac.in
+Cc: elango@cse.iitm.ac.in, kamala <kamala@iitm.ac.in>, swamy@cse.iitm.ac.in, 
+	"Dr.Krishna Sivalingam@cse.iitm.ac.in" <krishna.sivalingam@cse.iitm.ac.in>, 
+	"Madhu Mutyam@cse.iitm.ac.in" <madhu@cse.iitm.ac.in>, 
+	ramar@iitm.ac.in, pvs@iitm.ac.in
+Message-ID: <1762323467.49590.1362973472527.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <2092051394.39099.1362455895847.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Gentle reminder: Second PhD seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_49589_1006063014.1362973472526"
+X-Originating-IP: [10.6.30.98]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_49589_1006063014.1362973472526
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+
+
+I will be giving my second PhD seminar talk on 12th March , 2013 ( Tuesday =
+) at 2pm at BSB361 (Seminar Hall).=20
+I request you to kindly attend the seminar and give your valuable suggestio=
+ns.=20
+
+
+Title : Controlled P Systems=20
+Speaker : Ajeesh Ramanujan=20
+
+Date : 12th March , 2013 ( Tuesday )=20
+Time : 2pm=20
+
+Venue : BSB361 (Seminar Hall), Dept of CSE=20
+
+
+Abstract : In the last two decades, there has been tremendous interest in d=
+efining and studying new computing paradigms=20
+which are inspired by nature. Natural computing has emerged as an area whic=
+h is followed with a lot of interest.=20
+P systems introduced by Gh. P\u{a}un, are computing models inspired from th=
+e structure and functioning of the=20
+living cells. A P system consists of a finite number of membranes, each of =
+which contains a multiset of objects=20
+from a finite alphabet. The membranes are organized as a Venn diagram or a =
+tree structure where membranes may=20
+contain other membranes. The dynamics of the system is governed by a set of=
+ rules associated with each membrane.=20
+Each rule specifies how objects evolve and move into neighboring membranes.=
+ It has been introduced as a computing=20
+model which abstracts from the way live cells process chemical compounds in=
+ their =E2=80=9Ccompartmental=E2=80=9D (membrane) structure.=20
+Various models of P systems have been shown to be equivalent to Turing mach=
+ines in computing power.=20
+
+We consider a way of controlling the computation of a P system. A label is =
+assigned to every rule, where the labels are=20
+chosen from a finite alphabet. P systems with label restricted transitions =
+are considered (in each step, all rules used have=20
+either the same label, or, possibly, the empty label, $\lambda$), then P sy=
+stems with the computations controlled by languages=20
+(as in context-free controlled grammars). The relationships between the fam=
+ilies of sets of numbers computed by the various=20
+classes of controlled P systems are investigated, also comparing them with =
+length sets of languages in Chomsky hierarchies=20
+(characterizations of the length sets of recursively enumerable languages a=
+re obtained in this framework).=20
+
+
+Thanks and regards,=20
+Ajeesh(CS09D007).=20
+
+
+
+------=_Part_49589_1006063014.1362973472526
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<div style=3D"font-family: Times New Roman; font-size: 12pt; colo=
+r: rgb(0, 0, 0);"><div><br></div><div>I will be giving my second PhD semina=
+r talk on <span class=3D"Object" id=3D"OBJ_PREFIX_DWT55"><span class=3D"Obj=
+ect" id=3D"OBJ_PREFIX_DWT209">12th March</span></span>, 2013 (<span class=
+=3D"Object" id=3D"OBJ_PREFIX_DWT56"><span class=3D"Object" id=3D"OBJ_PREFIX=
+_DWT210">Tuesday</span></span>) at 2pm at BSB361 (Seminar Hall). <br>I requ=
+est you to kindly attend the seminar and give your valuable suggestions.&nb=
+sp;</div>
+<div><br></div><div><b>Title</b>: Controlled P Systems</div><div><b>Speaker=
+</b>: Ajeesh Ramanujan<br></div><div><b>Date</b>: <span class=3D"Object" id=
+=3D"OBJ_PREFIX_DWT57">12th March</span><span class=3D"Object" id=3D"OBJ_PRE=
+FIX_DWT55"></span>, 2013 (<span class=3D"Object" id=3D"OBJ_PREFIX_DWT58"><s=
+pan class=3D"Object" id=3D"OBJ_PREFIX_DWT211">Tuesday</span></span>)<br><st=
+rong>Time</strong>: 2pm<br></div><div><b>Venue</b>: BSB361 (Seminar Hall), =
+Dept of CSE</div>
+<div><br></div><div><b>Abstract</b>:</div>&nbsp;In the last two decades, th=
+ere has been tremendous interest in defining and studying new computing par=
+adigms&nbsp;
+<br>which are inspired by nature. Natural computing has emerged as an area =
+which is followed with a lot of interest.&nbsp;
+<br>P systems introduced by Gh. P\u{a}un, are computing models inspired fro=
+m the structure&nbsp;
+and functioning of the <br>living cells. A P system consists of a finite nu=
+mber of membranes, each of&nbsp;
+which contains a multiset of objects <br>from a finite alphabet. The membra=
+nes are organized as a Venn diagram or a&nbsp;
+tree structure where membranes may <br>contain other membranes. The dynamic=
+s of the system is&nbsp;
+governed by a set of rules associated with each membrane. <br>Each rule spe=
+cifies how objects&nbsp;
+evolve and move into neighboring membranes. It has been introduced as a com=
+puting <br>model which&nbsp;
+abstracts from the way live cells process chemical compounds in their =E2=
+=80=9Ccompartmental=E2=80=9D (membrane) structure.
+<br>Various models of P systems have been shown to be equivalent to Turing =
+machines in&nbsp;
+computing power.
+<br>&nbsp;<br>&nbsp;We consider a way of controlling the computation of a P=
+ system.&nbsp;&nbsp;
+A label is assigned to every rule, where the labels are <br>chosen from a f=
+inite alphabet.&nbsp; P systems with&nbsp;<em> label restricted</em> transi=
+tions are considered (in each step, all rules used have <br>either the same=
+ label, or, possibly, the empty label,&nbsp;
+$\lambda$), then P systems with the computations controlled by languages <b=
+r>(as in context-free controlled grammars). The relationships between&nbsp;
+the families of sets of numbers computed by the various <br>classes of cont=
+rolled P systems are investigated, also comparing them with&nbsp;
+length sets of languages in Chomsky&nbsp; hierarchies <br>(characterization=
+s of the length sets&nbsp; of recursively&nbsp;
+enumerable languages are obtained in this framework).<br><br>&nbsp;<br>Than=
+ks and regards,<br>Ajeesh(CS09D007).<br><br><br></div></div></body></html>
+------=_Part_49589_1006063014.1362973472526--

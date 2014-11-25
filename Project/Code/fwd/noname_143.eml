@@ -1,0 +1,122 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 21 Aug 2013 17:26:37 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 42032F7811E;
+	Wed, 21 Aug 2013 17:26:34 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 4703OrJ-8MSE; Wed, 21 Aug 2013 17:26:33 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 322C0F78105
+	for <seminar@cse.iitm.ac.in>; Wed, 21 Aug 2013 17:26:33 +0530 (IST)
+Date: Wed, 21 Aug 2013 17:26:33 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <349973420.3586.1377086193113.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <OF0E3E7DE5.4A7E7AE2-ON65257BCE.00307280-65257BCE.00326CD4@in.ibm.com>
+Subject: Department Seminar at 2 p.m. on Friday
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3585_591355048.1377086193112"
+X-Originating-IP: [10.65.0.32]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_3585_591355048.1377086193112
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+
+Dr. Praveen Jayachandran (DD-CSE-05), from IBM-IRL, will be giving a talk on Shared Dynamic Clouds at 2 p.m. on Friday 23rd, in BSB 361. 
+Details below. All are welcome. 
+
+
+Regards 
+Ravi. 
+
+Title: Problem Determination and Diagnosis in Shared Dynamic Clouds 
+
+Abstract: 
+The first part of the talk will provide a brief overview of cloud computing 
+and virtualization concepts, so that 1st/2nd year B.Tech students 
+and those not familiar with the area can follow the talk without too much 
+difficulty. The second part of the talk will focus on our work in 
+addressing the problem of detecting and diagnosing performance anomalies in 
+virtualized clouds. We show that high dynamism, resource sharing, 
+frequent reconfiguration, high propensity to faults and automated 
+management introduce significant new challenges towards 
+fault diagnosis in clouds. Towards this, we propose CloudPD, a fault 
+management framework for clouds. CloudPD leverages 
+(i) a canonical representation of the operating environment to quantify the 
+impact of sharing; (ii) an online learning process to 
+tackle dynamism; (iii) a correlation-based performance models for higher 
+detection accuracy; and (iv) an integrated end-to-end 
+feedback loop to synergize with a cloud management ecosystem. A prototype 
+implementation with cloud representative batch 
+and transactional workloads like Hadoop, Olio and RUBiS, was developed to 
+demonstrate the effectiveness of CloudPD 
+in diagnosing anomalies in real-life operations. 
+
+Bio: 
+Praveen Jayachandran is a research staff member of the distributed systems 
+team at IBM Research, India. His research interests are in the 
+area of cloud computing and in the analysis, performance management, and 
+optimization of distributed systems and networks. He received 
+his PhD from the University of Illinois at Urbana-Champaign in 2010, and a 
+B.Tech-M.Tech dual degree in Computer Science from the 
+Indian Institute of Technology, Madras. He is the recipient of the best 
+paper award at ECRTS 2009 and the best student paper award at 
+ECRTS 2007. He also received the Feng Chen Memorial award in 2010 and the 
+C.L. and Jane Liu award in 2008, both from the Department 
+of Computer Science at the University of Illinois at Urbana-Champaign. 
+
+
+------=_Part_3585_591355048.1377086193112
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<div><br></div><div>Dr. Praveen Jayachandran (DD-CSE-05), from IB=
+M-IRL, will be giving a talk on Shared Dynamic Clouds at 2 p.m. on Friday 2=
+3rd, in BSB 361.&nbsp;</div><div>Details below. All are welcome.&nbsp;</div=
+><div><br></div><div>Regards</div><div>Ravi.<br><br>Title: Problem Determin=
+ation and Diagnosis in Shared Dynamic Clouds<br><br>Abstract:<br>The first =
+part of the talk will provide a brief overview of cloud computing<br>and vi=
+rtualization concepts, so that 1st/2nd year B.Tech students<br>and those no=
+t familiar with the area can follow the talk without too much<br>difficulty=
+. The second part of the talk will focus on our work in<br>addressing the p=
+roblem of detecting and diagnosing performance anomalies in<br>virtualized =
+clouds. We show that high dynamism, resource sharing,<br>frequent reconfigu=
+ration, high propensity to faults and automated<br>management introduce sig=
+nificant new challenges towards<br>fault diagnosis in clouds. Towards this,=
+ we propose CloudPD, a fault<br>management framework for clouds. CloudPD le=
+verages<br>(i) a canonical representation of the operating environment to q=
+uantify the<br>impact of sharing; (ii) an online learning process to<br>tac=
+kle dynamism; (iii) a correlation-based performance models for higher<br>de=
+tection accuracy; and (iv) an integrated end-to-end<br>feedback loop to syn=
+ergize with a cloud management ecosystem. A prototype<br>implementation wit=
+h cloud representative batch<br>and transactional workloads like Hadoop, Ol=
+io and RUBiS, was developed to<br>demonstrate the effectiveness of CloudPD<=
+br>in diagnosing anomalies in real-life operations.<br><br>Bio:<br>Praveen =
+Jayachandran is a research staff member of the distributed systems<br>team =
+at IBM Research, India. His research interests are in the<br>area of cloud =
+computing and in the analysis, performance management, and<br>optimization =
+of distributed systems and networks. He received<br>his PhD from the Univer=
+sity of Illinois at Urbana-Champaign in 2010, and a<br>B.Tech-M.Tech dual d=
+egree in Computer Science from the<br>Indian Institute of Technology, Madra=
+s. He is the recipient of the best<br>paper award at ECRTS 2009 and the bes=
+t student paper award at<br>ECRTS 2007. He also received the Feng Chen Memo=
+rial award in 2010 and the<br>C.L. and Jane Liu award in 2008, both from th=
+e Department<br>of Computer Science at the University of Illinois at Urbana=
+-Champaign.<br><br></div></div></body></html>
+------=_Part_3585_591355048.1377086193112--

@@ -1,0 +1,58 @@
+Dear All,
+
+I will be giving my MS seminar talk on 3rd October, 2013 (Thursday) at 3:00
+PM. I request you to kindly attend the seminar and give your valuable
+suggestions. The details of the talk are as follows:
+
+Speaker   : Saurabh Gupta
+Date        : 03-10-2013, Thursday
+Time       : 15:00 hrs to 16:00 hrs
+Topic      : Improving Conversational Recommendation based on
+Preference-based Feedback
+Venue     : BSB 361, Department of Computer Science and Engineering.
+
+
+Abstract
+
+Conversational recommendation mimics the kind of dialogue that takes place
+between a customer and a shopkeeper involving multiple interactions where
+the user can give feedback at every interaction. For users who only have a
+vague idea of what they want, these systems provide an effective way to
+navigate through the product space, educating them on the way. This can be
+contrasted with single shot retrieval, where the system retrieves a set of
+items in response to a user query in a single interaction. One of the modes
+for getting user feedback is preference-based feedback (PBF), where the
+user selects one item from a list of products shown to her at each
+iteration.
+Existing conversational recommender systems based on PBF require experts to
+define knowledge containers like similarity measures which involves a lot
+of knowledge engineering overhead. We propose a new approach called UtilSim
+which reduces the knowledge
+engineering overhead and makes use of easy-to-acquire =93domain=94 knowledg=
+e to
+generate efficient recommendations.
+To better approximate the utility of an item for a user, the notion of
+compromise was proposed for single shot recommendation settings.
+Compromises are defined as the preferences of the user that the recommender
+system fails to satisfy. To our knowledge, there has been no work done to
+model compromises in a conversational setting, where the user might be
+willing to navigate the product space to discover interesting products. We
+propose Flexi-Comp, a flexible and dynamic approach to model compromises in
+PBF based conversational recommender systems.
+Offline evaluation of PBF based conversational recommender systems is
+usually done by =93simulating=94 an artificial agent who behaves optimally =
+to
+reach a predefined target product. To simulate a more realistic setting,
+noise is added into the evaluation process by randomly perturbing the
+similarities of the recommended products to the target product. Observing
+the arbitrariness of noise addition in this way, we argue for a tree based
+methodology for introducing noise in a principled manner.
+
+
+All are welcome!
+
+Regards,
+Saurabh Gupta,
+CS10S029,
+CSE Department,
+IIT Madras.

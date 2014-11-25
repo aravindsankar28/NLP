@@ -1,0 +1,123 @@
+Return-Path: mjsraman@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sat, 27 Jul 2013 12:57:34 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 54A17F7811D;
+	Sat, 27 Jul 2013 12:57:27 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.596
+X-Spam-Level: *
+X-Spam-Status: No, score=1.596 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	NO_DNS_FOR_FROM=0.001, RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 8X3snu50LyCV; Sat, 27 Jul 2013 12:57:14 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id CE221F78104;
+	Sat, 27 Jul 2013 12:57:13 +0530 (IST)
+Date: Sat, 27 Jul 2013 12:57:13 +0530 (IST)
+From: "mjsraman@cse.iitm.ac.in" <mjsraman@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: gaurav  <gaurav@ee.iitm.ac.in>, veezhi  <veezhi@gmail.com>
+Message-ID: <53939526.79279.1374910033732.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1439314393.79267.1374909496420.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: PhD Seminar Tuesday 30th July, 2-3pm, BSB 361
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_79278_430598788.1374910033731"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_79278_430598788.1374910033731
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+All, 
+
+I will be giving my PhD seminar talk on 30th July , 2013 ( Tuesday ) at 2:30 PM at BSB 361. 
+
+I request you to kindly attend the seminar and give your valuable suggestions. The details of the talk are as follows: 
+
+Speaker : Shankar Raman M J (CS09D016) 
+Date : 30-07-2013, Tuesday 
+Time : 2:00 PM to 3:00 PM 
+Topic : Methods to reduce power and delay in the Internet 
+Venue : BSB 361, Department of Computer Science & Engg. 
+Guides : Prof. V. Kamakoti / Dr. Gaurav Raina 
+
+Abstract: 
+The Internet consumes about 2% of the total generated power in the world. With increasing 
+bandwidth of the devices attached to the Internet, power consumed by the networking devices is 
+becoming a major concern. We address the problem of reducing power consumption by dividing 
+the Internet into three distinct layers namely: device, network and transport layers. In this seminar 
+we consider methods to reduce power consumption at the network layer. The network layer of 
+the Internet is used for routing data packets. We propose a method that can be applied to various 
+levels of the Internet routing hierarchy to reduce power and delay. The highest level of the 
+Internet hierarchy is made up of Autonomous Systems (AS) that are owned by Internet Service 
+Providers (ISPs). AS use the Border Gateway Protocol (BGP) to exchange routing information. 
+We propose a power-metric based approach, in addition to the policy-based approach used by BGP, 
+to route data packets between AS. Using this metric, the AS Border Router identifies low-power 
+paths from a source to a destination and routes data packets through them. Simulations show that 
+there could be significant savings in power. A trade-off in using such an approach is the increase 
+in the number of hops between the source and the destination: a consequence of re-routing data 
+packets. This can lead to increased delays between the end systems. We propose an ant-colony 
+based heuristic which can be used to balance both power and delay in the Internet. 
+
+All are welcome 
+
+Shankar Raman 
+CS09D016 
+
+------=_Part_79278_430598788.1374910033731
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><style>p { margin: 0; }</style><div style=3D"font-family: Times New Roman;=
+ font-size: 12pt; color: #000000"><style>p { margin: 0; }</style><div style=
+=3D"font-family: Times New Roman; font-size: 12pt; color: #000000">All, <br=
+><br>I will be giving my PhD seminar talk on <span class=3D"Object" id=3D"O=
+BJ_PREFIX_DWT39"><span class=3D"Object" id=3D"OBJ_PREFIX_DWT41">30th July</=
+span></span>, 2013 (<span class=3D"Object" id=3D"OBJ_PREFIX_DWT40"><span cl=
+ass=3D"Object" id=3D"OBJ_PREFIX_DWT42">Tuesday</span></span>)
+ at 2:30 PM at BSB 361. <br><br>I request you to kindly attend the seminar =
+and give your=20
+valuable suggestions. The details of the talk are as follows: <br><br>Speak=
+er : Shankar Raman M J (CS09D016)<br>Date &nbsp; &nbsp;: 30-07-2013, <span =
+class=3D"Object" id=3D"OBJ_PREFIX_DWT43"><span class=3D"Object" id=3D"OBJ_P=
+REFIX_DWT44">Tuesday</span></span> <br>Time &nbsp; &nbsp;: 2:00 PM to 3:00 =
+PM <br>Topic &nbsp; : <span>Methods to reduce power and delay in the Intern=
+et </span><br>Venue &nbsp; : BSB 361, Department of Computer Science &amp; =
+Engg. <br>Guides&nbsp; : Prof. V. Kamakoti / Dr. Gaurav Raina<br><br>Abstra=
+ct: <br>The Internet consumes about 2% of the total generated power in the =
+world. With increasing <br>bandwidth of the devices attached to the Interne=
+t, power consumed by the networking devices is <br>becoming a major concern=
+. We address the problem of reducing power consumption by dividing <br>the =
+Internet into three distinct layers namely: device,&nbsp; network and trans=
+port layers. In this seminar <br>we consider methods to reduce power consum=
+ption at the network layer. The network layer of <br>the Internet is used f=
+or routing data packets. We propose a method that can be applied to various=
+ <br>levels of the Internet routing hierarchy to reduce power and delay. Th=
+e highest level of the <br>Internet hierarchy is made up of Autonomous Syst=
+ems (AS) that are owned by Internet Service <br>Providers (ISPs). AS use th=
+e Border Gateway Protocol (BGP) to exchange routing information. <br>We pro=
+pose a power-metric based approach, in addition to the policy-based approac=
+h used by BGP, <br>to route data packets between AS. Using this metric, the=
+ AS Border Router identifies low-power <br>paths from a source to a destina=
+tion and routes data packets through them. Simulations show that <br>there =
+could be significant savings in power. A trade-off in using such an approac=
+h is the increase <br>in the number of hops between the source and the dest=
+ination: a consequence of re-routing data <br>packets. This can lead to inc=
+reased delays between the end systems. We propose an ant-colony <br>based h=
+euristic which can be used to balance both power and delay in the Internet.=
+<br><br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp;All are welcome<br><br>Shankar Raman<br>CS09D016<=
+br></div></div></div></body></html>
+------=_Part_79278_430598788.1374910033731--

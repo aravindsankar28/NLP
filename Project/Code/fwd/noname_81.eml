@@ -1,0 +1,167 @@
+Return-Path: ksriram@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 17 Feb 2014 17:36:11 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1E491F78BE5;
+	Mon, 17 Feb 2014 17:36:07 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.105
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.105 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 7A4DDUi+4ymH; Mon, 17 Feb 2014 17:36:03 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 19C6AF78341;
+	Mon, 17 Feb 2014 17:36:02 +0530 (IST)
+Date: Mon, 17 Feb 2014 17:36:00 +0530 (IST)
+From: "ksriram@cse.iitm.ac.in" <ksriram@cse.iitm.ac.in>
+To: 3btech  <3btech@cse.iitm.ac.in>
+Cc: sriramkailasam  <sriramkailasam@gmail.com>, djram  <djram@iitm.ac.in>
+Message-ID: <987832745.14020.1392638760255.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <11CC63846898664D8B8FEBFD7496F01F516A06@bharata.iitm.ac.in>
+Subject: Principles of Software Engg class Dslot (Feb 18) - Talk by Julian
+ Dolby
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_14019_560344120.1392638760254"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_14019_560344120.1392638760254
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Hello all, 
+Please note that tomorrow's (Feb 18) Principles of Software Engineering class will be the following talk. 
+
+Thanks, 
+Sriram 
+
+
+From: "Janakiram D" <djram@iitm.ac.in> 
+To: faculty@cse.iitm.ac.in 
+Cc: scholars@cse.iitm.ac.in 
+Sent: Monday, February 17, 2014 2:43:27 PM 
+Subject: Talk by Julian Dolby at 10am tomorrow in CS36 
+
+
+
+(pl. note he is giving best paper at PLDI talk at ISEC 2014 this week at IIT Madras) 
+title: Analysis of JavaScript Programs 
+
+abstract: 
+
+As dynamic Web applications written in JavaScript become ever more common, there is a growing need for program analysis of this JavaScript code. Applications of this analysis include security analyses and also the kinds of rich IDE environments that programmers have come to expect for other languages. However, traditional program analysis of JavaScript program has proven extremely challenging, due to the dynamic nature of the language and pervasive use of some hard-to-analyze idioms. In this talk, I will discuss the analysis challenges posed by JavaScript and our attempts to meet them. I shall present work from multiple papers, covering both traditional program analysis and newer work on approximate analysis. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Julian Dolby has been a Research Staff Member at IBM's Thomas 
+J. Watson Research Center since 2000. He works on a range of topics, 
+including static program analysis, software testing, concurrent 
+programming models and the semantic Web. His program analysis work 
+has recently focused on scripting languages like JavaScript and on 
+security analysis of Web applications; this work has been included in 
+IBM products, most notably Rational AppScan, Standard Edition and 
+Source Edition, and he is one of the primary authors of the 
+publicly-available Watson Libraries for Analysis (WALA) program 
+analysis infrastructure. He was educated at the University of 
+Illinois at Urbana-Champaign as a graduate student where he worked 
+with Professor Andrew Chien on programming systems for 
+massively-parallel machines. 
+
+
+
+------------------------------------------------------------------------------------ 
+Dr. Dharanipragada Janakiram, 
+Professor, 
+Dept. of Computer Sc. and Engg., 
+IIT, Madras, 
+Chennai - 600 036 
+email : djram@iitm.ac.in or djram@acm.org 
+Ph. no. 91-44-22574354 (office) 
+Fax : 91-44-22574352 
+House address : B-10, Lake View Road, IIT Campus, Chennai 600036 
+--------------------------------------------------------------------------------------- 
+------=_Part_14019_560344120.1392638760254
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'>Hello all,<br>Please note that tomorrow's (Feb 18) Principles of Software Engineering class will be the following talk.<br><br>Thanks,<br>Sriram<br><br><hr id="zwchr"><b>From: </b>"Janakiram D" &lt;djram@iitm.ac.in&gt;<br><b>To: </b>faculty@cse.iitm.ac.in<br><b>Cc: </b>scholars@cse.iitm.ac.in<br><b>Sent: </b>Monday, February 17, 2014 2:43:27 PM<br><b>Subject: </b>Talk by Julian Dolby at 10am tomorrow in CS36<br><br>
+
+
+<style id="owaParaStyle"></style>
+
+
+<div style="direction: ltr;font-family: Tahoma;color: #000000;font-size: 10pt;">
+<div><font class="Apple-style-span" face="sans-serif"><span class="Apple-style-span" style="font-size: small;">(pl. note he is giving best paper at PLDI talk at ISEC 2014 this week at IIT Madras)</span></font></div>
+<div><font class="Apple-style-span" face="sans-serif"><span class="Apple-style-span" style="font-size: small;"><span class="Apple-style-span" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: medium; "><font face="sans-serif" size="2">title:
+ Analysis of JavaScript Programs</font><br>
+<br>
+<font face="sans-serif" size="2">abstract:</font><br>
+<br>
+<font face="sans-serif" size="2">&nbsp;As dynamic Web applications written in JavaScript become ever more common, there is a growing need for program analysis of this JavaScript code. &nbsp;Applications of this analysis include security analyses and also the kinds of
+ rich IDE environments that programmers have come to expect for other languages. &nbsp;However, traditional program analysis of JavaScript program has proven extremely challenging, due to the dynamic nature of the language and pervasive use of some hard-to-analyze
+ idioms. &nbsp;In this talk, I will discuss the analysis challenges posed by JavaScript and our attempts to meet them. &nbsp;I shall present work from multiple papers, covering both traditional program analysis and newer work on approximate analysis.&nbsp;</font></span></span></font></div>
+<div><span class="Apple-style-span" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: medium; "><font face="sans-serif" size="2"><br>
+</font></span></div>
+<div><span class="Apple-style-span" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: medium; "><font face="sans-serif" size="2"><br>
+</font></span></div>
+<div><span class="Apple-style-span" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: medium; "><font face="sans-serif" size="2"><br>
+</font></span></div>
+<div><span class="Apple-style-span" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: medium; "><font face="sans-serif" size="2"><br>
+</font></span></div>
+<div><span class="Apple-style-span" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: medium; "><font face="sans-serif" size="2"><br>
+</font></span></div>
+<div><span class="Apple-style-span" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: medium; "><font face="sans-serif" size="2"><br>
+</font></span></div>
+<div><span class="Apple-style-span" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: medium; "><font face="sans-serif" size="2"><br>
+</font></span></div>
+<div><span class="Apple-style-span" style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: medium; "><font face="sans-serif" size="2">Julian Dolby has been a Research Staff Member at IBM's Thomas</font><br>
+<font face="sans-serif" size="2">&nbsp;J. Watson Research Center since 2000. &nbsp;He works on a range of topics,</font><br>
+<font face="sans-serif" size="2">&nbsp;including static program analysis, software testing, concurrent</font><br>
+<font face="sans-serif" size="2">&nbsp;programming models and the semantic Web. &nbsp;His program analysis work</font><br>
+<font face="sans-serif" size="2">&nbsp;has recently focused on scripting languages like JavaScript and on</font><br>
+<font face="sans-serif" size="2">&nbsp;security analysis of Web applications; this work has been included in</font><br>
+<font face="sans-serif" size="2">&nbsp;IBM products, most notably Rational AppScan, Standard Edition and</font><br>
+<font face="sans-serif" size="2">&nbsp;Source Edition, and he is one of the primary authors of the</font><br>
+<font face="sans-serif" size="2">&nbsp;publicly-available Watson Libraries for Analysis (WALA) program</font><br>
+<font face="sans-serif" size="2">&nbsp;analysis infrastructure. &nbsp;He was educated at the University of</font><br>
+<font face="sans-serif" size="2">&nbsp;Illinois at Urbana-Champaign as a graduate student where he worked</font><br>
+<font face="sans-serif" size="2">&nbsp;with Professor Andrew Chien on programming systems for</font><br>
+<font face="sans-serif" size="2">&nbsp;massively-parallel machines.</font></span><br>
+<div style="font-family:Tahoma; font-size:13px">
+<div class="BodyFragment"><font size="2">
+<div class="PlainText">------------------------------------------------------------------------------------<br>
+Dr. Dharanipragada Janakiram,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+Professor,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+Dept. of Computer Sc. and Engg.,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+IIT, Madras,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+Chennai - 600 036<br>
+email : djram@iitm.ac.in or djram@acm.org<br>
+Ph. no. 91-44-22574354 (office)<br>
+Fax : 91-44-22574352<br>
+House address : B-10, Lake View Road, IIT Campus, Chennai 600036<br>
+---------------------------------------------------------------------------------------</div>
+</font></div>
+</div>
+</div>
+</div>
+
+
+</div></body></html>
+------=_Part_14019_560344120.1392638760254--

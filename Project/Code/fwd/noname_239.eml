@@ -1,0 +1,109 @@
+Return-Path: prvs=175515a9b6=kamala@iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 12 Feb 2013 09:11:27 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id C5478F7811C;
+	Tue, 12 Feb 2013 09:11:26 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.79
+X-Spam-Level: 
+X-Spam-Status: No, score=0.79 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wd-UfHFMz+4y; Tue, 12 Feb 2013 09:11:22 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 39217F78043;
+	Tue, 12 Feb 2013 09:11:22 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 81FC9780BB7;
+	Tue, 12 Feb 2013 09:36:26 +0530 (IST)
+Received: from mailx1.iitm.ac.in ([203.199.213.9])
+	by mailx1.iitm.ac.in (SonicWALL 7.3.5.6377)
+	with ESMTP; Tue, 12 Feb 2013 09:29:24 +0530
+Received: from mailx1.iitm.ac.in (127.0.0.1) id h36v1o0171s9; Tue, 12 Feb 2013 09:29:24 +0530 (envelope-from <prvs=175515a9b6=kamala@iitm.ac.in>)
+Received: from ARJUNA.IITM.AC.IN ([10.91.11.21])
+	by mailx1.iitm.ac.in (SonicWALL 7.3.5.6377)
+	with ESMTP; Tue, 12 Feb 2013 09:29:24 +0530
+Received: from BHARATA.IITM.AC.IN ([fe80::1d99:d3a6:e891:fc83]) by
+ ARJUNA.IITM.AC.IN ([::1]) with mapi id 14.02.0309.002; Tue, 12 Feb 2013
+ 09:36:26 +0530
+From: Kamala Krithivasan <kamala@iitm.ac.in>
+To: bshankar <shankar@cse.iitm.ac.in>, all <all@cse.iitm.ac.in>
+Subject: RE: Seminar Talk on Safetly Logic Electronics for Nuclear Reactor
+ Systems
+Thread-Topic: Seminar Talk on Safetly Logic Electronics for Nuclear Reactor
+ Systems
+Thread-Index: AQHOCEMypCMGzHy7X0KP+BXjpgXVK5h1m+wG
+Date: Tue, 12 Feb 2013 04:06:25 +0000
+Message-ID: <A2BFEF7FFEE14B41A63325467814E0020416B0@BHARATA.IITM.AC.IN>
+References: <1077867120.3092.1360569179914.JavaMail.root@mail.cse.iitm.ac.in>,<1653725610.183.1360577287178.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1653725610.183.1360577287178.JavaMail.root@mail.cse.iitm.ac.in>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [10.91.0.32]
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Mlf-Version: 7.3.5.6377
+X-Mlf-UniqueId-History: o201302120359240084033
+X-Mlf-KeyWords: chennai,centre,mrs,atomic,liberation,madras,residence,fission,misra,systems,ph.d
+X-Mlf-Language-Detected: NoLanguageFilter_english
+X-Mlf-GRID-Network: Junk_Domains
+X-Mlf-Connecting-IP: 203.199.213.9
+X-Mlf-Country-Code: IN
+X-Mlf-Threat: likelyspam
+X-Mlf-Threat-Detailed: likelyspam;collab;none;community_mlf_collab__DT=G0RBZ_GPJgpCRw==
+X-Mlf-UniqueId: i201302120359240084034
+
+At 2pm there is a Ph.D. seminar by Vanniarajan in BSB361
+Kamala
+
+ /*************************************************************************=
+*****************/
+Prof.(Mrs.)  Kamala Krithivasan                    RESIDENCE:
+Department of Computer Science & Engg,             87 (Old No:44), SriPadma=
+nabha Nagar
+Indian Institute of Technology Madras              5th Street
+Chennai 600036                                     Adyar
+India                                              Chennai 600020
+Email: kamala@iitm.ac.in                           India
+Phone: +91-44 22574356                             Phone: +91 -44 24919886
+Fax  : +91-44 22574352
+HOME PAGE: http://www.cse.iitm.ac.in/kamala        Mobile: 9841885825
+/**************************************************************************=
+***********/
+________________________________________
+From: Shankar Balachandran [shankar@cse.iitm.ac.in]
+Sent: Monday, February 11, 2013 3:38 PM
+To: all
+Subject: Seminar Talk on Safetly Logic Electronics for Nuclear Reactor Syst=
+ems
+
+Dear All
+
+Manoj Misra (CS08S005) will give a seminar talk on "Design, Safety Analysis=
+ and Reliability Analysis of a Nuclear Reactor Protection Logic System" in =
+the department tomorrow.
+
+Venue:  BSB 361
+Time  : 2:00 - 2:50 pm
+Date   : Tuesday, 12th February, 2013
+
+In nuclear reactors, emergency shutdown systems are used to diminish the re=
+actor power rapidly during abnormal conditions which could otherwise lead t=
+o undesirable states such as fuel failure, channel failure or liberation of=
+ fission products. The talk will cover the design of safety logic for the e=
+lectronics that is used in the emergency shutdown process. The talk will al=
+so cover the implementation details, fabrication and testing of the safety =
+logic. This system is currently being tested in a live plant.
+
+Speaker's Bio:
+
+Manoj K Misra is a Scientific Officer (F level) at the Indira Gandhi Centre=
+ for Atomic Research, Kalpakkam. His research interests are in the area of =
+safety critical instrumentation and control systems for nuclear reactors. H=
+e is currently pursuing his MS in the CSE department.

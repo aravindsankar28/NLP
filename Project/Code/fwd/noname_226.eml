@@ -1,0 +1,90 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 21 Feb 2013 21:19:58 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 800FDF78047;
+	Thu, 21 Feb 2013 21:19:55 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3wYuIMTyJwRc; Thu, 21 Feb 2013 21:19:52 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6F746F78035;
+	Thu, 21 Feb 2013 21:19:52 +0530 (IST)
+Date: Thu, 21 Feb 2013 21:19:52 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: rise-iil  <rise-iil@cse.iitm.ac.in>, aidb  <aidb@googlegroups.com>, 
+	students  <students@cse.iitm.ac.in>
+Message-ID: <963657541.19910.1361461792397.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <CAJhwPjgYZKFm+0EFXYubb4auOUjpkVA8Xwi9mh0pZykA-dmB6A@mail.gmail.com>
+Subject: Fwd: Talk about data analytics in EE on Friday (22/2)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_19909_1067985481.1361461792396"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_19909_1067985481.1361461792396
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+From: "Radhakrishna Ganti" <rganti@ee.iitm.ac.in> 
+
+
+
+
+
+------------------------- Hi all, 
+
+
+Pradeep G. currently heading Tiger Analytics in India will be giving a talk on the mathematical tools used for Business Analytics. 
+
+
+Venue: ESB 244 
+Time 3 to 4 PM 
+Date:22/2/2013 (Friday) 
+
+
+Title : Analytics for Businesses - An Introduction 
+
+
+
+
+Abstract 
+This is an introductory talk about what is analytics and it is being used to help businesses make better decisions. It will cover a few broad domains to give the audience a high-level idea of the multi-disciplinary area of analytics. It will illustrate how concepts of statistics, machine learning, and operations research are coming together, and combined with the power of technology they are helping drive business decisions. It will provide an overview of a real-life analytics project involving analytics on data from social media. It will outline the latest analytics related tools, and how they are being used in the industry today. 
+
+
+Speaker Bio 
+For the better part of the last decade, Pradeep has used quantitative methods and analytical frameworks to model consumer behavior, and simulate market phenomena. He currently heads the India operations of Tiger Analytics, a silicon-valley based start-up providing advanced analytics solutions to businesses. His past consulting engagements include advanced analytics for Fortune 100 clientele across Retail, CPG, Telecom, Internet, Technology, and Financial services. He has a B.Tech from IIT Madras, and an MS from The University of Texas at Austin. 
+
+
+
+-- 
+
+
+Asst. Professor, Dept. of Electrical Engineering, IIT Madras. 
+Web: http://www.ee.iitm.ac.in/~rganti/ 
+
+
+------=_Part_19909_1067985481.1361461792396
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><br><br><hr id="zwchr"><b>From: </b>"Radhakrishna Ganti" &lt;rganti@ee.iitm.ac.in&gt;<br><br><div dir="ltr"><div><br></div><div>-------------------------</div>Hi all,<div><br></div><div><span class="" style="background-color:rgb(255,255,204)">Pradeep</span>&nbsp;G. currently heading Tiger Analytics in India will be giving a talk on the mathematical tools used for Business Analytics.&nbsp;</div>
+<div><br></div><div>Venue: ESB 244</div><div>Time 3 to 4 PM</div><div>Date:22/2/2013 (Friday)</div><div><i style="font-family:arial,sans-serif;font-size:19px"><br></i></div><div><i style="font-family:arial,sans-serif;font-size:19px">Title</i><span style="font-family:arial,sans-serif;font-size:19px">&nbsp;:&nbsp;</span><span style="font-family:arial,sans-serif;font-size:19px">Analytics for Businesses - An Introduction</span></div>
+<div><div style="font-family:arial,sans-serif;font-size:13.333333969116211px"><div style="font-size:19px"><br></div><div style="font-size:19px"><i>Abstract</i></div><div style="font-size:19px">This is an introductory talk about what is analytics&nbsp;and it is being used to help businesses make better decisions. It will cover a few broad domains to give the audience a high-level idea of the multi-disciplinary area of analytics. It will illustrate how concepts of statistics, machine learning, and operations research are coming together, and combined with the power of technology they are helping drive business decisions. It will provide an overview of a real-life analytics project involving analytics on data from social media. It will outline the latest analytics related tools, and how they are being used in the industry today.</div>
+<div style="font-size:19px"><br></div><div style="font-size:19px"><i>Speaker Bio</i></div><div style="font-size:19px">For the better part of the last decade,&nbsp;<span class="" style="background-color:rgb(255,255,204)">Pradeep</span>&nbsp;has used quantitative methods and analytical frameworks to model consumer behavior, and simulate market phenomena. He currently heads the India operations of Tiger Analytics, a silicon-valley based start-up providing advanced analytics solutions to businesses. His past consulting engagements include advanced analytics for Fortune 100 clientele across Retail, CPG, Telecom, Internet, Technology, and Financial services. He has a B.Tech from IIT Madras, and an MS from The University of Texas at Austin.&nbsp;</div>
+<div><br></div></div></div><div><br></div>-- <br><div><div>Asst. Professor, &nbsp;Dept. of Electrical Engineering, &nbsp;IIT Madras.</div><div>Web:&nbsp;<a href="http://www.ee.iitm.ac.in/~rganti/" target="_blank">http://www.ee.iitm.ac.in/~rganti/</a></div>
+<div><br></div></div>
+</div>
+</div></body></html>
+------=_Part_19909_1067985481.1361461792396--

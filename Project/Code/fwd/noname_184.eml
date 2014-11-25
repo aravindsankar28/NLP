@@ -1,0 +1,163 @@
+Return-Path: kpreetha@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 21 Jun 2013 15:02:26 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id EC4ED2290001;
+	Fri, 21 Jun 2013 15:02:24 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id apU4ANkFOytf; Fri, 21 Jun 2013 15:02:24 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 600A32198002;
+	Fri, 21 Jun 2013 15:02:23 +0530 (IST)
+Date: Fri, 21 Jun 2013 15:02:23 +0530 (IST)
+From: "kpreetha@cse.iitm.ac.in" <kpreetha@cse.iitm.ac.in>
+To: scholars  <scholars@cse.iitm.ac.in>, Seminar <seminar@cse.iitm.ac.in>
+Cc: cpr  <cpr@cse.iitm.ac.in>, kamala  <kamala@cse.iitm.ac.in>, 
+	swamy  <swamy@cse.iitm.ac.in>
+Message-ID: <2022606689.47193.1371807143303.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <383882084.47180.1371806489000.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Second Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_47192_1257025004.1371807143302"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_47192_1257025004.1371807143302
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+
+I am giving my second Ph.D seminar on 24 th June 2013 ( Monday ) from 1.30p=
+m to 2.30pm at BSB 361. Please make it convenient to attend and give your v=
+aluable suggestions.=20
+
+
+The details of the talk is given below:-=20
+
+Speaker : Preetha Mathew K=20
+Date : 24-06-2013 Monday=20
+Time : 13:30 hrs to 14:30 hrs=20
+Topic : Design of a 1 out of n oblivious transfer based on McEliece Cryptos=
+ystem=20
+Venue : BSB 361 Department of Computer Science and Engineering=20
+
+
+
+
+
+
+
+Abstract=20
+
+
+
+
+Provable Security is an approach to provide evidence of security by means o=
+f reduction. If the cryptosystem can be broken in some specific way, then i=
+t would be possible to efficiently solve some well-studied problem that is =
+thought to be difficult. The problems normally used are factoring problem, =
+discrete logarithm problem, computational Diffie-Hellman problem and so on.=
+ When quantum computer comes into existence the aforementioned problems can=
+ be solved. So the research goes on searching the problems that cannot be s=
+olved by quantum computer. The areas found out so far are Lattice based, Co=
+de based, Hash based and Multivariate based cryptosystems. The cryptography=
+ based on the said areas is termed as Post quantum cryptography.=20
+In cryptography, an oblivious transfer protocol (OT) is a type of protocol =
+in which a sender transfers one of potentially many pieces of information t=
+o a receiver, but remains oblivious as to what piece (if any) has been tran=
+sferred. Since OT is one of the well established cryptographic primitives t=
+hat has played a prominent role in achieving secure two-(multi-)party/distr=
+ibuted computation. Some of the applications of OT includes Private Informa=
+tion Retrieval (PIR), fair electronic contract signing, zero knowledge proo=
+fs, secure function evaluation aids in developing a one-time proxy signatur=
+e. In a 1-out-of-2 oblivious transfer protocol, the sender has two messages=
+ m0 and m1 , and the receiver has a bit b, and the receiver wishes to recei=
+ve mb , without the sender learning b, while the sender wants to ensure tha=
+t the receiver receives only one of the two messages. A 1-out-of-n obliviou=
+s transfer protocol can be defined as a natural generalization of a 1-out-o=
+f-2 oblivious transfer protocol. Instead of two there are n messages, and t=
+he receiver has an index i, of his wish to get the i -th among the sender=
+=E2=80=99s messages, such that the sender will not learn i, but sender ensu=
+res that the receiver receive only one of the n messages.=20
+
+
+All are welcome=20
+
+
+
+Thanks and Regards=20
+Preetha Mathew K=20
+
+------=_Part_47192_1257025004.1371807143302
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<p style=3D"margin-bottom: 0in;"><br>I am giving my second Ph.D s=
+eminar on 24<span class=3D"Object" id=3D"OBJ_PREFIX_DWT39">th June 2013</sp=
+an>
+(<span class=3D"Object" id=3D"OBJ_PREFIX_DWT40">Monday</span>) from 1.30pm =
+to 2.30pm at BSB 361. Please make it
+convenient to attend and give your valuable suggestions.</p><p style=3D"mar=
+gin-bottom: 0in;"><br>The
+details of the talk is given below:-<br><br><strong>Speaker : Preetha Mathe=
+w K<br>Date&nbsp;&nbsp;&nbsp; : 24-06-2013 Monday<br>Time&nbsp;&nbsp;&nbsp;=
+ : 13:30 hrs to 14:30 hrs<br>Topic&nbsp;&nbsp; : Design of a 1 out of n obl=
+ivious transfer based on McEliece Cryptosystem<br>Venue&nbsp;&nbsp; : BSB 3=
+61&nbsp; Department of Computer Science and Engineering</strong></p><p styl=
+e=3D"margin-bottom: 0in;"><br><span style=3D"font-weight: bold;"></span></p=
+><p style=3D"margin-bottom: 0in;"><br><span style=3D"font-weight: bold;"></=
+span></p><p style=3D"margin-bottom: 0in; text-align: center;"><span style=
+=3D"font-weight: bold;"><u>Abstract</u></span></p><p style=3D"margin-bottom=
+: 0in; text-align: center;"><span style=3D"font-weight: bold;"><span style=
+=3D"text-decoration: underline;"><br></span></span></p><div style=3D"text-a=
+lign: left;"><div style=3D"text-align: justify;">Provable Security is an ap=
+proach to provide evidence of security by means of reduction. If the crypto=
+system can be broken in some specific way, then it would be possible to eff=
+iciently solve some well-studied problem that is thought to be difficult. T=
+he problems normally used are factoring problem, discrete logarithm problem=
+, computational Diffie-Hellman problem and so on. When quantum computer com=
+es into existence the aforementioned problems can be solved. So the researc=
+h goes on searching the problems that cannot be solved by quantum computer.=
+ The areas found out so far are Lattice based, Code based, Hash based and M=
+ultivariate based cryptosystems. The cryptography based on the said areas i=
+s termed as Post quantum cryptography.<br>In cryptography, an oblivious tra=
+nsfer protocol (OT) is a type of protocol in which a sender transfers one o=
+f potentially many pieces of information to a receiver, but remains oblivio=
+us as to what piece (if any) has been transferred. Since OT is one of the w=
+ell established cryptographic primitives that has played a prominent role i=
+n achieving secure two-(multi-)party/distributed computation. Some of the a=
+pplications of OT includes Private Information Retrieval (PIR), fair electr=
+onic contract signing, zero knowledge proofs, secure function evaluation ai=
+ds in developing a one-time proxy signature. In a 1-out-of-2 oblivious tran=
+sfer protocol, the sender has two messages m0 and m1 , and the receiver has=
+ a bit b, and the receiver wishes to receive mb , without the sender learni=
+ng b, while the sender wants to ensure that the receiver receives only one =
+of the two messages. A 1-out-of-n oblivious transfer protocol can be define=
+d as a natural generalization of a 1-out-of-2 oblivious transfer protocol. =
+Instead of two there are n messages, and the receiver has an index i, of hi=
+s wish to get the&nbsp; i -th among the sender=E2=80=99s messages, such tha=
+t the sender will not learn i, but sender ensures that the receiver receive=
+ only one of the n messages.<br></div><span style=3D"font-weight: bold;"></=
+span></div><p style=3D"margin-bottom: 0in; text-align: center;"><span style=
+=3D"font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; All are welcome<br></span></p><div style=3D"text-align: left;"><span st=
+yle=3D"font-weight: bold;"><br><br></span>Thanks and Regards<br>Preetha Mat=
+hew K<span style=3D"font-weight: bold;"><br></span><span style=3D"font-weig=
+ht: bold;"></span><span style=3D"font-weight: bold;"></span></div></div></b=
+ody></html>
+------=_Part_47192_1257025004.1371807143302--

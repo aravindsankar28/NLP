@@ -1,0 +1,202 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 11 Jul 2013 09:22:09 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id DB4C921A0005;
+	Thu, 11 Jul 2013 09:22:04 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id lxdXj-SufXqW; Thu, 11 Jul 2013 09:21:58 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id C462C2198001
+	for <seminar@cse.iitm.ac.in>; Thu, 11 Jul 2013 09:21:57 +0530 (IST)
+Date: Thu, 11 Jul 2013 09:21:57 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <601658117.63171.1373514717714.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1327669189.63168.1373514710100.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk on Citation Network Analysis this Friday.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_63170_797340371.1373514717714"
+X-Originating-IP: [10.23.2.230]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_63170_797340371.1373514717714
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Dear All,=20
+
+
+This Friday, 12th July, Prof. Niloy Ganguly from IIT Kharagpur will be deli=
+vering a talk on citation network analysis. The talk is at 2 p.m. in CSE Se=
+minar hall, BSB 361. Details below.=20
+
+
+Regards=20
+Ravi.=20
+
+
+
+
+
+
+
+
+
+
+
+Title: Shift of research focus in Computer Sciences over the last fifty yea=
+rs: What citation network analysis reflects?=20
+
+
+
+
+
+Abstract: Study of community in time-varying graphs has been limited to its=
+ detection and identification across time. How ever, presence of time provi=
+des us with the opportunity to analyze the interaction patterns of the comm=
+unities, understand how each individual community grows/shrinks, becomes im=
+portant over time. This paper, for the first time, systematically studies t=
+he temporal interaction patterns of communities using a large scale citatio=
+n network (directed and unweighted) of computer science. Each individual co=
+mmunity in a citation network is naturally defined by a research field =E2=
+=80=93 i.e., acting as ground-truth =E2=80=93 and their interactions throug=
+h citations in real time can unfold the landscape of dynamic research trend=
+s in the computer science domain over the last fifty years. These interacti=
+ons are quantified in terms of a metric called inwardness that captures the=
+ effect of local citations to express the degree of authoritativeness of a =
+community (research field) at a particular time instance. Several arguments=
+ to unveil the reasons behind the temporal changes of inwardness of differe=
+nt communities are put forward using exhaustive statistical analysis. The m=
+easurements (importance of field) are compared with the project funding sta=
+tistics of NSF and it is found that the two are in sync. We believe that th=
+is measurement study with a large real-world data is an important initial s=
+tep towards understanding the dynamics of cluster-interactions in a tempora=
+l environment. This work , for the first time, systematically outlines a ne=
+w avenue of research that one can practice post community detection. As an =
+additional objective we also study the emergence of the rising popularity o=
+f interdisciplinary research in the computer sciences.=20
+
+Reference: Chakraborty, T., Sikdar, S., Tammana, V., Ganguly, N. and Mukher=
+jee, A . (2013). Computer Science Fields as Ground-truth Communities: Their=
+ Impact, Rise and Fall, In IEEE/ACM ASONAM(13) , Niagra Falls, Canada.
+------=_Part_63170_797340371.1373514717714
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div class=3D"gmail_quote" style=3D"color: rgb(34, 34, 34); font-family: a=
+rial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);">D=
+ear All,</div><div class=3D"gmail_quote" style=3D"color: rgb(34, 34, 34); f=
+ont-family: arial, sans-serif; font-size: 13px; background-color: rgb(255, =
+255, 255);"><br></div><div class=3D"gmail_quote" style=3D"color: rgb(34, 34=
+, 34); font-family: arial, sans-serif; font-size: 13px; background-color: r=
+gb(255, 255, 255);">This Friday, 12th July, Prof. Niloy Ganguly from IIT Kh=
+aragpur will be delivering a talk on citation network analysis. The talk is=
+ at 2 p.m. in CSE Seminar hall, BSB 361. Details below.</div><div class=3D"=
+gmail_quote" style=3D"color: rgb(34, 34, 34); font-family: arial, sans-seri=
+f; font-size: 13px; background-color: rgb(255, 255, 255);"><br></div><div c=
+lass=3D"gmail_quote" style=3D"color: rgb(34, 34, 34); font-family: arial, s=
+ans-serif; font-size: 13px; background-color: rgb(255, 255, 255);">Regards<=
+/div><div class=3D"gmail_quote" style=3D"color: rgb(34, 34, 34); font-famil=
+y: arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255)=
+;">Ravi.<br><div dir=3D"ltr"><div class=3D"gmail_quote"><br><div dir=3D"ltr=
+"><div class=3D"gmail_quote"><div dir=3D"ltr"><div><br></div><div><p style=
+=3D"margin-bottom: 10px;"><font face=3D"Arial, Helvetica, Verdana, sans-ser=
+if"><span style=3D"font-size: 12px; line-height: 16.200000762939453px;"><b>=
+Title:</b>&nbsp;Shift of research focus in Computer Sciences over the last&=
+nbsp;</span></font><span style=3D"font-size: 12px; line-height: 16.20000076=
+2939453px; font-family: Arial, Helvetica, Verdana, sans-serif;">fifty years=
+: What citation network analysis reflects?</span></p><p></p><p style=3D"mar=
+gin-bottom: 10px;"></p><p style=3D"margin-bottom: 10px;"><font face=3D"Aria=
+l, Helvetica, Verdana, sans-serif"><span style=3D"font-size: 12px; line-hei=
+ght: 16.200000762939453px;"><b>Abstract:</b>&nbsp;</span></font><font face=
+=3D"Arial, Helvetica, Verdana, sans-serif"><span style=3D"font-size: 12px; =
+line-height: 16.1875px;">Study of community in time-varying graphs has&nbsp=
+;</span></font><span style=3D"font-size: 12px; line-height: 16.1875px; font=
+-family: Arial, Helvetica, Verdana, sans-serif;">been limited to its detect=
+ion and identification across time. How</span><span style=3D"font-size: 12p=
+x; line-height: 16.1875px; font-family: Arial, Helvetica, Verdana, sans-ser=
+if;">ever, presence of time provides us with the opportunity to analyze&nbs=
+p;</span><span style=3D"font-size: 12px; line-height: 16.1875px; font-famil=
+y: Arial, Helvetica, Verdana, sans-serif;">the interaction patterns of the =
+communities, understand how each&nbsp;</span><span style=3D"font-size: 12px=
+; line-height: 16.1875px; font-family: Arial, Helvetica, Verdana, sans-seri=
+f;">individual community grows/shrinks, becomes important over&nbsp;</span>=
+<span style=3D"font-size: 12px; line-height: 16.1875px; font-family: Arial,=
+ Helvetica, Verdana, sans-serif;">time. This paper, for the first time, sys=
+tematically studies the&nbsp;</span><span style=3D"font-size: 12px; line-he=
+ight: 16.1875px; font-family: Arial, Helvetica, Verdana, sans-serif;">tempo=
+ral interaction patterns of communities using a large scale&nbsp;</span><sp=
+an style=3D"font-size: 12px; line-height: 16.1875px; font-family: Arial, He=
+lvetica, Verdana, sans-serif;">citation network (directed and unweighted) o=
+f computer science.&nbsp;</span><font face=3D"Arial, Helvetica, Verdana, sa=
+ns-serif"><span style=3D"font-size: 12px; line-height: 16.1875px;">Each ind=
+ividual community in a citation network is naturally&nbsp;</span></font><sp=
+an style=3D"font-size: 12px; line-height: 16.1875px; font-family: Arial, He=
+lvetica, Verdana, sans-serif;">defined by a research field =E2=80=93 i.e., =
+acting as ground-truth =E2=80=93 and&nbsp;</span><span style=3D"font-size: =
+12px; line-height: 16.1875px; font-family: Arial, Helvetica, Verdana, sans-=
+serif;">their interactions through citations in real time can unfold the&nb=
+sp;</span><span style=3D"font-size: 12px; line-height: 16.1875px; font-fami=
+ly: Arial, Helvetica, Verdana, sans-serif;">landscape of dynamic research t=
+rends in the computer science&nbsp;</span><span style=3D"font-size: 12px; l=
+ine-height: 16.1875px; font-family: Arial, Helvetica, Verdana, sans-serif;"=
+>domain over the last fifty years. These interactions are quantified&nbsp;<=
+/span><span style=3D"font-size: 12px; line-height: 16.1875px; font-family: =
+Arial, Helvetica, Verdana, sans-serif;">in terms of a metric called inwardn=
+ess that captures the effect&nbsp;</span><span style=3D"font-size: 12px; li=
+ne-height: 16.1875px; font-family: Arial, Helvetica, Verdana, sans-serif;">=
+of local citations to express the degree of authoritativeness of a&nbsp;</s=
+pan><span style=3D"font-size: 12px; line-height: 16.1875px; font-family: Ar=
+ial, Helvetica, Verdana, sans-serif;">community (research field) at a parti=
+cular time instance. Several&nbsp;</span><span style=3D"font-size: 12px; li=
+ne-height: 16.1875px; font-family: Arial, Helvetica, Verdana, sans-serif;">=
+arguments to unveil the reasons behind the temporal changes&nbsp;</span><sp=
+an style=3D"font-size: 12px; line-height: 16.1875px; font-family: Arial, He=
+lvetica, Verdana, sans-serif;">of inwardness of different communities are p=
+ut forward using&nbsp;</span><span style=3D"font-size: 12px; line-height: 1=
+6.1875px; font-family: Arial, Helvetica, Verdana, sans-serif;">exhaustive s=
+tatistical analysis. The measurements (importance&nbsp;</span><span style=
+=3D"font-size: 12px; line-height: 16.1875px; font-family: Arial, Helvetica,=
+ Verdana, sans-serif;">of field) are compared with the project funding stat=
+istics of&nbsp;</span><span style=3D"font-size: 12px; line-height: 16.1875p=
+x; font-family: Arial, Helvetica, Verdana, sans-serif;">NSF and it is found=
+ that the two are in sync. We believe&nbsp;</span><span style=3D"font-size:=
+ 12px; line-height: 16.1875px; font-family: Arial, Helvetica, Verdana, sans=
+-serif;">that this measurement study with a large real-world data is an&nbs=
+p;</span><span style=3D"font-size: 12px; line-height: 16.1875px; font-famil=
+y: Arial, Helvetica, Verdana, sans-serif;">important initial step towards u=
+nderstanding the dynamics of&nbsp;</span><span style=3D"font-size: 12px; li=
+ne-height: 16.1875px; font-family: Arial, Helvetica, Verdana, sans-serif;">=
+cluster-interactions in a temporal environment. This work</span><span style=
+=3D"font-size: 12px; line-height: 16.1875px; font-family: Arial, Helvetica,=
+ Verdana, sans-serif;">, for the first time, systematically outlines a new =
+avenue of&nbsp;</span><span style=3D"font-size: 12px; line-height: 16.1875p=
+x; font-family: Arial, Helvetica, Verdana, sans-serif;">research that one c=
+an practice post community detection. As an additional objective we also st=
+udy the emergence of the rising popularity of interdisciplinary research in=
+ the computer sciences.&nbsp;</span></p><p style=3D"margin-bottom: 10px;"><=
+span style=3D"font-family: Arial, Helvetica, Verdana, sans-serif; line-heig=
+ht: 16.1875px;"><b><span style=3D"font-size: 12px;">Reference:</span>&nbsp;=
+</b></span><font color=3D"#000000"><span style=3D"font-family: helvetica;">=
+Chakraborty, T., Sikdar, S., Tammana, V., Ganguly, N. and&nbsp;</span><span=
+ style=3D"font-family: helvetica;"><i>Mukherjee, A</i></span><b style=3D"fo=
+nt-family: helvetica;"><i>.</i></b><span style=3D"font-family: helvetica;">=
+&nbsp;(2013). Computer Science Fields as Ground-truth Communities: Their Im=
+pact, Rise and Fall, In&nbsp;</span><i style=3D"font-family: helvetica;">IE=
+EE/ACM ASONAM(13)</i><span style=3D"font-family: helvetica;">, Niagra Falls=
+, Canada.&nbsp;</span></font></p></div></div></div></div></div></div></div>=
+</div></body></html>
+------=_Part_63170_797340371.1373514717714--

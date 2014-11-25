@@ -1,0 +1,73 @@
+Dear All, 
+
+Today's talk is cancelled. 
+
+Regards, 
+
+Joy 
+
+
+From: amannoug@cse.iitm.ac.in 
+To: scholars@cse.iitm.ac.in 
+Cc: "Seminar" <seminar@cse.iitm.ac.in> 
+Sent: Monday, October 21, 2013 8:27:17 AM 
+Subject: CANCELLED: Talk by Aman Nougrahiya - "Reducing Synchronization Primitives in OpenMP Programs" - Monday Oct 21 2013 at 3.30 PM 
+
+
+
+
+Dear Scholars, 
+Good Morning :) 
+I am sorry to say that due to my bad health since last late night, I will be unable to give the talk today. 
+I am hoping to give the talk in the next free slot now. 
+Sorry for the inconvenience caused. 
+
+Warm Regards, 
+Aman Nougrahiya 
+Research Scholar (M.S.) 
+PACE Lab, Dept of CSE 
+IIT Madras 
+
+---------- Forwarded message ---------- 
+From: Manikantan S < mani@cse.iitm.ac.in > 
+
+Date: Tue, Oct 15, 2013 at 9:52 AM 
+Subject: Talk by Aman Nougrahiya - "Reducing Synchronization Primitives in OpenMP Programs" - Monday Oct 21 2013 at 3.30 PM 
+To: scholars < scholars@cse.iitm.ac.in > 
+Cc: Seminar < seminar@cse.iitm.ac.in > 
+
+
+
+
+
+
+Dear Scholars 
+
+Greetings. 
+
+The talk planned for yesterday (which had to be postponed, since there was an external faculty talk that happened at the same time) will be held coming Monday Oct 21 2013. The primary reason for the postponing the task is to enable larger audience for the Research scholar forum meeting talks. 
+
+Please make it convenient to attend the upcoming Talk on 21st October 2013. 
+
+Speaker: Aman Nougrahiya (PACE LAB) 
+Title : Reducing Synchronization Primitives in OpenMP Programs 
+Abstract : 
+When multiple threads of execution run in parallel in shared-memory systems, synchronization primitives are required to ensure determinism and correctness of the output of applications. However, these synchronization primitives also introduce high performance costs that increase with the increase in the number of threads used. Unfortunately, many times this cost overshadows a considerable portion of the benefits obtained by parallelizing the applications, sometimes even contributing to the reasons why some parallel versions of the applications perform poorly as compared to the serial ones. 
+In this talk, we'll discuss some of the central ideas used in the framework we are developing for reducing these synchronization primitives from OpenMP programs. 
+This (not yet matured) framework is dependent on the concepts of code scheduling, memory renaming, and loop unrolling. 
+Firstly, I'll try to present these ideas in the form of some short analogous stories from real life . 
+Then, we'll look at some sample translations to better understand and discuss the proposed transformations. 
+
+Kind regards 
+Mani 
+
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar, 
+High Performance Computing and Networking (HPCN) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 
+
+
+

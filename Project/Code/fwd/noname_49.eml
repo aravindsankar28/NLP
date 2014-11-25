@@ -1,0 +1,231 @@
+Return-Path: niharsarangi@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 9 May 2014 15:18:16 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 31B88239004B;
+	Fri,  9 May 2014 15:18:15 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.666
+X-Spam-Level: 
+X-Spam-Status: No, score=0.666 tagged_above=-10 required=6.6
+	tests=[BAYES_40=-0.001, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id N9pX1cwQrMNY; Fri,  9 May 2014 15:18:08 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 35FB22210003;
+	Fri,  9 May 2014 15:17:19 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 0B7DD7807F0;
+	Fri,  9 May 2014 15:36:33 +0530 (IST)
+Received: from mail-we0-f174.google.com ([74.125.82.174])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201405090952120039468; Fri, 09 May 2014 15:22:16 +0530
+Received: by mail-we0-f174.google.com with SMTP id k48so3689392wev.19
+        for <multiple recipients>; Fri, 09 May 2014 03:06:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:from:date:message-id:subject:to:cc:content-type;
+        bh=l5QEaYrlpFMnUtltoTTdjTNfhZXg88p8YxNxC1/uz7A=;
+        b=gb5LKAW5h+NUNMB1KsjgTRUdj3YPhYNZBKyj50LCubw15xgxmWUHXlXHw3iS6g1dzR
+         DCpizAnWLIVs28MBTXRSzBMv4H1QH7HabCl8I/2VfPTRyiDVRlT+ktUO3VvcqTC2kcOZ
+         8CzwB+acEMTkQsNYhpBEnkjNiIBXeIDR+kDz46vWvTC7G/Veu1JPDcaXOxIzfcy78dly
+         ffmVDKBPqgTaw4HvUzwxBw/Dbsa9mUXXVqL/odo/fN3/85qDMFH03vBbEAdJV2zDW+sO
+         pEJIsucoyfqDppudwybW50iHUPOlBTk1Il+gy88o/p01c1KPTsZz12z6kBjk6kwNFkS4
+         WpUg==
+X-Received: by 10.194.77.50 with SMTP id p18mr950747wjw.68.1399629991767; Fri,
+ 09 May 2014 03:06:31 -0700 (PDT)
+MIME-Version: 1.0
+Sender: niharsarangi@gmail.com
+Received: by 10.194.249.162 with HTTP; Fri, 9 May 2014 03:06:11 -0700 (PDT)
+From: nihar sarangi <snihar@cse.iitm.ac.in>
+Date: Fri, 9 May 2014 15:36:11 +0530
+X-Google-Sender-Auth: uQ_TcA_1ZfjAUsGRM8QV7TtmC38
+Message-ID: <CAGqW-aq2kR9N-CP=7wjGZ-LnvN=xiVno2AZ1Y-+-Dfftddy+Qw@mail.gmail.com>
+Subject: MS Seminar Talk | 15 May 2014 at 3:00 PM | BSB 361
+To: seminar@cse.iitm.ac.in, scholars <scholars@cse.iitm.ac.in>, 
+	cse-speech@googlegroups.com, students@cse.iitm.ac.in
+Cc: "chandra@cse.iitm.ac.in" <chandra@cse.iitm.ac.in>, Balaraman Ravindran <ravindran.b@gmail.com>, 
+	hema <hema@cse.iitm.ac.in>, sutanuc <sutanuc@cse.iitm.ac.in>, arunkt@iitm.ac.in, 
+	sayan@cse.iitm.ac.in, umeshs@ee.iitm.ac.in, angan55@yahoo.com
+Content-Type: multipart/alternative; boundary=047d7bfcfc6279fa8b04f8f4c0b6
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: learnt,2014,deep,raw,annotation,helps,learning,kernel,optimization,neural,algori
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 74.125.82.174
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201405090952120039468
+
+--047d7bfcfc6279fa8b04f8f4c0b6
+Content-Type: text/plain; charset=UTF-8
+
+Hi All,
+
+I am giving my M.S Seminar talk on 15th May. The details of the talk are
+given below.
+
+All are cordially invited.
+
+Thanks,
+Nihar
+
+------------------------------
+-------------------------------------------------------------------------------------
+
+Title: *Image classification and annotation using deep learning models*
+
+Date:* 15th May, 2014*
+
+Time: *03:00 pm - 04:00 pm*
+
+Venue:
+*BSB 361*
+
+More details about the talk are given below.
+
+*Abstract:*
+
+The performance of a machine learning algorithm largely depends on the
+representation
+of data. Domain and task independent techniques that can learn powerful
+representations
+from raw data are very useful for several tasks. Deep learning methods have
+the ability
+to learn increasingly abstract feature hierarchies by employing
+multi-layered hierarchical
+models. Interest in this area has led to design of models with many hidden
+layers of
+processing between the input and output layers. Though it is possible to
+add more number
+of hidden layers in conventional models like artificial neural networks, it
+poses a serious
+challenge to be able to train such models effectively. Models like deep
+belief networks
+try to overcome this problem by independently training the layers before
+stacking them
+together. The layer-wise training helps to get a good estimate of the layer
+weights and
+makes it easier for the complete network to be trained using conventional
+algorithms like
+back-propagation. Deep Boltzmann machines use variational techniques like
+mean field
+approximation to learn an approximate posterior of the data, which can then
+be combined
+with the input during back-propagation to learn better features. Deep
+convolutional
+networks convolve local features before passing them as input to a
+multi-layered network
+in an attempt to learn richer representations, which preserve the local
+correlation of the
+input data. Tensor deep stacking networks and kernel deep convex networks,
+attempt
+to reduce the training time using convex optimization and kernel trick. We
+explore the
+deep learning models for image classification and image annotation tasks.
+We study the
+performance of different models of deep learning on benchmark datasets. An
+analysis of
+representations learnt by different models of deep learning is carried out.
+
+*Keywords:*
+
+*Representation Learning, Deep Learning, Deep Belief Networks, Deep
+BoltzmannMachines, Deep Convolutional Network, Tensor Deep Stacking
+Network, Kernel Deep Convex Network, Image Classification, Image Annotation*
+
+--047d7bfcfc6279fa8b04f8f4c0b6
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"font-family:arial,helvetica,sans-serif">Hi A=
+ll, <br><br></div>I am giving my M.S Seminar talk on 15th May. The details =
+of the talk are given below. <br>
+
+
+
+
+
+<br>All are cordially invited. <br><br>Thanks,<br>Nihar<br><br>------------=
+------------------<div style=3D"font-family:arial,helvetica,sans-serif">---=
+---------------------------------------------------------------------------=
+-------<br>
+
+<div>
+          <p style=3D"margin-bottom:0cm" align=3D"JUSTIFY"><font><span styl=
+e=3D"font-family:arial,helvetica,sans-serif">Title:<b> </b><b>Image classif=
+ication and annotation using deep learning models</b><b></b></span></font><=
+/p>
+
+
+          <p><font><span style=3D"font-family:arial,helvetica,sans-serif">
+              Date:</span></font><font><b> 15th May, 2014</b></font>
+        </p></div><font><span style=3D"font-family:arial,helvetica,sans-ser=
+if">
+        </span></font><p><font><span style=3D"font-family:arial,helvetica,s=
+ans-serif">Time:=C2=A0<b><span><span><span tabindex=3D"0" class=3D""><span =
+class=3D"">03:00 pm</span></span></span></span> - 04:00 pm</b></span></font=
+></p><font><span style=3D"font-family:arial,helvetica,sans-serif">
+     =20
+      </span></font><p><font><span style=3D"font-family:arial,helvetica,san=
+s-serif">Venue: <b>BSB 361<br></b></span></font></p><font><span style=3D"fo=
+nt-family:arial,helvetica,sans-serif">
+     =20
+   =20
+    </span></font><div>
+      <p><font><span style=3D"font-family:arial,helvetica,sans-serif">More =
+details about the talk are given below. <br></span></font></p>
+    </div><font><span style=3D"font-family:arial,helvetica,sans-serif">
+    </span></font><div>
+      <p><font><span style=3D"font-family:arial,helvetica,sans-serif"><b>Ab=
+stract:</b></span></font></p>
+    </div><font><span style=3D"font-family:arial,helvetica,sans-serif">
+    </span></font><p> </p><font><span style=3D"font-family:arial,helvetica,=
+sans-serif"></span></font>The performance of a machine learning algorithm l=
+argely depends on the representation<br>of data. Domain and task independen=
+t techniques that can learn powerful representations<br>
+
+from raw data are very useful for several tasks. Deep learning methods have=
+ the ability<br>to learn increasingly abstract feature hierarchies by emplo=
+ying multi-layered hierarchical<br>models. Interest in this area has led to=
+ design of models with many hidden layers of<br>
+
+processing between the input and output layers. Though it is possible to ad=
+d more number<br>of hidden layers in conventional models like artificial ne=
+ural networks, it poses a serious<br>challenge to be able to train such mod=
+els effectively. Models like deep belief networks<br>
+
+try to overcome this problem by independently training the layers before st=
+acking them<br>together. The layer-wise training helps to get a good estima=
+te of the layer weights and<br>makes it easier for the complete network to =
+be trained using conventional algorithms like<br>
+
+back-propagation. Deep Boltzmann machines use variational techniques like m=
+ean field<br>approximation to learn an approximate posterior of the data, w=
+hich can then be combined<br>with the input during back-propagation to lear=
+n better features. Deep convolutional<br>
+
+networks convolve local features before passing them as input to a multi-la=
+yered network<br>in an attempt to learn richer representations, which prese=
+rve the local correlation of the<br>input data. Tensor deep stacking networ=
+ks and kernel deep convex networks, attempt<br>
+
+to reduce the training time using convex optimization and kernel trick. We =
+explore the<br>deep learning models for image classification and image anno=
+tation tasks. We study the<br>performance of different models of deep learn=
+ing on benchmark datasets. An analysis of<br>
+
+representations learnt by different models of deep learning is carried out.=
+<br><br><b>Keywords:</b> <i>Representation Learning, Deep Learning, Deep Be=
+lief Networks, Deep Boltzmann<br>Machines, Deep Convolutional Network, Tens=
+or Deep Stacking Network, Kernel Deep Convex<br>
+
+Network, Image Classification, Image Annotation</i></div></div>
+
+--047d7bfcfc6279fa8b04f8f4c0b6--

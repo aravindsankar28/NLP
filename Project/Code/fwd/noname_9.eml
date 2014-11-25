@@ -1,0 +1,193 @@
+Return-Path: kasibatla.santosh@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 8 Oct 2014 20:19:01 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1EBBFF78136;
+	Wed,  8 Oct 2014 20:18:52 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.377
+X-Spam-Level: *
+X-Spam-Status: No, score=1.377 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	SPF_SOFTFAIL=0.665, T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id x4LD5VuDXEP8; Wed,  8 Oct 2014 20:18:47 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 90AB2F7812F
+	for <students@cse.iitm.ac.in>; Wed,  8 Oct 2014 20:18:01 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 885E6780476
+	for <students@cse.iitm.ac.in>; Wed,  8 Oct 2014 20:20:20 +0530 (IST)
+Authentication-Results: mailx1.iitm.ac.in;
+	spf=pass smtp.mailfrom=kasibatla.santosh@gmail.com;
+Received: from mail-oi0-f44.google.com ([209.85.218.44])
+	by mailx1.iitm.ac.in (SonicWALL 8.0.1.2355)
+	with ESMTP id 201410081446300020321; Wed, 08 Oct 2014 20:16:31 +0530
+Received: by mail-oi0-f44.google.com with SMTP id x69so7793705oia.17
+        for <students@cse.iitm.ac.in>; Wed, 08 Oct 2014 07:50:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=sTuioHL0DCuMYkex57dBIG9cfO7SFMf0z0A5+POOK1g=;
+        b=jS+dVSuukk4h+Q2WiqEG0k6Fg97QhHhEJTmlTNDbDaoi9zyjzJhBsvKMRH6W9k6+oE
+         r8TkQSRGxx4b3MJrFkhxzc4nBgSiA+/wXrvp2KPJsm9Eo9ZNBfYytm23PsmIGAq5YdhF
+         rtRhrt966YtbBkZ3xey9oCybxy/EwUbN4JzuyB2VyVd/UcYMBHZw0ICZYDbkn7BpXBae
+         wtsVIAfWWga6/rAy7R1VF8mQLNrZFDjRscabwEHJSI0iut5HQdQMARIHvQUjXnGnnKJZ
+         1wxGk48PrLvOguB39W7r4jN0qxc4xud5xoAFww/8zU02MEBiQG+Iyd8bWaIFDndBBfXp
+         qTrA==
+MIME-Version: 1.0
+X-Received: by 10.182.22.82 with SMTP id b18mr12962124obf.32.1412779819117;
+ Wed, 08 Oct 2014 07:50:19 -0700 (PDT)
+Received: by 10.76.11.38 with HTTP; Wed, 8 Oct 2014 07:50:19 -0700 (PDT)
+In-Reply-To: <1571824240.94625.1412778345518.JavaMail.root@mail.cse.iitm.ac.in>
+References: <11CC63846898664D8B8FEBFD7496F01F03CC0E48@bharata.iitm.ac.in>
+	<11CC63846898664D8B8FEBFD7496F01F03CC0E8B@bharata.iitm.ac.in>
+	<1571824240.94625.1412778345518.JavaMail.root@mail.cse.iitm.ac.in>
+Date: Wed, 8 Oct 2014 20:20:19 +0530
+Message-ID: <CAH47yq5VgevFEw-gDWi2UrgvORp47gBKhvMrLTTdzB8zNYVaDw@mail.gmail.com>
+Subject: Fwd: FW: Seminar Talk by Dr. Aruna Balasubramanian, University of
+ Washington, Seattle
+From: santosh kumar <kasibatla.santosh@gmail.com>
+To: students@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=001a1133334843b39b0504ea6f0a
+X-Mlf-SPF: result=pass;action=none;identity=mailfrom;domain=gmail.com;source=209.85.218.44;details:allowedlist=consider;
+X-Mlf-KeyWords: target,dr,talk,mobi,extract,10th,extracted,test,forwarded,faculty,bio,recipient,
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.218.44
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;other;none;none
+X-Mlf-UniqueId: i201410081446300020321
+
+--001a1133334843b39b0504ea6f0a
+Content-Type: text/plain; charset=UTF-8
+
+---------- Forwarded message ----------
+From: Janakiram D <djram@iitm.ac.in>
+Date: Wed, Oct 8, 2014 at 7:55 PM
+Subject: FW: Seminar Talk by Dr. Aruna Balasubramanian, University of
+Washington, Seattle
+To: "scholars@cse.iitm.ac.in" <scholars@cse.iitm.ac.in>
+
+
+
+
+
+Seminar Announcement
+
+Talk Title : Demystifying Web Page Loads
+
+Speaker : Dr. Aruna Balasubramanian, University of Washington, Seattle
+
+Date : 10th October
+
+Venue : BSB 365
+
+Time : 3-4 pm
+
+Demystifying Web Page Loads
+ ----------------------------------------
+
+In this talk, I will describe WProf, a system that demystifies the page
+load process. There are a lot of techniques and "best practices" proposed
+to make web pages load faster, but they don't always work because they do
+not target the page load bottleneck. Proposals such as SPDY, which is the
+soon-to-be standard for HTTP, cannot be evaluated thoroughly because Web
+page loads are poorly understood, involving several inter-dependent
+activities and complex dependency policies. In this work, we extract the
+dependency policies imposed by four major browsers by systematically
+instrumenting test pages and by analyzing browser code. Using the extracted
+dependency policies, we build WProf, a system that can  identify the
+bottleneck of any Web page at scale. We use WProf to study SPDY, the new
+HTTP 2.0 protocol.
+
+In the last part of the talk, I will describe some of my other work in
+mobile systems and power efficiency. Specifically, I will be briefly
+describe MobileHub, a system that automatically rewrites mobile
+applications to be more power efficient, with zero developer effort.
+
+Bio
+----
+
+Aruna Balasubramanian is a Soon-to-be Faculty at Stony Brook University and
+currently a Postdoctoral fellow at the University of Washington. She
+received her Ph.D from the University of Massachusetts Amherst, where her
+dissertation won the UMass outstanding dissertation award and was the
+Sigcomm dissertation award runner up. She works in the area of networked
+systems, and her work incorporates elements of both networking and systems
+in the context of mobile computing. As part of service to the community,
+she has served on the Program committee of Mobicom, MobiSys, NSDI, IMC, and
+several workshops. She is the recipient of the Computing Innovation
+Fellowship and the Microsoft Graduate Research Fellowship.
+
+--001a1133334843b39b0504ea6f0a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote">---------- Forwarded messag=
+e ----------<br>From: <b class=3D"gmail_sendername">Janakiram D</b> <span d=
+ir=3D"ltr">&lt;<a href=3D"mailto:djram@iitm.ac.in">djram@iitm.ac.in</a>&gt;=
+</span><br>Date: Wed, Oct 8, 2014 at 7:55 PM<br>Subject: FW: Seminar Talk b=
+y Dr. Aruna Balasubramanian, University of Washington, Seattle<br>To: &quot=
+;<a href=3D"mailto:scholars@cse.iitm.ac.in">scholars@cse.iitm.ac.in</a>&quo=
+t; &lt;<a href=3D"mailto:scholars@cse.iitm.ac.in">scholars@cse.iitm.ac.in</=
+a>&gt;<br><br><br><br>
+<br>
+<br>
+Seminar Announcement<br>
+<br>
+Talk Title : Demystifying Web Page Loads<br>
+<br>
+Speaker : Dr. Aruna Balasubramanian, University of Washington, Seattle<br>
+<br>
+Date : 10th October<br>
+<br>
+Venue : BSB 365<br>
+<br>
+Time : 3-4 pm<br>
+<br>
+Demystifying Web Page Loads<br>
+=C2=A0----------------------------------------<br>
+<br>
+In this talk, I will describe WProf, a system that demystifies the page loa=
+d process. There are a lot of techniques and &quot;best practices&quot; pro=
+posed to make web pages load faster, but they don&#39;t always work because=
+ they do not target the page load bottleneck. Proposals such as SPDY, which=
+ is the soon-to-be standard for HTTP, cannot be evaluated thoroughly becaus=
+e Web page loads are poorly understood, involving several inter-dependent a=
+ctivities and complex dependency policies. In this work, we extract the dep=
+endency policies imposed by four major browsers by systematically instrumen=
+ting test pages and by analyzing browser code. Using the extracted dependen=
+cy policies, we build WProf, a system that can=C2=A0 identify the bottlenec=
+k of any Web page at scale. We use WProf to study SPDY, the new HTTP 2.0 pr=
+otocol.<br>
+<br>
+In the last part of the talk, I will describe some of my other work in mobi=
+le systems and power efficiency. Specifically, I will be briefly describe M=
+obileHub, a system that automatically rewrites mobile applications to be mo=
+re power efficient, with zero developer effort.<br>
+<br>
+Bio<br>
+----<br>
+<br>
+Aruna Balasubramanian is a Soon-to-be Faculty at Stony Brook University and=
+ currently a Postdoctoral fellow at the University of Washington. She recei=
+ved her Ph.D from the University of Massachusetts Amherst, where her disser=
+tation won the UMass outstanding dissertation award and was the Sigcomm dis=
+sertation award runner up. She works in the area of networked systems, and =
+her work incorporates elements of both networking and systems in the contex=
+t of mobile computing. As part of service to the community, she has served =
+on the Program committee of Mobicom, MobiSys, NSDI, IMC, and several worksh=
+ops. She is the recipient of the Computing Innovation Fellowship and the Mi=
+crosoft Graduate Research Fellowship.<br>
+<br>
+<br>
+</div><br></div>
+
+--001a1133334843b39b0504ea6f0a--

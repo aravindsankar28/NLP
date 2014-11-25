@@ -1,0 +1,176 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 23 Oct 2013 16:48:06 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 32711F7821A;
+	Wed, 23 Oct 2013 16:48:03 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.233
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.233 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 8+nmc8O7OWpp; Wed, 23 Oct 2013 16:47:59 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 765E5F78126;
+	Wed, 23 Oct 2013 16:46:00 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 436FD780651;
+	Wed, 23 Oct 2013 16:56:57 +0530 (IST)
+Received: from mail-pd0-f178.google.com ([209.85.192.178])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.3.8205)
+	with ESMTP id 201310231113370014895; Wed, 23 Oct 2013 16:43:38 +0530
+Received: by mail-pd0-f178.google.com with SMTP id x10so520276pdj.37
+        for <multiple recipients>; Wed, 23 Oct 2013 04:26:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:date:message-id:subject:from:to
+         :content-type;
+        bh=Wrk+8T/aWHjVIRA6l5Mp6HnthJ7Vi+Ks0hhjV3VakL4=;
+        b=ITMJ5lnG3gjuKpexaTFXCE+aD7wXuJimXq04RQr0JnT3ZJdcFPGq00OFPjokde9Loq
+         d/yjp1jd9V3VG6VVybksv+QivnuSyxg5jWA6EktTFc0MFZ6pB+/yn5Cf0dQyXK+peu1E
+         l1DfPybPI1a9wjZvMprBNIz3uxlfzDf5Z4MkAGH9WneGvGwYNciztRQs3j/BPtIy02Dv
+         4aiHpcvmNCPxHj5RXLMTMGuN18S94PWKcViqXBEkubYXy4DgoMSJAAqSOCG5m3JGq5zx
+         FtqNj9V24up/Xd7OZdibCQeWuC6I/ZswZRbAWC/eL8ViOJ4apH8Jac1Kavllcg5/sMKs
+         iMKw==
+MIME-Version: 1.0
+X-Received: by 10.66.119.78 with SMTP id ks14mr2729209pab.140.1382527616196;
+ Wed, 23 Oct 2013 04:26:56 -0700 (PDT)
+Reply-To: ravi@cse.iitm.ac.in
+Sender: ravindran.b@gmail.com
+Received: by 10.70.12.3 with HTTP; Wed, 23 Oct 2013 04:26:56 -0700 (PDT)
+Date: Wed, 23 Oct 2013 16:56:56 +0530
+X-Google-Sender-Auth: VWYNOxRZweSH8l0YKmXpm4ab6gM
+Message-ID: <CAJ0BqjiETyL1973po5xq-sceVA=Nk-c4HHQQBVVACJ59jSH_Lw@mail.gmail.com>
+Subject: Machine Learning Seminar on Friday, 25th.
+From: Balaraman Ravindran <ravi@cse.iitm.ac.in>
+To: mlsig iitm <mlsig_iitm@googlegroups.com>, rise-iil <rise-iil@cse.iitm.ac.in>, 
+	aidb <aidb@googlegroups.com>, seminar@cse.iitm.ac.in, naras@iitm.ac.in, 
+	Nirav bhatt <niravbhatt147@gmail.com>, Krishna Jagannathan <krishnaj@ee.iitm.ac.in>
+Content-Type: multipart/alternative; boundary=e89a8ffbaf0174a89504e966cbdc
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: learning,mining,drawn,dear,wide,relationships,qualitative,nodes,scalability,facu
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.192.178
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201310231113370014895
+
+--e89a8ffbaf0174a89504e966cbdc
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+
+Prof. Srinivasan Parthasarathy from Ohio State University will be giving a
+talk on Efficient Graph Clustering via Sparsification on Friday, 25th at 10
+a.m. in CS25. All are welcome.
+
+Regards
+
+Ravi.
+
+Title: Scalable Graph Clustering via Sparsification
+
+Many real world problems (biological, social, web) can be effectively
+modeled as networks or graphs where nodes represent entities of interest
+and edges mimic the interactions or relationships among them. The study of
+such complex relationship networks, recently referred to as "network
+science", can provide insight into their structure, properties and emergent
+behavior. Of particular interest here are rigorous methods for uncovering
+and understanding important network structures and motifs (communities) at
+multiple topological and temporal scales. Achieving this objective is
+challenging due to the presence of noise (false or missing interactions),
+topological (scale-free)) properties and scalability. Given the importance
+of the graph clustering problem, a number of solutions ranging from
+hierarchical methods to spectral methods have been designed and developed.
+
+In this talk I will discuss a novel approach to sparsifying or sampling the
+edges of a graph while retaining the relevant content and structure
+important to motif and community detection. Empirical results demonstrate
+both qualitative as well as quantitive improvements over existing
+approaches on a wide range of datasets drawn from socio- technological- and
+biological- domains. Time permitting, I will also illustrate the value of
+such an approach from the perspective of visually teasing out relevant
+structure from large scale graphs and networks.
+
+Bio: Srinivasan Parthasarathy is a Professor in the Dept. of Computer
+Science and Engineering and Department of Biomedical Informatics at the The
+Ohio State University, Columbus, Ohio.
+
+He heads the Data Mining Research Lab at OSU wherein his he primarily works
+in data mining/machine learning and high performance computing and database
+systems. His group develops efficient and novel algorithms for managing and
+analyzing complex data. His current research is particularly motivated by
+applications that arise in the area of network science specifically
+biological networks and social networks. He is the recipient of numerous
+honors such as the IBM Faculty Award, the OSU Lumley Research Award and the
+Google Research Award to name a few
+
+--e89a8ffbaf0174a89504e966cbdc
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p style=3D"color:rgb(0,0,0);font-family:&#39;trebuchet ms=
+&#39;,Helvetica,Arial,sans-serif;font-size:13px;line-height:17px">Dear All,=
+</p><p style=3D"color:rgb(0,0,0);font-family:&#39;trebuchet ms&#39;,Helveti=
+ca,Arial,sans-serif;font-size:13px;line-height:17px">
+Prof. Srinivasan Parthasarathy from Ohio State University will be giving a =
+talk on Efficient Graph Clustering via Sparsification on Friday, 25th at 10=
+ a.m. in CS25. All are welcome.<br></p><p style=3D"color:rgb(0,0,0);font-fa=
+mily:&#39;trebuchet ms&#39;,Helvetica,Arial,sans-serif;font-size:13px;line-=
+height:17px">
+Regards</p><p style=3D"color:rgb(0,0,0);font-family:&#39;trebuchet ms&#39;,=
+Helvetica,Arial,sans-serif;font-size:13px;line-height:17px">Ravi.</p><p><fo=
+nt color=3D"#000000" face=3D"trebuchet ms, Helvetica, Arial, sans-serif"><s=
+pan style=3D"line-height:17px">Title:=A0Scalable Graph Clustering via Spars=
+ification</span></font></p>
+<p><span style=3D"line-height:17px;color:rgb(0,0,0);font-family:&#39;trebuc=
+het ms&#39;,Helvetica,Arial,sans-serif">Many real world problems (biologica=
+l, social, web) can be effectively modeled as networks or graphs where node=
+s represent entities of interest and edges mimic the interactions or relati=
+onships among them. The study of such complex relationship networks, recent=
+ly referred to as &quot;network science&quot;, can provide insight into the=
+ir structure, properties and emergent behavior. Of particular interest here=
+ are rigorous methods for uncovering and understanding important network st=
+ructures and motifs (communities) at multiple topological and temporal scal=
+es. Achieving this objective is challenging due to the presence of noise (f=
+alse or missing interactions), topological (scale-free)) properties and sca=
+lability. Given the importance of the graph clustering problem, a number of=
+ solutions ranging from hierarchical methods to spectral methods have been =
+designed and developed.</span><br>
+</p><p style=3D"color:rgb(0,0,0);font-family:&#39;trebuchet ms&#39;,Helveti=
+ca,Arial,sans-serif;font-size:13px;line-height:17px">In this talk I will di=
+scuss a novel approach to sparsifying or sampling the edges of a graph whil=
+e retaining the relevant content and structure important to motif and commu=
+nity detection. Empirical results demonstrate both qualitative as well as q=
+uantitive improvements over existing approaches on a wide range of datasets=
+ drawn from socio- technological- and biological- domains. Time permitting,=
+ I will also illustrate the value of such an approach from the perspective =
+of visually teasing out relevant structure from large scale graphs and netw=
+orks.</p>
+<p><span style=3D"color:rgb(0,0,0);font-family:&#39;trebuchet ms&#39;,Helve=
+tica,Arial,sans-serif;font-size:13px;line-height:17px">Bio:=A0</span><font =
+color=3D"#000000" face=3D"trebuchet ms, Helvetica, Arial, sans-serif"><span=
+ style=3D"line-height:17px">Srinivasan Parthasarathy is a Professor in the =
+Dept. of Computer Science and Engineering and Department of Biomedical Info=
+rmatics at the The Ohio State University, Columbus, Ohio.</span></font></p>
+<p><font color=3D"#000000" face=3D"trebuchet ms, Helvetica, Arial, sans-ser=
+if"><span style=3D"line-height:17px">He heads the Data Mining Research Lab =
+at OSU wherein his he primarily works in data mining/machine learning and h=
+igh performance computing and database systems. His group develops efficien=
+t and novel algorithms for managing and analyzing complex data. His current=
+ research is particularly motivated by applications that arise in the area =
+of network science specifically biological networks and social networks. He=
+ is the recipient of numerous honors such as the IBM Faculty Award, the OSU=
+ Lumley Research Award and the Google Research Award to name a few</span></=
+font></p>
+</div>
+
+--e89a8ffbaf0174a89504e966cbdc--

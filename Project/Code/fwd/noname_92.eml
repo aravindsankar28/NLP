@@ -1,0 +1,100 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 9 Jan 2014 19:42:24 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 33404758007;
+	Thu,  9 Jan 2014 19:42:22 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 0.794
+X-Spam-Level: 
+X-Spam-Status: No, score=0.794 tagged_above=-10 required=6.6
+	tests=[BAYES_40=-0.001, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ZgcCvrVLIvZ3; Thu,  9 Jan 2014 19:42:21 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A01FAF7811E;
+	Thu,  9 Jan 2014 19:37:44 +0530 (IST)
+Date: Thu, 9 Jan 2014 19:37:43 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: Krishna Jagannathan <krishnaj@ee.iitm.ac.in>
+Message-ID: <1470505663.16023581.1389276463760.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <CADSGGaOGkLWPKWXM72zWbKnm=4dPkvwLABz-7_iHJ95e6cXg3Q@mail.gmail.com>
+Subject: Seminar on AdHoc Networks on 13th January.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_16023580_587205204.1389276463760"
+X-Originating-IP: [10.23.1.136]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_16023580_587205204.1389276463760
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+Dear All, 
+
+
+Dr. Simon Shamoun from Bar Ilan University, Israel, will be giving a talk on Search in Ad Hoc Networks on Monday 13th January at 11 a.m., in CS25, CSE seminar hall. Details below. All are welcome. Please let me know if you individually or as a group want to meet him. We can set up a few meetings. 
+
+
+Regards 
+Ravi. 
+
+
+
+
+
+Search in Ad Hoc Networks 
+
+On demand routing protocols establish routes between nodes by forwarding route requests from one node to another till a path is found. This type of search is useful in a variety of settings, such as peer-to-peer networks, social networks, and any environment in which it is difficult to maintain lookup table of the desired information. I will discuss a variety of search techniques we have developed to keep expected search costs low based on a well studied technique called expanding ring search. The advantage of these techniques is that the weakly dominate expanding ring search. If there is enough time, I will also discuss some of my Ph.D. work on sensor coverage and selection. 
+
+Simon Shamoun received a B.A. degree (1996) in Computer Science (magna cum laude) from New York University, a M.S. degree in Computer Science (2000) from Columbia University, and a Ph.D. degree (2011) in Computer Science from the Graduate Center of CUNY. He was an adjunct lecturer in computer science at Queens College, CUNY (2002-2008), primarily teaching computer architecture and discrete structures and a post-doctorate fellow at Bar Ilan University (2011-2013). His research areas have included algorithmic problems in sensor and ad hoc networks, high level vision, graph algorithms. 
+
+
+
+
+
+------=_Part_16023580_587205204.1389276463760
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div dir=3D"ltr"><div><div class=3D"gmail_quote">Dear All,</div><div class=
+=3D"gmail_quote"><br></div><div class=3D"gmail_quote">Dr. Simon Shamoun fro=
+m Bar Ilan University, Israel, will be giving a talk on Search in Ad Hoc Ne=
+tworks on Monday 13th January at 11 a.m., in CS25, CSE seminar hall. Detail=
+s below. All are welcome. Please let me know if you individually or as a gr=
+oup want to meet him. We can set up a few meetings.&nbsp;</div><div class=
+=3D"gmail_quote"><br></div><div class=3D"gmail_quote">Regards</div><div cla=
+ss=3D"gmail_quote">Ravi.</div><div class=3D"gmail_quote"><br></div><div cla=
+ss=3D"gmail_quote"><br><div><div style=3D"font-size:12pt;font-family:Helvet=
+icaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif">Search in =
+Ad Hoc Networks<br><br>On demand routing protocols establish routes between=
+ nodes by forwarding route requests from one node to another till a path is=
+ found.&nbsp; This type of search is useful in a variety of settings, such =
+as peer-to-peer networks, social networks, and any environment in which it =
+is difficult to maintain lookup table of the desired information.&nbsp; I w=
+ill discuss a variety of search techniques we have developed to keep expect=
+ed search costs low based on a well studied technique called expanding ring=
+ search.&nbsp; The advantage of these techniques is that the weakly dominat=
+e expanding ring search.&nbsp; If there is enough time, I will also discuss=
+ some of my Ph.D. work on sensor coverage and selection.<br>
+<br>Simon Shamoun received a B.A. degree (1996) in Computer
+ Science (magna cum laude) from New York University, a M.S. degree in Compu=
+ter Science (2000) from Columbia University, and a Ph.D. degree (2011) in C=
+omputer Science from the Graduate Center of CUNY.&nbsp; He was an adjunct l=
+ecturer in computer science at Queens College, CUNY (2002-2008), primarily =
+teaching computer architecture and discrete structures and a post-doctorate=
+ fellow at Bar Ilan University (2011-2013).&nbsp; His research areas have i=
+ncluded algorithmic problems in sensor and ad hoc networks, high level visi=
+on, graph algorithms.<br>
+<br><div><br></div></div></div></div><br></div></div>
+</div></body></html>
+------=_Part_16023580_587205204.1389276463760--

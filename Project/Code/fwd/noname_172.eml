@@ -1,0 +1,201 @@
+Return-Path: madhu@csemail.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 8 Jul 2013 18:43:53 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E2EFFF7811F;
+	Mon,  8 Jul 2013 18:43:40 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.088
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.088 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_40=-0.001, DKIM_ADSP_NXDOMAIN=0.9,
+	HTML_MESSAGE=0.001, MIME_QP_LONG_LINE=0.001, NO_DNS_FOR_FROM=0.001,
+	T_LOTS_OF_MONEY=0.01] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rXpqozQOqNQR; Mon,  8 Jul 2013 18:43:36 +0530 (IST)
+Received: from [10.0.0.4] (unknown [10.95.255.234])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTPSA id 3088EF78104
+	for <seminar@cse.iitm.ac.in>; Mon,  8 Jul 2013 18:43:36 +0530 (IST)
+Subject: Fwd: Seminar talk at 10:30am on Tuesday, 9th July
+References: <7E7AE145-F71B-419B-AB15-6EA87972D1A4@csemail.iitm.ac.in>
+From: Madhu Mutyam <madhu@csemail.iitm.ac.in>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-49E6F545-4306-4BB8-A84F-66DF441CBB1B
+X-Mailer: iPad Mail (10B329)
+Message-Id: <41E8D074-1E89-4569-A36E-81DD11D87732@csemail.iitm.ac.in>
+Date: Mon, 8 Jul 2013 19:13:04 +0530
+To: seminar@cse.iitm.ac.in
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+
+
+--Apple-Mail-49E6F545-4306-4BB8-A84F-66DF441CBB1B
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+> Dear all,
+>=20
+> Please find below the details of the talk by Prof. Krishna Kavi on 9th Jul=
+y. You are invited to the talk.
+>=20
+> Regards,
+>=20
+> Madhu mutyam
+>=20
+>=20
+>=20
+> Title: Computer Systems and High Performance Computing Research at the Uni=
+versity of North Texas
+>=20
+> Speaker: Prof. Krishna Kavi, University of North Texas
+>=20
+> Date: 9th July at 10:30am
+>=20
+> Venue: BSB 361
+>=20
+> Abstract:
+>=20
+> This talk focuses on techniques to improve the performance of applications=
+ in general, and HPC applications more specifically. At UNT, we have been de=
+veloping simulators and tracing tools in order to identify performance bottl=
+enecks and evaluate techniques for minimizing the impact of these bottleneck=
+s. It is an understatement to say that the performance of multicore systems i=
+s limited by their memory systems=E2=80=99 performance. Our research has dev=
+eloped both hardware and software solutions to improve the performance of ca=
+che memories, and how new memory technologies such as 3D stacked DRAMs, Phas=
+e Change Memories can be included in the memory hierarchies. Software soluti=
+ons include profiling of data access patterns, relocating data, and restruct=
+uring code to improve performance. Hardware solutions include customizing ca=
+che address mapping (or indexing) for different threads and/or different obj=
+ects within an application, simultaneous existence of multiple address mappi=
+ngs, eliminating unnecessary write-backs in memory hierarchy and better memo=
+ry management. We are also evaluating our approaches in the context of emerg=
+ing memory technologies including 3D DRAMs and non-volatile memories.
+>=20
+> Bio.
+>=20
+> Dr. Krishna Kavi is currently a Professor of Computer Science and Engineer=
+ing and the Director of the NSF Industry/University Cooperative Research Cen=
+ter for Net-Centric Software and Systems at the University of North Texas. D=
+uring 2001-2009, he served as the Chair of the department. He also held an E=
+ndowed Chair Professorship in Computer Engineering at the University of Alab=
+ama in Huntsville, and served on the faculty of the University Texas at Arli=
+ngton. He was a Scientific Program Manger at US National Science Foundation d=
+uring 1993-1995. He served on several editorial boards and program committee=
+s.
+>=20
+> His research is primarily on Computer Systems Architecture including multi=
+-threaded and multi-core processors, cache memories and hardware assisted me=
+mory managers. He also conducted research in the area of formal methods, par=
+allel processing, and real-time systems. He published more than 150 technica=
+l papers in these areas. He received more than US $5 M in research grants. H=
+e graduated 14 PhDs and more than 35 MS students. He received his PhD from S=
+outhern Methodist University in Dallas Texas and a BS in EE from the Indian I=
+nstitute of Science in Bangalore, India.
+>=20
+>=20
+> *******************************************************
+> Dr. Madhu mutyam
+> Associate Professor
+> Dept. of CSE
+> IIT Madras
+> Chennai 36
+> Ph: 044 2257 4379
+
+--Apple-Mail-49E6F545-4306-4BB8-A84F-66DF441CBB1B
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><blockquote type=3D"cite"><p class=3D"s4" s=
+tyle=3D"text-align: -webkit-auto; margin-top: 0px; margin-bottom: 10px; ">De=
+ar all,</p><p class=3D"s4" style=3D"text-align: -webkit-auto; margin-top: 0p=
+x; margin-bottom: 10px; ">Please find below the details of the talk by Prof.=
+ Krishna Kavi on 9th July. You are invited to the talk.</p><p class=3D"s4" s=
+tyle=3D"text-align: -webkit-auto; margin-top: 0px; margin-bottom: 10px; ">Re=
+gards,</p><p class=3D"s4" style=3D"text-align: -webkit-auto; margin-top: 0px=
+; margin-bottom: 10px; ">Madhu mutyam</p><p class=3D"s4" style=3D"text-align=
+: -webkit-auto; margin-top: 0px; margin-bottom: 10px; "><br></p><p class=3D"=
+s4" style=3D"text-align: -webkit-auto; margin-top: 0px; margin-bottom: 10px;=
+ ">Title:&nbsp;<span style=3D"background-color: rgba(255, 255, 255, 0); font=
+-weight: bold; -webkit-text-size-adjust: auto; ">Computer Systems and High P=
+erformance Computing Research at the University of North Texas</span></p><p c=
+lass=3D"s7" style=3D"margin-top: 0px; margin-bottom: 10px; "><span style=3D"=
+-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><=
+span class=3D"s5" style=3D"font-weight: bold; ">Speaker: Prof. Krishna Kavi,=
+ University of North Texas</span></span></p><p class=3D"s7" style=3D"margin-=
+top: 0px; margin-bottom: 10px; "><span style=3D"-webkit-text-size-adjust: au=
+to; background-color: rgba(255, 255, 255, 0);"><span class=3D"s5" style=3D"f=
+ont-weight: bold; ">Date: 9th July at 10:30am</span></span></p><p class=3D"s=
+7" style=3D"margin-top: 0px; margin-bottom: 10px; "><span style=3D"-webkit-t=
+ext-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><span clas=
+s=3D"s5" style=3D"font-weight: bold; ">Venue: BSB 361</span></span></p><p cl=
+ass=3D"s7" style=3D"margin-top: 0px; margin-bottom: 10px; "><span style=3D"-=
+webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);"><s=
+pan class=3D"s5" style=3D"font-weight: bold; ">Abstract:</span><span class=3D=
+"s6"></span></span></p><p class=3D"s7" style=3D"margin-top: 0px; margin-bott=
+om: 10px; "><span style=3D"-webkit-text-size-adjust: auto; background-color:=
+ rgba(255, 255, 255, 0);"><span class=3D"s8">This talk focuses on techniques=
+ to improve&nbsp;</span><span class=3D"s8">the performance of applications i=
+n general, and HPC applications more specifically. At UNT, we have been deve=
+loping simulators and tracing tools in order to identify performance bottlen=
+ecks and&nbsp;</span><span class=3D"s8">evaluate techniques for</span><span c=
+lass=3D"s8">&nbsp;</span><span class=3D"s8">minimizing</span><span class=3D"=
+s8">&nbsp;the impact of these bottlenecks.&nbsp;</span><span class=3D"s8">It=
+ is an understatement to say that the performance of&nbsp;</span><span class=
+=3D"s8">multicore systems is limited by their memory systems=E2=80=99 perfor=
+mance. Our research has developed both hardware and software solutions to&nb=
+sp;</span><span class=3D"s8">imp</span><span class=3D"s8">rove the performan=
+ce of&nbsp;</span><span class=3D"s8">cache memories</span><span class=3D"s8"=
+>, and how new memory technologies such as 3D stacked DRAMs, Phase Change Me=
+mories can be included in the memory hierarchies</span><span class=3D"s8">. S=
+oftware solutions include profiling of data access patterns, relocating data=
+, and restructuring code to improve performance. Hardware solutions inc</spa=
+n><span class=3D"s8">lude customizing cache address mapping (or indexing) fo=
+r different threads and/or different ob</span><span class=3D"s8">jects withi=
+n an application,</span><span class=3D"s8">&nbsp;simultaneous existence of m=
+ultiple address mappings</span><span class=3D"s8">, eliminating unnecessary w=
+rite-backs in memory hierarchy and better memory management</span><span clas=
+s=3D"s8">.&nbsp;</span><span class=3D"s8">We are also&nbsp;</span><span clas=
+s=3D"s8">evaluating</span><span class=3D"s8">&nbsp;our approach</span><span c=
+lass=3D"s8">es</span><span class=3D"s8">&nbsp;in the context of emerging mem=
+ory technologies including 3D DRAMs and non-volatile memories.</span></span>=
+</p><p class=3D"s7" style=3D"margin-top: 0px; margin-bottom: 10px; "><span s=
+tyle=3D"-webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255=
+, 0);"><span class=3D"s9" style=3D"font-weight: bold; ">Bio</span><span clas=
+s=3D"s8">.</span></span></p><p class=3D"s7" style=3D"margin-top: 0px; margin=
+-bottom: 10px; "><span class=3D"s8" style=3D"-webkit-text-size-adjust: auto;=
+ background-color: rgba(255, 255, 255, 0);">Dr. Krishna Kavi is currently a P=
+rofessor of Computer Science and Engineering and the Director of the NSF Ind=
+ustry/University Cooperative Research Center for Net-Centric Software and Sy=
+stems at the University of North Texas. During 2001-2009, he served as the C=
+hair of the department. He also held an Endowed Chair Professorship in Compu=
+ter Engineering at the University of Alabama in Huntsville, and served on th=
+e faculty of the University Texas at Arlington. He was a Scientific Program M=
+anger at US National Science Foundation during 1993-1995. He served on sever=
+al editorial boards and program committees.</span></p><p class=3D"s7" style=3D=
+"margin-top: 0px; margin-bottom: 10px; "><span style=3D"-webkit-text-size-ad=
+just: auto; background-color: rgba(255, 255, 255, 0);"><span class=3D"s8">Hi=
+s research is primarily on Computer Systems Architecture including multi-thr=
+eaded and multi-core processors, cache memories and hardware assisted memory=
+ managers. He also conducted research in the area of formal methods, paralle=
+l processing, and real-time systems. He published more than 150 technical pa=
+pers in these ar</span><span class=3D"s8">eas. He received more than US $</s=
+pan><span class=3D"s8">5&nbsp;</span><span class=3D"s8">M in&nbsp;</span><sp=
+an class=3D"s8">research grants. He graduated 14</span><span class=3D"s8">&n=
+bsp;PhDs and more than 35 MS students. He received his PhD from Southern Met=
+hodist University in Dallas Texas and a BS in EE from the Indian Institute o=
+f Science in Bangalore, India.</span></span></p><br><span style=3D"-webkit-t=
+ext-size-adjust: auto;">****************************************************=
+***</span><div style=3D"-webkit-text-size-adjust: auto; ">Dr. Madhu mutyam</=
+div><div style=3D"-webkit-text-size-adjust: auto; ">Associate Professor</div=
+><div style=3D"-webkit-text-size-adjust: auto; ">Dept. of CSE</div><div styl=
+e=3D"-webkit-text-size-adjust: auto; ">IIT Madras</div><div style=3D"-webkit=
+-text-size-adjust: auto; ">Chennai 36</div><div style=3D"-webkit-text-size-a=
+djust: auto; ">Ph: 044 2257 4379</div></blockquote></body></html>=
+
+--Apple-Mail-49E6F545-4306-4BB8-A84F-66DF441CBB1B--

@@ -1,0 +1,88 @@
+Return-Path: shankar@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 14 Apr 2014 12:09:18 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0138CF78039;
+	Mon, 14 Apr 2014 12:09:14 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 3.141
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.141 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_IMAGE_ONLY_20=1.546,
+	HTML_MESSAGE=0.001, RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 4zJbU0jOWbim; Mon, 14 Apr 2014 12:09:07 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3685DF78033;
+	Mon, 14 Apr 2014 12:09:06 +0530 (IST)
+Date: Mon, 14 Apr 2014 12:09:06 +0530 (IST)
+From: Shankar Balachandran <shankar@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <649687699.41816.1397457546117.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk on DRAM by Vivek Seshadri
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_41815_506787043.1397457546116"
+X-Originating-IP: [10.23.1.177]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_41815_506787043.1397457546116
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All 
+
+Please find the details of a talk on DRAM below. 
+
+Title: Towards a Better DRAM Design 
+Speaker: Vivek Seshadri 
+Date and Time: 15th April 2014 (Tuesday), 11am 
+Venue: BSB 361 
+
+Vivek will be available for meeting with students/faculty from 1pm to 2:15pm. If you would like to meet him, please send me a note and I will reserve a room for meetings. 
+
+Regards 
+Shankar 
+Abstract: 
+
+In this talk, I will present some techniques to improve the performance and efficiency of DRAM-based memories. The talk consists of two parts. In the first part, I will present a tutorial on how DRAM is designed today. This should provide the necessary background for understanding the techniques presented in the second part. In the second part, I will present three techniques that improve the latency (Tiered-Latency DRAM), parallelism (Subarray-Level Parallelism) and bandwidth (RowClone) of DRAM. Our techniques require very few changes to existing DRAM design and hence, are low cost. 
+
+Speaker Bio: 
+
+Vivek Seshadri is a PhD student at Carnegie Mellon University. He is advised by Prof. Todd C. Mowry and Prof. Onur Mutlu. His research interests include DRAM microarchitecture, cache management, and computer architecture/systems in general. He received his Bachelor of Technology in Computer Science from the Indian Institute of Technology, Madras in 2009. 
+
+
+------=_Part_41815_506787043.1397457546116
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All<br><br>Please find the details of a talk on DRAM below.<br><br>
+Title: Towards a Better DRAM Design<br>
+Speaker: Vivek Seshadri<br>Date and Time: 15th April 2014 (Tuesday), 11am<b=
+r>Venue: BSB 361<br><br>Vivek will be available for meeting with students/f=
+aculty from 1pm to 2:15pm. If you would like to meet him, please send me a =
+note and I will reserve a room for meetings.<br><br>Regards<br>Shankar<br>
+Abstract:<br>
+<br>
+In this talk, I will present some techniques to improve the performance and=
+ efficiency of DRAM-based memories. The talk consists of two parts. In the =
+first part, I will present a tutorial on how DRAM is designed today. This s=
+hould provide the necessary background for understanding the techniques pre=
+sented in the second part. In the second part, I will present three techniq=
+ues that improve the latency (Tiered-Latency DRAM), parallelism (Subarray-L=
+evel Parallelism) and bandwidth (RowClone) of DRAM. Our techniques require =
+very few changes to existing DRAM design and hence, are low cost.<br><br>Sp=
+eaker Bio:<br><br>Vivek Seshadri is a PhD student at Carnegie Mellon Univer=
+sity. He is advised by Prof. Todd C. Mowry and Prof. Onur Mutlu. His resear=
+ch interests include DRAM microarchitecture, cache management, and computer=
+ architecture/systems in general. He received his Bachelor of Technology in=
+ Computer Science from the Indian Institute of Technology, Madras in 2009.<=
+div class=3D"yj6qo ajU"><div data-tooltip=3D"Show trimmed content" id=3D":u=
+w" class=3D"ajR" role=3D"button" tabindex=3D"0"><img class=3D"ajT" src=3D"h=
+ttps://mail.google.com/mail/u/0/images/cleardot.gif"></div></div></div></bo=
+dy></html>
+------=_Part_41815_506787043.1397457546116--

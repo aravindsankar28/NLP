@@ -1,0 +1,227 @@
+Return-Path: murthy@iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 9 Apr 2014 15:31:56 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id BE98DF78042;
+	Wed,  9 Apr 2014 15:31:53 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.514
+X-Spam-Level: *
+X-Spam-Status: No, score=1.514 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HTML_MESSAGE=0.001, MIME_HTML_ONLY=0.723,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id lmb3tQy4vAmZ; Wed,  9 Apr 2014 15:31:47 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D0E80F7803A;
+	Wed,  9 Apr 2014 15:31:01 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 87E21780706;
+	Wed,  9 Apr 2014 15:34:00 +0530 (IST)
+Received: from mailx1.iitm.ac.in ([203.199.213.9])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201404090948450025512; Wed, 09 Apr 2014 15:18:45 +0530
+Received: from mailx1.iitm.ac.in (127.0.0.1) id h8kbnq0171sg; Wed, 9 Apr 2014 15:18:45 +0530 (envelope-from <murthy@iitm.ac.in>)
+Received: from ARJUNA.IITM.AC.IN ([10.91.11.21])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201404090948450025511; Wed, 09 Apr 2014 15:18:45 +0530
+Received: from BHIMA.IITM.AC.IN ([10.91.11.12]) by ARJUNA.IITM.AC.IN ([::1])
+ with mapi id 14.03.0123.003; Wed, 9 Apr 2014 15:36:34 +0530
+From: Siva Ram Murthy C <murthy@iitm.ac.in>
+To: faculty <faculty@cse.iitm.ac.in>
+CC: "students@cse.iitm.ac.in" <students@cse.iitm.ac.in>,
+	"staff@cse.iitm.ac.in" <staff@cse.iitm.ac.in>, "ramesh@usc.edu"
+	<ramesh@usc.edu>, Suresh OAA <oaasuresh@iitm.ac.in>, csoffice
+	<csoffice@cse.iitm.ac.in>, "Office  Computer Science" <csoffice@iitm.ac.in>
+Subject: CSE DAA Seminar: Every Millisecond Counts, April 16, 4pm, CS 25
+Thread-Topic: CSE DAA Seminar: Every Millisecond Counts, April 16, 4pm, CS 25
+Thread-Index: AQHPU9tUauTTqlzxqEyQrW7Ynsb97Q==
+Date: Wed, 9 Apr 2014 10:02:00 +0000
+Message-ID: <FD31FAAB9FB3374FA5858C3AEDE71E97E69C4E@bhima.iitm.ac.in>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [10.91.0.37]
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Mlf-Version: 7.4.5.1439
+X-Mlf-UniqueId-History: o201404090948450025511
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: every,delivery,low,cs,portend,clients,dr,ramesh,cloud,routing,bio,latency,ph.d,i
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 203.199.213.9
+X-Mlf-Country-Code: IN
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201404090948450025512
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css">=0A=
+<!--=0A=
+p=0A=
+	{margin:0}=0A=
+-->=0A=
+</style><style id=3D"owaParaStyle" type=3D"text/css">P {margin-top:0;margin=
+-bottom:0;}</style>
+</head>
+<body ocsi=3D"0" fpstyle=3D"1">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size: =
+10pt;"><span><font color=3D"FF0000" size=3D"2"><span>Indian Institute of Te=
+chnology Madras</span></font><font size=3D"2">
+</font><font color=3D"FF0000"><font size=3D"2"><br>
+Department of Computer Science and Engineering</font><br>
+<br>
+<font size=3D"4">Distinguised Alumnus Award Recipient Seminar</font></font>=
+</span><br>
+<br>
+<font color=3D"993300" size=3D"2"><span>Speaker: Dr.</span><span id=3D"docs=
+-internal-guid-6951bf33-41fa-1e47-6eea-15d0d212bdd4"><span style=3D"font-fa=
+mily: Arial; background-color: transparent; vertical-align: baseline; white=
+-space: pre-wrap;"> Ramesh Govindan, Northrop
+ Grumman<font color=3D"993300"> </font>Chair in Engineering and <br>
+Professor of Computer Science and Electrical Engineering at the University =
+of Southern California.</span></span></font><br>
+<br>
+<font color=3D"0000FF"><span>Date: April 16, 2014, Time: 4 PM<font color=3D=
+"0000FF">, Venue:</font> CS 25</span></font><br>
+<br>
+<span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backgro=
+und-color:transparent; vertical-align:baseline; white-space:pre-wrap">Title=
+: Every Millisecond Counts</span><span id=3D"docs-internal-guid-6951bf33-41=
+fa-1e47-6eea-15d0d212bdd4">
+<br>
+<span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backgro=
+und-color:transparent; vertical-align:baseline; white-space:pre-wrap"></spa=
+n>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap"><br=
+>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">Abs=
+tract:
+<br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap"><br=
+>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">Ove=
+r the last 5 years, the advent of mobile
+ and cloud computing has radically <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">alt=
+ered the structure of the Internet. These
+ advances, together with the increasing <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">eco=
+nomic importance of the Internet, has
+ prompted end-to-end extreme engineering of networks with the aim of improv=
+ing tail performance. In this talk, I will review
+<br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">rec=
+ent advances in engineering for low latency
+ access to web services. Latency <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">imp=
+acts revenue, so large service providers
+ like Google have been taking extraordinary <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">ste=
+ps to engineer their infrastructures to
+ achieve millisecond-level latency improvements, <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">by =
+improving alignment of routing and topology
+ with geography, ensuring proximity to clients, <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">and=
+ optimizing delivery. I will present some
+ work that quantifies these improvements and will discuss what these advanc=
+es portend for networking research.</span></p>
+<br>
+<span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backgro=
+und-color:transparent; vertical-align:baseline; white-space:pre-wrap"></spa=
+n>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">Bio=
+:
+<br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap"><br=
+>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">Ram=
+esh Govindan is the Northrop Grumman Chair
+ in Engineering and Professor of <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">Com=
+puter Science and Electrical Engineering
+ at the University of Southern California. <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">He =
+received his B.Tech. degree from the Indian
+ Institute of Technology at Madras, and his <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">M.S=
+. and Ph.D. degrees from the University
+ of California at Berkeley. &nbsp;<br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">His=
+ research interests include routing and
+ measurements in large internets, <br>
+</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap">net=
+worked sensing systems, and mobile computing
+ systems.</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.15; margin-top:0pt; margin-bottom:0pt=
+"><span style=3D"font-size:15px; font-family:Arial; color:rgb(0,0,0); backg=
+round-color:transparent; vertical-align:baseline; white-space:pre-wrap"><br=
+>
+</span></p>
+</span><br>
+</div>
+</body>
+</html>

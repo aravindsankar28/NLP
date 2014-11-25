@@ -1,0 +1,48 @@
+
+
+Dear All, 
+
+I am happy to invite you all for my first PhD seminar talk on Tuesday , 4 th March, 2014 at BSB 361. Please make it convenient to attend the seminar and give your valuable suggestions. 
+
+The details of the seminar are as follows: 
+
+Topic : Lattice based threshold public key encryption scheme 
+
+Date : 4 th March , 2014 
+Time : 15:00 - 16:00 Hrs 
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineering 
+
+
+
+Abstract: 
+
+
+
+In 1994, Peter Shor showed that prime factorization and discrete logarithms problem can be solved in polynomial time on a quantum computer. In other words, once quantum computer becomes a reality all of the public-key algorithms used to protect the Internet will be broken. It facilitated research on new cryptosystems that are secure from quantum computers, collectively called post-quantum cryptography. Lattice based problems are conjectured to be secure against classical computers as well as quantum computers. Besides being a strong candidate for post-quantum cryptography, Lattice based schemes are relatively efficient implementations, simple and provide strong security guarantee. 
+
+Threshold public key encryption is a cryptographic primitive where a secret key of an organization is distributed among special members called decryption servers (insiders) and a certain threshold number of insiders must cooperate to decrypt any ciphertext. 
+
+In this seminar, we will combine these two primitives and construct the lattice based threshold public key encryption scheme. 
+
+
+
+
+All are Welcome. 
+
+
+
+
+Thanks, 
+
+
+
+
+With regards, 
+
+Kunwar Singh 
+
+CS10D002 
+
+PhD Scholar (External) 
+Dept of CSE 
+IIT Madras 

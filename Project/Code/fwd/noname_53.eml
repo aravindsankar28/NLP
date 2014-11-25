@@ -1,0 +1,111 @@
+Return-Path: adityaka@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sat, 26 Apr 2014 23:15:15 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id C6CC5F7804A;
+	Sat, 26 Apr 2014 23:15:13 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wYK+EghN1Ga9; Sat, 26 Apr 2014 23:15:05 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9223AF78043;
+	Sat, 26 Apr 2014 23:15:04 +0530 (IST)
+Date: Sat, 26 Apr 2014 23:15:04 +0530 (IST)
+From: ADITYA ARVIND KAJWE <adityaka@cse.iitm.ac.in>
+To: seminar@cse.iitm.ac.in, scholars@cse.iitm.ac.in
+Cc: madhu@cse.iitm.ac.in, djram@cse.iitm.ac.in, ravi@cse.iitm.ac.in, 
+	schakra@iitm.ac.in
+Message-ID: <1095145457.1136.1398534304505.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1623251654.1100.1398532834636.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar Invitation
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1135_868539388.1398534304505"
+X-Originating-IP: [10.22.11.131]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_1135_868539388.1398534304505
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+Dear all, 
+
+
+I am presenting my MS seminar talk on Tuesday, 29th April, 2014 at 2:00 PM. 
+Kindly make it convenient to attend the seminar and give your valuable feedback. 
+
+
+Details of the seminar are as follows: 
+
+
+Title : Improving Fairness in Memory Scheduling Using a Team of Learning Automata 
+Speaker : Aditya Arvind Kajwe (CS10S035) 
+Time : 29th April, 2014 (Tuesday) at 2:00 PM 
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineering 
+
+
+Abstract : 
+
+
+The order in which requests to the main memory are scheduled can have a dramatic impact on fairness, 
+performance and power consumption of the memory. With the shift to many-core era, attention has 
+shifted from memory schedulers that do not distinguish between different threads, to thread-aware 
+memory schedulers. Such conventional schedulers deliver low fairness partly because they do not learn 
+from their past decisions. 
+
+
+We propose an intelligent memory scheduling algorithm for systems with multiple memory controllers. 
+Its basic unit is a Finite Action Learning Automaton - a simple model for dynamic decision making in 
+unknown environments. The algorithm is decentralized and the controllers implicitly cooperate with 
+each other without any exchange of information among them. Our technique on a 16-core simulated 
+system gives improvement in fairness for multiprogrammed as well as parallel workloads over Thread 
+Cluster Memory Scheduling algorithm. 
+
+
+Thanks and Regards, 
+
+
+Aditya Arvind Kajwe 
+MS Scholar 
+------=_Part_1135_868539388.1398534304505
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div>Dear all,</div><div><br></div><div>I am presenting my MS seminar talk=
+ on Tuesday, 29th April, 2014 at 2:00 PM.&nbsp;</div><div>Kindly make it co=
+nvenient to attend the seminar and give your valuable feedback.</div><div><=
+br></div><div>Details of the seminar are as follows:</div><div><br></div><d=
+iv><b>Title</b> : Improving Fairness in Memory Scheduling Using a Team of L=
+earning Automata</div><div><b>Speaker</b> : Aditya Arvind Kajwe (CS10S035)<=
+/div><div><b>Time</b> : 29th April, 2014 (Tuesday) at 2:00 PM</div><div><b>=
+Venue</b> : BSB 361, Seminar Hall, Department of Computer Science and Engin=
+eering</div><div><br></div><div><b>Abstract</b>:</div><div><br></div><div>T=
+he order in which requests to the main memory are scheduled can have a dram=
+atic impact on fairness,&nbsp;</div><div>performance and power consumption =
+of the memory. With the shift to many-core era, attention has&nbsp;</div><d=
+iv>shifted from memory schedulers that do not distinguish between different=
+ threads, to thread-aware&nbsp;</div><div>memory schedulers. Such conventio=
+nal schedulers deliver low fairness partly because they do not learn&nbsp;<=
+/div><div>from their past decisions.</div><div><br></div><div>We &nbsp;prop=
+ose an intelligent memory scheduling algorithm for systems with multiple me=
+mory controllers.</div><div>Its basic unit is a Finite Action Learning Auto=
+maton - a simple model for dynamic decision making in&nbsp;</div><div>unkno=
+wn environments. The algorithm is decentralized and the&nbsp;controllers&nb=
+sp;implicitly cooperate with&nbsp;</div><div>each other without any exchang=
+e of information among them. Our technique on a 16-core simulated&nbsp;</di=
+v><div>system gives improvement in fairness for multiprogrammed as well as =
+parallel workloads over Thread&nbsp;</div><div>Cluster Memory Scheduling al=
+gorithm.</div><div><br></div><div>Thanks and Regards,</div><div><br></div><=
+div><i>Aditya Arvind Kajwe</i></div><div><i>MS Scholar</i></div>
+</div></body></html>
+------=_Part_1135_868539388.1398534304505--

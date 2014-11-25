@@ -1,0 +1,134 @@
+Return-Path: kalyantv@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 18 Aug 2014 06:05:30 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 90D74F781B8;
+	Mon, 18 Aug 2014 06:05:18 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rM-PjSmvlATF; Mon, 18 Aug 2014 06:05:15 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 73B5DF781B3;
+	Mon, 18 Aug 2014 06:05:14 +0530 (IST)
+Date: Mon, 18 Aug 2014 06:05:14 +0530 (IST)
+From: T V Kalyan <kalyantv@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>, scholars  <scholars@cse.iitm.ac.in>
+Message-ID: <474365215.51037.1408322114392.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: PhD Seminar - Gentle reminder
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_51036_24816219.1408322114391"
+X-Originating-IP: [10.93.0.36]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_51036_24816219.1408322114391
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+Hi all, 
+This is a gentle reminder for my seminar. 
+
+thank you, 
+----------------------------------------------------- 
+Hi all, 
+I am happy to share our experience and findings in 'DRAM based main memory' as part of my PhD seminar. I will also be presenting the required basics for ease of understanding the concepts. Please make it convenient to attend and drop-in yours views and insights. 
+
+Below are the details of the talk and the abstract. 
+
+
+
+Title: Performance and Energy-Efficiency Improvement Techniques for a DRAM based Main Memory 
+
+Day: 18th Aug 2014 , 
+
+
+Time: 3.00PM to 4.00PM 
+
+Venue: BSB 361 
+
+
+
+
+Abstract: 
+
+
+
+
+Even though on-chip caches addressing the memory wall problem are very effective, processor's performance is heavily dependent on main memory. Also, the power consumption of main memory has reached a level where it is almost equal to the processor power, contributing a significant fraction to the overall system power. DRAM has become the ubiquitous solution for memory in all the types of systems (from servers to smartphones). Motivated by the internal architecture of the DRAM devices, in this talk we present two techniques that address the performance and power consumption issue of the main memory. 
+
+
+
+To improve performance, we target the refresh operation and try to reduce its impact on overall system performance. In high-density DRAM devices the amount of time the device spends in refresh is increasing, decreasing the availability of the memory device to the memory controller. We show that with simple modifications to the peripheral circuitry of the DRAM bank, the available parallelism-in-access among different sub-arrays within a bank can be exploited to reduce the time taken to refresh. 
+
+The second technique we present addresses the power consumption in memory. Observing that in a multi-core setup, per memory access the activated page is underutilized, we propose to reduce the page size of the memory. By effectively reducing the number of DRAM cells that are activated per memory request, we significantly reduce the energy consumed during activation and precharge operations. We show that without any disruptive changes to the existing DRAM devices, one can activate half or one-fourth of a page and achieve significant savings in dynamic energy of the memory without any performance loss. 
+thank you, 
+
+-- regards, 
+t v kalyan 
+CS09D017 
+
+------=_Part_51036_24816219.1408322114391
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><div style="font-family: Times New Roman; font-size: 12pt; color: #000000">Hi all,<br>This is a gentle reminder for my seminar.<br><br>thank you,<br>-----------------------------------------------------<br>Hi all,<br>I
+ am happy to share our experience and findings in 'DRAM based main 
+memory' as part of my PhD seminar. I will also be presenting the 
+required basics for ease of understanding the concepts. Please make it 
+convenient to attend and drop-in yours views and insights.<br><br>Below are the details of the talk and the abstract.<br><br><p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Title:
+Performance and Energy-Efficiency Improvement Techniques for a DRAM based Main
+Memory</span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Day:
+<span class="Object" id="OBJ_PREFIX_DWT425">18th Aug 2014</span>, <br></span></p><p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Time: 3.00PM to 4.00PM</span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Venue:
+BSB 361</span></p><p class="MsoNoSpacing"><br><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"></span></p><p class="MsoNoSpacing"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Abstract:</span></p><p class="MsoNoSpacing"><br></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Even though
+on-chip caches addressing the memory wall problem are very effective, processor's
+performance is heavily dependent on main memory. Also, the power consumption of
+main memory has reached a level where it is almost equal to the processor power,
+contributing a significant fraction to the overall system power. DRAM has become
+the ubiquitous solution for memory in all the types of systems (from servers to
+smartphones). Motivated by the internal architecture of the DRAM devices, in
+this talk we present two techniques that address the performance and power
+consumption issue of the main memory.</span></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To improve
+performance, we target the refresh operation and try to reduce its impact on
+overall system performance. In high-density DRAM devices the amount of time the
+device spends in refresh is increasing, decreasing the availability of the
+memory device to the memory controller. We show that with simple modifications
+to the peripheral circuitry of the DRAM bank, the available
+parallelism-in-access among different sub-arrays within a bank can be exploited
+to reduce the time taken to refresh.</span></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:normal;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:Calibri;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">The second technique we present addresses the
+power consumption in memory. Observing that in a multi-core setup, per memory
+access the activated page is underutilized, we propose to reduce the page size
+of the memory. By effectively reducing the number of DRAM cells that are
+activated per memory request, we significantly reduce the energy consumed
+during activation and precharge operations. We show that without any disruptive
+changes to the existing DRAM devices, one can activate half or one-fourth of a
+page and achieve significant savings in dynamic energy of the memory without
+any performance loss.</span>
+
+<br>thank you,<br><br>-- regards,<br>t v kalyan<br>CS09D017<br></div></div></body></html>
+------=_Part_51036_24816219.1408322114391--

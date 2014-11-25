@@ -1,0 +1,129 @@
+Return-Path: shankar@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 21 Aug 2013 09:29:12 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9C9232198005;
+	Wed, 21 Aug 2013 09:29:09 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.209
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.209 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_50=0.8, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id BYJhrusbGRvU; Wed, 21 Aug 2013 09:29:08 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 194702198002
+	for <seminar@cse.iitm.ac.in>; Wed, 21 Aug 2013 09:29:08 +0530 (IST)
+Date: Wed, 21 Aug 2013 09:29:07 +0530 (IST)
+From: Shankar Balachandran <shankar@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1798047301.1949.1377057547912.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1142672885.1943.1377057501818.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk by Anirudh Sivaraman on Thursday, 22nd August @2pm
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1948_212849308.1377057547911"
+X-Originating-IP: [10.6.11.27]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_1948_212849308.1377057547911
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Dear All=20
+
+
+Please mark your calendar for a talk by Anirudh Sivaraman on a new transpor=
+t protocol=20
+for interactive applications. He is our alumnus from the 2010 B. Tech batch=
+.=20
+
+
+Venue : BSB 361=20
+Date : 22 August, 2013=20
+Time : 2 pm=20
+
+Title:=20
+------=20
+Sprout : Stochastic Forecasts Achieve High Throughput and Low Delay=20
+over Cellular Networks=20
+
+Abstract:=20
+--------=20
+Sprout is a transport protocol for interactive applications that=20
+desire high throughput and low delay. Sprout does not use TCP-style=20
+reactive congestion control; instead the receiver observes the packet=20
+arrival times to infer the uncertain dynamics of the network path.=20
+This inference is used to forecast how many bytes may be sent by the=20
+sender, while bounding the risk that packets will be delayed inside=20
+the network for too long. In evaluations on traces from commercial LTE=20
+and 3G networks, Sprout achieved 2=E2=80=934 times the throughput of Skype,=
+=20
+Apple Facetime, and Google Hangout, while reducing self-inflicted=20
+delay by 7=E2=80=939 times. Sprout is joint work with Keith Winstein and Ha=
+ri=20
+Balakrishnan. For more details, please visit: http://alfalfa.mit.edu=20
+
+Bio:=20
+---------=20
+Anirudh Sivaraman is a third year Phd student at MIT working with=20
+Professor Hari Balakrishnan. He previously completed his Masters at=20
+MIT in 2012, and his BTech in Computer Science and Engineering at IIT=20
+Madras in 2010. His current research interests are in the areas of=20
+mobile computing and cellular wireless networks. While at IITM, along=20
+with a few others, he started iBOT, IITM's Robotics Club. He was also=20
+active in the organizing committee of Shaastra as Robotics Coordinator=20
+in 2008, and Events Core in 2009.
+------=_Part_1948_212849308.1377057547911
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><meta http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf-8"><=
+span class=3D"Apple-style-span" style=3D"font-size: 12.5px; border-collapse=
+: collapse; color: rgb(34, 34, 34); font-family: arial, sans-serif; "><div>=
+<span class=3D"Apple-style-span" style=3D"font-size: 12.5px; border-collaps=
+e: collapse; color: rgb(34, 34, 34); font-family: arial, sans-serif; ">Dear=
+ All</span></div><div><span class=3D"Apple-style-span" style=3D"font-size: =
+12.5px; border-collapse: collapse; color: rgb(34, 34, 34); font-family: ari=
+al, sans-serif; "><br></span></div><div><span class=3D"Apple-style-span" st=
+yle=3D"font-size: 12.5px; border-collapse: collapse; color: rgb(34, 34, 34)=
+; font-family: arial, sans-serif; ">Please mark your calendar for a talk by=
+ Anirudh Sivaraman on a new transport protocol</span></div><div><span class=
+=3D"Apple-style-span" style=3D"font-size: 12.5px; border-collapse: collapse=
+; color: rgb(34, 34, 34); font-family: arial, sans-serif; ">for interactive=
+ applications. He is our alumnus from the 2010 B. Tech batch.</span></div><=
+div><span class=3D"Apple-style-span" style=3D"font-size: 12.5px; border-col=
+lapse: collapse; color: rgb(34, 34, 34); font-family: arial, sans-serif; ">=
+<br></span></div><div><span class=3D"Apple-style-span" style=3D"font-size: =
+12.5px; border-collapse: collapse; color: rgb(34, 34, 34); font-family: ari=
+al, sans-serif; ">Venue : BSB 361</span></div><div>Date &nbsp; : 22 August,=
+ 2013</div><div>Time &nbsp; : 2 pm</div><div><br></div>Title:<br>------<br>=
+Sprout : Stochastic Forecasts Achieve High Throughput and Low Delay<br>over=
+ Cellular Networks<br><br>Abstract:<br>--------<br>Sprout is a transport pr=
+otocol for interactive applications that<br>desire high throughput and low =
+delay. Sprout does not use TCP-style<br>reactive congestion control; instea=
+d the receiver observes the packet<br>arrival times to infer the uncertain =
+dynamics of the network path.<br>This inference is used to forecast how man=
+y bytes may be sent by the<br>sender, while bounding the risk that packets =
+will be delayed inside<br>the network for too long. In evaluations on trace=
+s from commercial LTE<br>and 3G networks, Sprout achieved 2=E2=80=934 times=
+ the throughput of Skype,<br>Apple Facetime, and Google Hangout, while redu=
+cing self-inflicted<br>delay by 7=E2=80=939 times. Sprout is joint work wit=
+h Keith Winstein and Hari<br>Balakrishnan. For more details, please visit:&=
+nbsp;<a href=3D"http://alfalfa.mit.edu/" target=3D"_blank" style=3D"color: =
+rgb(17, 85, 204); ">http://alfalfa.mit.edu</a><br><br>Bio:<br>---------<br>=
+Anirudh Sivaraman is a third year Phd student at MIT working with<br>Profes=
+sor Hari Balakrishnan. He previously completed his Masters at<br>MIT in 201=
+2, and his BTech in Computer Science and Engineering at IIT<br>Madras in 20=
+10. His current research interests are in the areas of<br>mobile computing =
+and cellular wireless networks. While at IITM, along<br>with a few others, =
+he started iBOT, IITM's Robotics Club. He was also<br>active in the organiz=
+ing committee of Shaastra as Robotics Coordinator<br>in 2008, and Events Co=
+re in 2009.</span></div></body></html>
+------=_Part_1948_212849308.1377057547911--

@@ -1,0 +1,159 @@
+Return-Path: rajeev@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 2 May 2014 13:41:37 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B014FF7811C;
+	Fri,  2 May 2014 13:41:35 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id uiyc0eaPl7gk; Fri,  2 May 2014 13:41:27 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A81E7F7805B;
+	Fri,  2 May 2014 13:41:26 +0530 (IST)
+Date: Fri, 2 May 2014 13:41:26 +0530 (IST)
+From: rajeev@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>, phd  <phd@cse.iitm.ac.in>, 
+	ms@cse.iitm.ac.in, donlab-cse-iitm@googlegroups.com, 
+	cse-speech@googlegroups.com
+Cc: sutanuc  <sutanuc@cse.iitm.ac.in>, djram  <djram@cse.iitm.ac.in>, 
+	hema  <hema@cse.iitm.ac.in>, khemani  <khemani@cse.iitm.ac.in>, 
+	raju@ee.iitm.ac.in, rvenkat@ee.iitm.ac.in, csoffice@cse.iitm.ac.in
+Message-ID: <1445064331.7289.1399018286571.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <2110981690.7280.1399017327669.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Ph.D Seminar Talk
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7288_1588050921.1399018286570"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_7288_1588050921.1399018286570
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+
+
+Dear all,=20
+
+I am presenting my Ph.D seminar talk on Tuesday , 6th May , 2014 at 3:30 PM=
+ . Kindly make it convenient to attend the seminar and give your valuable s=
+uggestions.=20
+
+The details of the talk are as follows.=20
+
+
+Title : Group Delay based Prominent Pitch Extraction from Polyphonic Music=
+=20
+Date : 6th May 2014=20
+Time : 3.30 PM=20
+Venue : BSB361, Seminar Hall, Department of Computer Science=20
+
+
+
+Abstract of the talk:=20
+--------------------=20
+
+
+
+A novel phase based method for predominant melodic pitch extraction from po=
+lyphonic music is proposed . The single (monophonic) pitch sequence that a =
+listener might reproduce when asked to hum or whistle a polyphonic piece of=
+ musi c is known as melody. In the proposed method, the power spectrum of t=
+he music signal is first flattened in order to annihilate system characteri=
+stics, while emphasising the source characteristics. The flattened magnitud=
+e spectrum is treated as a time domain signal. The modified group delay fun=
+ction of this signal produces peaks at multiples of the pitch period. The f=
+irst three peaks are used to determine the actual pitch period. To address =
+the effects of pitch doubling or halving, a dynamic programming based appro=
+ach is used to ensure pitch continuity across frames and reduce errors. Dyn=
+amic variation of pitch is captured by adaptive windowing in which the wind=
+owsize is determined by fixing a static threshold on autocorrelation of Fou=
+rier transform magnitude of frames with a lag. Voicing detection is perform=
+ed using the normalized harmonic energy. The perfor-mance of the proposed s=
+ystem was evaluated on five datasets:ADC-2004, LabROSA, MIREX-2008, MIR-1K =
+and Carnatic dataset. The performance of the proposed phase based method is=
+ comparable to that of other magnitude spectrum based methods=20
+
+
+
+
+ALL ARE WELCOME=20
+
+
+Thanks and Regards,=20
+
+Rajeev Rajan(CS10D014)=20
+
+DON Lab=20
+
+Dept. of Computer Science and Engg.=20
+
+
+
+------=_Part_7288_1588050921.1399018286570
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><div dir="ltr"><div class="gmail_default" style="font-family:arial,helvetica,sans-serif"><blockquote style="font-family:arial,sans-serif;font-size:13px"><div dir="ltr"><div>Dear all,<br><br>I am presenting my&nbsp; Ph.D seminar talk&nbsp;<span class=""><span class="">on&nbsp;<span class="" id="OBJ_PREFIX_DWT65" style="color:rgb(0,0,139)"><span class="Object" id="OBJ_PREFIX_DWT44">Tuesday</span></span></span></span>, <span class="" id="OBJ_PREFIX_DWT66" style="color:rgb(0,0,139)"><span class="Object" id="OBJ_PREFIX_DWT45">6th May</span></span>, 2014&nbsp;at&nbsp;<span class=""><span class="">3:30 PM</span></span>. Kindly make it convenient to attend the seminar and give your valuable suggestions.<br>
+
+<br>The details of the talk are as follows.<br><br></div><div>Title &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; : &nbsp;&nbsp; Group Delay based Prominent Pitch Extraction from Polyphonic Music<br>
+
+Date &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : &nbsp;&nbsp;&nbsp; 6th May<span class=""><span class=""> 2014</span></span>
+
+
+	
+	
+	
+	<style type="text/css">P { margin-bottom: 0.21cm; }</style>
+
+
+
+
+</div><div>Time&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; : &nbsp; &nbsp; 3.30 <span class=""><span class="">PM</span></span></div><div>Venue&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; : &nbsp; &nbsp; BSB361, Seminar Hall, Department of Computer Science<br><br><p style="margin:0px 0px 0in" align="justify">
+
+Abstract of the talk:<br>--------------------</p><p style="margin:0px 0px 0in">
+
+
+	
+	
+	
+	<style type="text/css">P { margin-bottom: 0.21cm; }</style>
+
+
+</p><p style="margin-bottom: 0cm" align="JUSTIFY"><font face="serif"><font style="font-size: 9pt" size="2">A novel phase based method for predominant melodic pitch
+extraction from polyphonic music is proposed. The single (monophonic) pitch
+sequence that a listener might reproduce when asked to hum or whistle
+a polyphonic piece of musi c is known as melody. In the proposed
+method, the power spectrum of the music signal is first flattened in
+order to annihilate system characteristics, while emphasising the
+source characteristics. The flattened magnitude spectrum is treated
+as a time domain signal. The  modified group delay function of this
+signal produces peaks at multiples of the pitch period. The first
+three peaks are used to determine the actual pitch period. To address
+the effects  of pitch doubling or halving, a dynamic programming
+based approach is used to ensure pitch continuity across frames and
+reduce errors. Dynamic variation of pitch is captured by adaptive
+windowing in which the windowsize is determined by fixing a static
+threshold on autocorrelation of Fourier transform magnitude of frames
+with a lag. Voicing detection is performed using the normalized
+harmonic energy. The perfor-mance of the proposed system was
+evaluated on five datasets:ADC-2004, LabROSA, MIREX-2008, MIR-1K and
+Carnatic dataset. The performance of the proposed phase based method
+is comparable to that  of other  magnitude  spectrum based methods</font></font></p>
+
+</div></div></blockquote><blockquote style="font-family:arial,sans-serif;font-size:13px"><div dir="ltr"><p style="margin:0px 0px 0in;text-align:center"><font face="arial, sans-serif">ALL ARE WELCOME</font></p><br><p style="margin:0px 0px 0in">
+
+Thanks and Regards,</p><p style="margin:0px 0px 0in">Rajeev Rajan(CS10D014)</p><p style="margin:0px 0px 0in">DON Lab</p><p style="margin:0px 0px 0in">Dept. of Computer&nbsp; Science and Engg.<br></p><div><br></div></div></blockquote></div>
+</div></div></body></html>
+------=_Part_7288_1588050921.1399018286570--

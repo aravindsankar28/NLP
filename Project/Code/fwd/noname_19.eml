@@ -1,0 +1,151 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 25 Aug 2014 12:03:14 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0F01BF781D4;
+	Mon, 25 Aug 2014 12:03:12 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.367
+X-Spam-Level: *
+X-Spam-Status: No, score=1.367 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id PyHn-WH3JyK5; Mon, 25 Aug 2014 12:03:06 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D357CF78135;
+	Mon, 25 Aug 2014 12:03:05 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id F3ADE780A71;
+	Mon, 25 Aug 2014 12:27:52 +0530 (IST)
+Authentication-Results: mailx1.iitm.ac.in;
+	spf=pass smtp.mailfrom=ravindran.b@gmail.com;
+Received: from mail-la0-f50.google.com ([209.85.215.50])
+	by mailx1.iitm.ac.in (SonicWALL 8.0.1.2355)
+	with ESMTP id 201408250656420055181; Mon, 25 Aug 2014 12:26:44 +0530
+Received: by mail-la0-f50.google.com with SMTP id pi18so12219539lab.23
+        for <multiple recipients>; Sun, 24 Aug 2014 23:57:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=8J711NCsjD7Y6DntKIwV6Wh6nmogcYh0Gu06jxHyyDs=;
+        b=Fm8qQreZ8LSDrGNpoCDJEco8/wMsN7+r9GD3yCJLFTkNI907Oxy14NHV4NCSF9un2c
+         TjvCH8RAZPbSM5ShYE1Aioe69b53GdzAGNMYNxM3LWAednm8nP+D9kAxdCDFT70cc4b8
+         w4spsa0/Ga0uGKoCNUPLX55kLN+1FWamUo439Fd03VTccQ4GSB4+6GOTzbALGJsdFkAn
+         rBTNRt+FF4kdrDm8xs1GrDzN+YU33qS0oZjSnMuI8iGCfVHjtZwgVNY9j27kvlrdbFHu
+         EDh924IFSBuCcPE71sqoPA9U8mA+O/TUwpvzqAiNSIkFHPVIP6/vnJLOdkLpo3brcyDd
+         OQ9A==
+MIME-Version: 1.0
+X-Received: by 10.152.234.236 with SMTP id uh12mr19460992lac.31.1408949869595;
+ Sun, 24 Aug 2014 23:57:49 -0700 (PDT)
+Received: by 10.152.148.163 with HTTP; Sun, 24 Aug 2014 23:57:49 -0700 (PDT)
+Date: Mon, 25 Aug 2014 12:27:49 +0530
+Message-ID: <CAJ0Bqjj1EO8CuKHFNBb8sCcjQczcWtLMROpeXKcUnUFq_mWSPQ@mail.gmail.com>
+Subject: Machine Learning Seminar Tuesday, 26th, 10 a.m. (Tomorrow)
+From: Balaraman Ravindran <ravindran.b@gmail.com>
+To: seminar@cse.iitm.ac.in, rise-iil <rise-iil@cse.iitm.ac.in>, 
+	DataAnalytics IITM <data.analytics.iitm@gmail.com>, 
+	Krishna Jagannathan <krishnaj@ee.iitm.ac.in>, Radhakrishna Ganti <rganti@ee.iitm.ac.in>
+Content-Type: multipart/alternative; boundary=001a11349d607bd2f305016eb4ba
+X-Mlf-SPF: result=pass;action=none;identity=mailfrom;domain=gmail.com;source=209.85.215.50;details:allowedlist=consider;
+X-Mlf-KeyWords: learning,tomorrow,10,producing,results,plane,present,kernel,algorithm,convergenc
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.215.50
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;other;none;none
+X-Mlf-UniqueId: i201408250656420055181
+
+--001a11349d607bd2f305016eb4ba
+Content-Type: text/plain; charset=UTF-8
+
+Dear All,
+
+Arun Iyer from Yahoo! labs will be giving a talk on "Class Ratio
+Estimation" in the CSE Department Seminar hall (BSB 361) at 10 a.m.,
+tomorrow (Tuesday). Part of this work was recently presented at ICML 2014.
+All are welcome.
+
+Regards
+Ravi.
+
+Title: Maximum mean discrepancy for class ratio estimation: Convergence
+bounds and kernel selection
+
+Abstract:
+In recent times, many real world applications have emerged that require
+estimates of class ratios in an unlabeled instance collection as opposed to
+labels of individual instances in the collection. In this talk, I will
+first explain the problem of class ratio estimation with a motivating
+example. Then I would present how we can use maximum mean discrepancy (MMD)
+in a reproducing kernel Hilbert space (RKHS) for estimating such ratios.
+While producing an estimator is good, it is always better to provide some
+consistency results. To that end, I will present a theoretical analysis of
+the MMD-based estimator by pointing out some of the key steps in the proof
+and also, the implication of the obtained result. Next, I will show how we
+use the insights obtained from the theoretical analysis, to propose a novel
+convex formulation that automatically learns the kernel to be employed in
+the MMD-based estimation. I will briefly present the idea behind cutting
+plane algorithm that we use for solving this formulation. Finally, I will
+end the talk with an empirical comparison of our estimator with several
+existing methods.
+
+Bio:
+Arun Iyer is currently a Research Scholar at Yahoo! Labs, Bangalore and
+also in a Yahoo! sponsored PhD program at IIT Bombay working with Prof.
+Sunita Sarawagi and Dr. Francesco Bonchi. Prior to joining for his PhD
+program, he was working at Yahoo! Labs, Bangalore as a Research Engineer.
+His current research interests is on modelling aggregates of response
+variables on instance collections and various applications of these
+estimators.
+
+--001a11349d607bd2f305016eb4ba
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style><div class=3D"gmail_def=
+ault" style>Dear All,</div><div class=3D"gmail_default" style><br></div><di=
+v class=3D"gmail_default" style>Arun Iyer from Yahoo! labs will be giving a=
+ talk on &quot;Class Ratio Estimation&quot; in the CSE Department Seminar h=
+all (BSB 361) at 10 a.m., tomorrow (Tuesday). Part of this work was recentl=
+y presented at ICML 2014. All are welcome.</div>
+<div class=3D"gmail_default" style><br></div><div class=3D"gmail_default" s=
+tyle>Regards</div><div class=3D"gmail_default" style>Ravi.</div><div class=
+=3D"gmail_default" style><br></div><div class=3D"gmail_default" style>Title=
+: Maximum mean discrepancy for class ratio estimation: Convergence bounds a=
+nd kernel selection</div>
+<div class=3D"gmail_default" style><br></div><div class=3D"gmail_default" s=
+tyle>Abstract:</div><div class=3D"gmail_default" style>In recent times, man=
+y real world applications have emerged that require estimates of class rati=
+os in an unlabeled instance collection as opposed to labels of individual i=
+nstances in the collection. In this talk, I will first explain the problem =
+of class ratio estimation with a motivating example. Then I would present h=
+ow we can use maximum mean discrepancy (MMD) in a reproducing kernel Hilber=
+t space (RKHS) for estimating such ratios. While producing an estimator is =
+good, it is always better to provide some consistency results. To that end,=
+ I will present a theoretical analysis of the MMD-based estimator by pointi=
+ng out some of the key steps in the proof and also, the implication of the =
+obtained result. Next, I will show how we use the insights obtained from th=
+e theoretical analysis, to propose a novel convex formulation that automati=
+cally learns the kernel to be employed in the MMD-based estimation. I will =
+briefly present the idea behind cutting plane algorithm that we use for sol=
+ving this formulation. Finally, I will end the talk with an empirical compa=
+rison of our estimator with several existing methods.</div>
+<div style=3D"font-size:small"><br></div><div style=3D"font-size:small">Bio=
+:</div><div style=3D"font-size:small"><span class=3D"" style=3D"font-family=
+:arial,sans-serif;font-size:13px;background:rgb(255,255,204)">Arun</span><s=
+pan style=3D"font-family:arial,sans-serif;font-size:13px">=C2=A0Iyer is cur=
+rently a Research Scholar at Yahoo! Labs, Bangalore and also in a Yahoo! sp=
+onsored PhD program at IIT Bombay working with Prof. Sunita Sarawagi and Dr=
+. Francesco Bonchi. Prior to joining for his PhD program, he was working at=
+ Yahoo! Labs, Bangalore as a Research Engineer. His current research intere=
+sts is on modelling aggregates of response variables on instance collection=
+s and various applications of these estimators.</span><br>
+</div></div></div>
+
+--001a11349d607bd2f305016eb4ba--

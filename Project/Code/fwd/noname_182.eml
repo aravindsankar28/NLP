@@ -1,0 +1,190 @@
+Return-Path: ssm@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 25 Jun 2013 15:06:42 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D93BD2198005;
+	Tue, 25 Jun 2013 15:06:37 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id BULCn2mjRw2a; Tue, 25 Jun 2013 15:06:37 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id AB399F78123;
+	Tue, 25 Jun 2013 15:06:36 +0530 (IST)
+Date: Tue, 25 Jun 2013 15:06:36 +0530 (IST)
+From: "ssm@cse.iitm.ac.in" <ssm@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: ravi  <ravi@cse.iitm.ac.in>, 
+	"sutanuc@cse.iitm.ac.in" <sutanuc@cse.iitm.ac.in>, 
+	"elango@cse.iitm.ac.in" <elango@cse.iitm.ac.in>, sandipan@iitm.ac.in, 
+	mani10j  <mani10j@gmail.com>
+Message-ID: <35769.49609.1372152996617.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1235481792.49581.1372151123085.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_49608_1297025438.1372152996616"
+X-Originating-IP: [10.22.44.40]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_49608_1297025438.1372152996616
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+
+Dear All, 
+
+
+I will be giving my MS seminar talk on 26 th June , 2013 (Tuesda y ) at 2:00 PM. I request you to kindly attend the seminar and give your valuable suggestions. The details of the talk are as follows: 
+
+
+
+Speaker : Manimaran S S 
+Date : 26-06-2013, Tuesday 
+Time : 14:00 hrs to 15:00 hrs 
+Topic : Policy Iteration on Continuous Domains using Rapidly-Exploring Random Trees 
+Venue : BSB 361, Department of Computer Science and Engineering. 
+
+
+
+
+Abstract 
+
+
+
+Reinforcement Learning(RL) deals with learning optimal control strategies through experience or interactions with the world. One of the major hindrances in extending existing RL techniques to real world scenarios, is their inability to deal with continuous valued variables. Techniques such as variable discretization and using function approximators in place of lookup tables in the original discrete algorithms exist in an offline setting. However, the question of how exactly these interactions should be carried out exists. Attempts have been made to address this problem of online exploration in large and continuous domains. 
+
+In this seminar we present an algorithm - RRTPI that combines ideas from the domain of continuous path planning to clearly provide a method to generate sufficiently representative samples and ensure exploration. Rapidly-exploring random trees(RRTs) are a class of sampling based planning methods that have been used to solve for feasible trajectories from a given starting to goal state in kinodynamic spaces. They can be shown to possess useful properties such as asymptotic completeness and asymptotic optimality. RRTPI is an iterative algorithm that generates sample trajectories based on a value function and then improves the estimate of the value function using the newly generated samples. RRTPI is a sound algorithm that gives specific ways to generate samples such that it has guaranteed exploration properties. The entire algorithm is free from learning rates and exploration control parameters. 
+
+Underactuated and underpowered domains pose a problem for RRTs as the exploration guarantees do not hold. This is because the distance metric used in the algorithms is usually Euclidean distance. Whereas in order to possess good behavior a good distance metric must be `learnt'. We show that RRTPI does this by using the value function as a distance metric. Compared to existing techniques for handling underactuation, our method is more generalized and makes lesser assumptions. 
+
+
+
+
+
+
+All are welcome! 
+
+
+
+
+Regards, 
+
+Manimaran S S, 
+
+CS1 0S026 , 
+
+MS Scholar, 
+
+RISE Lab, 
+
+CSE Department, 
+
+IIT Madras. 
+
+
+------=_Part_49608_1297025438.1372152996616
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div style=3D"font-family: Times New Roman; font-size: 12pt; color: #00000=
+0"><div style=3D"font-family: Times New Roman; font-size: 12pt; color: #000=
+000"><div style=3D"font-family: Times New Roman; font-size: 12pt; color: #0=
+00000"><div style=3D"font-family: 'Times New Roman'; font-size: 12pt; color=
+: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">Dear All,&nbsp;</div=
+><div style=3D"font-family: 'Times New Roman'; font-size: 12pt; color: rgb(=
+0, 0, 0); background-color: rgb(255, 255, 255);"><br></div><div style=3D"fo=
+nt-family: 'Times New Roman'; font-size: 12pt;"><span style=3D"background-c=
+olor: rgb(255, 255, 255);">I will be giving my&nbsp;<span id=3D"DWT408" sty=
+le=3D"color: rgb(0, 0, 0);">MS</span>&nbsp;<span id=3D"DWT410" style=3D"col=
+or: rgb(0, 0, 0);">seminar</span>&nbsp;talk on </span><font style=3D"backgr=
+ound-color: rgb(255, 255, 255);" color=3D"#00008b"><span class=3D"Object" i=
+d=3D"OBJ_PREFIX_DWT281">26th June</span></font><span style=3D"background-co=
+lor: rgb(255, 255, 255);">, 2013 (Tuesda</span><span class=3D"Object" id=3D=
+"OBJ_PREFIX_DWT75" style=3D"background-color: rgb(255, 255, 255); color: rg=
+b(0, 0, 139); cursor: pointer;">y</span><span style=3D"background-color: rg=
+b(255, 255, 255);">) at 2:00 PM. I request you to kindly attend the&nbsp;</=
+span><span id=3D"DWT413" style=3D"color: rgb(0, 0, 0); background-color: rg=
+b(255, 255, 255);">seminar</span><span style=3D"background-color: rgb(255, =
+255, 255);">&nbsp;and give your valuable suggestions.&nbsp;</span><span sty=
+le=3D"background-color: rgb(255, 255, 255); font-size: 12pt;">The details o=
+f the talk are as follows:</span></div><div style=3D"font-family: 'Times Ne=
+w Roman'; font-size: 12pt; background-color: rgb(255, 255, 255);"><span sty=
+le=3D"font-size: 12pt;"><br></span></div><div style=3D"background-color: rg=
+b(255, 255, 255);"><div>Speaker &nbsp;: Manimaran S S<span style=3D"font-si=
+ze: 12pt;"></span></div><div>Date &nbsp; &nbsp; &nbsp; : 26-06-2013, <span =
+class=3D"Object" id=3D"OBJ_PREFIX_DWT282">Tuesday</span></div><div>Time &nb=
+sp; &nbsp; &nbsp;: 14:00 hrs to 15:00 hrs</div><div>Topic &nbsp; &nbsp; : P=
+olicy Iteration on Continuous Domains using Rapidly-Exploring Random Trees<=
+/div><div>Venue &nbsp; &nbsp;: BSB 361, Department of Computer Science and =
+Engineering.</div><div><br></div><div><br></div><div style=3D"text-align: l=
+eft;"><b><u>Abstract</u></b></div><div style=3D"text-align: left;"><br>
+<style type=3D"text/css">
+p, li { white-space: pre-wrap; }
+</style>
+<p style=3D" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-rig=
+ht:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">Reinforceme=
+nt Learning(RL) deals with learning optimal control strategies through expe=
+rience or interactions with the world. One of the major hindrances in exten=
+ding existing RL techniques to real world scenarios, is their inability to =
+deal with continuous valued variables. Techniques such as variable discreti=
+zation and using function approximators in place of lookup tables in the or=
+iginal discrete algorithms exist in an offline setting. However, the questi=
+on of how exactly these interactions should be carried out exists. Attempts=
+ have been made to address this problem of online exploration in large and =
+continuous domains. </p>
+
+<p style=3D" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-rig=
+ht:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">In this sem=
+inar we present an algorithm - RRTPI that combines ideas from the domain of=
+ continuous path planning to clearly provide a method to generate sufficien=
+tly representative samples and ensure exploration. Rapidly-exploring random=
+ trees(RRTs) are a class of sampling based planning methods that have been =
+used to solve for feasible trajectories from a given starting to goal state=
+ in kinodynamic spaces. They can be shown to possess useful properties such=
+ as asymptotic completeness and asymptotic optimality. RRTPI is an iterativ=
+e algorithm that generates sample trajectories based on a value function an=
+d then improves the estimate of the value function using the newly generate=
+d samples. RRTPI is a sound algorithm that gives specific ways to generate =
+samples such that it has guaranteed exploration properties. The entire algo=
+rithm is free from learning rates and exploration control parameters.</p>
+
+<p style=3D" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-rig=
+ht:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">Underactuat=
+ed and underpowered domains pose a problem for RRTs as the exploration guar=
+antees do not hold. This is because the distance metric used in the algorit=
+hms is usually Euclidean distance. Whereas in order to possess good behavio=
+r a good distance metric must be `learnt'. We show that RRTPI does this by =
+using the value function as a distance metric. Compared to existing techniq=
+ues for handling underactuation, our method is more generalized and makes l=
+esser assumptions.</p>
+<p style=3D"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; ma=
+rgin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br>=
+</p></div><div style=3D"text-align: left;"><br><p class=3D"western" style=
+=3D"margin-bottom: 0cm;" align=3D"JUSTIFY"><font size=3D"3">All are welcome=
+!</font></p><p class=3D"western" style=3D"margin-bottom: 0cm;" align=3D"JUS=
+TIFY"><font size=3D"3"><br></font></p><p class=3D"western" style=3D"margin-=
+bottom: 0cm;" align=3D"JUSTIFY"><font size=3D"3">Regards,</font></p><p clas=
+s=3D"western" style=3D"margin-bottom: 0cm;" align=3D"JUSTIFY"><font size=3D=
+"3">Manimaran S S,</font></p><p class=3D"western" style=3D"margin-bottom: 0=
+cm;" align=3D"JUSTIFY"><font size=3D"3">CS1<font size=3D"3">0S026</font>,</=
+font></p><p class=3D"western" style=3D"margin-bottom: 0cm;" align=3D"JUSTIF=
+Y"><font size=3D"3">MS Scholar,</font></p><p class=3D"western" style=3D"mar=
+gin-bottom: 0cm;" align=3D"JUSTIFY"><font size=3D"3">RISE Lab,</font></p><p=
+ class=3D"western" style=3D"margin-bottom: 0cm;" align=3D"JUSTIFY">CSE Depa=
+rtment,</p><p class=3D"western" style=3D"margin-bottom: 0cm;" align=3D"JUST=
+IFY">IIT Madras.</p></div><div style=3D"font-family: 'Times New Roman'; fon=
+t-size: 12pt;"><br></div></div>
+</div></div></div></div></body></html>
+------=_Part_49608_1297025438.1372152996616--

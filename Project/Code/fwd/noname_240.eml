@@ -1,0 +1,88 @@
+Return-Path: golda@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 12 Feb 2013 08:56:39 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id A28FFF7811C;
+	Tue, 12 Feb 2013 08:56:36 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id T4imwN1IP2zw; Tue, 12 Feb 2013 08:56:36 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 97923F78043;
+	Tue, 12 Feb 2013 08:56:35 +0530 (IST)
+Date: Tue, 12 Feb 2013 08:56:35 +0530 (IST)
+From: "golda@cse.iitm.ac.in" <golda@cse.iitm.ac.in>
+To: all <all@cse.iitm.ac.in>, cse-speech  <cse-speech@googlegroups.com>
+Message-ID: <296220051.1662.1360639595558.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Reminder: 1st Ph.D. seminar on 12/2/13
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1661_248536438.1360639595558"
+X-Originating-IP: [10.93.0.36]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (zclient/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_1661_248536438.1360639595558
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All,
+
+I cordially invite you to my first PhD seminar on 12th February, 2013 (Tuesday) at 2 pm at CS 25 (Seminar Hall).
+Kindly attend the seminar and give your valuable suggestions. 
+
+Details of the talk:
+Title: Data Driven Pronunciation Models for Speech Recognition
+Speaker: R. Golda Brunet
+Date: 12th February, 2013 (Tuesday)
+Time: 2 pm
+Venue: CS 25 (Seminar Hall), Dept of CSE
+
+
+Abstract:
+Automatic Speech Recognition (ASR) systems account for wide variability in the acoustic signal through large amounts of training data. From a linguistic point of view, the acoustic variability is a consequence of pronunciation variation. It is well known that  (i) two speakers cannot utter the same words exactly the same way or (ii) a single speaker can not repeat the same word exactly the same way. 
+ To account for this variability ASR systems usually rely on multiple pronunciation lexicons to match an acoustic sequence with a lexical unit. 
+However, the number of lexical variants required for improving recognition performance is not clear as pronunciation varies significantly across dialects.
+
+A systematic study is carried out to observe the effect of pronunciation variation on recognition accuracy. In particular, a data-driven approach is employed to observe pronunciation variation at syllable level. The syllable boundaries are obtained using Group Delay (GD) segmentation. Auditory analysis of the acoustic syllable segments are then carried out to label them. The pronunciation lexicon is then generated from the lables of acoustic syllable segments. The preliminary experiments carried out for TIMIT corpus reveal that the use of prominent pronunciation variants for each dialect leads to improved recognition performance.
+
+Thanks and Regards,
+R. Golda Brunet
+------=_Part_1661_248536438.1360639595558
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style> body {height: 100%; color:#000000; font-size:12pt; font=
+-family:Times New Roman;}</style></head><body>Dear All,<br><br>I cordially =
+invite you to my first PhD seminar on 12th February, 2013 (Tuesday) at 2 pm=
+ at CS 25 (Seminar Hall).<br>Kindly attend the seminar and give your valuab=
+le suggestions. <br><br>Details of the talk:<br>Title: Data Driven Pronunci=
+ation Models for Speech Recognition<br>Speaker: R. Golda Brunet<br>Date: 12=
+th February, 2013 (Tuesday)<br>Time: 2 pm<br>Venue: CS 25 (Seminar Hall), D=
+ept of CSE<br><br><br>Abstract:<br>Automatic Speech Recognition (ASR) syste=
+ms account for wide variability in the acoustic signal through large amount=
+s of training data. From a linguistic point of view, the acoustic variabili=
+ty is a consequence of pronunciation variation. It is well known that&nbsp;=
+ (i) two speakers cannot utter the same words exactly the same way or (ii) =
+a single speaker can not repeat the same word exactly the same way. <br>&nb=
+sp;To account for this variability ASR systems usually rely on multiple pro=
+nunciation lexicons to match an acoustic sequence with a lexical unit. <br>=
+However, the number of lexical variants required for improving recognition =
+performance is not clear as pronunciation varies significantly across diale=
+cts.<br><br>A systematic study is carried out to observe the effect of pron=
+unciation variation on recognition accuracy. In particular, a data-driven a=
+pproach is employed to observe pronunciation variation at syllable level. T=
+he syllable boundaries are obtained using Group Delay (GD) segmentation. Au=
+ditory analysis of the acoustic syllable segments are then carried out to l=
+abel them. The pronunciation lexicon is then generated from the lables of a=
+coustic syllable segments. The preliminary experiments carried out for TIMI=
+T corpus reveal that the use of prominent pronunciation variants for each d=
+ialect leads to improved recognition performance.<br><br>Thanks and Regards=
+,<br>R. Golda Brunet</body></html>
+------=_Part_1661_248536438.1360639595558--

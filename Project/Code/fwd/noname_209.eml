@@ -1,0 +1,106 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 15 Mar 2013 23:22:29 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 397ABF7811D;
+	Fri, 15 Mar 2013 23:22:27 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id MaLiDTFbSEul; Fri, 15 Mar 2013 23:22:26 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3B34DF78035;
+	Fri, 15 Mar 2013 23:22:26 +0530 (IST)
+Date: Fri, 15 Mar 2013 23:22:26 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>, theorycs-iitm-seminars@googlegroups.com
+Message-ID: <432621140.9515.1363369946056.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <424759918.9509.1363369808513.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk on Tuesday on ACM Turing awardees
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9514_614486909.1363369946055"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_9514_614486909.1363369946055
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+Dear All, 
+
+
+Prof. Pandu Rangan will be giving a talk on TUESDAY, the 19th, on the significance of the work of the ACM Turing award winners for this year, Goldwasser and Micali. The details are below. All are welcome. 
+
+
+Regards 
+Ravi. 
+
+Title : Why Goldwasser and Micali received the TURING award? An expository account of (some of) their great ideas..... 
+Speaker : C. Pandu Rangan , IIT Madras 
+Date, Time & Venue : Tue, Mar 19, 2013, 4:00 PM - CS 25 
+
+
+Abstract: The title says it all... 
+------=_Part_9514_614486909.1363369946055
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div><span style=3D"color: rgb(85, 85, 85); font-family: arial, sans-serif=
+; font-size: 14px; line-height: 20.390625px; background-color: rgb(245, 245=
+, 249);">Dear All,</span></div><div><span style=3D"color: rgb(85, 85, 85); =
+font-family: arial, sans-serif; font-size: 14px; line-height: 20.390625px; =
+background-color: rgb(245, 245, 249);"><br></span></div><div><span style=3D=
+"color: rgb(85, 85, 85); font-family: arial, sans-serif; font-size: 14px; l=
+ine-height: 20.390625px; background-color: rgb(245, 245, 249);">Prof. Pandu=
+ Rangan will be giving a talk on TUESDAY, the 19th, on &nbsp;the significan=
+ce of the work of the ACM Turing award winners for this year, Goldwasser an=
+d Micali. The details are below. All are welcome.</span></div><div><span st=
+yle=3D"color: rgb(85, 85, 85); font-family: arial, sans-serif; font-size: 1=
+4px; line-height: 20.390625px; background-color: rgb(245, 245, 249);"><br><=
+/span></div><div><span style=3D"color: rgb(85, 85, 85); font-family: arial,=
+ sans-serif; font-size: 14px; line-height: 20.390625px; background-color: r=
+gb(245, 245, 249);">Regards</span></div><div><span style=3D"color: rgb(85, =
+85, 85); font-family: arial, sans-serif; font-size: 14px; line-height: 20.3=
+90625px; background-color: rgb(245, 245, 249);">Ravi.</span></div><span sty=
+le=3D"color: rgb(85, 85, 85); font-family: arial, sans-serif; font-size: 14=
+px; line-height: 20.390625px; background-color: rgb(245, 245, 249);"><div><=
+span style=3D"color: rgb(85, 85, 85); font-family: arial, sans-serif; font-=
+size: 14px; line-height: 20.390625px; background-color: rgb(245, 245, 249);=
+"><br></span></div>Title :&nbsp;</span><b style=3D"margin: 0px; padding: 0p=
+x; color: rgb(85, 85, 85); font-family: arial, sans-serif; font-size: 14px;=
+ line-height: 20.390625px; background-color: rgb(245, 245, 249);">Why Goldw=
+asser and Micali received the TURING award? An expository account of (some =
+of) their great ideas.....</b><br style=3D"margin: 0px; padding: 0px; color=
+: rgb(85, 85, 85); font-family: arial, sans-serif; font-size: 14px; line-he=
+ight: 20.390625px; background-color: rgb(245, 245, 249);"><span style=3D"co=
+lor: rgb(85, 85, 85); font-family: arial, sans-serif; font-size: 14px; line=
+-height: 20.390625px; background-color: rgb(245, 245, 249);">Speaker :&nbsp=
+;</span><a href=3D"http://www.cse.iitm.ac.in/~theory/memberdetails.php?memb=
+erid=3D4" style=3D"margin: 0px; padding: 0px; outline: none; text-decoratio=
+n: none; color: rgb(160, 32, 15); font-family: arial, sans-serif; font-size=
+: 14px; line-height: 20.390625px; background-color: rgb(245, 245, 249);">C.=
+ Pandu Rangan</a><span style=3D"color: rgb(85, 85, 85); font-family: arial,=
+ sans-serif; font-size: 14px; line-height: 20.390625px; background-color: r=
+gb(245, 245, 249);">, IIT Madras</span><br style=3D"margin: 0px; padding: 0=
+px; color: rgb(85, 85, 85); font-family: arial, sans-serif; font-size: 14px=
+; line-height: 20.390625px; background-color: rgb(245, 245, 249);"><span st=
+yle=3D"color: rgb(85, 85, 85); font-family: arial, sans-serif; font-size: 1=
+4px; line-height: 20.390625px; background-color: rgb(245, 245, 249);">Date,=
+ Time &amp; Venue : Tue, Mar 19, 2013, 4:00 PM - CS 25</span><div><span sty=
+le=3D"color: rgb(85, 85, 85); font-family: arial, sans-serif; font-size: 14=
+px; line-height: 20.390625px; background-color: rgb(245, 245, 249);"><br></=
+span></div><div><span style=3D"color: rgb(85, 85, 85); font-family: arial, =
+sans-serif; font-size: 14px; line-height: 20.390625px; background-color: rg=
+b(245, 245, 249);">Abstract: The title says it all...</span></div></div></b=
+ody></html>
+------=_Part_9514_614486909.1363369946055--

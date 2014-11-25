@@ -1,0 +1,247 @@
+Return-Path: rahulb@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 29 May 2013 09:52:03 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D7DCAF7811C;
+	Wed, 29 May 2013 09:52:00 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.209
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.209 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_50=0.8, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Po7spTgRnXfQ; Wed, 29 May 2013 09:51:56 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 356C0F78035;
+	Wed, 29 May 2013 09:51:56 +0530 (IST)
+Date: Wed, 29 May 2013 09:51:56 +0530 (IST)
+From: Rahul Bharuka <rahulb@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: sounak@iitm.ac.in
+Message-ID: <1062254800.30152.1369801316119.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <568149628.29637.1369725816108.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_30151_506556044.1369801316118"
+X-Originating-IP: [10.6.30.211]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_30151_506556044.1369801316118
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+Dear All,=20
+
+
+I will be giving my MS seminar talk on 4th June , 2013 (Tuesda y ) at 3:00 =
+PM. I request you to kindly attend the seminar and give your valuable sugge=
+stions. The details of the talk are as follows:=20
+
+
+
+Speaker : Rahul Bharuka=20
+Date : 04-06-2013, Tuesday=20
+Time : 15:00 hrs to 16:00 hrs=20
+Topic : On Skylines for Incomplete Data=20
+Venue : BSB 361, Department of Computer Science and Engineering.=20
+
+
+
+
+Abstract=20
+
+
+
+
+Preference queries return answers that are relevant to user requirements. A=
+ subclass of preference queries, called skyline queries, have been extensiv=
+ely studied in the literature for different domains because of their wide a=
+pplications in multi-criteria decision making and search space pruning. A s=
+kyline query returns all the "interesting" points in a multi-dimensional da=
+ta set that are not dominated by any other point with respect to all dimens=
+ions. Most of the skyline query processing approaches assume completeness o=
+f data, i.e. all dimension values are known for all data points. However, i=
+n many real world applications such as location-based services, sensor data=
+ and product/service reviews, data points may have missing values on some d=
+imensions because of various reasons. Traditional skyline query processing =
+algorithms developed for complete data can not be easily adapted for such s=
+ituations because of the non-transitive and potentially cyclic nature of do=
+minance relation that arises in the case of incomplete data. Unfortunately,=
+ skyline query processing for such incomplete data has not received enough =
+attention.=20
+
+
+
+
+In the first part of our work, we have proposed an efficient Sort-based Inc=
+omplete Data Skyline (SIDS) algorithm to compute the skyline over incomplet=
+e data. Extensive experiments on both real world and synthetic data sets de=
+monstrate the efficiency, scalability and incremental behavior of our appro=
+ach over current state-of-the-art ISkyline algorithm. During later part of =
+this work, we have adopted Two Scan Algorithm (TSA), originally proposed fo=
+r computing k-dominant skyline (a variant of traditional skyline) and disco=
+vered that TSA outperforms both ISkyline and SIDS in terms of execution tim=
+e. However, SIDS continues to incur least number of comparisons in majority=
+ of the cases.=20
+
+
+
+
+The size of skyline set increases with number of dimensions. Thus, in high-=
+dimensional space, skyline points no longer offer any interesting insights.=
+ The skyline returned by SIDS also suffers from the same problem. In additi=
+on to this, many desirable data points do not belong to the skyline due to =
+non-transitive and cylic nature of dominance relation. To find more importa=
+nt and meaningful points, various "interestingness" measures have been prop=
+osed in literature for complete data. However, no such effort has been made=
+ till date for incomplete data. The second part of our work deals with find=
+ing superior skyline points from incomplete datasets. We have adopted "freq=
+uent skyline" measure proposed for complete data to compare and rank "inter=
+estingness" of points. This approach is based on how often they are returne=
+d in the skyline when different subspaces are considered. Experimental resu=
+lts on NBA dataset shows that we can find superior skyline points even with=
+ missing data.=20
+
+
+
+
+All are welcome!=20
+
+
+
+
+Regards,=20
+
+Rahul Bharuka,=20
+
+CS11S001,=20
+
+MS Scholar,=20
+
+AIDB Lab,=20
+
+CSE Department,=20
+
+IIT Madras.=20
+
+
+------=_Part_30151_506556044.1369801316118
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><style>p { margin: 0; }</style><div style=3D"font-family: Times New Roman;=
+ font-size: 12pt; color: #000000"><style>p { margin: 0; }</style><div style=
+=3D"font-family: Times New Roman; font-size: 12pt; color: #000000"><div sty=
+le=3D"font-family: 'Times New Roman'; font-size: 12pt; color: rgb(0, 0, 0);=
+ background-color: rgb(255, 255, 255);">Dear All,&nbsp;</div><div style=3D"=
+font-family: 'Times New Roman'; font-size: 12pt; color: rgb(0, 0, 0); backg=
+round-color: rgb(255, 255, 255);"><br></div><div style=3D"font-family: 'Tim=
+es New Roman'; font-size: 12pt;"><span style=3D"background-color: rgb(255, =
+255, 255);">I will be giving my&nbsp;<span id=3D"DWT408" style=3D"color: rg=
+b(0, 0, 0);">MS</span>&nbsp;<span id=3D"DWT410" style=3D"color: rgb(0, 0, 0=
+);">seminar</span>&nbsp;talk on&nbsp;</span><font color=3D"#00008b" style=
+=3D"background-color: rgb(255, 255, 255);">4th June</font><span style=3D"ba=
+ckground-color: rgb(255, 255, 255);">, 2013 (Tuesda</span><span class=3D"Ob=
+ject" id=3D"OBJ_PREFIX_DWT75" style=3D"background-color: rgb(255, 255, 255)=
+; color: rgb(0, 0, 139); cursor: pointer;">y</span><span style=3D"backgroun=
+d-color: rgb(255, 255, 255);">) at 3:00 PM. I request you to kindly attend =
+the&nbsp;</span><span id=3D"DWT413" style=3D"color: rgb(0, 0, 0); backgroun=
+d-color: rgb(255, 255, 255);">seminar</span><span style=3D"background-color=
+: rgb(255, 255, 255);">&nbsp;and give your valuable suggestions.&nbsp;</spa=
+n><span style=3D"background-color: rgb(255, 255, 255); font-size: 12pt;">Th=
+e details of the talk are as follows:</span></div><div style=3D"font-family=
+: 'Times New Roman'; font-size: 12pt; background-color: rgb(255, 255, 255);=
+"><span style=3D"font-size: 12pt;"><br></span></div><div style=3D"backgroun=
+d-color: rgb(255, 255, 255);"><div>Speaker &nbsp;: Rahul&nbsp;<span style=
+=3D"font-size: 12pt;">Bharuka</span></div><div>Date &nbsp; &nbsp; &nbsp; : =
+04-06-2013, Tuesday</div><div>Time &nbsp; &nbsp; &nbsp;: 15:00 hrs to 16:00=
+ hrs</div><div>Topic &nbsp; &nbsp; : On Skylines for Incomplete Data</div><=
+div>Venue &nbsp; &nbsp;: BSB 361, Department of Computer Science and Engine=
+ering.</div><div><br></div><div><br></div><div style=3D"text-align: left;">=
+<b><u>Abstract</u></b></div><div style=3D"text-align: left;"><b><u><br></u>=
+</b></div><div style=3D"text-align: left;">
+=09
+=09
+=09
+
+
+<p class=3D"western" align=3D"JUSTIFY" style=3D"margin-bottom: 0cm;">
+<font size=3D"3">Preference queries return answers that are relevant to
+user requirements. A subclass of preference queries, called skyline
+queries, have been extensively studied in the literature for
+different domains because of their wide applications in
+multi-criteria decision making and search space pruning. A skyline
+query returns all the "interesting" points in a
+multi-dimensional data set that are not dominated by any other point
+with respect to all dimensions. Most of the skyline query processing
+approaches assume completeness of data, i.e. all dimension values are
+known for all data points. However, in many real world applications
+such as location-based services, sensor data and product/service
+reviews, data points may have missing values on some dimensions
+because of various reasons. Traditional skyline query processing
+algorithms developed for complete data can not be easily adapted for
+such situations because of the non-transitive and potentially cyclic
+nature of dominance relation that arises in the case of incomplete
+data. Unfortunately, skyline query processing for such incomplete
+data has not received enough attention.</font></p>
+<p class=3D"western" align=3D"JUSTIFY" style=3D"margin-bottom: 0cm;">
+<br>
+</p>
+<p class=3D"western" align=3D"JUSTIFY" style=3D"margin-bottom: 0cm;">
+<font size=3D"3">In the first part of our work, we have proposed an
+efficient Sort-based Incomplete Data Skyline (SIDS) algorithm to
+compute the skyline over incomplete data. Extensive experiments on
+both real world and synthetic data sets demonstrate the efficiency,
+scalability and incremental behavior of our approach over current
+state-of-the-art ISkyline algorithm. During later part of this work,
+we have adopted Two Scan Algorithm (TSA), originally proposed for
+computing k-dominant skyline (a variant of traditional skyline) and
+discovered that TSA outperforms both ISkyline and SIDS in terms of
+execution time. However, SIDS continues to incur least number of
+comparisons in majority of the cases.</font></p>
+<p class=3D"western" align=3D"JUSTIFY" style=3D"margin-bottom: 0cm;">
+<br>
+</p>
+<p class=3D"western" align=3D"JUSTIFY" style=3D"margin-bottom: 0cm;">
+<font size=3D"3">The size of skyline set increases with number of
+dimensions. Thus, in high-dimensional space, skyline points no longer
+offer any interesting insights. The skyline returned by SIDS also
+suffers from the same problem. In addition to this, many desirable
+data points do not belong to the skyline due to non-transitive and
+cylic nature of dominance relation. To find more important and
+meaningful points, various "interestingness" measures have
+been proposed in literature for complete data. However, no such
+effort has been made till date for incomplete data. The second part
+of our work deals with finding superior skyline points from
+incomplete datasets. We have adopted "frequent skyline"
+measure proposed for complete data to compare and rank
+"interestingness" of points. This approach is based on how
+often they are returned in the skyline when different subspaces are
+considered. Experimental results on NBA dataset shows that we can
+find superior skyline points even with missing data.</font></p><p class=3D"=
+western" align=3D"JUSTIFY" style=3D"margin-bottom: 0cm;"><font size=3D"3"><=
+br></font></p><p class=3D"western" align=3D"JUSTIFY" style=3D"margin-bottom=
+: 0cm;"><font size=3D"3">All are welcome!</font></p><p class=3D"western" al=
+ign=3D"JUSTIFY" style=3D"margin-bottom: 0cm;"><font size=3D"3"><br></font><=
+/p><p class=3D"western" align=3D"JUSTIFY" style=3D"margin-bottom: 0cm;"><fo=
+nt size=3D"3">Regards,</font></p><p class=3D"western" align=3D"JUSTIFY" sty=
+le=3D"margin-bottom: 0cm;"><font size=3D"3">Rahul Bharuka,</font></p><p cla=
+ss=3D"western" align=3D"JUSTIFY" style=3D"margin-bottom: 0cm;"><font size=
+=3D"3">CS11S001,</font></p><p class=3D"western" align=3D"JUSTIFY" style=3D"=
+margin-bottom: 0cm;"><font size=3D"3">MS Scholar,</font></p><p class=3D"wes=
+tern" align=3D"JUSTIFY" style=3D"margin-bottom: 0cm;"><font size=3D"3">AIDB=
+ Lab,</font></p><p class=3D"western" align=3D"JUSTIFY" style=3D"margin-bott=
+om: 0cm;">CSE Department,</p><p class=3D"western" align=3D"JUSTIFY" style=
+=3D"margin-bottom: 0cm;">IIT Madras.</p></div><div style=3D"font-family: 'T=
+imes New Roman'; font-size: 12pt;"><br></div></div>
+</div></div></div></body></html>
+------=_Part_30151_506556044.1369801316118--

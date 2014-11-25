@@ -1,0 +1,154 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 7 May 2013 09:26:49 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 27E79F7811E;
+	Tue,  7 May 2013 09:26:47 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 3.727
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.727 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, FM_SCHOOLING=2.132, HELO_NO_DOMAIN=0.001,
+	HTML_MESSAGE=0.001, RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id QRy8GNsTrXLG; Tue,  7 May 2013 09:26:42 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 58198F78105;
+	Tue,  7 May 2013 09:26:42 +0530 (IST)
+Date: Tue, 7 May 2013 09:26:42 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: Vineeth <vineeth.nb@asu.edu>
+Message-ID: <1981454195.11771.1367899002259.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1993005716.11765.1367898861179.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Department Seminar on Thursday.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_11770_1310431740.1367899002258"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_11770_1310431740.1367899002258
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+
+Dr. Vineeth Balasubramanian from Arizona State University will be giving a =
+talk on "Machine Learning Methods and Applications in Assisted Living". The=
+ talk will be at 4:30 p.m. on Thursday, 9th, in BSB 361. Details below. All=
+ are welcome.=20
+
+
+Regards=20
+Ravi.=20
+
+
+
+TITLE: Towards Behavioural Intelligence: Machine Learning Methods and Appli=
+cations in Assisted Living=20
+
+
+ABSTRACT: The development of computational methods for understanding human =
+behaviour (physical and psychophysiological) presents one of the most excit=
+ing challenges of the next decade in machine learning and its applications.=
+ Behavioural intelligence describes the exclusive human ability to effectiv=
+ely navigate and negotiate complex environments and social relationships, a=
+nd its expression and experience are inherently characterized by individual=
+ and contextual heterogeneity. However, advances in machine analysis of beh=
+avioural cues (e.g., gaze exchange, smiles, head nods, crossed arms, laught=
+er) or social signals (e.g., attention, empathy, agreement) are still in th=
+eir infancy. This talk will present an overview of computational methods fo=
+r understanding non-verbal cues in a Social Interaction Assistant device th=
+at is intended to enrich the experience of social interactions for individu=
+als with visual impairments. In particular, the talk will detail three mach=
+ine learning methods developed for the Social Interaction Assistant: (i) Su=
+pervised manifold learning for head pose estimation; (ii) Efficient conform=
+al predictors for reliable person recognition; and (iii) Batch mode active =
+learning for effective sample selection in video sequences. The obtained re=
+sults show promise in the methods for the respective tasks on publicly avai=
+lable datasets. The talk will conclude with pointers to directions for futu=
+re research in machine learning to achieve behavioural intelligence in real=
+-world settings, which can be applied in a wide range of settings including=
+ smart healthcare, ubiquitous user interfaces, security and surveillance, a=
+nd telecommunication.=20
+
+
+SPEAKER BIO: Vineeth N Balasubramanian is an Assistant Research Professor a=
+t the Center for Cognitive Ubiquitous Computing (CUbiC) in the School of Co=
+mputing, Informatics and Decision Systems Engineering at Arizona State Univ=
+ersity (ASU). He received the PhD degree in Computer Science at ASU in 2010=
+, and his PhD dissertation was nominated for the Outstanding PhD Thesis awa=
+rd at the School of Computing, Informatics and Decision Systems Engineering=
+. He holds dual Masters degrees in Mathematics and Computer Science from Sr=
+i Sathya Sai Institute of Higher Learning, India, and worked at Oracle Corp=
+oration for two years before his doctoral studies. Vineeth was awarded the =
+Gold Medals for Academic Excellence in the Bachelors program in Math in 199=
+9, and for his Masters program in Computer Science in 2003. His research in=
+terests include pattern recognition, machine learning, computer vision and =
+multimedia computing for applications in assistive and healthcare technolog=
+ies. He has published over 40 papers in premier peer-reviewed conferences, =
+workshops and journals. He has organized tutorials in leading conferences s=
+uch as AAAI, and has also served in the organization of top-tier conference=
+s such as ACM Multimedia.=20
+
+
+
+
+------=_Part_11770_1310431740.1367899002258
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<div><br></div><div>Dr. Vineeth Balasubramanian from Arizona Stat=
+e University will be giving a talk on "Machine Learning Methods and Applica=
+tions in Assisted Living". The talk will be at 4:30 p.m. on Thursday, 9th, =
+in BSB 361. Details below. All are welcome.</div><div><br></div><div>Regard=
+s</div><div>Ravi.</div><div><br></div><div><div>TITLE: Towards Behavioural =
+Intelligence: Machine Learning Methods and Applications in Assisted Living<=
+/div><div><br></div><div>ABSTRACT: The development of computational methods=
+ for understanding human behaviour (physical and psychophysiological) prese=
+nts one of the most exciting challenges of the next decade in machine learn=
+ing and its applications. Behavioural intelligence describes the exclusive =
+human ability to effectively navigate and negotiate complex environments an=
+d social relationships, and its expression and experience are inherently ch=
+aracterized by individual and contextual heterogeneity. However, advances i=
+n machine analysis of behavioural cues (e.g., gaze exchange, smiles, head n=
+ods, crossed arms, laughter) or social signals (e.g., attention, empathy, a=
+greement) are still in their infancy. This talk will present an overview of=
+ computational methods for understanding non-verbal cues in a Social Intera=
+ction Assistant device that is intended to enrich the experience of social =
+interactions for individuals with visual impairments. In particular, the ta=
+lk will detail three machine learning methods developed for the Social Inte=
+raction Assistant: (i) Supervised manifold learning for head pose estimatio=
+n; (ii) Efficient conformal predictors for reliable person recognition; and=
+ (iii) Batch mode active learning for effective sample selection in video s=
+equences. The obtained results show promise in the methods for the respecti=
+ve tasks on publicly available datasets. The talk will conclude with pointe=
+rs to directions for future research in machine learning to achieve behavio=
+ural intelligence in real-world settings, which can be applied in a wide ra=
+nge of settings including smart healthcare, ubiquitous user interfaces, sec=
+urity and surveillance, and telecommunication.</div><div><br></div><div>SPE=
+AKER BIO: Vineeth N Balasubramanian is an Assistant Research Professor at t=
+he Center for Cognitive Ubiquitous Computing (CUbiC) in the School of Compu=
+ting, Informatics and Decision Systems Engineering at Arizona State Univers=
+ity (ASU). He received the PhD degree in Computer Science at ASU in 2010, a=
+nd his PhD dissertation was nominated for the Outstanding PhD Thesis award =
+at the School of Computing, Informatics and Decision Systems Engineering. H=
+e holds dual Masters degrees in Mathematics and Computer Science from Sri S=
+athya Sai Institute of Higher Learning, India, and worked at Oracle Corpora=
+tion for two years before his doctoral studies. Vineeth was awarded the Gol=
+d Medals for Academic Excellence in the Bachelors program in Math in 1999, =
+and for his Masters program in Computer Science in 2003. His research inter=
+ests include pattern recognition, machine learning, computer vision and mul=
+timedia computing for applications in assistive and healthcare technologies=
+. He has published over 40 papers in premier peer-reviewed conferences, wor=
+kshops and journals. He has organized tutorials in leading conferences such=
+ as AAAI, and has also served in the organization of top-tier conferences s=
+uch as ACM Multimedia.</div></div><div><br></div><div><br></div></div></bod=
+y></html>
+------=_Part_11770_1310431740.1367899002258--

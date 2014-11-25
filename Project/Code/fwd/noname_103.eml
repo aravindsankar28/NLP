@@ -1,0 +1,95 @@
+Return-Path: mani@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 22 Nov 2013 10:13:16 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 377BF758003;
+	Fri, 22 Nov 2013 10:13:12 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -2.909
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.909 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id F0Qob3v8OpEb; Fri, 22 Nov 2013 10:13:05 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 31AFA75800C;
+	Fri, 22 Nov 2013 10:09:55 +0530 (IST)
+Date: Fri, 22 Nov 2013 10:09:53 +0530 (IST)
+From: Manikantan S <mani@cse.iitm.ac.in>
+Reply-To: Manikantan S <mani@cse.iitm.ac.in>
+To: scholars  <scholars@cse.iitm.ac.in>
+Cc: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <290860974.8232033.1385095193837.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1133212510.5897960.1383880134918.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Research Scholar Forum talk last session for this semester - Nov
+ 25th Monday 3.30 PM, would be presented by Anik Sen Gupta (HPCN Lab)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8232032_1020797151.1385095193837"
+X-Originating-IP: [10.6.6.16]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_8232032_1020797151.1385095193837
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear Scholars 
+
+
+Greetings 
+
+Coming Monday - Nov 25th 2013, will be the last presentation as part of Research Scholar Forum talk for this Semester. 
+
+The presenter is Anik Sen Gupta (HPCN Lab). Anik's publication has been accepted at ICON 2013 (19th IEEE International conference on Networks, taking place at Singapore). 
+As part of the Research Scholar's Forum presentation, Anik will be presenting his publication. 
+
+Title of his talk is "An Efficient Preamble Compression for Multi Clock-rate Sampling Wireless Devices" 
+
+Abstract: The recent trend in wireless communication networks has seen the focus shift from spectrum efficiency to energy efficiency. 
+Use of multi clock-rate sampling devices to provide reduced power idle listening promises to significantly reduce power consumption 
+in wireless devices without affecting throughput or transmission range. However, the use of frequency agnostic preamble to enable 
+multi clock-rate detection causes linear scaling of preamble length, and consequently, the goodput performance of the network suffers. 
+We look at a modification of RObust Header Compression (ROHC) as a means to restrict header length scaling and its applicability in 
+networks of multi-frequency sampling wireless devices. We analyze the modified preamble compression scheme deployed on multi 
+clock-rate sampling wireless devices and determine performance metrics such as channel utilization and goodput across different error 
+rates and downclocking factors. The energy efficiency performance of such a network is also studied. The results obtained are validated using extensive simulation. 
+
+Kindly attend Anik's presentation and share your valuable feedback to make his presentation successful at ICON 2013. 
+
+Since this is the last meeting for this semester, Snacks will be served at the end of the presentation. 
+
+Kind regards 
+Mani 
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar (PhD), 
+High Performance Computing and Networking ( HPCN ) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 
+
+------=_Part_8232032_1020797151.1385095193837
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'>Dear Scholars<br><div style="font-family: Times New Roman; font-size: 12pt; color: #000000"><br>Greetings<br><br>Coming Monday -&nbsp; Nov 25th 2013, will be the last presentation as part of Research Scholar Forum talk for this Semester.<br><br>The presenter is Anik Sen Gupta&nbsp; (HPCN Lab). Anik's publication has been accepted at ICON 2013 (19th IEEE International conference on Networks, taking place at Singapore).<br>As part of the Research Scholar's Forum presentation, Anik will be presenting his publication.<br><br>Title of his talk is "An Efficient Preamble Compression for Multi Clock-rate Sampling Wireless Devices"<br><br>Abstract:
+ The recent trend in wireless communication networks has seen the focus 
+shift from spectrum efficiency to energy efficiency. <br>Use of multi 
+clock-rate sampling devices to provide reduced power idle listening 
+promises to significantly reduce power consumption <br>in wireless devices 
+without affecting throughput or transmission range. However, the use of 
+frequency agnostic preamble to enable <br>multi clock-rate detection causes 
+linear scaling of preamble length, and consequently, the goodput 
+performance of the network suffers. <br>We look at a modification of RObust 
+Header Compression (ROHC) as a means to restrict header length scaling 
+and its applicability in <br>networks of multi-frequency sampling wireless 
+devices. We analyze the modified preamble compression scheme deployed on
+ multi <br>clock-rate sampling wireless devices and determine performance 
+metrics such as channel utilization and goodput across different error 
+<br>rates and downclocking factors. The energy efficiency performance of 
+such a network is also studied. The results obtained are validated using
+ extensive simulation.<br><br>Kindly attend Anik's presentation and share your valuable feedback to make his presentation successful at ICON 2013.<br><br>Since this is the last meeting for this semester, Snacks will be served at the end of the presentation.<br><br>Kind regards<br>Mani<br><span>----------------------------------------------------------------------------<br><span id="DWT282" class="ZM-SPELLCHECK-MISSPELLED">Manikantan</span> (Mani) <span id="DWT283" class="ZM-SPELLCHECK-MISSPELLED">Srinivasan</span><br>Research Scholar (PhD),<br>High Performance Computing and Networking (<span id="DWT284" class="ZM-SPELLCHECK-MISSPELLED">HPCN</span>) Lab,<br>Department of Computer Science and Engineering,<br>Indian Institute of Technology Madras, Chennai.<br>----------------------------------------------------------------------------<span></span></span><br></div></div></body></html>
+------=_Part_8232032_1020797151.1385095193837--

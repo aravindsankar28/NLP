@@ -1,0 +1,55 @@
+Hello,=20
+Prof. D. Janakiram requested software engineering students to attend the 12=
+noon talk at BSB361 and the 3.30pm talk at CS25.=20
+
+Thanks,=20
+Sriram=20
+
+
+From: sjbalaji@cse.iitm.ac.in=20
+To: scholars@cse.iitm.ac.in, students@cse.iitm.ac.in=20
+Cc: djram@cse.iitm.ac.in=20
+Sent: Thursday, February 20, 2014 12:04:54 AM=20
+Subject: Talk on Accuracy-Aware Program Transformations=20
+
+
+Dear all,=20
+
+Talk Title: Accuracy-Aware Program Transformations=20
+
+Speaker : Sasa Misailovic=20
+
+Time and Venue : Feb 20th 12:00 - 13:00 PM at BSB361=20
+
+Abstract:=20
+
+Despite the fact that approximate computations have come to dominate many a=
+reas of computer science, the field of program transformations has focused =
+almost exclusively on traditional semantics-preserving transformations that=
+ do not attempt to exploit the opportunity, available in many computations,=
+ to acceptably trade off accuracy for benefits such as increased performanc=
+e and reduced resource consumption.=20
+
+
+We present a model of computation for approximate computations and an algor=
+ithm for optimizing these computations. The algorithm works with two classe=
+s of transformations: substitution transformations (which select one of a n=
+umber of available implementations for a given function, with each implemen=
+tation offering a different combination of accuracy and resource consumptio=
+n) and sampling transformations (which randomly discard some of the inputs =
+to a given reduction). The algorithm produces a (1+=CE=B5) randomized appro=
+ximation to the optimal randomized computation (which minimizes resource co=
+nsumption subject to a probabilistic accuracy specification in the form of =
+a maximum expected error or maximum error variance).=20
+Bio:=20
+
+Sasa Misailovic received his B.Sc. in Computer Science from the School of E=
+E, Univ. of Belgrade, Serbia. He is currently a graduate student at the Dep=
+t. of EE&CS at MIT. His current research interests includes program analysi=
+s, software engineering, and programming languages.=20
+
+--=20
+
+Thanks, S J Balaji=20
+MS Scholar=20
+DOS Lab

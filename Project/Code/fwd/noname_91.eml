@@ -1,0 +1,108 @@
+Return-Path: skrishnam@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 17 Jan 2014 12:14:36 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B6FA3F78223;
+	Fri, 17 Jan 2014 12:14:32 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -2.909
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.909 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id k47EzfYVsaFU; Fri, 17 Jan 2014 12:14:28 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D99DCF7826A;
+	Fri, 17 Jan 2014 12:10:24 +0530 (IST)
+Date: Fri, 17 Jan 2014 12:10:22 +0530 (IST)
+From: "Prof. Krishna Sivalingam" <krishna.sivalingam@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: karthick <karthick@cse.iitm.ac.in>, csoffice  <csoffice@cse.iitm.ac.in>
+Message-ID: <30396788.17307916.1389940822832.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Announcement: M.S. Seminar: M. Karthick, Jan. 21, 2pm, BSB 361
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_17307915_714381595.1389940822831"
+X-Originating-IP: [10.6.0.72]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_17307915_714381595.1389940822831
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+Mr. M. Karthick will be giving his M.S. seminar talk on 21st January, 2014 (Tuesday) at 2:00 PM. Kindly make it convenient to attend the seminar 
+and give your valuable suggestions. 
+
+Title: Reliable Data Transfer Mechanisms for Smart Grid Networks 
+Speaker: M. Karthick, CS11S004 
+Date: 21st January, 2014 
+Time: 2:00 PM 
+Venue: BSB 361 (Seminar Hall), Dept. of CSE. 
+
+Abstract: 
+
+Smart Grid is a collection of different technologies handling many aspects of power grid modernization. It involves activities aimed at 
+making the power grid more reliable, secure and resilient using information and communication technologies. To enhance the wide area 
+monitoring capabilities of the Smart Grid, Phasor Measurement Units (PMUs) and related equipment are being deployed at various locations 
+in the grid. These PMUs measure synchro-phasors consisting of voltage, current and frequency measurements at synchronized time 
+intervals. This data is then fed to various processing, monitoring, control, archival and market brokerage applications using a 
+communication network. The Smart grid applications running at the control centers require strict quality-of-service guarantees in terms 
+of low latency and high reliability. As per the NASPInet framework, data loss of crucial control data is not acceptable and data 
+reliability is an important design goal. The existing mechanism, called as Gridstat, which provides data reliability is inefficient in 
+terms of bandwidth usage. In order to reduce network traffic while improving reliability of real-time data, Forward Error Correction 
+based fault tolerance mechanisms are needed. In this work, we have proposed three mechanisms based on multi-path transmissions, 
+source-coding and network-coding techniques. The proposed mechanisms are compared with the existing mechanism using an OMNeT++ based 
+discrete event simulation model. The proposed mechanisms are shown to have lower bandwidth requirement while providing higher reliability 
+than the existing mechanism. 
+
+Guide: Prof. Krishna M. Sivalingam, CSE Dept. 
+
+== 
+Prof. Krishna Moorthy Sivalingam, Professor, CSE Dept, IIT Madras, Chennai, India 
+
+
+
+------=_Part_17307915_714381595.1389940822831
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><span>Dear All,<br><br>Mr. M. Karthick will be giving his M.S. seminar tal=
+k on 21st January, 2014 (Tuesday) at 2:00 PM. Kindly make it convenient to =
+attend the seminar<br>and give your valuable suggestions.<br><br>Title:&nbs=
+p;&nbsp; Reliable Data Transfer Mechanisms for Smart Grid Networks<br>Speak=
+er: M. Karthick, CS11S004<br>Date:&nbsp;&nbsp;&nbsp; 21st January, 2014<br>=
+Time:&nbsp;&nbsp;&nbsp; 2:00 PM<br>Venue:&nbsp;&nbsp; BSB 361 (Seminar Hall=
+), Dept. of CSE.<br><br>Abstract:<br><br>Smart Grid is a collection of diff=
+erent technologies handling many aspects of power grid modernization. It in=
+volves activities aimed at<br>making the power grid more reliable, secure a=
+nd resilient using information and communication technologies. To enhance t=
+he wide area<br>monitoring capabilities of the Smart Grid, Phasor Measureme=
+nt Units (PMUs) and related equipment are being deployed at various locatio=
+ns<br>in the grid. These PMUs measure synchro-phasors consisting of voltage=
+, current and frequency measurements at synchronized time<br>intervals. Thi=
+s data is then fed to various processing, monitoring, control, archival and=
+ market brokerage applications using a<br>communication network. The Smart =
+grid applications running at the control centers require strict quality-of-=
+service guarantees in terms<br>of low latency and high reliability. As per =
+the NASPInet framework, data loss of crucial control data is not acceptable=
+ and data<br>reliability is an important design goal. The existing mechanis=
+m, called as Gridstat, which provides data reliability is inefficient in<br=
+>terms of bandwidth usage. In order to reduce network traffic while improvi=
+ng reliability of real-time data, Forward Error Correction<br>based fault t=
+olerance mechanisms are needed.&nbsp; In this work, we have proposed three =
+mechanisms based on multi-path transmissions,<br>source-coding and network-=
+coding techniques. The proposed mechanisms are compared with the existing m=
+echanism using an OMNeT++ based<br>discrete event simulation model. The pro=
+posed mechanisms are shown to have lower bandwidth requirement while provid=
+ing higher reliability<br>than the existing mechanism.<br><br>Guide: Prof. =
+Krishna M. Sivalingam, CSE Dept.<br><br><span name=3D"x"></span>=3D=3D<br>P=
+rof. Krishna Moorthy Sivalingam, Professor, CSE Dept, IIT Madras, Chennai, =
+India<br><span name=3D"x"></span><br></span><br></div></body></html>
+------=_Part_17307915_714381595.1389940822831--

@@ -1,0 +1,148 @@
+Return-Path: tushar@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 29 Aug 2013 22:22:34 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 7A321F78105;
+	Thu, 29 Aug 2013 22:22:33 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 3.419
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.419 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RCVD_IN_BRBL_LASTEXT=1.449, RCVD_IN_XBL=0.375, RDNS_NONE=0.793]
+	autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 4-Jz9zwgszu4; Thu, 29 Aug 2013 22:22:28 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id AE411F78103;
+	Thu, 29 Aug 2013 22:22:27 +0530 (IST)
+Date: Thu, 29 Aug 2013 22:22:27 +0530 (IST)
+From: "tushar@cse.iitm.ac.in" <tushar@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>, faculty@cse.iitm.ac.in, 
+	students@cse.iitm.ac.in
+Cc: "djram@cse.iitm.ac.in" <djram@cse.iitm.ac.in>
+Message-ID: <2143308714.1438.1377795147591.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <184614400.1412.1377794776419.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Invitation for MS seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1437_1206561784.1377795147591"
+X-Originating-IP: [111.93.96.106]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_1437_1206561784.1377795147591
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Dear all,=20
+
+
+I will be giving my MS seminar on 30th August, 2013 (Friday) at 3:00 PM. Ki=
+ndly make it convenient to attend the seminar and give your valuable sugges=
+tions.=20
+
+
+The details of the talk are as follows:=20
+
+
+Speaker: Tushar Sharma (CS06S034)=20
+Date : 30-08-2013, Friday=20
+Time : 15:00 to 16:00=20
+Topic : Design structures as a meta-abstraction for object-oriented softwar=
+e development=20
+Venue : BSB 361, Department of Computer Science & Engg.=20
+
+
+Abstract:=20
+Design patterns are community accepted solution to recurring design problem=
+s for object-oriented software development. Patterns are employed during de=
+sign, development, and maintenance phases of the software development life =
+cycle. However, due to lack of proper abstractions, the usage of patterns i=
+n each of these phases presents many challenges. For example, "pattern base=
+d refactoring" used in the maintenance phase involves identification of can=
+didate spots (for applicable design patterns) in a given implementation. Ac=
+hieving this inference automatically is a non-trivial challenge. Similarly,=
+ implementation of design patterns has problems such as lack of re-usabilit=
+y, and implementation overhead. Even further, providing automated means to =
+discover new design solutions is largely unexplored. Hence, proper abstract=
+ions for defining and using design patterns as well as discovering new desi=
+gn solutions are required to make software development life cycle easier an=
+d flexible.=20
+
+
+In this work, design structures are used as a meta-abstraction for object-o=
+riented software systems. Design structures capture key interactions of an =
+object-oriented software system and offer a finer-level abstraction than de=
+sign patterns. The work proposes a new abstraction namely Refactoring Patte=
+rn (ReP) graph derived from design structures; the ReP graph abstracts the =
+source code information and exposes them in terms of fundamental constructs=
+. A framework has been developed to infer design patterns in a given source=
+ code using such constructs. Design structures can also help a developer to=
+ overcome problems associated with implementation of design patterns as the=
+y form the basis for pattern expressions and pattern formation grammar. A s=
+ource code generation framework for design patterns has been proposed using=
+ pattern expressions and pattern formation grammar. In addition, the propos=
+ed pattern formation grammar based method offers an automated mean to help =
+software designers by discovering new design solutions. Further, the work p=
+roposes a pattern language description language (XPLDL) based on design str=
+uctures to specify grammar of pattern languages explicitly.=20
+
+
+All are welcome.=20
+
+
+thanks and regards,=20
+-Tushar Sharma=20
+
+
+------=_Part_1437_1206561784.1377795147591
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div>Dear all,</div><div><br></div><div>I will be giving my MS seminar on =
+30th August, 2013 (Friday) at 3:00 PM. Kindly make it convenient to attend =
+the seminar and give your valuable suggestions.&nbsp;</div><div><br></div><=
+div>The details of the talk are as follows:</div><div><br></div><div>Speake=
+r: Tushar Sharma (CS06S034)</div><div>Date &nbsp; &nbsp; : 30-08-2013, Frid=
+ay</div><div>Time &nbsp; &nbsp; : 15:00 to 16:00&nbsp;</div><div>Topic &nbs=
+p; &nbsp;: Design structures as a meta-abstraction for object-oriented soft=
+ware development</div><div>Venue &nbsp; : BSB 361, Department of Computer S=
+cience &amp; Engg.</div><div><br></div><div>Abstract:</div><div>Design patt=
+erns are community accepted solution to recurring design problems for objec=
+t-oriented software development. Patterns are employed during design, devel=
+opment, and maintenance phases of the software development life cycle. Howe=
+ver, due to lack of proper abstractions, the usage of patterns in each of t=
+hese phases presents many challenges. For example, "pattern based refactori=
+ng" used in the maintenance phase involves identification of candidate spot=
+s (for applicable design patterns) in a given implementation. Achieving thi=
+s inference automatically is a non-trivial challenge. Similarly, implementa=
+tion of design patterns has problems such as lack of re-usability, and impl=
+ementation overhead. Even further, providing automated means to discover ne=
+w design solutions is largely unexplored. Hence, proper abstractions for de=
+fining and using design patterns as well as discovering new design solution=
+s are required to make software development life cycle easier and flexible.=
+</div><div><br></div><div>In this work, design structures are used as a met=
+a-abstraction for object-oriented software systems. Design structures captu=
+re key interactions of an object-oriented software system and offer a finer=
+-level abstraction than design patterns. The work proposes a new abstractio=
+n namely Refactoring Pattern (ReP) graph derived from design structures; th=
+e ReP graph abstracts the source code information and exposes them in terms=
+ of fundamental constructs. A framework has been developed to infer design =
+patterns in a given source code using such constructs. Design structures ca=
+n also help a developer to overcome problems associated with implementation=
+ of design patterns as they form the basis for pattern expressions and patt=
+ern formation grammar. &nbsp;A source code generation framework for design =
+patterns has been proposed using pattern expressions and pattern formation =
+grammar. In addition, the proposed pattern formation grammar based method o=
+ffers an automated mean to help software designers by discovering new desig=
+n solutions. Further, the work proposes a pattern language description lang=
+uage (XPLDL) based on design structures to specify grammar of pattern langu=
+ages explicitly.</div><div><br></div><div>All are welcome.</div><div><br></=
+div><div>thanks and regards,</div><div>-Tushar Sharma</div><div><br></div>
+</div></body></html>
+------=_Part_1437_1206561784.1377795147591--

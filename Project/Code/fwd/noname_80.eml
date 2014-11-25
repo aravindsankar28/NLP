@@ -1,0 +1,214 @@
+Return-Path: ksriram@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 18 Feb 2014 16:19:18 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9AB15F78C5F;
+	Tue, 18 Feb 2014 16:17:43 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.105
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.105 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id s1YXxEnbZbaU; Tue, 18 Feb 2014 16:17:40 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 40A99F78642;
+	Tue, 18 Feb 2014 16:16:13 +0530 (IST)
+Date: Tue, 18 Feb 2014 16:16:12 +0530 (IST)
+From: "ksriram@cse.iitm.ac.in" <ksriram@cse.iitm.ac.in>
+To: 3btech  <3btech@cse.iitm.ac.in>
+Cc: djram  <djram@iitm.ac.in>
+Message-ID: <1013143684.23694.1392720372713.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <11CC63846898664D8B8FEBFD7496F01F5176A0@bharata.iitm.ac.in>
+Subject: Principles of Software Engg class in CS 25, Talk on Automated
+ Software Engineering
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_23693_202197434.1392720372713"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_23693_202197434.1392720372713
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+From: "Janakiram D" <djram@iitm.ac.in> 
+To: faculty@cse.iitm.ac.in, scholars@cse.iitm.ac.in, announce@iitm.ac.in 
+Sent: Tuesday, February 18, 2014 3:09:56 PM 
+Subject: Talk on Automated Software Engineering 
+
+
+
+
+
+(Don Batory is also giving the keynote talk at 7th Indian Software Engineering Conference on Feb 20 at 9am in ICSR Auditorium) 
+
+
+
+
+Talk Title : Dark Knowledge and Graph Grammars in Automated Software Design 
+
+
+
+
+Speaker : Don Batory, University of Texas, Austin 
+
+
+
+
+Time and Venue : Feb 19th 9 -10 am at CS25 
+
+
+
+
+Abstract 
+
+
+
+
+Mechanizing the development of hard-to-write and costly-to-maintain software is the core problem of automated software design. Encoding expert knowledge (a.k.a. dark knowledge ) about a software domain is central to its solution. We assert that a solution can be cast in terms of the ideas of language design and engineering. Graph grammars can be a foundation for modern automated soft- ware development. The sentences of a grammar are designs of complex dataflow systems. We explain how graph grammars provide a framework to encode expert knowledge, produce correct-by-construction derivations of dataflow applications, enable the generation of high-performance code, and improve how software design of dataflow applications can be taught to undergraduates. 
+
+
+
+
+Bio 
+
+
+
+
+Don Batory holds the David Bruton Centennial Professorship in the 
+
+Department of Computer Science at The University of Texas at Austin. 
+
+
+
+He was Associate Editor of IEEE Transactions on Software Engineering 
+
+and Associate Editor of ACM Transactions on Database Systems. 
+
+
+
+He is a pioneer of Feature Oriented Software Development (FOSD) and 
+
+has recently authored a textbook on the topic. 
+
+
+
+He and his students have written 11 Award Papers, one of which won 
+
+the Automated Software Engineering 2013 Most Influential Paper Award 
+
+on program refactorings. 
+
+
+
+
+
+------------------------------------------------------------------------------------ 
+Dr. Dharanipragada Janakiram, 
+Professor, 
+Dept. of Computer Sc. and Engg., 
+IIT, Madras, 
+Chennai - 600 036 
+email : djram@iitm.ac.in or djram@acm.org 
+Ph. no. 91-44-22574354 (office) 
+Fax : 91-44-22574352 
+House address : B-10, Lake View Road, IIT Campus, Chennai 600036 
+--------------------------------------------------------------------------------------- 
+------=_Part_23693_202197434.1392720372713
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><br><br><hr id="zwchr"><b>From: </b>"Janakiram D" &lt;djram@iitm.ac.in&gt;<br><b>To: </b>faculty@cse.iitm.ac.in, scholars@cse.iitm.ac.in, announce@iitm.ac.in<br><b>Sent: </b>Tuesday, February 18, 2014 3:09:56 PM<br><b>Subject: </b>Talk on Automated Software Engineering<br><br>
+
+
+<style id="owaParaStyle"></style>
+
+
+<div style="direction: ltr;font-family: Tahoma;color: #000000;font-size: 10pt;">
+<div>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica"><span style="letter-spacing: 0.0px">(Don Batory is also giving the keynote talk at 7th Indian Software Engineering Conference on Feb 20 at 9am in ICSR Auditorium)</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica"><span style="letter-spacing: 0.0px"><br>
+</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica"><span style="letter-spacing: 0.0px">Talk Title : Dark Knowledge and Graph Grammars in Automated Software Design</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica; min-height: 17.0px">
+<span style="letter-spacing: 0.0px"></span><br>
+</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica"><span style="letter-spacing: 0.0px">Speaker : Don Batory, University of Texas, Austin</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica; min-height: 17.0px">
+<span style="letter-spacing: 0.0px"></span><br>
+</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica; min-height: 17.0px">
+Time and Venue : Feb 19th 9 -10 am at CS25</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica; min-height: 17.0px">
+<span style="letter-spacing: 0.0px"></span><br>
+</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica"><span style="letter-spacing: 0.0px">Abstract</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.3px Helvetica; min-height: 17.0px">
+<span style="letter-spacing: 0.0px"></span><br>
+</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica"><span style="letter-spacing: 0.0px">Mechanizing the development of hard-to-write and costly-to-maintain software is the core problem of automated software design. Encoding expert knowledge (a.k.a.
+</span><span style="letter-spacing: 0.0px color: #1141fc">dark knowledge</span><span style="letter-spacing: 0.0px">) about a software domain is central to its solution. We assert that a solution can be cast in terms of the ideas of language design and engineering.
+ Graph grammars can be a foundation for modern automated soft- ware development. The sentences of a grammar are designs of complex dataflow systems. We explain how graph grammars provide a framework to encode expert knowledge, produce correct-by-construction
+ derivations of dataflow applications, enable the generation of high-performance code, and improve how software design of dataflow applications can be taught to undergraduates.</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica; min-height: 17.0px">
+<span style="letter-spacing: 0.0px"></span><br>
+</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica"><span style="letter-spacing: 0.0px">Bio</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica; min-height: 17.0px">
+<span style="letter-spacing: 0.0px"></span><br>
+</p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">Don Batory holds the David Bruton Centennial Professorship in the</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">Department of Computer Science at The University of Texas at Austin.</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">&nbsp;</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">He was Associate Editor of IEEE Transactions on Software Engineering</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">and Associate Editor of ACM Transactions on Database Systems.</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">&nbsp;</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">He is a pioneer of Feature Oriented Software Development (FOSD) and</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">has recently authored a textbook on the topic.</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">&nbsp;</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">He and his students have written 11 Award Papers, one of which won</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">the Automated Software Engineering 2013 Most Influential Paper Award</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1e497d">
+<span style="letter-spacing: 0.0px">on program refactorings.</span></p>
+<p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica; min-height: 17.0px">
+<span style="letter-spacing: 0.0px"></span><br>
+</p>
+<div style="font-family:Tahoma; font-size:13px">
+<div class="BodyFragment"><font size="2">
+<div class="PlainText">------------------------------------------------------------------------------------<br>
+Dr. Dharanipragada Janakiram,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+Professor,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+Dept. of Computer Sc. and Engg.,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+IIT, Madras,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+Chennai - 600 036<br>
+email : djram@iitm.ac.in or djram@acm.org<br>
+Ph. no. 91-44-22574354 (office)<br>
+Fax : 91-44-22574352<br>
+House address : B-10, Lake View Road, IIT Campus, Chennai 600036<br>
+---------------------------------------------------------------------------------------</div>
+</font></div>
+</div>
+</div>
+</div>
+
+
+</div></body></html>
+------=_Part_23693_202197434.1392720372713--

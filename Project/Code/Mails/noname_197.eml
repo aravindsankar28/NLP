@@ -1,0 +1,49 @@
+Hi all 
+
+I am giving my 2nd Ph.D seminar on 25th April 2013 (Thursday) from 3pm to 4pm at BSB 361. 
+Please make it convenient to attend and give your valuable suggestions. 
+
+
+
+Title of the talk : Implementation and analysis of a novel deflection based adaptive NoC router with minimal buffering 
+
+Date : 25-April, 2013, Thursday 
+
+Time : 15:00 hrs to 16:00 hrs 
+
+Venue : BSB 361, Dept. of CSE . 
+
+Speaker: John Jose, Ph.D scholar, PACE Lab 
+
+
+
+
+
+
+
+Abstract 
+
+
+
+Apart from high speed computing cores, efficient and reliable communication is also essential for achieving high performance in multicore processors. Network-on-chip (NoC) is an emerging paradigm that can efficiently support integration of a massive number of cores on a chip by decoupling the on-chip computation and communication infrastructure, thereby overcoming the scalability issues faced by conventional buses. Energy efficiency of the underlying communication framework plays a major role in the performance of multicore systems. NoCs with buffer-less routing are gaining popularity due to simplicity in the router design, low power consumption, and load balancing capacity. 
+
+
+
+We propose an adaptive deflection router, DeBAR, that uses a minimal set of central buffers to accommodate a fraction of mis-routed flits. DeBAR incorporates a hybrid flit ejection mechanism that gives the effect of dual ejection with a single ejection port, an innovative adaptive routing algorithm, and a selective flit buffering based on flit marking. Our proposed router design reduces the average flit latency and the deflection rate, and improves the throughput with respect to the existing minimally buffered deflection routers without any change in the critical path. Experimental results on real and synthetic workloads show that our proposed router significantly outperforms state of the art minimally buffered deflection routers. 
+
+
+
+
+NB: Tea will be served after the talk. 
+
+
+
+
+regards 
+
+
+
+
+John Jose 
+
+http://www.cse.iitm.ac.in/~johnjose/ 

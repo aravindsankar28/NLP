@@ -1,0 +1,174 @@
+Return-Path: asha.tbasha.talambedu@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 9 Apr 2014 16:43:57 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id ACB21F7803D;
+	Wed,  9 Apr 2014 16:43:55 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.367
+X-Spam-Level: *
+X-Spam-Status: No, score=1.367 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id q0AeBicFu32K; Wed,  9 Apr 2014 16:43:50 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 275ADF78035;
+	Wed,  9 Apr 2014 16:43:49 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 5BB61780751;
+	Wed,  9 Apr 2014 16:46:46 +0530 (IST)
+Received: from mail-ve0-f176.google.com ([209.85.128.176])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201404091101300026736; Wed, 09 Apr 2014 16:31:32 +0530
+Received: by mail-ve0-f176.google.com with SMTP id db11so1892262veb.7
+        for <multiple recipients>; Wed, 09 Apr 2014 04:16:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:cc:content-type;
+        bh=TAeI4Gzbq/BtJhgtl4H/KVFjxpNU/GXhKAXkAsEmJHo=;
+        b=o6gMDP6fnuiePjrhXElTcnGehKWU++ObKeZbLMk48zIgAEIzn3GsxJE+jPdSttobIf
+         GGvLv9TvhO15SNyY4Ty2gZczdHj+qsBKiNM6Z05cu7FooTQUEPnkHrfHAjZKZ21l4zFH
+         11UZTzGKSEhlLuI7WKbrkdjNUxvH+rfmvZL9woUuMzN13oBnSLOwiDpWRXF7JWr5bWUj
+         NrpXFCR6ry0HzKcCktWKrcb6puZaeE5dGhDJiUkgEan+iEdqxcrLEhDVjI/GFp7QAhXQ
+         M7vSixFF/xNdxqcZ4UwlYeXwGUPbqokh7Zs/j05bjhj634VDG58LCnSYoTx3+p1lMzNy
+         w5+g==
+MIME-Version: 1.0
+X-Received: by 10.58.126.4 with SMTP id mu4mr8501947veb.0.1397042203599; Wed,
+ 09 Apr 2014 04:16:43 -0700 (PDT)
+Received: by 10.52.66.145 with HTTP; Wed, 9 Apr 2014 04:16:43 -0700 (PDT)
+Date: Wed, 9 Apr 2014 16:46:43 +0530
+Message-ID: <CAEbBseZA=C9=3VZXtYC9v1a9Nsw+Hb7WkH90nrwTepSMK-SMeg@mail.gmail.com>
+Subject: MS Seminar Talk on 15th April at 2:30 PM
+From: Asha <asha.tbasha.talambedu@gmail.com>
+To: seminar@cse.iitm.ac.in, scholars <scholars@cse.iitm.ac.in>, 
+	cse-speech@googlegroups.com
+Cc: Hema Murthy <hema.arunachalam@gmail.com>, "B. Ravindran" <ravi@cse.iitm.ac.in>, csr@ee.iitm.ac.in, 
+	rangan@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=047d7b6700af48288804f69a3ce2
+X-Mlf-DKIM: dkim=pass header.i=gmail.com 
+X-Mlf-KeyWords: extraction,dear,kindly,establishing,wellknown,tvs,stateoftheart,scalability,obse
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.128.176
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201404091101300026736
+
+--047d7b6700af48288804f69a3ce2
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear all,
+
+I am presenting my  MS seminar talk on Tuesday, 15th April, 2014 at 2:30
+PM. Kindly make it convenient to attend the seminar and give your valuable
+suggestions.
+
+The details of the talk are as follows.
+
+
+Title                 :    Relevance of Front-end Processing for Speaker
+Recognition
+Date                 :    15th April, 2014
+Time                :     2.30 PM
+Venue              :     CS25, Seminar Hall, Department of Computer Science
+
+Abstract of the talk:
+---------------------
+
+Speaker Verification (SV) is well-known pattern recognition task. Any
+pattern recognition task involves feature extraction and building models,
+which are further used in  classification.  In the recent literature of SV,
+ modeling has received  focus by majority of the research community.
+GMM-UBM framework is the conventional modeling framework used for SV while
+i-vector or Total Variability Space (TVS) framework is the recent
+state-of-the-art modeling framework. With the aim of establishing the
+importance of feature extraction/front-end in comparison to modeling, an
+optimisation experimental study at front-end level is taken up.   The
+scalability of the optimised front-end  for different databases and current
+state-of-the-art modeling framework is verified. This study led to
+observations which question the relevance of NIST Speaker Recognition
+Evaluations.
+
+
+Feature Switching is a paradigm, where characteristic features of a class
+are used in building its models.  This paradigm is already explored for
+conventional GMM-UBM framework . As part of this work, it was extended to
+i-vector framework. Also, singer identification is attempted for carnatic
+music recordings by applying variety of features that are generally used
+for speaker verification. Performance trends with different types of
+features obtained are presented.
+
+                                          ALL ARE WELCOME
+
+Thanks and Regards
+Asha T
+MS Scholar
+
+--047d7b6700af48288804f69a3ce2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"font-family:arial,sans-serif;font-size:13px=
+">Dear all,</span><br style=3D"font-family:arial,sans-serif;font-size:13px"=
+><br style=3D"font-family:arial,sans-serif;font-size:13px"><span style=3D"f=
+ont-family:arial,sans-serif;font-size:13px">I am presenting my =A0MS semina=
+r talk on Tuesday, 15th</span><span style=3D"font-family:arial,sans-serif;f=
+ont-size:13px">=A0April</span><span style=3D"font-family:arial,sans-serif;f=
+ont-size:13px">, 2014</span><span style=3D"font-family:arial,sans-serif;fon=
+t-size:13px">=A0at 2:30 PM. Kindly make it convenient to attend the seminar=
+ and give your valuable suggestions.</span><br style=3D"font-family:arial,s=
+ans-serif;font-size:13px">
+<br style=3D"font-family:arial,sans-serif;font-size:13px"><span style=3D"fo=
+nt-family:arial,sans-serif;font-size:13px">The details of the talk are as f=
+ollows.</span><br style=3D"font-family:arial,sans-serif;font-size:13px"><p =
+align=3D"justify" style=3D"font-family:arial,sans-serif;font-size:13px;marg=
+in-bottom:0in">
+<a name=3D"14544cfa1065ea4f_14502123aec71e70_144fde71b5db7112_OLE_LINK1" st=
+yle=3D"color:rgb(34,34,34)"></a><br>Title=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=
+=A0 =A0 : =A0 =A0Relevance of Front-end Processing for Speaker Recognition<=
+br>Date =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 :=A0=A0=A0=A0<span class=3D"" tabin=
+dex=3D"0"><span class=3D"">15th April, 2014</span></span><br>
+Time=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 :=A0=A0=A0=A0=A02<span class=3D=
+"" tabindex=3D"0"><span class=3D"">.30 PM</span></span><br>Venue=A0=A0=A0 =
+=A0=A0=A0 =A0=A0=A0 =A0 :=A0 =A0=A0 CS25, Seminar Hall, Department of Compu=
+ter Science</p><p align=3D"justify" style=3D"font-family:arial,sans-serif;f=
+ont-size:13px;margin-bottom:0in">
+Abstract of the talk:<br>---------------------</p>
+<p align=3D"center" style=3D"text-align:-webkit-auto;margin-bottom:0in">Spe=
+aker Verification (SV) is well-known pattern recognition task. Any pattern =
+recognition task involves feature extraction and building models, which are=
+ further used in =A0classification. =A0In the recent literature of SV, =A0m=
+odeling has received =A0focus by majority of the research community. GMM-UB=
+M framework is the conventional modeling framework used for SV while i-vect=
+or or Total Variability Space (TVS) framework is the recent state-of-the-ar=
+t modeling framework. With the aim of establishing the importance of featur=
+e extraction/front-end in comparison to modeling, an optimisation experimen=
+tal study at front-end level is taken up. =A0 The scalability of the optimi=
+sed front-end =A0for different databases and current state-of-the-art model=
+ing framework is verified. This study led to observations which question th=
+e relevance of NIST Speaker Recognition Evaluations.=A0</p>
+<p align=3D"center" style=3D"text-align:-webkit-auto;margin-bottom:0in"><br=
+></p><p align=3D"center" style=3D"text-align:-webkit-auto;margin-bottom:0in=
+">Feature Switching is a paradigm, where characteristic features of a class=
+ are used in building its models. =A0This paradigm is already explored for =
+conventional GMM-UBM framework . As part of this work, it was extended to i=
+-vector framework. Also, singer identification is attempted for carnatic mu=
+sic recordings by applying variety of features that are generally used for =
+speaker verification. Performance trends with different types of features o=
+btained are presented.</p>
+<p align=3D"center" style=3D"text-align:-webkit-auto;margin-bottom:0in"><fo=
+nt face=3D"arial, sans-serif">=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 ALL ARE WELCOME</font></p><br style=
+=3D"font-family:arial,sans-serif;font-size:13px">
+<p style=3D"font-family:arial,sans-serif;font-size:13px;margin-bottom:0in;t=
+ext-align:left">Thanks and Regards</p><div>Asha T<br></div><div style>MS Sc=
+holar</div>
+</div>
+
+--047d7b6700af48288804f69a3ce2--

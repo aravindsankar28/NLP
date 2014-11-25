@@ -1,0 +1,129 @@
+Return-Path: cchatto@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 18 Mar 2013 09:00:39 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 16FAD21B0003;
+	Mon, 18 Mar 2013 09:00:36 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id qq28pnkHi4t8; Mon, 18 Mar 2013 09:00:35 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0F7F52198005;
+	Mon, 18 Mar 2013 09:00:35 +0530 (IST)
+Date: Mon, 18 Mar 2013 09:00:35 +0530 (IST)
+From: cchatto@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>, aravind <aravind@ee.iitm.ac.in>, 
+	vjkumar <vjkumar@ee.iitm.ac.in>
+Message-ID: <189318149.12166.1363577434974.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1186903176.12157.1363577289327.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Reminder: Reg First PhD Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_12165_447345128.1363577434973"
+X-Originating-IP: [10.65.0.31]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_12165_447345128.1363577434973
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+Dear All, 
+
+
+A gentle reminder for my first PhD seminar. 
+
+
+Title : Spatio-Temporal Analysis of Video Shots for Content Based Video Retrieval (CBVR) Task 
+Speaker: Chiranjoy Chattopadhyay (CS10D009) 
+Date : 19 March , 2013 ( Tuesday ) 
+Time : 2 PM 
+Place : BSB 361, Dept. of CS&E 
+
+
+
+
+ABSTRACT: 
+
+The task of Content Based Video Retrieval (CBVR) is far from mature and is influenced by a high degree of subjectivity. The overall objective of the work is to give a "compact representation of video content and retrieve similar video shots'' from a database. This requires efficient organization of video database for fast search and a robust representation of video shots for accurate retrieval of video based on its content. 
+
+In this talk, I will be presenting some novel and efficient techniques (e.g. hyperstring and EMST-CSS) proposed by us for video content representation, by combining spatial and temporal features. Results will be shown using a few benchmark real-world datasets. 
+
+Regards, 
+
+
+Chiranjoy 
+------=_Part_12165_447345128.1363577434973
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div style=3D"color: rgb(34, 34, 34); background-color: rgb(255, 255, 255)=
+; "><font face=3D"verdana, helvetica, sans-serif">Dear All,</font></div><di=
+v style=3D"color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); ">=
+<b><font face=3D"verdana, helvetica, sans-serif"><br></font></b></div><div =
+style=3D"color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); "><f=
+ont face=3D"verdana, helvetica, sans-serif">A gentle reminder for my first =
+PhD seminar.&nbsp;</font></div><div style=3D"font-family: 'Times New Roman'=
+; font-size: 12pt; color: rgb(34, 34, 34); background-color: rgb(255, 255, =
+255); "><br></div><div style=3D"font-family: 'Times New Roman'; font-size: =
+12pt; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); "><font=
+ face=3D"tahoma, new york, times, serif"><b>Title :&nbsp;Spatio-Temporal An=
+alysis of Video Shots for Content&nbsp;Based Video Retrieval (CBVR) Task</b=
+></font></div><div style=3D"font-family: 'Times New Roman'; font-size: 12pt=
+; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); "><font fac=
+e=3D"tahoma, new york, times, serif"><b>Speaker: Chiranjoy Chattopadhyay (C=
+S10D009)</b></font></div><div style=3D"font-family: 'Times New Roman'; font=
+-size: 12pt; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); =
+"><font face=3D"tahoma, new york, times, serif"><b>Date :&nbsp;<span class=
+=3D"Object" id=3D"OBJ_PREFIX_DWT270" style=3D"color: rgb(0, 0, 139); cursor=
+: pointer; ">19 March</span>, 2013 (<span class=3D"Object" id=3D"OBJ_PREFIX=
+_DWT271" style=3D"color: rgb(0, 0, 139); cursor: pointer; ">Tuesday</span>)=
+</b></font></div><div style=3D"font-family: 'Times New Roman'; font-size: 1=
+2pt; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); "><font =
+face=3D"tahoma, new york, times, serif"><b>Time : 2 PM</b></font></div><div=
+ style=3D"font-family: 'Times New Roman'; font-size: 12pt; color: rgb(34, 3=
+4, 34); background-color: rgb(255, 255, 255); "><font face=3D"tahoma, new y=
+ork, times, serif"><b>Place : BSB 361, Dept. of CS&amp;E</b></font></div><d=
+iv style=3D"font-family: 'Times New Roman'; font-size: 12pt; color: rgb(34,=
+ 34, 34); background-color: rgb(255, 255, 255); "><font face=3D"tahoma, new=
+ york, times, serif"><br></font></div><div style=3D"font-size: 12pt; color:=
+ rgb(34, 34, 34); background-color: rgb(255, 255, 255); "><p class=3D"MsoNo=
+rmal" style=3D"font-family: 'Times New Roman'; margin: 0cm 0cm 10pt; text-a=
+lign: justify; "><span style=3D"line-height: 18px; "><font face=3D"tahoma, =
+new york, times, serif"><b>ABSTRACT:</b></font></span></p><p class=3D"MsoNo=
+rmal" style=3D"font-family: 'Times New Roman'; margin: 0cm 0cm 10pt; text-a=
+lign: justify; "><span style=3D"line-height: 18px; "><font face=3D"tahoma, =
+new york, times, serif">&nbsp;&nbsp;&nbsp;&nbsp;The task of Content Based V=
+ideo Retrieval (CBVR) is far from mature and is influenced by a high degree=
+ of subjectivity. The overall objective of the work is to give a "compact r=
+epresentation of video content and retrieve similar video shots'' from a da=
+tabase. This requires efficient organization of video database for fast sea=
+rch and a robust representation of video shots for accurate retrieval of vi=
+deo based on its content.<u></u><u></u><u></u></font></span></p><p class=3D=
+"MsoNormal" style=3D"font-family: 'Times New Roman'; margin: 0cm 0cm 10pt; =
+text-align: justify; "><span style=3D"font-family: tahoma, 'new york', time=
+s, serif; line-height: 18px; ">&nbsp; &nbsp; &nbsp; &nbsp;</span><span styl=
+e=3D"font-family: tahoma, 'new york', times, serif; line-height: 18px; ">&n=
+bsp;</span><span style=3D"font-family: tahoma, 'new york', times, serif; li=
+ne-height: 18px; ">In this talk, I will be presenting some novel and effici=
+ent techniques (e.g. hyperstring and EMST-CSS) proposed by us for video con=
+tent representation, by combining spatial and temporal features. Results wi=
+ll be shown using a few benchmark real-world datasets.</span></p><font face=
+=3D"verdana, helvetica, sans-serif"><div style=3D"font-size: 12pt; color: r=
+gb(34, 34, 34); background-color: rgb(255, 255, 255); "><font face=3D"verda=
+na, helvetica, sans-serif"><br></font></div>Regards,</font></div><div style=
+=3D"font-size: 12pt; color: rgb(34, 34, 34); background-color: rgb(255, 255=
+, 255); "><font face=3D"verdana, helvetica, sans-serif"><br></font></div><d=
+iv style=3D"font-size: 12pt; color: rgb(34, 34, 34); background-color: rgb(=
+255, 255, 255); "><font face=3D"verdana, helvetica, sans-serif">Chiranjoy</=
+font></div></div></body></html>
+------=_Part_12165_447345128.1363577434973--

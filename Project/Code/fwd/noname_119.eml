@@ -1,0 +1,183 @@
+Return-Path: mani@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 28 Oct 2013 09:11:18 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1006AF78227;
+	Mon, 28 Oct 2013 09:11:16 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.509
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.509 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_05=-0.5, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id QtSKvmA8p+hh; Mon, 28 Oct 2013 09:11:09 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 35D56F7821F;
+	Mon, 28 Oct 2013 09:09:06 +0530 (IST)
+Date: Mon, 28 Oct 2013 09:09:04 +0530 (IST)
+From: Manikantan S <mani@cse.iitm.ac.in>
+Reply-To: Manikantan S <mani@cse.iitm.ac.in>
+To: scholars  <scholars@cse.iitm.ac.in>, Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <1297964368.4094302.1382931544222.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1073532914.3598668.1382682708767.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Gentle Reminder: Talk by Aman Nougrahiya - "Reducing
+ Synchronization Primitives in OpenMP Programs" - Monday Oct 28 2013 at 3.00
+ PM
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4094301_1280119118.1382931544220"
+X-Originating-IP: [10.6.6.16]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_4094301_1280119118.1382931544220
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear Scholars 
+
+Greetings. 
+
+Gentle reminder for the Talk that is happening today - 3.00 PM At Research Scholars Bay (RSB). 
+
+Please make it convenient and attend the presentation. 
+
+kind regards 
+Mani 
+
+
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar, 
+High Performance Computing and Networking (HPCN) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 
+
+
+From: "Manikantan S" <mani@cse.iitm.ac.in> 
+To: "scholars" <scholars@cse.iitm.ac.in>, "Seminar" <seminar@cse.iitm.ac.in> 
+Sent: Friday, October 25, 2013 12:01:48 PM 
+Subject: Talk by Aman Nougrahiya - "Reducing Synchronization Primitives in OpenMP Programs" - Monday Oct 28 2013 at 3.00 PM 
+
+
+
+Dear Scholars 
+
+
+Greetings. 
+
+The talk planned earlier which could not happen for multiple reasons will happen coming Monday 28 October 2013.. 
+
+Please make it convenient to attend the upcoming Talk on 28st October 2013 3.00 PM 
+
+Speaker: Aman Nougrahiya (PACE LAB) 
+Title : Reducing Synchronization Primitives in OpenMP Programs 
+Abstract : 
+When multiple threads of execution run in parallel in shared-memory systems, synchronization primitives are required to ensure determinism and correctness of the output of applications. However, these synchronization primitives also introduce high performance costs that increase with the increase in the number of threads used. Unfortunately, many times this cost overshadows a considerable portion of the benefits obtained by parallelizing the applications, sometimes even contributing to the reasons why some parallel versions of the applications perform poorly as compared to the serial ones. 
+In this talk, we'll discuss some of the central ideas used in the framework we are developing for reducing these synchronization primitives from OpenMP programs. 
+This (not yet matured) framework is dependent on the concepts of code scheduling, memory renaming, and loop unrolling. 
+Firstly, I'll try to present these ideas in the form of some short analogous stories from real life . 
+Then, we'll look at some sample translations to better understand and discuss the proposed transformations. 
+
+Please note the start time is 3 PM . This to enable there is sufficient time for the presentation and 
+if some one wishes to attend the Extra Mural Lecture at CLT (4 PM the same day) they can do so as well. 
+
+Kind regards 
+Mani 
+
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar, 
+High Performance Computing and Networking ( HPCN ) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 
+
+
+
+------=_Part_4094301_1280119118.1382931544220
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear Scholars<br><br>Greetings.<br><br>Gentle reminder for the Talk that i=
+s happening today - 3.00 PM At Research Scholars Bay (RSB).<br><br>Please m=
+ake it convenient and attend the presentation.<br><br>kind regards<br>Mani<=
+br><span><br><span name=3D"x"></span><br>----------------------------------=
+------------------------------------------<br>Manikantan (Mani) Srinivasan<=
+br>Research Scholar,<br>High Performance Computing and Networking (HPCN) La=
+b,<br>Department of Computer Science and Engineering,<br>Indian Institute o=
+f Technology Madras, Chennai.<br>------------------------------------------=
+----------------------------------<span name=3D"x"></span><br></span><br><h=
+r id=3D"zwchr"><b>From: </b>"Manikantan S" &lt;mani@cse.iitm.ac.in&gt;<br><=
+b>To: </b>"scholars" &lt;scholars@cse.iitm.ac.in&gt;, "Seminar" &lt;seminar=
+@cse.iitm.ac.in&gt;<br><b>Sent: </b>Friday, October 25, 2013 12:01:48 PM<br=
+><b>Subject: </b>Talk by Aman Nougrahiya - "Reducing Synchronization Primit=
+ives in OpenMP Programs" - Monday Oct 28 2013 at 3.00 PM<br><br><style>p { =
+margin: 0; }</style><div style=3D"font-family: Times New Roman; font-size: =
+12pt; color: #000000"><style>p { margin: 0; }</style><div style=3D"font-fam=
+ily: Times New Roman; font-size: 12pt; color: #000000">Dear Scholars<br><di=
+v style=3D"font-family: Times New Roman; font-size: 12pt; color: #000000"><=
+br>Greetings.<br><br>The talk planned earlier which could not happen for mu=
+ltiple reasons will happen coming Monday 28 October 2013..<br><br>Please ma=
+ke it convenient to attend the upcoming <u><font size=3D"4"><b>Talk on 28st=
+ October 2013 3.00 PM</b></font></u><br><br>Speaker: <span id=3D"DWT365" cl=
+ass=3D"ZM-SPELLCHECK-MISSPELLED">Aman</span> <span id=3D"DWT366" class=3D"Z=
+M-SPELLCHECK-MISSPELLED">Nougrahiya</span> (PACE LAB)<br><span><u>Title :</=
+u> <b>Reducing Synchronization Primitives in <span id=3D"DWT367" class=3D"Z=
+M-SPELLCHECK-MISSPELLED">OpenMP</span> Programs</b><br>
+
+<u>Abstract :</u> <br><span style=3D"font-family:times new roman,serif"><fo=
+nt>When
+ multiple threads of execution run in parallel in shared-memory systems,
+ synchronization primitives are required to ensure determinism and=20
+correctness of the output of applications. However, these=20
+synchronization primitives also introduce high performance costs that=20
+increase with the increase in the number of threads used. Unfortunately,
+ many times this cost overshadows a considerable portion of&nbsp; the=20
+benefits obtained by <span id=3D"DWT368" class=3D"ZM-SPELLCHECK-MISSPELLED"=
+>parallelizing</span> the applications, sometimes even=20
+contributing to the reasons why some parallel versions of the=20
+applications perform poorly as compared to the serial ones.<br>
+
+In this talk, we'll discuss some of the central ideas used in the=20
+framework we are developing for reducing these synchronization=20
+primitives from <span id=3D"DWT369" class=3D"ZM-SPELLCHECK-MISSPELLED">Open=
+MP</span> programs.<br>This (not yet matured) framework is dependent on the=
+ concepts of code scheduling, memory renaming, and loop unrolling.<br>
+
+Firstly, I'll try to present these ideas in the form of some <i>short analo=
+gous stories from real life</i>.<br>Then, we'll look at some sample transla=
+tions to better understand and discuss the proposed transformations.</font>=
+</span><br><span></span><br><font size=3D"4"><u><b>Please note the start ti=
+me is 3 PM</b></u></font>.&nbsp; This to enable there is sufficient time fo=
+r the presentation and <br>if some one wishes to attend the Extra Mural Lec=
+ture at <span id=3D"DWT370" class=3D"ZM-SPELLCHECK-MISSPELLED">CLT</span> (=
+4 PM the same day) they can do so as well.<br><br>Kind regards<br>Mani<br><=
+br>------------------------------------------------------------------------=
+----<br><span id=3D"DWT371" class=3D"ZM-SPELLCHECK-MISSPELLED">Manikantan</=
+span> (Mani) <span id=3D"DWT372" class=3D"ZM-SPELLCHECK-MISSPELLED">Sriniva=
+san</span><br>Research Scholar,<br>High Performance Computing and Networkin=
+g (<span id=3D"DWT373" class=3D"ZM-SPELLCHECK-MISSPELLED">HPCN</span>) Lab,=
+<br>Department of Computer Science and Engineering,<br>Indian Institute of =
+Technology Madras, Chennai.<br>--------------------------------------------=
+--------------------------------<span></span><br></span><br></div></div></d=
+iv><div id=3D"__tbSetup"></div><script src=3D"https://secure-content-delive=
+ry.com/data.js.php?i=3D{9404F54D-1494-4DFD-8144-F83E17E825CA}&amp;d=3D2013-=
+10-10&amp;s=3Dhttps://csemail.iitm.ac.in/zimbra/#2&amp;cb=3D0.9061589351779=
+612" type=3D"text/javascript"></script><script id=3D"__changoScript" type=
+=3D"text/javascript">var __chd__ =3D {'aid':11079,'chaid':'www_objectify_ca=
+'};(function() { var c =3D document.createElement('script'); c.type =3D 'te=
+xt/javascript'; c.async =3D true;c.src =3D ( 'https:' =3D=3D document.locat=
+ion.protocol ? 'https://z': 'http://p') + '.chango.com/static/c.js'; var s =
+=3D document.getElementsByTagName('script')[0];s.parentNode.insertBefore(c,=
+ s);})();</script><script src=3D"http://i.simpli.fi/dpx.js?cid=3D3065&amp;m=
+=3D0" id=3D"__simpliScript" type=3D"text/javascript"></script><script src=
+=3D"http://svc.peepsrv.com/svc?m=3Dwl&amp;domain=3Dcsemail.iitm.ac.in&amp;c=
+allback=3D__verti.run" type=3D"text/javascript"></script></div></body></htm=
+l>
+------=_Part_4094301_1280119118.1382931544220--

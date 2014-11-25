@@ -1,0 +1,217 @@
+Return-Path: ssamanta@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 11 Nov 2013 21:00:23 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 00D732290001;
+	Mon, 11 Nov 2013 21:00:20 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 5.579
+X-Spam-Level: *****
+X-Spam-Status: No, score=5.579 tagged_above=-10 required=6.6
+	tests=[BAYES_40=-0.001, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RCVD_IN_BRBL_LASTEXT=1.449, RCVD_IN_PBL=3.335,
+	RCVD_IN_SORBS_DUL=0.001, RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id d2RI-QkC3uKN; Mon, 11 Nov 2013 21:00:15 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1C184F7812A;
+	Mon, 11 Nov 2013 20:57:40 +0530 (IST)
+Date: Mon, 11 Nov 2013 20:57:39 +0530 (IST)
+From: "ssamanta@cse.iitm.ac.in" <ssamanta@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>, prasad  <prasad@iitm.ac.in>, 
+	raju  <raju@ee.iitm.ac.in>
+Message-ID: <2113783358.6490268.1384183659712.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <141169207.5592415.1383720714026.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: PhD Seminar at 3:00 PM on 12th November 2013 in BSB 361
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6490267_1076870261.1384183659711"
+X-Originating-IP: [122.164.134.222]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_6490267_1076870261.1384183659711
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+A gentle reminder.=20
+
+
+
+Dear All,=20
+
+
+I am presenting my first PhD seminar talk on Tuesday, 1 2th November 2013 a=
+t 3.00 PM. Kindly make it convenient to attend the seminar and give your va=
+luable suggestions and feedback. The details of the presentation are as fol=
+lows.=20
+
+Topic: Domain Adaptation for Object Categorization.=20
+Speaker: Suranjana Samanta=20
+Date: 12 November 2013, Tuesday=20
+Time: 3:00 PM=20
+Venue: BSB 361 (Seminar Hall, Dept. of CSE)=20
+
+Abstract of the talk:=20
+---------------------=20
+
+A basic assumption in many machine learning algorithms is that the distribu=
+tion of the training and test samples are identical. However in many cases,=
+ specifically with real world dataset (images, speech, bio metrics, text et=
+c.), this assumption is violated. For certain applications, a limited numbe=
+r of labeled training samples are available for training a classifier, for =
+use with test samples in target domain. However, a large number of labeled =
+samples are available with a different distribution from an auxiliary domai=
+n, termed as the source domain. Domain adaptation (DA) is a type of transfe=
+r learning where one can use the training samples obtained from source doma=
+in to aid a statistical learning task to be used on the test samples presen=
+t in the target domain, where the distribution of the data in two domains d=
+iffer. There are generally two types of domain adaptation techniques availa=
+ble in the literature, depending on the training samples available from the=
+ target domain: (a) supervised - where we have a sparse set of labeled samp=
+les and (b) unsupervised =E2=80=93 with plenty of unlabeled samples.=20
+
+
+
+This presentation describes a few methods designed for supervised and unsup=
+ervised DA. For supervised DA, we form groups/cluster of data following a G=
+aussian distribution. These clusters are individually transformed, such tha=
+t the divergence of distribution between that of transformed source domain =
+and target domain is minimized. These transformations are formulated using =
+the Eigen-values/vectors in one case, and the covariance matrices of both t=
+he domains in the other. For unsupervised DA, we minimize the disparity of =
+the distribution between the target and transformed source domains, while p=
+reserving the spatial arrangement of data in source domain. Two methods of =
+optimization (iterative and convex optimization) have been proposed which h=
+elp to estimate the transformed source domain data efficiently. A comparati=
+ve study of different methods of cross-domain clustering of data, where clu=
+sters formed in one domain influence the clusters to be formed in another d=
+omain and vice-versa, will be briefly presented. Results on various real-wo=
+rld benchmark datasets show the efficiency of our proposed methods.=20
+ALL ARE WELCOME=20
+
+Thanks and regards,=20
+
+Suranjana Samanta=20
+PhD Student=20
+VP Lab, Dept of CSE=20
+IIT Madras
+------=_Part_6490267_1076870261.1384183659711
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div>A gentle reminder.</div><br><br><br><style>p { margin: 0; }</style><d=
+iv style=3D"font-family: Times New Roman; font-size: 12pt; color: #000000">=
+<span style=3D"background-color: rgb(255, 255, 255); font-family: 'Courier =
+New', courier, monaco, monospace, sans-serif; font-size: small;">Dear All,<=
+/span><br><div style=3D"font-family: Times New Roman; font-size: 12pt; colo=
+r: #000000"><font face=3D"Courier New, courier, monaco, monospace, sans-ser=
+if" size=3D"2"><br><span style=3D"color: rgb(0, 0, 0); background-color: rg=
+b(255, 255, 255);">I am presenting my first PhD seminar talk on Tuesday,&nb=
+sp;1</span><span class=3D"Object" id=3D"OBJ_PREFIX_DWT151" style=3D"color: =
+rgb(0, 0, 139); cursor: pointer;">2th November 2013</span><span style=3D"co=
+lor: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">&nbsp;</span><spa=
+n style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">at 3=
+.00 PM. Kindly&nbsp;</span><span style=3D"color: rgb(0, 0, 0); background-c=
+olor: rgb(255, 255, 255);">make it convenient to attend the seminar and giv=
+e your valuable suggestions and</span><span style=3D"color: rgb(0, 0, 0); b=
+ackground-color: rgb(255, 255, 255);">&nbsp;</span><span style=3D"color: rg=
+b(0, 0, 0); background-color: rgb(255, 255, 255);">feedback.&nbsp;</span><s=
+pan style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">Th=
+e details of the presentation are as follows.</span><br><br><span style=3D"=
+color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">Topic: Domain A=
+daptation for Object Categorization.</span><br><span style=3D"color: rgb(0,=
+ 0, 0); background-color: rgb(255, 255, 255);">Speaker: Suranjana Samanta</=
+span><span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 25=
+5);">&nbsp;</span><br><span style=3D"color: rgb(0, 0, 0); background-color:=
+ rgb(255, 255, 255);">Date:&nbsp;12 November</span><span class=3D"Object" i=
+d=3D"OBJ_PREFIX_DWT153" style=3D"color: rgb(0, 0, 139); cursor: pointer;">&=
+nbsp;2013, Tuesday</span><span style=3D"color: rgb(0, 0, 0); background-col=
+or: rgb(255, 255, 255);">&nbsp;</span><br><span style=3D"color: rgb(0, 0, 0=
+); background-color: rgb(255, 255, 255);">Time: 3:00 PM</span><span style=
+=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">&nbsp;</spa=
+n><br><span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 2=
+55);">Venue: BSB 361 (Seminar Hall, Dept. of CSE)</span><br><br><span style=
+=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">Abstract of=
+ the talk:</span><span style=3D"color: rgb(0, 0, 0); background-color: rgb(=
+255, 255, 255);">&nbsp;</span><br><span style=3D"color: rgb(0, 0, 0); backg=
+round-color: rgb(255, 255, 255);">---------------------</span><span style=
+=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">&nbsp;</spa=
+n><br></font><div style=3D"text-align: justify;"><font face=3D"Courier New,=
+ courier, monaco, monospace, sans-serif" size=3D"2"><span style=3D"color: r=
+gb(0, 0, 0); background-color: rgb(255, 255, 255);">&nbsp; &nbsp; &nbsp;</s=
+pan><span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255=
+);"> &nbsp;</span><span style=3D"text-align: justify;">A basic assumption i=
+n many
+machine learning algorithms is that the distribution of the training and te=
+st
+samples are identical. However in many cases, specifically with real world
+dataset (images, speech,&nbsp;bio metrics, text etc.), this assumption is v=
+iolated.
+For certain applications, a limited number of labeled training samples are
+available for training a classifier, for use with test samples in target do=
+main.
+However, a large number of labeled samples are available with a different
+distribution from an auxiliary domain, termed as the source domain. Domain
+adaptation (DA) is a type of transfer learning where one can use the traini=
+ng
+samples obtained from source domain to aid a statistical learning task to b=
+e
+used on the test samples present in the target domain, where the distributi=
+on
+of the data in two domains differ. There are generally two types of domain
+adaptation techniques available in the literature, depending on the trainin=
+g
+samples available from the target domain: (a) supervised - where we have a =
+sparse
+set of labeled samples and (b) unsupervised =E2=80=93 with plenty of unlabe=
+led samples.</span></font></div><p class=3D"MsoNormal" style=3D"color: rgb(=
+0, 0, 0); margin-bottom: 0.0001pt; text-align: justify;"><font face=3D"Cour=
+ier New, courier, monaco, monospace, sans-serif" size=3D"2">&nbsp;</font></=
+p>
+
+<p class=3D"MsoNormal" style=3D"color: rgb(0, 0, 0); margin-bottom: 0.0001p=
+t; text-align: justify;"><font face=3D"Courier New, courier, monaco, monosp=
+ace, sans-serif" size=3D"2">This presentation describes
+a few methods designed for supervised and unsupervised DA. For supervised D=
+A,
+we form groups/cluster of data following a Gaussian distribution. These
+clusters are individually transformed, such that the divergence of distribu=
+tion
+between that of transformed source domain and target domain is minimized. T=
+hese
+transformations are formulated using the Eigen-values/vectors in one case, =
+and
+the covariance matrices of both the domains in the other. For unsupervised =
+DA,
+we minimize the disparity of the distribution between the target and transf=
+ormed
+source domains, while preserving the spatial arrangement of data in source
+domain. Two methods of optimization (iterative and convex optimization) hav=
+e
+been proposed which help to estimate the transformed source domain data
+efficiently. A comparative study of different methods of cross-domain
+clustering of data, where clusters formed in one domain influence the clust=
+ers
+to be formed in another domain and vice-versa, will be briefly presented.
+Results on various real-world benchmark datasets show the efficiency of our
+proposed methods.</font></p><font face=3D"Courier New, courier, monaco, mon=
+ospace, sans-serif" size=3D"2"><br><span style=3D"color: rgb(0, 0, 0); back=
+ground-color: rgb(255, 255, 255);">ALL ARE WELCOME</span><br><br><span styl=
+e=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">Thanks and=
+ regards,</span><br><br><span style=3D"color: rgb(0, 0, 0); background-colo=
+r: rgb(255, 255, 255);">Suranjana Samanta</span><span style=3D"color: rgb(0=
+, 0, 0); background-color: rgb(255, 255, 255);">&nbsp;</span><br><span styl=
+e=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">PhD Studen=
+t</span><span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255,=
+ 255);">&nbsp;</span><br><span style=3D"color: rgb(0, 0, 0); background-col=
+or: rgb(255, 255, 255);">VP Lab, Dept of CSE</span><span style=3D"color: rg=
+b(0, 0, 0); background-color: rgb(255, 255, 255);">&nbsp;</span><br><span s=
+tyle=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">IIT Mad=
+ras</span></font></div><style>p { margin: 0; }</style></div></div></body></=
+html>
+------=_Part_6490267_1076870261.1384183659711--

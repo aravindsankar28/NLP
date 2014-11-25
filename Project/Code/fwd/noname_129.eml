@@ -1,0 +1,175 @@
+Return-Path: saurabhgupta30@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 26 Sep 2013 14:51:19 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 87A3FF781B0;
+	Thu, 26 Sep 2013 14:51:17 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 4.622
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.622 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DATE_IN_PAST_03_06=1.592, DKIM_SIGNED=0.1,
+	DKIM_VALID=-0.1, FREEMAIL_ENVFROM_END_DIGIT=1.553,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_SOFTFAIL=0.665,
+	T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id lkGJZEl2Sn1z; Thu, 26 Sep 2013 14:51:12 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B5E78F781BA
+	for <seminar@cse.iitm.ac.in>; Thu, 26 Sep 2013 14:50:53 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id B71A07810AF
+	for <seminar@cse.iitm.ac.in>; Thu, 26 Sep 2013 14:59:56 +0530 (IST)
+Received: from mail-ve0-f169.google.com ([209.85.128.169])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.3.8205)
+	with ESMTP id 201309260919060044256; Thu, 26 Sep 2013 14:49:07 +0530
+Received: by mail-ve0-f169.google.com with SMTP id db12so671203veb.14
+        for <seminar@cse.iitm.ac.in>; Thu, 26 Sep 2013 02:29:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:date:message-id:subject:from:to:content-type;
+        bh=re08ZxOMXxX4h4itFNFhmGo1MUXQ85807y/rYDslnx0=;
+        b=hYzFOPTnhw5S89exu9xL1/Ort/iwocHX9LNLrZPKSikeKj1bksSPZLWeNOOm0KZMaI
+         PR98+2o/YPHASGe2qPtA6FcvcncIcpbVN+3KWvhhVvsHR2oOd2MJ3xe9x5sUcZVSEwnS
+         UbEoYVVgAEA3heLykb1yHHHnisq3CQhBLOCqOYmn6HbWwYt/akLuO8jte0X7QHH3NC22
+         cufPLkfDMnvQsq58o+LrWcIkrPKjbcK41a4NNaRgkutXl1akGEnDUxMMpCYOXcMUvH9n
+         5mmLhUqoSKt+gIb7nynwbqpPF/uU7nF1UP/QIMeZ0Pulg/VdjX1XxKxRfaxmpaB1WieG
+         ghxw==
+MIME-Version: 1.0
+X-Received: by 10.52.120.78 with SMTP id la14mr31619944vdb.9.1380173310003;
+ Wed, 25 Sep 2013 22:28:30 -0700 (PDT)
+Sender: saurabhgupta30@gmail.com
+Received: by 10.220.151.198 with HTTP; Wed, 25 Sep 2013 22:28:29 -0700 (PDT)
+Date: Thu, 26 Sep 2013 10:58:29 +0530
+X-Google-Sender-Auth: qUCxXdpG4I3OyvQJRaeSe1SDc8M
+Message-ID: <CAP+eLFETzeC98ZR1yApJ-qd9EpHLnxNDzT7arJ3KZZRdur5HNw@mail.gmail.com>
+Subject: MS Seminar
+From: Saurabh Gupta <sgupta@cse.iitm.ac.in>
+To: seminar@cse.iitm.ac.in, karmal@ee.iitm.ac.in
+Content-Type: multipart/alternative; boundary=e89a8f234635df125004e742a38a
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: dear,target,contrasted,kindly,hrs,every,manner,suggestions,gupta,attend,interact
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.128.169
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201309260919060044256
+
+--e89a8f234635df125004e742a38a
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,
+
+I will be giving my MS seminar talk on 3rd October, 2013 (Thursday) at 3:00
+PM. I request you to kindly attend the seminar and give your valuable
+suggestions. The details of the talk are as follows:
+
+Speaker   : Saurabh Gupta
+Date        : 03-10-2013, Thursday
+Time       : 15:00 hrs to 16:00 hrs
+Topic      : Improving Conversational Recommendation based on
+Preference-based Feedback
+Venue     : BSB 361, Department of Computer Science and Engineering.
+
+
+Abstract
+
+Conversational recommendation mimics the kind of dialogue that takes place
+between a customer and a shopkeeper involving multiple interactions where
+the user can give feedback at every interaction. For users who only have a
+vague idea of what they want, these systems provide an effective way to
+navigate through the product space, educating them on the way. This can be
+contrasted with single shot retrieval, where the system retrieves a set of
+items in response to a user query in a single interaction. One of the modes
+for getting user feedback is preference-based feedback (PBF), where the
+user selects one item from a list of products shown to her at each
+iteration.
+Existing conversational recommender systems based on PBF require experts to
+define knowledge containers like similarity measures which involves a lot
+of knowledge engineering overhead. We propose a new approach called UtilSim
+which reduces the knowledge
+engineering overhead and makes use of easy-to-acquire =93domain=94 knowledg=
+e to
+generate efficient recommendations.
+To better approximate the utility of an item for a user, the notion of
+compromise was proposed for single shot recommendation settings.
+Compromises are defined as the preferences of the user that the recommender
+system fails to satisfy. To our knowledge, there has been no work done to
+model compromises in a conversational setting, where the user might be
+willing to navigate the product space to discover interesting products. We
+propose Flexi-Comp, a flexible and dynamic approach to model compromises in
+PBF based conversational recommender systems.
+Offline evaluation of PBF based conversational recommender systems is
+usually done by =93simulating=94 an artificial agent who behaves optimally =
+to
+reach a predefined target product. To simulate a more realistic setting,
+noise is added into the evaluation process by randomly perturbing the
+similarities of the recommended products to the target product. Observing
+the arbitrariness of noise addition in this way, we argue for a tree based
+methodology for introducing noise in a principled manner.
+
+
+All are welcome!
+
+Regards,
+Saurabh Gupta,
+CS10S029,
+CSE Department,
+IIT Madras.
+
+--e89a8f234635df125004e742a38a
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Dear All,=A0</div><div><br></div><div>I will be givin=
+g my MS seminar talk on 3rd October, 2013 (Thursday) at 3:00 PM. I request =
+you to kindly attend the seminar and give your valuable suggestions. The de=
+tails of the talk are as follows:</div>
+<div><br></div><div>Speaker =A0 : Saurabh Gupta</div><div>Date =A0 =A0 =A0 =
+=A0: 03-10-2013, Thursday</div><div>Time =A0 =A0 =A0 : 15:00 hrs to 16:00 h=
+rs</div><div>Topic =A0 =A0 =A0: Improving Conversational Recommendation bas=
+ed on Preference-based Feedback</div>
+<div>Venue =A0 =A0 : BSB 361, Department of Computer Science and Engineerin=
+g.</div><div><br></div><div><br></div><div>Abstract</div><div><br></div><di=
+v>Conversational recommendation mimics the kind of dialogue that takes plac=
+e between a customer and a shopkeeper involving multiple interactions where=
+ the user can give feedback at every interaction. For users who only have a=
+ vague idea of what they want, these systems provide an effective way to na=
+vigate through the product space, educating them on the way. This can be co=
+ntrasted with single shot retrieval, where the system retrieves a set of it=
+ems in response to a user query in a single interaction. One of the modes f=
+or getting user feedback is preference-based feedback (PBF), where the user=
+ selects one item from a list of products shown to her at each iteration.=
+=A0</div>
+<div>Existing conversational recommender systems based on PBF require exper=
+ts to define knowledge containers like similarity measures which involves a=
+ lot of knowledge engineering overhead. We propose a new approach called Ut=
+ilSim which reduces the knowledge</div>
+<div>engineering overhead and makes use of easy-to-acquire =93domain=94 kno=
+wledge to generate efficient recommendations.=A0</div><div>To better approx=
+imate the utility of an item for a user, the notion of compromise was propo=
+sed for single shot recommendation settings. Compromises are defined as the=
+ preferences of the user that the recommender system fails to satisfy. To o=
+ur knowledge, there has been no work done to model compromises in a convers=
+ational setting, where the user might be willing to navigate the product sp=
+ace to discover interesting products. We propose Flexi-Comp, a flexible and=
+ dynamic approach to model compromises in PBF based conversational recommen=
+der systems.</div>
+<div>Offline evaluation of PBF based conversational recommender systems is =
+usually done by =93simulating=94 an artificial agent who behaves optimally =
+to reach a predefined target product. To simulate a more realistic setting,=
+ noise is added into the evaluation process by randomly perturbing the simi=
+larities of the recommended products to the target product. Observing the a=
+rbitrariness of noise addition in this way, we argue for a tree based metho=
+dology for introducing noise in a principled manner.</div>
+<div><br></div><div><br></div><div>All are welcome!</div><div><br></div><di=
+v>Regards,</div><div>Saurabh Gupta,</div><div>CS10S029,</div><div>CSE Depar=
+tment,</div><div>IIT Madras.</div></div>
+
+--e89a8f234635df125004e742a38a--

@@ -1,0 +1,235 @@
+Return-Path: ravindran.b@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 7 Nov 2014 14:20:56 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 74B312210001;
+	Fri,  7 Nov 2014 14:20:54 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 2.26
+X-Spam-Level: **
+X-Spam-Status: No, score=2.26 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RDNS_NONE=0.793,
+	SPF_SOFTFAIL=0.665] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id j+YyQrz2tP8i; Fri,  7 Nov 2014 14:20:48 +0530 (IST)
+Received: from mx.iitm.ac.in (unknown [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 509C72210005
+	for <seminar@cse.iitm.ac.in>; Fri,  7 Nov 2014 14:19:21 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 5110678025C
+	for <seminar@cse.iitm.ac.in>; Fri,  7 Nov 2014 14:19:41 +0530 (IST)
+Authentication-Results: mailx1.iitm.ac.in;
+	spf=pass smtp.mailfrom=ravindran.b@gmail.com;
+Received: from mail-lb0-f171.google.com ([209.85.217.171])
+	by mailx1.iitm.ac.in (SonicWALL 8.0.4.2607)
+	with ESMTP id 201411070848040086984; Fri, 07 Nov 2014 14:18:06 +0530
+Received: by mail-lb0-f171.google.com with SMTP id b6so2302009lbj.16
+        for <seminar@cse.iitm.ac.in>; Fri, 07 Nov 2014 00:49:38 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:date:message-id:subject:from:to
+         :content-type;
+        bh=NjKi8iv5wtTUQnRiq6ndEayR9RYlXaQsAXd8U+qevVI=;
+        b=c9kyFRlj6OJYSUTRL51mehYmfa1hXoe9cnD0ea5KpUKbeoza1YWVvWtnUGqTmeTNIN
+         L8yt5v2avb59ymXLVMZhAntSjDnL9ErPtWrh9hlm2WUe33OJ84K1jXyTul+xP4VVoc1P
+         1Pip9mgA45GGGcVWXawg3I50nXI1Z4OpbxJ5oP1qG1kwKHKtEWiSdDR6jgn6kVitbLet
+         NUk74gHdglP4nvZJWKrq5hKEMl96Z8nU74nPD/+lI3DRDvZ16B0yPNIZGmB8J8B8rz3J
+         X56vVc3AiLwa2Xsia6nYHZbwci8a9X+uEcz7RemtHEnQG4ZCntPUE718+Z41I+D9bilD
+         qkdQ==
+MIME-Version: 1.0
+X-Received: by 10.112.42.114 with SMTP id n18mr10046000lbl.44.1415350178736;
+ Fri, 07 Nov 2014 00:49:38 -0800 (PST)
+Reply-To: ravi@cse.iitm.ac.in
+Sender: ravindran.b@gmail.com
+Received: by 10.152.29.202 with HTTP; Fri, 7 Nov 2014 00:49:38 -0800 (PST)
+Received: by 10.152.29.202 with HTTP; Fri, 7 Nov 2014 00:49:38 -0800 (PST)
+Date: Fri, 7 Nov 2014 14:19:38 +0530
+X-Google-Sender-Auth: oQSBaK9BMQSX_mQdO5_9E7NRAGs
+Message-ID: <CAJ0BqjgHaGa0TTRNRaYpBL1QNDuvHjgZFC-m5iNQm=WWJ4rHQg@mail.gmail.com>
+Subject: Monday 10th 5 pm. Talk by Former Chief Architect at Yahoo! David Chaiken
+From: Balaraman Ravindran <ravi@cse.iitm.ac.in>
+To: DataAnalytics IITM <data.analytics.iitm@gmail.com>, seminar@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=001a1133b3d4a2f02d050740e40e
+X-Mlf-SPF: SPF Pass (result=pass;action=none;identity=mailfrom;domain=gmail.com;source=209.85.217.171;details:allowedlist=consider;)
+X-Mlf-DKIM: DKIM Disabled (result=disabled;)
+X-Mlf-DMARC: DMARC Disabled (result=disabled;)
+X-Mlf-KeyWords: talk,eminent,miss,cent,booming,pleased,industries,contributor,architecture,large
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.217.171
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;other;none;none
+X-Mlf-UniqueId: i201411070848040086984
+
+--001a1133b3d4a2f02d050740e40e
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ----------
+From: "Ramani Agharkar" <ramani.agharkar797@gmail.com>
+Date: Nov 7, 2014 1:50 PM
+Subject: Analytics Club || Talk by Former Chief Architect at Yahoo! David
+Chaiken
+Cc:
+
+> Dear Students,
+>
+> Greetings from the Analytics Club!!!
+>
+> We are almost towards the end of this semester and we want to end our
+lecture series on a grand note. We are pleased to announce that we will be
+hosting a talk by Mr. David Chaiken, former Chief Architect at Yahoo! who
+is currently the Chief Technology Officer at Altiscale, a hadoop based
+start-up in Palo Alto.
+>
+> To know more about Altiscale, click for an article on GIGAOM here
+>
+> We need not say more after revealing the designations the speaker has
+held, but here is something more about Mr. David Chaiken.
+>
+> Bio-data of David Chaiken
+>
+> David Chaiken has been building large scale distributed systems for more
+than 25 years. He served as the Chief Architect of Yahoo,where he led teams
+that developed consumer advertising and media systems with Hadoop at their
+core.  Over his career, David has also built voice search products for
+consumers, mobile enterprise applications,network management systems,
+project management software, a large-scale multiprocessor architecture, a
+tablet computer, and four or so other information appliances.  He has
+managed both hardware and software
+> development teams, but prefers individual contributor roles.
+>
+> David has been hacking since his parents sat him down in front of an IBM
+card punch.  His favorite technologies include the RSA
+encryption algorithm, the C programming language, the ARM instruction set
+ architecture, the Cent OS distribution of Linux, and
+the build-on-grid-push-to-serving design pattern. In 1994, David earned
+a Ph.D. in electrical engineering and computer science from MIT.
+>
+> Don't miss this unique opportunity to interact with such an eminent
+personality from a booming career field.
+>
+> Details of the talk
+>
+> Venue: CS25 Computer Science Department
+> Date: 10th November,Monday
+> Time- 5PM- 6PM
+>
+> Title: Hadoop, its spread across Yahoo, and David=E2=80=99s experience as=
+ an
+entrepreneur.
+>
+> Description :In this talk, David will briefly share his experience with
+Hadoop-based innovation at Yahoo: building the business case, the early
+successes, the spread across all product groups, and some of the challenges
+along the way.  He will also describe patterns of Hadoop-based innovation
+that is spreading across a variety of industries, from online gaming to
+healthcare.  This session is intended to be interactive.
+>
+> Please bring questions for Mr. David to answer, based on his experience
+at large companies like Yahoo and AT&T, and a number of Silicon Valley
+start-ups.
+>
+> Hope to see you there!
+>
+> Best,
+> Ramani Agharkar
+>
+> Head, Analytics Club
+> IIT Madras
+>
+> Regards,
+> Rohit Kothari
+> I&AR Secretary
+> IIT Madras
+
+--001a1133b3d4a2f02d050740e40e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr"><br>
+---------- Forwarded message ----------<br>
+From: &quot;Ramani Agharkar&quot; &lt;<a href=3D"mailto:ramani.agharkar797@=
+gmail.com">ramani.agharkar797@gmail.com</a>&gt;<br>
+Date: Nov 7, 2014 1:50 PM<br>
+Subject: Analytics Club || Talk by Former Chief Architect at Yahoo! David C=
+haiken<br>
+Cc: </p>
+<p dir=3D"ltr">&gt; Dear Students,<br>
+&gt;<br>
+&gt; Greetings from the Analytics Club!!!<br>
+&gt;<br>
+&gt; We are almost towards the end of this semester and we want to end our =
+lecture series on a grand note. We are pleased to announce that we will be =
+hosting a talk by Mr.=C2=A0David Chaiken, former Chief Architect at Yahoo! =
+who is currently the=C2=A0Chief Technology Officer at Altiscale, a hadoop b=
+ased start-up in Palo Alto.<br>
+&gt;<br>
+&gt; To know more about Altiscale, click for an article on GIGAOM=C2=A0here=
+<br>
+&gt;<br>
+&gt; We need not say more after revealing the designations the speaker has =
+held, but here is something more about Mr. David Chaiken.<br>
+&gt;<br>
+&gt; Bio-data of David Chaiken<br>
+&gt;<br>
+&gt; David Chaiken has been building large scale distributed systems=C2=A0f=
+or more than 25 years. He=C2=A0served as the Chief Architect of Yahoo,where=
+ he led teams that developed consumer advertising and media=C2=A0systems wi=
+th Hadoop at their core.=C2=A0=C2=A0Over his career, David has also built=
+=C2=A0voice search products for consumers, mobile enterprise applications,n=
+etwork management systems, project management software, a large-scale=C2=A0=
+multiprocessor architecture, a tablet computer, and four or so other=C2=A0i=
+nformation appliances.=C2=A0 He has managed both hardware and software<br>
+&gt; development teams, but prefers individual contributor roles.<br>
+&gt;<br>
+&gt; David has been hacking since his parents sat him down in front of an=
+=C2=A0IBM card punch.=C2=A0=C2=A0His favorite technologies include the RSA =
+encryption=C2=A0algorithm, the C programming language, the ARM instruction =
+set =C2=A0architecture, the Cent OS distribution of Linux, and the=C2=A0bui=
+ld-on-grid-push-to-serving design pattern. In 1994, David earned a=C2=A0Ph.=
+D. in electrical engineering and computer science from MIT.<br>
+&gt;<br>
+&gt; Don&#39;t miss this unique opportunity to interact with such an eminen=
+t personality from a booming career field.<br>
+&gt;<br>
+&gt; Details of the talk<br>
+&gt;<br>
+&gt; Venue:=C2=A0CS25=C2=A0Computer Science Department<br>
+&gt; Date:=C2=A010th November,Monday<br>
+&gt; Time-=C2=A05PM- 6PM<br>
+&gt;<br>
+&gt; Title: Hadoop, its spread across Yahoo, and David=E2=80=99s experience=
+ as an entrepreneur.<br>
+&gt;<br>
+&gt; Description=C2=A0:In this talk, David will briefly share his experienc=
+e with Hadoop-based innovation at Yahoo: building the business case, the ea=
+rly successes, the spread across all product groups, and some of the challe=
+nges along the way.=C2=A0 He will also describe patterns of Hadoop-based in=
+novation that is spreading across a variety of industries, from online gami=
+ng to healthcare.=C2=A0 This session is intended to be interactive.=C2=A0=
+=C2=A0<br>
+&gt;<br>
+&gt; Please bring questions for Mr. David to answer, based on his experienc=
+e at large companies like Yahoo and AT&amp;T, and a number of Silicon Valle=
+y start-ups.<br>
+&gt;<br>
+&gt; Hope to see you there!<br>
+&gt;<br>
+&gt; Best,<br>
+&gt; Ramani Agharkar<br>
+&gt;<br>
+&gt; Head, Analytics Club<br>
+&gt; IIT Madras<br>
+&gt;<br>
+&gt; Regards,<br>
+&gt; Rohit Kothari<br>
+&gt; I&amp;AR Secretary<br>
+&gt; IIT Madras</p>
+
+--001a1133b3d4a2f02d050740e40e--

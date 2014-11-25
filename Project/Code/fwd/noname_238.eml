@@ -1,0 +1,88 @@
+Return-Path: shankar@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 11 Feb 2013 15:38:13 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id B4EAEF78107;
+	Mon, 11 Feb 2013 15:38:10 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.209
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.209 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_50=0.8, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id d5CUoGc-orWM; Mon, 11 Feb 2013 15:38:09 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3CA1CF78046
+	for <all@cse.iitm.ac.in>; Mon, 11 Feb 2013 15:38:07 +0530 (IST)
+Date: Mon, 11 Feb 2013 15:38:07 +0530 (IST)
+From: Shankar Balachandran <shankar@cse.iitm.ac.in>
+To: all <all@cse.iitm.ac.in>
+Message-ID: <1653725610.183.1360577287178.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1077867120.3092.1360569179914.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Seminar Talk on Safetly Logic Electronics for Nuclear Reactor
+ Systems
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_182_1928706604.1360577287177"
+X-Originating-IP: [10.6.11.28]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_182_1928706604.1360577287177
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+Dear All 
+
+
+
+
+Manoj Misra (CS08S005) will give a seminar talk on "Design, Safety Analysis and Reliability Analysis of a Nuclear Reactor Protection Logic System" in the department tomorrow. 
+
+
+Venue: BSB 361 
+Time : 2:00 - 2:50 pm 
+Date : Tuesday, 12th February, 2013 
+
+
+
+In nuclear reactors, emergency shutdown systems are used to diminish the reactor power rapidly during abnormal conditions which could otherwise lead to undesirable states such as fuel failure, channel failure or liberation of fission products. The talk will cover the design of safety logic for the electronics that is used in the emergency shutdown process. The talk will also cover the implementation details, fabrication and testing of the safety logic. This system is currently being tested in a live plant. 
+
+
+Speaker's Bio: 
+
+
+Manoj K Misra is a Scientific Officer (F level) at the Indira Gandhi Centre for Atomic Research, Kalpakkam. His research interests are in the area of safety critical instrumentation and control systems for nuclear reactors. He is currently pursuing his MS in the CSE department. 
+------=_Part_182_1928706604.1360577287177
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><style>p { margin: 0; }</style><div style=3D"font-family: Times New Roman;=
+ font-size: 12pt; color: #000000"><style>p { margin: 0; }</style><div style=
+=3D"font-family: Times New Roman; font-size: 12pt; color: #000000"><div>Dea=
+r All</div><div><div><div><br></div><div>Manoj Misra (CS08S005) will give a=
+ seminar talk on "Design, Safety Analysis and Reliability Analysis of a Nuc=
+lear Reactor Protection Logic System" in the department tomorrow.&nbsp;</di=
+v><div><br></div><div>Venue: &nbsp;BSB 361</div><div>Time &nbsp;: 2:00 - 2:=
+50 pm</div><div>Date &nbsp; : Tuesday, 12th February, 2013</div><div><br></=
+div><div><div>In nuclear reactors, emergency&nbsp;shutdown systems are used=
+ to diminish the reactor power rapidly during abnormal conditions&nbsp;whic=
+h could otherwise lead to undesirable states such as fuel failure, channel =
+failure or liberation of fission products. The talk will cover the design o=
+f safety logic for the electronics that is used in the emergency shutdown p=
+rocess. The talk will also cover the implementation details, fabrication an=
+d testing of the safety logic. This system is currently being tested in a l=
+ive plant.</div></div><div><br></div><div>Speaker's Bio:</div><div><br></di=
+v><div>Manoj K Misra is a Scientific Officer (F level) at the Indira Gandhi=
+ Centre for Atomic Research, Kalpakkam. His research interests are in the a=
+rea of safety critical instrumentation and control systems for nuclear reac=
+tors. He is currently pursuing his MS in the CSE department.</div></div></d=
+iv></div></div></div></body></html>
+------=_Part_182_1928706604.1360577287177--

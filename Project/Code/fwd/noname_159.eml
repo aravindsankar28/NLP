@@ -1,0 +1,180 @@
+Return-Path: sreenivasa.kumar.p@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 2 Aug 2013 10:28:28 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D24EE2198008;
+	Fri,  2 Aug 2013 10:28:25 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.581
+X-Spam-Level: *
+X-Spam-Status: No, score=1.581 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, SPF_NEUTRAL=0.779]
+	autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id RudGX4q7NWg9; Fri,  2 Aug 2013 10:28:17 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id EB2B5F78035
+	for <students@cse.iitm.ac.in>; Fri,  2 Aug 2013 10:28:16 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 7FDBA780849
+	for <students@cse.iitm.ac.in>; Fri,  2 Aug 2013 10:59:02 +0530 (IST)
+Received: from mail-vb0-f49.google.com ([209.85.212.49])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.3.8205)
+	with ESMTP id 201308020523210056334; Fri, 02 Aug 2013 10:53:22 +0530
+Received: by mail-vb0-f49.google.com with SMTP id w16so200675vbb.22
+        for <students@cse.iitm.ac.in>; Thu, 01 Aug 2013 22:29:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=Tahd0lTOe8avV58nrTijwq1qGvJls2bxOh1urPcgXKY=;
+        b=LCL28+4lOc1ykJB7jzo+9Zv8smULleVpuv9d1/2z4tN4+c0u8/ZgQqetF1mI7BjNX9
+         XNeGhb8nvnJGnWkQ7LwkeKCCWs3rozyu3jb+1Scyy0qL151k6q1Kt9fo2m2Ijdf8DV7x
+         iCoVBAv4qYTDus7d6GQj3vQDh0tHnEm32Q9jaUNMzuRgGw3NEnwpftjuyXLndXb370Qx
+         DnN5ISSDh9XW3vtjyyQUg+y7+xICb4CgwYRpBuUiGhj1TZtbSL95uVCy7yRPtyvM1fTG
+         QHKH5fgt+0aHPYWH71L/Ds1j09qSIIc4ZLMEs+9JPLaXdy8zphmkV5r8dWk2Q1y+zbrE
+         gzrg==
+MIME-Version: 1.0
+X-Received: by 10.52.94.6 with SMTP id cy6mr1234158vdb.108.1375421341151; Thu,
+ 01 Aug 2013 22:29:01 -0700 (PDT)
+Sender: sreenivasa.kumar.p@gmail.com
+Received: by 10.58.163.72 with HTTP; Thu, 1 Aug 2013 22:29:01 -0700 (PDT)
+In-Reply-To: <D5F65288B602E44BAA931D98347BD9FE084292@BHARATA.IITM.AC.IN>
+References: <D5F65288B602E44BAA931D98347BD9FE084292@BHARATA.IITM.AC.IN>
+Date: Fri, 2 Aug 2013 10:59:01 +0530
+X-Google-Sender-Auth: h1m917jz8_0A2qfy3-XrRCOXk_0
+Message-ID: <CAFdB0Z2Kiys=-9_N67000+xJv-ekssAOUQqLZWyd9ab0pmWbvA@mail.gmail.com>
+Subject: Fwd: August 5th : Dr. BHOJAN Anand, Department of Computer Science :
+ School of Computing : National University of Singapore Topic: Graduate Study
+ and Research Opportunities at NUS-SoC, Singapore
+From: P Sreenivasa Kumar <psk@iitm.ac.in>
+To: students@cse.iitm.ac.in, International Relations <oir@iitm.ac.in>
+Content-Type: multipart/alternative; boundary=20cf307abe9f74b64e04e2f03c09
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: iar,dr,nd,600,dear,kindly,ee,university,ic,forwarded,cell,conference,computing,c
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.212.49
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201308020523210056334
+
+--20cf307abe9f74b64e04e2f03c09
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear Students:
+
+Please find below the details of a talk by Prof Anand Bhojan, NUS on
+opportunities in NUS.  It is being held in ICSR. The details are below:
+
+psk
+
+Dr P Sreenivasa Kumar ( http://www.cse.iitm.ac.in/~psk/ )
+Professor and Head, CSE Department
+Indian Institute of Technology Madras, Chennai 600 036, India.
+Ph: 044 2257 4350 Cell: 09444008330  Fax: 044 2257 4352
+
+---------- Forwarded message ----------
+From: International Relations <oir@iitm.ac.in>
+Date: Thu, Aug 1, 2013 at 5:05 PM
+Subject: August 5th : Dr. BHOJAN Anand, Department of Computer Science :
+School of Computing : National University of Singapore Topic: Graduate
+Study and Research Opportunities at NUS-SoC, Singapore
+To: Sreenivasa Kumar P <psk@iitm.ac.in>
+Cc: Dean IAR <deaniar@iitm.ac.in>, Vadhana <oir2@wmail.iitm.ac.in>
+
+Dear Prof,
+
+ Please find the program details of Dr. Anand's talk below. I request you
+to kindly circulate this to the CS students. I have forwarded it to smail,
+but got to know that CS and EE students have separate email ID's. We are
+taking printouts for circulation in the hostels and mess.
+
+August 5th : Dr. BHOJAN Anand, Department of Computer Science : School of
+Computing : National University of Singapore August 5th : Dr. BHOJAN Anand,
+Department of Computer Science : School of Computing : National University
+of Singapore
+Topic: Graduate Study and Research Opportunities at NUS-SoC, Singapore
+Venue : Conference Hall 3, IC & SR building,  4p.m. to 6 p.m.
+
+
+Thanking you,
+
+Regards
+
+Kavitha G.R (Ms) l Executive Officer l Office of International Relations
+2 nd Floor,  IC & SR Building l Indian Institute of Technology Madras
+Chennai - 600 036 l INDIA
+Tel: (91) 044-2257 4926 I Fax: (91) 044-2257 4927 I Cell: 9444 536574
+Email: oir@iitm.ac.in I Website: http://www.oir.iitm.ac.in/
+
+_____________________________________
+
+--20cf307abe9f74b64e04e2f03c09
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Dear Students: <br><br></div><div>Please find below t=
+he details of a talk by Prof Anand Bhojan, NUS on opportunities in NUS.=A0 =
+It is being held in ICSR. The details are below:<br><br></div><div>psk<br><=
+br>
+</div><div><div><div>Dr P Sreenivasa Kumar ( <a href=3D"http://www.cse.iitm=
+.ac.in/%7Epsk/" target=3D"_blank">http://www.cse.iitm.ac.in/~psk/</a> )<br>
+Professor and Head, CSE Department<br>Indian Institute of Technology Madras=
+, Chennai 600 036, India.<br>Ph: 044 2257 4350 Cell: 09444008330=A0 Fax: 04=
+4 2257 4352<br><br></div><div class=3D"gmail_quote">---------- Forwarded me=
+ssage ----------<br>
+From: <b class=3D"gmail_sendername">International Relations</b> <span dir=
+=3D"ltr">&lt;<a href=3D"mailto:oir@iitm.ac.in" target=3D"_blank">oir@iitm.a=
+c.in</a>&gt;</span><br>
+Date: Thu, Aug 1, 2013 at 5:05 PM<br>Subject: August 5th : Dr. BHOJAN Anand=
+, Department of Computer Science : School of Computing : National Universit=
+y of Singapore  	Topic: Graduate Study and Research Opportunities at NUS-So=
+C, Singapore<br>
+
+To: Sreenivasa Kumar P &lt;<a href=3D"mailto:psk@iitm.ac.in" target=3D"_bla=
+nk">psk@iitm.ac.in</a>&gt;<br>Cc: Dean IAR &lt;<a href=3D"mailto:deaniar@ii=
+tm.ac.in" target=3D"_blank">deaniar@iitm.ac.in</a>&gt;, Vadhana &lt;<a href=
+=3D"mailto:oir2@wmail.iitm.ac.in" target=3D"_blank">oir2@wmail.iitm.ac.in</=
+a>&gt;<br>
+
+<br>Dear Prof,<br>
+<br>=A0Please find the program details of Dr. Anand&#39;s talk below. I req=
+uest you to kindly circulate this to the CS students. I have forwarded it t=
+o smail, but got to know that CS and EE students have separate email ID&#39=
+;s. We are taking printouts for circulation in the hostels and mess.<br>
+
+
+<br>
+August 5th : Dr. BHOJAN Anand, Department of Computer Science : School of C=
+omputing : National University of Singapore August 5th : Dr. BHOJAN Anand, =
+Department of Computer Science : School of Computing : National University =
+of Singapore<br>
+
+
+Topic: Graduate Study and Research Opportunities at NUS-SoC, Singapore<br>
+Venue : Conference Hall 3, IC &amp; SR building, =A04p.m. to 6 p.m.<br>
+<br>
+<br>
+Thanking you,<br>
+<br>
+Regards<br>
+<br>
+Kavitha G.R (Ms) l Executive Officer l Office of International Relations<br=
+>
+2 nd Floor, =A0IC &amp; SR Building l Indian Institute of Technology Madras=
+<br>
+Chennai - 600 036 l INDIA<br>
+Tel: (91) 044-2257 4926 I Fax: (91) 044-2257 4927 I Cell: 9444 536574<br>
+Email: <a href=3D"mailto:oir@iitm.ac.in" target=3D"_blank">oir@iitm.ac.in</=
+a> I Website: <a href=3D"http://www.oir.iitm.ac.in/" target=3D"_blank">http=
+://www.oir.iitm.ac.in/</a><br>
+<br>
+_____________________________________<br></div><br></div></div></div>
+
+--20cf307abe9f74b64e04e2f03c09--

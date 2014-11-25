@@ -1,0 +1,120 @@
+Return-Path: sainageswar@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 1 Mar 2013 11:43:10 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 642B7F78106;
+	Fri,  1 Mar 2013 11:43:08 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.491
+X-Spam-Level: *
+X-Spam-Status: No, score=1.491 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	SPF_NEUTRAL=0.779, T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id z9NaIUDZuj0y; Fri,  1 Mar 2013 11:43:07 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D335FF78043
+	for <students@cse.iitm.ac.in>; Fri,  1 Mar 2013 11:43:06 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 4C2A9780A3F
+	for <students@cse.iitm.ac.in>; Fri,  1 Mar 2013 12:09:24 +0530 (IST)
+Received: from mail-ie0-f178.google.com ([209.85.223.178])
+	by mailx1.iitm.ac.in (SonicWALL 7.3.5.6377)
+	with ESMTP; Fri, 01 Mar 2013 12:02:19 +0530
+Received: by mail-ie0-f178.google.com with SMTP id c13so3104760ieb.23
+        for <students@cse.iitm.ac.in>; Thu, 28 Feb 2013 22:39:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:x-received:date:message-id:subject:from:to
+         :content-type;
+        bh=a0oO8QU6OA8PMlfJdjxXaAIzZEfOKvL/nWySnYtzj2c=;
+        b=viD/TsiO649ugoVerVxvgssO/gILfQhLuQmTcacodamGy+bp2hjuYG3EFJd0HF8ML+
+         FFJrb2WySRuvmXhIZMX7d0iunzgPddDJLcMDoH8/pDUVARAptxpwuyY03JNyHdQSUmlS
+         MFPDcTtQf70SDH+aDA5NThGQgSDNlIPK5K6lrNGUq8vUT0vRENHHaPyYUESZ+EN+yUos
+         LsYDaSjDYWUKd45wlXLcjgyUNBqv/+Cb9hZC3ghzYp7A6usa9Bh1rDNnGkeZN43WGWRZ
+         4DvLK+HA0YwMb6S5GYAnTiGjB92dZNgL1yb5PQhuVFrkEt2G1/xq6dGriZGOphvTCgnQ
+         /Z8Q==
+MIME-Version: 1.0
+X-Received: by 10.50.189.170 with SMTP id gj10mr6013327igc.1.1362119962805;
+ Thu, 28 Feb 2013 22:39:22 -0800 (PST)
+Received: by 10.231.147.66 with HTTP; Thu, 28 Feb 2013 22:39:22 -0800 (PST)
+Date: Fri, 1 Mar 2013 12:09:22 +0530
+Message-ID: <CAGh4+3RGsmk_2DWsUALw-XWCsROhuW+NY=5YJ1U9eFWjeF=MWg@mail.gmail.com>
+Subject: Talks In Exebit
+From: Sai Nageswar Satchidanand <sainageswar@gmail.com>
+To: students@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=14dae934037b8671f104d6d744e2
+X-Mlf-KeyWords: eminent,ecosystems,sai,personalities,innovation,gigabytes,science,1pm,schedule,1
+X-Mlf-Language-Detected: NoLanguageFilter_english
+X-Mlf-Connecting-IP: 209.85.223.178
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201303010632180091094
+
+--14dae934037b8671f104d6d744e2
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi All,
+
+Please find below the schedule of talks being conducted in Computer Science
+Department as part of Exebit 2013. The below talks are presented by some of
+the eminent personalities. Attend the talks and grab the opportunity to get
+most of it.
+
+Schedule :
+Fri
+6pm - 7pm : Groupon Tech talk
+
+Sat
+9am - 10am : Trustzone ARM processor
+10am - 11am : Going beyond GigaBytes wifi
+11am - 12pm : Lightstor
+12pm-1pm : Open innovation in emerging eco-systems for smart devices.
+4pm-5pm : (IBM) Building watson : A brief overview of Deep QA
+5pm-6pm : GE analytics & computing for the industrial internet
+
+Sun
+9am-10am : Bluespec
+11am-12pm : Network on chip
+12pm - 1pm : Payments innovation (E-Bay)
+2pm - 3pm : Multi-Technology telecom - Network management
+3:30pm- 6pm : Proxy Re-encryption
+
+Details about the speaker and abstracts are available in exebit website.
+
+Thanks and Regards,
+Sai Nageswar Satchidanand
+
+--14dae934037b8671f104d6d744e2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div><div><div><div><div><div><div><div><div><di=
+v><div><div><div><div><div><div>Hi All,<br><br></div>Please find below the =
+schedule of talks being conducted in Computer Science Department as part of=
+ Exebit 2013. The below talks are presented by some of the eminent personal=
+ities. Attend the talks and grab the opportunity to get most of it.<br>
+<br></div>Schedule : <br></div>Fri=A0 <br>6pm - 7pm : Groupon Tech talk<br>=
+<br></div>Sat <br></div>9am - 10am : Trustzone ARM processor <br></div>10am=
+ - 11am : Going beyond GigaBytes wifi<br></div>11am - 12pm : Lightstor <br>
+</div>12pm-1pm : Open innovation in emerging eco-systems for smart devices.=
+<br></div><div>4pm-5pm : (IBM) Building watson : A brief overview of Deep Q=
+A<br></div>5pm-6pm : GE analytics &amp; computing for the industrial intern=
+et<br>
+<br></div>Sun<br></div>9am-10am : Bluespec<br></div>11am-12pm : Network on =
+chip<br></div>12pm - 1pm : Payments innovation (E-Bay)<br></div>2pm - 3pm :=
+ Multi-Technology telecom - Network management<br></div>3:30pm- 6pm : Proxy=
+ Re-encryption<br>
+<br></div>Details about the speaker and abstracts are available in exebit w=
+ebsite.<br><br></div>Thanks and Regards,<br></div>Sai Nageswar Satchidanand=
+<br><div><div><div><div><div><div><div><div><div><div><div>=A0<br></div></d=
+iv>
+</div></div></div></div></div></div></div></div></div></div>
+
+--14dae934037b8671f104d6d744e2--

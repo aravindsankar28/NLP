@@ -1,0 +1,187 @@
+Return-Path: sarath@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 14 Apr 2014 16:39:30 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E3C39F78045;
+	Mon, 14 Apr 2014 16:39:14 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.105
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.105 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id L4cN725kbPJ2; Mon, 14 Apr 2014 16:39:09 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 62E2DF78035;
+	Mon, 14 Apr 2014 16:39:08 +0530 (IST)
+Date: Mon, 14 Apr 2014 16:39:08 +0530 (IST)
+From: sarath@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>, scholars  <scholars@cse.iitm.ac.in>
+Cc: ravindran b <ravindran.b@gmail.com>, sdas  <sdas@cse.iitm.ac.in>, 
+	andrew  <andrew@ee.iitm.ac.in>, 
+	John Augustine <augustine@cse.iitm.ac.in>
+Message-ID: <1457146395.42296.1397473748328.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <2046599477.37162.1397025198678.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Remainder : Invitation for MS Seminar [Tomorrow, 4 PM].
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_42295_2058384674.1397473748327"
+X-Originating-IP: [10.93.0.37]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_42295_2058384674.1397473748327
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+A gentle remainder !!=20
+
+
+Dear All,=20
+
+
+I invite you to my MS seminar on 15th April 2014 (Tuesday) at 4:00 PM. Kind=
+ly make it convenient to attend the seminar and give your valuable feedback=
+.=20
+
+
+The details of the seminar are as follows.=20
+
+
+Title : Learning Compact Yet Rich Models for Text=20
+Speaker : Sarath Chandar A P (CS12S043)=20
+Time : 15-04-2014 (Tuesday) at 4:00 PM=20
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineeri=
+ng=20
+
+
+Abstract :=20
+Processing any Natural Language requires the understanding of both syntax a=
+nd semantics of that language. Several learning algorithms were proposed to=
+ learn syntax and semantics from labeled text data. It is observed that as =
+the models become richer, the process of learning becomes intractable due t=
+o increase in the complexity of the models. In this work, we propose method=
+s to learn rich models that tackle the Complexity versus Learnability trade=
+ o=EF=AC=80. The models proposed are rich, compact and also easily learnabl=
+e.=20
+
+
+
+
+
+The =EF=AC=81rst part of the talk focuses on learning grammar from labeled =
+text data. Learning rich grammar is challenging but yet has huge impact on =
+several diverse applications like Machine Translation, Information Extracti=
+on and Sentence Compression. Most of the work in the literature focuses on =
+learning Context Free Grammars (CFGs). On the other hand, Context Sensitive=
+ Grammars (CSGs) are more expressible but di=EF=AC=83cult to learn. It is o=
+bserved that there exists a class of grammars called Mildly Context Sensiti=
+ve Grammars (MCSGs) like Tree Adjoining Grammars (TAGs), which is more expr=
+essible than CFGs and easy to learn when compared to CSGs. In this work, we=
+ propose a Bayesian non-parametric model to learn compact rules for TAGs. T=
+he parser incorporating the learnt rules performs better than other parsers=
+ when tested on Wall Street Journal section of Penn Tree bank.=20
+
+Languages such as English have plethora of training data available unlike m=
+any other languages which are increasingly prevalent in the current Interne=
+t. We try to address the problem of learning a uni=EF=AC=81ed model to repr=
+esent semantics of multiple languages. This uni=EF=AC=81ed model will facil=
+itate in training classi=EF=AC=81ers using data available across languages.=
+ In the second part of the talk, we then propose a cross language learning =
+technique based on auto-encoders to learn common representation for two di=
+=EF=AC=80erent languages. To the best of our knowledge, this is =EF=AC=81rs=
+t attempt at representing bilingual words without using word alignments acr=
+oss the language pair. The proposed model is both task and language indepen=
+dent. The performance of the model is veri=EF=AC=81ed by testing on three d=
+i=EF=AC=80erent tasks each with three different language pairs. In Cross La=
+nguage Document Classification, the proposed model performs 14% better than=
+ the current state-of-the-art.=20
+
+
+All are welcome !=20
+
+
+Regards,=20
+Sarath Chandar A P,=20
+RISE Lab.=20
+
+
+
+------=_Part_42295_2058384674.1397473748327
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><div><br></div><div>A gentle remainder !!</div><br><div style=3D"font-fami=
+ly: Times New Roman; font-size: 12pt; color: #000000"><div style=3D"font-fa=
+mily: Times New Roman; font-size: 12pt; color: #000000">Dear All,
+<div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ I invite you to my MS seminar on 15th April 2014 (Tuesday) at 4:00 PM. Kin=
+dly make it convenient to attend the seminar and give your valuable feedbac=
+k.</div><div><br></div><div>The details of the seminar are as follows.</div=
+><div><br></div><div><b>Title :</b> Learning Compact Yet Rich Models for Te=
+xt</div><div><b>Speaker :</b> Sarath Chandar A P (CS12S043)</div><div><b>Ti=
+me :</b> 15-04-2014 (Tuesday) at 4:00 PM</div><div><b>Venue :</b> BSB 361, =
+Seminar Hall, Department of Computer Science and Engineering</div><div><br>=
+</div><div><b>Abstract :</b>&nbsp;</div><div><span style=3D"background-colo=
+r: rgb(255, 255, 255); color: rgb(20, 24, 35); font-family: Helvetica, Aria=
+l, 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 14px; li=
+ne-height: 1.38;">Processing any Natural Language requires the understandin=
+g of both syntax and semantics of that language. Several learning algorithm=
+s were proposed to learn syntax and semantics from labeled text data. It is=
+ observed that as the models become richer, the process of learning becomes=
+ intractable due to increase in the complexity of the models. In this work,=
+ we propose methods to learn rich models that tackle the Complexity versus =
+Learnability trade o=EF=AC=80. The models proposed are rich, compact and al=
+so easily learnable.</span></div><div><div class=3D"mbs _5pbx userContent" =
+style=3D"margin-bottom: 5px; font-size: 14px; line-height: 1.38; color: rgb=
+(20, 24, 35); font-family: Helvetica, Arial, 'lucida grande', tahoma, verda=
+na, arial, sans-serif; background-color: rgb(255, 255, 255);"><div id=3D"id=
+_5344d94d2d7318a46526959" class=3D"text_exposed_root text_exposed" style=3D=
+"display: inline;"><div class=3D"text_exposed_show" style=3D"display: inlin=
+e;"><p style=3D"margin-top: 6px; margin-bottom: 6px;">The =EF=AC=81rst part=
+ of the talk focuses on learning grammar from labeled text data. Learning r=
+ich grammar is challenging but yet has huge impact on several diverse appli=
+cations like Machine Translation, Information Extraction and Sentence Compr=
+ession. Most of the work in the literature focuses on learning Context Free=
+ Grammars (CFGs). On the other hand, Context Sensitive Grammars (CSGs) are =
+more expressible but di=EF=AC=83cult to learn. It is observed that there ex=
+ists a class of grammars called Mildly Context Sensitive Grammars (MCSGs) l=
+ike Tree Adjoining Grammars (TAGs), which is more expressible than CFGs and=
+ easy to learn when compared to CSGs. In this work, we propose a Bayesian n=
+on-parametric model to learn compact rules for TAGs. The parser incorporati=
+ng the learnt rules performs better than other parsers when tested on Wall =
+Street Journal section of Penn Tree bank.</p><p style=3D"margin-top: 6px; m=
+argin-bottom: 6px;">Languages such as English have plethora of training dat=
+a available unlike many other languages which are increasingly prevalent in=
+ the current Internet. We try to address the problem of learning a uni=EF=
+=AC=81ed model to represent semantics of multiple languages. This uni=EF=AC=
+=81ed model will facilitate in training classi=EF=AC=81ers using data avail=
+able across languages. In the second part of the talk, we then propose a cr=
+oss language learning technique based on auto-encoders to learn common repr=
+esentation for two di=EF=AC=80erent languages. To the best of our knowledge=
+, this is =EF=AC=81rst attempt at representing bilingual words without usin=
+g word alignments across the language pair. The proposed model is both task=
+ and language independent. The performance of the model is veri=EF=AC=81ed =
+by testing on three di=EF=AC=80erent tasks each with three different langua=
+ge pairs. In Cross Language Document Classification, the proposed model per=
+forms 14% better than the current state-of-the-art.</p><div><br></div><div>=
+All are welcome !</div><div><br></div><div>Regards,</div><div>Sarath Chanda=
+r A P,</div><div>RISE Lab.</div><div><br></div></div></div></div><div style=
+=3D"color: rgb(20, 24, 35); font-family: Helvetica, Arial, 'lucida grande',=
+ tahoma, verdana, arial, sans-serif; font-size: 12px; line-height: 15px; ba=
+ckground-color: rgb(255, 255, 255);"></div><form class=3D"live_849671325059=
+468_316526391751760 commentable_item autoexpand_mode" method=3D"post" actio=
+n=3D"https://www.facebook.com/ajax/ufi/modify.php" id=3D"u_jsonp_2_19" styl=
+e=3D"margin: 0px; padding: 0px; color: rgb(20, 24, 35); font-family: Helvet=
+ica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif; font-size:=
+ 12px; line-height: 15px; background-color: rgb(255, 255, 255);"></form></d=
+iv></div><style>p { margin: 0; }</style></div><style>p { margin: 0; }</styl=
+e></div></body></html>
+------=_Part_42295_2058384674.1397473748327--

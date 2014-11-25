@@ -1,0 +1,166 @@
+Return-Path: smohan@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 9 Jul 2014 09:12:23 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6780921A0012;
+	Wed,  9 Jul 2014 09:12:22 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.105
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.105 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id f5U1ZN4ZLx2w; Wed,  9 Jul 2014 09:12:21 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id C1FF121A0008;
+	Wed,  9 Jul 2014 09:12:19 +0530 (IST)
+Date: Wed, 9 Jul 2014 09:12:19 +0530 (IST)
+From: "B.S. Shajeemohan" <smohan@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>, phd  <phd@cse.iitm.ac.in>, 
+	ms  <ms@cse.iitm.ac.in>, students  <students@cse.iitm.ac.in>, 
+	donlab-cse-iitm@googlegroups.com, cse-speech@googlegroups.com
+Cc: "chandra@cse.iitm.ac.in" <cchandra@cse.iitm.ac.in>, 
+	hema  <hema@cse.iitm.ac.in>, ravindran b <ravindran.b@gmail.com>, 
+	sarathi  <sarathi@ee.iitm.ac.in>, swarup  <swarup@ee.iitm.ac.in>, 
+	shajeemohan  <shajeemohan@yahoo.com>
+Message-ID: <184234984.13842.1404877339671.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <272402632.13839.1404877333866.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Gentle Reminder for Ph.D seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_13841_156149774.1404877339670"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_13841_156149774.1404877339670
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear all,=20
+
+This is a gentle reminder for my Ph.D seminar talk on Thursday, 10th July, =
+2014 at 4:00 PM. Kindly make it convenient to attend the seminar and give y=
+our valuable suggestions.=20
+
+The details of the talk are as follows:=20
+
+Ph.D. Seminar=20
+
+
+Name of Scholar :B.S. Shajee Mohan (CS09D022)=20
+Title : Distance Metric Learning based Class-Specific Kernels for Multi-Cla=
+ss Pattern Classification=20
+Date : Thursday, 10th July, 2014=20
+Time : 16:00 hrs to 17:00 hrs=20
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineeri=
+ng=20
+
+
+Abstract=20
+
+The squared Euclidean distance between the feature vectors of two patterns =
+is used in the K-nearest neighbours (KNN) based multi-class pattern classif=
+ication. This distance is also used in the hyper-spherical Gaussian kernel =
+based support vector machines (SVMs) for multi-class pattern classification=
+. Approaches to distance metric learning (DML) have been based on learning =
+a parametric matrix W of the squared Mahalanobis distance from a set of lab=
+elled training examples of multiple classes. The squared Mahalanobis distan=
+ce in the input feature space corresponds to the squared Euclidean distance=
+ in a linearly transformed feature space with the transformation matrix G b=
+eing related to W by W =3D GTG. A hyper-ellipsoidal Gaussian kernel is cons=
+tructed by replacing the squared Euclidean distance in a hyper-spherical Ga=
+ussian kernel with the learned squared Mahalanobis distance. It has been de=
+monstrated that the learnt distance based KNN classifiers and the hyper-ell=
+ipsoidal Gaussian kernel based SVMs perform better than the squared Euclide=
+an distance based methods. The problem of DML for the distance metric used =
+in kernels can also be formulated as a kernel gram matrix learning problem.=
+ Then, a new kernel gram matrix is learnt from the kernel gram matrix of a =
+base kernel such as Gaussian kernel. Learning an optimal kernel gram matrix=
+ involves solving an optimization problem that uses a suitable measure of n=
+earness between the kernel gram matrix of a base kernel and the desired opt=
+imal kernel gram matrix. The logdet divergence between two matrices, a meas=
+ure of Bregman divergence, is considered as a measure of nearness in kernel=
+ gram matrix learning. The kernel gram matrix learnt from the training exam=
+ples of multiple classes is used to build the SVMs for multi-class pattern =
+classification. We propose an approach in which a class-specific kernel gra=
+m matrix is learnt for each class separately and the learnt class-specific =
+kernel gram matrices are used to build the class-specific SVMs. Results of =
+experimental studies demonstrate the effectiveness of the proposed method i=
+n improving the performance for multi-class pattern classification.=20
+
+ALL ARE WELCOME=20
+
+Thanks and Regards,=20
+
+B.S.Shajee Mohan=20
+
+Speech and Vision Lab=20
+
+Dept. of Computer Science and Engg, IIT Madras.=20
+
+
+------=_Part_13841_156149774.1404877339670
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear all,<br><br>&nbsp;&nbsp;&nbsp; This is a gentle reminder for my&nbsp;=
+ Ph.D seminar talk on Thursday, 10th July, 2014 at 4:00 PM. Kindly make it =
+convenient to attend the seminar and give your valuable suggestions.<br><br=
+>&nbsp;&nbsp;&nbsp; The details of the talk are as follows:<br><br>&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ph.D. Seminar<br><b=
+r><br>Name of Scholar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp; :B.S. Shajee Mohan (CS09D022)<br>Title &nbsp;&nbsp;&nbsp; &nbsp;&nbs=
+p;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Distance =
+Metric Learning based Class-Specific Kernels for Multi-Class Pattern Classi=
+fication<br>Date&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Thursday, 10th July, 2014<br>Time &nbsp=
+;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 16:00 hrs to 17:00 hrs<br>Venue=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : BSB 361, Seminar Hall, Depa=
+rtment of Computer Science and Engineering<br><br>&nbsp;&nbsp;&nbsp; <br>&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Abstract<br><br>The squared =
+Euclidean distance between the feature vectors of two patterns is used in t=
+he K-nearest neighbours (KNN) based multi-class pattern classification. Thi=
+s&nbsp; distance is also used in the hyper-spherical Gaussian kernel based =
+support vector machines (SVMs) for multi-class pattern classification. Appr=
+oaches to distance metric learning (DML) have been based on learning a para=
+metric matrix W of the squared Mahalanobis distance from a set of labelled =
+training examples of multiple classes. The squared Mahalanobis distance in =
+the input feature space corresponds to the squared Euclidean distance in a =
+linearly transformed feature space with the transformation matrix G being r=
+elated to W by W =3D GTG.&nbsp; A hyper-ellipsoidal Gaussian kernel is cons=
+tructed by replacing the squared Euclidean distance in a hyper-spherical Ga=
+ussian kernel with the learned squared Mahalanobis distance. It has been de=
+monstrated that the learnt distance based KNN classifiers and the&nbsp; hyp=
+er-ellipsoidal&nbsp; Gaussian kernel based SVMs perform better than the squ=
+ared Euclidean distance based methods. The problem of DML for the distance =
+metric used in kernels can also be formulated as a kernel gram matrix learn=
+ing problem. Then, a new kernel gram matrix is learnt from the kernel gram =
+matrix of a base kernel such as Gaussian kernel. Learning an optimal kernel=
+ gram matrix involves solving an optimization problem that uses a suitable =
+measure of nearness between the kernel gram matrix of a base kernel and the=
+ desired optimal kernel gram matrix. The logdet divergence between two matr=
+ices, a measure of Bregman divergence, is considered as a measure of nearne=
+ss in kernel gram matrix learning. The kernel gram matrix learnt from the t=
+raining examples of multiple classes is used to build the SVMs for multi-cl=
+ass pattern classification. We propose an approach in which a class-specifi=
+c kernel gram matrix is learnt for each class separately and the learnt cla=
+ss-specific kernel gram matrices are used to build the class-specific SVMs.=
+ Results of experimental studies demonstrate the effectiveness of the propo=
+sed method in improving the performance for multi-class pattern classificat=
+ion.&nbsp; <br>&nbsp;&nbsp;&nbsp; <br>ALL ARE WELCOME<br><br>&nbsp;&nbsp;&n=
+bsp; Thanks and Regards,<br><br>&nbsp;&nbsp;&nbsp; B.S.Shajee Mohan<br><br>=
+&nbsp;&nbsp;&nbsp; Speech and Vision Lab<br><br>&nbsp;&nbsp;&nbsp; Dept. of=
+ Computer&nbsp; Science and Engg, IIT Madras.<br><br></div></body></html>
+------=_Part_13841_156149774.1404877339670--

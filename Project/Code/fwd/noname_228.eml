@@ -1,0 +1,97 @@
+Return-Path: virat@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 18 Feb 2013 16:03:43 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 67B692198007;
+	Mon, 18 Feb 2013 16:03:40 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.01
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.01 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_20=-0.001, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id bpjB4AqjjVfc; Mon, 18 Feb 2013 16:03:39 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0C9EE2198001
+	for <all@cse.iitm.ac.in>; Mon, 18 Feb 2013 16:03:39 +0530 (IST)
+Date: Mon, 18 Feb 2013 16:03:39 +0530 (IST)
+From: virat@cse.iitm.ac.in
+To: all  <all@cse.iitm.ac.in>
+Message-ID: <1681919268.14344.1361183618958.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1743966222.14335.1361183549719.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Gentle reminder - MS Seminar Invitation
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_14343_17860543.1361183618957"
+X-Originating-IP: [10.6.5.254]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_14343_17860543.1361183618957
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+I am happy to invite all of you to my MS seminar on 19-Feb-2013 ( Tuesday ) at 2:00 PM. Kindly make it convenient to attend the seminar and give your valuable feedback. The details of the talk are as follows: 
+
+Title: Delay and Power Modeling for Optimal Dynamic Supply and 
+Body-bias Voltage Assignments for Nano-Scale CMOS Technologies 
+Speaker: Virat Gandhi 
+Guide: Prof. V. Kamakoti 
+Date & Time: 19-Feb-2013 at 2:00 PM 
+Venue: BSB 361, CSE Department 
+
+Abstract: 
+We developed novel analytical models for nano-scale CMOS technologies that yield accurate estimations of delay and power for multi-Vt designs in the presence of process-strength variations and temperature. These models are then applied to a post-layout ARM processor block implemented using mixed-Vt cells (SVT and LVT) running at 1.25Ghz with 28nm technology, and shown to have less than 3% RMS Error when compared with those, reported using detailed timing and power analysis tool. 
+With the use of these models along with a standard optimizer, it is shown that the optimized supply and body-bias voltage assignment for the same design provides up to 40% (30%) run-time power reduction in the presence (absence) of on-chip temperature sensors when compared with ASV (a static process-strength aware adaptive supply voltage) conditions. A thermal-sensor feedback based dynamic supply and body-bias voltage assignment scheme is also applied to 3D CMPs and shown to have significant power reduction and peak temperature reduction. 
+
+All are welcome! 
+
+Regards, 
+Virat Gandhi 
+CS11S011 
+CSE Dept., IIT Madras 
+------=_Part_14343_17860543.1361183618957
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><span>Dear All, <br>I am happy to invite all of you to my <em>MS seminar</=
+em> on <em>19-Feb-2013</em> (<span class=3D"Object" id=3D"OBJ_PREFIX_DWT173=
+"><span class=3D"Object" id=3D"OBJ_PREFIX_DWT42">Tuesday</span></span>) at =
+2:00 PM. Kindly make it convenient to attend the seminar and give your valu=
+able feedback. The details of the talk are as follows:<br><br>Title:&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp; Delay and Power Modeling for Optimal Dynamic Supply an=
+d <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp; Body-bias Voltage Assignments for Nano-Scale CMOS Technologies<br>Sp=
+eaker:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vi=
+rat Gandhi<br>Guide:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prof. V. Kamakoti<br>Date &amp; Time:&nbsp;&n=
+bsp;&nbsp; 19-Feb-2013 at 2:00 PM<br>Venue:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BSB 361, CSE Departmen=
+t<br><br><em>Abstract:<br></em>We
+ developed novel analytical models for nano-scale CMOS technologies that
+ yield accurate estimations of delay and power for multi-Vt designs in=20
+the presence of process-strength variations and temperature. These=20
+models are then applied to a post-layout ARM processor block implemented
+ using mixed-Vt cells (SVT and LVT) running at 1.25Ghz with 28nm=20
+technology, and shown to have less than 3% RMS Error when compared with=20
+those, reported using detailed timing and power analysis tool. <br>&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+With the use of these models along with a standard optimizer, it is=20
+shown that the optimized supply and body-bias voltage assignment for the
+ same design provides up to 40% (30%) run-time power reduction in the=20
+presence (absence) of on-chip temperature sensors when compared with ASV
+ (a static process-strength aware adaptive supply voltage) conditions. A
+ thermal-sensor feedback based dynamic supply and body-bias voltage=20
+assignment scheme is also applied to 3D CMPs and shown to have=20
+significant power reduction and peak temperature reduction.<br><br></span><=
+span style=3D"font-style: italic;">All are welcome!</span><br><span id=3D"9=
+3719fef-b744-4148-b26c-c7959c22da0e"><br>Regards,<br>Virat Gandhi<br>CS11S0=
+11<br>CSE Dept., IIT Madras</span></div></body></html>
+------=_Part_14343_17860543.1361183618957--

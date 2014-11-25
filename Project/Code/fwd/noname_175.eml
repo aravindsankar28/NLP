@@ -1,0 +1,102 @@
+Return-Path: agj@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 5 Jul 2013 11:11:05 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0CDFA21A0005;
+	Fri,  5 Jul 2013 11:11:03 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 3.045
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.045 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RCVD_IN_BRBL_LASTEXT=1.449, RCVD_IN_SORBS_DUL=0.001, RDNS_NONE=0.793]
+	autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Q-aCvBXCXjCq; Fri,  5 Jul 2013 11:10:56 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 357E52198001;
+	Fri,  5 Jul 2013 11:10:56 +0530 (IST)
+Date: Fri, 5 Jul 2013 11:10:56 +0530 (IST)
+From: Ashok Gautham <agj@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: shankar  <shankar@cse.iitm.ac.in>, 
+	"Madhu Mutyam@cse.iitm.ac.in" <madhu@cse.iitm.ac.in>, 
+	Ashok Gautham  <AshokGautham@gmail.com>, 
+	nitin  <nitin@ee.iitm.ac.in>
+Message-ID: <764331796.57758.1373002856128.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <2121840413.57755.1373002626383.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_57757_565697295.1373002856127"
+X-Originating-IP: [122.164.214.98]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_57757_565697295.1373002856127
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+I will be giving my MS seminar talk on 8 th July 2013 (Monday) at 2:00 PM in BSB 361. Kindly attend the seminar and provide your valuable feedback. 
+
+Details: 
+
+
+Speaker : Ashok Gautham J 
+Date : 8th July 2013 , Monday 
+Time : 14:00 hrs to 15:00 hrs 
+Topic : Characterizing Energy Consumption of Shared-data Synchronization Techniques 
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineering. 
+
+
+
+Abstract 
+Shared-data synchronization techniques are of prime importance when writing multi-threaded programs. Software Transactional Memory (STM) is one such abstraction that allows programmers to write efficient deadlock-free concurrent programs. More recently, there is a demand for energy efficiency among all classes of computers. Research in the past has focused on developing high-performance synchronization techniques that can fully exploit the multiple cores available in modern processors. 
+
+In order to develop energy-efficient synchronization techniques, it is important to analyze and characterize energy consumption of the existing systems. In this seminar, the energy efficiency of programs written using classic synchronization techniques like mutexes and spin-locks is compared to the energy efficiency of their STM-based counterparts. Further, energy consumption is characterized by studying the effect of varying properties of workloads using a synthetic micro-benchmark. Unlike older studies done using simulators, on-board sensors that allow fine-grained measurements are used for measuring energy consumption. 
+
+
+
+All are welcome! 
+
+--- 
+Ashok Gautham J (CS10S019 ) 
+RISE Lab, 
+Department of Computer Science and Engineerin 
+------=_Part_57757_565697295.1373002856127
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All, <br><br>I will be giving my MS seminar talk on 8<span class=3D"O=
+bject" id=3D"OBJ_PREFIX_DWT40"><span class=3D"Object" id=3D"OBJ_PREFIX_DWT4=
+2">th July 2013</span></span> (Monday)
+ at 2:00 PM in BSB 361. Kindly attend the seminar and provide your valuable=
+ feedback.<br><br>Details:<br><br><br>Speaker : Ashok Gautham J<br>Date : <=
+span class=3D"Object" id=3D"OBJ_PREFIX_DWT44"><span class=3D"Object" id=3D"=
+OBJ_PREFIX_DWT46">8th July 2013</span></span>, Monday<br>Time : 14:00 hrs t=
+o 15:00 hrs <br>Topic : Characterizing Energy Consumption of Shared-data Sy=
+nchronization Techniques<br>Venue : BSB 361, Seminar Hall, Department of Co=
+mputer Science and Engineering. <br><br><br><br>Abstract <br>Shared-data sy=
+nchronization techniques are of prime importance when writing multi-threade=
+d programs. Software Transactional Memory (STM) is one such abstraction tha=
+t allows programmers to write efficient deadlock-free concurrent programs. =
+More recently, there is a demand for energy efficiency among all classes of=
+ computers. Research in the past has focused on developing high-performance=
+ synchronization techniques that can fully exploit the multiple cores avail=
+able in modern processors.<br><br>In order to develop energy-efficient sync=
+hronization techniques, it is important to analyze and characterize energy =
+consumption of the existing systems. In this seminar, the energy efficiency=
+ of programs written using classic synchronization techniques like mutexes =
+and spin-locks is compared to the energy efficiency of their STM-based coun=
+terparts. Further, energy consumption is characterized by studying the effe=
+ct of varying properties of workloads using a synthetic micro-benchmark. Un=
+like older studies done using simulators, on-board sensors that allow fine-=
+grained measurements are used for measuring energy consumption.<br><br><br>=
+<br>All are welcome! <br><br>---<br>Ashok Gautham J (CS10S019)<br>RISE Lab,=
+<br>Department of Computer Science and Engineerin </div></body></html>
+------=_Part_57757_565697295.1373002856127--

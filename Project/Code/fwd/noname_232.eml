@@ -1,0 +1,128 @@
+Return-Path: dheeraj@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 15 Feb 2013 10:59:02 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id C4850F7811E;
+	Fri, 15 Feb 2013 10:59:00 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.01
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.01 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_20=-0.001, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id YlbRxKbdb2nm; Fri, 15 Feb 2013 10:58:59 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 70578F78046;
+	Fri, 15 Feb 2013 10:58:59 +0530 (IST)
+To: P Sreenivasa Kumar <psk@cse.iitm.ac.in>, 
+	dccfaculty <dccfaculty@cse.iitm.ac.in>, all <all@cse.iitm.ac.in>
+Message-ID: <3036004.8404.1360906139329.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Seminar Talk by Dr C Mohan:
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8403_1501846006.1360906139328"
+X-Originating-IP: [10.6.30.65]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+From: dheeraj@cse.iitm.ac.in
+Date: Fri, 15 Feb 2013 10:58:59 +0530 (IST)
+
+------=_Part_8403_1501846006.1360906139328
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+The following is a new meeting request:
+
+Subject: Seminar Talk by Dr C Mohan: 
+Organizer: dheeraj@cse.iitm.ac.in 
+
+Time: Friday, February 15, 2013, 11:30:00 AM - 12:30:00 PM GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi
+ 
+Invitees: "P Sreenivasa Kumar" <psk@cse.iitm.ac.in>; "dccfaculty" <dccfaculty@cse.iitm.ac.in>; "all" <all@cse.iitm.ac.in> 
+
+*~*~*~*~*~*~*~*~*~*
+
+
+------=_Part_8403_1501846006.1360906139328
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><body><h3>The following is a new meeting request:</h3>
+
+<p>
+<table border='0'>
+<tr><th align=left>Subject:</th><td>Seminar Talk by Dr C Mohan: </td></tr>
+<tr><th align=left>Organizer:</th><td>dheeraj@cse.iitm.ac.in </td></tr>
+</table>
+<p>
+<table border='0'>
+<tr><th align=left>Time:</th><td>Friday, February 15, 2013, 11:30:00 AM - 12:30:00 PM GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi
+ </td></tr></table>
+<p>
+<table border='0'>
+<tr><th align=left>Invitees:</th><td>"P Sreenivasa Kumar" <psk@cse.iitm.ac.in>; "dccfaculty" <dccfaculty@cse.iitm.ac.in>; "all" <all@cse.iitm.ac.in> </td></tr></table>
+<div>*~*~*~*~*~*~*~*~*~*</div><br><div style='font-family:Times New Roman; font-size: 12pt; color: #000000;'>
+</div></body></html>
+------=_Part_8403_1501846006.1360906139328
+Content-Type: text/calendar; charset=utf-8; method=REQUEST; name=meeting.ics
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:Zimbra-Calendar-Provider
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+BEGIN:STANDARD
+DTSTART:19710101T000000
+TZOFFSETTO:+0530
+TZOFFSETFROM:+0530
+TZNAME:IST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c35f721b-9576-4303-a418-6769fdef21b6
+SUMMARY:Seminar Talk by Dr C Mohan:
+ATTENDEE;CN=P Sreenivasa Kumar;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RS
+ VP=TRUE:mailto:psk@cse.iitm.ac.in
+ATTENDEE;CN=dccfaculty;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:
+ mailto:dccfaculty@cse.iitm.ac.in
+ATTENDEE;CN=all;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:mailto:
+ all@cse.iitm.ac.in
+ORGANIZER:mailto:dheeraj@cse.iitm.ac.in
+DTSTART;TZID="Asia/Kolkata":20130215T113000
+DTEND;TZID="Asia/Kolkata":20130215T123000
+STATUS:CONFIRMED
+CLASS:PUBLIC
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+TRANSP:OPAQUE
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+DTSTAMP:20130215T052859Z
+SEQUENCE:0
+DESCRIPTION:The following is a new meeting request:\n\nSubject: Seminar Talk
+  by Dr C Mohan: \nOrganizer: dheeraj@cse.iitm.ac.in \n\nTime: Friday\, Febru
+ ary 15\, 2013\, 11:30:00 AM - 12:30:00 PM GMT +05:30 Chennai\, Kolkata\, Mum
+ bai\, New Delhi\n \nInvitees: \"P Sreenivasa Kumar\" <psk@cse.iitm.ac.in>\; 
+ \"dccfaculty\" <dccfaculty@cse.iitm.ac.in>\; \"all\" <all@cse.iitm.ac.in> \n
+ \n*~*~*~*~*~*~*~*~*~*\n\n
+X-ALT-DESC;FMTTYPE=text/html:<html><body><h3>The following is a new meeting 
+ request:</h3>\n\n<p>\n<table border='0'>\n<tr><th align=left>Subject:</th><t
+ d>Seminar Talk by Dr C Mohan: </td></tr>\n<tr><th align=left>Organizer:</th>
+ <td>dheeraj@cse.iitm.ac.in </td></tr>\n</table>\n<p>\n<table border='0'>\n<t
+ r><th align=left>Time:</th><td>Friday\, February 15\, 2013\, 11:30:00 AM - 1
+ 2:30:00 PM GMT +05:30 Chennai\, Kolkata\, Mumbai\, New Delhi\n </td></tr></t
+ able>\n<p>\n<table border='0'>\n<tr><th align=left>Invitees:</th><td>\"P Sre
+ enivasa Kumar\" <psk@cse.iitm.ac.in>\; \"dccfaculty\" <dccfaculty@cse.iitm.a
+ c.in>\; \"all\" <all@cse.iitm.ac.in> </td></tr></table>\n<div>*~*~*~*~*~*~*~
+ *~*~*</div><br><div style='font-family:Times New Roman\; font-size: 12pt\; c
+ olor: #000000\;'>\n</div></body></html>
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;RELATED=START:-PT10M
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+------=_Part_8403_1501846006.1360906139328--

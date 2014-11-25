@@ -1,0 +1,129 @@
+Return-Path: gsankara@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 20 Aug 2014 17:36:35 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id BAA4EF781CB;
+	Wed, 20 Aug 2014 17:36:33 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 6.38
+X-Spam-Level: ******
+X-Spam-Status: No, score=6.38 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RCVD_IN_BRBL_LASTEXT=1.449, RCVD_IN_PBL=3.335,
+	RCVD_IN_SORBS_DUL=0.001, RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3KmmkqFOXrtC; Wed, 20 Aug 2014 17:36:28 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6BAE8F781C0;
+	Wed, 20 Aug 2014 17:36:27 +0530 (IST)
+Date: Wed, 20 Aug 2014 17:36:26 +0530 (IST)
+From: "gsankara@cse.iitm.ac.in" <gsankara@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: "Prof. Krishna M. Sivalingam" <krishna.sivalingam@cse.iitm.ac.in>
+Message-ID: <1168053765.55150.1408536386465.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <331994124.55015.1408536080360.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: PhD seminar invite
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_55149_397571826.1408536386464"
+X-Originating-IP: [122.164.97.26]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_55149_397571826.1408536386464
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+I am presenting my Ph D seminar on 2-Sep-2014 ( Tuesday ) by 3.00 P.M. Kind=
+ly make it convenient to attend the seminar and give your valuable suggesti=
+ons. The details of the talk are as follows:=20
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=09=09=09   Ph.D. Seminar 1
+=09=09    Name: C. S. Ganesh (CS12D008)=20
+Guide: Prof. Krishna Sivalingam=20
+Location: BSB 361 (Seminar Hall)
+=09=09     Time/Date: Sep. 2, 2014, 3pm
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+TITLE:=20
+Load Dependent Network Function Placement based=C2=A0
+Passive Optical Network Architectures=20
+
+ABSTRACT:=20
+
+Existing passive optical network (PON) architectures consist of an
+optical line terminal (OLT) at the provider side connecting multiple
+optical network units (ONUs) at the subscriber side. These ONUs are
+connected to end-user equipment at the customer premises. Even though,
+optical access networks are more power efficient when compared to
+other access network technologies such as DSL, the network still
+consumes significant amount of power at off-peak network loads. To
+address this gap, new power-efficient architectures have been
+developed as part of this work. A formal language notation to
+represent PON architecture was developed; Mealy's machine from finite
+automata was used to solve the problem.  Additional constraints such
+as power budget constraints were mapped on to state transitions of the
+machine. Novel PON architectures that are power-efficient even during
+off-peak network loads were derived using this machine.  These
+architectures were numerically evaluated for different network
+loads. Packet delay and throughput were measured for a subset of these
+architectures using discrete event simulation models.  Two of the
+proposed architectures are shown to help achieve at least 35% power
+savings over existing systems. There is no significant deviation
+observed in terms of network performance during off-peak
+network loads.
+
+regs=20
+Ganesh=20
+
+
+------=_Part_55149_397571826.1408536386464
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'>Dear All,<br><br>I am presenting my Ph D seminar on 2-Sep-2014 (<span class="Object" id="OBJ_PREFIX_DWT1214">Tuesday</span>) by 3.00 P.M. Kindly make it convenient to attend the seminar and give your valuable suggestions. The details of the talk are as follows:<br><div><br></div><div><pre>==================================================================
+			   Ph.D. Seminar 1
+		    Name: C. S. Ganesh (CS12D008)<br>                   Guide: Prof. Krishna Sivalingam<br>		   Location: BSB 361 (Seminar Hall)
+		     Time/Date: Sep. 2, 2014, 3pm
+
+==================================================================
+
+TITLE: 
+Load Dependent Network Function Placement based&nbsp;
+Passive Optical Network Architectures<br><br>ABSTRACT: 
+
+Existing passive optical network (PON) architectures consist of an
+optical line terminal (OLT) at the provider side connecting multiple
+optical network units (ONUs) at the subscriber side. These ONUs are
+connected to end-user equipment at the customer premises. Even though,
+optical access networks are more power efficient when compared to
+other access network technologies such as DSL, the network still
+consumes significant amount of power at off-peak network loads. To
+address this gap, new power-efficient architectures have been
+developed as part of this work. A formal language notation to
+represent PON architecture was developed; Mealy's machine from finite
+automata was used to solve the problem.  Additional constraints such
+as power budget constraints were mapped on to state transitions of the
+machine. Novel PON architectures that are power-efficient even during
+off-peak network loads were derived using this machine.  These
+architectures were numerically evaluated for different network
+loads. Packet delay and throughput were measured for a subset of these
+architectures using discrete event simulation models.  Two of the
+proposed architectures are shown to help achieve at least 35% power
+savings over existing systems. There is no significant deviation
+observed in terms of network performance during off-peak
+network loads.
+
+regs<br>Ganesh <br></pre></div><br></div></body></html>
+------=_Part_55149_397571826.1408536386464--

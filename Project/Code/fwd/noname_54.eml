@@ -1,0 +1,227 @@
+Return-Path: prasanna.rengasamy@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 17 Apr 2014 11:20:06 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id C3A4A21A0007;
+	Thu, 17 Apr 2014 11:20:03 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.323
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.323 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001,
+	SPF_SOFTFAIL=0.665, T_TO_NO_BRKTS_FREEMAIL=0.01] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id U7INFS5sTNp1; Thu, 17 Apr 2014 11:19:57 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 31AC4F78031;
+	Thu, 17 Apr 2014 11:19:56 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id F01AC78057A;
+	Thu, 17 Apr 2014 11:23:23 +0530 (IST)
+Received: from mail-vc0-f177.google.com ([209.85.220.177])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.5.1439)
+	with ESMTP id 201404170538220077797; Thu, 17 Apr 2014 11:08:24 +0530
+Received: by mail-vc0-f177.google.com with SMTP id if17so11652661vcb.22
+        for <multiple recipients>; Wed, 16 Apr 2014 22:53:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:cc:content-type;
+        bh=IQmnMv6vZircfXz5jdimmwhNgmyIdQNQRjBi2pVyAaY=;
+        b=Lx5MnMyUpBsY7Qw6woYur3lNt1/HCD07SORRVh08JplrOaR4ixkDCC8MUfPZ0IZNvx
+         1un4ASCdRH3MORhYe3y5l1jdZImW3+4eLFTOwxJTPZffq6FoB6v8v6o2FeYMFjvAAJDd
+         Ih4BKz/K0ALpFoztxV8PVrOYxSxLFkxbIYw6wY77SaSFuarvLn1Bpwc1iei7FWbM/XV1
+         ztXpuhkmhZMq5ofY4rNkrWfqr48Fcen8AArXlxoaqqg3gRI9sHG/T09bXW/lVMiLW8Zz
+         iLH1pS3J8z86Q6+sO1PBK03eiUyP1qdgU+O73QhlCnQl5GG/cB8GRZ7OGDSoe7DAYxhw
+         lbiQ==
+X-Received: by 10.58.23.6 with SMTP id i6mr9863351vef.12.1397714002721; Wed,
+ 16 Apr 2014 22:53:22 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.58.142.135 with HTTP; Wed, 16 Apr 2014 22:53:01 -0700 (PDT)
+From: Prasanna Venkatesh <prasanna.rengasamy@gmail.com>
+Date: Thu, 17 Apr 2014 11:23:01 +0530
+Message-ID: <CAKghKb4mE4UbML4bg2CPiYSo92dzf4uQC4HVi93OnE-i-RVgnA@mail.gmail.com>
+Subject: MS Seminar Invitation
+To: seminar@cse.iitm.ac.in, scholars@cse.iitm.ac.in, 
+	cse-speech@googlegroups.com
+Cc: Nitin Chandrachoodan <nitin@ee.iitm.ac.in>, 
+	"Madhu Mutyam@cse.iitm.ac.in" <madhu@cse.iitm.ac.in>, rangan@cse.iitm.ac.in, shankar@cse.iitm.ac.in
+Content-Type: multipart/alternative; boundary=047d7b339db1a1448f04f736a69c
+X-Mlf-DKIM: dkim=pass header.i=gmail.com 
+X-Mlf-KeyWords: invitation,continuously,dear,learnt,kindly,learner,increase,noc,nodes,optimizati
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.220.177
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201404170538220077797
+
+--047d7b339db1a1448f04f736a69c
+Content-Type: text/plain; charset=UTF-8
+
+Dear all,
+
+I am presenting my  MS seminar talk on Tuesday, 22nd April, 2014 at 3:00 PM.
+Kindly make it convenient to attend the seminar and give your valuable
+suggestions.
+
+The details of the talk are as follows.
+
+Title                 :    Tackling Heavy Congestion in NoCs
+Speaker            :    Prasanna Venkatesh R (CS11S019)
+Date                 :    22nd April, 2014
+Time                :     3.00 PM
+Venue              :     BSB361, Seminar Hall, Department of Computer
+Science
+
+Abstract of the talk:
+--------------------
+
+
+We propose two novel methods of congestion control for network on chips
+(NoCs).
+
+
+Hotspot Awareness:
+
+
+A hotspot is a type of network congestion. Adaptive NoCs should be able to
+handle dynamic hotspots produced by multithreaded applications running in
+multicore systems. The networks routers in multicore processors can be
+completely unaware of the hotspots. This is because every router in a
+network experience the presence/absence of hotspots different from other
+routers.
+
+This experience keeps changing with time. The intensity of a hotspot also
+varies from router to router at a given time. Thus we can make a HotSpot
+Aware router perform better by making them avoid the known hotspots. We
+propose a technique, HSAware, to 1) learn hotspots dynamically at each
+router. 2) We use the learnt data to throttle injections from a group of
+nodes. This throttling mitigates the congestion caused by hotspots. And 3)
+we resume injection when the learner realizes alleviation from hotspots.
+HSAware makes the routers learn continuously, without incurring additional
+clock delays or extra control information flow.
+
+
+Multicast Optimizations:
+
+
+Multithreaded workloads like SPLASH2 and PARSEC generate heavy network
+traffic. This traffic consists of different packets injected by various
+nodes at various points of time. A packet consists of three essential
+components viz., source, destination and data. In this work, we study the
+opportunity to increase the efficiency of the underlying network. We come
+up with novel methods to share various components of the packets present in
+a router at any time. We propose 1) dynamic multicast tree generation, 2)
+critical word first at packet level, 3) making VC buffers act like cache
+and 4) Packet Concatenation as NoC level optimizations.
+
+
+We also evaluate the challenges and implementations in detail and compare
+our gains over contemporary NoC optimization techniques for both the
+proposed methods.
+
+ALL ARE WELCOME
+
+Thanks and Regards,
+Prasanna Venkatesh R,
+MS Scholar.
+
+--047d7b339db1a1448f04f736a69c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:arial,he=
+lvetica,sans-serif"><blockquote style=3D"font-family:arial,sans-serif;font-=
+size:13px"><div dir=3D"ltr"><div>Dear all,<br><br>I am presenting my =C2=A0=
+MS seminar talk=C2=A0<span class=3D""><span class=3D"">on=C2=A0<span class=
+=3D"" id=3D"OBJ_PREFIX_DWT65" style=3D"color:rgb(0,0,139)">Tuesday</span></=
+span></span>,=C2=A0<span class=3D"" id=3D"OBJ_PREFIX_DWT66" style=3D"color:=
+rgb(0,0,139)">22nd=C2=A0April</span>, 2014=C2=A0at=C2=A0<span class=3D""><s=
+pan class=3D"">3:00 PM</span></span>. Kindly make it convenient to attend t=
+he seminar and give your valuable suggestions.<br>
+
+<br>The details of the talk are as follows.<br><br></div><div>Title =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 : =C2=A0 =C2=A0Tackling He=
+avy Congestion in NoCs<br>Speaker =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=
+: =C2=A0 =C2=A0Prasanna Venkatesh=C2=A0<span class=3D"" id=3D"OBJ_PREFIX_DW=
+T67" style=3D"color:rgb(0,0,139)">R (CS11S019)</span><br>
+
+Date =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 : =C2=A0 =C2=
+=A022nd<span class=3D""><span class=3D"">=C2=A0April, 2014</span></span></d=
+iv><div>Time=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 : =C2=A0 =C2=A0 3.00<span class=3D""><span class=3D"">=C2=A0PM=
+</span></span></div><div>Venue=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0 : =C2=A0 =C2=A0 BSB361, Seminar Hall, Department of Com=
+puter Science<p align=3D"justify" style=3D"margin:0px 0px 0in">
+
+Abstract of the talk:<br>--------------------</p><p style=3D"margin:0px 0px=
+ 0in"><br></p></div></div></blockquote><blockquote style=3D"color:rgb(0,0,0=
+);font-family:&#39;Times New Roman&#39;;font-size:16px;margin:0px 0px 0px 4=
+0px;border:none;padding:0px">
+
+<p style=3D"margin:0px 0px 0in"><font color=3D"#222222" face=3D"arial, sans=
+-serif">We propose two novel methods of congestion control for network on c=
+hips (NoCs).</font></p><p style=3D"margin:0px 0px 0in"><font color=3D"#2222=
+22" face=3D"arial, sans-serif"><br>
+
+</font></p><p style=3D"margin:0px 0px 0in"><font color=3D"#222222" face=3D"=
+arial, sans-serif">Hotspot Awareness:</font></p><p style=3D"margin:0px 0px =
+0in"><font color=3D"#222222" face=3D"arial, sans-serif"><br></font></p><p s=
+tyle=3D"margin:0px 0px 0in">
+
+<font color=3D"#222222" face=3D"arial, sans-serif">A hotspot is a type of n=
+etwork congestion. Adaptive NoCs should be able to handle dynamic hotspots =
+produced by multithreaded applications running in multicore systems. The ne=
+tworks routers in multicore processors can be completely unaware of the hot=
+spots. This is because every router in a network experience the presence/ab=
+sence of hotspots different from other routers.</font></p>
+
+<p style=3D"margin:0px 0px 0in"><font color=3D"#222222" face=3D"arial, sans=
+-serif">This experience keeps changing with time. The intensity of a hotspo=
+t also varies from router to router at a given time. Thus we can make a Hot=
+Spot Aware router perform better by making them avoid the known hotspots. W=
+e propose a technique, HSAware, to 1) learn hotspots dynamically at each ro=
+uter. 2) We use the learnt data to throttle injections from a group of node=
+s. This throttling mitigates the congestion caused by hotspots. And 3) we r=
+esume injection when the learner realizes alleviation from hotspots. HSAwar=
+e makes the routers learn continuously, without incurring additional clock =
+delays or extra control information flow.</font></p>
+
+<p style=3D"margin:0px 0px 0in"><font color=3D"#222222" face=3D"arial, sans=
+-serif"><br></font></p><p style=3D"margin:0px 0px 0in"><font color=3D"#2222=
+22" face=3D"arial, sans-serif">Multicast Optimizations:</font></p><p style=
+=3D"margin:0px 0px 0in">
+
+<font color=3D"#222222" face=3D"arial, sans-serif"><br></font></p><p style=
+=3D"margin:0px 0px 0in"><font color=3D"#222222" face=3D"arial, sans-serif">=
+Multithreaded workloads like SPLASH2 and PARSEC generate heavy network traf=
+fic. This traffic consists of different packets injected by various nodes a=
+t various points of time. A packet consists of three essential components v=
+iz., source, destination and data. In this work, we study the opportunity t=
+o increase the efficiency of the underlying network. We come up with novel =
+methods to share various components of the packets present in a router at a=
+ny time. We propose 1) dynamic multicast tree generation, 2) critical word =
+first at packet level, 3) making VC buffers act like cache and 4) Packet Co=
+ncatenation as NoC level optimizations.=C2=A0</font></p>
+
+<p style=3D"margin:0px 0px 0in"><font color=3D"#222222" face=3D"arial, sans=
+-serif"><br></font></p><p style=3D"margin:0px 0px 0in"><font color=3D"#2222=
+22" face=3D"arial, sans-serif">We also evaluate the challenges and implemen=
+tations in detail and compare our gains over contemporary NoC optimization =
+techniques for both the proposed methods.</font></p>
+
+</blockquote><blockquote style=3D"font-family:arial,sans-serif;font-size:13=
+px"><div dir=3D"ltr"><p style=3D"margin:0px 0px 0in;text-align:center"><fon=
+t face=3D"arial, sans-serif">ALL ARE WELCOME</font></p><br><p style=3D"marg=
+in:0px 0px 0in">
+
+Thanks and Regards,</p><div>Prasanna Venkatesh R,</div><div>MS Scholar.</di=
+v></div></blockquote></div>
+</div>
+
+--047d7b339db1a1448f04f736a69c--

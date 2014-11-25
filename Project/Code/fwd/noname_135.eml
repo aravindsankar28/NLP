@@ -1,0 +1,168 @@
+Return-Path: ravi@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 10 Sep 2013 21:38:11 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 86B19F78107;
+	Tue, 10 Sep 2013 21:38:08 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 2.576
+X-Spam-Level: **
+X-Spam-Status: No, score=2.576 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_FONT_FACE_BAD=0.981,
+	HTML_MESSAGE=0.001, RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id iG5cKmK16baS; Tue, 10 Sep 2013 21:38:04 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id CE844F78106;
+	Tue, 10 Sep 2013 21:38:03 +0530 (IST)
+Date: Tue, 10 Sep 2013 21:38:03 +0530 (IST)
+From: "ravi@cse.iitm.ac.in" <ravi@cse.iitm.ac.in>
+To: sriraam natarajan <sriraam.natarajan@gmail.com>, gkunapuli@gmail.com
+Cc: seminar@cse.iitm.ac.in, rise-iil <rise-iil@cse.iitm.ac.in>, 
+	aidb <aidb@googlegroups.com>
+Message-ID: <1407535243.123280.1378829283773.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <CAJ0BqjiZdPtOptb2pduNoLSZFbpUdEmNHxZ2XEuL78Z_Ya4xBg@mail.gmail.com>
+Subject: Reminder: Seminar on Probabilistic Programming on WEDNESDAY, 11th.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_123279_1882565842.1378829283772"
+X-Originating-IP: [10.23.2.230]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Mac)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_123279_1882565842.1378829283772
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+
+A gentle reminder. 
+
+
+Regards 
+Ravi. 
+
+
+
+
+
+
+Dear All, 
+
+
+Dr. Aditya Nori from Microsoft Research India will be giving a talk on Probabilistic Programming on Wednesday, September 11th, in BSB 361 at 4 p.m.. Details below. All are welcome. 
+
+
+Regards 
+Ravi. 
+
+
+
+
+----------------------------------------------------------------------------------- 
+
+Title: Probabilistic Programming: A Program Analysis Perspective 
+
+Abstract: 
+
+Probabilistic models, particularly those with causal dependencies, can be succinctly written as probabilistic programs. Recent years have seen a proliferation of languages for writing such probabilistic programs, as well as tools and techniques for performing inference over these programs In this talk, we show that static and dynamic program analysis techniques can be used to infer quantities of interest to the machine learning community, thereby providing a new and interesting domain of application for program analysis. In particular, we show that static analysis techniques inspired by dataflow analysis and iterative refinement techniques can be used for Bayesian inference. We also show that dynamic analysis techniques inspired by directed testing and symbolic execution can be used for sampling probabilistic programs. 
+
+
+
+
+Bio: Dr. Aditya Nori is a senior researcher at Microsoft Research. He is a member of the Machine Learning and O ptimization group at Microsoft Research India . He is also an adjunct professor at IIT Hyderabad . His research interests include algorithms for the analysis of programs and machine learning with special focus on tools for improving software reliability and programmer productivity. He obtained my PhD from the Indian Institute of Science, Bangalore under Prof. Priti Shankar . 
+
+
+
+
+
+
+
+------=_Part_123279_1882565842.1378829283772
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,&nbsp;<div><br></div><div>A gentle reminder.&nbsp;</div><div><br>=
+</div><div>Regards</div><div>Ravi.<br><br><hr id=3D"zwchr"><div dir=3D"ltr"=
+><div class=3D"gmail_quote"><div lang=3D"EN-US"><div>Dear All,</div><div><b=
+r></div><div>Dr. Aditya Nori from Microsoft Research India will be giving a=
+ talk on Probabilistic Programming on Wednesday, September 11th, in BSB 361=
+ at 4 p.m.. Details below. All are welcome.</div>
+<div><br></div><div>Regards</div><div>Ravi.</div><div><br></div><div>
+<p class=3D""><span style=3D"font-size:11pt;font-family:Calibri,sans-serif;=
+color:rgb(31,73,125)">-----------------------------------------------------=
+------------------------------<u></u><u></u></span></p>
+<p class=3D""><span style=3D"font-size:11pt;font-family:Calibri,sans-serif;=
+color:rgb(31,73,125)">Title: Probabilistic Programming: A Program Analysis =
+Perspective</span></p>
+<p class=3D""><span style=3D"font-size:11pt;font-family:Calibri,sans-serif;=
+color:rgb(31,73,125)">Abstract:<u></u><u></u></span></p>
+<p class=3D""><span style=3D"font-size:11pt;font-family:Calibri,sans-serif;=
+color:rgb(31,73,125)">Probabilistic models, particularly those with causal =
+dependencies, can be succinctly written as probabilistic programs. Recent y=
+ears have seen a proliferation
+ of languages for writing such probabilistic programs, as well as tools and=
+ techniques for performing inference over these programs In this talk, we s=
+how that static and dynamic program analysis techniques can be used to infe=
+r quantities of interest to the
+ machine learning community, thereby providing a new and interesting domain=
+ of application for program analysis. In particular, we show that static an=
+alysis techniques inspired by dataflow analysis and iterative refinement te=
+chniques can be used for Bayesian
+ inference. We also show that dynamic analysis techniques inspired by direc=
+ted testing and symbolic execution can be used for sampling probabilistic p=
+rograms.<u></u><u></u></span></p>
+<p class=3D""><span style=3D"color:rgb(80,0,80)"><br></span></p><p class=3D=
+""><span style=3D"font-size:13px;color:rgb(26,26,26);font-family:wf_SegoeUI=
+,'Segoe UI',Segoe,'Segoe WP',Tahoma,Verdana,=E2=80=9DHelvetica=E2=80=9D,Ari=
+al,sans-serif;line-height:19px">Bio: &nbsp;Dr. Aditya Nori is a senior rese=
+archer at Microsoft Research. He is a member of the Machine&nbsp;</span><a =
+href=3D"http://research.microsoft.com/mlo" style=3D"font-size:13px;margin:0=
+px;text-decoration:none;color:rgb(104,33,122);font-family:wf_SegoeUI,'Segoe=
+ UI',Segoe,'Segoe WP',Tahoma,Verdana,=E2=80=9DHelvetica=E2=80=9D,Arial,sans=
+-serif;line-height:19px" target=3D"_blank">Learning and O</a>ptimization<sp=
+an style=3D"font-size:13px;color:rgb(26,26,26);font-family:wf_SegoeUI,'Sego=
+e UI',Segoe,'Segoe WP',Tahoma,Verdana,=E2=80=9DHelvetica=E2=80=9D,Arial,san=
+s-serif;line-height:19px">&nbsp;group at&nbsp;</span><a href=3D"http://rese=
+arch.microsoft.com/en-us/labs/india/" style=3D"font-size:13px;margin:0px;te=
+xt-decoration:none;color:rgb(104,33,122);font-family:wf_SegoeUI,'Segoe UI',=
+Segoe,'Segoe WP',Tahoma,Verdana,=E2=80=9DHelvetica=E2=80=9D,Arial,sans-seri=
+f;line-height:19px" target=3D"_blank">Microsoft Research India</a><span sty=
+le=3D"font-size:13px;color:rgb(26,26,26);font-family:wf_SegoeUI,'Segoe UI',=
+Segoe,'Segoe WP',Tahoma,Verdana,=E2=80=9DHelvetica=E2=80=9D,Arial,sans-seri=
+f;line-height:19px">. He is also an adjunct professor at&nbsp;</span><a hre=
+f=3D"http://cse.iith.ac.in/" style=3D"font-size:13px;margin:0px;text-decora=
+tion:none;color:rgb(104,33,122);font-family:wf_SegoeUI,'Segoe UI',Segoe,'Se=
+goe WP',Tahoma,Verdana,=E2=80=9DHelvetica=E2=80=9D,Arial,sans-serif;line-he=
+ight:19px" target=3D"_blank">IIT Hyderabad</a><span style=3D"font-size:13px=
+;color:rgb(26,26,26);font-family:wf_SegoeUI,'Segoe UI',Segoe,'Segoe WP',Tah=
+oma,Verdana,=E2=80=9DHelvetica=E2=80=9D,Arial,sans-serif;line-height:19px">=
+. His research interests include algorithms for the analysis of programs an=
+d machine learning with special focus on tools for improving software relia=
+bility and programmer productivity. He obtained my PhD from the&nbsp;</span=
+><a href=3D"http://www.iisc.ernet.in/" style=3D"font-size:13px;margin:0px;t=
+ext-decoration:none;color:rgb(104,33,122);font-family:wf_SegoeUI,'Segoe UI'=
+,Segoe,'Segoe WP',Tahoma,Verdana,=E2=80=9DHelvetica=E2=80=9D,Arial,sans-ser=
+if;line-height:19px" target=3D"_blank">Indian Institute of Science, Bangalo=
+re&nbsp;</a><span style=3D"font-size:13px;color:rgb(26,26,26);font-family:w=
+f_SegoeUI,'Segoe UI',Segoe,'Segoe WP',Tahoma,Verdana,=E2=80=9DHelvetica=E2=
+=80=9D,Arial,sans-serif;line-height:19px">under Prof.&nbsp;</span><a href=
+=3D"http://drona.csa.iisc.ernet.in/~priti" style=3D"font-size:13px;margin:0=
+px;text-decoration:none;color:rgb(104,33,122);font-family:wf_SegoeUI,'Segoe=
+ UI',Segoe,'Segoe WP',Tahoma,Verdana,=E2=80=9DHelvetica=E2=80=9D,Arial,sans=
+-serif;line-height:19px" target=3D"_blank">Priti Shankar</a><font color=3D"=
+#1a1a1a" face=3D"wf_SegoeUI, Segoe UI, Segoe, Segoe WP, Tahoma, Verdana, =
+=E2=80=9DHelvetica=E2=80=9D, Arial, sans-serif"><span style=3D"line-height:=
+19px">.</span></font><br>
+</p><div><div class=3D"h5"><div><p class=3D""><u></u></p>
+</div>
+</div></div></div>
+</div>
+
+</div><br></div>
+</div></div></body></html>
+------=_Part_123279_1882565842.1378829283772--

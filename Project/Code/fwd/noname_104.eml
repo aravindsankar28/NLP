@@ -1,0 +1,167 @@
+Return-Path: rsuba@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 22 Nov 2013 09:46:34 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id E3492F78243;
+	Fri, 22 Nov 2013 09:46:31 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.855
+X-Spam-Level: *
+X-Spam-Status: No, score=1.855 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	HTML_OBFUSCATE_05_10=0.26, RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0Tu1zlXIgC1f; Fri, 22 Nov 2013 09:46:31 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id DB9BFF78283;
+	Fri, 22 Nov 2013 09:43:18 +0530 (IST)
+Date: Fri, 22 Nov 2013 09:43:15 +0530 (IST)
+From: R Suba <rsuba@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: Narayanaswamy NS <narayanaswamy@gmail.com>, djram  <djram@iitm.ac.in>, 
+	"shankar@cse.iitm.ac.in" <shankar@cse.iitm.ac.in>, 
+	kamala  <kamala@iitm.ac.in>, asingh  <asingh@iitm.ac.in>, 
+	ramar  <ramar@iitm.ac.in>
+Message-ID: <1663369487.8228943.1385093595896.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1441318759.8228525.1385093382228.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: PhD Seminar-II Invitation (Nov 26 at 4pm in CS34)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8228942_1869037108.1385093595895"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_8228942_1869037108.1385093595895
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+
+
+
+
+I am happy to invite you to my second Ph .D semina r on 26-11-2013 ( Tuesda=
+y ) at 4PM. Kindly make it convenient to attend the semina r and give you r=
+ valuable feedback. The details of my talk a re as follows.=20
+
+
+
+
+Title: Consecutive Ones Property: Characterization and Algorithms=20
+
+
+
+Speake r: R. Subashini=20
+
+
+Date & Time : 26-11-2013, 4 PM=20
+
+Venue : CS 34, Depa rt ment of Compute r Science and Enginee ri ng=20
+
+Abstract:=20
+
+Consecutive Ones Property (COP) is a well studied combinatorial property of=
+ binary matrices. A binary matrix has the COP, if there exists a permutatio=
+n of columns that arranges the ones consecutively in all the rows. In the f=
+i rst part of the talk, we will focus on testing the COP of a binary matrix=
+. We will see that this problem is equivalent to fi nding a feasible interv=
+al assignment to the set system associated with the binary matrix. We then =
+present the intersection cardinality preserving interval assignment ( ICPIA=
+ ) characterization of matrices with the COP. Also, we describe the details=
+ of finding a feasible interval assignment to the set sys tem , if one exis=
+ts. In the second part, we pose an optimization problem (Min- ICPIA ) relat=
+ed to the ICPIA characterization and show that this problem is equivalent t=
+o the classical Vertex Cover problem. Finally, we consider the Consecutive =
+Ones Submatrix (COS) problem to deal with matrices that do not have the COP=
+. Given a binary matrix M and a positive integer d, COS by row deletion is =
+to decide whether there exists a set of at most d-rows of M whose deletion =
+results in a matrix with the COP. We show that COS problem is fixed-paramet=
+er tractable ( FPT ) with d as the parameter. We establish this via the FPT=
+ algorithm for Interval Deletion problem.=20
+
+R egards ,=20
+Subashini .R.=20
+PhD Scholar.=20
+
+
+------=_Part_8228942_1869037108.1385093595895
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><font face=3D"verdana, sans-serif">Dear
+All,<br><br></font>
+<p style=3D"margin-bottom: 0cm;">
+</p>
+<p style=3D"margin-bottom: 0cm;"><a name=3D"OBJ_PREFIX_DWT52"></a><font fac=
+e=3D"verdana, sans-serif">I
+am happy to invite you to my second <span style=3D"" class=3D"">Ph</span>.D=
+ <span style=3D"" class=3D"">semina</span><span id=3D"DWT83" style=3D"backg=
+round-color: rgb(254, 244, 129);">r </span>on 26-11-2013
+(<span class=3D"" id=3D"OBJ_PREFIX_DWT84">Tuesday</span>) at 4PM. Kindly ma=
+ke it convenient to attend the <span style=3D"" class=3D"">semina</span><sp=
+an id=3D"DWT86" style=3D"background-color: rgb(254, 244, 129);">r </span>an=
+d
+give you<span id=3D"DWT88" style=3D"background-color: rgb(254, 244, 129);">=
+r </span>valuable feedback. The details of my talk a<span id=3D"DWT90" styl=
+e=3D"background-color: rgb(254, 244, 129);">re</span> as follows.</font></p=
+><p style=3D"margin-bottom: 0cm;"><font face=3D"verdana, sans-serif"><br></=
+font></p>
+<p style=3D"margin-bottom: 0cm;"><font face=3D"verdana, helvetica, sans-ser=
+if"><b>Title:</b> Consecutive Ones Property: Characterization and Algorithm=
+s</font></p><p style=3D"margin-bottom: 0cm;"><font face=3D"verdana, sans-se=
+rif"><span style=3D"font-style: normal;"></span></font></p><p style=3D"marg=
+in-bottom: 0cm;"><font face=3D"verdana, sans-serif"><span style=3D"font-sty=
+le: normal;"><b><span style=3D"" class=3D"">Speake</span><span id=3D"DWT102=
+" style=3D"background-color: rgb(254, 244, 129);">r:</span> </b><span class=
+=3D"" id=3D"OBJ_PREFIX_DWT103">R. <span style=3D"" class=3D"">Subashini</sp=
+an></span><b><br></b></span></font></p>
+<p style=3D"margin-bottom: 0cm;"><font face=3D"verdana, sans-serif"><b>Date
+&amp; Time</b></font><font face=3D"verdana, sans-serif">: 26-11-2013, 4
+PM</font></p><p style=3D"margin-bottom: 0cm;"><font face=3D"verdana, sans-s=
+erif"><b>Venue</b></font><font face=3D"verdana, sans-serif">: CS 34, <span =
+style=3D"" class=3D"">Depa</span><span id=3D"DWT107" style=3D"background-co=
+lor: rgb(254, 244, 129);">rt</span><span style=3D"" class=3D"">ment</span> =
+of Compute<span id=3D"DWT109" style=3D"background-color: rgb(254, 244, 129)=
+;">r </span>Science and <span style=3D"" class=3D"">Enginee</span><span id=
+=3D"DWT111" style=3D"background-color: rgb(254, 244, 129);"><span style=3D"=
+" class=3D"">ri</span></span><span style=3D"" class=3D"">ng</span></font></=
+p><br clear=3D"all"><br><font face=3D"verdana, helvetica, sans-serif"><b>Ab=
+stract:</b><br><br>Consecutive Ones Property (COP) is a=20
+well studied combinatorial property of binary matrices. A binary matrix=20
+has the COP, if there exists a permutation of columns that arranges the=20
+ones consecutively in all the rows. In the fi=0Crst part of the talk, we=20
+will focus on <b>testing the COP</b> of a binary matrix. We will see=20
+that this problem is equivalent to fi=0Cnding a feasible interval=20
+assignment to the set system associated with the binary matrix. We then=20
+present the <i>intersection cardinality preserving interval assignment </i>=
+(<span><span><span><span style=3D"" class=3D"">ICPIA</span></span></span></=
+span>)
+ characterization of matrices with the COP. Also, we describe the=20
+details of =0Cfinding a feasible interval assignment to the set <span><span=
+><span><span style=3D"" class=3D"">sys</span></span></span></span><span><sp=
+an><span><span style=3D"" class=3D"">tem</span></span></span></span>, if on=
+e exists. In the second part, we pose an optimization problem <b>(Min-<span=
+><span><span><span style=3D"" class=3D"">ICPIA</span></span></span></span>)=
+ </b>related to the <span><span><span><span style=3D"" class=3D"">ICPIA</sp=
+an></span></span></span> characterization and show that this problem is equ=
+ivalent to the classical <i>Vertex Cover</i> problem. Finally, we consider =
+the <b>Consecutive Ones <span><span><span><span style=3D"" class=3D"">Subma=
+trix</span></span></span></span> (COS)</b>
+ problem to deal with matrices that do not have the COP. Given a binary=20
+matrix M and a positive integer d, <i>COS by row deletion</i> is to decide =
+whether=20
+there exists a set of at most d-rows of M whose deletion results in a=20
+matrix with the COP. We show that COS problem is <i>=0Cfixed-parameter=20
+tractable </i>(<span><span><span><span style=3D"" class=3D"">FPT</span></sp=
+an></span></span>) with d as the parameter. We establish this via the <span=
+><span><span><span style=3D"" class=3D"">FPT</span></span></span></span> al=
+gorithm for <i>Interval Deletion</i> problem.<br>&nbsp; <br>R<span style=3D=
+"" class=3D"">egards</span>,<br><span><span><span><span class=3D""><span st=
+yle=3D"" class=3D"">Subashini</span></span></span></span></span>.R.<br>PhD =
+Scholar.<br></font><br></div></body></html>
+------=_Part_8228942_1869037108.1385093595895--

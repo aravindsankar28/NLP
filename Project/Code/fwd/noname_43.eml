@@ -1,0 +1,180 @@
+Return-Path: achint@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Fri, 13 Jun 2014 05:45:44 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 33B712390012;
+	Fri, 13 Jun 2014 05:45:28 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 5.578
+X-Spam-Level: *****
+X-Spam-Status: No, score=5.578 tagged_above=-10 required=6.6
+	tests=[BAYES_40=-0.001, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RCVD_IN_BRBL_LASTEXT=1.449, RCVD_IN_PBL=3.335, RDNS_NONE=0.793]
+	autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id hgULI3QoNCRm; Fri, 13 Jun 2014 05:45:19 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 87DEEF78059;
+	Fri, 13 Jun 2014 05:45:18 +0530 (IST)
+Date: Fri, 13 Jun 2014 05:45:18 +0530 (IST)
+From: achint@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>, scholars@cse.iitm.ac.in, 
+	students@cse.iitm.ac.in, cvlab-iitm@googlegroups.com
+Cc: "amittal@cse.iitm.ac.in" <amittal@cse.iitm.ac.in>, 
+	"chandra@cse.iitm.ac.in" <cchandra@cse.iitm.ac.in>, 
+	"cpr@cse.iitm.ac.in" <cpr@cse.iitm.ac.in>
+Message-ID: <2134255757.5960.1402618518461.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <670817926.5927.1402616822809.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar Talk | 16 June 2014, 3:30 PM | BSB 361
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_5959_115889477.1402618518460"
+X-Originating-IP: [116.202.110.57]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_5959_115889477.1402618518460
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Hi All,=20
+
+I am giving my M.S. Seminar talk on 16th June . The details of the talk are=
+ given below.=20
+
+All are cordially invited.=20
+
+Thanks,=20
+Achint (CS11S007)=20
+
+Title: Graph Based Methods for Pose Estimation and Multi-pedestrian trackin=
+g=20
+
+Date: 16th June , 2014=20
+
+Time: 03:30 pm - 04:30 pm=20
+
+Venue: BSB 361=20
+
+
+
+
+
+
+
+Abstract: We address two problems: upper body human pose estimation in stil=
+l images and multi-pedestrian tracking in outdoor videos. The key idea in b=
+oth approaches is a method based on graph that aims to estimate the optimal=
+ configuration from different components of its structure. These components=
+ are: body parts in case of upper body pose estimation problem, and differe=
+nt pedestrian bounding boxes in case of multi-pedestrian tracking problem.=
+=20
+
+
+
+In the pose estimation problem, the goal is to detect and estimate 2D human=
+ pose in static images for six parts: head, torso, and left-right upper and=
+ lower arms. We formulate this as a graphical model inference problem consi=
+dering body parts as vertices in the graph and we use the loopy belief prop=
+agation algorithm for inference. When a human appears in fronto-parallel pl=
+ane, fixed size part detectors are sufficient and give reliable detection. =
+But when parts like lower and upper arms move out of image plane, we observ=
+e foreshortening and the part detectors become erroneous. We propose an app=
+roach that compensates foreshortening in upper and lower arms, and effectiv=
+ely prunes the search state space of each part. Additionally, we introduce =
+two extra pairwise constraints to exploit the color similarity information =
+between parts during inference to get better localization of upper and lowe=
+r arms. We present experiments and results on two challenging datasets show=
+ing improvements on lower arms accuracy and comparable results for other pa=
+rts.=20
+
+
+
+
+In the multi-pedestrian tracking problem, the goal is to track multiple ped=
+estrians simultaneously as they move in the video. We propose an online alg=
+orithm for the same that exploits pedestrian velocities and performs tracki=
+ng after dividing them into separate groups. We represent each group as a g=
+raph, and compute the optimal tracking configuration for each group in ever=
+y frame. Our algorithm is robust and it handles inter pedestrian occlusions=
+ in crowded scenes. We also propose a method that performs automatic detect=
+ion of new pedestrians parallel to tracking. We present experiments and res=
+ults on two challenging datasets showing improvements in results over other=
+ state of the art methods.=20
+
+
+Keywords: Human Detection, Pose Estimation, Pictorial Structures, Probabili=
+stic Graphical Models, Object Detection, Support Vector Machines, Histogram=
+ of Oriented Gradients, Minimum Spanning Trees, Online Tracking, Occlusion =
+Handling
+------=_Part_5959_115889477.1402618518460
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><p class="MsoNormal" style="margin-bottom: 13.5pt; background: white;"><span style="font-family: Arial, sans-serif;">Hi All,&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-family: 'Times New Roman', serif; background: white;">I am
+giving my M.S. Seminar talk on&nbsp;</span><span style="font-family: 'Times New Roman', serif; color: rgb(0, 0, 139); background: white;">16th June</span><span style="font-family: 'Times New Roman', serif; background: white;">. The details of the talk are given below.</span><span style="font-family: 'Times New Roman', serif;"><br>
+<br>
+<span style="background:white">All are cordially invited.&nbsp;</span><br>
+<br>
+<span style="background:white">Thanks,</span><br>
+Achint (CS11S007)<br>
+<br>
+</span><span style="font-family: Arial, sans-serif;">Title:<b>&nbsp;Graph
+Based Methods for Pose Estimation and Multi-pedestrian tracking</b><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="background: white;"><span style="font-family: Arial, sans-serif;">Date:<b>&nbsp;</b></span><b><span style="font-family: Arial, sans-serif; color: rgb(0, 0, 139);">16th June</span></b><b><span style="font-family: Arial, sans-serif;">, 2014</span></b><span style="font-family: Arial, sans-serif;"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="background: white;"><span style="font-family: Arial, sans-serif;">Time:&nbsp;<b>03:30
+pm&nbsp;- 04:30 pm</b><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="background: white;"><span style="font-family: Arial, sans-serif;">Venue:&nbsp;<b>BSB
+361</b><o:p></o:p></span></p><p class="MsoNormal" style="background: white;"><span style="font-family: Arial, sans-serif;"><b><br></b></span></p><p class="MsoNormal" style="background: white;"><span style="font-family: Arial, sans-serif;"><b><br></b></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><b><span style="font-family: Arial, sans-serif;">Abstract:</span></b><span style="font-family:
+&quot;Courier New&quot;"> </span>We address two problems: upper body
+human pose estimation in still images and multi-pedestrian tracking in outdoor
+videos. The key idea in both approaches is a method based on graph that aims to estimate the optimal configuration from different components of its structure.
+These components are: body parts in case of upper body pose estimation problem,
+and different pedestrian bounding boxes in case of multi-pedestrian tracking
+problem.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;">&nbsp;</p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;">In
+the pose estimation problem, the goal is to detect and estimate 2D human pose in
+static images for six parts: head, torso, and left-right upper and lower arms.
+We formulate this as a graphical model inference problem considering body parts
+as vertices in the graph and we use the loopy belief propagation algorithm for
+inference. When a human appears in fronto-parallel plane, fixed size part detectors
+are sufficient and give reliable detection. But when parts like lower and upper
+arms move out of image plane, we observe foreshortening and the part detectors
+become erroneous. We propose an approach that compensates foreshortening in
+upper and lower arms, and effectively prunes the search state space of each
+part. Additionally, we introduce two extra pairwise constraints to exploit the
+color similarity information between parts during inference to get better
+localization of upper and lower arms. We present experiments and results on two
+challenging datasets showing improvements on lower arms accuracy and comparable
+results for other parts.<o:p></o:p></p><p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><br></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;">In
+the multi-pedestrian tracking problem, the goal is to track multiple pedestrians
+simultaneously as they move in the video. We propose an online algorithm for
+the same that exploits pedestrian velocities and performs tracking after
+dividing them into separate groups. We represent each group as a graph, and
+compute the optimal tracking configuration for each group in every frame. Our
+algorithm is robust and it handles inter pedestrian occlusions in crowded
+scenes. We also propose a method that performs automatic detection of new pedestrians
+parallel to tracking. We present experiments and results on two challenging
+datasets showing improvements in results over other state of the art methods.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: Arial, sans-serif;"><br>
+<b>Keywords: </b></span><i>Human
+Detection, Pose Estimation, Pictorial Structures, Probabilistic Graphical
+Models, Object Detection, Support Vector Machines, Histogram of Oriented
+Gradients, Minimum Spanning Trees, Online Tracking, Occlusion Handling<font size="4"><o:p></o:p></font></i></p></div></body></html>
+------=_Part_5959_115889477.1402618518460--

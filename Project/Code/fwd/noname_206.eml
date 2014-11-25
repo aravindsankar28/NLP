@@ -1,0 +1,97 @@
+Return-Path: ankitsvt@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sun, 24 Mar 2013 16:56:40 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 40560F78103;
+	Sun, 24 Mar 2013 16:56:38 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id oQ3dZccRHpWi; Sun, 24 Mar 2013 16:56:33 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 3B75DF78061
+	for <seminar@cse.iitm.ac.in>; Sun, 24 Mar 2013 16:56:33 +0530 (IST)
+Date: Sun, 24 Mar 2013 16:56:33 +0530 (IST)
+From: ankitsvt@cse.iitm.ac.in
+To: seminar@cse.iitm.ac.in
+Message-ID: <128368261.21163.1364124393135.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1369201821.21131.1364122391469.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Talk by Dr. Ajit Rajwade at 2pm on 25th March 2013
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_21162_1975764146.1364124393134"
+X-Originating-IP: [10.65.0.32]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_21162_1975764146.1364124393134
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear All, 
+
+There will be a talk by Dr. Ajit Rajwade (http://intranet.daiict.ac.in/~ajit_r/). The details are as follows: 
+
+Title: Reconstruction of Hyperspectral Images and Video from Compressive Measurements 
+Speaker: Dr. Ajit Rajwade, Assistant Professor, DAIICT (Gandhinagar) 
+Date: 25th March, 2013 (Monday) 
+Time: 2:00 pm 
+Venue: BSB 361 
+
+Abstract: 
+
+In recent times, compressive sensing has emerged as a popular area in the allied fields of image processing and computer vision. Traditional cameras first acquire large amounts of data (images/video, etc.) and then compress them using popular methods such as JPEG/MPEG. The paradigm of compressive sensing is based on acquisition of data directly in a compressed format, and then reconstructing the original data from the compressed format. 
+
+In this talk, we will go through two practical compressive sensing problems. The first problem deals with reconstruction of hyperspectral data-cubes (which can be regarded as 3D spatio-spectral arrays). A sensor named CASSI (Coded aperture snapshot spectral imager) developed at Duke University does not measure the entire 3D spatio-spectral array - instead it measures a single 2D image called as a "snapshot". A snapshot is effectively the superposition of individual single-wavelength slices from the 3D array, after each slice has been modulated by a random binary code. The task is to recover the 3D datacube from one or more such snapshots. The second problem deals with reconstruction of video data (regarded as 3D spatio-temporal arrays) from snapshots of a somewhat similar nature as described for the case of hyperspectral data. 
+
+Techniques called as "dictionary learning" have gained popularity in recent image processing literature for representing images or image patches as a very sparse linear combination of so called "dictionary vectors". These are useful in tasks such as denoising, deblurring and inpainting. Here, we will discuss the application of dictionary learning techniques for reconstructing hyperspectral and video data from the measured snapshots. In particular, we will look at a Bayesian dictionary learning technique for these reconstruction tasks. (Time permitting:) For the case of video data, where the video can be regarded as the superposition of a sparse moving "foreground" on top of a static or infrequently changing background, we will also look at a second model that expressly incorporates these properties. 
+
+Regards, 
+Ankit 
+
+------=_Part_21162_1975764146.1364124393134
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<br><br>There will be a talk by Dr. Ajit Rajwade (http://intranet=
+.daiict.ac.in/~ajit_r/). The details are as follows:<br><br>Title: Reconstr=
+uction of Hyperspectral Images and Video from Compressive Measurements<br>S=
+peaker: Dr. Ajit Rajwade, Assistant Professor, DAIICT (Gandhinagar)<br>Date=
+: 25th March, 2013 (Monday)<br>Time: 2:00 pm<br>Venue: BSB 361 <br><br>Abst=
+ract:<br><br>In recent times, compressive sensing has emerged as a popular =
+area in the allied fields of image processing and computer vision. Traditio=
+nal cameras first acquire large amounts of data (images/video, etc.) and th=
+en compress them using popular methods such as JPEG/MPEG. The paradigm of c=
+ompressive sensing is based on acquisition of data directly in a compressed=
+ format, and then reconstructing the original data from the compressed form=
+at.<br><br>In this talk, we will go through two practical compressive sensi=
+ng problems. The first problem deals with reconstruction of hyperspectral d=
+ata-cubes (which can be regarded as 3D spatio-spectral arrays). A sensor na=
+med CASSI (Coded aperture snapshot spectral imager) developed at Duke Unive=
+rsity does not measure the entire 3D spatio-spectral array - instead it mea=
+sures a single 2D image called as a "snapshot". A snapshot is effectively t=
+he superposition of individual single-wavelength slices from the 3D array, =
+after&nbsp; each slice has been modulated by a random binary code. The task=
+ is to recover the 3D datacube from one or more such snapshots. The second =
+problem deals with reconstruction of video data (regarded as 3D spatio-temp=
+oral arrays) from snapshots of a somewhat similar nature as described for t=
+he case of hyperspectral data. <br><br>Techniques called as "dictionary lea=
+rning" have gained popularity in recent image processing literature for rep=
+resenting images or image patches as a very sparse linear combination of so=
+ called "dictionary vectors". These are useful in tasks such as denoising, =
+deblurring and inpainting. Here, we will discuss the application of diction=
+ary learning techniques for reconstructing hyperspectral and video data fro=
+m the measured snapshots. In particular, we will look at a Bayesian diction=
+ary learning technique for these reconstruction tasks. (Time permitting:) F=
+or the case of video data, where the video can be regarded as the superposi=
+tion of a sparse moving "foreground" on top of a static or infrequently cha=
+nging background, we will also look at a second model that expressly incorp=
+orates these properties. <br><br>Regards,<br>Ankit<br></div></body></html>
+------=_Part_21162_1975764146.1364124393134--

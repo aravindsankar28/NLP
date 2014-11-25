@@ -1,0 +1,182 @@
+Return-Path: sutanuc@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 22 Jul 2014 21:39:38 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 756D72990031;
+	Tue, 22 Jul 2014 21:39:29 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -1.105
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.105 tagged_above=-10 required=6.6
+	tests=[BAYES_00=-1.9, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id R9nrg83vzJ73; Tue, 22 Jul 2014 21:39:05 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 9762FF78050;
+	Tue, 22 Jul 2014 21:39:04 +0530 (IST)
+Date: Tue, 22 Jul 2014 21:39:04 +0530 (IST)
+From: "sutanuc@cse.iitm.ac.in" <sutanuc@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: aidb  <aidb@googlegroups.com>, rise-iil  <rise-iil@cse.iitm.ac.in>
+Message-ID: <2017672452.26903.1406045344561.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <865657718.26897.1406045194288.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Dr. Sriram Narasimhan's seminar on 4th August
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_26902_1837498216.1406045344560"
+X-Originating-IP: [10.65.0.31]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_26902_1837498216.1406045344560
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+
+
+
+
+
+Dr. Sriram Narasimhan (see brief profile below) will be visiting us on 4th =
+August and giving a talk (see abstract below) at 3:00 PM at BSB 361.=20
+
+Best Regards,=20
+Sutanu.=20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract :=20
+
+System health management deals with supporting the operation of a system in=
+ the presence of faults in one or more components (hardware and software) o=
+f the system being monitored. Tasks involved include diagnosis (fault detec=
+tion, isolation and identification), prognosis (fault impact analysis, end =
+of life prediction), decision making (fault mitigation and recovery). The e=
+nd goal is to maximize the achievement of original system objectives while =
+maintaining the requirements of safety and cost. Model-based diagnosis tech=
+niques use structural, behavioral and/or functional models of the system to=
+ detect and isolate faults. Given the wide variety of faults (component/sen=
+sor, discrete/continuous, persistent/intermittent etc.) that occur in real =
+systems and the presence of uncertainties (sensor noise, unknown environmen=
+t etc.) no single technique can handle all situations effectively and effic=
+iently. In this talk I will present 2 model-based diagnosis techniques (FAC=
+T and HyDE) that deal with entirely different situations. FACT uses a forma=
+l modeling framework and diagnoses single parametric faults (abrupt change =
+in parameter value) while HyDE uses a more general modeling framework to di=
+agnosis multiple discrete faults (abrupt change in state of component). The=
+se 2 approaches are just a couple of drops in the large ocean of techniques=
+ proposed by researchers in the model-based and other (data-driven for exam=
+ple) communities. I will also present work I was involved in that attempted=
+ to develop a standard set of metrics to evaluate and compare various diagn=
+osis methodologies. This work also resulted in the development of a framewo=
+rk to execute diagnostic applications on a common platform which led to a s=
+eries of international diagnostic competitions. Finally I will present some=
+ applications at NASA that are using/have used model-based reasoning applic=
+ations.=20
+
+Bio :=20
+
+Sriram Narasimhan is a Project Scientist with University of California, San=
+ta Cruz working as a contractor at NASA Ames Research Center in the Discove=
+ry and Systems Health area. His research interests are in model-based reaso=
+ning with a focus on diagnosis, prognosis and decision making on hybrid and=
+ stochastic systems. He is the technical lead for the Hybrid Diagnosis Engi=
+ne (HyDE) project. He has been involved in the development of model-based r=
+easoning applications for several NASA systems including the Total Organic =
+Carbon Analyzer on board International Space Station, K11 Rover, Cryogenic =
+fuel loading system among others. He received his M.S and Ph.D. in Electric=
+al Engineering and Computer Science from Vanderbilt University. He also has=
+ a M.S in Economics and B.E in Computer Science from Birla Institute of Tec=
+hnology and Science.=20
+
+
+
+
+
+------=_Part_26902_1837498216.1406045344560
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All, <br><div style=3D"font-family: Times New Roman; font-size: 12pt;=
+ color: #000000"><div style=3D"font-family: Times New Roman; font-size: 12p=
+t; color: #000000"><div style=3D"font-family: Times New Roman; font-size: 1=
+2pt; color: #000000"><div style=3D"font-family: Times New Roman; font-size:=
+ 12pt; color: #000000"><div style=3D"font-family: Times New Roman; font-siz=
+e: 12pt; color: #000000"><br>Dr. Sriram Narasimhan (see brief profile below=
+) will be visiting us on 4th August and giving a talk (see abstract below) =
+at 3:00 PM at BSB 361.<br><br>Best Regards, <br>Sutanu. <br><div style=3D"f=
+ont-family: Times New Roman; font-size: 12pt; color: #000000"><div dir=3D"l=
+tr"><div><div><div><div><div class=3D"gmail_quote"><div><div style=3D"color=
+:#000;background-color:#fff;font-family:HelveticaNeue,Helvetica Neue,Helvet=
+ica,Arial,Lucida Grande,sans-serif;font-size:12pt">&nbsp;<br><br><br><div s=
+tyle=3D"color:rgb(0,0,0);font-size:16px;font-family:HelveticaNeue,Helvetica=
+ Neue,Helvetica,Arial,Lucida Grande,sans-serif;background-color:transparent=
+;font-style:normal">
+<br></div><div style=3D"color:rgb(0,0,0);font-size:16px;font-family:Helveti=
+caNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;background-c=
+olor:transparent;font-style:normal">Abstract :<br><br>System health managem=
+ent deals with supporting the operation of a system in the presence of faul=
+ts in one or more components (hardware and software) of the system being mo=
+nitored. Tasks involved include diagnosis (fault detection, isolation and i=
+dentification), prognosis (fault impact analysis, end of life prediction), =
+decision making (fault mitigation and recovery). The end goal is to maximiz=
+e the achievement of original system objectives while maintaining the requi=
+rements of safety and cost. Model-based diagnosis techniques use structural=
+, behavioral and/or functional models of the system to detect and isolate f=
+aults. Given the wide variety of faults (component/sensor, discrete/continu=
+ous, persistent/intermittent etc.) that occur in real systems and the prese=
+nce of uncertainties (sensor noise, unknown environment etc.) no single tec=
+hnique can handle all situations effectively and efficiently. In this talk =
+I will
+ present 2 model-based diagnosis techniques (FACT and HyDE) that deal with =
+entirely different situations. FACT uses a formal modeling framework and di=
+agnoses single parametric faults (abrupt change in parameter value) while H=
+yDE uses a more general modeling framework to diagnosis multiple discrete f=
+aults (abrupt change in state of component). These 2 approaches are just a =
+couple of drops in the large ocean of techniques proposed by researchers in=
+ the model-based and other (data-driven for example) communities. I will al=
+so present work I was involved in that attempted to develop a standard set =
+of metrics to evaluate and compare various diagnosis methodologies. This wo=
+rk also resulted in the development of a framework to execute diagnostic ap=
+plications on a common platform which led to a series of international diag=
+nostic competitions. Finally I will present some applications at NASA that =
+are using/have used model-based reasoning applications. <br>
+<br>Bio :<br><br>Sriram Narasimhan is a Project Scientist with University o=
+f California, Santa Cruz working as a contractor at NASA Ames Research Cent=
+er in the Discovery and&nbsp; Systems Health area. His research interests a=
+re in model-based reasoning with a focus on diagnosis, prognosis and decisi=
+on making on hybrid and stochastic systems. He is the technical lead for th=
+e Hybrid Diagnosis Engine (HyDE) project. He has been involved in the devel=
+opment of model-based reasoning applications for several NASA systems inclu=
+ding the Total Organic Carbon Analyzer on board International Space Station=
+, K11 Rover, Cryogenic fuel loading system among others. He received his M.=
+S and Ph.D. in Electrical Engineering and Computer Science from Vanderbilt =
+University. He also has a M.S in Economics and B.E in Computer Science from=
+ Birla Institute of Technology and Science.<span class=3D"HOEnZb"><font col=
+or=3D"#888888"><br>
+</font></span></div><span class=3D"HOEnZb"><font color=3D"#888888"><div sty=
+le=3D"color:rgb(0,0,0);font-size:16px;font-family:HelveticaNeue,Helvetica N=
+eue,Helvetica,Arial,Lucida Grande,sans-serif;background-color:transparent;f=
+ont-style:normal">
+<br></div></font></span><br></div></div></div><br>
+</div></div></div></div></div>
+</div></div></div></div></div></div></div></body></html>
+------=_Part_26902_1837498216.1406045344560--

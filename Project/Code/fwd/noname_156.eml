@@ -1,0 +1,94 @@
+Return-Path: jayalal.sarma@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Sun, 4 Aug 2013 11:25:58 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 300CB2290004;
+	Sun,  4 Aug 2013 11:25:52 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.58
+X-Spam-Level: *
+X-Spam-Status: No, score=1.58 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, SPF_NEUTRAL=0.779] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3A815upvjYp8; Sun,  4 Aug 2013 11:25:40 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1E20BF78035;
+	Sun,  4 Aug 2013 11:25:40 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id CA9D9780699;
+	Sun,  4 Aug 2013 11:56:49 +0530 (IST)
+Received: from mail-ob0-f179.google.com ([209.85.214.179])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.3.8205)
+	with ESMTP id 201308040620570035656; Sun, 04 Aug 2013 11:50:58 +0530
+Received: by mail-ob0-f179.google.com with SMTP id fb19so3717823obc.10
+        for <multiple recipients>; Sat, 03 Aug 2013 23:26:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:from:date:message-id:subject:to:cc:content-type;
+        bh=mGWoy6cLukqQT83OcGYeSW2TYvHOc3uZlPsRsu/LqYE=;
+        b=EVOeFZbvjxUu5Hbg8x0CxexTyL+mAni05zQDIL8fA/+t+3CvCIDvF7piVAJfd+wn/k
+         IHxCIS7wvLir35PfNEIkDl/JVg/3Q9NfdiYiMbO0pCGRaWkbLKRJzfnNqzvCM1/KaBi8
+         j5Bgw85mfnDOeWC3XEtSXlz/KfN0wjx55lEynCtb7yAKPRzLyFy/eXoAMv511o9ba5Tp
+         iZ1x7GY9lDrpD1a7gF710xENPMMQqCvRG1NV1iBsyGYNSwVX46K7WCyL0k5RRdraoWfv
+         ZJuwEjiEeECElRnX9MejKOnu7Y7PX0fn9v2emEj1WArWBDczx4f2H9UCAJrQjE/ccCUj
+         QKWw==
+X-Received: by 10.50.154.106 with SMTP id vn10mr612115igb.0.1375597607240;
+ Sat, 03 Aug 2013 23:26:47 -0700 (PDT)
+MIME-Version: 1.0
+Sender: jayalal.sarma@gmail.com
+Received: by 10.64.165.130 with HTTP; Sat, 3 Aug 2013 23:26:27 -0700 (PDT)
+From: "Jayalal Sarma M.N." <jayalal@cse.iitm.ac.in>
+Date: Sun, 4 Aug 2013 11:56:27 +0530
+X-Google-Sender-Auth: 1agh5V3LFCRY0EGE5gPyxd-3saA
+Message-ID: <CAL_Lm_inN=uga_gC8MySPeTtd4i=kDQBO8pHsA2brhjYfb2wuA@mail.gmail.com>
+Subject: Prof. Prasad Jayanti @ tMeet on Aug 6, Tuesday at 4pm @ CS36.
+To: Theory CS Seminars - IIT Madras <theorycs-iitm-seminars@googlegroups.com>, theory@cse.iitm.ac.in, 
+	seminar@cse.iitm.ac.in
+Cc: prasad@cs.dartmouth.edu
+Content-Type: text/plain; charset=ISO-8859-1
+X-Mlf-DKIM: dkim=none 
+X-Mlf-AddressBook: jayalal.sarma@gmail.com,people,allowed
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.214.179
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;list_addrbk_sender
+X-Mlf-UniqueId: i201308040620570035656
+
+Dear All,
+
+Prof. Prasad Jayanti (http://www.cs.dartmouth.edu/~prasad/) from
+University of Dartmouth will be giving a talk at
+tMeet(http://theory.cse.iitm.ac.in/tMeet.php) this week. Please find
+below the details.
+---------------------------------------------------
+Title: Tight Time-Space Tradeoff for Mutual Exclusion
+Speaker : Prasad Jayanti, University of Dartmouth
+Date, Time, Venue : Aug 6, Tuesday, 4pm, CS36.
+---------------------------------------------------
+Abstract: Mutual Exclusion is a fundamental problem in distributed
+computing. In the last two decades, there has been a great deal of
+research on designing algorithms with small Remote Memory Reference
+(RMR) complexity (the -RMR complexity measure- captures how well
+concurrent algorithms perform on shared memory multiprocessors). In
+this talk, I will show how RMR complexity trades off with space
+complexity. Specifically I will show that, on cache coherent
+multiprocessors, constant RMR complexity is impossible with
+subpolynomial space and subpolynomial RMR complexity is impossible
+with constant space. The proofs are fascinating and are done via a
+purely combinatorial game that corresponds closely to mutual
+exclusion.
+
+(These results were presented at STOC 2012 and are joint work with
+Nikhil Bansal, Vibhor Bhatt, and Ranganath Kondapally.)
+------------------------------
+
+All are welcome !.
+
+tMeet organizers.
+http://theory.cse.iitm.ac.in/tMeet.php

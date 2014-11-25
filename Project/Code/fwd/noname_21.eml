@@ -1,0 +1,153 @@
+Return-Path: skrishnam@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Wed, 20 Aug 2014 16:59:06 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 62ABBF781D0;
+	Wed, 20 Aug 2014 16:59:03 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -0.209
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.209 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_50=0.8, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id aS7JwWAptLwE; Wed, 20 Aug 2014 16:58:59 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6F469F781BE;
+	Wed, 20 Aug 2014 16:58:58 +0530 (IST)
+Date: Wed, 20 Aug 2014 16:58:58 +0530 (IST)
+From: "Prof. Krishna Sivalingam" <skrishnam@cse.iitm.ac.in>
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: csoffice  <csoffice@cse.iitm.ac.in>
+Message-ID: <20646996.54680.1408534138363.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Seminar Talk: Usability and Developability Challenges in Advanced
+ Analytics
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_54679_11756360.1408534138363"
+X-Originating-IP: [10.6.0.72]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_54679_11756360.1408534138363
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+=============================================================== 
+
+Department of Computer Science and Engineering 
+IIT Madras 
+Departmental Seminar Talk 
+Date: Sep. 1, 2014, 3pm 
+Location: BSB 361 (Seminar Hall) 
+
+=============================================================== 
+
+Title: Usability and Developability Challenges in Advanced Analytics 
+
+Speaker: Arun Kumar, University of Wisconsin-Madison, USA 
+
+Abstract: 
+
+Advanced analytics is a booming area in the data management 
+industry. As enterprise applications of statistical and machine 
+learning techniques grow, many companies are racing to build analytics 
+systems that combine such techniques with data management. From 
+speaking to practitioners in diverse settings, we learned that two key 
+challenges to widespread adoption of advanced analytics are the ease 
+of usage and ease of development of analytics systems. In this talk, I 
+will present an overview of my research that aims to tackle some 
+usability and developability challenges in advanced analytics, while 
+also ensuring scalability and high performance. I will talk about 
+three systems that I have built as part of my research: (1) Staccato, 
+which aims to make it easier for database administrators to query 
+probabilistic OCR data, (2) Bismarck, which provides a unified 
+abstraction that aims to make it easier for software engineers to 
+integrate machine learning into an RDBMS, and (3) Columbus, which 
+provides a declarative language that aims to make the task of feature 
+selection easier for data analysts. Finally, I will talk briefly about 
+some recent results and open research problems in the larger space of 
+feature engineering, which is one of the most challenging bottlenecks 
+in applying machine learning to real-world data. 
+
+Bio: 
+
+Arun Kumar is a PhD candidate in Computer Sciences at the University 
+of Wisconsin-Madison. He received his B. Tech. in CSE from IIT Madras 
+in 2009. His primary research interests are in data management, 
+especially its intersection with machine learning. He is co-advised by 
+professors Jeffrey Naughton and Jignesh Patel. Previously, he worked 
+with professor Christopher Re. Systems and ideas from his research 
+have been released as part of the MADlib open-source library and have 
+been shipped with products from Oracle, IBM, EMC, and Cloudera. A 
+paper on feature selection co-authored by him received the Best Paper 
+Award at SIGMOD 2014. 
+
+Host: Prof. Krishna Sivalingam, CSE, skrishnam@iitm.ac.in 
+
+======================================================================== 
+
+
+
+== 
+Prof. Krishna Moorthy Sivalingam, Professor, CSE Dept, IIT Madras, Chennai, India 
+
+
+
+------=_Part_54679_11756360.1408534138363
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><span>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br><br>&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp; Department of Computer Science and Engineering<br>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; IIT Madras<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Departmental Seminar Talk<br>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; Date: Sep. 1, 2014, 3pm<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp; Location: BSB 361 (Seminar Hall)<br><br>=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<br><br>Title: Usability and Developability Chal=
+lenges in Advanced Analytics<br><br>Speaker: Arun Kumar, University of Wisc=
+onsin-Madison, USA<br><br>Abstract:<br><br>Advanced analytics is a booming =
+area in the data management<br>industry. As enterprise applications of stat=
+istical and machine<br>learning techniques grow, many companies are racing =
+to build analytics<br>systems that combine such techniques with data manage=
+ment. From<br>speaking to practitioners in diverse settings, we learned tha=
+t two key<br>challenges to widespread adoption of advanced analytics are th=
+e ease<br>of usage and ease of development of analytics systems. In this ta=
+lk, I<br>will present an overview of my research that aims to tackle some<b=
+r>usability and developability challenges in advanced analytics, while<br>a=
+lso ensuring scalability and high performance. I will talk about<br>three s=
+ystems that I have built as part of my research: (1) Staccato,<br>which aim=
+s to make it easier for database administrators to query<br>probabilistic O=
+CR data, (2) Bismarck, which provides a unified<br>abstraction that aims to=
+ make it easier for software engineers to<br>integrate machine learning int=
+o an RDBMS, and (3) Columbus, which<br>provides a declarative language that=
+ aims to make the task of feature<br>selection easier for data analysts. Fi=
+nally, I will talk briefly about<br>some recent results and open research p=
+roblems in the larger space of<br>feature engineering, which is one of the =
+most challenging bottlenecks<br>in applying machine learning to real-world =
+data.<br><br>Bio:<br><br>Arun Kumar is a PhD candidate in Computer Sciences=
+ at the University<br>of Wisconsin-Madison. He received his B. Tech. in CSE=
+ from IIT Madras<br>in 2009. His primary research interests are in data man=
+agement,<br>especially its intersection with machine learning. He is co-adv=
+ised by<br>professors Jeffrey Naughton and Jignesh Patel. Previously, he wo=
+rked<br>with professor Christopher Re. Systems and ideas from his research<=
+br>have been released as part of the MADlib open-source library and have<br=
+>been shipped with products from Oracle, IBM, EMC, and Cloudera. A<br>paper=
+ on feature selection co-authored by him received the Best Paper<br>Award a=
+t SIGMOD 2014.<br><br>Host: Prof. Krishna Sivalingam, CSE, skrishnam@iitm.a=
+c.in<br><br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D<br><br><br><br><span name=3D"x"></span>=3D=3D<br>Prof. Krishna Moorthy =
+Sivalingam, Professor, CSE Dept, IIT Madras, Chennai, India<br><span name=
+=3D"x"></span><br></span><br></div></body></html>
+------=_Part_54679_11756360.1408534138363--

@@ -1,0 +1,110 @@
+Return-Path: mani@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Mon, 14 Oct 2013 09:20:45 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 1B41AF781DF;
+	Mon, 14 Oct 2013 09:20:43 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: -2.909
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.909 tagged_above=-10 required=6.6
+	tests=[ALL_TRUSTED=-1, BAYES_00=-1.9, HTML_MESSAGE=0.001,
+	T_RP_MATCHES_RCVD=-0.01] autolearn=unavailable
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id zoxV1UqwcD8Z; Mon, 14 Oct 2013 09:20:36 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 85282F78058;
+	Mon, 14 Oct 2013 09:19:36 +0530 (IST)
+Date: Mon, 14 Oct 2013 09:19:34 +0530 (IST)
+From: Manikantan S <mani@cse.iitm.ac.in>
+Reply-To: Manikantan S <mani@cse.iitm.ac.in>
+To: scholars <scholars@cse.iitm.ac.in>
+Cc: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <205788241.1689904.1381722574926.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1315082939.1689508.1381722369786.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Reminder - "PAC Subset Selection in Stochastic Multi-armed Bandits"
+ - Today's talk is by external faculty at BSB 361. Time 3.00 PM
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1689903_1683168196.1381722574925"
+X-Originating-IP: [10.6.6.16]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_1689903_1683168196.1381722574925
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Dear Scholars 
+
+Greetings. 
+
+Today we have a talk by Dr. Shivaram Kalyanakrishnan from Yahoo! labs, Bangalore, titled 
+
+"PAC Subset Selection in Stochastic Multi-armed Bandits". 
+
+This is taking place at 3 PM at BSB 361. 
+
+Abstract of the talk is as follows. 
+We consider the problem of selecting, from among n real-valued random variables, a subset of size m of those with the highest means, based on efficiently sampling the random variables. This problem, which we denote Explore-m, finds application in a variety of areas, such as stochastic optimization, simulation and industrial engineering, and on-line advertising. The theoretical basis of our work is an extension of a previous formulation using multi-armed bandits that is devoted to identifying just the single best of n random variables (Explore-1). Under a PAC setting, we provide algorithms for Explore-m and bound their sample complexity. 
+
+
+Our main contribution is the LUCB algorithm, which, interestingly, bears a close resemblance to the well-known UCB algorithm for regret minimization. We derive an expected sample complexity bound for LUCB that is novel even for single-arm selection. We then improve the problem-dependent constant in this bound through a novel algorithmic variant called KL-LUCB. Experiments affirm the relative efficiency of KL-LUCB over other algorithms for Explore-m. Our contributions also include a lower bound on the worst case sample complexity of such algorithms. 
+
+
+
+
+About the Speaker 
+Shivaram Kalyanakrishnan is a scientist at Yahoo Labs Bangalore. His primary research interests lie in the fields of artificial intelligence and machine learning, spanning areas such as reinforcement learning, agents and multiagent systems, humanoid robotics, multi-armed bandits, and on-line advertising. He obtained his Ph.D. in Computer Science from the University of Texas at Austin (2011), and his B.Tech. in Computer Science and Engineering from the Indian Institute of Technology Madras (2004). He has extensively used robot soccer as a test domain for his research, and has actively contributed to initiatives such as RoboCup and the Reinforcement Learning competitions. 
+PLEASE MAKE IT CONVENIENT TO ATTEND THE TALK. 
+
+kind reg ards 
+M a ni 
+
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar, 
+High Performance Computing and Networking (HPCN) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 
+
+
+------=_Part_1689903_1683168196.1381722574925
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style type='text/css'>p { margin: 0; }</style></head><body><div style='font-family: Times New Roman; font-size: 12pt; color: #000000'><style>p { margin: 0; }</style><div style="font-family: Times New Roman; font-size: 12pt; color: #000000"><style>p { margin: 0; }</style><div style="font-family: Times New Roman; font-size: 12pt; color: #000000"><span>Dear Scholars<br><br>Greetings.<br><br>Today we have a talk by </span><font face="Times New Roman">Dr. Shivaram Kalyanakrishnan from Yahoo! labs, Bangalore, titled<br><br></font><span id="593fec28-c6e8-4c0c-b9c8-02c9efda7523"><font face="Times New Roman">"PAC Subset Selection in Stochastic Multi-armed Bandits".<br><br>This is taking place at 3 PM at BSB 361.&nbsp; <br><br>Abstract of the talk is as follows.<br></font></span><font face="Times New Roman">We
+ consider the problem of selecting, from among n real-valued random 
+variables, a subset of size m of those with the highest means, based on 
+efficiently sampling the random variables. This problem, which we denote
+ Explore-m, finds application in a variety of areas, such as stochastic 
+optimization, simulation and industrial engineering, and on-line 
+advertising. The theoretical basis of our work is an extension of a 
+previous formulation using multi-armed bandits that is devoted to 
+identifying just the single best of n random variables (Explore-1). 
+Under a PAC setting, we provide algorithms for Explore-m and bound their
+ sample complexity.</font><div><font face="Times New Roman"><br></font></div><div><font face="Times New Roman">Our
+ main contribution is the LUCB algorithm, which, interestingly, bears a 
+close resemblance to the well-known UCB algorithm for regret 
+minimization. We derive an expected sample complexity bound for LUCB 
+that is novel even for single-arm selection. We then improve the 
+problem-dependent constant in this bound through a novel algorithmic 
+variant called KL-LUCB. Experiments affirm the relative efficiency of 
+KL-LUCB over other algorithms for Explore-m. Our contributions also 
+include a lower bound on the worst case sample complexity of such 
+algorithms.</font></div><div><font face="Times New Roman"><br></font></div><div><font face="Times New Roman"><br></font></div><div><font face="Times New Roman">About the Speaker</font></div><div><font face="Times New Roman">Shivaram
+ Kalyanakrishnan is a scientist at Yahoo Labs Bangalore. His primary 
+research interests lie in the fields of artificial intelligence and 
+machine learning, spanning areas such as reinforcement learning, agents 
+and multiagent systems, humanoid robotics, multi-armed bandits, and 
+on-line advertising. He obtained his Ph.D. in Computer Science from the 
+University of Texas at Austin (2011), and his B.Tech. in Computer 
+Science and Engineering from the Indian Institute of Technology Madras 
+(2004). He has extensively used robot soccer as a test domain for his 
+research, and has actively contributed to initiatives such as RoboCup 
+and the Reinforcement Learning competitions.</font></div><span id="593fec28-c6e8-4c0c-b9c8-02c9efda7523"><font face="Times New Roman"><br>PLEASE MAKE IT CONVENIENT TO ATTEND THE TALK.<br><br>kind regards<br>Mani<br></font><span></span><br>----------------------------------------------------------------------------<br>Manikantan (Mani) Srinivasan<br>Research Scholar,<br>High Performance Computing and Networking (HPCN) Lab,<br>Department of Computer Science and Engineering,<br>Indian Institute of Technology Madras, Chennai.<br>----------------------------------------------------------------------------<span></span><br></span><br></div></div></div></body></html>
+------=_Part_1689903_1683168196.1381722574925--

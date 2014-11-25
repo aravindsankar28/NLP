@@ -1,0 +1,86 @@
+A gentle reminder for my seminar talk, today at 3 PM in BSB 361.=20
+
+Gaurav Singh=20
+AIDB Lab,=20
+CSE Department, IIT Madras=20
+
+
+From: gsingh@cse.iitm.ac.in=20
+To: "Seminar" <seminar@cse.iitm.ac.in>, "scholars" <scholars@cse.iitm.ac.in=
+>=20
+Cc: sdas@cse.iitm.ac.in, "N. S. Narayanaswamy" <swamy@cse.iitm.ac.in>, "Joh=
+n Augustine" <augustine@cse.iitm.ac.in>, "andrew" <andrew@ee.iitm.ac.in>, c=
+soffice@cse.iitm.ac.in=20
+Sent: Monday, July 21, 2014 1:22:09 PM=20
+Subject: MS Seminar Invitation=20
+
+
+
+Dear All,=20
+I am presenting my MS Seminar on 28th July, 2014(Monday) . Please make it c=
+onvenient to attend the talk and give your valuable feedback.=20
+
+Details:=20
+
+Topic : A Linear Size Approximate Distance Oracle for Chordal Graphs=20
+
+Speaker : Gaurav Singh=20
+Guide : Dr N.S. Narayanaswamy=20
+Date : July 28, 2014=20
+Time : 3PM to 4 PM=20
+Venue : BSB 361(Seminar Hall), Dept of Computer Science and Engineering=20
+
+
+Abstract=20
+
+
+A Graph is chordal if every cycle of length greater than three has a chord.=
+ Chord is an edge joining two non adjacent vertices. We present a distance =
+oracle for chordal graphs. Distance oracle is a data structure that stores =
+information of the distance between vertices of a graph.=20
+
+
+Given a chordal graph G on n vertices we preprocess it in O(n^2) time and s=
+pace to build a data structure of size O(n) such that any subsequent distan=
+ce query can be answered in constant time with a bounded constant factor er=
+ror. In particular, for each pair of vertices u,v in V(G), we output a dist=
+ance value d <=3D d_G(u,v) + 11, where d_G(u,v) is the distance between u a=
+nd v in G. In contrast, for the closely related APSP problem on chordal gra=
+phs, the current best algorithm runs in O(n^2.376) time. Our improvement co=
+mes from a relationship that we discover between the graph distance and min=
+imum hitting sets of cliques on certain paths in a clique tree associated w=
+ith a chordal graph. We then design an efficient data structure to additive=
+ly approximate (error of +3) these minimum hitting sets of cliques for all =
+paths in the clique tree. These are then integrated with an efficient data =
+structure to answer LCA queries in rooted trees to yield our distance oracl=
+e for a given chordal graph.=20
+
+
+
+
+Chordal graphs are often represented by its Clique Tree in very compact and=
+ efficient manner. Clique tree is a structure that contains most of the inf=
+ormation of the associated chordal graph. We exploit the structural propert=
+ies of the clique tree to extract the distance information of the associate=
+d chordal graph. We keep this information in a data structure that can answ=
+er any query of distance between any pair of vertices of graph in constant =
+time. The most impressive feature of our data structure is its constant que=
+ry time in spite of the fact that it uses only linear space, i.e., it does =
+not store distance between all the pairs of vertices explicitly.=20
+
+
+Key Word : Chordal graph, Distance oracle, Clique tree, Hitting set=20
+
+
+
+
+All are cordially invited.=20
+
+
+Thanks,=20
+
+
+Best Regards, Gaurav Singh=20
+CS12S025=20
+AIDB Lab,=20
+CSE Department, IIT Madras

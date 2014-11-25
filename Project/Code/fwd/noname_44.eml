@@ -1,0 +1,220 @@
+Return-Path: arpitas@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Thu, 5 Jun 2014 13:23:30 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id D90B721A0008;
+	Thu,  5 Jun 2014 13:23:27 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 7wMo69dm+9bz; Thu,  5 Jun 2014 13:23:27 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 0874921A0002;
+	Thu,  5 Jun 2014 13:23:27 +0530 (IST)
+Date: Thu, 5 Jun 2014 13:23:26 +0530 (IST)
+From: arpitas@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>
+Cc: "shankar@cse.iitm.ac.in" <shankar@cse.iitm.ac.in>
+Message-ID: <1631675097.9467.1401954806940.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1357230910.9458.1401954461271.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: MS Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9466_1157083126.1401954806939"
+X-Originating-IP: [10.93.0.38]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - FF3.0 (Linux)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_9466_1157083126.1401954806939
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Dear All, 
+
+I will be giving my MS seminar talk on 12th June 2014 ( Thursday ) at 3:00 PM in BSB 361. I request you to kindly attend the seminar and provide your valuable feedback. 
+
+
+Details: 
+
+Speaker : Arpita Singh 
+
+Guide : Dr. Shankar Balachandran 
+
+Date : 12th June 2014 Thursday. 
+
+Time : 15:00 hrs to 16:00 hrs 
+
+Topic : Efficient Incremental Algorithms for Singular Value Decomposition 
+
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineering. 
+
+
+Abstract: 
+
+Singular Value Decomposition(SVD) plays a prominent role in many areas like information retrieval, Computer vision and signal processing. In many real time applications, obsolete data needs to be removed when fresh data arrives. If the matrices used in modeling the systems are large, computation of SVD from scratch is not feasible and there exists a need for incremental methods to compute the SVD of the modified matrix. Computing SVD of a matrix after removing/adding some rows or columns from the matrix using the current SVD is known as SVD downdate/update problem. 
+
+
+The first part of the talk focuses on a new algorithm for the SVD downdate problem. The algorithm uses a k-rank approximation of an m x n system and the downdate operations are done on the decomposed form directly, saving both space and time. Also, the algorithm inspects the entries in the matrices only a constant number of times making it a streaming algorithm. However, this algorithm is not error-free. 
+
+
+In the second part of the talk, I will talk about a new error-free streaming algorithm for the SVD downdate problem. We developed a QR-like decomposition technique that is fast and efficient (both in time and in space). We show how to build an error-free SVD downdate algorithm using the QR-like decomposition. 
+
+
+Finally, we touch upon an error-free streaming algorithm for the SVD update problem. We also show how our techniques for downdate and update can be combined to perform simultaneous downdate and update. Such an operation finds application in video processing. 
+
+
+All are welcome! 
+
+
+Arpita Singh (CS12S019) 
+
+RISE Lab, 
+
+Department of Computer Science and Engineering, IIT Madras. 
+
+------=_Part_9466_1157083126.1401954806939
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;margin-bottom:0pt;=
+" id=3D"docs-internal-guid-a7d67b57-6afa-0e03-9117-cf0e036fba97"><span styl=
+e=3D"font-size:13px;font-family:Arial;color:#000000;background-color:#fffff=
+f;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:=
+none;vertical-align:baseline;">Dear All,</span></p><p dir=3D"ltr" style=3D"=
+line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style=3D"font-siz=
+e:13px;font-family:Arial;color:#000000;background-color:#ffffff;font-weight=
+:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical=
+-align:baseline;">I will be giving my MS seminar talk on </span><span style=
+=3D"font-size:13px;font-family:Arial;color:#00008b;background-color:#ffffff=
+;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:n=
+one;vertical-align:baseline;">12th June 2014</span><span style=3D"font-size=
+:13px;font-family:Arial;color:#000000;background-color:#ffffff;font-weight:=
+normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-=
+align:baseline;"> (</span><span style=3D"font-size:13px;font-family:Arial;c=
+olor:#00008b;background-color:#ffffff;font-weight:normal;font-style:normal;=
+font-variant:normal;text-decoration:none;vertical-align:baseline;">Thursday=
+</span><span style=3D"font-size:13px;font-family:Arial;color:#000000;backgr=
+ound-color:#ffffff;font-weight:normal;font-style:normal;font-variant:normal=
+;text-decoration:none;vertical-align:baseline;">) at 3:00 PM in BSB 361. I =
+request you to kindly attend the seminar and provide your valuable feedback=
+.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;mar=
+gin-bottom:0pt;"><span style=3D"font-size:13px;font-family:Arial;color:#000=
+000;background-color:#ffffff;font-weight:normal;font-style:normal;font-vari=
+ant:normal;text-decoration:none;vertical-align:baseline;">Details:</span></=
+p><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;margin-bottom:0pt=
+;"><span style=3D"font-size:13px;font-family:Arial;color:#000000;background=
+-color:#ffffff;font-weight:bold;font-style:normal;font-variant:normal;text-=
+decoration:none;vertical-align:baseline;">Speaker</span><span style=3D"font=
+-size:13px;font-family:Arial;color:#000000;background-color:#ffffff;font-we=
+ight:normal;font-style:normal;font-variant:normal;text-decoration:none;vert=
+ical-align:baseline;"> : Arpita Singh</span></p><p dir=3D"ltr" style=3D"lin=
+e-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style=3D"font-size:1=
+3px;font-family:Arial;color:#000000;background-color:#ffffff;font-weight:bo=
+ld;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;">Guide</span><span style=3D"font-size:13px;font-family:Arial;co=
+lor:#000000;background-color:#ffffff;font-weight:normal;font-style:normal;f=
+ont-variant:normal;text-decoration:none;vertical-align:baseline;">: Dr. Sha=
+nkar Balachandran</span></p><p dir=3D"ltr" style=3D"line-height:1.15;margin=
+-top:0pt;margin-bottom:0pt;"><span style=3D"font-size:13px;font-family:Aria=
+l;color:#000000;background-color:#ffffff;font-weight:bold;font-style:normal=
+;font-variant:normal;text-decoration:none;vertical-align:baseline;">Date</s=
+pan><span style=3D"font-size:13px;font-family:Arial;color:#000000;backgroun=
+d-color:#ffffff;font-weight:normal;font-style:normal;font-variant:normal;te=
+xt-decoration:none;vertical-align:baseline;"> : </span><span style=3D"font-=
+size:13px;font-family:Arial;color:#00008b;background-color:#ffffff;font-wei=
+ght:normal;font-style:normal;font-variant:normal;text-decoration:none;verti=
+cal-align:baseline;">12th June 2014 Thursday.</span></p><p dir=3D"ltr" styl=
+e=3D"line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span style=3D"fon=
+t-size:13px;font-family:Arial;color:#000000;background-color:#ffffff;font-w=
+eight:bold;font-style:normal;font-variant:normal;text-decoration:none;verti=
+cal-align:baseline;">Time</span><span style=3D"font-size:13px;font-family:A=
+rial;color:#000000;background-color:#ffffff;font-weight:normal;font-style:n=
+ormal;font-variant:normal;text-decoration:none;vertical-align:baseline;"> :=
+ 15:00 hrs to 16:00 hrs</span></p><p dir=3D"ltr" style=3D"line-height:1.15;=
+margin-top:0pt;margin-bottom:0pt;"><span style=3D"font-size:13px;font-famil=
+y:Arial;color:#000000;background-color:#ffffff;font-weight:bold;font-style:=
+normal;font-variant:normal;text-decoration:none;vertical-align:baseline;">T=
+opic </span><span style=3D"font-size:13px;font-family:Arial;color:#000000;b=
+ackground-color:#ffffff;font-weight:normal;font-style:normal;font-variant:n=
+ormal;text-decoration:none;vertical-align:baseline;">:</span><span style=3D=
+"font-size:13px;font-family:Arial;color:#000000;background-color:transparen=
+t;font-weight:bold;font-style:normal;font-variant:normal;text-decoration:no=
+ne;vertical-align:baseline;"> &nbsp;</span><span style=3D"font-size:13px;fo=
+nt-family:Arial;color:#000000;background-color:transparent;font-weight:norm=
+al;font-style:normal;font-variant:normal;text-decoration:none;vertical-alig=
+n:baseline;">Efficient Incremental Algorithms for Singular Value Decomposit=
+ion</span></p><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;margi=
+n-bottom:0pt;"><span style=3D"font-size:13px;font-family:Arial;color:#00000=
+0;background-color:#ffffff;font-weight:bold;font-style:normal;font-variant:=
+normal;text-decoration:none;vertical-align:baseline;">Venue</span><span sty=
+le=3D"font-size:13px;font-family:Arial;color:#000000;background-color:#ffff=
+ff;font-weight:normal;font-style:normal;font-variant:normal;text-decoration=
+:none;vertical-align:baseline;"> : BSB 361, Seminar Hall, Department of Com=
+puter Science and Engineering.</span></p><br><p dir=3D"ltr" style=3D"line-h=
+eight:1.15;margin-top:0pt;margin-bottom:0pt;"><span style=3D"font-size:13px=
+;font-family:Arial;color:#000000;background-color:transparent;font-weight:b=
+old;font-style:normal;font-variant:normal;text-decoration:none;vertical-ali=
+gn:baseline;">Abstract:</span></p><p dir=3D"ltr" style=3D"line-height:1.15;=
+margin-top:0pt;margin-bottom:0pt;text-align: justify;"><span style=3D"font-=
+size:13px;font-family:Arial;color:#000000;background-color:transparent;font=
+-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;v=
+ertical-align:baseline;">Singular Value Decomposition(SVD) plays a prominen=
+t role in many areas like information retrieval, Computer vision and signal=
+ processing. In many real time applications, obsolete data needs to be remo=
+ved when fresh data arrives. If the matrices used in modeling the systems a=
+re large, computation of SVD from scratch is not feasible and there exists =
+a need for incremental methods to compute the SVD of the modified matrix. C=
+omputing SVD of a matrix after removing/adding some rows or columns from th=
+e matrix using the current SVD is known as SVD downdate/update problem.</sp=
+an></p><br><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;margin-b=
+ottom:0pt;text-align: justify;"><span style=3D"font-size:13px;font-family:A=
+rial;color:#000000;background-color:transparent;font-weight:normal;font-sty=
+le:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;=
+">The first part of the talk focuses on a new algorithm for the SVD downdat=
+e problem. The algorithm uses a k-rank approximation of an m x n system and=
+ the downdate operations are done on the decomposed form directly, saving b=
+oth space and time. Also, the algorithm inspects the entries in the matrice=
+s only a constant number of times making it a streaming algorithm. However,=
+ this algorithm is not error-free.</span></p><br><p dir=3D"ltr" style=3D"li=
+ne-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;"><span=
+ style=3D"font-size:13px;font-family:Arial;color:#000000;background-color:t=
+ransparent;font-weight:normal;font-style:normal;font-variant:normal;text-de=
+coration:none;vertical-align:baseline;">In the second part of the talk, I w=
+ill talk about a new error-free streaming algorithm for the SVD downdate pr=
+oblem. We developed a QR-like decomposition technique that is fast and effi=
+cient (both in time and in space). We show how to build an error-free SVD d=
+owndate algorithm using the QR-like decomposition.</span></p><br><p dir=3D"=
+ltr" style=3D"line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><span sty=
+le=3D"font-size:13px;font-family:Arial;color:#000000;background-color:trans=
+parent;font-weight:normal;font-style:normal;font-variant:normal;text-decora=
+tion:none;vertical-align:baseline;">Finally, we touch upon an error-free st=
+reaming algorithm for the SVD update problem. We also show how our techniqu=
+es for downdate and update can be combined to perform simultaneous downdate=
+ and update. Such an operation finds application in video processing.</span=
+></p><br><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;margin-bot=
+tom:0pt;"><span style=3D"font-size:13px;font-family:Arial;color:#000000;bac=
+kground-color:#ffffff;font-weight:normal;font-style:normal;font-variant:nor=
+mal;text-decoration:none;vertical-align:baseline;">All are welcome!</span><=
+/p><br><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;margin-botto=
+m:0pt;"><span style=3D"font-size:13px;font-family:Arial;color:#000000;backg=
+round-color:#ffffff;font-weight:normal;font-style:normal;font-variant:norma=
+l;text-decoration:none;vertical-align:baseline;">Arpita Singh (CS12S019)</s=
+pan></p><p dir=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;margin-bott=
+om:0pt;"><span style=3D"font-size:13px;font-family:Arial;color:#000000;back=
+ground-color:#ffffff;font-weight:normal;font-style:normal;font-variant:norm=
+al;text-decoration:none;vertical-align:baseline;">RISE Lab,</span></p><p di=
+r=3D"ltr" style=3D"line-height:1.15;margin-top:0pt;margin-bottom:0pt;"><spa=
+n style=3D"font-size:13px;font-family:Arial;color:#000000;background-color:=
+#ffffff;font-weight:normal;font-style:normal;font-variant:normal;text-decor=
+ation:none;vertical-align:baseline;">Department of Computer Science and Eng=
+ineering, IIT Madras.</span></p><br></div></body></html>
+------=_Part_9466_1157083126.1401954806939--

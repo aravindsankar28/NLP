@@ -1,0 +1,162 @@
+Return-Path: cchatto@cse.iitm.ac.in
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 26 Aug 2014 05:29:43 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 15CDAF781BF;
+	Tue, 26 Aug 2014 05:29:27 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.595
+X-Spam-Level: *
+X-Spam-Status: No, score=1.595 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, HELO_NO_DOMAIN=0.001, HTML_MESSAGE=0.001,
+	RDNS_NONE=0.793] autolearn=no
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id QY+zr4JYJsrB; Tue, 26 Aug 2014 05:29:22 +0530 (IST)
+Received: from mail.cse.iitm.ac.in (mail.cse.iitm.ac.in [10.6.5.215])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 51B91F78120
+	for <seminar@cse.iitm.ac.in>; Tue, 26 Aug 2014 05:29:22 +0530 (IST)
+Date: Tue, 26 Aug 2014 05:29:22 +0530 (IST)
+From: cchatto@cse.iitm.ac.in
+To: Seminar <seminar@cse.iitm.ac.in>
+Message-ID: <500795040.59500.1409011162212.JavaMail.root@mail.cse.iitm.ac.in>
+In-Reply-To: <1041137280.52435.1408413838304.JavaMail.root@mail.cse.iitm.ac.in>
+Subject: Fwd: Invitation to Ph.D Seminar
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_59499_823272323.1409011162211"
+X-Originating-IP: [10.65.0.31]
+X-Mailer: Zimbra 6.0.7_GA_2473.DEBIAN5_64 (ZimbraWebClient - SAF3 (Win)/6.0.7_GA_2473.DEBIAN5_64)
+
+------=_Part_59499_823272323.1409011162211
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,=20
+
+
+A gentle reminder for the seminar.=20
+
+
+Time: 4 PM=20
+Venue: BSB 361=20
+
+
+Regards,=20
+
+
+Joy=20
+
+
+From: cchatto@cse.iitm.ac.in=20
+To: "Seminar" <seminar@cse.iitm.ac.in>, "aravind" <aravind@ee.iitm.ac.in>, =
+"vjkumar" <vjkumar@ee.iitm.ac.in>=20
+Sent: Tuesday, August 19, 2014 7:33:58 AM=20
+Subject: Invitation to Ph.D Seminar=20
+
+
+
+Dear All,=20
+Greetings,=20
+
+
+I am presenting my second Ph D seminar on 26-Aug-2014 (Tuesday) by 4.00 P.M=
+. Kindly make it convenient to attend the seminar and give your valuable su=
+ggestions.=20
+
+
+The details of the talk are as follows:=20
+
+
+Title : Spatio-Temporal Analysis of Video Shots for Content Based Video Ret=
+rieval (CBVR)=20
+Speaker: Chiranjoy Chattopadhyay (CS10D009)=20
+Date : 26 August, 2014 (Tuesday)=20
+Time : 4 PM=20
+Place : BSB 361, Dept. of CS&E=20
+
+
+ABSTRACT:=20
+
+
+Content Based Video Retrieval (CBVR) is the problem of retrieving a set of =
+videos from the database (gallery) which are similar to a given query video=
+ shot. Some of the application areas of CBVR are, video on-demand, event id=
+entification, near-duplicate detection, multimedia content analysis and vid=
+eo classification etc. Existing CBVR systems lack in efficiently computing =
+a compact, unified (joint) representation of spatio-temporal information. R=
+esearch issues involve: efficient tracking in moving camera videos, multipl=
+e moving objects, suitable weightage for trajectory and spatio-temporal inf=
+ormation, matching criteria etc.=20
+
+
+This presentation describes a few methods designed to overcome some of the =
+key issues related to the CBVR task. Highlights of this talk are the follow=
+ing:=20
+
+
+    =E2=80=A2 Segmenting the prominent moving foreground object in a video =
+shot, captured using a moving camera, using iterative refinement over graph=
+-cut.=20
+    =E2=80=A2 Novel video content descriptors (DMST-CSS, time series repres=
+entation) for CBVR task=20
+    =E2=80=A2 An approach towards solving the CBVR task for action videos a=
+nd complex shots with multiple moving objects, using latent semantic indexi=
+ng of spatio-temporal features.=20
+
+Results will be shown using real-world datasets, to exhibit the superiority=
+ of the proposed methods.=20
+
+
+All are welcome.=20
+
+
+Regards,=20
+
+
+Joy
+------=_Part_59499_823272323.1409011162211
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D'text/css'>p { margin: 0; }</style></head><body><=
+div style=3D'font-family: Times New Roman; font-size: 12pt; color: #000000'=
+>Dear All,<div><br></div><div>A gentle reminder for the seminar.</div><div>=
+<br></div><div>Time: 4 PM</div><div>Venue: BSB 361</div><div><br></div><div=
+>Regards,</div><div><br></div><div>Joy<br><br><hr id=3D"zwchr"><b>From: </b=
+>cchatto@cse.iitm.ac.in<br><b>To: </b>"Seminar" &lt;seminar@cse.iitm.ac.in&=
+gt;, "aravind" &lt;aravind@ee.iitm.ac.in&gt;, "vjkumar" &lt;vjkumar@ee.iitm=
+.ac.in&gt;<br><b>Sent: </b>Tuesday, August 19, 2014 7:33:58 AM<br><b>Subjec=
+t: </b>Invitation to Ph.D Seminar<br><br><style>p { margin: 0; }</style><di=
+v style=3D"font-family: Times New Roman; font-size: 12pt; color: #000000"><=
+div>Dear All,</div><div>Greetings,</div><div><br></div><div>I am presenting=
+ my second Ph D seminar on 26-Aug-2014 (Tuesday) by 4.00 P.M. Kindly make i=
+t convenient to attend the seminar and give your valuable suggestions.</div=
+><div><br></div><div>The details of the talk are as follows:</div><div><br>=
+</div><div>Title : Spatio-Temporal Analysis of Video Shots for Content Base=
+d Video Retrieval (CBVR)</div><div>Speaker: Chiranjoy Chattopadhyay (CS10D0=
+09)</div><div>Date : 26 August, 2014 (Tuesday)</div><div>Time : 4 PM</div><=
+div>Place : BSB 361, Dept. of CS&amp;E</div><div><br></div><div>ABSTRACT:</=
+div><div><br></div><div>&nbsp; &nbsp; Content Based Video Retrieval (CBVR) =
+is the problem of retrieving a set of videos from the database (gallery) wh=
+ich are similar to a given query video shot. Some of the application areas =
+of CBVR are, video on-demand, event identification, near-duplicate detectio=
+n, multimedia content analysis and video classification etc. Existing CBVR =
+systems lack in efficiently computing a compact, unified (joint) representa=
+tion of spatio-temporal information. Research issues involve: efficient tra=
+cking in moving camera videos, multiple moving objects, suitable weightage =
+for trajectory and spatio-temporal information, matching criteria etc.&nbsp=
+;</div><div><br></div><div>This presentation describes a few methods design=
+ed to overcome some of the key issues related to the CBVR task. Highlights =
+of this talk are the following:&nbsp;</div><div><ul><li>Segmenting the prom=
+inent moving foreground object in a video shot, captured using a moving cam=
+era, using iterative refinement over graph-cut.</li><li>Novel video content=
+ descriptors (DMST-CSS, time series representation) for CBVR task</li><li>A=
+n approach towards solving the CBVR task for action videos and complex shot=
+s with multiple moving objects, using latent semantic indexing of spatio-te=
+mporal features.</li></ul></div><div>Results will be shown using real-world=
+ datasets, to exhibit the superiority of the proposed methods.</div><div><b=
+r></div><div>All are welcome.</div><div><br></div><div>Regards,</div><div><=
+br></div><div>Joy</div></div></div></div></body></html>
+------=_Part_59499_823272323.1409011162211--

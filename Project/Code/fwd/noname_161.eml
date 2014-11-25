@@ -1,0 +1,165 @@
+Return-Path: sreenivasa.kumar.p@gmail.com
+Received: from mail.cse.iitm.ac.in (LHLO mail.cse.iitm.ac.in) (10.6.5.215)
+ by mail.cse.iitm.ac.in with LMTP; Tue, 30 Jul 2013 09:20:41 +0530 (IST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 57A67F78124;
+	Tue, 30 Jul 2013 09:20:39 +0530 (IST)
+X-Virus-Scanned: amavisd-new at mail.cse.iitm.ac.in
+X-Spam-Flag: NO
+X-Spam-Score: 1.674
+X-Spam-Level: *
+X-Spam-Status: No, score=1.674 tagged_above=-10 required=6.6
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, HTML_OBFUSCATE_10_20=0.093,
+	SPF_NEUTRAL=0.779] autolearn=no
+Authentication-Results: mail.cse.iitm.ac.in (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from mail.cse.iitm.ac.in ([127.0.0.1])
+	by localhost (mail.cse.iitm.ac.in [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id gHIMoT8NFy4A; Tue, 30 Jul 2013 09:20:30 +0530 (IST)
+Received: from mx.iitm.ac.in (mx.iitm.ac.in [10.65.0.17])
+	by mail.cse.iitm.ac.in (Postfix) with ESMTP id 6774BF78120;
+	Tue, 30 Jul 2013 09:20:30 +0530 (IST)
+Received: from mailx1.iitm.ac.in (mailx1.iitm.ac.in [203.199.213.9])
+	by mx.iitm.ac.in (Postfix) with ESMTP id 7975978023B;
+	Tue, 30 Jul 2013 09:51:03 +0530 (IST)
+Received: from mail-vb0-f48.google.com ([209.85.212.48])
+	by mailx1.iitm.ac.in (SonicWALL 7.4.3.8205)
+	with ESMTP id 201307300415390035412; Tue, 30 Jul 2013 09:45:41 +0530
+Received: by mail-vb0-f48.google.com with SMTP id w15so3391927vbf.21
+        for <multiple recipients>; Mon, 29 Jul 2013 21:21:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+         :from:to:content-type;
+        bh=InLziGvFrsgtE7OV4v151UeIGgjkMREP07MRfhbJ3Nk=;
+        b=hPr98sL79ylAEtHI0NPr+ua1x08hhL51aAD+fCKov0T52ML8r/JpjMfElxNTYsN/zh
+         PvOuJGaCsNAJQq6HZ12IchaZJsNlOXzP22wC/zMiS4Co0TviuO7SUtXGEeXedyH4zNSK
+         LXE91eZkzNco9Bl3w0RlZT7vA+/COQf3+n55rjlTygwseoM4LXFzVobWMxpHrovblwSx
+         2e5PAu8cltbuZmoeS1SoguGHJ0ZKdrrJ2D2oTwZWoINfLf5Sjg7P6q4Ipw3vOxx71cg3
+         6vr7OZVZzu34zFizoa3Xc6kkdRFoi4LafbDUB2J5NkA680ebZ5Z+L52fFa30lxuK3Ljj
+         i+3Q==
+MIME-Version: 1.0
+X-Received: by 10.220.173.134 with SMTP id p6mr9542251vcz.36.1375158062228;
+ Mon, 29 Jul 2013 21:21:02 -0700 (PDT)
+Sender: sreenivasa.kumar.p@gmail.com
+Received: by 10.58.163.72 with HTTP; Mon, 29 Jul 2013 21:21:02 -0700 (PDT)
+Date: Tue, 30 Jul 2013 09:51:02 +0530
+X-Google-Sender-Auth: uObiQf4x_LAipHAGKr1Hkz1sFjs
+Message-ID: <CAFdB0Z3fwp44yF0Dva1tz=p=6TWcyJYXmSfd8_uo=i0d+SP0cQ@mail.gmail.com>
+Subject: Seminar Talk - Rajasekhar Krishnamurthy - IBM Almaden - Aug 1st - 4pm
+From: P Sreenivasa Kumar <psk@cse.iitm.ac.in>
+To: "dccfaculty@cse.iitm.ac.in" <dccfaculty@cse.iitm.ac.in>, csoffice <csoffice@cse.iitm.ac.in>, 
+	students@cse.iitm.ac.in, Balaraman Ravindran <ravi@cse.iitm.ac.in>
+Content-Type: multipart/alternative; boundary=089e0158b154cf42c204e2b2ef0f
+X-Mlf-DKIM: dkim=none 
+X-Mlf-KeyWords: extraction,600,dear,brand,036,nature,4352,counterparty,optimization,largescale,d
+X-Mlf-Language-Detected: NoLanguageFilter_English
+X-Mlf-Connecting-IP: 209.85.212.48
+X-Mlf-Country-Code: US
+X-Mlf-Threat: nothreat
+X-Mlf-Threat-Detailed: nothreat;none;none;none
+X-Mlf-UniqueId: i201307300415390035412
+
+--089e0158b154cf42c204e2b2ef0f
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear Colleagues/Students:
+
+Dr Rajasekar Krishnamurthy (IBM Research, USA) is visiting the Dept and
+giving a talk on August 1st at 4pm in BSB 361. The details of the talk are
+as below. All are welcome. Regards. -- psk
+
+*Title: *Declarative Analytics: Applications and Tools
+ *
+Abstract*:  Modern enterprises are performing complex analyses on
+increasingly large data sets to drive business decisions. Applications
+rapidly gaining importance include social media analytics for digital
+marketing and brand management, root cause analysis from system logs, and
+financial and counterparty analytics from public data. These applications
+rely heavily on key analytics phases comprising of text analytics, entity
+resolution, and statistical analysis. The size of the data-sets in
+conjunction with the complexity of the analysis necessitates large-scale
+distributed processing of the analytical algorithms. At IBM we are building
+tools and technologies to support each of these analytic phases and in
+particular we are building declarative languages for these phases. While
+the declarative nature of the language abstracts away the need for
+programmer-optimization, the syntax of these languages is designed to
+appeal to the corresponding communities. In this talk I will give an
+overview of some real-world big data applications we are currently working
+on, use that to motivate the need for the major analytic phases discussed
+above and describe, in some detail, declarative systems for text analytics
+and statistical modeling.
+
+*Biography*: Dr. Rajasekar Krishnamurthy leads the Intelligent Information
+Integration group at IBM Research-Almaden. He received a B.Tech in Computer
+Science and Engineering from the Indian Institute of Technology-Madras in
+1998, and a Ph.D. degree in Computer Science from the University of
+Wisconsin-Madison in 2004. His research interests are primarily in the
+integration of structured and unstructured data, with emphasis on
+information extraction, entity resolution and data cleansing.
+
+
+
+Dr P Sreenivasa Kumar ( http://www.cse.iitm.ac.in/~psk/ )
+Professor and Head, CSE Department
+Indian Institute of Technology Madras, Chennai 600 036, India.
+Ph: 044 2257 4350 Cell: 09444008330  Fax: 044 2257 4352
+
+--089e0158b154cf42c204e2b2ef0f
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><font face=3D"sans-serif">De<font>ar C<font>olleagues=
+</font></font>/Students:<br><br></font></div><div><font face=3D"sans-serif"=
+><font>Dr Rajasekar Kri<font>shnamur<font>t<font>hy (IBM<font> Research</fo=
+nt>, USA) is visi<font>ting the Dept and givin<font>g a <font><font>talk</f=
+ont> on August 1st at 4pm in BSB 361. The details of the talk are as below<=
+font>. </font></font></font></font></font></font></font></font></font>All a=
+re wel<font>come</font>. Regards. -- psk<br>
+
+</div><font face=3D"sans-serif"><br></font><div><div><div><font face=3D"san=
+s-serif"><u><font>Title: </font></u><font>Declara<font>ti<font>ve Analytic<=
+font>s: Applications and Tools<br></font></font></font>=A0</font></font><u>=
+<font><br>
+
+<font></font></font>Abstract</u><font face=3D"sans-serif">:
+ =A0Modern enterprises are performing complex analyses on increasingly=20
+large data sets to drive business decisions. Applications rapidly=20
+gaining importance include social media analytics for digital marketing=20
+and brand management, root cause analysis from system logs, and=20
+financial and counterparty analytics from public data. These=20
+applications rely heavily on key analytics phases comprising of text=20
+analytics, entity resolution, and statistical analysis. The size of the=20
+data-sets in conjunction with the complexity of the analysis=20
+necessitates large-scale distributed processing of the analytical=20
+algorithms. At IBM we are building tools and technologies to support=20
+each of these analytic phases and in particular we are building=20
+declarative languages for these phases. While the declarative nature of=20
+the language abstracts away the need for programmer-optimization, the=20
+syntax of these languages is designed to appeal to the corresponding=20
+communities. In this talk I will give an overview of some real-world big
+ data applications we are currently working on, use that to motivate the
+ need for the major analytic phases discussed above and describe, in=20
+some detail, declarative systems for text analytics and statistical=20
+modeling.</font><br><div><div>
+<br>
+<font face=3D"sans-serif"><u>Biography</u></font><font face=3D"sans-serif">=
+:
+ Dr. Rajasekar Krishnamurthy leads the Intelligent Information=20
+Integration group at IBM Research-Almaden. He received a B.Tech in=20
+Computer Science and Engineering from the Indian Institute of=20
+Technology-Madras in 1998, and a Ph.D. degree in Computer Science from=20
+the University of Wisconsin-Madison in 2004. His research interests are=20
+primarily in the integration of structured and unstructured data, with=20
+emphasis on information extraction, entity resolution and data=20
+cleansing. </font><br>
+<br><br><br clear=3D"all"><div>Dr P Sreenivasa Kumar ( <a href=3D"http://ww=
+w.cse.iitm.ac.in/%7Epsk/" target=3D"_blank">http://www.cse.iitm.ac.in/~psk/=
+</a> )<br>Professor and Head, CSE Department<br>Indian Institute of Technol=
+ogy Madras, Chennai 600 036, India.<br>
+
+Ph: 044 2257 4350 Cell: 09444008330=A0 Fax: 044 2257 4352<br></div>
+</div></div></div></div></div></div>
+
+--089e0158b154cf42c204e2b2ef0f--
