@@ -1,0 +1,20 @@
+
+Dear All, 
+Please find below the details of the talk by Dr. Nachiappan Nagappan from Microsoft Research, Redmond. 
+
+Venue: BSB361 
+Date: 20/8/2013 
+Time: 3.00PM 
+
+Title: Software Analytics at Microsoft: Towards Achieving Better Quality Code 
+
+Abstract: 
+Information on the software quality of a product is available too late in the software development lifecycle to affordably guide corrective actions. An important step towards remediation of this problem lies in the ability to provide an early estimation of quaality. Towards this end, in this talk I will talk about software analytics research at Microsoft that uses software engineering data mined from product artifacts such as changes to source code which are recorded in version archives, bugs reported to issue tracking systems, team and organizational structure and communications are archived in e-mails and newsgroups. I will also show how this research is used in practice in large software development teams. 
+
+I will also present a high level overview of the diversity of research themes in the Empirical Software Engineering (ESE) group at Microsoft Research using examples from our data analytics research on data-driven software engineering, socio technical congruence, Xbox game analytics, bug reporting and triaging, and distributed software development. The work presented in this talk has been done by Chris Bird, Brendan Murphy, Tom Zimmermann, myself, and many other interns and visiting faculty at Microsoft. More information can be found at http://research.microsoft.com/en-us/groups/ese/ 
+
+Bio 
+Nachiappan Nagappan is a Principal Researcher in the Empirical Software Engineering group at Microsoft Research in the Redmond, USA lab. His research interests are in the field of software measurement focusing on software reliability and metrics, failure analysis/prediction, data analytics for software systems and empirical software engineering processes. He publishes at all the primary venues for software engineering and has served on the program committees of the primary SE conferences. Most recently he was program co-chair of ISSRE 2012. You can find more information about him here: http://research.microsoft.com/en-us/people/nachin/default.aspx 
+
+Thanks, 
+Sriram 

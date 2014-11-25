@@ -1,0 +1,84 @@
+
+A Gentle Reminder.=20
+
+Regards,=20
+Debarun.=20
+
+
+
+From: "Debarun Kar" <debarunk@cse.iitm.ac.in>=20
+To: "Seminar" <seminar@cse.iitm.ac.in>=20
+Sent: Thursday, March 28, 2013 11:58:08 AM=20
+Subject: MS Seminar=20
+
+
+
+
+
+Dear All,=C2=A0=20
+
+
+
+
+I will be giving my MS seminar talk on 2nd April , 2013 (Tuesda y ) at 3:00=
+ PM. I request you to kindly attend the seminar and give your valuable sugg=
+estions.=20
+
+
+
+
+Venue Details=20
+
+
+Title: Complexity Guided Feature Weighting, Con=EF=AC=81dence Augmented Pre=
+diction and Visualization for Case based Reasoning Systems=20
+
+
+Speaker: Debarun Kar=20
+
+Date: 2nd April , 2013=20
+Time: 3:00 PM=C2=A0=20
+Venue: BSB 361 (Seminar Hall), Dept. of CSE.=20
+
+
+About the Talk:=20
+
+Case based reasoning (CBR) attempts to solve a given problem by referring t=
+o similar problems encountered in the past and using their solutions to arr=
+ive at a solution for the new problem. Past experiences, referred to as cas=
+es, are typically stored in a case base as problem-solution pairs. So, the =
+primary assumption behind all CBR systems is that =E2=80=9Csimilar problems=
+ have similar solutions=E2=80=9D and the measure which calculates the degre=
+e to which this similarity assumption holds good is called =E2=80=98alignme=
+nt=E2=80=99. However, this traditional view of CBR may be a=EF=AC=80ected i=
+n some regions of the case base due to the presence of noisy cases, an irre=
+levant set of attributes or an inappropriate similarity measure. The qualit=
+y of the cases maintained in a case base has a direct in=EF=AC=82uence on t=
+he quality of the proposed solutions. The presence of cases that do not con=
+form to the similarity hypothesis decreases the alignment of the case base =
+and often degrades the performance of a CBR system. It is therefore importa=
+nt to =EF=AC=81nd out the suitability of each case for the application of C=
+BR and associate a solution with a certain degree of con=EF=AC=81dence. Fea=
+ture weighting also determines the success of a system, as the presence of =
+irrelevant and redundant attributes results in incorrect solutions. We addr=
+ess the above problems with reference to a real-world CBR application calle=
+d InfoChrom. It is used to predict the values of several soil nutrients bas=
+ed on features extracted from a chromatogram image of a soil sample. We pro=
+pose novel feature weighting techniques based on alignment, as well as a ne=
+w alignment and con=EF=AC=81dence measure as potential solutions to these p=
+roblems. The hypotheses are evaluated on UCI datasets and the case base of =
+Infochrom and show promising results. We also present ways of learning case=
+-case similarities which is often a non-trivial task and involves signi=EF=
+=AC=81cant amount of domain expertise. Our approach to learning similaritie=
+s involves learning an appropriate set of feature weights while the domain =
+expert iteratively interacts with a case base visualizer called iCaseViz de=
+veloped for the above purpose. We provide results on the e=EF=AC=83ciency o=
+f the visualizer and the e=EF=AC=80ectiveness of our similarity learning al=
+gorithm on UCI datasets and the case base of InfoChrom.=20
+
+
+--=C2=A0=20
+
+
+Regards,=20
+Debarun Kar.=20

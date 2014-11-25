@@ -1,0 +1,98 @@
+
+Dear All,=20
+
+
+Mr. Vinay Shashidhar and Mr. Shashank Srikant of Aspiring Minds research gr=
+oup will be giving a talk on=20
+"Learning from a million assessments" on Tuesday 03/06/14, 2 pm. The talk i=
+s at CS 25. All are welcome.=20
+Please fine the abstract of the talk and brief biographies of the speakers =
+below.=20
+
+Best=20
+-Raghu=20
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Title: Learning from a million assessments=20
+Date & Time: TUE, 03/06/14, 2 pm=20
+Venue: CS 25.=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Abstract:=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+An assessment-driven job marketplace could drive accountability in higher e=
+ducation and meritocracy in labor markets. Towards this goal, we have condu=
+cted over a million assessments of job candidates, matched candidates to jo=
+bs based on them, and tracked their success. By mining this large-scale dat=
+a, we learn how to make the employment ecosystem more efficient while disco=
+vering heretofore unknown trends. WE will specifically discuss three exampl=
+es of our work: discovery of pre-requisites required to learn computer prog=
+ramming; discovery of factors (and biases) that lead to positive job outcom=
+es; and identification of consistent behavioral markers for job failure.=20
+
+For truly effective assessment driven marketplace, one needs to go beyond m=
+ultiple-choice assessments. In the second part of the talk, we will discuss=
+ how we do this using machine learning, focusing specifically on our recent=
+ work in automatic grading of computer programs using a rich feature gramma=
+r that captures local logic in a program. This work not only helps increase=
+ companies' recruitment efficiency, but also helps students get feedback ab=
+out their work, thereby helping to scale learning initiatives such as massi=
+vely open online courses (MOOCs).=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Speaker's bio:
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Vinay Shashidhar=C2=A0is a senior research engineer at Aspiring Minds=E2=80=
+=99 research group. He has worked on the design and implementation of multi=
+ple products at Aspiring Minds in the domain of speech processing, personal=
+ity instruments and question modeling. He was a core member of the research=
+ team to develop SVAR, a spoken English evaluation tool. SVAR has been used=
+ by corporations and institutions to test 750K+ candidates. He continues to=
+ lead research to solve the problem of free speech evaluation with his team=
+. He led the project on developing interpretable models based on test score=
+s to predict job performance. The tool incorporated ideas from machine lear=
+ning, evolutionary algorithms and multi-objective optimization. The tool ha=
+s been deployed and been used by 60+ companies to develop their hiring crit=
+eria. Vinay has filed 5 patents. In his spare time, he spends his efforts o=
+n social initiatives in education and animal welfare.=20
+
+Shashank Srikant=C2=A0is a research engineer at Aspiring Minds=E2=80=99 res=
+earch group. His key work has been in developing automated programming eval=
+uation methods. He has developed algorithms for performance assessment, mai=
+ntainability and semantic assessment of written code. Apart from this, he h=
+as been actively involved in developing simulation-based assessments for vo=
+cational skills and has contributed to other product-development projects a=
+t Aspiring Minds. He also leads research collaborations at Aspiring Minds. =
+He has filed 3 patents and his work has been published/accepted at KDD and =
+NIPS.=C2=A0He likes to be engaged in computer science/mathematics education=
+ and keenly follows start-ups and pedagogy formulation
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+About Aspiring Minds=E2=80=99 research group
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Aspiring Minds=C2=A0is=C2=A0a company founded by MIT-IIT alumni, which has =
+grown to become India's largest employability assessments company. Through =
+technology, we build systems to enable feedback, efficiency and meritocracy=
+ in employment markets.
+=C2=A0
+The in-house research group focuses on building products in various domains=
+ like program analysis, speech, crowd-sourcing, simulation and animation. A=
+n instance where we use ML is to be able to predict, in a supervised manner=
+, whether a student has written a logically/semantically correct computer p=
+rogram. This helps scaling assessments required by a majority of IT-industr=
+ies to hire programmers and does away with the perils of test-case based ev=
+aluation. We also have a million data-points around student information and=
+ are now visualizing, interpreting this data.
+
+Currently, we have these systems in production which are utilized by an int=
+ernational clientele. We have also published our work=C2=A0at NIPS, have go=
+t IEEE Spectrum to cover our=C2=A0program-analysis work, had our work on pr=
+ogramming assessments accepted at=C2=A0KDD 2014=C2=A0and are going to be or=
+ganizing a workshop=C2=A0at KDD=C2=A0this year. We're also collaborating wi=
+th groups from MIT, UIUC,=C2=A0Microsoft=C2=A0Research, Redmond and U.Water=
+loo.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+

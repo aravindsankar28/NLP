@@ -1,0 +1,54 @@
+Dear All,
+
+Sincere apologies for multiple copies received.
+
+I am presenting my second PhD seminar on 21-Feb-2013 (Thursday) by 3.00
+P.M. Kindly make it convenient to attend the seminar and give your valuable
+suggestions.
+
+The details of the talk are as follows:
+Speaker: Mahendran. V
+Date: 21st February, 2013. Thursday.
+Time: 15:00 hrs to 16:00 hrs.
+Topic: Routing Performance Modeling of DTNs Under Realistic Settings Using
+Queueing Petri Nets
+Venue: BSB 361, Dept. of CSE.
+
+Abstract:
+
+With the advancements in wireless technologies such as Wi-Fi Direct and
+Near Field Communication, the infrastructure-less Peer-to-Peer content
+sharing among mobile devices is becoming more popular. The potential
+applications include Android Beam (a popular close proximity file
+transferring protocol) and Bytewalla (a data connectivity project with the
+idea of data mule, wherein the data is stored on a mobile node, that in
+turn forwards to the destination via Internet on reaching an area with the
+Internet connectivity). While such environments that are characterized by
+disrupted and intermittent connections would impede the functioning of
+conventional Mobile Ad-hoc NETwork (MANET) protocols, the Delay-Tolerant
+Networks (DTNs) with their opportunistic message forwarding strategy could
+be leveraged to provide seamless connectivity. The DTN routing protocols
+circumvent intermittent connectivity using the store, carry, and forward
+mechanism, wherein the nodes store messages locally and forward them upon
+physically meeting the destination nodes (single-hop delivery), or any
+other potential relay nodes that would reach the destination node in the
+later time (i.e., multi-hop delivery). Considering the limited resources at
+the mobile nodes, it becomes critical to study the routing performance of
+DTNs as a function of physical parameters of the network and the nodes
+involved. To the best of our knowledge, the performance modeling study of
+the literature seldom considers the interplay of realistic factors such as
+bundle fragmentation, buffer scheduling, and buffer spacing. In this work,
+we look at Queueing Petri Nets (QPNs) as a modeling framework to study the
+performance of the DTN routing under such realistic settings. To this end,
+we propose QPN models of increasing complexity in an incremental fashion,
+starting from a single-hop routing scheme to the multi-hop
+replication-based routing protocols (namely (p,q)-epidemic routing). In the
+process we also showcase, the analytical prowess of the QPN model, by
+deriving the underlying reachability graph and constructing an equivalent
+stochastic jump process. We validate our models with extensive simulation
+results.
+
+ ALL ARE WELCOME
+
+Thanks and regards,
+Mahendran. V

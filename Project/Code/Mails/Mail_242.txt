@@ -1,0 +1,57 @@
+---------- Forwarded message ----------
+From: Janakiram D <djram@iitm.ac.in>
+Date: Wed, Oct 8, 2014 at 7:55 PM
+Subject: FW: Seminar Talk by Dr. Aruna Balasubramanian, University of
+Washington, Seattle
+To: "scholars@cse.iitm.ac.in" <scholars@cse.iitm.ac.in>
+
+
+
+
+
+Seminar Announcement
+
+Talk Title : Demystifying Web Page Loads
+
+Speaker : Dr. Aruna Balasubramanian, University of Washington, Seattle
+
+Date : 10th October
+
+Venue : BSB 365
+
+Time : 3-4 pm
+
+Demystifying Web Page Loads
+ ----------------------------------------
+
+In this talk, I will describe WProf, a system that demystifies the page
+load process. There are a lot of techniques and "best practices" proposed
+to make web pages load faster, but they don't always work because they do
+not target the page load bottleneck. Proposals such as SPDY, which is the
+soon-to-be standard for HTTP, cannot be evaluated thoroughly because Web
+page loads are poorly understood, involving several inter-dependent
+activities and complex dependency policies. In this work, we extract the
+dependency policies imposed by four major browsers by systematically
+instrumenting test pages and by analyzing browser code. Using the extracted
+dependency policies, we build WProf, a system that can  identify the
+bottleneck of any Web page at scale. We use WProf to study SPDY, the new
+HTTP 2.0 protocol.
+
+In the last part of the talk, I will describe some of my other work in
+mobile systems and power efficiency. Specifically, I will be briefly
+describe MobileHub, a system that automatically rewrites mobile
+applications to be more power efficient, with zero developer effort.
+
+Bio
+----
+
+Aruna Balasubramanian is a Soon-to-be Faculty at Stony Brook University and
+currently a Postdoctoral fellow at the University of Washington. She
+received her Ph.D from the University of Massachusetts Amherst, where her
+dissertation won the UMass outstanding dissertation award and was the
+Sigcomm dissertation award runner up. She works in the area of networked
+systems, and her work incorporates elements of both networking and systems
+in the context of mobile computing. As part of service to the community,
+she has served on the Program committee of Mobicom, MobiSys, NSDI, IMC, and
+several workshops. She is the recipient of the Computing Innovation
+Fellowship and the Microsoft Graduate Research Fellowship.

@@ -1,0 +1,72 @@
+
+
+Hi All,=20
+
+I am giving my M.S. Seminar talk on 16th June . The details of the talk are=
+ given below.=20
+
+All are cordially invited.=20
+
+Thanks,=20
+Achint (CS11S007)=20
+
+Title: Graph Based Methods for Pose Estimation and Multi-pedestrian trackin=
+g=20
+
+Date: 16th June , 2014=20
+
+Time: 03:30 pm - 04:30 pm=20
+
+Venue: BSB 361=20
+
+
+
+
+
+
+
+Abstract: We address two problems: upper body human pose estimation in stil=
+l images and multi-pedestrian tracking in outdoor videos. The key idea in b=
+oth approaches is a method based on graph that aims to estimate the optimal=
+ configuration from different components of its structure. These components=
+ are: body parts in case of upper body pose estimation problem, and differe=
+nt pedestrian bounding boxes in case of multi-pedestrian tracking problem.=
+=20
+
+
+
+In the pose estimation problem, the goal is to detect and estimate 2D human=
+ pose in static images for six parts: head, torso, and left-right upper and=
+ lower arms. We formulate this as a graphical model inference problem consi=
+dering body parts as vertices in the graph and we use the loopy belief prop=
+agation algorithm for inference. When a human appears in fronto-parallel pl=
+ane, fixed size part detectors are sufficient and give reliable detection. =
+But when parts like lower and upper arms move out of image plane, we observ=
+e foreshortening and the part detectors become erroneous. We propose an app=
+roach that compensates foreshortening in upper and lower arms, and effectiv=
+ely prunes the search state space of each part. Additionally, we introduce =
+two extra pairwise constraints to exploit the color similarity information =
+between parts during inference to get better localization of upper and lowe=
+r arms. We present experiments and results on two challenging datasets show=
+ing improvements on lower arms accuracy and comparable results for other pa=
+rts.=20
+
+
+
+
+In the multi-pedestrian tracking problem, the goal is to track multiple ped=
+estrians simultaneously as they move in the video. We propose an online alg=
+orithm for the same that exploits pedestrian velocities and performs tracki=
+ng after dividing them into separate groups. We represent each group as a g=
+raph, and compute the optimal tracking configuration for each group in ever=
+y frame. Our algorithm is robust and it handles inter pedestrian occlusions=
+ in crowded scenes. We also propose a method that performs automatic detect=
+ion of new pedestrians parallel to tracking. We present experiments and res=
+ults on two challenging datasets showing improvements in results over other=
+ state of the art methods.=20
+
+
+Keywords: Human Detection, Pose Estimation, Pictorial Structures, Probabili=
+stic Graphical Models, Object Detection, Support Vector Machines, Histogram=
+ of Oriented Gradients, Minimum Spanning Trees, Online Tracking, Occlusion =
+Handling

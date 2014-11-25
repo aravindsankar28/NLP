@@ -1,0 +1,44 @@
+Dear All, 
+
+
+A gentle reminder. 
+
+
+Regards 
+Ravi. 
+
+
+
+
+
+
+Dear All, 
+
+
+Dr. Aditya Nori from Microsoft Research India will be giving a talk on Probabilistic Programming on Wednesday, September 11th, in BSB 361 at 4 p.m.. Details below. All are welcome. 
+
+
+Regards 
+Ravi. 
+
+
+
+
+----------------------------------------------------------------------------------- 
+
+Title: Probabilistic Programming: A Program Analysis Perspective 
+
+Abstract: 
+
+Probabilistic models, particularly those with causal dependencies, can be succinctly written as probabilistic programs. Recent years have seen a proliferation of languages for writing such probabilistic programs, as well as tools and techniques for performing inference over these programs In this talk, we show that static and dynamic program analysis techniques can be used to infer quantities of interest to the machine learning community, thereby providing a new and interesting domain of application for program analysis. In particular, we show that static analysis techniques inspired by dataflow analysis and iterative refinement techniques can be used for Bayesian inference. We also show that dynamic analysis techniques inspired by directed testing and symbolic execution can be used for sampling probabilistic programs. 
+
+
+
+
+Bio: Dr. Aditya Nori is a senior researcher at Microsoft Research. He is a member of the Machine Learning and O ptimization group at Microsoft Research India . He is also an adjunct professor at IIT Hyderabad . His research interests include algorithms for the analysis of programs and machine learning with special focus on tools for improving software reliability and programmer productivity. He obtained my PhD from the Indian Institute of Science, Bangalore under Prof. Priti Shankar . 
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+Dear All,=20
+
+I will be giving my MS seminar talk on 30th July, 2013 (Tuesday) at 3:30 PM=
+. I request you to kindly attend the seminar and give your valuable suggest=
+ions. The details of the talk are as follows:=20
+
+Speaker : Deepak V (CS10S024)
+Date    : 30-07-2013, Tuesday=20
+Time    : 3:30 PM to 4:30 PM=20
+Topic   : Approximate Inference in Undirected Graphical Models using Higher=
+-order LP Relaxations=20
+Venue   : BSB 361, Department of Computer Science & Engg.=20
+Guide   : Dr. B. Ravindran
+
+Abstract:=20
+A number of problems in computer vision, natural language processing, compu=
+tational biology and machine learning can be naturally cast as discrete lab=
+eling problems. Undirected graphical models provide us a principled and eff=
+icient way to model these problems by taking advantage of the sparsity of i=
+nteraction among the variables. The task of finding the most probable assig=
+nment corresponding to the joint distribution is called Maximum-a-Posterior=
+i (MAP) inference. Except in few special cases, when the undirected graphic=
+al model is tree-structured or has low tree-width, exact inference is intra=
+ctable. Finding the MAP assignment remains hard even if the local functions=
+ depend only on two variables. This has prompted extensive research into ap=
+proximation algorithms, some of which often work well in practice. One of t=
+he most popular families of approximation methods is Linear Programming (LP=
+) relaxation. Although these LPs are generally tractable, general purpose L=
+P solvers typically do not exploit the problem structure. Therefore a great=
+ deal of effort has gone into designing solvers that are
+specifically tailored to typical LP relaxations for MAP inference problems.=
+ One class of particularly simple algorithms, which we will focus on here, =
+are co-ordinate minimization based approaches.
+
+Unfortunately, the standard co-ordinate minimization based algorithms are r=
+arely tight for real world applications, i.e., they have a large integralit=
+y gap. We propose an approach to iteratively tighten the relaxation by addi=
+ng marginal constraints corresponding to larger cliques, which allows us to=
+ add arbitrary length clusters unlike the existing approaches which restric=
+ts the nature of clusters to be added. An additional advantage of our appro=
+ach is that, it can also be used to perform MAP inference with higher-order=
+ potentials. Unlike traditional message passing algorithms which operate un=
+iformly on the whole graph, our method dynamically chooses regions to focus=
+ message-passing efforts. We have also empirically established the fact tha=
+t marginal constraints arising from the sub-cliques are sufficient to obtai=
+n a tighter approximation even for problems with higher-order potentials. W=
+e also propose a strategy for damping message passing updates, which would =
+improve the rate of convergence of the standard co-ordinate minimization ba=
+sed algorithms.
+
+
+                                                                    All are=
+ welcome
+
+Deepak. V=20
+M.S. (Research)=20
+Reconfigurable Intelligent Systems & Engineering Lab=20
+Department of Computer Science & Engineering=20
+IIT Madras=20
+
+

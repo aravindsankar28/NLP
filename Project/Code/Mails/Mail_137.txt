@@ -1,0 +1,74 @@
+Again resending.. 
+
+
+
+
+
+From: swamy@cse.iitm.ac.in 
+To: all@cse.iitm.ac.in 
+Cc: "csoffice" <csoffice@cse.iitm.ac.in> 
+Sent: Monday, February 25, 2013 3:27:04 PM 
+Subject: Department Seminar 
+
+
+Dear All, 
+Please find below the seminar announcement. The speaker is a PhD student at CMU working with Avrim Blum and 
+Anupam Gupta. 
+Regards 
+narayanaswamy 
+--------------------- 
+Speaker : Anupam Sharma, CMI 
+
+
+Venue: BSB 361, 10AM-11AM, Friday, March 1st 2014 
+
+Title: Welfare and Profit maximization with Procurement costs 
+
+Abstract: 
+
+What is the problem? 
+A limited resource needs to be allocated amongst a set of self-interested 
+agents. Combinatorial Auctions, that capture this situation, are a central 
+problem in Algorithmic Mechanism Design: how to price and allocate goods 
+to buyers with complex preferences in order to maximize an objective such 
+as social welfare or revenue. 
+
+Hmm.. I see. So, what is your contribution? 
+The problem has been well-studied in the case of limited supply (few 
+copies of each item), and unlimited supply. While in the case of limited 
+supply, there are strong lower bounds known, the case of unlimited supply 
+may be too optimistic for many settings. 
+
+In this talk, we look at how by relaxing the "strength" of the limitation 
+of available copies of an item, we can beat the lower bounds for the 
+limited supply and get a smooth transition to the case of unlimited 
+supply. While if the limitation is "soft", we achieve a constant factor 
+approximation, in case of "hard" limitation, we achieve a logarithmic 
+approximation. 
+
+Highlight of the results. 
+In a work with Avrim Blum, Anupam Gupta and Yishay Mansour, we initiate 
+the study of resource allocation in a more realistic modeling of 
+limitation where each resource has an increasing procurement cost. In this 
+talk, we describe a simple pricing scheme that achieves a constant factor 
+approximation to the optimal social welfare for polynomial and logarithmic 
+procurement cost curves. Furthermore, for arbitrary procurement cost 
+curves, we describe a pricing scheme that achieves a logarithmic 
+approximation to optimal welfare. 
+
+We consider arbitrary combinatorial valuation of the buyers and consider 
+the two objective functions of social welfare and revenue. 
+
+
+The results are part of a work that appeared at Foundations of Computer 
+Science (FOCS), 2011. Joint work with Avrim Blum, Anupam Gupta and Yishay 
+Mansour. 
+
+
+Bio: Ankit Sharma is a graduate student at Carnegie Mellon University. He 
+is advised by Avrim Blum and Anupam Gupta. His current research focuses on 
+algorithms and algorithmic game theory. 
+
+----------------------------------- 
+
+

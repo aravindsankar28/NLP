@@ -1,0 +1,49 @@
+Dear All=20
+
+Prof. Susmita Sur-Kolay (ISI Kolkata) is giving a talk on "Synthesis Method=
+s for Quantum Computers".=20
+
+Date and Time: 7/5/2014 @ 11am=20
+Venue: BSB 361=20
+
+The abstract and the speaker's bio can be seen below. Tea will be served be=
+fore the talk.=20
+
+Regards=20
+Shankar=20
+
+Abstract:=20
+
+Many decades after quantum mechanics was accepted as a more accurate model =
+of the physical world, Richard Feynman proposed the brilliant vision of bui=
+lding computers based on quantum mechanical systems in 1981. The two major =
+drivers for the development in this =EF=AC=81eld are the need to overcome t=
+he limitations both in the theory of computing with classical deterministic=
+ digital computing models and in the technology of building them. With a br=
+ief introduction to the motivation for quantum computing, we will discuss t=
+he basic model and the operations. Notwithstanding the limitations in physi=
+cal realizations, there has been progress in the technology of quantum comp=
+uters during the last quarter of a century. The main focus of this talk is =
+on reliable synthesis methods for quantum computers starting with a set of =
+fundamental quantum gates realizable in the existing technologies.=20
+
+Brief Bio:=20
+
+Susmita Sur-Kolay is presently a Professor in the Advanced Computing and Mi=
+croelectronics Unit of the Indian Statistical Institute, Kolkata, India. He=
+r research contributions are in the areas of algorithms for design automati=
+on, Intellectual Property protection of electronic design, synthesis of qua=
+ntum computers, graph algorithms. She has authored several technical papers=
+ in international journals and refereed conference proceedings and a chapte=
+r in the Handbook on Algorithms for VLSI Physical Design Automation. She ha=
+s served on the program committees of many international conferences and wa=
+s the Technical Program Co-Chair for three of them. She is an Associate Edi=
+tor of ACM Transactions on Embedded Computing Systems and was on the editor=
+ial board of Proc. of IEE CDT and IEEE Transactions on VLSI Systems. She wa=
+s a Distinguished Visitor of IEEE Computer Society(India), is a Senior Memb=
+er of IEEE, and Member of ACM. Two papers co-authored by her won best paper=
+ awards at two international conferences. Among other awards, she was the r=
+ecipient of the President of India Gold Medal at IIT Kharagpur and IBM Facu=
+lty Award.=20
+
+

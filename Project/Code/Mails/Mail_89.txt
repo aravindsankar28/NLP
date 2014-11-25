@@ -1,0 +1,30 @@
+Hello,
+
+I was wondering whether we could have a system similar to that of IIT
+Bombay, where the webpage at www.cse.iitm.ac.in/~studentname is moved to
+www.cse.iitm.ac.in/alumni/~studentname on graduation.
+
+I only want to get the point across that, we, as students, have a certain
+amount of pride and feeling of belonging associated with the department and
+our alma mater. And to me, personally, getting the webspace purged sounds
+like severing last ties with my own department.
+
+If we look at it from a logistics point of view, I don't think we would be
+requiring any significant space anyway as most of our webpages are lean,
+just static html with a couple of pictures, negligible when we talk about
+storage in terms of GBs.
+
+I would like to suggest one solution: our home folders, as it is currently
+being done, get purged (that way, bulk of the storage space occupied will
+be recovered), but the public_html folder, in which we have our webpages,
+gets archived.
+
+It would be nice to get to know the administrators' viewpoints and concerns
+regarding this issue. I have marked a copy of this mail to students of the
+department as well, in case anyone has some more points, suggestions to add.
+
+Thanks and regards,
+Sujeet Gholap
+Final Year B.Tech, CSE
+IIT Madras
+http://www.cse.iitm.ac.in/~sujeet

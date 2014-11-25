@@ -1,0 +1,25 @@
+Just a remainder.=20
+
+> Dear All,
+>=20
+> PFB the details of a talk by Prof. Vijaykrishnan Narayanan, Penn =
+State.
+>=20
+> Title: Tearing down the power wall: Coordinated =
+technology-architecture advances
+>=20
+> Venue: BSB 361
+> Date: 22/8/2013
+> Time: 3:30PM
+>=20
+> Abstract: This talk will highlight power-efficiency innovations driven =
+by steep slope transistors and domain-specific customization. First, =
+heterogeneous architectures that combine CMOS technology with Tunnel FET =
+technology will be discussed. Second, domain specific accelerators for =
+video analytic applications will be presented.
+>=20
+> Speaker Bio: Please visit www.cse.psu.edu/~vijay
+>=20
+> regards,
+> madhu mutyam
+

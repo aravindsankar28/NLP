@@ -1,0 +1,3 @@
+F1: A distributed database that scales: DAA Seminar on April 17th
+ (Thursday) [Sridhar Ramaswamy]
+Balaraman Ravindran <ravindran.b@gmail.com>

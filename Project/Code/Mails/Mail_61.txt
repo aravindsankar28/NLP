@@ -1,0 +1,60 @@
+Hello all, 
+Since the talk is of interest to a large number of students, the venue is shifted to CS25. 
+
+Thanks, 
+Sriram 
+
+
+From: ravi@cse.iitm.ac.in 
+To: "Seminar" <seminar@cse.iitm.ac.in> 
+Sent: Sunday, August 4, 2013 11:09:49 AM 
+Subject: Department seminar on 8th August on Cloud Computing. 
+
+
+Dear All, 
+
+
+Prof. Sanjay G. Rao from Purdue will be giving a talk on Cloud Computing at 2 p.m. on Thursday the 8th, in BSB 361. Details below. All are welcome. 
+
+
+Regards 
+Ravi. 
+
+
+
+
+Title:
+  Cloud Computing: Opportunities and Challenges 
+
+
+In this talk, I will begin by presenting an overview of cloud computing, 
+and the opportunities it provides to create geo-distributed, and 
+highly scalable applications with attractive cost-saving advantages. 
+I will then discuss some of the challenges that inhibit its wider
+adoption such as performance variability due to multi-tenancy,
+data privacy, and availability. 
+I will then present research in Purdue's Internet Systems
+Laboratory, which seeks to target these challenges. Specifically,
+these include (i) Dealer, a middleware for multi-tier web applications
+that can help them adapt to cloud performance variability;
+(ii) D-Tunes, a system for automatically configuring replication 
+policies in geo-distributed cloud data storage systems (e.g., Google's
+Spanner, Cassandra, Amazon's Dynamo) taking into account latency, availability 
+and consistency requirements of web applications; and  (iii) algorithms for
+partitioning applications in hybrid cloud models, where parts of the application
+are in-house, and parts in the cloud. 
+Bio: Sanjay G. Rao is an Associate Professor in the School of Electrical and Computer Engineering 
+at Purdue University, where he leads the Internet Systems Laboratory. His current research is 
+in Networking and Cloud Computing, and his past work has spanned several areas including enterprise 
+network management, Internet video distribution, and peer-to-peer systems. He received a B.Tech in 
+Computer Science and Engineering from the Indian Institute of Technology, Madras, and the Ph.D from 
+the School of Computer Science, Carnegie Mellon University. He has been a Visiting Research Scientist 
+in Google and AT&T Research. He is a recipient of the NSF Career award, and won the ACM SIGMETRICS Test 
+of Time Award for his work on End System Multicast (peer-to-peer video streaming). 
+He has served on the Technical Program Committees of several workshops and conferences including 
+ACM Sigcomm, Usenix NSDI, IEEE Infocom and ACM CoNext, and was the technical program co-chair of 
+the INM/WREN workshop held in conduction with NSDI 2010.
+
+For more details, please see:
+http://www.ece.purdue.edu/~sanjay
+http://www.ece.purdue.edu/~isl 

@@ -1,0 +1,47 @@
+A gentle reminder!!
+
+Dear all,
+
+I am presenting my  MS seminar talk on Tuesday, 15th April, 2014 at 2:30
+PM. Kindly make it convenient to attend the seminar and give your valuable
+suggestions.
+
+The details of the talk are as follows.
+
+Title                 :    Relevance of Front-end Processing for Speaker
+Recognition
+Speaker            :    Asha T (CS11S026)
+Date                 :    15th April, 2014
+Time                :     2.30 PM
+Venue              :     CS25, Seminar Hall, Department of Computer Science
+
+Abstract of the talk:
+--------------------
+
+Speaker Verification (SV) is well-known pattern recognition task. Any
+pattern recognition task involves feature extraction and building models,
+which are further used in  classification.  In the recent literature of SV,
+ modeling has received  focus by majority of the research community.
+GMM-UBM framework is the conventional modeling framework used for SV while
+i-vector or Total Variability Space (TVS) framework is the recent
+state-of-the-art modeling framework. With the aim of establishing the
+importance of feature extraction/front-end in comparison to modeling, an
+optimisation experimental study at front-end level is taken up.   The
+scalability of the optimised front-end  for different databases and current
+state-of-the-art modeling framework is verified. This study led to
+observations which question the relevance of NIST Speaker Recognition
+Evaluations.
+
+Feature Switching is a paradigm, where characteristic features of a class
+are used in building its models.  This paradigm is already explored for
+conventional GMM-UBM framework . As part of this work, it was extended to
+i-vector framework. Also, singer identification is attempted for carnatic
+music recordings by applying variety of features that are generally used
+for speaker verification. Performance trends with different types of
+features obtained are presented.
+
+ALL ARE WELCOME
+
+Thanks and Regards
+Asha T
+MS Scholar

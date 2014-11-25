@@ -1,0 +1,63 @@
+Dear All, 
+ 
+A gentle reminder: we have Dr. Sriram's talk at 4 PM today at BSB 361.
+
+Best Regards,
+Sutanu.
+
+
+
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> Abstract :
+> 
+> System health management deals with supporting the operation of a
+> system in the presence of faults in one or more components (hardware
+> and software) of the system being monitored. Tasks involved include
+> diagnosis (fault detection, isolation and identification), prognosis
+> (fault impact analysis, end of life prediction), decision making
+> (fault mitigation and recovery). The end goal is to maximize the
+> achievement of original system objectives while maintaining the
+> requirements of safety and cost. Model-based diagnosis techniques use
+> structural, behavioral and/or functional models of the system to
+> detect and isolate faults. Given the wide variety of faults
+> (component/sensor, discrete/continuous, persistent/intermittent etc.)
+> that occur in real systems and the presence of uncertainties (sensor
+> noise, unknown environment etc.) no single technique can handle all
+> situations effectively and efficiently. In this talk I will present 2
+> model-based diagnosis techniques (FACT and HyDE) that deal with
+> entirely different situations. FACT uses a formal modeling framework
+> and diagnoses single parametric faults (abrupt change in parameter
+> value) while HyDE uses a more general modeling framework to diagnosis
+> multiple discrete faults (abrupt change in state of component). These
+> 2 approaches are just a couple of drops in the large ocean of
+> techniques proposed by researchers in the model-based and other
+> (data-driven for example) communities. I will also present work I was
+> involved in that attempted to develop a standard set of metrics to
+> evaluate and compare various diagnosis methodologies. This work also
+> resulted in the development of a framework to execute diagnostic
+> applications on a common platform which led to a series of
+> international diagnostic competitions. Finally I will present some
+> applications at NASA that are using/have used model-based reasoning
+> applications.
+> 
+> Bio :
+> 
+> Sriram Narasimhan is a Project Scientist with University of
+> California, Santa Cruz working as a contractor at NASA Ames Research
+> Center in the Discovery and Systems Health area. His research
+> interests are in model-based reasoning with a focus on diagnosis,
+> prognosis and decision making on hybrid and stochastic systems. He is
+> the technical lead for the Hybrid Diagnosis Engine (HyDE) project. He
+> has been involved in the development of model-based reasoning
+> applications for several NASA systems including the Total Organic
+> Carbon Analyzer on board International Space Station, K11 Rover,
+> Cryogenic fuel loading system among others. He received his M.S and
+> Ph.D. in Electrical Engineering and Computer Science from Vanderbilt
+> University. He also has a M.S in Economics and B.E in Computer Science
+> from Birla Institute of Technology and Science.

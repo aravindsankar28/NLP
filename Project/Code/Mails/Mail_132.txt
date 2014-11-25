@@ -1,0 +1,30 @@
+Hi All,
+
+Please find below the schedule of talks being conducted in Computer Science
+Department as part of Exebit 2013. The below talks are presented by some of
+the eminent personalities. Attend the talks and grab the opportunity to get
+most of it.
+
+Schedule :
+Fri
+6pm - 7pm : Groupon Tech talk
+
+Sat
+9am - 10am : Trustzone ARM processor
+10am - 11am : Going beyond GigaBytes wifi
+11am - 12pm : Lightstor
+12pm-1pm : Open innovation in emerging eco-systems for smart devices.
+4pm-5pm : (IBM) Building watson : A brief overview of Deep QA
+5pm-6pm : GE analytics & computing for the industrial internet
+
+Sun
+9am-10am : Bluespec
+11am-12pm : Network on chip
+12pm - 1pm : Payments innovation (E-Bay)
+2pm - 3pm : Multi-Technology telecom - Network management
+3:30pm- 6pm : Proxy Re-encryption
+
+Details about the speaker and abstracts are available in exebit website.
+
+Thanks and Regards,
+Sai Nageswar Satchidanand

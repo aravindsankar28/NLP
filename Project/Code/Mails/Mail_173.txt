@@ -1,0 +1,63 @@
+Dear all,=20
+
+I am presenting my Ph.D seminar talk on Thursday, 10th July, 2014 at 4:00 P=
+M. Kindly make it convenient to attend the seminar and give your valuable s=
+uggestions.=20
+
+The details of the talk are as follows:=20
+
+Ph.D. Seminar=20
+
+
+Name of Scholar :B.S. Shajee Mohan (CS09D022)=20
+Title : Distance Metric Learning based Class-Specific Kernels for Multi-Cla=
+ss Pattern Classification=20
+Date : Thursday, 10th July, 2014=20
+Time : 16:00 hrs to 17:00 hrs=20
+Venue : BSB 361, Seminar Hall, Department of Computer Science and Engineeri=
+ng=20
+
+
+Abstract=20
+
+The squared Euclidean distance between the feature vectors of two patterns =
+is used in the K-nearest neighbours (KNN) based multi-class pattern classif=
+ication. This distance is also used in the hyper-spherical Gaussian kernel =
+based support vector machines (SVMs) for multi-class pattern classification=
+. Approaches to distance metric learning (DML) have been based on learning =
+a parametric matrix W of the squared Mahalanobis distance from a set of lab=
+elled training examples of multiple classes. The squared Mahalanobis distan=
+ce in the input feature space corresponds to the squared Euclidean distance=
+ in a linearly transformed feature space with the transformation matrix G b=
+eing related to W by W =3D GTG. A hyper-ellipsoidal Gaussian kernel is cons=
+tructed by replacing the squared Euclidean distance in a hyper-spherical Ga=
+ussian kernel with the learned squared Mahalanobis distance. It has been de=
+monstrated that the learnt distance based KNN classifiers and the hyper-ell=
+ipsoidal Gaussian kernel based SVMs perform better than the squared Euclide=
+an distance based methods. The problem of DML for the distance metric used =
+in kernels can also be formulated as a kernel gram matrix learning problem.=
+ Then, a new kernel gram matrix is learnt from the kernel gram matrix of a =
+base kernel such as Gaussian kernel. Learning an optimal kernel gram matrix=
+ involves solving an optimization problem that uses a suitable measure of n=
+earness between the kernel gram matrix of a base kernel and the desired opt=
+imal kernel gram matrix. The logdet divergence between two matrices, a meas=
+ure of Bregman divergence, is considered as a measure of nearness in kernel=
+ gram matrix learning. The kernel gram matrix learnt from the training exam=
+ples of multiple classes is used to build the SVMs for multi-class pattern =
+classification. We propose an approach in which a class-specific kernel gra=
+m matrix is learnt for each class separately and the learnt class-specific =
+kernel gram matrices are used to build the class-specific SVMs. Results of =
+experimental studies demonstrate the effectiveness of the proposed method i=
+n improving the performance for multi-class pattern classification.=20
+
+ALL ARE WELCOME=20
+
+Thanks and Regards,=20
+
+B.S. Shajee Mohan=20
+
+Speech and Vision Lab=20
+
+Dept. of Computer Science and Engg., IIT Madras.=20
+
+______________________=20

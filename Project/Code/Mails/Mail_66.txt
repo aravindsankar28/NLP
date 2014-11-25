@@ -1,0 +1,38 @@
+Hi all, 
+I am happy to share our experience and findings in 'refresh aspect for DRAM based main memory' as part of my PhD seminar. Required basics will be presented to the ease the assimilation of the concepts. Please make it convenient to attend and drop-in yours views and insights. 
+
+Below are the details of the talk and the abstract for your consideration - 
+
+
+
+Title: EFGR: An Enhanced Fine Granularity Refresh Feature for High-Performance DDR4 DRAM Devices 
+
+Date: 5th Sept 2014 
+
+
+Time: 2.30PM - 3.30PM 
+
+Venue: BSB 361 
+
+
+
+
+Abstract - 
+A Dynamic Random Access Memory (DRAM) cell holds data as charge in a capacitor and this capacitor has the tendency to leak the charge gradually over time. To maintain 
+data integrity, DRAM devices periodically refresh the storage cells. The need for refresh operations is further aggravated by technology scaling and process variation, along 
+with dynamic cell behaviours such as, variable retention and data pattern dependency. Recently proposed JEDEC DDR4 standard provides Fine Granularity Refresh (FGR) 
+feature to tackle refresh by providing a range of options for refresh intervals and refresh cycles times. 
+
+Motivated by the observation that during an FGR mode, only few banks are involved in the refresh operation, we aim to overlap an ongoing refresh operation by accessing the 
+idle (non-refreshing) banks within a rank to service the memory requests. We propose an Enhanced FGR (EFGR) feature that introduces three optimizations to the basic FGR 
+feature and exposes the bank-level parallelism within the rank even during the refresh. As the first optimization we bring-in minor modifications to the peripheral circuitry of 
+the DRAM device so as to decouple the non-refreshing banks from the ongoing refresh operation. Second and third optimizations determine the maximum number of non- 
+refreshing banks that can be active during refresh and selectively precharge the banks before refresh, respectively. Our simulation results show that EFGR feature is able 
+to recover almost 56.6% of performance loss incurred due to refresh operations. EFGR being simple to implement, and compatible with other refresh handling techniques makes 
+it an attractive candidate for future DDR standards. 
+
+thank you, 
+
+- regards 
+kalyan t v 
+CS09D017 

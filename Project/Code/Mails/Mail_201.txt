@@ -1,0 +1,28 @@
+Distinguished Alumnus Award Recipient Seminar
+Department of Computer Science
+
+Speaker: Sridhar Ramaswamy, Senior VP, Google Inc.
+
+Date: April 17, Thursday, Time: 2 p.m., Venue: CS 25
+
+Title: F1: A Distributed Database That Scales.
+
+Abstract: Conventional wisdom in computing is that high availability, scale
+and query processing aren't simultaneously possible for database
+applications. In this talk, I will talk about F1, a highly available,
+disaster resistant database that also supports declarative query processing
+at scale. This system supports one of the most critical databases at
+Google: the ones used for ads data. My talk is based on the paper that was
+presented in VLDB 2013.
+
+Bio: Sridhar Ramaswamy serves as Senior Vice President of Ads & Commerce at
+Google Inc. Since joining Google in 2003, Mr. Ramaswamy and his teams have
+taken a lead role in defining the vision and direction of AdWords. Prior to
+joining Google, he held several roles at E.piphany. He served as Director
+of Engineering for E.piphany's Analytic Platform. Previously, he held
+research positions at Bell Labs, Lucent Technologies and Bell
+Communications Research (Bellcore). He has published numerous papers on
+database systems and database theory. Mr. Ramaswamy earned a bachelor's
+degree in computer science from the Indian Institute of Technology Madras.
+He received his Ph.D. and master's degree in computer science from Brown
+University.

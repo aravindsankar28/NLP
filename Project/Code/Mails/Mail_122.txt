@@ -1,0 +1,52 @@
+Dear All,=20
+
+I am presenting my Ph D seminar on 2-Sep-2014 ( Tuesday ) by 3.00 P.M. Kind=
+ly make it convenient to attend the seminar and give your valuable suggesti=
+ons. The details of the talk are as follows:=20
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=09=09=09   Ph.D. Seminar 1
+=09=09    Name: C. S. Ganesh (CS12D008)=20
+Guide: Prof. Krishna Sivalingam=20
+Location: BSB 361 (Seminar Hall)
+=09=09     Time/Date: Sep. 2, 2014, 3pm
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+TITLE:=20
+Load Dependent Network Function Placement based=C2=A0
+Passive Optical Network Architectures=20
+
+ABSTRACT:=20
+
+Existing passive optical network (PON) architectures consist of an
+optical line terminal (OLT) at the provider side connecting multiple
+optical network units (ONUs) at the subscriber side. These ONUs are
+connected to end-user equipment at the customer premises. Even though,
+optical access networks are more power efficient when compared to
+other access network technologies such as DSL, the network still
+consumes significant amount of power at off-peak network loads. To
+address this gap, new power-efficient architectures have been
+developed as part of this work. A formal language notation to
+represent PON architecture was developed; Mealy's machine from finite
+automata was used to solve the problem.  Additional constraints such
+as power budget constraints were mapped on to state transitions of the
+machine. Novel PON architectures that are power-efficient even during
+off-peak network loads were derived using this machine.  These
+architectures were numerically evaluated for different network
+loads. Packet delay and throughput were measured for a subset of these
+architectures using discrete event simulation models.  Two of the
+proposed architectures are shown to help achieve at least 35% power
+savings over existing systems. There is no significant deviation
+observed in terms of network performance during off-peak
+network loads.
+
+regs=20
+Ganesh=20
+

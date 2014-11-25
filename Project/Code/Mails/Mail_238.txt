@@ -1,0 +1,196 @@
+
+
+
+---------- Forwarded message ---------- 
+From: ranjan piyush 
+Date: Thu, Dec 5, 2013 at 11:38 AM 
+Subject: Fwd: [apmresearchers] REMINDER: TODAY: Talk in Applied Mechanics, " Low Correlation sequences for Information Hiding ", 3:00pm 
+To: "William Moses, Jr." 
+
+
+
+
+
+
+---------- Forwarded message ---------- 
+From: Rinku Mukherjee < rinku@iitm.ac.in > 
+Date: Thu, Dec 5, 2013 at 9:24 AM 
+Subject: [apmresearchers] REMINDER: TODAY: Talk in Applied Mechanics, " Low Correlation sequences for Information Hiding ", 3:00pm 
+To: " apmresearchers@googlegroups.com " < apmresearchers@googlegroups.com >, " announce@list.iitm.ac.in " < announce@list.iitm.ac.in > 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dear Sir, 
+please post the following seminar REMINDER notice on announce. 
+thanks, 
+kind regards, 
+r 
+_________________________________________________________________________________ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Title: 
+
+
+
+
+
+
+
+Low Correlation sequences for Information Hiding 
+
+
+
+
+
+Speaker: Prof. Udaya Parampalli, University of Melbourne, Australia 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Venue: Newton Hall 
+Date and Time: Dec 05, 2013 Thursday 3:00PM 
+
+
+Abstract: 
+
+Pseudorandom sequences with low correlation properties are used in creating secure, reliable and efficient communication and network systems. In recent years they have been used in information hiding and watermarking applications. Data hiding technologies are increasingly being used to protect copyright and avoid illegal copies of digital content. Such techniques are relevant to a highly digitized society requiring the distribution of movies, medical images and music through the Internet. In this talk the speaker will be discussing on how sequences with different correlation properties are used in data hiding. 
+
+
+
+
+Further, the speaker will highlight on the scholarship opportunities available for IIT Madras students to pursue Ph.D. at University of Melbourne, Australia. 
+
+
+Speaker Bio: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dr. Udaya Parampalli obtained his doctoral degree in Electrical Engineering from Indian Institute of Technology Kanpur, in 1993. From 1992 to July 1996, he worked in industry as a Member Research Staff at Central Research Laboratory, Bharat Electronics, Bangalore. From 1997 to 2000, he was an ARC research associate at the Department of Mathematics, RMIT University, Melbourne, Australia. Since February 2000, he has been working at the Department of Computer Science and Software Engineering at the University Melbourne which in 2012 was merged with the Department of Computing and Information Systems effective from January 2014, he is an Associate Professor and Reader in the department. In the second half of 2008, he was a Visiting Professor in Department of Computer Science at University of Calgary, Canada. 
+
+
+
+
+Dr. Udaya has made significant contributions to the area of sequences and codes over finite rings. He was the first author to use finite rings to construct frequency hopping sequences. One of the biphase sequence families discovered by him is referred to in the literature as the family of Udaya - Siddiqi sequences. This is a unique family of 2^n binary sequences of period 2(2^n-1) with out-of- phase auto and cross correlations equal to the square root of the length, and is the largest known family with such a property. 
+Please Attend. 
+r 
+
+
+
+
+
+Rinku Mukherjee, PhD 
+Assistant Professor 
+Applied Mechanics, IIT Madras 
+Chennai-600036 
+
+FMB #206 
+
+Tel: +91-44-2257-4069(off) 
++91-44-2257-6069(res) 
+
+Email: rinku@iitm.ac.in 
+mrin75@yahoo.com 
+
+
+" In modern business it is not the crook who is to be feared most, it is the honest man who doesn't know what he is doing " : William Wordsworth 

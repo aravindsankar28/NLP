@@ -1,0 +1,89 @@
+Dear all,
+
+A quick reminder about Sayan's talk on Tuesday at 3PM.
+
+John.
+
+
+--
+John Augustine
+Assistant Professor
+Department of Computer Science and Engineering
+Indian Institute of Technology Madras
+www.cse.iitm.ac.in/~augustine
+
+----- Forwarded Message -----
+> From: "John Augustine" <augustine@cse.iitm.ac.in>
+> To: "faculty" <faculty@cse.iitm.ac.in>
+> Cc: "scholars" <scholars@cse.iitm.ac.in>, "1mtech" <1mtech@cse.iitm.ac.in>, "2mtech" <2mtech@cse.iitm.ac.in>, "5btech"
+> <5btech@cse.iitm.ac.in>, "4btech" <4btech@cse.iitm.ac.in>, "3btech" <3btech@cse.iitm.ac.in>, "2btech"
+> <2btech@cse.iitm.ac.in>, 1btech@cse.iitm.ac.in, "elango" <elango@cse.iitm.ac.in>
+> Sent: Thursday, October 24, 2013 8:45:47 AM
+> Subject: Talk Announcement: Sayan Bhattacharya on Nov 5 at 3PM in BSB 361
+> Dear all,
+> 
+> Dr. Sayan Bhattacharya, currently a postdoc at MPI, Saarbruecken,
+> Germany, will be visiting our department next week. He will be
+> presenting his work on Tuesday, Nov 5th, from 3 - 4PM in BSB 361.
+> Kindly mark your calendars and make yourself available. The title and
+> abstract are given below.
+> 
+> Regards,
+> John.
+> 
+> Price of Anarchy, Auctions, and Approximations.
+> Sayan Bhattacharya.
+> 
+> In many applications driven by the internet, computation needs to be
+> performed in the presence of strategic interactions between multiple
+> autonomous entities. This raises the question: What happens when the
+> input to an algorithm are controlled by rational agents, and each of
+> them has a stake in the algorithm's output? A systematic study of this
+> question led to the inception and growth of ``algorithmic game
+> theory''. In the talk I will focus on two important topics within this
+> field -- the study of auctions, and price of anarchy.
+> 
+> Motivated by the electronic markets such as eBay and Google adwords, I
+> will first visit the topic of Auction Theory from an algorithmic
+> perspective. In this setting, an auctioneer wants to sell some items
+> to a group of bidders. The bidders' valuations for the items are
+> private knowledge, but they are drawn from publicly known prior
+> distributions. An auction scheme is called ``truthful'' if it gives an
+> incentive to every bidder to report her true value. The goal is to
+> find a truthful auction that maximizes the seller's revenue.
+> 
+> Naturally, to execute the optimal auction we need to know the prior
+> distributions. An intriguing question is to design a truthful auction
+> that does not require the knowledge of these priors, but still manages
+> to get a constant fraction of the optimal revenue. Such auctions are
+> called {\em prior-free}. I will conclude the first part of the talk by
+> presenting my recent work on prior-free auctions with asymmetric
+> bidders.
+> 
+> Next, I will consider the game-theoretic variant of a classical
+> scheduling-problem. The setting captures a distributed environment
+> with heterogeneous machines (or data centers) and jobs (or clients)
+> that are situated across different geographical locations. The
+> objective is to minimize the weighted sum of the completion times of
+> the jobs. Each job, however, is a selfish agent and selects a machine
+> that minimizes its own completion time. This defines a game between
+> the jobs. A Nash equilibrium of this game is an outcome where no job
+> wants to switch to another machine. The ``price of anarchy'' is now
+> defined as the maximum possible ratio between the objective at a Nash
+> equilibrium and the objective at the globally-optimal outcome.
+> 
+> I will present a generic characterization of the scheduling policies
+> which give a small Price of Anarchy. On the technical side, I will
+> show how to derive this result using a linear program for the
+> underlying optimization problem and dual-fitting.
+> 
+> I will conclude the talk by presenting some interesting open
+> directions for future research.
+> 
+> 
+> --
+> John Augustine
+> Assistant Professor
+> Department of Computer Science and Engineering
+> Indian Institute of Technology Madras
+> www.cse.iitm.ac.in/~augustine

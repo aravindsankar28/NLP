@@ -1,0 +1,61 @@
+Dear Scholars 
+
+Greetings and Gentle reminder for the talk that is happening today. This will be last task as part of Research Scholar Forum for this semester. 
+
+Kindly make it convenient to attend and share your feedback to Anik. He would be making this presentation at ICON 2013 at Singapore shortly. 
+
+Kind regards 
+Mani 
+
+
+
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar (PhD), 
+High Performance Computing and Networking (HPCN) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 
+
+
+From: "Manikantan S" <mani@cse.iitm.ac.in> 
+To: "scholars" <scholars@cse.iitm.ac.in> 
+Cc: "Seminar" <seminar@cse.iitm.ac.in> 
+Sent: Friday, November 22, 2013 10:09:53 AM 
+Subject: Research Scholar Forum talk last session for this semester - Nov 25th Monday 3.30 PM, would be presented by Anik Sen Gupta (HPCN Lab) 
+
+
+Dear Scholars 
+
+
+Greetings 
+
+Coming Monday - Nov 25th 2013, will be the last presentation as part of Research Scholar Forum talk for this Semester. 
+
+The presenter is Anik Sen Gupta (HPCN Lab). Anik's publication has been accepted at ICON 2013 (19th IEEE International conference on Networks, taking place at Singapore). 
+As part of the Research Scholar's Forum presentation, Anik will be presenting his publication. 
+
+Title of his talk is "An Efficient Preamble Compression for Multi Clock-rate Sampling Wireless Devices" 
+
+Abstract: The recent trend in wireless communication networks has seen the focus shift from spectrum efficiency to energy efficiency. 
+Use of multi clock-rate sampling devices to provide reduced power idle listening promises to significantly reduce power consumption 
+in wireless devices without affecting throughput or transmission range. However, the use of frequency agnostic preamble to enable 
+multi clock-rate detection causes linear scaling of preamble length, and consequently, the goodput performance of the network suffers. 
+We look at a modification of RObust Header Compression (ROHC) as a means to restrict header length scaling and its applicability in 
+networks of multi-frequency sampling wireless devices. We analyze the modified preamble compression scheme deployed on multi 
+clock-rate sampling wireless devices and determine performance metrics such as channel utilization and goodput across different error 
+rates and downclocking factors. The energy efficiency performance of such a network is also studied. The results obtained are validated using extensive simulation. 
+
+Kindly attend Anik's presentation and share your valuable feedback to make his presentation successful at ICON 2013. 
+
+Since this is the last meeting for this semester, Snacks will be served at the end of the presentation. 
+
+Kind regards 
+Mani 
+---------------------------------------------------------------------------- 
+Manikantan (Mani) Srinivasan 
+Research Scholar (PhD), 
+High Performance Computing and Networking ( HPCN ) Lab, 
+Department of Computer Science and Engineering, 
+Indian Institute of Technology Madras, Chennai. 
+---------------------------------------------------------------------------- 

@@ -1,0 +1,36 @@
+Dear All, 
+
+
+A gentle reminder about the talk this afternoon. 
+
+
+Regards 
+Ravi. 
+
+
+
+Dear All, 
+
+
+Dr. Gautam Kunapuli from Wisconsin-Madison will be giving a talk on Inverse Reinforcement Learning at 3 p.m. in BSB 361 on Friday, 20th. Details below. All are welcome. 
+
+
+Regards 
+Ravi. 
+
+
+
+
+
+Title: Advice-Giving for Inverse Reinforcement Learning 
+
+
+Abstract: 
+Inverse Reinforcement Learning (IRL) is an approach for domain-reward discovery from demonstration, where an agent mines the reward function of a Markov decision process by observing an expert acting in the domain. In the standard setting, it is assumed that the expert acts (nearly) optimally, and a large number of trajectories, i.e., training examples are available for reward discovery (and consequently, learning domain behavior). These are not practical assumptions: trajectories are often noisy, and there can be a paucity of examples. This novel approach incorporates advice-giving into the IRL framework to address these issues. Inspired by preference elicitation, a domain expert provides advice on states and actions (features) by stating preferences over them. 
+
+
+In this talk, I will provide a brief introduction to Inverse Reinforcement Learning and its applications. Then, I will present our advice-taking IRL approach, in which an agent learns from noisy demonstrations, and small amounts of targeted advice provided by a domain expert. Our results 
+
+
+Bio: 
+Gautam Kunapuli received his PhD in Applied Mathematics from Rensselaer Polytechnic Institute in 2008, under the guidance of Dr. Kristin Bennett. He was a Postdoctoral Research Associate at the University of Wisconsin-Madison from 2008-2013. He will be taking up a Research Scientist position at UtopiaCompression Corporation in October 2013. His research interests are primarily in developing efficient optimization approaches to diverse machine learning problems, including online learning, reinforcement learning and human-in-the-loop learning. 

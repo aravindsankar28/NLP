@@ -1,0 +1,2 @@
+REMINDER: Talk on Latent Variable Models
+Balaraman Ravindran <ravindran.b@gmail.com>

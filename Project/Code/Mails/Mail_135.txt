@@ -1,0 +1,65 @@
+Dear all,=20
+
+I kindly invite you to attend my first PhD seminar on 28-02-2013 at 4 pm an=
+d solicit your valuable suggestions. The details of the talk are given belo=
+w.=20
+
+Speaker : S P Meenakshi=20
+Venue : BSB 361 (CSE Seminar Hall)=20
+Date : 28-02-2013=20
+Time : 4 - 5 pm=20
+Title :=20
+
+Experimental Study on IPv6 Data Plane Flows for Reflector Attack Characteri=
+zation and Mitigation=20
+
+The commonly prevalent flood based DDoS attacks with the magnitude of 10 Gb=
+ps indicate the necessity for routine mitigation of these attacks a day-to-=
+day activity to the Internet Service Providers (ISPs). Main targets of DDoS=
+ attacks are ancillary Data center services such as Web portals, shared Web=
+ hosts, DNS servers and SMTP. The attackers make use of multivector DDoS at=
+tacks and complex application layer methodologies to achieve their goals. R=
+eflector attack is one such attack accomplished by making use of protocol r=
+equirements in transport and application layers. It drains huge volumes of =
+bandwidth that ISPs purchase from the transit and peer providers. The 2011 =
+Arbor Network security report observes DNS reflection/amplification attack =
+to the magnitude of 60 Gbps with an yearly rise of 40%. The important compo=
+nents of Data centers such as load balancers, firewalls and Intrusion preve=
+ntion system fail due to these attacks. Data center targeted attacks lead t=
+o customer churn and related revenue loss to the ISPs. The increase in depl=
+oyment of IPv6 in the wake of IPv4 address space exhaustion lead to inserti=
+on of large number of network elements like 6to4 gateways and Carrier Grade=
+ Network address translators in the backbone. In addition to reflection/amp=
+lification flow dynamics, the inclusion of stateful elements like 6to4 gate=
+ways and less visibility of IPv6 based attacks to the firewalls pose additi=
+onal challenge for framing rules to mitigation techniques. In our work, we =
+have carried out an experimental study on IPv6 reflector attacks using a re=
+al time testbed. The testbed consists of 2 Mbps MPLS mesh backbone intercon=
+necting 8 IPv6 LANs with 6to4 gateways deployed on edge routers. The attack=
+er and victim edge router flow characterization considering various factors=
+ and rules identified for mitigation techniques are the contributions of th=
+e work. The IPv6 reflector attack flow rate that chokes the victim using re=
+flection/amplification for single and multiple flows are analyzed to differ=
+ent flow rates. The effectiveness of the identified anomaly based rules to =
+edge routers is measured in terms of false positives and false negatives ra=
+tes. We have used IPv6 ftp application traffic to represent the normal traf=
+fic during the measurement period. The optimal flow sampling interval is ob=
+tained for 5 % false positive and 7 % false negative rates to different att=
+ack flow frequency and flow duration.=20
+
+
+
+
+regards=20
+
+S P Meenakshi=20
+
+CS07D006=20
+
+Network Systems Laboratory=20
+
+Dept of CSE=20
+
+IIT Madras=20
+
+

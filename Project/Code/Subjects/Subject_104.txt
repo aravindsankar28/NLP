@@ -1,0 +1,2 @@
+Computational Geometry course is in E slot
+John Augustine <augustine@cse.iitm.ac.in>

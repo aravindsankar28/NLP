@@ -1,0 +1,72 @@
+
+
+
+From: "Krishna Jagannathan" <krishnaj@ee.iitm.ac.in>=20
+To: "Ravindran B" <ravi@cse.iitm.ac.in>=20
+Sent: Monday, July 29, 2013 1:38:50 PM=20
+Subject: Fwd: [Faculty] Talk by Prof. Sanjay Shakkottai, Aug 5, 11 a.m, ESB=
+244=20
+
+
+This one too!=20
+
+Krishna=20
+
+Begin forwarded message:=20
+
+
+
+
+From: Sudharsan Parthasarathy < ee12d027@ee.iitm.ac.in >=20
+Date: 15 July 2013 10:51:11 AM IST=20
+To: Faculty < faculty@ee.iitm.ac.in >, msphd < msphd@ee.iitm.ac.in >=20
+Subject: [Faculty] Talk by Prof. Sanjay Shakkottai, Aug 5, 11 a.m, ESB244=
+=20
+
+
+
+
+
+
+Title: On Spreading and Detecting Infections=20
+
+Speaker: Prof. Sanjay Shakkottai=20
+UT Austin=20
+
+Date : Monday 5th August 11 a.m .=20
+
+Location : ESB 244=20
+
+Abstract: In this talk, we study the spread of epidemics (infections) over =
+large networks. In the first part, we study the scenario where the spread i=
+s assisted by a small number of external agents: infection sources with bou=
+nded spreading power, but whose movement is unrestricted with respect to th=
+e underlying network topology. For networks which are =E2=80=98spatially co=
+nstrained=E2=80=99 (e.g., random geometric graphs), we show that the spread=
+ of infection can be significantly speeded up even by a few such agents inf=
+ecting randomly. Further for such networks, we show that simple random, sta=
+te-oblivious infection-spreading by an external agent is in fact order-wise=
+ optimal for dissemination.=20
+
+In the second part, we leverage the network propagation characteristics of =
+epidemics to distinguish between epidemic spreading and "random" failures (=
+e.g., flu vs. allergy, worm attack vs. random computer failures). For insta=
+nce, a virus that spreads by taking advantage of physical links or user-acq=
+uaintance links on a social network can grow explosively if it spreads beyo=
+nd a critical radius. On the other hand, random infections (that do not tak=
+e advantage of network structure) have very different propagation character=
+istics. We address questions like: when can we distinguish between these me=
+chanics of infection? Further, how can this be done efficiently? In this ta=
+lk, we discuss sufficient conditions and algorithms for different graph top=
+ologies, for when it is possible to distinguish between a random model of i=
+nfection and a spreading epidemic model, with probability of misclassificat=
+ion going to zero.=20
+
+Biography: Sanjay Shakkottai received his Ph.D. from the ECE Department at =
+the University of Illinois at Urbana-Champaign in 2002. He is with The Univ=
+ersity of Texas at Austin, where he is currently a Professor in the Departm=
+ent of Electrical and Computer Engineering, and the Associate Director of W=
+ireless Networking and Communications Group (WNCG). He received the NSF CAR=
+EER award in 2004. His current research interests include network architect=
+ures, algorithms and performance analysis for wireless networks, and algori=
+thms for learning and inference over complex networks.

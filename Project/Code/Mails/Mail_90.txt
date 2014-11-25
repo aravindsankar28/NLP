@@ -1,0 +1,28 @@
+Hi,
+
+I was wondering whether we could have a system similar to that of IIT
+> Bombay, where the webpage at www.cse.iitm.ac.in/~studentname<http://www.cse.iitm.ac.in/%7Estudentname>is moved to
+> www.cse.iitm.ac.in/alumni/~studentname<http://www.cse.iitm.ac.in/alumni/%7Estudentname>on graduation.
+>
+After a brief discussion in the afternoon, following issue came up.
+
+Right now, the usernames etc get purged when we graduate, this makes it
+possible for incoming students to get simpler usernames. (After I graduate,
+another Sujeet can have sujeet as his username).
+
+Keeping the above in mind, we could either have alumni pages in the form:
+
+   1. www.cse.iitm.ac.in/~cs09b010
+   2. www.cse.iitm.ac.in/alumni/2013/~sujeet
+
+Ravi sir was wondering which one would the students prefer (he thought the
+first one would be preferred, while I thought that most of us would prefer
+the second one)
+
+Thanks and regards,
+Sujeet Gholap
+Final Year B.Tech, CSE
+IIT Madras
+http://www.cse.iitm.ac.in/~sujeet
+
+>

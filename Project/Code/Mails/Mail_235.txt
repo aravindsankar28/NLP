@@ -1,0 +1,52 @@
+Dear All,
+
+Aaditya Ramdas, who is currently pursuing his PhD at CMU, will be giving a
+talk on connections between  convex optimization and active learning at 11
+a.m. on Monday, 6th January, in the CSE Seminar Hall, BSB 361. All are
+welcome. Details below.
+
+Regards
+Ravi.
+
+*Speaker*: Aaditya Ramdas
+*Affiliation*: PhD student in Statistics and Machine Learning, Carnegie
+Mellon University
+*Website: *http://www.cs.cmu.edu/~aramdas/
+
+*Title*: Theoretical Connections between Convex Optimization and Active
+Learning
+
+*Abstract*: Stochastic convex optimization (SCO) under the first order
+oracle model deals with approximately optimizing a convex function over a
+convex set, given access to noisy function and gradient values at any
+point, using as few queries as possible. Active learning of threshold (ALT)
+classifiers, is a classification problem where every point has a binary
+label, and it deals with approximately locating a "threshold" on a
+subinterval of the real line (which is a point to the left of which labels
+are more likely to be negative, and to the right of which labels are more
+likely to be positive), given access to an oracle that returns noisy
+labels, using as few queries as possible.
+
+In this talk, we will discuss four things
+1) The key insight : Exploiting the sequential nature of both problems, we
+establish a concrete similarity between "Tsybakov Noise" from ALT theory
+and "Strong/Uniform Convexity" from SCO theory
+2) Lower bounds: We will show how information-theoretic lower-bound
+techniques from ALT can be used to get very similar lower bounds in SCO
+(and show these are tight with matching upper bounds).
+3) Upper bounds: We will go the other way, and show how upper-bound
+techniques from SCO can be used to get a very similar algorithm in ALT,
+that is adaptive to unknown Tsybakov noise parameters.
+4) Combination: We will combine some of these techniques, to yield a
+coordinate descent algorithm that uses active learning for line search,
+that is adaptive to unknown strong/uniform convexity parameters.
+
+*Relevant Papers (joint with Aarti Singh)*:
+1. Optimal Stochastic Convex Optimization under Tsybakov Noise
+Condition, appeared
+in International Conference in Machine Learning, (ICML) 2013 (
+http://jmlr.csail.mit.edu/proceedings/papers/v28/ramdas13.pdf)
+2. Algorithmic Connections between Active Learning and Stochastic Convex
+Optimization, appeared in Algorithmic Learning Theory, (ALT) 2013 (
+http://www.cs.cmu.edu/~aramdas/ALT13Final.pdf) - invited for submission to
+the journal Theoretical Computer Science.

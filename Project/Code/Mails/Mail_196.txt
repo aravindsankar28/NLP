@@ -1,0 +1,42 @@
+Gentle Remainder
+---------------------------------------------------------------------------=
+------------------------
+Dear all,
+
+I am presenting my second PhD seminar talk on Tuesday, 15th April, 2014 at =
+4:00 PM. Kindly make it convenient to attend the seminar and give your valu=
+able suggestions.
+
+The details of the talk are as follows.
+
+Title                 :    Cent Filter-banks and its Relevance to Carnatic =
+Music
+Date                 :    15th April, 2014
+Time                :     4.00 PM
+Venue              :     CS25, Seminar Hall, Department of Computer Science=
+Abstract of the talk:
+---------------------Carnatic music and Hindustani music are two popular mu=
+sic traditions in India. In both music traditions, the tonic or key is chos=
+en by the performer. All accompanying instruments are tuned to the same ton=
+ic. Carnatic music is based on the twelve semitone scales and frequencies o=
+f semitones depends on the tonic. The tonic can vary across concerts as wel=
+l as musicians. In this work, we propose new features that are extracted fr=
+om cent filterbank energies. Cent filterbank energies are obtained by passi=
+ng the tonic normalised spectrum through constant Q filters that are placed=
+ uniformly on the cent scale. These features are evaluated on different tas=
+ks in Carnatic music, namely Carnatic music concert segmentation, motif rec=
+ognition, mridangam stroke recognition and other applications. The song ide=
+ntification performed on 50 live recordings of Carnatic music using GMMs an=
+d Motif recognition performed on 5 different ragas using HMMs. Mridangam st=
+roke recognition performed on 10 different strokes using HMMs. Song segment=
+ation accuracy is 95%, motif recognition accuracy is 73% and mridangam stro=
+ke recognition accuracy is 77% with cent filter-bank features. The results =
+show that cent filter-bank features are indeed important for Carnatic music=
+ processing tasks. Cent filterbank based features are compared with the tra=
+ditional MFCC and Chroma Filterbank based features. For Carnatic music Cent=
+ filterbanks perform significantly better in comparison with the other feat=
+ures. Finally, given the list of items performed in a concert (as meta data=
+), the audio is marked using the text.
+
+ALL ARE WELCOME
+Thanks and RegardsPadi Sarala

@@ -1,0 +1,28 @@
+Dear All, :-). 
+
+
+Recently there have been several mails sent out to all@cse which didn't require to be. Since it is hard to moderate the mails, we have decided to remove the distribution list 'all'. Please use appropriate target audiences for each mail that you send out. Here are a list of aliases that we use with fairly large distribution: 
+
+
+seminar@cse.iitm.ac.in - for all seminar/talk announcements. 
+faculty@cse.iitm.ac.in - to reach all faculty 
+staff@cse.iitm.ac.in - to reach all office/technical staff 
+students@cse.iitm.ac.in - to reach all students 
+proj@cse.iitm.ac.in - to reach all project staff with accounts on zimbra. Largely defunct now. 
+
+scholars - to reach ms and phd scholars 
+phd - to reach phd scholars alone 
+ms - to reach ms scholars alone 
+{1|2}mtech - to reach 1st or 2nd mtech respectively. 
+{1|2|3|4}btech - to reach 1st through 4th year BTech and DD resply. 
+5btech - to reach 5th yeard DD students. [Note 2mtech does not go to the 5th year DDs currently.] 
+
+
+csoffice - to reach the office staff. 
+
+
+To reach everyone in the Dept., as in this mail, please send to faculty, staff and students. 
+
+
+Regards 
+Ravi. 

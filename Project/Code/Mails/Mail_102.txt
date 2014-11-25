@@ -1,0 +1,101 @@
+
+A Gentle Reminder.=20
+
+
+
+Regards,=20
+
+Bibekananda Kundu=20
+
+
+
+
+
+
+
+
+
+From: bibek@cse.iitm.ac.in=20
+To: "Seminar" <seminar@cse.iitm.ac.in>, faculty@cse.iitm.ac.in, students@cs=
+e.iitm.ac.in=20
+Sent: Thursday, April 25, 2013 11:03:53 AM=20
+Subject: MS Seminar=20
+
+
+
+
+Dear All,=20
+
+
+I am glad to invite all of you to my MS seminar on April 30, 2013 (Tuesday)=
+ from=C2=A03.30 to 4.30 PM=C2=A0in BSB 361 (CSE dept.). Kindly make it conv=
+enient to attend the seminar and give your valuable suggestions. The detail=
+s of my talk are as follows:=20
+
+Title=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0 :=C2=A0=C2=A0 Natural Language Generation for Bangla Gramma=
+tical Error Detection and Correction =C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=20
+Speaker=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0 :=C2=A0=C2=A0=C2=A0 Bibe=
+kananda Kundu=20
+Guide=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 :=
+=C2=A0=C2=A0=C2=A0 Dr. Sutanu Chakraborti=20
+
+
+Date & Time : =C2=A0 April 30, 2013(Tuesday) from=C2=A03.30 to 4.30 PM=20
+
+Venue=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 :=C2=A0=
+=C2=A0=C2=A0 BSB 361, CSE Department=20
+
+Abstract:=20
+
+Automatic detection and correction of grammatical errors in a morphological=
+ly rich and free word order language like Bangla is a non trivial task. The=
+ problem is to automatically detect and correct errors in an ungrammatical =
+Bangla sentence having postpositional and nominal inflectional errors. A me=
+thodology needs to be devised for correcting the mistakes committed by user=
+s and also to provide relevant examples for supporting the suggested correc=
+tion. To have an idea on how strongly we can rely on such a correction, it =
+will be useful to devise a measure of sentence complexity with respect to t=
+he grammar correction task. If a sentence is complex, the user should not b=
+e overtly reliant on the correction suggested by the system. Conversely if =
+the complexity measure is low, the user can confidently choose the suggesti=
+on.=20
+
+=C2=A0A sufficiently large number of error corpus is essential for training=
+ and testing of any grammar correction methodology. Manual collection of su=
+ch huge error corpora is a tedious and time consuming task. Therefore, a no=
+vel synthetic error corpora creation methodology has been proposed. This ha=
+s been done using a combination of confidence score estimator and mal-rule =
+filter to introduce errors into a corpus of correct text. A novel approach =
+has been proposed for automatic detection and correction of Bangla grammati=
+cal errors using a Natural Language Generation (NLG) technique. Our NLG bas=
+ed grammar correction approach follows lemmatization, over generation, prun=
+ing of search space and best path selection procedures. In order to ensure =
+that the suggested correction is not too divergent from the source erroneou=
+s sentence, the WER and BLEU score have been used. The proposed approach al=
+so estimates the complexity of the grammar correction task so that the user=
+ can be informed about the system=E2=80=99s confidence. An active learning =
+based complexity estimation has been used to estimate the complexity of gra=
+mmar correction. Evaluation of grammar correction system is one of the chal=
+lenges in this area of research. Performance of most of the available gramm=
+ar checker systems cannot be compared as different systems address differen=
+t types of errors. Moreover, systems are not tested on common data set. Tes=
+ting on a common data set is particularly problematic when different gramma=
+r checkers are designed for different languages. To circumvent these proble=
+ms, a Methodology for Evaluation of Grammar Assessment (MEGA) combining a G=
+raded Acceptability Assessment Metric (GAAM) and a Complexity Measurement M=
+etric (CMM) has been introduced.=20
+
+=C2=A0=20
+
+=C2=A0=20
+
+All are welcome!=20
+
+Regards,=20
+Bibekananda Kundu=20
+
+=C2=A0 MS External=20
+(CS10s022)=20
+Department of CSE, IIT Madras.

@@ -1,0 +1,39 @@
+Dear All,
+
+Arun Iyer from Yahoo! labs will be giving a talk on "Class Ratio
+Estimation" in the CSE Department Seminar hall (BSB 361) at 10 a.m.,
+tomorrow (Tuesday). Part of this work was recently presented at ICML 2014.
+All are welcome.
+
+Regards
+Ravi.
+
+Title: Maximum mean discrepancy for class ratio estimation: Convergence
+bounds and kernel selection
+
+Abstract:
+In recent times, many real world applications have emerged that require
+estimates of class ratios in an unlabeled instance collection as opposed to
+labels of individual instances in the collection. In this talk, I will
+first explain the problem of class ratio estimation with a motivating
+example. Then I would present how we can use maximum mean discrepancy (MMD)
+in a reproducing kernel Hilbert space (RKHS) for estimating such ratios.
+While producing an estimator is good, it is always better to provide some
+consistency results. To that end, I will present a theoretical analysis of
+the MMD-based estimator by pointing out some of the key steps in the proof
+and also, the implication of the obtained result. Next, I will show how we
+use the insights obtained from the theoretical analysis, to propose a novel
+convex formulation that automatically learns the kernel to be employed in
+the MMD-based estimation. I will briefly present the idea behind cutting
+plane algorithm that we use for solving this formulation. Finally, I will
+end the talk with an empirical comparison of our estimator with several
+existing methods.
+
+Bio:
+Arun Iyer is currently a Research Scholar at Yahoo! Labs, Bangalore and
+also in a Yahoo! sponsored PhD program at IIT Bombay working with Prof.
+Sunita Sarawagi and Dr. Francesco Bonchi. Prior to joining for his PhD
+program, he was working at Yahoo! Labs, Bangalore as a Research Engineer.
+His current research interests is on modelling aggregates of response
+variables on instance collections and various applications of these
+estimators.

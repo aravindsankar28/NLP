@@ -1,0 +1,20 @@
+Dear All, 
+
+There will be a talk by Dr. Ajit Rajwade (http://intranet.daiict.ac.in/~ajit_r/). The details are as follows: 
+
+Title: Reconstruction of Hyperspectral Images and Video from Compressive Measurements 
+Speaker: Dr. Ajit Rajwade, Assistant Professor, DAIICT (Gandhinagar) 
+Date: 25th March, 2013 (Monday) 
+Time: 2:00 pm 
+Venue: BSB 361 
+
+Abstract: 
+
+In recent times, compressive sensing has emerged as a popular area in the allied fields of image processing and computer vision. Traditional cameras first acquire large amounts of data (images/video, etc.) and then compress them using popular methods such as JPEG/MPEG. The paradigm of compressive sensing is based on acquisition of data directly in a compressed format, and then reconstructing the original data from the compressed format. 
+
+In this talk, we will go through two practical compressive sensing problems. The first problem deals with reconstruction of hyperspectral data-cubes (which can be regarded as 3D spatio-spectral arrays). A sensor named CASSI (Coded aperture snapshot spectral imager) developed at Duke University does not measure the entire 3D spatio-spectral array - instead it measures a single 2D image called as a "snapshot". A snapshot is effectively the superposition of individual single-wavelength slices from the 3D array, after each slice has been modulated by a random binary code. The task is to recover the 3D datacube from one or more such snapshots. The second problem deals with reconstruction of video data (regarded as 3D spatio-temporal arrays) from snapshots of a somewhat similar nature as described for the case of hyperspectral data. 
+
+Techniques called as "dictionary learning" have gained popularity in recent image processing literature for representing images or image patches as a very sparse linear combination of so called "dictionary vectors". These are useful in tasks such as denoising, deblurring and inpainting. Here, we will discuss the application of dictionary learning techniques for reconstructing hyperspectral and video data from the measured snapshots. In particular, we will look at a Bayesian dictionary learning technique for these reconstruction tasks. (Time permitting:) For the case of video data, where the video can be regarded as the superposition of a sparse moving "foreground" on top of a static or infrequently changing background, we will also look at a second model that expressly incorporates these properties. 
+
+Regards, 
+Ankit 

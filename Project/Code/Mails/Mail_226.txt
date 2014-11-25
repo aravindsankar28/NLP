@@ -1,0 +1,54 @@
+
+Dear all, 
+I invite you to my PhD seminar on February 4, 2014(Tuesday) at 3pm . Kindly make it convenient to attend the seminar and give your valuable feedback. The details of the seminar are as follows. 
+
+Title: Addressing scalability challenges in peer-to-peer search 
+
+
+Speaker: Harisankar H 
+
+
+Date: February 4, 2014(Tuesday) 
+
+
+Time: 15:00 hrs to 16:00 hrs 
+
+
+Venue: BSB 361( Seminar Hall), Department of Computer Science and Engineering 
+
+Abstract: 
+
+
+In peer-to-peer search, millions of peers across the world co-operate to realize a decentralized 
+search engine. This approach to realize search engines has several advantages by design which 
+are difficult to achieve in a centralized search engine(using a centrally managed set of dedicated 
+servers). As each query of a user can be sent to a different peer among millions, obtaining all the 
+query logs of the user in a single location will be difficult. This reduces the privacy concerns 
+significantly. Further advantages include avoidance of centralized control and transparency 
+in ranking. Background knowledge of the peers can also be considered for query processing 
+enhancing the quality of search results. The above desirable properties led to lot of academic 
+research in the area as well as development of real world peer-to-peer search engines. 
+
+
+The peers participating in a peer-to-peer system share only their idle resources and 
+join/leave independently. They are also connected to each other through low bandwidth inter- 
+net. These characteristics lead to efficiency and stability issues in a data-intensive application 
+like peer-to-peer search. In this talk we present two complementary extensions to traditional 
+peer-to-peer search architecture to address these issues. First, we propose a two-layered ar- 
+chitecture for peer-to-peer concept search. In the two-layered approach, peers are organized 
+into communities and both peer background knowledge and document index are maintained 
+at two levels. Universal knowledge is used to identify the appropriate communities for a query 
+and search within the communities proceed based on the background knowledge developed 
+independently by the communities. This approach helps in improving both bandwidth efficiency 
+and result quality. Next, we propose transient use of public cloud resources 
+to maintain stability of peer-to-peer search engines during query spikes. In the proposed archi- 
+tecture, the responsibility of spiking queries are dynamically offloaded to public clouds during 
+spike periods. Experimental evaluation under realistic settings shows that these approaches 
+are effective in addressing the efficiency and stability issues. 
+
+
+All are welcome. 
+
+Sincerely, 
+Harisankar H, 
+PhD scholar, Dept. of CSE 

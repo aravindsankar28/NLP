@@ -1,0 +1,3 @@
+Change in venue of the talk on "Safetly Logic Electronics for
+ Nuclear Reactor Systems"
+Shankar Balachandran <shankar@cse.iitm.ac.in>

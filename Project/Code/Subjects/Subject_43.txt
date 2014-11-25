@@ -1,0 +1,2 @@
+Seminar on Probabilistic Programming on Wednesday, 11th.
+Balaraman Ravindran <ravi@cse.iitm.ac.in>

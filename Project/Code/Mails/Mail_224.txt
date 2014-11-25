@@ -1,0 +1,28 @@
+Dear All,
+
+Prof.Helmut Jurgensen from University of Western Ontario, Canada will
+be visiting IITM on 7th Feb. He will be giving a talk at the
+department. Please find below the details.
+
+----------------------------------------------------------------------
+Title : Automata for Codes
+Speaker : Prof. Helmut Jurgensen (University of Western Ontario)
+Date & TIme : Feb 7, 2014, Friday, 3pm - 4pm.
+Venue : BSB 361
+----------------------------------------------------------------------
+Abstract : We survey the actual and potential r=F4les of automata in the
+modelling of information
+transmission systems and, in particular, in the encoder, channel and
+decoder components of such systems. Our focus is on applications of
+codes in such systems and on the relevance of automaton theoretic
+methods to these applications. We discuss, for example, the issues of
+error-detection, fault-tolerance and error-correction for
+variable-length codes. Beyond reviewing known work in a possibly new
+setting, we also present some recent results on fault-tolerant
+decoders for systems in which synchronization errors are likely. We
+conclude with a kind of research programme, a list of rather general
+open problems requiring solutions.
+----------------------------------------------------------------------
+
+Best regards,
+Jayalal

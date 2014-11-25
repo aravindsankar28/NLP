@@ -1,0 +1,25 @@
+
+
+
+Dear All, 
+
+
+Dr. Simon Shamoun from Bar Ilan University, Israel, will be giving a talk on Search in Ad Hoc Networks on Monday 13th January at 11 a.m., in CS25, CSE seminar hall. Details below. All are welcome. Please let me know if you individually or as a group want to meet him. We can set up a few meetings. 
+
+
+Regards 
+Ravi. 
+
+
+
+
+
+Search in Ad Hoc Networks 
+
+On demand routing protocols establish routes between nodes by forwarding route requests from one node to another till a path is found. This type of search is useful in a variety of settings, such as peer-to-peer networks, social networks, and any environment in which it is difficult to maintain lookup table of the desired information. I will discuss a variety of search techniques we have developed to keep expected search costs low based on a well studied technique called expanding ring search. The advantage of these techniques is that the weakly dominate expanding ring search. If there is enough time, I will also discuss some of my Ph.D. work on sensor coverage and selection. 
+
+Simon Shamoun received a B.A. degree (1996) in Computer Science (magna cum laude) from New York University, a M.S. degree in Computer Science (2000) from Columbia University, and a Ph.D. degree (2011) in Computer Science from the Graduate Center of CUNY. He was an adjunct lecturer in computer science at Queens College, CUNY (2002-2008), primarily teaching computer architecture and discrete structures and a post-doctorate fellow at Bar Ilan University (2011-2013). His research areas have included algorithmic problems in sensor and ad hoc networks, high level vision, graph algorithms. 
+
+
+
+

@@ -1,0 +1,44 @@
+Dear All,
+
+I am happy to invite all of you to my MS seminar on December 31, 2013 (
+Tuesday) at 4:00 PM. Kindly make it convenient to attend the seminar and
+give your valuable suggestions. The details of the talk are as follows:
+
+Title               :  *Approximation Algorithms for special instances of
+Guarding a Set of Segments*
+Speaker         :    Anup Joshi
+Guide            :    Dr. N. S. Narayanaswamy
+Date & Time :   December 31, 2013(Tuesday) at 4:00 PM
+Venue           :    BSB 361, CSE Department
+
+
+*Abstract:*
+One of the classical problems in Theoretical Computer Science is Hitting
+Set. We investigate a problem called Guarding a Set of Segments(GSS) which
+is a hitting set problem on a set of line segments. The problem is, given a
+set of line segments, how can one select a minimum number of points so that
+every segment passes through at least one of the selected points. We
+investigate this problem in the context of a 2-dimensional euclidean space.
+The problem falls in the category of Art Gallery Problems, an example would
+be to consider a road network approximated by a set of line segments on the
+2-d plane, and the task is to observe all the roads by placing minimum
+security cameras.
+
+We present constant-factor approximation algorithms for special instances
+of GSS by exploiting the structure of the underlying planar graph of a GSS
+instance. In the underlying graph the vertex set consists of the
+intersection points as well as the endpoints of the line segments, and the
+edge set is the set of all pairs of vertices which are adjacent to each
+other on a segment. We present a 3-factor approximation algorithm for the
+special instances of GSS in which the underlying graph has girth at least
+4. This also gives a 3-factor approximation for Hitting Set on GSS
+instances satisfying the Helly Property. We also obtain a 2-factor
+approximation algorithm for GSS instances whose underlying graph is
+outerplanar.
+
+*All are welcome!*
+
+Regards,
+Anup
+(CS11S012)
+Dept of CSE, IIT Madras.

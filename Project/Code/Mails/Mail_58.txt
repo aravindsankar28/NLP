@@ -1,0 +1,53 @@
+Dear all,
+
+Apologies for flooding your inbox. Please note a change in the title and ab=
+stract of the talk by Russ Arun. The other details (time, place, and of cou=
+rse, the speaker's bio) remain the same.
+
+Regards,
+John.
+
+Title: Building Online Services at scale
+
+Abstract: The talk will outline some key learnings from building online ser=
+vices at scale. A lot of these learnings would seem like common sense, but =
+over multiple teams it is clear that it is not obvious enough to make sense=
+ as teams getting into the online services space for the first time repeat =
+many of these mistakes. The talk usually illustrates the key points with re=
+al world examples, but for confidentiality the learnings will be illustrate=
+d through fictitious examples.
+
+Bio of speaker:=20
+
+Rasipuram (Russ) Arun, General Manager, Bing Search & Advertising, Microsof=
+t India Development Centre.
+
+Russ Arun is the General Manager for Bing Search & Advertising at Microsoft=
+ India Development Center.=C2=A0 Prior to this role, Russ was the Partner G=
+roup Program Manager for Display Ads and then Search Ads in the Online Serv=
+ices Division (OSD).=C2=A0
+Before working in OSD, Russ worked for the Windows Live team and was respon=
+sible for the server side of Messenger, Hotmail, storage, mobile and alerts=
+. In a previous incarnation of this role, Russ was General Manager for the =
+Live Platform Services backend team and led the transition of Hotmail, Mess=
+enger and Storage through a critical period to increase their operational e=
+fficiency and compete effectively. His work was recognized by his peers thr=
+ough the =E2=80=9COutstanding Technical Leadership=E2=80=9D award given by =
+the Technical Community Network. Prior to this role, Russ was the General M=
+anager for MSN Mobile.
+=C2=A0
+Russ=E2=80=99 earlier work in Microsoft includes Windows 95, IE 3.0, IE 4.0=
+ and.Net CF. Before Microsoft, Russ was a development manager at Sun Micros=
+ystems working on Windows & networking products.
+=C2=A0
+Russ holds an MBA from UCLA, MS from Syracuse University and BS from IIT Ma=
+dras. His hobbies include water activities, racquet sports, hiking, skiing =
+and traveling.
+
+
+--
+John Augustine
+Assistant Professor
+Department of Computer Science and Engineering
+Indian Institute of Technology Madras
+www.cse.iitm.ac.in/~augustine

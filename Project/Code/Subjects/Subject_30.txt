@@ -1,0 +1,3 @@
+Reminder - "PAC Subset Selection in Stochastic Multi-armed Bandits"
+ - Today's talk is by external faculty at BSB 361. Time 3.00 PM
+Manikantan S <mani@cse.iitm.ac.in>

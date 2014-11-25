@@ -1,0 +1,3 @@
+A talk on HPC based Machine Learning and Image Processing
+ Approaches
+"sdas@cse.iitm.ac.in" <sdas@cse.iitm.ac.in>

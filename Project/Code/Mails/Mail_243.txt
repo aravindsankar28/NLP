@@ -1,0 +1,98 @@
+FYI.
+
+---------- Forwarded message ----------
+From: Srikrishna Bhashyam <skrishna@ee.iitm.ac.in>
+Date: Thu, Nov 20, 2014 at 8:25 PM
+Subject: Fwd: Visit by Jacob Chakareski (Nov 26-28)
+To: amittal@cse.iitm.ac.in, "Prof. Krishna M. Sivalingam" <skrishnam@iitm.ac.in>
+
+FYI. Could you also forward to students in CS?
+
+Thanks,
+Srikrishna
+
+--------------------
+
+Jacob Chakareski, faculty at University of Alabama, will be visiting
+our department during Nov 26-28.
+He will give a talk on 27th (Thursday) at 4pm in ESB244. He is also
+available to meet with interested faculty and students. Please let me
+know if you would like to meet.
+
+The details of his seminar are (also attached)
+
+Title: Scaling Camera Networks One View at a Time: How Many Are Enough?
+
+Abstract: Multi-Camera systems have enabled a plethora of novel
+applications spanning entertainment, remote monitoring, and
+telecommuting. A key component in all of them is the interactive
+delivery of different viewpoint perspectives of the 3D scene of
+interest that creates the sensation of immersion within the scene for
+the user. This requires intelligent and adaptive processing of the
+captured content in response to the user's actions of switching
+between different viewpoints, while addressing the challenges imposed
+by the time-varying nature of the communication channel at the same
+time. The talk will describe a novel user-action-driven framework for
+joint view and rate scalable encoding of multi-camera video signals
+and its prospective applications. Its building blocks comprise a
+scalable encoder, optimization formulation for view and rate scalable
+encoding, and probabilistic user behavior model. I will examine their
+key properties and how they fit coherently within the overall system.
+Through experiments, I will demonstrate its advantages over competing
+methods. I will also show how our framework can be integrated into a
+system for joint source-channel coding for multi-view multicast. At
+the end, I will highlight a few other investigations: collaborative
+caching in multi-cell wireless systems, distributed scheduling of
+camera sensor arrays, and blogger retention in blogging communities.
+
+Biography: Jacob Chakareski completed the M.Sc. and Ph.D. degrees in
+Electrical and Computer Engineering at WPI, Rice, and Stanford. He is
+an Assistant Professor at the University of Alabama. Previously, he
+held scientific positions with EPFL, Microsoft, Hewlett-Packard, and
+Vidyo, a leading provider of Internet telepresence solutions.
+Chakareski has authored one monograph, three book chapters, and over
+100 international publications, and holds 5 US patents. His current
+research interests include immersive communication, computer networks,
+graph-based information processing, and social computing. He eagerly
+pursues ultrasound applications in telemedicine and biomedicine. He is
+an Advisory Board member of Mainframe2, an innovative cloud computing
+start-up with a bright future.
+
+Dr. Chakareski received the Swiss NSF Ambizione Career Award, the Best
+Student Paper Award at the SPIE VCIP 2004 Conference, and the Best
+Paper Award of the Stanford Electrical Engineering and Computer
+Science Research Journal for 2004. He was also the recipient of the
+Texas Instruments Graduate Research Fellowship at Rice University, the
+Technical University Munich Mobility Fellowship, and the University of
+Edinburgh Chancellor's Fellowship. He was the Technical Program
+Co-Chair of Packet Video in 2012 and the General Co-Chair of the IEEE
+SPS Seasonal School on Social Media Processing in 2012. He was the
+guest editor of the Springer PPNA journal Sept. 2013 special issue on
+P2P-Assisted Cloud Computing Systems and he will be the guest editor
+of the IEEE Trans. CSVT Aug. 2015 special issue on Mobile Visual
+Computing in the Cloud. He will serve as TP Area Chair for ICME 2015
+and as Demo/Expo Chair for ICME 2016. Dr. Chakareski is Senior Member
+of the IEEE. For further info, please visit http://www.jakov.org.
+
+Regards,
+Srikrishna
+
+--
+-----------------------------------------------------------
+Srikrishna Bhashyam
+Associate Professor, Department of Electrical Engineering
+Indian Institute of Technology Madras, Chennai 600036, India
+Phone: 91-44-2257-4439    Fax: 91-44-2257-4402
+Web Page: http://www.ee.iitm.ac.in/~skrishna/
+-----------------------------------------------------------
+
+
+
+--
+-----------------------------------------------------------
+Srikrishna Bhashyam
+Associate Professor, Department of Electrical Engineering
+Indian Institute of Technology Madras, Chennai 600036, India
+Phone: 91-44-2257-4439    Fax: 91-44-2257-4402
+Web Page: http://www.ee.iitm.ac.in/~skrishna/
+-----------------------------------------------------------

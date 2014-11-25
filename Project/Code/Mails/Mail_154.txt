@@ -1,0 +1,48 @@
+At 2pm there is a Ph.D. seminar by Vanniarajan in BSB361
+Kamala
+
+ /*************************************************************************=
+*****************/
+Prof.(Mrs.)  Kamala Krithivasan                    RESIDENCE:
+Department of Computer Science & Engg,             87 (Old No:44), SriPadma=
+nabha Nagar
+Indian Institute of Technology Madras              5th Street
+Chennai 600036                                     Adyar
+India                                              Chennai 600020
+Email: kamala@iitm.ac.in                           India
+Phone: +91-44 22574356                             Phone: +91 -44 24919886
+Fax  : +91-44 22574352
+HOME PAGE: http://www.cse.iitm.ac.in/kamala        Mobile: 9841885825
+/**************************************************************************=
+***********/
+________________________________________
+From: Shankar Balachandran [shankar@cse.iitm.ac.in]
+Sent: Monday, February 11, 2013 3:38 PM
+To: all
+Subject: Seminar Talk on Safetly Logic Electronics for Nuclear Reactor Syst=
+ems
+
+Dear All
+
+Manoj Misra (CS08S005) will give a seminar talk on "Design, Safety Analysis=
+ and Reliability Analysis of a Nuclear Reactor Protection Logic System" in =
+the department tomorrow.
+
+Venue:  BSB 361
+Time  : 2:00 - 2:50 pm
+Date   : Tuesday, 12th February, 2013
+
+In nuclear reactors, emergency shutdown systems are used to diminish the re=
+actor power rapidly during abnormal conditions which could otherwise lead t=
+o undesirable states such as fuel failure, channel failure or liberation of=
+ fission products. The talk will cover the design of safety logic for the e=
+lectronics that is used in the emergency shutdown process. The talk will al=
+so cover the implementation details, fabrication and testing of the safety =
+logic. This system is currently being tested in a live plant.
+
+Speaker's Bio:
+
+Manoj K Misra is a Scientific Officer (F level) at the Indira Gandhi Centre=
+ for Atomic Research, Kalpakkam. His research interests are in the area of =
+safety critical instrumentation and control systems for nuclear reactors. H=
+e is currently pursuing his MS in the CSE department.
