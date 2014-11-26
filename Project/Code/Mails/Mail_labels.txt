@@ -4,77 +4,77 @@ Networks
 Networks
 Algorithms
 Networks
-Computer Vision
+CV
 Algorithms
-Machine Learning
-Computer Vision
-Software Engg
+ML
+CV
+SE
 Algorithms
-Machine Learning
+ML
 Algorithms
-Data Mining
-Data Mining
+DM
+DM
 Algorithms
 Algorithms
 Architecture
-Data Mining
+DM
 Architecture
-Software Engg
-Architecture
-Architecture
-Data Mining
+SE
 Architecture
 Architecture
-Architecture
-Computer Vision
-Reinforcement Learning
-Computer Vision
-Machine Learning
-Machine Learning
-Computer Vision
-Computer Vision
-Computer Vision
-Reinforcement Learning
-Reinforcement Learning
-Reinforcement Learning
-Machine Learning
+DM
 Architecture
 Architecture
-Machine Learning
-Machine Learning
-Machine Learning
-Software Engg
-Cloud Computing
-Cloud Computing
+Architecture
+CV
+RL
+CV
+ML
+ML
+CV
+CV
+CV
+RL
+RL
+RL
+ML
 Architecture
 Architecture
-Network
-Software Engg
-Software Engg
-Software Engg
-Architecture
-Software Engg
-Software Engg
-Software Engg
-Software Engg
-Cloud Computing
-Cloud Computing
+ML
+ML
+ML
+SE
+CC
+CC
 Architecture
 Architecture
-NLP, Machine Learning
+Networks
+SE
+SE
+SE
+Architecture
+SE
+SE
+SE
+SE
+CC
+CC
+Architecture
+Architecture
+NLP, ML
 Useless
 Architecture
-Machine Learning
-Machine Learning
+ML
+ML
 SNA
 SNA
 Networks
 Architecture
-Machine Learning
+ML
 Architecture
 Architecture
 Architecture
-Data Analytics
+DA
 SNA
 Crypto
 Architecture
@@ -85,44 +85,44 @@ Architecture
 Architecture
 Architecture
 Architecture
-Computer Vision
+CV
 Useless
 Useless
-Reinforcement Learning
-Reinforcement Learning
+RL
+RL
 Crypto
 Crypto
 Crypto
-Data Mining
+DM
 Algorithms
-Data Mining
-Computer Vision
-SNA, Data Mining
-Machine Learning
-NLP, Machine Learning
-NLP, Machine Learning
+DM
+CV
+SNA, DM
+ML
+NLP, ML
+NLP, ML
 Useless
-NLP, Machine Learning
+NLP, ML
 Theory
 Architecture
-AI, Machine Learning
+AI, ML
 Theory
-Machine Learning
+ML
 Networks
 Useless
 Useless
 Useless
-AI, Machine Learning
-Software Engg, Algorithms
+AI, ML
+SE, Algorithms
 Networks, Algorithms
-Computer Vision
-Computer Vision
-Computer Vision
+CV
+CV
+CV
 Useless
 Networks, Architecture
 Useless
 Useless
-Computer Vision
+CV
 Theory
 Algorithms
 Useless
@@ -130,14 +130,14 @@ Useless
 Useless
 Theory
 Networks, Crypto, Architecture, AI
-Data Analytics, Machine Learning
+DA, ML
 Algorithms
 Networks
 Algorithms
 Algorithms
 Algorithms
 Database
-Data Analytics
+DA
 Networks
 Architecture
 Networks
@@ -147,13 +147,13 @@ Database
 Database
 Useless
 Networks
-Machine Learning
-Machine Learning
+ML
+ML
 Architecture
 Architecture
 Architecture
 Architecture, Networks
-NLP, Machine Learning
+NLP, ML
 Algorithms
 Networks
 Architecture
@@ -162,30 +162,30 @@ AI
 Algorithms
 Algorithms
 AI
-Data Mining, Machine Learning
+DM, ML
 Algorithms
 AI
 Algorithms
 Algorithms
 Algorithms
-Machine Learning
-Data Analytics
-Machine Learning
-Computer Vision
+ML
+DA
+ML
+CV
 Algorithms
-Data Mining, Machine Learning
+DM, ML
 AI
-Software Engg
-Software Engg
-Computer Vision
+SE
+SE
+CV
 Architecture, Algorithms
 Algorithms
-Data Mining, Machine Learning
-Data Mining, Machine Learning
-Data Mining, Machine Learning
-Computer Vision
+DM, ML
+DM, ML
+DM, ML
+CV
 Algorithms
-Computer Vision
+CV
 Theory
 AI, DSP
 Architecture, Algorithms
@@ -195,13 +195,13 @@ Database, Algorithms
 Useless
 AI, DSP
 AI, DSP
-Data Analytics
-NLP, Machine Learning
+DA
+NLP, ML
 Architecture
 Database
 AI, DSP
 Useless
-NLP, Machine Learning
+NLP, ML
 AI, DSP
 AI, DSP
 AI, DSP
@@ -212,32 +212,32 @@ Useless
 Crypto
 Crypto
 Crypto
-Software Engg
-Software Engg
-Architecture, Software Engg
-Software Engg
-Software Engg
-Data Analytics
-Software Engg
-Software Engg
-Data Analytics, Theory
+SE
+SE
+Architecture, SE
+SE
+SE
+DA
+SE
+SE
+DA, Theory
 Theory
-Data Analytics
-SNA, Data Analytics
+DA
+SNA, DA
 Theory, Algorithms
 Algorithms
 Algorithms
-Data Analytics, Theory
-Data Analytics
+DA, Theory
+DA
 Networks
 Networks
 Networks
-Machine Learning
+ML
 Algorithms
 Algorithms
 Crypto
 Crypto
 Algorithms
 Algorithms
-Software Engg
+SE
 Networks
