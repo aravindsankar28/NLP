@@ -8,18 +8,18 @@ Computer Vision
 Algorithms
 Machine Learning
 Computer Vision
-Software Engg???
+Software Engg
 Algorithms
 Machine Learning
-Game Theory - Algorithms
-Machine Learning (It's about Fractals)
-Machine Learning (It's about Fractals)
-Game Theory - Algorithms
-Game Theory - Algorithms
+Algorithms
+Data Mining
+Data Mining
+Algorithms
+Algorithms
 Architecture
-Machine Learning (It's about Fractals)
+Data Mining
 Architecture
-Software Engg???
+Software Engg
 Architecture
 Architecture
 Data Mining
@@ -29,7 +29,7 @@ Architecture
 Computer Vision
 Reinforcement Learning
 Computer Vision
-Machine Learning (About Recommender Systems)
+Machine Learning
 Machine Learning
 Computer Vision
 Computer Vision
@@ -55,14 +55,14 @@ Software Engg
 Architecture
 Software Engg
 Software Engg
-Software Engg???
-Software Engg???
+Software Engg
+Software Engg
 Cloud Computing
 Cloud Computing
 Architecture
 Architecture
-Machine Learning (Information Retrieval)
-Grad Talk on NUS - Delete this mail?
+NLP, Machine Learning
+Useless
 Architecture
 Machine Learning
 Machine Learning
@@ -74,20 +74,20 @@ Machine Learning
 Architecture
 Architecture
 Architecture
-Data Analytics (Mark as ML??)
+Data Analytics
 SNA
 Crypto
-Architecture (Memory stuff - DRAM)
-Architecture (Memory stuff - DRAM)
+Architecture
+Architecture
 Crypto
-Architecture (and Software eng.)
 Architecture
 Architecture
 Architecture
 Architecture
-Machine Learning (Image processing)
-Gen
-Gen
+Architecture
+Computer Vision
+Useless
+Useless
 Reinforcement Learning
 Reinforcement Learning
 Crypto
@@ -96,52 +96,52 @@ Crypto
 Data Mining
 Algorithms
 Data Mining
-Machine Learning (Image processing)
+Computer Vision
 SNA, Data Mining
 Machine Learning
-NLP (ML)
-NLP (ML)
-Algorithms (?)
-NLP (ML)
+NLP, Machine Learning
+NLP, Machine Learning
+Useless
+NLP, Machine Learning
 Theory
 Architecture
 AI, Machine Learning
 Theory
 Machine Learning
 Networks
-Gen
-Gen
-Waste
+Useless
+Useless
+Useless
 AI, Machine Learning
-Algorithms, ?
-Networks, Algorithms ?
-Computer Vision, Image processing
-Computer Vision, Image processing
-Machine Learning (Image processing)
-All ?
+Software Engg, Algorithms
+Networks, Algorithms
+Computer Vision
+Computer Vision
+Computer Vision
+Useless
 Networks, Architecture
-All ?
-Gen
-Machine Learning (Image processing)
+Useless
+Useless
+Computer Vision
 Theory
-Algorithms, Theory
+Algorithms
 Useless
 Useless
 Useless
 Theory
-All ?
-Data Analytics (Mark as ML??)
-Algorithms ?
-Networks ?
-Algorithms ?
-Algorithms ?
-Algorithms ?
+Networks, Crypto, Architecture, AI
+Data Analytics, Machine Learning
+Algorithms
+Networks
+Algorithms
+Algorithms
+Algorithms
 Database
-Data analytics
+Data Analytics
 Networks
 Architecture
 Networks
-Architecture,Networks
+Architecture, Networks
 Architecture
 Database
 Database
@@ -149,99 +149,95 @@ Useless
 Networks
 Machine Learning
 Machine Learning
-??
-??
-??
+Architecture
+Architecture
+Architecture
 Architecture, Networks
 NLP, Machine Learning
 Algorithms
 Networks
 Architecture
 Architecture
-AI ??
+AI
 Algorithms
 Algorithms
-AI ??
-Machine Learning (Graphs ?)
+AI
+Data Mining, Machine Learning
 Algorithms
-AI ??
+AI
 Algorithms
-Algorithms, Theory
-Algorithms, Theory
+Algorithms
+Algorithms
 Machine Learning
-Data analytics
+Data Analytics
 Machine Learning
-Machine Learning,Image processing
-Algorithms, Theory
-Machine Learning (Graphs ?)
+Computer Vision
+Algorithms
+Data Mining, Machine Learning
 AI
 Software Engg
 Software Engg
-Machine Learning, Graphs ?
+Computer Vision
 Architecture, Algorithms
 Algorithms
-?
-?
-?
-Machine Learning, Image processing
-Algorithms, Theory
-Machine Learning, Image processing
-Theory ?
-Sound ?
+Data Mining, Machine Learning
+Data Mining, Machine Learning
+Data Mining, Machine Learning
+Computer Vision
+Algorithms
+Computer Vision
+Theory
+AI, DSP
 Architecture, Algorithms
 Architecture, Networks
 SNA
 Database, Algorithms
-
-sound ?
-??
-Data analytics
+Useless
+AI, DSP
+AI, DSP
+Data Analytics
 NLP, Machine Learning
 Architecture
 Database
-??
-
+AI, DSP
+Useless
 NLP, Machine Learning
-sound ?
-sound ?
-sound ?
+AI, DSP
+AI, DSP
+AI, DSP
 Crypto
 Architecture
 Crypto
-Useless (Check it out :P)
+Useless
 Crypto
 Crypto
 Crypto
-Software Engg.
-Software Engg.
-Architecture, Software Engg.
-Software Engg.
-Software Engg.
-Data analytics
-Software Engg.
-Software Engg.
-Data analytics, Theory ?
+Software Engg
+Software Engg
+Architecture, Software Engg
+Software Engg
+Software Engg
+Data Analytics
+Software Engg
+Software Engg
+Data Analytics, Theory
 Theory
-Data analytics
-SNA, Data analytics
+Data Analytics
+SNA, Data Analytics
 Theory, Algorithms
 Algorithms
 Algorithms
-Data analytics, Theory ?
-Data analytics
+Data Analytics, Theory
+Data Analytics
 Networks
 Networks
 Networks
 Machine Learning
-Algorithms, Theory
-Algorithms, Theory
-?
+Algorithms
+Algorithms
+Crypto
 Crypto
 Algorithms
-Algorithms, Theory
-Software Engg.
+Algorithms
+Software Engg
 Networks
-
-
-
-

@@ -39,10 +39,8 @@ switch from discrete mathematics to more of an emphasis on probability, sta=
 tistics and numerical methods =E2=80=9D. This talk will highlight a new dev=
 elopment in stochastic processes created by Erik Vanmarcke called =E2=80=9C=
 Random Field Theory=E2=80=9D (RFT) in the 1980s. The speaker links RFT to p=
-redicting practical events such as chatter in machine tools and to =E2=80=
-=9CX-Events=E2=80=9D as John Casti describes elegantly in his popular scien=
-ce book, =E2=80=9CX-Events: The Collapse of Everything=E2=80=9D! The speake=
-r will develop the basics of RFT and discuss some second-order properties t=
+redicting practical events such as chatter in machine tools and to Events as John Casti describes elegantly in his popular scien=
+ce book, Events: The Collapse of Everything The speaker will develop the basics of RFT and discuss some second-order properties t=
 hat may provide intriguing insights into the behavior of dynamical systems =
 as well as possible applications in retail marketing.=20
 
