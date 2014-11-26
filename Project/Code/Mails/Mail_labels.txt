@@ -80,4 +80,73 @@ Crypto
 Architecture (Memory stuff - DRAM)
 Architecture (Memory stuff - DRAM)
 Crypto
+Architecture (and Software eng.)
+Architecture
+Architecture
+Architecture
+Architecture
+Machine Learning (Image processing)
+Gen
+Gen
+Reinforcement Learning
+Reinforcement Learning
+Crypto
+Crypto
+Crypto
+Data Mining
+Algorithms
+Data Mining
+Machine Learning (Image processing)
+SNA, Data Mining
+Machine Learning
+NLP (ML)
+NLP (ML)
+Algorithms (?)
+NLP (ML)
+Theory
+Architecture
+AI, Machine Learning
+Theory
+Machine Learning
+Networks
+Gen
+Gen
+Waste
+AI, Machine Learning
+Algorithms, ?
+Networks, Algorithms ?
+Computer Vision, Image processing
+Computer Vision, Image processing
+Machine Learning (Image processing)
+All ?
+Networks, Architecture
+All ?
+Gen
+Machine Learning (Image processing)
+Theory
+Algorithms, Theory
+Useless
+Useless
+Useless
+Theory
+All ?
+Data Analytics (Mark as ML??)
+Algorithms ?
+Networks ?
+Algorithms ?
+Algorithms ?
+Algorithms ?
+Database
+Data analytics
+Networks
+Architecture
+Networks
+Architecture,Networks
+Architecture
+Database
+Database
+Useless
+Networks
+Machine Learning
+
 
