@@ -259,6 +259,8 @@ for i in range(0,len(all_mails)):
 	sub = all_mails_subs[i]
 	if b[label] < a[label]:
 		train_mails.append(mail)
+		#print mail
+		#print label
 		train_subs.append(sub)
 		train_mails_labels.append(label)
 		b[label] += 1
@@ -270,10 +272,10 @@ for i in range(0,len(all_mails)):
 
 #print train_mails
 
-#predicted_labels = cotrain(train_mails,train_subs,train_mails_labels,unlabel_mails,unlabel_subs)
+predicted_labels = cotrain(train_mails,train_subs,train_mails_labels,unlabel_mails,unlabel_subs)
 #print (predicted_labels),(all_mail_labels)
 
-#print "Accuracy",labels_find_intersection(predicted_labels,all_mails_labels)
+print "Accuracy",labels_find_intersection(predicted_labels,all_mail_labels)
 
 
 predicted_labels = coem(train_mails,train_subs,train_mails_labels,unlabel_mails,unlabel_subs)
