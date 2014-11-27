@@ -24,9 +24,8 @@ def newwordlist(text):
 def labels_find_intersection(set1, set2):
     num = den = 0
     for label1, label2 in zip(set1, set2):
-        if label2 != 'useless':
-            den += 1
-            if label1==label2:
+        den += 1
+        if label1==label2:
                 num += 1
     return float(num)/den
 
@@ -49,7 +48,7 @@ def coem(L1, L2, U1, U2):
 
     pipeline = Pipeline([('tfidf', TfidfTransformer()),
                          ('chi2', SelectKBest(chi2, k=100)),
-                         ('nb', MultinomialNB())])
+                         ('svm', LinearSVC())])
     classifier1 = SklearnClassifier(pipeline)
     classifier1.train(L1)
     print U1
@@ -61,7 +60,7 @@ def coem(L1, L2, U1, U2):
     # Now B will learn on L as well as A's labels on U
     iterations = 0
 
-    while iterations < 5:
+    while iterations < 25:
         classifier2 = SklearnClassifier(pipeline)
         # Add everything in L
         L2_train = L2
@@ -87,7 +86,7 @@ def coem(L1, L2, U1, U2):
         classifier1.train(L1_train)    
         U1_labels = classifier1.classify_many(U1)
         #print U1_labels,U2_labels    
-        #print labels_find_intersection(U1_labels,U2_labels)
+        print labels_find_intersection(U1_labels,U2_labels)
         iterations += 1
 
     return U1_labels
@@ -269,7 +268,7 @@ for mail, label in zip(all_mails, all_mail_labels):
 
 pipeline = Pipeline([('tfidf', TfidfTransformer()),
                      ('chi2', SelectKBest(chi2, k=1000)),
-                     ('nb', MultinomialNB())])
+                     ('svm', LinearSVC())])
 classif = SklearnClassifier(pipeline)
 add_label = lambda lst, lab: [(x, lab) for x in lst]
 finalset = []
