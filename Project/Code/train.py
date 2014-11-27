@@ -13,6 +13,14 @@ import numpy as np
 def wordlist(text):
     return re.findall('[a-z]+', text.lower())
 
+def newwordlist(text):
+    initial = re.findall('[a-z]+', text.lower())
+    badwords = stopwords.words('english')
+    badwords.extend(['ac', 'in', 'iitm', 'www', 'th', 'st', 'll'])
+    badwords.extend(list(string.lowercase))
+    final = [w for w in initial if w not in badwords]
+    return final
+
 def labels_find_intersection(set1, set2):
     num = den = 0
     for label1, label2 in zip(set1, set2):
@@ -273,7 +281,7 @@ train_set = {}
 for mail, label in zip(all_mails, all_mail_labels):
     if label not in train_set:
         train_set[label] = []
-    train_set[label].append(FreqDist(wordlist(mail)))
+    train_set[label].append(FreqDist(newwordlist(mail)))
 
 pipeline = Pipeline([('tfidf', TfidfTransformer()),
                      ('chi2', SelectKBest(chi2, k=1000)),
