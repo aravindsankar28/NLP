@@ -1,8 +1,13 @@
-import nltk
+import nltk,string
 from nltk.corpus import stopwords
+from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.svm import LinearSVC
 from nltk.classify.scikitlearn import SklearnClassifier
-from nltk.stem.wordnet import WordNetLemmatizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk.stem.porter import PorterStemmer
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
+import numpy as np 
 
 def labels_find_intersection(set1,set2):
 	count = 0
@@ -15,6 +20,12 @@ def labels_find_intersection(set1,set2):
 
 	return float(count)/len(set1)
 
+def tokenize(text):
+    tokens = nltk.word_tokenize(text)
+    stems = []
+    for item in tokens:
+        stems.append(PorterStemmer().stem(item))
+    return stems
 
 def bag_of_words(words):
         return dict([(word, True) for word in words])
@@ -209,6 +220,7 @@ def cotrain(L1,L2,L_labels,U1,U2):
 
 
 
+# Code starts here
 
 all_mails = []
 all_mails_subs = []
@@ -272,10 +284,10 @@ for i in range(0,len(all_mails)):
 
 #print train_mails
 
-predicted_labels = cotrain(train_mails,train_subs,train_mails_labels,unlabel_mails,unlabel_subs)
+#predicted_labels = cotrain(train_mails,train_subs,train_mails_labels,unlabel_mails,unlabel_subs)
 #print (predicted_labels),(all_mail_labels)
 
-print "Accuracy",labels_find_intersection(predicted_labels,all_mail_labels)
+#print "Accuracy",labels_find_intersection(predicted_labels,all_mail_labels)
 
 
 predicted_labels = coem(train_mails,train_subs,train_mails_labels,unlabel_mails,unlabel_subs)
@@ -286,22 +298,55 @@ print "Accuracy",labels_find_intersection(predicted_labels,unlabel_mails_labels)
 
 train_set = []
 i = 0
+
+list_mail = []
+token_dict = {}
+
 for mail in all_mails:
 	train_set.append((bag_of_non_stopwords(mail.split()),all_mail_labels[i]))
+	list_mail.append(mail.lower().translate(None, string.punctuation))
+	token_dict[i] = mail.lower().translate(None, string.punctuation)
 	i+=1
 
-print len(train_set)
+
+#tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english')
+vectorizer = CountVectorizer()
+counts = vectorizer.fit_transform(list_mail)
+
+#tfs = tfidf.fit_transform(list_mail)
+
+#for x in tfs[0]:
+
+
+transformer = TfidfTransformer()
+tfidf = transformer.fit_transform(counts)
+print tfidf.shape
+#x =  tfs.toarray()
+
+#print tfs[1]
+
+#train_set = tfs[0].tolist()
+
+#print train_set[0]
+
 classifier = SklearnClassifier(LinearSVC())
 classifier.train(train_set)
+
+
+ch2 = SelectKBest(chi2, k=100)
+X_train = ch2.fit_transform(tfidf, all_mail_labels)
+#X_test = ch2.transform(X_test)
+print X_train
+
 #classifier = nltk.NaiveBayesClassifier.train(train_set)
 
 bow = []
 for mail in all_mails:
 	bow.append(bag_of_non_stopwords(mail.split()))
 
-labels = classifier.classify_many(bow)	
+labels = classifier.classify_many(bow)
 
-print len(labels),len(all_mail_labels)
-print labels,all_mail_labels
+#print len(labels),len(all_mail_labels)
+#print labels,all_mail_labels
 print "Accuracy fully supervised ",labels_find_intersection(labels,all_mail_labels)
 #classifier.show_most_informative_features()

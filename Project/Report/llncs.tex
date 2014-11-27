@@ -3,26 +3,30 @@
 % for Lecture Notes in Computer Science, version 2.4
 \documentclass{llncs}
 \usepackage{llncsdoc}
+ 
+ \usepackage{algorithm2e}
+
 %
 \begin{document}
-\markboth{\LaTeXe{} Class for Lecture Notes in Computer
-Science}{\LaTeXe{} Class for Lecture Notes in Computer Science}
+\markboth{CS6370 - Natural Language Processing
+}{Email Classification Using Co-EM}
 \thispagestyle{empty}
 \begin{flushleft}
-\LARGE\bfseries Instructions for Authors\\
-Coding with \LaTeX\\[2cm]
+\LARGE\bfseries Email Classification Using Co-EM\\[2cm]
 \end{flushleft}
 \rule{\textwidth}{1pt}
 \vspace{2pt}
-\begin{flushright}
+\begin{center}
 \Huge
 \begin{tabular}{@{}l}
-\LaTeXe{} Class\\
-for Lecture Notes\\
-in Computer Science\\[6pt]
-{\Large Version 2.4}
+Email Classification Using Co-EM\\
+Project Report \\[10pt]
+
+Aravind Sankar (CS11B033) \\
+Sriram V (CS11B058) \\
+
 \end{tabular}
-\end{flushright}
+\end{center}
 \rule{\textwidth}{1pt}
 \vfill
 %\begin{flushleft}
@@ -35,35 +39,35 @@ in Computer Science\\[6pt]
 %Santa\kern0.2em Clara\enspace Singapore\enspace Tokyo
 %\end{tabular}
 %\end{flushleft}
-\newpage
+%\newpage
 %
-\section*{For further information please contact us:}
+%\section*{For further information please contact us:}
 %
-\begin{flushleft}
-\begin{tabular}{l@{\quad}l@{\hspace{3mm}}l@{\qquad}l}
-$\bullet$&\multicolumn{3}{@{}l}{\bfseries LNCS Editorial Office}\\[1mm]
-&\multicolumn{3}{@{}l}{Springer-Verlag}\\
-&\multicolumn{3}{@{}l}{Computer Science Editorial}\\
-&\multicolumn{3}{@{}l}{Tiergartenstraﬂe 17}\\
-&\multicolumn{3}{@{}l}{69121 Heidelberg}\\
-&\multicolumn{3}{@{}l}{Germany}\\[0.5mm]
- & Tel:       & +49-6221-487-8706\\
- & Fax:       & +49-6221-487-8588\\
- & e-mail:    & \tt lncs@springer.com    & for editorial questions\\
- &            & \tt texhelp@springer.de & for \TeX{} problems\\[2mm]
-\noalign{\rule{\textwidth}{1pt}}
-\noalign{\vskip2mm}
+%\begin{flushleft}
+%\begin{tabular}{l@{\quad}l@{\hspace{3mm}}l@{\qquad}l}
+%$\bullet$&\multicolumn{3}{@{}l}{\bfseries LNCS Editorial Office}\\[1mm]
+%&\multicolumn{3}{@{}l}{Springer-Verlag}\\
+%&\multicolumn{3}{@{}l}{Computer Science Editorial}\\
+%&\multicolumn{3}{@{}l}{Tiergartenstraﬂe 17}\\
+%&\multicolumn{3}{@{}l}{69121 Heidelberg}\\
+%&\multicolumn{3}{@{}l}{Germany}\\[0.5mm]
+% & Tel:       & +49-6221-487-8706\\
+% & Fax:       & +49-6221-487-8588\\
+% & e-mail:    & \tt lncs@springer.com    & for editorial questions\\
+% &            & \tt texhelp@springer.de & for \TeX{} problems\\[2mm]
+%\noalign{\rule{\textwidth}{1pt}}
+%\noalign{\vskip2mm}
 %
 %{\tt svserv@vax.ntp.springer.de}\hfil first try the \verb|help|
 %command.
 %
-$\bullet$&\multicolumn{3}{@{}l}{\bfseries We are also reachable through the world wide web:}\\[1mm]
-         &\multicolumn{2}{@{}l}{\texttt{http://www.springer.com}}&Springer Global Website\\
-         &\multicolumn{2}{@{}l}{\texttt{http://www.springer.com/lncs}}&LNCS home page\\
-         &\multicolumn{2}{@{}l}{\texttt{http://www.springerlink.com}}&data repository\\
-         &\multicolumn{2}{@{}l}{\texttt{ftp://ftp.springer.de}}&FTP server
-\end{tabular}
-\end{flushleft}
+%$\bullet$&\multicolumn{3}{@{}l}{\bfseries We are also reachable through the world wide web:}\\[1mm]
+%         &\multicolumn{2}{@{}l}{\texttt{http://www.springer.com}}&Springer Global Website\\
+%         &\multicolumn{2}{@{}l}{\texttt{http://www.springer.com/lncs}}&LNCS home page\\
+%         &\multicolumn{2}{@{}l}{\texttt{http://www.springerlink.com}}&data repository\\
+%         &\multicolumn{2}{@{}l}{\texttt{ftp://ftp.springer.de}}&FTP server
+%\end{tabular}
+%\end{flushleft}
 
 
 %
@@ -72,70 +76,75 @@ $\bullet$&\multicolumn{3}{@{}l}{\bfseries We are also reachable through the worl
 \newpage
 %
 \section{Introduction}
+The broad area of Text Classification has been a topic of research for a very long time now, and has been well  researched especially in the case of supervised learning of classifiers. The traditional problems solved in the past by text classification include automatically cataloging news articles, web pages and spam detection in emails, etc. Text classification as defined by \cite{survey1}, is the activity of labeling natural language texts with thematic categories from a predefined set. Most of the earlier approaches assume the existence of sufficient training data, which has labeled instances of documents with their corresponding labels. As the process of labeling here requires human effort, our focus is therefore directed towards
+tackling the problem of classification of limited labeled data, otherwise referred to as semi-supervised learning, assuming we have a large number of un-labeled documents. \\[10pt]
+
+Although text classification is a problem that has been looked into right from the 1960s, email classification is highly relevant in today's fast-paced world, where one does not have the time to sift through vast amounts of mail but would rather like information clustered together, so that one may disregard the irrelevant ones such as promotional offers, and focus attention on the important ones at hand. Triaging has gained a lot of focus in recent times, with GMail launching personalized mail classification, and with other services such as Mailbox and Boxer focusing on improving user efficiency. Thus, this problem is of immense interest in recent times, and improving performance and accuracy, without existence of enough labeled email, is of prime concern. \\[10pt]
+
+One of the most popular problems addressed by email classification is that of spam filtering, i.e. separating emails into spam and ham. This problem has been widely addressed, with various classifiers and feature selection and extraction methods experimented with. Prior work has shown great results on the Enron corpus, which is the most popular dataset used for this problem. We wish to focus on the problem of categorizing emails into categories, which would help a user identify the emails important to him. If we have a idea about the areas of interest of a user, then the emails could be easily filtered according to the category and the relevant mails can be displayed first, hence making it personalized to the user.\\[10pt]
+
+Before we describe the exact problem we solve and our approach, a brief survey of existing techniques to solve email classification is shown in the following section.
 
 \section{Literature Survey} 
+As mentioned earlier, spam filtering was one of the popular problems addressed. Initially, the mails were classified as spam using the presence of certain predefined tokens in the email body. As these methods require manual specification of these tokens, the focus shifted to learning, which required the mails to defined as a set of features. Among the various feature extraction techniques, the Bag-of-Words feature representation has been widely used. This representation gives a set of binary features, for each mail, where each feature shows the presence or absence of a particular term.
+Some of the other methods such  as \cite{junk} include other spam features, that are domain specific. Other techniques such as \cite{time} have used temporal features which identify temporal relations in an email sequence in the form of temporal sequential patterns using the timestamps. Behavioral features have also been identified by \cite{behave}, by looking at outgoing messages from a user. \\[10pt]
+
+Once the features have been extracted from the emails, the standard supervised classification techniques have been put to use. The most predominant ones, being the Naive Bayes and the SVM classifiers. The Naive Bayes classifier assumes that each of the features  $f_1,f_2, ... f_n$ of the email are conditionally independent given the class label $C$. Surprisingly, this has proved to quite effective for email classification. Studies have been performed, comparing different classification approaches, eg: the Naive Bayes has been compared with Rule learning approaches by \cite{nbrule} and has been shown that Naive Bayes performs much better.
+SVM's have also been widely used, which try to separate the two classes by an optimum hyperplane. Another comparative study by \cite{comp} showed the effectiveness of a decision tree classifier in spam filtering in comparison to SVM's and Neural Networks. \\[10pt]
+
+The unsupervised approaches for email classification are broadly based upon 2 techniques, namely EM (Expectation Maximization) and Co-Training. These approaches typically start with a very small set of labeled instances and slowly label each of the unlabeled instances in subsequent iterations. The EM algorithm has been traditionally used to solve incomplete data problems, in many different areas. Here, the unlabeled emails constitute the incomplete data of the problem. The EM algorithm for text classification first introduced by \cite{EM} first trains a classifier with only the available labeled documents, and then uses the classifier to assign probabilistically-weighted class labels to each unlabeled document by calculating the expectation of the missing class labels.  The idea of co-training, on the other hand is different. Co-training was used in email classification first by \cite{cotrain}. It starts with just a few labeled emails, and builds an initial weak classifier. It assumes the existence of 2 sets of redundant features but sufficient on their own for correct classification. We can see that in case of email, we can think of the email body and email header (including subject) as a set of 2 independent feature sets. \cite{cotrain} have shown that SVM's have performed better than the Naive Bayes classifier when Co-training is used. \\[10pt]
+
+Our approach draws inspiration from Co-Training and EM, and uses the Co-EM approach, which was proposed by \cite{coem}. To the best of our knowledge, Co-EM has not been experimented with, for the purpose of email classification. We use Co-EM for email classification, and compare with Co-Training and evaluate it's effectiveness.
+
+
 \section{Methodology} 
+
+Before going into the details of our approach, we provide a brief description of the Co-Training algorithm, as applied to email classification by \cite{cotrain}.
+
+
+\begin{flushleft}
+
+
+\textbf{Co-Training :} \\[10pt]
+
+Given 2 redundantly sufficient sets of features $F_1$ and $F_2$, $L$ - the set of labeled mails (typically small) and $U$ - the set of unlabeled mails, the algorithm switches between 2 classifiers and add mails to $L$, in each iteration.\\[10pt]
+
+\begin{algorithm}[H]
+ \KwData{$L$,$U$,$k$ (parameter)}
+ \KwResult{Fully labeled set $L$}
+ 
+ \While{Any documents are present in U}{
+
+  Learn classifier $C_1$ from $F_1$ on $L$\;
+  Learn classifier $C_1$ from $F_2$ on $L$\;
+  \For{Classifier C in $\left\lbrace C_1, C_2 \right\rbrace$ }{
+	$C$ labels mails in $U$ based on it's feature set.
+	
+	Choose $k$ most confidently predicted mails from each class, in $U$.
+	
+	Remove this set of mails from $U$ and add them to $L$, with the labels predicted by $C$.
+	
+  }
+%  \eIf{understand}{
+%   go to next section\;
+%   current section becomes this one\;
+%   }{
+%   go back to the beginning of current section\;
+%  }
+ }
+ \caption{Co-Training}
+\end{algorithm} 
+
+	
+Here, the set $F_1$ of features used are extracted from the body of the mail, and the set $F_2$ from the mail header, which includes information about the sender, receiver and the subject of the mail. As these two pieces of information are mostly disjoint, and as subject and sender may prove to be a good discriminator in classifying emails, we choose this split.
+
+
+\end{flushleft}
+
+
 \section{Experiments and Results} 
 \section{Conclusions and Future Work}
 
-
-%
-Authors wishing to code their contribution
-with \LaTeX{}, as well as those who have already coded with \LaTeX{},
-will be provided with a document class that will give the text the
-desired layout. Authors are requested to
-adhere strictly to these instructions; {\em the class
-file must not be changed}.
-
-The text output area is automatically set within an area of
-12.2\,cm horizontally  and 19.3\,cm vertically.
-
-If you are already familiar with \LaTeX{}, then the
-LLNCS class should not give you any major difficulties.
-It will change the layout to the required LLNCS style
-(it will for instance define the layout of \verb|\section|).
-We had to invent some extra commands,
-which are not provided by \LaTeX{} (e.g.\
-\verb|\institute|, see also Sect.\,\ref{contbegin})
-
-For the main body of the paper (the text) you
-should use the commands of the standard \LaTeX{} ``article'' class.
-Even if you are familiar with those commands, we urge you to read
-this entire documentation thoroughly. It contains many suggestions on
-how to use our commands properly; thus your paper
-will be formatted exactly to LLNCS standard.
-For the input of the references at the end of your contribution,
-please follow our instructions given in Sect.\,\ref{refer} References.
-
-The majority of these hints are not specific for LLNCS; they may improve
-your use of \LaTeX{} in general.
-Furthermore, the documentation provides suggestions about the proper
-editing and use
-of the input files (capitalization, abbreviation etc.) (see
-Sect.\,\ref{refedit} How to Edit Your Input File).
-%
-\section{How to Proceed}
-%
-The package consists of the following files:
-\begin{flushleft}
-\begin{tabular}{@{}p{2.5cm}l}
-{\tt history.txt}& the version history of the package\\[2pt]
-{\tt llncs.cls}  & class file for \LaTeX{}\\[2pt]
-{\tt llncs.dem}  & an example showing how to code the text\\[2pt]
-{\tt llncs.doc}  & general instructions (source of this document),\\
-        & {\tt llncs.doc} means {\itshape l\/}atex {\itshape doc\/}umentation for\\
-        & {\itshape L\/}ecture {\itshape N}otes in {\itshape C\/}omputer {\itshape S\/}cience\\
-{\tt llncsdoc.pdf}& the documentation of the class (PDF version),\\
-{\tt llncs.doc}  & general instructions (source of this document),\\
-{\tt llncsdoc.sty}  & class modifications to help for the instructions\\
-{\tt llncs.ind} & an external (faked) author index file\\
-{\tt subjidx.ind} & subject index demo from the Springer book package\\
-{\tt llncs.dvi}    & the resultig DVI file (remember to use binary transfer!)\\[2pt]
-{\tt sprmindx.sty} & supplementary style file for MakeIndex\\
-                   & (usage: {\tt makeindex -s sprmindx.sty <yourfile.idx>})
-\end{tabular}
-\end{flushleft}
-%
 \subsection{How to Invoke the LLNCS Document Class}
 %
 The LLNCS class is an extension of the standard \LaTeX{} ``article''
@@ -1138,126 +1147,27 @@ The complete bibliography looks like this:
 %
 \begin{thebibliography}{[MT1]}
 %
-\bibitem[CE1]{clar:eke}
-Clarke, F., Ekeland, I.:
-Nonlinear oscillations and
-boundary-value problems for Hamiltonian systems.
-Arch. Rat. Mech. Anal. 78, 315--333 (1982)
-%
-\bibitem[CE2]{clar:eke:2}
-Clarke, F., Ekeland, I.:
-Solutions p\'{e}riodiques, du
-p\'{e}riode donn\'{e}e, des \'{e}quations hamiltoniennes.
-Note CRAS Paris 287, 1013--1015 (1978)
-%
-\bibitem[MT1]{mich:tar}
-Michalek, R., Tarantello, G.:
-Subharmonic solutions with prescribed minimal
-period for nonautonomous Hamiltonian systems.
-J. Diff. Eq. 72, 28--55 (1988)
-%
-\bibitem[Ta1]{tar}
-Tarantello, G.:
-Subharmonic solutions for Hamiltonian
-systems via a $\bbbz_{p}$ pseudoindex theory.
-Annali di Matematica Pura (to appear)
-%
-\bibitem[Ra1]{rab}
-Rabinowitz, P.:
-On subharmonic solutions of a Hamiltonian system.
-Comm. Pure Appl. Math. 33, 609--633 (1980)
-\end{thebibliography}
-%
-\subsubsection*{Number-Only System.}
-%
-For this preferred system do not use the optional argument
-in the \verb|\bibitem| command: then, only numbers will
-appear for the citations in the text (enclosed in square brackets)
-as well as for the marks in your
-bibliography (here the number is only end-punctuated without
-square brackets).
+\bibitem[1]{survey1}Sebastiani, Fabrizio. "Machine learning in automated text categorization." ACM computing surveys (CSUR) 34.1 (2002): 1-47.
 
-Subsequent citation numbers in the text are collapsed to ranges.
-Non-numeric and undefined labels are handled correctly but no sorting is
-done.
+\bibitem[2]{junk} M. Sahami, S. Dumais, D. Heckerman, and E. Horvitz, "A Bayesian 
+Approach to Filtering Junk E-Mail", In Proc. of the AAAI 
+Workshop on Learning for Text Categorization, 1998. 
 
-E.g., \verb|\cite{n1,n3,n2,n3,n4,n5,foo,n1,n2,n3,?,n4,n5}| -- where
-\verb|n|$x$ is the key of the $x^{\mathrm{th}}$ \verb|\bibitem|
-command in sequence, \verb|foo| is the key of a \verb|\bibitem| with an
-optional argument, and \verb|?| is an undefined reference -- gives
-1,3,2-5,foo,1-3,?,4,5 as the citation reference.
+\bibitem[3]{time} Kiritchenko, Svetlana, Stan Matwin, and Suhayya Abu-Hakima. "Email classification with temporal features." Intelligent Information Processing and Web Mining. Springer Berlin Heidelberg, 2004. 523-533.
 
-\begin{verbatim}
-\begin{thebibliography}{1}
-\bibitem {clar:eke}
-Clarke, F., Ekeland, I.:
-Nonlinear oscillations and boundary-value problems for
-Hamiltonian systems.
-Arch. Rat. Mech. Anal. 78, 315--333 (1982)
+\bibitem[4]{behave} Martin, Steve, et al. "Analyzing Behavioral Features for Email Classification." CEAS. 2005.
+
+\bibitem[5]{nbrule} Provost, Jefferson. "Naive-Bayes vs. Rule-Learning in Classification of Email." University of Texas at Austin (1999).
+
+\bibitem[6]{comp} Youn, Seongwook, and Dennis McLeod. "A comparative study for email classification." Advances and Innovations in Systems, Computing Sciences and Software Engineering. Springer Netherlands, 2007. 387-391.
+
+\bibitem[7]{EM} Nigam, Kamal, et al. "Text classification from labeled and unlabeled documents using EM." Machine learning 39.2-3 (2000): 103-134.
+
+\bibitem[8]{cotrain} Email classification with co-training. Svetlana Kiritchenko, Stan Matwin. In Proceedings of the 2001 conference of the Centre for Advanced Studies on Collaborative Research, CASCON 2001.
+
+\bibitem[9]{coem} Analyzing the Effectiveness and Applicability of Co-training. Kamal Nigam, Rayid Ghani. In Proceedings
+of the Ninth International Conference on Information and Knowledge Management, CIKM 2000.
+
 \end{thebibliography}
-\end{verbatim}
-%
-\subsection{Author-Year System}
-%
-References are cited in the text by name and year in parentheses
-and should look as follows:
-(Smith 1970, 1980), (Ekeland et al. 1985, Theorem 2), (Jones and Jaffe
-1986; Farrow 1988, Chap.\,2). If the name is part of the sentence
-only the year may appear in parentheses,
-e.g.\ Ekeland et al. (1985, Sect.\,2.1)
-The reference list should contain all citations occurring in the text,
-ordered alphabetically by surname (with initials following). If there
-are several works by the same author(s) the references should be listed
-in the appropriate order indicated below:
-\begin{alpherate}
-\setlength{\hfuzz}{5pt}
-\item
-One author: list works chronologically;
-\item
-Author and same co-author(s): list works chronologically;
-\item
-Author and different co-authors: list works alphabetically
-according to co-authors.
-\end{alpherate}
-If there are several works by the same author(s) and in the same year,
-but which are cited separately, they should be distinguished by the use
-of ``a'', ``b'' etc., e.g.\ (Smith 1982a), (Ekeland et al. 1982b).
-%
-\subsubsection*{How to Code Author-Year System.}
-%
-If you want to use this system you have to specify the option
-\verb|[citeauthoryear]| in the \verb|documentclass|, like:
-\begin{verbatim}
-\documentclass[citeauthoryear]{llncs}
-\end{verbatim}
-Write your citations in the text explicitly except for the year, leaving
-that up to \LaTeX{} with the \verb|\cite| command. Then give only the
-appropriate year as the optional argument (i.e. the label in square
-brackets) with the \verb|\bibitem| command(s).\\[2mm]
-{\itshape Sample Input}
-\begin{verbatim}
-The results in this section are a refined version
-of Clarke and Ekeland (\cite{clar:eke}); the minimality result of
-Proposition~14 was the first of its kind.
-\end{verbatim}
-The above input produces the citation: ``\dots\ refined version of
-Clarke and Ekeland (1982); the minimality\dots''. Then the
-\verb|\bibitem| entry of \verb|clar:eke| in the \verb|thebibliography|
-environment should read:
-\begin{verbatim}
-\begin{thebibliography}{}  % (do not forget {})
-.
-.
-\bibitem[1982]{clar:eke}
-Clarke, F., Ekeland, I.:
-Nonlinear oscillations and boundary-value problems for
-Hamiltonian systems.
-Arch. Rat. Mech. Anal. 78, 315--333 (1982)
-.
-.
-\end{thebibliography}
-\end{verbatim}
-{\itshape Sample Output}
-\bibauthoryear
 %
 \end{document}

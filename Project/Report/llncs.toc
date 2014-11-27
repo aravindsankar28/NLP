@@ -1,38 +1,36 @@
-\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {1}Introduction}{3}
 \contentsline {section}{\numberline {2}Literature Survey}{4}
-\contentsline {section}{\numberline {3}Methodology}{4}
-\contentsline {section}{\numberline {4}Experiments and Results}{4}
-\contentsline {section}{\numberline {5}Conclusions and Future Work}{4}
-\contentsline {section}{\numberline {6}How to Proceed}{4}
-\contentsline {subsection}{\numberline {6.1}How to Invoke the LLNCS Document Class}{5}
-\contentsline {subsection}{\numberline {6.2}Contributions Already Coded with \LaTeX {} without the LLNCS document class}{5}
-\contentsline {section}{\numberline {7}General Rules for Coding Formulas}{6}
-\contentsline {subsection}{\numberline {7.1}Italic and Roman Type in Math Mode}{6}
-\contentsline {section}{\numberline {8}How to Edit Your Input (Source) File}{7}
-\contentsline {subsection}{\numberline {8.1}Headings}{7}
-\contentsline {subsection}{\numberline {8.2}Capitalization and Non-capitalization}{7}
-\contentsline {subsection}{\numberline {8.3}Abbreviation of Words}{7}
-\contentsline {section}{\numberline {9}How to Code the Beginning of Your Contribution}{8}
-\contentsline {subsubsection}{Remark to Running Heads and the Table of Contents}{9}
-\contentsline {section}{\numberline {10}Special Commands for the Volume Editor}{10}
-\contentsline {section}{\numberline {11}How to Code Your Text}{10}
-\contentsline {section}{\numberline {12}Predefined Theorem like Environments}{11}
-\contentsline {section}{\numberline {13}Defining your Own Theorem like Environments}{11}
-\contentsline {subsection}{\numberline {13.1}Method 1 {\itshape (preferred)}}{12}
-\contentsline {paragraph}{Sample Input}{12}
-\contentsline {subsection}{\numberline {13.2}Method 2}{12}
-\contentsline {paragraph}{Example}{12}
-\contentsline {subsection}{\numberline {13.3}Unnumbered Environments}{13}
-\contentsline {section}{\numberline {14}Program Codes}{13}
-\contentsline {section}{\numberline {15}Fine Tuning of the Text}{16}
-\contentsline {section}{\numberline {16}Special Typefaces}{16}
-\contentsline {section}{\numberline {17}Footnotes}{17}
-\contentsline {section}{\numberline {18}Lists}{17}
-\contentsline {section}{\numberline {19}Figures}{17}
-\contentsline {section}{\numberline {20}Tables}{18}
-\contentsline {subsection}{\numberline {20.1}Tables Coded with \LaTeX {}}{19}
-\contentsline {subsection}{\numberline {20.2}Tables Not Coded with \LaTeX {}}{19}
-\contentsline {subsection}{\numberline {20.3}Signs and Characters}{20}
-\contentsline {section}{\numberline {21}References}{21}
-\contentsline {subsection}{\numberline {21.1}References by Letter-Number or by Number Only}{21}
-\contentsline {subsection}{\numberline {21.2}Author-Year System}{22}
+\contentsline {section}{\numberline {3}Methodology}{5}
+\contentsline {section}{\numberline {4}Experiments and Results}{6}
+\contentsline {section}{\numberline {5}Conclusions and Future Work}{6}
+\contentsline {subsection}{\numberline {5.1}How to Invoke the LLNCS Document Class}{6}
+\contentsline {subsection}{\numberline {5.2}Contributions Already Coded with \LaTeX {} without the LLNCS document class}{6}
+\contentsline {section}{\numberline {6}General Rules for Coding Formulas}{6}
+\contentsline {subsection}{\numberline {6.1}Italic and Roman Type in Math Mode}{7}
+\contentsline {section}{\numberline {7}How to Edit Your Input (Source) File}{8}
+\contentsline {subsection}{\numberline {7.1}Headings}{8}
+\contentsline {subsection}{\numberline {7.2}Capitalization and Non-capitalization}{8}
+\contentsline {subsection}{\numberline {7.3}Abbreviation of Words}{8}
+\contentsline {section}{\numberline {8}How to Code the Beginning of Your Contribution}{8}
+\contentsline {subsubsection}{Remark to Running Heads and the Table of Contents}{10}
+\contentsline {section}{\numberline {9}Special Commands for the Volume Editor}{10}
+\contentsline {section}{\numberline {10}How to Code Your Text}{11}
+\contentsline {section}{\numberline {11}Predefined Theorem like Environments}{12}
+\contentsline {section}{\numberline {12}Defining your Own Theorem like Environments}{12}
+\contentsline {subsection}{\numberline {12.1}Method 1 {\itshape (preferred)}}{12}
+\contentsline {paragraph}{Sample Input}{13}
+\contentsline {subsection}{\numberline {12.2}Method 2}{13}
+\contentsline {paragraph}{Example}{13}
+\contentsline {subsection}{\numberline {12.3}Unnumbered Environments}{13}
+\contentsline {section}{\numberline {13}Program Codes}{13}
+\contentsline {section}{\numberline {14}Fine Tuning of the Text}{17}
+\contentsline {section}{\numberline {15}Special Typefaces}{17}
+\contentsline {section}{\numberline {16}Footnotes}{18}
+\contentsline {section}{\numberline {17}Lists}{18}
+\contentsline {section}{\numberline {18}Figures}{18}
+\contentsline {section}{\numberline {19}Tables}{19}
+\contentsline {subsection}{\numberline {19.1}Tables Coded with \LaTeX {}}{20}
+\contentsline {subsection}{\numberline {19.2}Tables Not Coded with \LaTeX {}}{20}
+\contentsline {subsection}{\numberline {19.3}Signs and Characters}{21}
+\contentsline {section}{\numberline {20}References}{22}
+\contentsline {subsection}{\numberline {20.1}References by Letter-Number or by Number Only}{22}
