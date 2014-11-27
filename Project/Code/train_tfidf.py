@@ -48,11 +48,11 @@ def bag_of_non_stopwords(words, stopfile = 'english'):
 def coem(L1, L2, U1, U2):
 
     pipeline = Pipeline([('tfidf', TfidfTransformer()),
-                         ('chi2', SelectKBest(chi2, k=1000)),
+                         ('chi2', SelectKBest(chi2, k=100)),
                          ('nb', MultinomialNB())])
     classifier1 = SklearnClassifier(pipeline)
-    print L1
     classifier1.train(L1)
+    print U1
 
     # Predict on U using 1st classifier
     U1_labels = classifier1.classify_many(U1)
@@ -242,14 +242,15 @@ unlabel_mails = []
 unlabel_subs = []
 unlabel_mails_labels = []
 for label, bow in train_set.iteritems():
-    if b[label]<a[label]:
-        final_mails.extend(add_label(bow[0], label))
-        final_subs.extend(add_label(bow[1], label))
-        b[label] += 1
-    else:
-        unlabel_mails.extend(bow[0])
-        unlabel_subs.extend(bow[1])
-        unlabel_mails_labels.append(label)
+    for i in range(len(bow)):
+        if b[label]<a[label]:
+            final_mails.append((bow[i][0], label))
+            final_subs.append((bow[i][1], label))
+            b[label] += 1
+        else:
+            unlabel_mails.append(bow[i][0])
+            unlabel_subs.append(bow[i][1])
+            unlabel_mails_labels.append(label)
 
 
 #predicted_labels = cotrain(train_mails, train_subs, train_mails_labels, unlabel_mails, unlabel_subs)
