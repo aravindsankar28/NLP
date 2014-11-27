@@ -187,7 +187,7 @@ ai
 theory
 ai
 theory
-ai, ai
+ai
 arch
 arch
 networks

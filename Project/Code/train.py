@@ -4,9 +4,11 @@ from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.svm import LinearSVC
 from nltk.classify.scikitlearn import SklearnClassifier
 from nltk.stem.porter import PorterStemmer
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer, TfidfVectorizer
-import numpy as np 
+from nltk.probability import FreqDist
+from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import Pipeline
+import numpy as np 
 
 def wordlist(text):
     return re.findall('[a-z]+', text.lower())
@@ -115,7 +117,7 @@ def cotrain(L1, L2, L_labels, U1, U2):
         L2_train = []
 
         for i,mail in enumerate(L1):
-            L1_train.append((bag_of_non_stopwords(wordlist(mail))),L_labels[i]))
+            L1_train.append((bag_of_non_stopwords(wordlist(mail))),L_labels[i])
         
         for i,mail in enumerate(L2):
             L2_train.append((bag_of_non_stopwords(wordlist(mail)),L_labels[i]))
@@ -266,61 +268,89 @@ for mail, label, sub in zip(all_mails, all_mail_labels, all_mails_subs):
 #print "Accuracy", labels_find_intersection(predicted_labels, unlabel_mails_labels)
 
 # Finding accuracy in case of fully supervised case. But accuracy is only on training set.
-train_set = []
-list_mail = []
+train_set = {}
 
 for mail, label in zip(all_mails, all_mail_labels):
-    train_set.append((bag_of_non_stopwords(wordlist(mail)), label))
-    print mail
-    print mail.lower().translate(None, string.punctuation)
-    list_mail.append(mail.lower().translate(None, string.punctuation))
+    if label not in train_set:
+        train_set[label] = []
+    train_set[label].append(FreqDist(wordlist(mail)))
 
+pipeline = Pipeline([('tfidf', TfidfTransformer()),
+                     ('chi2', SelectKBest(chi2, k=1000)),
+                     ('nb', MultinomialNB())])
+classif = SklearnClassifier(pipeline)
+add_label = lambda lst, lab: [(x, lab) for x in lst]
+finalset = []
+for label,bow in train_set.iteritems():
+    finalset.extend(add_label(bow, label))
+classif.train(finalset)
+
+conf = []
+for l, bow in train_set.iteritems():
+    labels = np.array(classif.classify_many(bow))
+    row = []
+    for label in train_set:
+        row.append((labels==label).sum())
+    conf.append(row)
+
+for c in conf:
+    print c
+
+diagval = 0
+total = 0
+for i in range(len(conf)):
+    for j in range(len(conf)):
+        total += conf[i][j]
+        if i==j:
+            diagval += conf[i][j]
+
+accuracy = float(diagval)/total
+print "Accuracy fully supervised", accuracy
 #TODO: Check if BOW model is right
 
+#print labels, all_mail_labels
+#print "Accuracy fully supervised ",labels_find_intersection(labels, all_mail_labels)
 
-#tfidf = TfidfVectorizer(tokenizer=tokenize, stop_words='english')
-vectorizer = CountVectorizer()
-counts = vectorizer.fit_transform(list_mail)
-
-#tfs = tfidf.fit_transform(list_mail)
-
-#for x in tfs[0]:
-
-
-transformer = TfidfTransformer()
-tfidf = transformer.fit_transform(counts)
-print tfidf.shape
-#x =  tfs.toarray()
-
-#print tfs[1]
-
-#train_set = tfs[0].tolist()
-
-#print train_set[0]
-
-classifier = SklearnClassifier(LinearSVC())
-classifier.train(train_set)
-
-
-#ch2 = SelectKBest(chi2, k=100)
-#X_train = ch2.fit_transform(tfidf, all_mail_labels)
-##X_test = ch2.transform(X_test)
-#print X_train
-
-newclassifier = SklearnClassifier(LinearSVC())
-newclassifier.train(tfidf)
-labels = newclassifier.classify_many(tfidf.to_array())
-print "Accuracy tfidf ",labels_find_intersection(labels,all_mail_labels)
-
-#classifier = nltk.NaiveBayesClassifier.train(train_set)
-
-bow = []
-for mail in all_mails:
-    bow.append(bag_of_non_stopwords(wordlist(mail)))
-
-labels = classifier.classify_many(bow)
-
-#print len(labels),len(all_mail_labels)
-#print labels,all_mail_labels
-print "Accuracy fully supervised ",labels_find_intersection(labels,all_mail_labels)
-#classifier.show_most_informative_features()
+#l_pos = np.array(classif.classify_many(pos[100:]))
+#l_neg = np.array(classif.classify_many(neg[100:]))
+#print "Confusion matrix:\n%d\t%d\n%d\t%d" % (
+#          (l_pos == 'pos').sum(), (l_pos == 'neg').sum(),
+#          (l_neg == 'pos').sum(), (l_neg == 'neg').sum())
+#
+#transformer = TfidfTransformer()
+#tfidf = transformer.fit_transform(counts)
+#print tfidf.shape
+##x =  tfs.toarray()
+#
+##print tfs[1]
+#
+##train_set = tfs[0].tolist()
+#
+##print train_set[0]
+#
+#classifier = SklearnClassifier(LinearSVC())
+#classifier.train(train_set)
+#
+#
+##ch2 = SelectKBest(chi2, k=100)
+##X_train = ch2.fit_transform(tfidf, all_mail_labels)
+###X_test = ch2.transform(X_test)
+##print X_train
+#
+#newclassifier = SklearnClassifier(LinearSVC())
+#newclassifier.train(tfidf)
+#labels = newclassifier.classify_many(tfidf.to_array())
+#print "Accuracy tfidf ",labels_find_intersection(labels,all_mail_labels)
+#
+##classifier = nltk.NaiveBayesClassifier.train(train_set)
+#
+#bow = []
+#for mail in all_mails:
+#    bow.append(bag_of_non_stopwords(wordlist(mail)))
+#
+#labels = classifier.classify_many(bow)
+#
+##print len(labels),len(all_mail_labels)
+##print labels,all_mail_labels
+#print "Accuracy fully supervised ",labels_find_intersection(labels,all_mail_labels)
+##classifier.show_most_informative_features()
