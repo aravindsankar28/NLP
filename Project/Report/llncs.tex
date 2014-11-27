@@ -160,15 +160,51 @@ The Co-EM algorithm proposed by \cite{coem} is a hybrid of EM and Co-Training, a
 \textbf{Dataset :} \\[10pt]
 We used the mails which we get on our csemail id's, and took only those mails that involved any talks, seminars or lectures that happen in the department. Our goal was to classify these mails into categories such as Machine Learning, Architecture, Networks, Theory, etc. This was motivated by the fact that we get tons of mails about PhD seminar lectures, about which we'd actually be interested only in a few of them, based on our research interests. So, if we're able to classify these mails into categories, corresponding to broad areas in computer science, the user's mail box can personalized according to his interests.
 
-Our dataset consisted of around 250 such mails, distributed into 8 major categories. We labeled these mails manually and used a small portion of them as $L$ and the remaining as $U$. So, our problem was a multi-class classification problem, in contrast to prior work on email classification, which focused mainly on 2 class spam classification.	
+Our dataset consisted of around 250 such mails, distributed into 8 major categories. We labeled these mails manually and used a small portion of them as $L$ and the remaining as $U$. So, our problem was a multi-class classification problem, in contrast to prior work on email classification, which focused mainly on 2 class spam classification.	 \\[10pt]
 
-Initially, we started out with a Bag-of-Words representation of the features of the mails (for both feature sets).  
+\textbf{Features used :}
+\begin{alpherate}
+\item Initially, we started out with a Bag-of-Words representation of the features of the mails (for both feature sets). We remove all the stopwords such as \textit{and},\textit{the},etc and then find the features. In this representation, we indicate the presence or absence of a word in the mail, with 0/1.  \\[8pt]
+\item Another feature extraction technique that we used, was a Term-Document matrix where the emails are the documents and the words that occur in the email are the terms. The entries of the matrix are the counts of each word in that email. Here, we use the \textit{TfIdf} measure to obtain a feature representation of each mail in terms of it's constituent words, by assigning a weight to each word. These weights show the discriminative power of each of the terms, as we take a product of \textit{Tf} the number of times the term occurs in that document, and the \textit{Idf}, which is the inverse of the number of documents in which the word occurs. This can prove to particularly useful in email classification because, we generally have specific words that identify a category.
+An example might be the occurrence of words such as \textit{wireless}, or \textit{communication}, which would be present a lot in the mails of networks category.\\[8pt]
+\item LSI (Latent Semantic Indexing) was also another technique used to extract features. Again we have a term document matrix, which we transform using SVD to a new concept space, where both the terms and the documents are represented uniformly. This technique can be useful to capture the occurrences of terms which are similar in meaning and occur together.\\[10pt]
+\end{alpherate}
+
+\textbf{Classification :}\\[10pt]
+
+The 2 most popular classifiers, which were used earlier, were used in the Co-EM algorithm. These are the Naive Bayes and SVM classifiers.
+
+\begin{alpherate}
+\item \textbf{Naive Bayes classifier :}
+
+\item \textbf{SVM (Support Vector Machine) classifier :}
+\end{alpherate} 
+
 \end{flushleft}
 
 
 
 \section{Experiments and Results} 
+The experiments were performed by considering 40 mails in $L$, and the rest around 200 in $U$.
+The
 \section{Conclusions and Future Work}
+
+
+\begin{flushleft}
+
+
+\textbf{Conclusions :}
+
+\textbf{Future Work :}\\[10pt]
+
+
+\cite{coemt} introduces Co-EMT, a multi-view algorithm which combines semi-supervised and active-learning, to handle classification problems with incompatible, correlated views. This technique could be applied to the problem of email classification, and its performance could be compared with the proposed as well as the existing semi-supervised learning methods. This paper by \cite{coemt} makes use of Naive Bayes as the underlying algorithm, but SVMs too could also be explored as an alternative classifier. This is very likely to yield much better results, as inputs from user are used at various stages, when the system needs more information, as a part of active learning. As active learning is used, the number of mails that need to be labeled by hand will be greatly reduced. \\[10pt]
+
+The problem that we solved was just a multi-class classification problem. We also observed that some of the mails could pertain to more than research interest area. An example of this may be, say a mail about parallel programming on multi-core systems. This could possibly be related to both the Architecture category, as well an Algorithms category. So, this becomes a multi-label classification problem, which becomes much harder to solve. This line could be explored in the future. 
+
+
+\end{flushleft}
+
 \section{References}
 \label{refer}
 %
@@ -196,6 +232,7 @@ Workshop on Learning for Text Categorization, 1998.
 \bibitem[9]{coem} Analyzing the Effectiveness and Applicability of Co-training. Kamal Nigam, Rayid Ghani. In Proceedings
 of the Ninth International Conference on Information and Knowledge Management, CIKM 2000.
 
+\bibitem[10]{coemt} Active + Semi-Supervised Learning = Robust Multi-View Learning. Muslea, Ion, Steven Minton, Craig A. Knoblock. In Proceedings of the International Conference on Machine Learning, 2002.
 \end{thebibliography}
 %
 \end{document}
