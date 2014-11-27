@@ -3,34 +3,4 @@
 \contentsline {section}{\numberline {3}Methodology}{5}
 \contentsline {section}{\numberline {4}Experiments and Results}{6}
 \contentsline {section}{\numberline {5}Conclusions and Future Work}{6}
-\contentsline {subsection}{\numberline {5.1}How to Invoke the LLNCS Document Class}{6}
-\contentsline {subsection}{\numberline {5.2}Contributions Already Coded with \LaTeX {} without the LLNCS document class}{6}
-\contentsline {section}{\numberline {6}General Rules for Coding Formulas}{6}
-\contentsline {subsection}{\numberline {6.1}Italic and Roman Type in Math Mode}{7}
-\contentsline {section}{\numberline {7}How to Edit Your Input (Source) File}{8}
-\contentsline {subsection}{\numberline {7.1}Headings}{8}
-\contentsline {subsection}{\numberline {7.2}Capitalization and Non-capitalization}{8}
-\contentsline {subsection}{\numberline {7.3}Abbreviation of Words}{8}
-\contentsline {section}{\numberline {8}How to Code the Beginning of Your Contribution}{8}
-\contentsline {subsubsection}{Remark to Running Heads and the Table of Contents}{10}
-\contentsline {section}{\numberline {9}Special Commands for the Volume Editor}{10}
-\contentsline {section}{\numberline {10}How to Code Your Text}{11}
-\contentsline {section}{\numberline {11}Predefined Theorem like Environments}{12}
-\contentsline {section}{\numberline {12}Defining your Own Theorem like Environments}{12}
-\contentsline {subsection}{\numberline {12.1}Method 1 {\itshape (preferred)}}{12}
-\contentsline {paragraph}{Sample Input}{13}
-\contentsline {subsection}{\numberline {12.2}Method 2}{13}
-\contentsline {paragraph}{Example}{13}
-\contentsline {subsection}{\numberline {12.3}Unnumbered Environments}{13}
-\contentsline {section}{\numberline {13}Program Codes}{13}
-\contentsline {section}{\numberline {14}Fine Tuning of the Text}{17}
-\contentsline {section}{\numberline {15}Special Typefaces}{17}
-\contentsline {section}{\numberline {16}Footnotes}{18}
-\contentsline {section}{\numberline {17}Lists}{18}
-\contentsline {section}{\numberline {18}Figures}{18}
-\contentsline {section}{\numberline {19}Tables}{19}
-\contentsline {subsection}{\numberline {19.1}Tables Coded with \LaTeX {}}{20}
-\contentsline {subsection}{\numberline {19.2}Tables Not Coded with \LaTeX {}}{20}
-\contentsline {subsection}{\numberline {19.3}Signs and Characters}{21}
-\contentsline {section}{\numberline {20}References}{22}
-\contentsline {subsection}{\numberline {20.1}References by Letter-Number or by Number Only}{22}
+\contentsline {section}{\numberline {6}References}{6}
