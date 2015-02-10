@@ -48,10 +48,9 @@ def coem(L1, L2, U1, U2):
 
     pipeline = Pipeline([('tfidf', TfidfTransformer()),
                          ('chi2', SelectKBest(chi2, k=100)),
-                         ('svm', LinearSVC())])
+                         ('nb', MultinomialNB())])
     classifier1 = SklearnClassifier(pipeline)
     classifier1.train(L1)
-    print U1
 
     # Predict on U using 1st classifier
     U1_labels = classifier1.classify_many(U1)
@@ -217,10 +216,10 @@ with open('Subjects/filenames.txt') as f:
 a = {}
 b = {}
 
-with open('Mail_labels.txt') as f:
+with open('Mail_labels_new.txt') as f:
     for label in f.read().splitlines():
         all_mail_labels.append(label)
-        a[label] = 5
+        a[label] = 15
         b[label] = 0
 
 # Finished reading all mails
@@ -241,16 +240,19 @@ unlabel_mails = []
 unlabel_subs = []
 unlabel_mails_labels = []
 for label, bow in train_set.iteritems():
-    for i in range(len(bow)):
-        if b[label]<a[label]:
-            final_mails.append((bow[i][0], label))
-            final_subs.append((bow[i][1], label))
-            b[label] += 1
-        else:
-            unlabel_mails.append(bow[i][0])
-            unlabel_subs.append(bow[i][1])
-            unlabel_mails_labels.append(label)
+    if label!='useless':
+        for i in range(len(bow)):
+            if b[label]<a[label]:
+                final_mails.append((bow[i][0], label))
+                final_subs.append((bow[i][1], label))
+                b[label] += 1
+            else:
+                unlabel_mails.append(bow[i][0])
+                unlabel_subs.append(bow[i][1])
+                unlabel_mails_labels.append(label)
 
+print len(final_mails), len(final_subs)
+print len(unlabel_mails), len(unlabel_subs)
 
 #predicted_labels = cotrain(train_mails, train_subs, train_mails_labels, unlabel_mails, unlabel_subs)
 #print "Accuracy",labels_find_intersection(predicted_labels,all_mail_labels)
